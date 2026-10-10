@@ -21,13 +21,13 @@
         "factorystore@gepida.hu"
       ],
       "coordinates": null,
-      "openingHours": null,
+      "openingHours": "H–P 11:00–19:00, Szo 9:00–14:00, Vasárnap zárva",
       "status": "ellenőrzött",
       "evidenceIds": [
         "ev-01",
         "ev-02"
       ],
-      "notes": "gepida.hu és gepidastore.hu ugyanazt a címet adja; e-mail és szombati nyitvatartás forrásonként eltérhet.",
+      "notes": "gepida.hu és gepidastore.hu/futurebike.hu ugyanarra a címre hivatkozik; a nyitvatartást a futurebike.hu oldal alapján rögzítettük (2026-10-10).",
       "brandLinks": [
         {
           "brandId": "brand-gepida",
@@ -36,6 +36,16 @@
           "sourceUrl": "https://gepida.hu/bemutatotermunk",
           "quote": "Az üzletben folyamatosan megtalálható a szinte teljes szezonális Gepida kínálat",
           "evidenceId": "ev-01",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
+          "inCatalog": true
+        },
+        {
+          "brandId": "brand-scott",
+          "brandName": "Scott",
+          "relation": "sells_brand",
+          "sourceUrl": "https://futurebike.hu/marka/scott/",
+          "quote": "Scott kerékpárok – hivatalos márkakereskedés",
+          "evidenceId": "ev-futurebike-scott-2026-10-10",
           "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
           "inCatalog": true
         }
@@ -66,7 +76,7 @@
         "kapcsolat@bringaboard.hu"
       ],
       "coordinates": null,
-      "openingHours": null,
+      "openingHours": "H–P 10:00–19:00, Szo 10:00–14:00, Vasárnap zárva",
       "status": "ellenőrzött",
       "evidenceIds": [
         "ev-04"
@@ -79,7 +89,7 @@
           "relation": "sells_brand",
           "sourceUrl": "https://www.bringaboard.hu/",
           "quote": "Cannondale AKCIÓ",
-          "evidenceId": "ev-04",
+          "evidenceId": "ev-bringaboard-home-2026-10-10",
           "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
           "inCatalog": true
         }
@@ -108,7 +118,7 @@
         "info@bringavilag.com"
       ],
       "coordinates": null,
-      "openingHours": null,
+      "openingHours": "H–P 10:00–18:00, Szo 9:00–13:00, Vasárnap zárva",
       "status": "ellenőrzött",
       "evidenceIds": [
         "ev-05"
@@ -138,7 +148,7 @@
         "abel@nella.hu"
       ],
       "coordinates": null,
-      "openingHours": null,
+      "openingHours": "H–P 10:00–18:00, Szo 9:00–13:00",
       "status": "ellenőrzött",
       "evidenceIds": [
         "ev-06",
@@ -152,7 +162,7 @@
           "relation": "sells_brand",
           "sourceUrl": "https://trek.hu/hu-hu?route=information%2Fcontact",
           "quote": "A legnagyobb hazai Trek kereskedés / Trek importőr",
-          "evidenceId": "ev-06",
+          "evidenceId": "ev-nella-trek-contact-2026-10-10",
           "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
           "inCatalog": true
         }
@@ -172,16 +182,16 @@
         "postalCode": null,
         "street": null
       },
-      "website": "https://k2-bike.hu/",
+      "website": "https://k2shop.hu/",
       "phone": [
-        "+36 1 453 0819",
+        "+36 1 453 0818",
         "+36 30 995 2728"
       ],
       "email": [
         "k2@k2shop.hu"
       ],
       "coordinates": null,
-      "openingHours": null,
+      "openingHours": "H–Sze 10:00–18:00, Cs 10:00–19:00, P 10:00–18:00, Szo 10:00–15:00, Vasárnap zárva",
       "status": "ellenőrzött",
       "evidenceIds": [
         "ev-07",
@@ -223,7 +233,7 @@
         "info@bikeart.hu"
       ],
       "coordinates": null,
-      "openingHours": null,
+      "openingHours": "H–P 10:00–18:00, Szo 10:00–13:00",
       "status": "ellenőrzött",
       "evidenceIds": [
         "ev-07",
@@ -291,7 +301,7 @@
         "info@bikeart.hu"
       ],
       "coordinates": null,
-      "openingHours": null,
+      "openingHours": "H–P 10:00–18:00",
       "status": "ellenőrzött",
       "evidenceIds": [
         "ev-09"
@@ -343,7 +353,7 @@
         "postalCode": null,
         "street": null
       },
-      "website": "https://rekordbike.hu/",
+      "website": "https://rekordbike.hu/shop_contact.php",
       "phone": [
         "+36 30 831 0321"
       ],
@@ -351,7 +361,7 @@
         "info@rekordbike.hu"
       ],
       "coordinates": null,
-      "openingHours": null,
+      "openingHours": "H–P 10:00–18:00, Szo 10:00–14:00, Vasárnap 10:00–13:00",
       "status": "ellenőrzött",
       "evidenceIds": [
         "ev-13"
@@ -381,7 +391,7 @@
         "info@vozzy.hu"
       ],
       "coordinates": null,
-      "openingHours": null,
+      "openingHours": "H–P 10:00–18:00, Szo 9:00–13:00 (Vasárnap csak téli szezonban 9:00–13:00)",
       "status": "ellenőrzött",
       "evidenceIds": [
         "ev-15"
@@ -394,7 +404,7 @@
           "relation": "sells_brand",
           "sourceUrl": "https://www.vozzy.hu/spg/601152/Uzletunk",
           "quote": "új kerékpárok értékesítése: Merida, Adriatica, Cross márkák",
-          "evidenceId": "ev-15",
+          "evidenceId": "ev-vozzy-uzletunk-2026-10-10",
           "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
           "inCatalog": true
         }
@@ -406,7 +416,7 @@
             "relation": "sells_brand",
             "sourceUrl": "https://www.vozzy.hu/spg/601152/Uzletunk",
             "quote": "új kerékpárok értékesítése: Merida, Adriatica, Cross márkák",
-            "evidenceId": "ev-15",
+            "evidenceId": "ev-vozzy-uzletunk-2026-10-10",
             "note": "Katalóguson kívüli márka — nincs stabil brandId ebben a próbakörben."
           },
           {
@@ -414,7 +424,7 @@
             "relation": "sells_brand",
             "sourceUrl": "https://www.vozzy.hu/spg/601152/Uzletunk",
             "quote": "új kerékpárok értékesítése: Merida, Adriatica, Cross márkák",
-            "evidenceId": "ev-15",
+            "evidenceId": "ev-vozzy-uzletunk-2026-10-10",
             "note": "Katalóguson kívüli márka — nincs stabil brandId ebben a próbakörben."
           }
         ],
@@ -426,7 +436,7 @@
       "organizationId": "org-jobringa",
       "name": "JóBringa",
       "address": {
-        "raw": "4032 Debrecen, Böszörményi út 153.",
+        "raw": "Debrecen, Böszörményi út 153.",
         "city": "Debrecen",
         "postalCode": null,
         "street": null
@@ -441,7 +451,7 @@
         "szerviz@jobringa.hu"
       ],
       "coordinates": null,
-      "openingHours": null,
+      "openingHours": "H–Szo 9:00–17:00, Vasárnap zárva",
       "status": "ellenőrzött",
       "evidenceIds": [
         "ev-16"
@@ -472,7 +482,7 @@
         "heavypedal08@gmail.com"
       ],
       "coordinates": null,
-      "openingHours": null,
+      "openingHours": "H–P 9:00–17:00, Szo 9:00–12:00",
       "status": "ellenőrzött",
       "evidenceIds": [
         "ev-17"
@@ -485,7 +495,7 @@
           "relation": "sells_brand",
           "sourceUrl": "https://heavypedal.hu/",
           "quote": "Kiemelt kerékpár márkáink: Bianchi, Gepida, Kross",
-          "evidenceId": "ev-17",
+          "evidenceId": "ev-heavypedal-home-2026-10-10",
           "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
           "inCatalog": true
         }
@@ -497,7 +507,7 @@
             "relation": "sells_brand",
             "sourceUrl": "https://heavypedal.hu/",
             "quote": "Kiemelt kerékpár márkáink: Bianchi, Gepida, Kross",
-            "evidenceId": "ev-17",
+            "evidenceId": "ev-heavypedal-home-2026-10-10",
             "note": "Katalóguson kívüli márka — nincs stabil brandId ebben a próbakörben."
           },
           {
@@ -505,7 +515,7 @@
             "relation": "sells_brand",
             "sourceUrl": "https://heavypedal.hu/",
             "quote": "Kiemelt kerékpár márkáink: Bianchi, Gepida, Kross",
-            "evidenceId": "ev-17",
+            "evidenceId": "ev-heavypedal-home-2026-10-10",
             "note": "Katalóguson kívüli márka — nincs stabil brandId ebben a próbakörben."
           },
           {
@@ -513,7 +523,7 @@
             "relation": "sells_brand",
             "sourceUrl": "https://heavypedal.hu/",
             "quote": "A Csepel e-bike-ok pedelec rendszerű elektromos kerékpárok",
-            "evidenceId": "ev-17",
+            "evidenceId": "ev-heavypedal-home-2026-10-10",
             "note": "Katalóguson kívüli márka — nincs stabil brandId ebben a próbakörben."
           }
         ],
@@ -542,7 +552,7 @@
         "ev-18",
         "ev-19"
       ],
-      "notes": "Telefon a kapcsolat oldalon maszkolva (+36 ** ** ****); harmadik féltől nem vettünk át számot.",
+      "notes": "A bikeszaki.hu 2026-10-10-én címet közöl; nyilvános telefonszám és rendszeres nyitvatartás ezen az oldalon nem szerepelt.",
       "brandLinks": [],
       "researchNotes": {
         "externalBrandClaims": [],
@@ -569,7 +579,7 @@
         "info@biciklikk.hu"
       ],
       "coordinates": null,
-      "openingHours": null,
+      "openingHours": "H–P 9:00–12:00 és 13:15–17:00, Szo 9:00–12:00",
       "status": "ellenőrzött",
       "evidenceIds": [
         "ev-20"
@@ -600,7 +610,7 @@
         "info@peppekerekpar.hu"
       ],
       "coordinates": null,
-      "openingHours": null,
+      "openingHours": "H–P 9:00–18:00",
       "status": "ellenőrzött",
       "evidenceIds": [
         "ev-22"
@@ -613,7 +623,7 @@
           "relation": "sells_brand",
           "sourceUrl": "https://peppekerekpar.hu/",
           "quote": "CUBE ATTAIN / CUBE KATHMANDU terméklistán",
-          "evidenceId": "ev-22",
+          "evidenceId": "ev-peppe-home-2026-10-10",
           "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
           "inCatalog": true
         },
@@ -623,7 +633,7 @@
           "relation": "sells_brand",
           "sourceUrl": "https://peppekerekpar.hu/",
           "quote": "Gepida Alboin 200",
-          "evidenceId": "ev-22",
+          "evidenceId": "ev-peppe-home-2026-10-10",
           "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
           "inCatalog": true
         }
@@ -635,7 +645,7 @@
             "relation": "sells_brand",
             "sourceUrl": "https://peppekerekpar.hu/",
             "quote": "Csepel Budapest A",
-            "evidenceId": "ev-22",
+            "evidenceId": "ev-peppe-home-2026-10-10",
             "note": "Katalóguson kívüli márka — nincs stabil brandId ebben a próbakörben."
           }
         ],
@@ -660,7 +670,7 @@
         "info@rekordbike.hu"
       ],
       "coordinates": null,
-      "openingHours": null,
+      "openingHours": "H–P 9:00–17:00, Szo 9:00–14:00, Vasárnap zárva",
       "status": "ellenőrzött",
       "evidenceIds": [
         "ev-13"
@@ -690,7 +700,7 @@
         "bicobolt@gmail.com"
       ],
       "coordinates": null,
-      "openingHours": null,
+      "openingHours": "H–P 9:00–17:00 (ebédszünet 12:00–12:30), Szombat zárva",
       "status": "ellenőrzött",
       "evidenceIds": [
         "ev-23"
@@ -703,7 +713,7 @@
           "relation": "sells_brand",
           "sourceUrl": "https://bicobolt.hu/",
           "quote": "új kerékpárok (Csepel, Gepida, Koliken, Neuzer stb…)",
-          "evidenceId": "ev-23",
+          "evidenceId": "ev-bicobolt-home-2026-10-10",
           "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
           "inCatalog": true
         },
@@ -713,7 +723,7 @@
           "relation": "sells_brand",
           "sourceUrl": "https://bicobolt.hu/",
           "quote": "új kerékpárok (Csepel, Gepida, Koliken, Neuzer stb…)",
-          "evidenceId": "ev-23",
+          "evidenceId": "ev-bicobolt-home-2026-10-10",
           "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
           "inCatalog": true
         }
@@ -725,7 +735,7 @@
             "relation": "sells_brand",
             "sourceUrl": "https://bicobolt.hu/",
             "quote": "új kerékpárok (Csepel, Gepida, Koliken, Neuzer stb…)",
-            "evidenceId": "ev-23",
+            "evidenceId": "ev-bicobolt-home-2026-10-10",
             "note": "Katalóguson kívüli márka — nincs stabil brandId ebben a próbakörben."
           },
           {
@@ -733,7 +743,7 @@
             "relation": "sells_brand",
             "sourceUrl": "https://bicobolt.hu/",
             "quote": "új kerékpárok (Csepel, Gepida, Koliken, Neuzer stb…)",
-            "evidenceId": "ev-23",
+            "evidenceId": "ev-bicobolt-home-2026-10-10",
             "note": "Katalóguson kívüli márka — nincs stabil brandId ebben a próbakörben."
           }
         ],
@@ -763,7 +773,7 @@
       "evidenceIds": [
         "ev-24"
       ],
-      "notes": "Szerviz szerep a főoldal szövegéből nem volt egyértelmű – csak eladás rögzítve.",
+      "notes": "A fehervarkerekpar.hu 2026-10-10-én címet és telefont közöl; állandó heti nyitvatartás helyett egyszeri napra vonatkozó nyitva jelzés szerepelt — azt nem rögzítettük állandó nyitvatartásként.",
       "brandLinks": [],
       "researchNotes": {
         "externalBrandClaims": [],
@@ -801,7 +811,7 @@
           "relation": "sells_brand",
           "sourceUrl": "https://q1kerekparszalon.hu/",
           "quote": "Komoly szállítmány érkezett a Trek hazai képviseletének raktárába és így üzletünkbe is",
-          "evidenceId": "ev-25",
+          "evidenceId": "ev-q1-home-2026-10-10",
           "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
           "inCatalog": true
         }
@@ -813,7 +823,7 @@
             "relation": "sells_brand",
             "sourceUrl": "https://q1kerekparszalon.hu/",
             "quote": "A Marin Bobcat Trail sorozatának több típusa gurult be… üzletünkbe",
-            "evidenceId": "ev-25",
+            "evidenceId": "ev-q1-home-2026-10-10",
             "note": "Katalóguson kívüli márka — nincs stabil brandId ebben a próbakörben."
           },
           {
@@ -821,7 +831,7 @@
             "relation": "sells_brand",
             "sourceUrl": "https://q1kerekparszalon.hu/",
             "quote": "Hercules Valecia R7 / német márkánk",
-            "evidenceId": "ev-25",
+            "evidenceId": "ev-q1-home-2026-10-10",
             "note": "Katalóguson kívüli márka — nincs stabil brandId ebben a próbakörben."
           },
           {
@@ -829,7 +839,7 @@
             "relation": "sells_brand",
             "sourceUrl": "https://q1kerekparszalon.hu/",
             "quote": "Winora Domingo sorozat",
-            "evidenceId": "ev-25",
+            "evidenceId": "ev-q1-home-2026-10-10",
             "note": "Katalóguson kívüli márka — nincs stabil brandId ebben a próbakörben."
           },
           {
@@ -837,7 +847,7 @@
             "relation": "sells_brand",
             "sourceUrl": "https://q1kerekparszalon.hu/",
             "quote": "A Dema kerékpárok… kínálatunknak",
-            "evidenceId": "ev-25",
+            "evidenceId": "ev-q1-home-2026-10-10",
             "note": "Katalóguson kívüli márka — nincs stabil brandId ebben a próbakörben."
           }
         ],
@@ -860,7 +870,7 @@
       ],
       "email": [],
       "coordinates": null,
-      "openingHours": null,
+      "openingHours": "H–P 9:30–17:30, Szo 9:30–13:00",
       "status": "ellenőrzött",
       "evidenceIds": [
         "ev-26"
@@ -877,7 +887,7 @@
       "organizationId": "org-borsod-bike",
       "name": "Borsod Bike",
       "address": {
-        "raw": "3530 Miskolc, Geró János Utca 41.",
+        "raw": "3530 Miskolc, Geró János utca 41.",
         "city": "Miskolc",
         "postalCode": null,
         "street": null
@@ -890,7 +900,7 @@
         "info@borsodbike.hu"
       ],
       "coordinates": null,
-      "openingHours": null,
+      "openingHours": "H–P 9:00–12:00 és 13:00–17:00, Szo 9:00–13:00",
       "status": "ellenőrzött",
       "evidenceIds": [
         "ev-27"

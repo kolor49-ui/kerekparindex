@@ -14,11 +14,11 @@ Result: **PASS**
   "services": 40,
   "products": 12,
   "variants": 12,
-  "evidence": 74,
+  "evidence": 99,
   "explainers": 6,
   "comparisons": 3,
   "articleMarkdown": 9,
-  "brandLinks": 15,
+  "brandLinks": 16,
   "cities": [
     "Budapest",
     "Debrecen",
@@ -54,9 +54,9 @@ Result: **PASS**
     "ellenőrzött": 3
   },
   "evidence": {
-    "ellenőrzött": 71,
-    "hiányos": 1,
-    "előkészített": 2
+    "ellenőrzött": 95,
+    "előkészített": 3,
+    "hiányos": 1
   },
   "services": 40
 }
@@ -84,8 +84,8 @@ Result: **PASS**
 - PASS: `variants_productId_resolve` — ok
 - PASS: `locations_organizationId_resolve` — ok
 - PASS: `services_locationId_resolve` — ok
-- PASS: `brand_links_and_location_evidence` — ok linked=15
-- PASS: `brand_links_at_least_8` — 15
+- PASS: `brand_links_and_location_evidence` — ok linked=16
+- PASS: `brand_links_at_least_8` — 16
 - PASS: `rekord_szerviz_not_on_locations` — ok
 - PASS: `variant_evidence_supports_and_titles` — ok
 - PASS: `location_evidence_pageTitles` — ok

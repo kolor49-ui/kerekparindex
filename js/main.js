@@ -255,11 +255,50 @@
     );
   }
 
+  const CAT_LABEL = {
+    mountain: "Mountain",
+    road: "Országúti",
+    gravel: "Gravel",
+    trekking: "Trekking",
+    kids: "Gyerek",
+    "e-mountain": "E-MTB",
+    "e-trekking": "E-trekking",
+    "e-compact-folding": "Kompakt / összecsukható e-bike",
+    "e-gravel": "E-gravel",
+    "e-transport": "Szállító e-bike",
+    "e-kids": "Gyerek e-bike",
+    "e-bike": "E-bike",
+    "e-mtb": "E-MTB",
+    electric: "Elektromos",
+    city: "Városi",
+    fitness: "Fitness",
+    "trekking-dual-sport": "Trekking / dual sport",
+    cyclocross: "Cyclocross",
+    triathlon: "Triatlon",
+    bikes: "Kerékpárok",
+    accessories: "Kiegészítők",
+    "apparel-equipment": "Ruházat és felszerelés",
+    "urban-mobility": "Városi mobilitás",
+    bike: "Kerékpárok",
+  };
+
   function renderBrand(brand, opener) {
     const vars = variantsForBrand(brand.id);
     const shops = shopsForBrand(brand.id);
     let html = statusBadge(brand.status, brand.dataFlags);
     html += "<p>" + esc(brand.shortDescription || "") + "</p>";
+    if (brand.productCategories && brand.productCategories.length) {
+      html +=
+        "<p class='meta-line'>Termékcsoportok: " +
+        esc(
+          brand.productCategories
+            .map(function (c) {
+              return CAT_LABEL[c] || c;
+            })
+            .join(", ")
+        ) +
+        "</p>";
+    }
     if (brand.officialWebsite) {
       html +=
         '<p><a href="' +
@@ -413,6 +452,21 @@
     }
     if (loc.phone && loc.phone.length) {
       html += "<p>Telefon: " + esc(loc.phone.join(" · ")) + "</p>";
+    }
+    if (loc.email && loc.email.length) {
+      html +=
+        "<p>E-mail: " +
+        esc(
+          (Array.isArray(loc.email) ? loc.email : [loc.email]).join(" · ")
+        ) +
+        "</p>";
+    }
+    if (loc.openingHours) {
+      const hours =
+        typeof loc.openingHours === "string"
+          ? loc.openingHours
+          : loc.openingHours.summary || "";
+      if (hours) html += "<p>Nyitvatartás: " + esc(hours) + "</p>";
     }
     html += "<h3>Szolgáltatások</h3><ul>";
     if (!services.length) html += "<li>" + esc(NA) + "</li>";

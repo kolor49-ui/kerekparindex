@@ -145,9 +145,15 @@
           "relation": "sells_brand",
           "sourceUrl": "https://gepida.hu/bemutatotermunk",
           "quote": "Az üzletben folyamatosan megtalálható a szinte teljes szezonális Gepida kínálat"
+        },
+        {
+          "brand": "Scott",
+          "relation": "sells_brand",
+          "sourceUrl": "https://futurebike.hu/marka/scott/",
+          "quote": "Scott kerékpárok – hivatalos márkakereskedés"
         }
       ],
-      "notes": "gepida.hu és gepidastore.hu ugyanazt a címet adja; e-mail és szombati nyitvatartás forrásonként eltérhet."
+      "notes": "gepida.hu és gepidastore.hu/futurebike.hu ugyanarra a címre hivatkozik; a nyitvatartást a futurebike.hu oldal alapján rögzítettük (2026-10-10)."
     },
     {
       "id": "loc-bringaboard-jasz",

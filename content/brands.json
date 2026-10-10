@@ -20,11 +20,12 @@
         "e-transport",
         "e-kids"
       ],
-      "shortDescription": "Német kerékpármárka mountain, road, gravel, trekking, gyerek és több e-bike kategóriával. Hivatalos magyar nyelvű oldal: cube.eu/hu-hu; a cube-bikes.hu Cube kerékpárokat és kiegészítőket kínál.",
+      "shortDescription": "Német kerékpármárka: mountain, országúti, gravel, trekking, gyerek és több e-bike kategória. Hivatalos magyar nyelvű oldal: cube.eu/hu-hu; a cube-bikes.hu Cube kerékpárokat és kiegészítőket kínál.",
       "status": "ellenőrzött",
       "evidenceIds": [
         "ev-cube-eu-hu",
-        "ev-cube-bikes-hu"
+        "ev-cube-bikes-hu",
+        "ev-cube-eu-hu-2026-10-10"
       ],
       "notes": null
     },
@@ -39,7 +40,7 @@
         "accessories",
         "e-bike"
       ],
-      "shortDescription": "A Giant hivatalos magyar oldalán (giant-bicycles.com/hu) kerékpárok és kiegészítők szerepelnek; a főoldalon e-bike modell is megjelenik.",
+      "shortDescription": "A Giant hivatalos magyar oldalán (giant-bicycles.com/hu) kerékpárok, kiegészítők és e-bike modellek szerepelnek.",
       "status": "ellenőrzött",
       "evidenceIds": [
         "ev-giant-hu",
@@ -139,14 +140,16 @@
         "e-mountain",
         "urban-mobility"
       ],
-      "shortDescription": "A magyarországi képviseletről egy 2021-es sajtóközlemény alapján tudunk. A hivatalos gyártói oldal jelenleg nem volt ellenőrizhető, ezért ez a márkalap még előkészítés alatt áll.",
+      "shortDescription": "Svájci kerékpármárka (MTB, országúti, gravel és e-bike kínálattal). A hivatalos gyártói oldal 2026-10-10-én nem volt ellenőrizhető. Magyarországi kereskedői jelenlét van (pl. Futurebike Scott márkaoldal), de aktuális hivatalos importőr-URL nélkül a márkalap előkészítés alatt áll.",
       "status": "előkészített",
       "evidenceIds": [
-        "ev-scott-bikemag-2021"
+        "ev-scott-bikemag-2021",
+        "ev-scott-site-incapsula-2026-10-10",
+        "ev-futurebike-scott-2026-10-10"
       ],
       "notes": null,
       "researchNotes": {
-        "missing_reason": "officialWebsite fetch sikertelen (Incapsula); nincs ellenőrizhető dedikált HU importer domain. hungaryRelatedWebsite null. productCategories a 2021-es sajtóközlemény említéseiből. Aktuális 2026-os hivatalos HU jelenlét nem erősíthető meg elsődleges forrásból."
+        "missing_reason": "officialWebsite fetch sikertelen (Incapsula) 2026-10-10. Futurebike saját oldalán Scott márkaboltként jelenik meg; ez nem helyettesíti a gyártói HU importer oldalt."
       }
     },
     {
@@ -182,7 +185,7 @@
         "e-mtb",
         "e-bike"
       ],
-      "shortDescription": "Magyar kerékpármárka: a gepida.hu szerint Magyarországon alapították, tervezik és gyártják a kerékpárokat. Trekking és e-MTB modellek; budapesti elérhetőség: 1164 Budapest, Ostorhegy u. 4.",
+      "shortDescription": "Magyar kerékpármárka: a gepida.hu szerint Magyarországon alapították, tervezik és gyártják. Trekking és e-MTB modellek; budapesti bemutatóterem: 1164 Budapest, Ostorhegy u. 4.",
       "status": "ellenőrzött",
       "evidenceIds": [
         "ev-gepida-home",
@@ -201,12 +204,13 @@
         "e-trekking",
         "e-bike"
       ],
-      "shortDescription": "Magyar kerékpármárka esztergomi székhellyel és gyártással, budapesti nagykereskedelmi raktárral. A neuzer.hu-n e-MTB és e-trekking modellek szerepelnek; a lakossági rendelést a Viddabringát.hu-ra irányítják.",
+      "shortDescription": "Magyar kerékpármárka esztergomi székhellyel és gyártással, budapesti nagykereskedelmi raktárral (Acélcső utca — viszonteladó partnereknek). A lakossági rendelést a Viddabringát.hu-ra irányítják; a neuzer.hu-n e-MTB és e-trekking modellek is szerepelnek.",
       "status": "ellenőrzött",
       "evidenceIds": [
         "ev-neuzer-home",
         "ev-neuzer-emtb",
-        "ev-neuzer-etrekking"
+        "ev-neuzer-etrekking",
+        "ev-neuzer-home-2026-10-10"
       ],
       "notes": null,
       "researchNotes": {
