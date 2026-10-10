@@ -1096,5 +1096,25 @@
     ]
   },
   "brandBacklogPath": "_research/brand-backlog.json",
-  "candidatesPath": "_research/candidates.json"
+  "candidatesPath": "_research/candidates.json",
+  "sessionCheckpoint": {
+    "savedAt": "2026-10-10",
+    "status": "paused_ready_to_resume",
+    "published": 156,
+    "lastDeployedBatches": [
+      "batch-gap-ne-2026-10-10",
+      "batch-gap-pest-south-2026-10-10",
+      "batch-ne-followup-2026-10-10"
+    ],
+    "resumeFrom": [
+      "Nógrád: Salgótarján +1 (Amanita továbbra is aggregátor)",
+      "Komárom-Esztergom: Tatabánya +1",
+      "Pest: Szigetszentmiklós, Monor, Vecsés",
+      "Baranya: Mohács; Tolna: Paks",
+      "Budapest kerületek folytatás",
+      "Önálló szervizek (most 2 only-szerviz)",
+      "BICIKLIKK Szolnok: saját üzletlista vs Neuzer ellentmondás feloldása"
+    ],
+    "note": "Gyűjtés szüneteltetve kereső/UI javítás idejére. Adatok és batch fájlok megőrizve."
+  }
 }

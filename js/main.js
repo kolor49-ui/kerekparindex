@@ -7,6 +7,7 @@
   const NA = (content && content.naLabel) || "Nincs ellenőrzött adatunk";
   let lastOpener = null;
   let searchMode = "termek";
+  let cityComboOutside = null;
 
   const STATUS_LABEL = {
     ellenőrzött: "Ellenőrzött",
@@ -541,23 +542,28 @@
       )
     )
       .filter(Boolean)
-      .sort();
+      .sort(function (a, b) {
+        return a.localeCompare(b, "hu");
+      });
 
+    const cityLabel = q.city || "Minden település";
     let html =
       "<p>Szűrj település, márka vagy szolgáltatás szerint. A listában ellenőrzött telephelyek szerepelnek.</p>";
     html += '<form class="place-filter" id="place-filter">';
-    html += '<label>Település <select name="city"><option value="">Mind</option>';
-    cities.forEach(function (c) {
-      html +=
-        '<option value="' +
-        esc(c) +
-        '"' +
-        (q.city === c ? " selected" : "") +
-        ">" +
-        esc(c) +
-        "</option>";
-    });
-    html += "</select></label>";
+    html +=
+      '<div class="city-combo" data-city-combo>' +
+      '<span class="city-combo-caption" id="city-combo-label">Település</span>' +
+      '<input type="hidden" name="city" id="place-city-value" value="' +
+      esc(q.city || "") +
+      '">' +
+      '<button type="button" class="city-combo-trigger" id="city-combo-trigger" role="combobox" aria-expanded="false" aria-haspopup="listbox" aria-controls="city-listbox" aria-labelledby="city-combo-label" aria-autocomplete="list">' +
+      esc(cityLabel) +
+      "</button>" +
+      '<div class="city-combo-panel" id="city-combo-panel" hidden>' +
+      '<input type="search" class="city-combo-search" id="city-combo-search" placeholder="Település keresése…" autocomplete="off" aria-label="Település keresése" aria-controls="city-listbox">' +
+      '<ul class="city-combo-list" role="listbox" id="city-listbox" aria-labelledby="city-combo-label"></ul>' +
+      '<p class="city-combo-empty" id="city-combo-empty" hidden>Nincs ilyen település a listában.</p>' +
+      "</div></div>";
     html += '<label>Márka <select name="brand"><option value="">Mind</option>';
     content.brands.forEach(function (b) {
       html +=
@@ -618,8 +624,174 @@
           opener
         );
       });
+      initCityCombo(form, cities, q.city || "", opener);
     }
     bindDialogNav();
+  }
+
+  function initCityCombo(form, cities, selectedCity, opener) {
+    const root = form.querySelector("[data-city-combo]");
+    if (!root) return;
+    const trigger = root.querySelector("#city-combo-trigger");
+    const panel = root.querySelector("#city-combo-panel");
+    const search = root.querySelector("#city-combo-search");
+    const list = root.querySelector("#city-listbox");
+    const empty = root.querySelector("#city-combo-empty");
+    const hidden = root.querySelector("#place-city-value");
+    const ALL = "Minden település";
+    let open = false;
+    let activeIndex = 0;
+    let options = [];
+
+    function currentFilters(cityOverride) {
+      const fd = new FormData(form);
+      return {
+        city: cityOverride !== undefined ? cityOverride : fd.get("city") || "",
+        brandId: fd.get("brand") || "",
+        role: fd.get("role") || "",
+      };
+    }
+
+    function rankCities(query) {
+      const q = norm(query);
+      if (!q) {
+        return cities.slice();
+      }
+      const exact = [];
+      const starts = [];
+      const contains = [];
+      cities.forEach(function (c) {
+        const n = norm(c);
+        if (n === q) exact.push(c);
+        else if (n.indexOf(q) === 0) starts.push(c);
+        else if (n.indexOf(q) !== -1) contains.push(c);
+      });
+      return exact.concat(starts, contains);
+    }
+
+    function renderOptions(query) {
+      const ranked = rankCities(query);
+      options = [{ value: "", label: ALL }].concat(
+        ranked.map(function (c) {
+          return { value: c, label: c };
+        })
+      );
+      const q = norm(query);
+      empty.hidden = !(q && ranked.length === 0);
+      list.innerHTML = "";
+      options.forEach(function (opt, i) {
+        const li = document.createElement("li");
+        li.setAttribute("role", "option");
+        li.id = "city-opt-" + i;
+        li.dataset.value = opt.value;
+        li.textContent = opt.label;
+        if (opt.value === (hidden.value || "") || (!opt.value && !hidden.value)) {
+          li.setAttribute("aria-selected", "true");
+        } else {
+          li.setAttribute("aria-selected", "false");
+        }
+        li.addEventListener("mousedown", function (e) {
+          e.preventDefault();
+          choose(opt.value);
+        });
+        list.appendChild(li);
+      });
+      activeIndex = 0;
+      paintActive();
+    }
+
+    function paintActive() {
+      const items = list.querySelectorAll('[role="option"]');
+      items.forEach(function (el, i) {
+        const on = i === activeIndex;
+        el.classList.toggle("is-active", on);
+        if (on) {
+          trigger.setAttribute("aria-activedescendant", el.id);
+          el.scrollIntoView({ block: "nearest" });
+        }
+      });
+    }
+
+    function setOpen(next) {
+      open = next;
+      panel.hidden = !open;
+      trigger.setAttribute("aria-expanded", String(open));
+      if (open) {
+        search.value = "";
+        renderOptions("");
+        window.setTimeout(function () {
+          search.focus();
+        }, 0);
+      } else {
+        trigger.setAttribute("aria-activedescendant", "");
+      }
+    }
+
+    function choose(value) {
+      hidden.value = value || "";
+      trigger.textContent = value || ALL;
+      setOpen(false);
+      renderPlaces(currentFilters(value || ""), opener);
+    }
+
+    trigger.addEventListener("click", function () {
+      setOpen(!open);
+    });
+    trigger.addEventListener("keydown", function (e) {
+      if (e.key === "ArrowDown" || e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        if (!open) setOpen(true);
+        else if (e.key === "Enter") choose(options[activeIndex] && options[activeIndex].value);
+      } else if (e.key === "Escape" && open) {
+        e.preventDefault();
+        setOpen(false);
+        trigger.focus();
+      }
+    });
+
+    search.addEventListener("input", function () {
+      renderOptions(search.value);
+    });
+    search.addEventListener("keydown", function (e) {
+      if (e.key === "ArrowDown") {
+        e.preventDefault();
+        if (!options.length) return;
+        activeIndex = Math.min(options.length - 1, activeIndex + 1);
+        paintActive();
+      } else if (e.key === "ArrowUp") {
+        e.preventDefault();
+        if (!options.length) return;
+        activeIndex = Math.max(0, activeIndex - 1);
+        paintActive();
+      } else if (e.key === "Enter") {
+        e.preventDefault();
+        if (options[activeIndex]) choose(options[activeIndex].value);
+      } else if (e.key === "Escape") {
+        e.preventDefault();
+        setOpen(false);
+        trigger.focus();
+      }
+    });
+
+    if (cityComboOutside) {
+      document.removeEventListener("pointerdown", cityComboOutside, true);
+      cityComboOutside = null;
+    }
+    cityComboOutside = function (ev) {
+      if (!open) return;
+      if (!root.contains(ev.target)) setOpen(false);
+    };
+    document.addEventListener("pointerdown", cityComboOutside, true);
+    dialog.addEventListener(
+      "close",
+      function () {
+        if (cityComboOutside) {
+          document.removeEventListener("pointerdown", cityComboOutside, true);
+          cityComboOutside = null;
+        }
+      },
+      { once: true }
+    );
   }
 
   function renderArticle(article, opener) {

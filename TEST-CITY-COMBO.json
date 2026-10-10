@@ -1,0 +1,135 @@
+{
+  "accessedAt": "2026-10-10T18:01:38.581Z",
+  "base": "http://127.0.0.1:8772/",
+  "pass": true,
+  "viewports": [
+    {
+      "viewport": "390x844",
+      "pass": true,
+      "cases": [
+        {
+          "id": "type-szekes-finds-szekesfehervar",
+          "pass": true,
+          "detail": {
+            "opts": [
+              "Minden település",
+              "Székesfehérvár"
+            ],
+            "emptyHidden": true,
+            "searchVisible": true
+          }
+        },
+        {
+          "id": "select-updates-list",
+          "pass": true,
+          "detail": {
+            "value": "Székesfehérvár",
+            "trigger": "Székesfehérvár",
+            "countText": "3 telephely",
+            "listCities": [
+              "Bicó Kerékpárbolt és Kerékpárszerviz · Székesfehérvár · Eladás, Szerviz",
+              "Vitál Club kerékpárbolt · Székesfehérvár · Eladás",
+              "Velocipéd Fan / Trek Székesfehérvár · Székesfehérvár · Eladás, Szerviz"
+            ]
+          }
+        },
+        {
+          "id": "clear-all-cities",
+          "pass": true,
+          "detail": {
+            "value": "",
+            "trigger": "Minden település"
+          }
+        },
+        {
+          "id": "no-match-message",
+          "pass": true,
+          "detail": {
+            "emptyHidden": false,
+            "emptyText": "Nincs ilyen település a listában.",
+            "hasAll": true
+          }
+        },
+        {
+          "id": "escape-keeps-filter",
+          "pass": true,
+          "detail": {
+            "value": "",
+            "open": false
+          }
+        },
+        {
+          "id": "keyboard-select-debrecen",
+          "pass": true,
+          "detail": {
+            "value": "Debrecen"
+          }
+        }
+      ]
+    },
+    {
+      "viewport": "1280x800",
+      "pass": true,
+      "cases": [
+        {
+          "id": "type-szekes-finds-szekesfehervar",
+          "pass": true,
+          "detail": {
+            "opts": [
+              "Minden település",
+              "Székesfehérvár"
+            ],
+            "emptyHidden": true,
+            "searchVisible": true
+          }
+        },
+        {
+          "id": "select-updates-list",
+          "pass": true,
+          "detail": {
+            "value": "Székesfehérvár",
+            "trigger": "Székesfehérvár",
+            "countText": "3 telephely",
+            "listCities": [
+              "Bicó Kerékpárbolt és Kerékpárszerviz · Székesfehérvár · Eladás, Szerviz",
+              "Vitál Club kerékpárbolt · Székesfehérvár · Eladás",
+              "Velocipéd Fan / Trek Székesfehérvár · Székesfehérvár · Eladás, Szerviz"
+            ]
+          }
+        },
+        {
+          "id": "clear-all-cities",
+          "pass": true,
+          "detail": {
+            "value": "",
+            "trigger": "Minden település"
+          }
+        },
+        {
+          "id": "no-match-message",
+          "pass": true,
+          "detail": {
+            "emptyHidden": false,
+            "emptyText": "Nincs ilyen település a listában.",
+            "hasAll": true
+          }
+        },
+        {
+          "id": "escape-keeps-filter",
+          "pass": true,
+          "detail": {
+            "value": "",
+            "open": false
+          }
+        },
+        {
+          "id": "keyboard-select-debrecen",
+          "pass": true,
+          "detail": {
+            "value": "Debrecen"
+          }
+        }
+      ]
+    }
+  ]
+}
