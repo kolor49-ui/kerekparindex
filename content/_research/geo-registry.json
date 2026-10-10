@@ -1,0 +1,1103 @@
+{
+  "accessedAt": "2026-10-10",
+  "schemaNote": "researchStatus: not_researched | in_progress | researched_no_verified | has_published. researched_no_verified ≠ «nincs ott üzlet».",
+  "publishedLocationCount": 151,
+  "units": [
+    {
+      "name": "Budapest",
+      "type": "capital",
+      "seat": null,
+      "cities": [
+        {
+          "name": "Budapest",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-futurebike-bartok",
+            "loc-bringaboard-jasz",
+            "loc-bringavilag-cserhat",
+            "loc-nella-kalman",
+            "loc-k2-pacsirtamezo",
+            "loc-bikeart-csalogany",
+            "loc-bikeart-kissjanos",
+            "loc-rekord-budapest",
+            "loc-bike-cafe-budapest",
+            "loc-big-bike-budapest",
+            "loc-bikemen-budapest",
+            "loc-fulop-mgbikes-budapest",
+            "loc-pap-kerekpar-budapest",
+            "loc-kimibike-budapest",
+            "loc-roto-bike-budapest",
+            "loc-biondo-bike-budapest",
+            "loc-bike-palota-budapest",
+            "loc-laszlo-kerekpar-i-budapest",
+            "loc-ride-bike-rakoczi-budapest",
+            "loc-laszlo-kerekpar-ii-budapest"
+          ],
+          "publishedCount": 20,
+          "notes": null
+        }
+      ],
+      "districts": [
+        {
+          "id": "bp-01",
+          "name": "Budapest 1. kerület",
+          "researchStatus": "not_researched",
+          "publishedLocationIds": []
+        },
+        {
+          "id": "bp-02",
+          "name": "Budapest 2. kerület",
+          "researchStatus": "not_researched",
+          "publishedLocationIds": []
+        },
+        {
+          "id": "bp-03",
+          "name": "Budapest 3. kerület",
+          "researchStatus": "not_researched",
+          "publishedLocationIds": []
+        },
+        {
+          "id": "bp-04",
+          "name": "Budapest 4. kerület",
+          "researchStatus": "not_researched",
+          "publishedLocationIds": []
+        },
+        {
+          "id": "bp-05",
+          "name": "Budapest 5. kerület",
+          "researchStatus": "not_researched",
+          "publishedLocationIds": []
+        },
+        {
+          "id": "bp-06",
+          "name": "Budapest 6. kerület",
+          "researchStatus": "not_researched",
+          "publishedLocationIds": []
+        },
+        {
+          "id": "bp-07",
+          "name": "Budapest 7. kerület",
+          "researchStatus": "not_researched",
+          "publishedLocationIds": []
+        },
+        {
+          "id": "bp-08",
+          "name": "Budapest 8. kerület",
+          "researchStatus": "not_researched",
+          "publishedLocationIds": []
+        },
+        {
+          "id": "bp-09",
+          "name": "Budapest 9. kerület",
+          "researchStatus": "not_researched",
+          "publishedLocationIds": []
+        },
+        {
+          "id": "bp-10",
+          "name": "Budapest 10. kerület",
+          "researchStatus": "not_researched",
+          "publishedLocationIds": []
+        },
+        {
+          "id": "bp-11",
+          "name": "Budapest 11. kerület",
+          "researchStatus": "not_researched",
+          "publishedLocationIds": []
+        },
+        {
+          "id": "bp-12",
+          "name": "Budapest 12. kerület",
+          "researchStatus": "not_researched",
+          "publishedLocationIds": []
+        },
+        {
+          "id": "bp-13",
+          "name": "Budapest 13. kerület",
+          "researchStatus": "not_researched",
+          "publishedLocationIds": []
+        },
+        {
+          "id": "bp-14",
+          "name": "Budapest 14. kerület",
+          "researchStatus": "not_researched",
+          "publishedLocationIds": []
+        },
+        {
+          "id": "bp-15",
+          "name": "Budapest 15. kerület",
+          "researchStatus": "not_researched",
+          "publishedLocationIds": []
+        },
+        {
+          "id": "bp-16",
+          "name": "Budapest 16. kerület",
+          "researchStatus": "not_researched",
+          "publishedLocationIds": []
+        },
+        {
+          "id": "bp-17",
+          "name": "Budapest 17. kerület",
+          "researchStatus": "not_researched",
+          "publishedLocationIds": []
+        },
+        {
+          "id": "bp-18",
+          "name": "Budapest 18. kerület",
+          "researchStatus": "not_researched",
+          "publishedLocationIds": []
+        },
+        {
+          "id": "bp-19",
+          "name": "Budapest 19. kerület",
+          "researchStatus": "not_researched",
+          "publishedLocationIds": []
+        },
+        {
+          "id": "bp-20",
+          "name": "Budapest 20. kerület",
+          "researchStatus": "not_researched",
+          "publishedLocationIds": []
+        },
+        {
+          "id": "bp-21",
+          "name": "Budapest 21. kerület",
+          "researchStatus": "not_researched",
+          "publishedLocationIds": []
+        },
+        {
+          "id": "bp-22",
+          "name": "Budapest 22. kerület",
+          "researchStatus": "not_researched",
+          "publishedLocationIds": []
+        },
+        {
+          "id": "bp-23",
+          "name": "Budapest 23. kerület",
+          "researchStatus": "not_researched",
+          "publishedLocationIds": []
+        }
+      ],
+      "publishedTotal": 20
+    },
+    {
+      "name": "Bács-Kiskun",
+      "type": "varmegye",
+      "seat": "Kecskemét",
+      "cities": [
+        {
+          "name": "Baja",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-kerekpar-szakuzlet-baja"
+          ],
+          "publishedCount": 1,
+          "notes": null
+        },
+        {
+          "name": "Kalocsa",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-kerekpar-szakuzlet-kalocsa"
+          ],
+          "publishedCount": 1,
+          "notes": null
+        },
+        {
+          "name": "Kecskemét",
+          "isCountySeat": true,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-bringabolt-kecskemet",
+            "loc-szigma-trade-kecskemet",
+            "loc-bicishop-kecskemet",
+            "loc-szep-kerekpar-kecskemet"
+          ],
+          "publishedCount": 4,
+          "notes": null
+        },
+        {
+          "name": "Kiskunfélegyháza",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-bringabarat-kiskunfelegyhaza",
+            "loc-nor-bike-kiskunfelegyhaza"
+          ],
+          "publishedCount": 2,
+          "notes": null
+        }
+      ],
+      "districts": null,
+      "publishedTotal": 8
+    },
+    {
+      "name": "Baranya",
+      "type": "varmegye",
+      "seat": "Pécs",
+      "cities": [
+        {
+          "name": "Pécs",
+          "isCountySeat": true,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-biciklikk-pecs",
+            "loc-imperator-pecs",
+            "loc-dreamline-cycle-pecs"
+          ],
+          "publishedCount": 3,
+          "notes": null
+        }
+      ],
+      "districts": null,
+      "publishedTotal": 3
+    },
+    {
+      "name": "Békés",
+      "type": "varmegye",
+      "seat": "Békéscsaba",
+      "cities": [
+        {
+          "name": "Békéscsaba",
+          "isCountySeat": true,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-rekord-mobil-bekescsaba",
+            "loc-balocom-bekescsaba",
+            "loc-speedy-bekescsaba"
+          ],
+          "publishedCount": 3,
+          "notes": null
+        },
+        {
+          "name": "Gyula",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-gyulabringa-gyula"
+          ],
+          "publishedCount": 1,
+          "notes": null
+        },
+        {
+          "name": "Orosháza",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-kero-depo-oroshaza"
+          ],
+          "publishedCount": 1,
+          "notes": null
+        },
+        {
+          "name": "Tótkomlós",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-farkas-totkomlos"
+          ],
+          "publishedCount": 1,
+          "notes": null
+        }
+      ],
+      "districts": null,
+      "publishedTotal": 6
+    },
+    {
+      "name": "Borsod-Abaúj-Zemplén",
+      "type": "varmegye",
+      "seat": "Miskolc",
+      "cities": [
+        {
+          "name": "Kazincbarcika",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-stop-shop-kazincbarcika"
+          ],
+          "publishedCount": 1,
+          "notes": null
+        },
+        {
+          "name": "Mezőkövesd",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-odor-mezokovesd"
+          ],
+          "publishedCount": 1,
+          "notes": null
+        },
+        {
+          "name": "Miskolc",
+          "isCountySeat": true,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-borsod-bike-miskolc",
+            "loc-bombastic-bringastic-miskolc",
+            "loc-freeriderz-miskolc",
+            "loc-excelsior-miskolc"
+          ],
+          "publishedCount": 4,
+          "notes": null
+        },
+        {
+          "name": "Tiszaújváros",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-garage-bike-tech-tiszaujvaros"
+          ],
+          "publishedCount": 1,
+          "notes": null
+        },
+        {
+          "name": "Ózd",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-toth-ozd"
+          ],
+          "publishedCount": 1,
+          "notes": null
+        }
+      ],
+      "districts": null,
+      "publishedTotal": 8
+    },
+    {
+      "name": "Csongrád-Csanád",
+      "type": "varmegye",
+      "seat": "Szeged",
+      "cities": [
+        {
+          "name": "Hódmezővásárhely",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-nyolcas-hodmezovasarhely",
+            "loc-drotszamar-hodmezovasarhely",
+            "loc-veloport-hodmezovasarhely"
+          ],
+          "publishedCount": 3,
+          "notes": null
+        },
+        {
+          "name": "Makó",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-kerekparudvar-mako"
+          ],
+          "publishedCount": 1,
+          "notes": null
+        },
+        {
+          "name": "Szeged",
+          "isCountySeat": true,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-heavy-pedal-szeged",
+            "loc-bikeszaki-szeged",
+            "loc-urbanlegend-szeged",
+            "loc-vasparipa-szeged",
+            "loc-maniac-szeged",
+            "loc-gsportzona-szeged",
+            "loc-prolog-szeged"
+          ],
+          "publishedCount": 7,
+          "notes": null
+        },
+        {
+          "name": "Szentes",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-e-bike-szentes"
+          ],
+          "publishedCount": 1,
+          "notes": null
+        }
+      ],
+      "districts": null,
+      "publishedTotal": 12
+    },
+    {
+      "name": "Fejér",
+      "type": "varmegye",
+      "seat": "Székesfehérvár",
+      "cities": [
+        {
+          "name": "Dunaújváros",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-aquarius-bike-dunaujvaros",
+            "loc-magellan-bike-dunaujvaros"
+          ],
+          "publishedCount": 2,
+          "notes": null
+        },
+        {
+          "name": "Székesfehérvár",
+          "isCountySeat": true,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-bico-szekesfehervar",
+            "loc-vital-szekesfehervar",
+            "loc-velociped-fan-szekesfehervar"
+          ],
+          "publishedCount": 3,
+          "notes": null
+        },
+        {
+          "name": "Velence",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-velencebike-velence",
+            "loc-karikazzunk-velence"
+          ],
+          "publishedCount": 2,
+          "notes": null
+        }
+      ],
+      "districts": null,
+      "publishedTotal": 7
+    },
+    {
+      "name": "Győr-Moson-Sopron",
+      "type": "varmegye",
+      "seat": "Győr",
+      "cities": [
+        {
+          "name": "Győr",
+          "isCountySeat": true,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-peppe-gyor",
+            "loc-rekord-gyor",
+            "loc-fogas-kerekpar-gyor",
+            "loc-ferita-sport-gyor",
+            "loc-stelvio-gyor"
+          ],
+          "publishedCount": 5,
+          "notes": null
+        },
+        {
+          "name": "Sopron",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-fricikli-sopron",
+            "loc-toth-fia-sopron",
+            "loc-ketkerek-sport-sopron",
+            "loc-mangobike-sopron"
+          ],
+          "publishedCount": 4,
+          "notes": null
+        }
+      ],
+      "districts": null,
+      "publishedTotal": 9
+    },
+    {
+      "name": "Hajdú-Bihar",
+      "type": "varmegye",
+      "seat": "Debrecen",
+      "cities": [
+        {
+          "name": "Debrecen",
+          "isCountySeat": true,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-vozzy-debrecen",
+            "loc-jobringa-debrecen",
+            "loc-chili-sport-debrecen",
+            "loc-regina-kerekparbolt-debrecen",
+            "loc-bicaj-bt-debrecen"
+          ],
+          "publishedCount": 5,
+          "notes": null
+        }
+      ],
+      "districts": null,
+      "publishedTotal": 5
+    },
+    {
+      "name": "Heves",
+      "type": "varmegye",
+      "seat": "Eger",
+      "cities": [
+        {
+          "name": "Eger",
+          "isCountySeat": true,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-egerbike-eger",
+            "loc-bicocenter-eger",
+            "loc-bikeworkshop-eger"
+          ],
+          "publishedCount": 3,
+          "notes": null
+        },
+        {
+          "name": "Gyöngyös",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-pedal-kerekpar-gyongyos",
+            "loc-matra-bike-gyongyos"
+          ],
+          "publishedCount": 2,
+          "notes": null
+        },
+        {
+          "name": "Hatvan",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-pedal-hatvan-horvath",
+            "loc-pedal-hatvan-kossuth"
+          ],
+          "publishedCount": 2,
+          "notes": null
+        }
+      ],
+      "districts": null,
+      "publishedTotal": 7
+    },
+    {
+      "name": "Jász-Nagykun-Szolnok",
+      "type": "varmegye",
+      "seat": "Szolnok",
+      "cities": [
+        {
+          "name": "Jászberény",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-ciklotour-jaszbereny",
+            "loc-jbike-center-jaszbereny"
+          ],
+          "publishedCount": 2,
+          "notes": null
+        },
+        {
+          "name": "Szolnok",
+          "isCountySeat": true,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-canganyika-szolnok",
+            "loc-pne-mobil-szolnok"
+          ],
+          "publishedCount": 2,
+          "notes": null
+        },
+        {
+          "name": "Tiszafüred",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-tisza-bringa-tiszafured"
+          ],
+          "publishedCount": 1,
+          "notes": null
+        }
+      ],
+      "districts": null,
+      "publishedTotal": 5
+    },
+    {
+      "name": "Komárom-Esztergom",
+      "type": "varmegye",
+      "seat": "Tatabánya",
+      "cities": [
+        {
+          "name": "Esztergom",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-altrix-esztergom"
+          ],
+          "publishedCount": 1,
+          "notes": null
+        },
+        {
+          "name": "Komárom",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-r-bike-komarom"
+          ],
+          "publishedCount": 1,
+          "notes": null
+        },
+        {
+          "name": "Tatabánya",
+          "isCountySeat": true,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-jel-kerekpar-tatabanya",
+            "loc-konzum-kerekpar-tatabanya"
+          ],
+          "publishedCount": 2,
+          "notes": null
+        },
+        {
+          "name": "Tát",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-zolikerekpar-tat"
+          ],
+          "publishedCount": 1,
+          "notes": null
+        }
+      ],
+      "districts": null,
+      "publishedTotal": 5
+    },
+    {
+      "name": "Nógrád",
+      "type": "varmegye",
+      "seat": "Salgótarján",
+      "cities": [
+        {
+          "name": "Balassagyarmat",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-golyan-balassagyarmat"
+          ],
+          "publishedCount": 1,
+          "notes": null
+        },
+        {
+          "name": "Bátonyterenye",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-rb-batonyterenye"
+          ],
+          "publishedCount": 1,
+          "notes": null
+        },
+        {
+          "name": "Salgótarján",
+          "isCountySeat": true,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-velosport-salgotarjan"
+          ],
+          "publishedCount": 1,
+          "notes": null
+        }
+      ],
+      "districts": null,
+      "publishedTotal": 3
+    },
+    {
+      "name": "Pest",
+      "type": "varmegye",
+      "seat": null,
+      "cities": [
+        {
+          "name": "Biatorbágy",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-belobike-biatorbagy"
+          ],
+          "publishedCount": 1,
+          "notes": null
+        },
+        {
+          "name": "Budakeszi",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-mountain-beka-budakeszi"
+          ],
+          "publishedCount": 1,
+          "notes": null
+        },
+        {
+          "name": "Budaörs",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-watthajtas-budaors"
+          ],
+          "publishedCount": 1,
+          "notes": null
+        },
+        {
+          "name": "Cegléd",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-gyore-cegled"
+          ],
+          "publishedCount": 1,
+          "notes": null
+        },
+        {
+          "name": "Dunakeszi",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-no-limit-dunakeszi",
+            "loc-winkler-sport-dunakeszi"
+          ],
+          "publishedCount": 2,
+          "notes": null
+        },
+        {
+          "name": "Gyömrő",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-valto-gyomro"
+          ],
+          "publishedCount": 1,
+          "notes": null
+        },
+        {
+          "name": "Göd",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-horex-god"
+          ],
+          "publishedCount": 1,
+          "notes": null
+        },
+        {
+          "name": "Gödöllő",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-akosbike-godollo"
+          ],
+          "publishedCount": 1,
+          "notes": null
+        },
+        {
+          "name": "Nagykáta",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-tito-nagykata"
+          ],
+          "publishedCount": 1,
+          "notes": null
+        },
+        {
+          "name": "Szentendre",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-balazs-kerekparbolt-szentendre"
+          ],
+          "publishedCount": 1,
+          "notes": null
+        },
+        {
+          "name": "Törökbálint",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-tutto-bici-torokbalint"
+          ],
+          "publishedCount": 1,
+          "notes": null
+        },
+        {
+          "name": "Veresegyház",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-dynamic-sport-veresegyhaz"
+          ],
+          "publishedCount": 1,
+          "notes": null
+        },
+        {
+          "name": "Vác",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-dz-bike-vac"
+          ],
+          "publishedCount": 1,
+          "notes": null
+        },
+        {
+          "name": "Érd",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-solyombike-erd",
+            "loc-alfabike-erd",
+            "loc-robikes-erd"
+          ],
+          "publishedCount": 3,
+          "notes": null
+        }
+      ],
+      "districts": null,
+      "publishedTotal": 17
+    },
+    {
+      "name": "Somogy",
+      "type": "varmegye",
+      "seat": "Kaposvár",
+      "cities": [
+        {
+          "name": "Kaposvár",
+          "isCountySeat": true,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-tuttibringa-kaposvar",
+            "loc-littvan-kerekpar-kaposvar",
+            "loc-gabike-kaposvar"
+          ],
+          "publishedCount": 3,
+          "notes": null
+        },
+        {
+          "name": "Siófok",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-pelso-bike-siofok"
+          ],
+          "publishedCount": 1,
+          "notes": null
+        }
+      ],
+      "districts": null,
+      "publishedTotal": 4
+    },
+    {
+      "name": "Szabolcs-Szatmár-Bereg",
+      "type": "varmegye",
+      "seat": "Nyíregyháza",
+      "cities": [
+        {
+          "name": "Nyíregyháza",
+          "isCountySeat": true,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-q1-nyiregyhaza",
+            "loc-melux-nyiregyhaza",
+            "loc-bringasziget-nyiregyhaza",
+            "loc-kondor-kerekpar-nyiregyhaza",
+            "loc-halmibringa-nyiregyhaza"
+          ],
+          "publishedCount": 5,
+          "notes": null
+        }
+      ],
+      "districts": null,
+      "publishedTotal": 5
+    },
+    {
+      "name": "Tolna",
+      "type": "varmegye",
+      "seat": "Szekszárd",
+      "cities": [
+        {
+          "name": "Szekszárd",
+          "isCountySeat": true,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-ketkerek-centrum-szekszard",
+            "loc-korosi-kerekpar-szekszard",
+            "loc-schneider-kerekpar-szekszard"
+          ],
+          "publishedCount": 3,
+          "notes": null
+        }
+      ],
+      "districts": null,
+      "publishedTotal": 3
+    },
+    {
+      "name": "Vas",
+      "type": "varmegye",
+      "seat": "Szombathely",
+      "cities": [
+        {
+          "name": "Körmend",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-biciklon-kormend"
+          ],
+          "publishedCount": 1,
+          "notes": null
+        },
+        {
+          "name": "Szombathely",
+          "isCountySeat": true,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-biciklon-sport-szombathely",
+            "loc-savaria-uniker-szombathely",
+            "loc-canyon-sport-szombathely"
+          ],
+          "publishedCount": 3,
+          "notes": null
+        }
+      ],
+      "districts": null,
+      "publishedTotal": 4
+    },
+    {
+      "name": "Veszprém",
+      "type": "varmegye",
+      "seat": "Veszprém",
+      "cities": [
+        {
+          "name": "Ajka",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-bakony-sport-ajka"
+          ],
+          "publishedCount": 1,
+          "notes": null
+        },
+        {
+          "name": "Balatonfüred",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-tempo-kerekpar-balatonfured",
+            "loc-csopi-kerekparos-kozpont-balatonfured",
+            "loc-bike-extrem-balatonfured"
+          ],
+          "publishedCount": 3,
+          "notes": null
+        },
+        {
+          "name": "Pápa",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-sport-oazis-papa",
+            "loc-balint-kerekpar-papa",
+            "loc-horvath-kerekpar-papa"
+          ],
+          "publishedCount": 3,
+          "notes": null
+        },
+        {
+          "name": "Veszprém",
+          "isCountySeat": true,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-nelson-bike-veszprem",
+            "loc-kuszi-kerekpar-veszprem",
+            "loc-bikeland-veszprem",
+            "loc-ronabike-veszprem",
+            "loc-farady-kerekpar-veszprem"
+          ],
+          "publishedCount": 5,
+          "notes": null
+        }
+      ],
+      "districts": null,
+      "publishedTotal": 12
+    },
+    {
+      "name": "Zala",
+      "type": "varmegye",
+      "seat": "Zalaegerszeg",
+      "cities": [
+        {
+          "name": "Keszthely",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-greenzone-keszthely"
+          ],
+          "publishedCount": 1,
+          "notes": null
+        },
+        {
+          "name": "Nagykanizsa",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-yankos-bike-nagykanizsa",
+            "loc-kanizsa-kerekparcentrum-nagykanizsa"
+          ],
+          "publishedCount": 2,
+          "notes": null
+        },
+        {
+          "name": "Zalaegerszeg",
+          "isCountySeat": true,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-mixi-bike-zalaegerszeg",
+            "loc-storm-kerekpar-zalaegerszeg",
+            "loc-podor-kerekpar-zalaegerszeg",
+            "loc-madbike-zalaegerszeg",
+            "loc-bringavar-zalaegerszeg"
+          ],
+          "publishedCount": 5,
+          "notes": null
+        }
+      ],
+      "districts": null,
+      "publishedTotal": 8
+    }
+  ],
+  "priorityQueue": [
+    {
+      "unit": "Jász-Nagykun-Szolnok",
+      "city": "Szolnok",
+      "reason": "székhely <3 (most 2)",
+      "published": 2
+    },
+    {
+      "unit": "Komárom-Esztergom",
+      "city": "Tatabánya",
+      "reason": "székhely <3 (most 2)",
+      "published": 2
+    },
+    {
+      "unit": "Nógrád",
+      "city": "Salgótarján",
+      "reason": "székhely <3 (most 1)",
+      "published": 1
+    }
+  ],
+  "nextContinuation": {
+    "afterBatches": [
+      "batch-gap-ne-2026-10-10",
+      "batch-gap-pest-south-2026-10-10"
+    ],
+    "published": 151,
+    "resumeFrom": [
+      "Nógrád: Salgótarján +1 (Amanita csak aggregátor — más elsődleges forrás kell)",
+      "Jász-Nagykun-Szolnok: Szolnok +1 (BiciKlikk ellentmondásos — más jelölt)",
+      "Komárom-Esztergom: Tatabánya +1 (M-Bike domain down — más jelölt)",
+      "Pest: Szigetszentmiklós, Monor, Vecsés, Cegléd már OK",
+      "Baranya: Mohács (Schmidt ellenőrzés)",
+      "Tolna: Paks",
+      "Budapest: kerületenként (III/XV/XVI/XVII/XVIII/XX folytatás; 12→20)",
+      "Önálló szervizek: kevés only-szerviz — célzott workshop keresés",
+      "Márkák: Merida kapcsolatok bővültek; katalóguson kívüli márkák brand-backlog.json"
+    ],
+    "note": "Országos gyűjtés folyamatban; 152 publikált nem teljesség."
+  },
+  "brandBacklogPath": "_research/brand-backlog.json",
+  "candidatesPath": "_research/candidates.json"
+}

@@ -17,20 +17,6 @@ DISCLAIMER = (
     "raktáron van, vagy kipróbálható."
 )
 
-BRAND_NAME_TO_ID = {
-    "cube": "brand-cube",
-    "giant": "brand-giant",
-    "trek": "brand-trek",
-    "specialized": "brand-specialized",
-    "merida": "brand-merida",
-    "scott": "brand-scott",
-    "cannondale": "brand-cannondale",
-    "gepida": "brand-gepida",
-    "neuzer": "brand-neuzer",
-    "ktm": "brand-ktm",
-}
-
-
 def load(name: str):
     return json.loads((CONTENT / name).read_text(encoding="utf-8"))
 
@@ -39,6 +25,24 @@ def dump(name: str, data) -> None:
     (CONTENT / name).write_text(
         json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
+
+
+def brand_name_to_id() -> dict[str, str]:
+    """Resolve from live brands.json (plus common aliases)."""
+    mapping = {}
+    for b in load("brands.json")["items"]:
+        mapping[(b.get("name") or "").strip().lower()] = b["id"]
+        mapping[(b.get("slug") or "").strip().lower()] = b["id"]
+    # aliases
+    mapping.update(
+        {
+            "cube": "brand-cube",
+            "ktm": "brand-ktm",
+            "ktm bike industries": "brand-ktm",
+            "ktm bikes": "brand-ktm",
+        }
+    )
+    return {k: v for k, v in mapping.items() if k}
 
 
 def slugify(s: str) -> str:
@@ -60,8 +64,8 @@ def slugify(s: str) -> str:
     return s[:48]
 
 
-def resolve_brand(name: str):
-    return BRAND_NAME_TO_ID.get((name or "").strip().lower())
+def resolve_brand(name: str, mapping: dict[str, str]):
+    return mapping.get((name or "").strip().lower())
 
 
 def main() -> int:
@@ -71,6 +75,7 @@ def main() -> int:
     args = ap.parse_args()
     batch = json.loads(args.batch.read_text(encoding="utf-8"))
     access = batch.get("accessedAt") or ACCESS_DEFAULT
+    brand_map = brand_name_to_id()
 
     orgs = load("organizations.json")
     locs = load("locations.json")
@@ -78,6 +83,11 @@ def main() -> int:
     ev = load("evidence.json")
     raw = load("_research/locations-raw.json")
     coverage = CONTENT / "_research" / "coverage-summary.json"
+    brand_backlog_path = CONTENT / "_research" / "brand-backlog.json"
+    if brand_backlog_path.exists():
+        brand_backlog = json.loads(brand_backlog_path.read_text(encoding="utf-8"))
+    else:
+        brand_backlog = {"accessedAt": access, "items": []}
 
     org_ids = {o["id"] for o in orgs["items"]}
     loc_ids = {l["id"] for l in locs["items"]}
@@ -161,7 +171,7 @@ def main() -> int:
         catalog_claims = []
         external_claims = []
         for c in item.get("brandClaims") or []:
-            bid = resolve_brand(c.get("brand"))
+            bid = resolve_brand(c.get("brand"), brand_map)
             claim = {
                 "brand": c.get("brand"),
                 "relation": c.get("relation") or "sells_brand",
@@ -173,6 +183,17 @@ def main() -> int:
                 supports.append(f"{loc_id}.brandLinks.{c.get('brand')}")
             else:
                 external_claims.append(claim)
+                # backlog out-of-catalog bike brands mentioned at shops
+                brand_backlog.setdefault("items", []).append(
+                    {
+                        "name": c.get("brand"),
+                        "seenAtLocation": loc_id,
+                        "sourceUrl": claim["sourceUrl"],
+                        "quote": claim["quote"],
+                        "accessedAt": access,
+                        "status": "candidate",
+                    }
+                )
 
         if org_id not in org_ids:
             orgs["items"].append(
@@ -225,16 +246,40 @@ def main() -> int:
         loc_ids.add(loc_id)
         addr_fp.add(fp)
 
+        role_evidence = item.get("roleEvidence") or {}
+        deferred_roles = []
         for role in roles:
-            role_slug = role.replace("é", "e").replace("á", "a")
+            if role in ("kolcsonzes", "kolcsonzo", "átveteli-pont", "atveteli-pont"):
+                deferred_roles.append(role)
+                continue
+            role_slug = (
+                role.replace("é", "e")
+                .replace("á", "a")
+                .replace("ö", "o")
+                .replace("ő", "o")
+                .replace("ü", "u")
+                .replace("ű", "u")
+            )
+            re_src = role_evidence.get(role) or {}
+            src = re_src.get("url") or evidence["url"]
             svcs["items"].append(
                 {
                     "id": f"svc-{slug}-{role_slug}",
                     "locationId": loc_id,
                     "role": role,
-                    "sourceUrl": evidence["url"],
+                    "sourceUrl": src,
                 }
             )
+            supports.append(f"svc-{slug}-{role_slug}")
+        if deferred_roles:
+            loc["researchNotes"]["deferredRoles"] = [
+                {
+                    "role": r,
+                    "note": "A jelenlegi publikus modellben nem szerepel; belső jelöltként őrizve.",
+                    "sourceUrl": evidence["url"],
+                }
+                for r in deferred_roles
+            ]
 
         ev["items"].append(
             {
@@ -299,6 +344,10 @@ def main() -> int:
     dump("services.json", svcs)
     dump("evidence.json", ev)
     dump("_research/locations-raw.json", raw)
+    brand_backlog["accessedAt"] = access
+    brand_backlog_path.write_text(
+        json.dumps(brand_backlog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
     coverage.write_text(json.dumps(summary, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     # append held-back log

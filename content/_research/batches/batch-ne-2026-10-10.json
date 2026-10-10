@@ -1,0 +1,597 @@
+{
+  "batchId": "batch-ne-2026-10-10",
+  "accessedAt": "2026-10-10",
+  "items": [
+    {
+      "idSlug": "golyan-kerekpar-balassagyarmat",
+      "name": "Golyán Kerékpár Kft. (Golyán kerékpár szaküzlet)",
+      "city": "Balassagyarmat",
+      "addressRaw": "2660 Balassagyarmat, Köztársaság tér 1.",
+      "website": "https://golyankerekpar.hu/",
+      "phone": "+36 70 734 3300",
+      "email": "shop@golyankerekpar.hu",
+      "openingHours": "H–P 10:00–16:30, Sz 9:00–12:00, Vasárnap zárva",
+      "roles": ["eladas", "szerviz"],
+      "roleEvidence": {
+        "eladas": {
+          "url": "https://golyankerekpar.hu/shop_contact.php",
+          "pageTitle": "Információk - Golyán kerékpár szaküzlet - szerviz - webshop"
+        },
+        "szerviz": {
+          "url": "https://golyankerekpar.hu/shop_contact.php",
+          "pageTitle": "Információk - Golyán kerékpár szaküzlet - szerviz - webshop"
+        }
+      },
+      "brandClaims": [],
+      "evidence": {
+        "url": "https://golyankerekpar.hu/shop_contact.php",
+        "pageTitle": "Információk - Golyán kerékpár szaküzlet - szerviz - webshop"
+      },
+      "notes": "Áruház neve a jogi adatlap szerint: „Golyán kerékpár szaküzlet - szerviz - webshop”; személyes átvétel Balassagyarmaton.",
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "ciklotour-jaszbereny",
+      "name": "Ciklotour Bt.",
+      "city": "Jászberény",
+      "addressRaw": "5100 Jászberény, Zoltán utca 12.",
+      "website": "https://ciklotourkerekpar.hu/",
+      "phone": "+36 57 405 055",
+      "email": "ciklotourbt@gmail.com",
+      "openingHours": "H–P 8:00–12:00 és 14:00–18:00, Sz 8:00–12:00",
+      "roles": ["eladas", "szerviz"],
+      "roleEvidence": {
+        "eladas": {
+          "url": "https://ciklotourkerekpar.hu/",
+          "pageTitle": "Ciklotour Kerékpár Szaküzlet és Szerviz | Jászberény"
+        },
+        "szerviz": {
+          "url": "https://ciklotourkerekpar.hu/",
+          "pageTitle": "Ciklotour Kerékpár Szaküzlet és Szerviz | Jászberény"
+        }
+      },
+      "brandClaims": [],
+      "evidence": {
+        "url": "https://ciklotourkerekpar.hu/",
+        "pageTitle": "Ciklotour Kerékpár Szaküzlet és Szerviz | Jászberény"
+      },
+      "notes": null,
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "jbike-center-jaszbereny",
+      "name": "Jbike Center Kerékpárüzlet és Szerviz (Jász-Bike Kft.)",
+      "city": "Jászberény",
+      "addressRaw": "5100 Jászberény, Palotásy János utca 7.",
+      "website": "http://www.jbikecenter.com/",
+      "phone": "+36 57 503 075",
+      "email": "jbike@freemail.hu",
+      "openingHours": null,
+      "roles": ["eladas", "szerviz"],
+      "roleEvidence": {
+        "eladas": {
+          "url": "https://www.polisport.com/en/creator_54.html?idst=1364",
+          "pageTitle": "Jbike Center Kerékpárüzlet és Szerviz - Polisport"
+        },
+        "szerviz": {
+          "url": "https://www.polisport.com/en/creator_54.html?idst=1364",
+          "pageTitle": "Jbike Center Kerékpárüzlet és Szerviz - Polisport"
+        }
+      },
+      "brandClaims": [],
+      "evidence": {
+        "url": "https://www.polisport.com/en/creator_54.html?idst=1364",
+        "pageTitle": "Jbike Center Kerékpárüzlet és Szerviz - Polisport"
+      },
+      "notes": "A jbikecenter.com 2026-10-10-en nem elérhető volt; cím/telefon Polisport kereskedői adatlapon.",
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "csepel-centrum-szolnok",
+      "name": "Csepel Kerékpárcentrum (Csepel Kerékpár Kft.)",
+      "city": "Szolnok",
+      "addressRaw": "5000 Szolnok, Thököly út 97.",
+      "website": "https://csepelkerekpar.109.hu/",
+      "phone": "+36 20 320 0900",
+      "email": null,
+      "openingHours": "H–P 9:00–17:00, Sz 9:00–12:00",
+      "roles": ["eladas"],
+      "roleEvidence": {
+        "eladas": {
+          "url": "https://csepelkerekpar.109.hu/?p=kapcsolat",
+          "pageTitle": "Lépjen velünk kapcsolatba! - Csepel Kerékpár Kft."
+        }
+      },
+      "brandClaims": [
+        {
+          "brand": "Csepel",
+          "relation": "sells_brand",
+          "sourceUrl": "https://csepelkerekpar.109.hu/?p=termekek&fid=644",
+          "quote": "Kerékpárok, elektromos kerékpárok… széles választéka."
+        }
+      ],
+      "evidence": {
+        "url": "https://csepelkerekpar.109.hu/?p=kapcsolat",
+        "pageTitle": "Lépjen velünk kapcsolatba! - Csepel Kerékpár Kft."
+      },
+      "notes": "A kapcsolat oldalon nincs helyi szerviz-szöveg; „Centrum és Szerviz” név csak aggregátorokban szerepelt.",
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "sprint-kerekpar-szolnok",
+      "name": "Sprint Kerékpárbolt",
+      "city": "Szolnok",
+      "addressRaw": "5000 Szolnok, Baross utca 48.",
+      "website": "https://sprintkerekpar.109.hu/",
+      "phone": "+36 30 580 0235",
+      "email": null,
+      "openingHours": "H 10:00–17:30, K–P 10:00–18:00, Sz 10:00–12:00 (ebéd 13:00–14:00 zárva)",
+      "roles": ["eladas"],
+      "roleEvidence": {
+        "eladas": {
+          "url": "https://sprintkerekpar.109.hu/?p=kapcsolat",
+          "pageTitle": "Lépjen velünk kapcsolatba! - Sprint kerékpárbolt"
+        }
+      },
+      "brandClaims": [
+        {
+          "brand": "Neuzer",
+          "relation": "sells_brand",
+          "sourceUrl": "https://sprintkerekpar.109.hu/?p=kapcsolat",
+          "quote": "Női kerékpárok, Neuzer, Mali, Kross Evado."
+        }
+      ],
+      "evidence": {
+        "url": "https://sprintkerekpar.109.hu/?p=kapcsolat",
+        "pageTitle": "Lépjen velünk kapcsolatba! - Sprint kerékpárbolt"
+      },
+      "notes": "„Biztos szervizháttérrel forgalmazzuk” értékesítési állítás; helyi műhely-szolgáltatás nem igazolt.",
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "biciklikk-szolnok",
+      "name": "BICIKLIKK Szolnok",
+      "city": "Szolnok",
+      "addressRaw": "5000 Szolnok, Lovas István utca 1.",
+      "website": "https://www.biciklikk.hu/",
+      "phone": "+36 70 220 4580",
+      "email": "info@biciklikk.hu",
+      "openingHours": null,
+      "roles": ["eladas", "szerviz"],
+      "roleEvidence": {
+        "eladas": {
+          "url": "https://neuzer.hu/partnereink",
+          "pageTitle": "Viszonteladó partnereink"
+        },
+        "szerviz": {
+          "url": "https://www.biciklikk.hu/",
+          "pageTitle": "Biciklikk Kerékpár Webáruház, Szaküzlet és Szerviz"
+        }
+      },
+      "brandClaims": [
+        {
+          "brand": "Neuzer",
+          "relation": "dealer",
+          "sourceUrl": "https://neuzer.hu/partnereink",
+          "quote": "BICIKLIKK SZOLNOK – Lovas István utca 1."
+        }
+      ],
+      "evidence": {
+        "url": "https://neuzer.hu/partnereink",
+        "pageTitle": "Viszonteladó partnereink"
+      },
+      "notes": "Szolnoki egység a Neuzer partnerlistán; az /uzleteink oldal 2026-10-10-en csak Pécset sorolt.",
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "speedy-kerekpar-bekescsaba",
+      "name": "Speedy Kerékpárüzlet",
+      "city": "Békéscsaba",
+      "addressRaw": "5600 Békéscsaba, Gyóni Géza utca 22.",
+      "website": "http://www.speedybicikli.hu/",
+      "phone": "+36 66 640 602",
+      "email": null,
+      "openingHours": "H–P 9:00–12:30 és 14:00–18:00, Sz 9:00–13:00",
+      "roles": ["eladas", "szerviz"],
+      "roleEvidence": {
+        "eladas": {
+          "url": "http://www.speedybicikli.hu/",
+          "pageTitle": "Főoldal"
+        },
+        "szerviz": {
+          "url": "http://www.speedybicikli.hu/index.php/szerviz",
+          "pageTitle": "Szerviz"
+        }
+      },
+      "brandClaims": [
+        {
+          "brand": "Merida",
+          "relation": "dealer",
+          "sourceUrl": "https://bikefun.hu/shops/speedy-kerekparuezlet",
+          "quote": "Kiemelt márkakereskedés: Merida dealer"
+        }
+      ],
+      "evidence": {
+        "url": "http://www.speedybicikli.hu/index.php/kapcsolat",
+        "pageTitle": "Kapcsolat"
+      },
+      "notes": null,
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "webbicikli-gyula",
+      "name": "Webbicikli (WebBici)",
+      "city": "Gyula",
+      "addressRaw": "5700 Gyula, Zrínyi tér 3.",
+      "website": "https://www.webbicikli.hu/",
+      "phone": "+36 70 238 2381",
+      "email": "info@webbicikli.hu",
+      "openingHours": "H–P 9:00–17:00 (12:00–13:00 ebéd), Sz 9:00–12:00",
+      "roles": ["eladas", "szerviz"],
+      "roleEvidence": {
+        "eladas": {
+          "url": "https://www.webbicikli.hu/",
+          "pageTitle": "Bicikli és kerékpár alkatrész webáruház – webbicikli.hu"
+        },
+        "szerviz": {
+          "url": "https://www.webbicikli.hu/",
+          "pageTitle": "Bicikli és kerékpár alkatrész webáruház – webbicikli.hu"
+        }
+      },
+      "brandClaims": [],
+      "evidence": {
+        "url": "https://www.webbicikli.hu/",
+        "pageTitle": "Bicikli és kerékpár alkatrész webáruház – webbicikli.hu"
+      },
+      "notes": "Fizikai üzlet + webshop; műhely/szerviz a főoldalon említve.",
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "gyulabringa-gyula",
+      "name": "Gyulabringa Kerékpárbolt",
+      "city": "Gyula",
+      "addressRaw": "5700 Gyula, Nagyváradi út 23.",
+      "website": null,
+      "phone": "+36 30 548 4260",
+      "email": "gyulabringa@gmail.com",
+      "openingHours": "H–P 8:00–17:00, Sz 8:00–12:00",
+      "roles": ["eladas"],
+      "roleEvidence": {
+        "eladas": {
+          "url": "https://bikefun.hu/shops/gyulabringa-kerekparbolt",
+          "pageTitle": "Gyulabringa Kerékpárbolt - BikeFun"
+        }
+      },
+      "brandClaims": [
+        {
+          "brand": "Merida",
+          "relation": "dealer",
+          "sourceUrl": "https://bikefun.hu/shops/gyulabringa-kerekparbolt",
+          "quote": "Kiemelt márkakereskedés: BikeFun, CST"
+        }
+      ],
+      "evidence": {
+        "url": "https://bikefun.hu/shops/gyulabringa-kerekparbolt",
+        "pageTitle": "Gyulabringa Kerékpárbolt - BikeFun"
+      },
+      "notes": "Saját domain nem azonosított; BikeFun hivatalos viszonteladói adatlap.",
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "kero-depo-oroshaza",
+      "name": "Keró Depó",
+      "city": "Orosháza",
+      "addressRaw": "5900 Orosháza, Lehel utca 66.",
+      "website": null,
+      "phone": "+36 70 315 2053",
+      "email": "kerodepo@citromail.hu",
+      "openingHours": "H–P 8:30–18:00, Sz 8:30–12:00",
+      "roles": ["eladas"],
+      "roleEvidence": {
+        "eladas": {
+          "url": "https://bikefun.hu/shops/Kero-Depo",
+          "pageTitle": "Keró Depó - BikeFun"
+        }
+      },
+      "brandClaims": [
+        {
+          "brand": "Merida",
+          "relation": "dealer",
+          "sourceUrl": "https://bikefun.hu/shops/Kero-Depo",
+          "quote": "Kiemelt márkakereskedés: Merida dealer"
+        }
+      ],
+      "evidence": {
+        "url": "https://bikefun.hu/shops/Kero-Depo",
+        "pageTitle": "Keró Depó - BikeFun"
+      },
+      "notes": null,
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "toth-kerekpar-ozd",
+      "name": "Tóth Kerékpárszaküzlet és Szerviz",
+      "city": "Ózd",
+      "addressRaw": "3661 Ózd, Nyárjasalja utca 19.",
+      "website": null,
+      "phone": "+36 20 971 5869",
+      "email": "tothbike@t-online.hu",
+      "openingHours": "H–P 9:00–18:00, Sz 9:00–13:00",
+      "roles": ["eladas", "szerviz"],
+      "roleEvidence": {
+        "eladas": {
+          "url": "https://bikefun.hu/shops/Toth-Kerekparszakuzlet-es-Szerviz",
+          "pageTitle": "Tóth Kerékpárszaküzlet és Szerviz - BikeFun"
+        },
+        "szerviz": {
+          "url": "https://bikefun.hu/shops/Toth-Kerekparszakuzlet-es-Szerviz",
+          "pageTitle": "Tóth Kerékpárszaküzlet és Szerviz - BikeFun"
+        }
+      },
+      "brandClaims": [],
+      "evidence": {
+        "url": "https://bikefun.hu/shops/Toth-Kerekparszakuzlet-es-Szerviz",
+        "pageTitle": "Tóth Kerékpárszaküzlet és Szerviz - BikeFun"
+      },
+      "notes": "3661 irányítószám a BikeFun adat szerint.",
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "stop-shop-kazincbarcika",
+      "name": "Stop Shop Kerékpárszaküzlet",
+      "city": "Kazincbarcika",
+      "addressRaw": "3700 Kazincbarcika, Csokonai út 30.",
+      "website": null,
+      "phone": "+36 48 315 134",
+      "email": "pedalbarcika@t-online.hu",
+      "openingHours": "H–P 8:00–17:00, Sz–V zárva",
+      "roles": ["eladas"],
+      "roleEvidence": {
+        "eladas": {
+          "url": "https://bikefun.hu/shops/stop-shop-kerekparszakuezlet",
+          "pageTitle": "Stop Shop Kerékpárszaküzlet - BikeFun"
+        }
+      },
+      "brandClaims": [],
+      "evidence": {
+        "url": "https://bikefun.hu/shops/stop-shop-kerekparszakuezlet",
+        "pageTitle": "Stop Shop Kerékpárszaküzlet - BikeFun"
+      },
+      "notes": "Kerékpárszaküzlet; szerviz szerep a BikeFun oldalon nem szerepel.",
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "freeriderz-miskolc",
+      "name": "Freeriderz Bikeshop",
+      "city": "Miskolc",
+      "addressRaw": "3530 Miskolc, Árpád út 13.",
+      "website": null,
+      "phone": "+36 46 789 303",
+      "email": "freeriderzbikeshop@gmail.com",
+      "openingHours": "H 10:00–18:00, K–P 9:30–18:00, Sz 9:00–13:00",
+      "roles": ["eladas"],
+      "roleEvidence": {
+        "eladas": {
+          "url": "https://bikefun.hu/shops/freeriderz-bikeshop",
+          "pageTitle": "Freeriderz Bikeshop - BikeFun"
+        }
+      },
+      "brandClaims": [
+        {
+          "brand": "Merida",
+          "relation": "dealer",
+          "sourceUrl": "https://bikefun.hu/shops/freeriderz-bikeshop",
+          "quote": "Kiemelt márkakereskedés: BikeFun, CST"
+        }
+      ],
+      "evidence": {
+        "url": "https://bikefun.hu/shops/freeriderz-bikeshop",
+        "pageTitle": "Freeriderz Bikeshop - BikeFun"
+      },
+      "notes": "freeriderzbikeshop.hu 2026-10-10-en nem elérhető; szerviz csak aggregátorokban, nem BikeFun-on.",
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "excelsior-sportcentrum-miskolc",
+      "name": "Excelsior Sportcentrum",
+      "city": "Miskolc",
+      "addressRaw": "3516 Miskolc, Pesti út 62.",
+      "website": "https://www.bikegift.hu/",
+      "phone": "+36 46 791 407",
+      "email": "bikegift.hu@gmail.com",
+      "openingHours": "H–P 9:00–17:00, Sz 9:00–13:00",
+      "roles": ["eladas"],
+      "roleEvidence": {
+        "eladas": {
+          "url": "https://bikefun.hu/shops/excelsior-sportcentrum",
+          "pageTitle": "Excelsior Sportcentrum - BikeFun"
+        }
+      },
+      "brandClaims": [
+        {
+          "brand": "Merida",
+          "relation": "dealer",
+          "sourceUrl": "https://bikefun.hu/shops/excelsior-sportcentrum",
+          "quote": "Kiemelt márkakereskedés: Merida dealer"
+        }
+      ],
+      "evidence": {
+        "url": "https://bikefun.hu/shops/excelsior-sportcentrum",
+        "pageTitle": "Excelsior Sportcentrum - BikeFun"
+      },
+      "notes": "excelsiorsport.hu / bikegift.hu instabil; elsődleges cím BikeFun.",
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "anger-es-tarsa-miskolc",
+      "name": "Anger és Társa Bt.",
+      "city": "Miskolc",
+      "addressRaw": "3528 Miskolc, Gvadányi József utca 29.",
+      "website": "https://www.anger.hu/",
+      "phone": "+36 46 389 846",
+      "email": "info@anger.hu",
+      "openingHours": null,
+      "roles": ["eladas", "szerviz"],
+      "roleEvidence": {
+        "eladas": {
+          "url": "https://www.anger.hu/",
+          "pageTitle": "Kerékpár és kerékpár alkatrész, Miskolc - Anger és Társa Bt."
+        },
+        "szerviz": {
+          "url": "http://www.anger.hu/bemutatkozas",
+          "pageTitle": "Kerékpár és kerékpár alkatrész, Miskolc - Anger és Társa Bt."
+        }
+      },
+      "brandClaims": [
+        {
+          "brand": "Neuzer",
+          "relation": "dealer",
+          "sourceUrl": "https://neuzer.hu/partnereink",
+          "quote": "Gvadányi József utca 29., Miskolc – Neuzer viszonteladói partner."
+        }
+      ],
+      "evidence": {
+        "url": "http://www.anger.hu/kapcsolat",
+        "pageTitle": "Kerékpár és kerékpár alkatrész, Miskolc - Anger és Társa Bt."
+      },
+      "notes": null,
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "radvanyi-kerekparszerviz-miskolc",
+      "name": "Radványi Norbert kerékpárszerviz",
+      "city": "Miskolc",
+      "addressRaw": "3508 Miskolc, Gátőr utca 24.",
+      "website": "https://kerekparszervizmiskolc.hu/",
+      "phone": "+36 30 829 5238",
+      "email": "norbi@kerekparszervizmiskolc.hu",
+      "openingHours": null,
+      "roles": ["szerviz"],
+      "roleEvidence": {
+        "szerviz": {
+          "url": "https://kerekparszervizmiskolc.hu/",
+          "pageTitle": "Radványi Norbert"
+        }
+      },
+      "brandClaims": [],
+      "evidence": {
+        "url": "https://kerekparszervizmiskolc.hu/",
+        "pageTitle": "Radványi Norbert"
+      },
+      "notes": "Csak szerviz; értékesítés nem igazolt.",
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "ebikeshop-miskolc",
+      "name": "Ebikeshop Miskolc",
+      "city": "Miskolc",
+      "addressRaw": "3530 Miskolc, Hunyadi János utca 56.",
+      "website": "https://ebikeshop.hu/",
+      "phone": "+36 1 327 4642",
+      "email": "info@ebikeshop.hu",
+      "openingHours": "H–P 9:00–17:00, Sz–V zárva",
+      "roles": ["eladas"],
+      "roleEvidence": {
+        "eladas": {
+          "url": "https://ebringa.hu/",
+          "pageTitle": "Ebringa.hu"
+        }
+      },
+      "brandClaims": [],
+      "evidence": {
+        "url": "https://ebringa.hu/",
+        "pageTitle": "Ebringa.hu"
+      },
+      "notes": "Szaküzletlista az ebringa.hu-n; ebikeshop.hu/uzletek 2026-10-10-en Miskolcot nem sorolta. Helyi e-bike szerviz időpont oldalak ellentmondásos cím-mezővel.",
+      "heldBack": false,
+      "heldBackReason": null
+    }
+  ],
+  "heldBack": [
+    {
+      "name": "2kerék / Ketkerek Kerékpárbolt",
+      "city": "Orosháza",
+      "reason": "ketkerek.hu 2026-10-10-en nem elérhető; csak aggregátorok.",
+      "candidateUrl": "http://ketkerek.hu/"
+    },
+    {
+      "name": "Amanita Kereskedelmi és Szolgáltató Bt.",
+      "city": "Salgótarján",
+      "reason": "Nincs saját weboldal; csak cégjegyzék/aggregátor (Megyeri, szakkatalógus).",
+      "candidateUrl": "https://megyerikerekpar.hu/amanita-kereskedelmi-es-szolgaltato-bt-kerekpar-uzlet-es-szerviz"
+    },
+    {
+      "name": "Belvárosi Bringabolt",
+      "city": "Gyula",
+      "reason": "belvarosibringabolt.hu 2026-10-10-en nem elérhető (500).",
+      "candidateUrl": "https://www.belvarosibringabolt.hu/"
+    },
+    {
+      "name": "Bringa Doki",
+      "city": "Balassagyarmat",
+      "reason": "Csak Facebook-oldal; nincs saját domain.",
+      "candidateUrl": "https://www.facebook.com/bringadoki.balassagyarmat"
+    },
+    {
+      "name": "Folytontipró Kerékpárbolt és Szervíz",
+      "city": "Kazincbarcika",
+      "reason": "Csak üzletkatalógus (mindenuzlet.com); nincs saját weboldal.",
+      "candidateUrl": "https://www.mindenuzlet.com/folytontipr%C3%B3-ker%C3%A9kp%C3%A1rbolt-%C3%A9s-szerv%C3%ADz-06-48-320-752"
+    },
+    {
+      "name": "Freeriderz Bike Shop (saját domain)",
+      "city": "Miskolc",
+      "reason": "freeriderzbikeshop.hu 502; szerviz szerep csak nem hivatalos listákon.",
+      "candidateUrl": "http://www.freeriderzbikeshop.hu/"
+    },
+    {
+      "name": "Zsolt Kerékpárbolt",
+      "city": "Ózd",
+      "reason": "Nincs saját weboldal vagy márkadealer-bejegyzés; csak értékelő oldalak.",
+      "candidateUrl": null
+    }
+  ],
+  "researchedNoVerified": [
+    {
+      "city": "Salgótarján",
+      "unit": "municipality",
+      "note": "Velosport (Füleki út 8) már publikálva. Amanita (Meredek út 3) és egyéb jelöltek nem igazolhatók saját oldalon."
+    },
+    {
+      "city": "Tiszafüred",
+      "unit": "municipality",
+      "note": "Tisza-Bringa Bolt (Fő út 57) már publikálva; további fizikai üzlet nem igazolt hivatalos forrásból."
+    },
+    {
+      "city": "Eger",
+      "unit": "municipality",
+      "note": "Egerbike, Bicó Center, Bike Work Shop már publikálva; új bolt nem került."
+    },
+    {
+      "city": "Gyöngyös",
+      "unit": "municipality",
+      "note": "Pedál Kerékpár és Mátra Bike már publikálva; új bolt nem került."
+    },
+    {
+      "city": "Ózd",
+      "unit": "municipality",
+      "note": "Tóth Kerékpárszaküzlet igazolt; Zsolt Kerékpárbolt (Nagyvölgyi út) nem igazolható."
+    }
+  ]
+}

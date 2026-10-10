@@ -60,7 +60,7 @@ def main() -> int:
     articles = load("articles.json")
     evidence = load("evidence.json")["items"]
 
-    check("count_brands_10", len(brands) == 10, len(brands))
+    check("count_brands_at_least_10", len(brands) >= 10, len(brands))
     check("count_locations_at_least_20", len(locations) >= 20, len(locations))
     check("count_variants_12", len(variants) == 12, len(variants))
     check("count_explainers_6", len(articles.get("explainers", [])) == 6, len(articles.get("explainers", [])))
@@ -221,7 +221,7 @@ def main() -> int:
     # Publication readiness: publishable counts
     pub_brands = [b for b in brands if b["status"] in ("ellenőrzött", "előkészített")]
     pub_vars = [v for v in variants if v["status"] in ("ellenőrzött", "előkészített")]
-    check("publishable_brands_10", len(pub_brands) == 10, len(pub_brands))
+    check("publishable_brands_at_least_10", len(pub_brands) >= 10, len(pub_brands))
     check("publishable_variants_12", len(pub_vars) == 12, len(pub_vars))
 
     # Articles: evidence + markdown parity

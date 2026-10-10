@@ -707,6 +707,342 @@
       "legalName": "Pátkai Tünde e.v.",
       "website": "https://karikazzunk.hu/szerviz/",
       "notes": null
+    },
+    {
+      "id": "org-golyan-balassagyarmat",
+      "name": "Golyán Kerékpár Szaküzlet és Szerviz",
+      "legalName": null,
+      "website": "https://golyankerekpar.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-ciklotour-jaszbereny",
+      "name": "Ciklotour Kerékpár Szaküzlet és Szerviz",
+      "legalName": null,
+      "website": "https://ciklotourkerekpar.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-jbike-center-jaszbereny",
+      "name": "JBike Center",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/jbike-center",
+      "notes": null
+    },
+    {
+      "id": "org-gyulabringa-gyula",
+      "name": "Gyulabringa Kerékpárbolt",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/gyulabringa-kerekparbolt",
+      "notes": null
+    },
+    {
+      "id": "org-kero-depo-oroshaza",
+      "name": "Keró Depó",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/Kero-Depo",
+      "notes": null
+    },
+    {
+      "id": "org-toth-ozd",
+      "name": "Tóth Kerékpárszaküzlet és Szerviz",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/Toth-Kerekparszakuzlet-es-Szerviz",
+      "notes": null
+    },
+    {
+      "id": "org-rb-batonyterenye",
+      "name": "R+B Kerékpárszaküzlet",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/r-b-kerekparszakuezlet",
+      "notes": null
+    },
+    {
+      "id": "org-pedal-hatvan-horvath",
+      "name": "Pedál Kerékpárszaküzlet (Hatvan)",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/Pedal-Kerekparszakuzlet",
+      "notes": null
+    },
+    {
+      "id": "org-pedal-hatvan-kossuth",
+      "name": "Pedál Kerékpárüzlet (Hatvan 2)",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/pedal-kerekparuezlet-hatvan-2",
+      "notes": null
+    },
+    {
+      "id": "org-freeriderz-miskolc",
+      "name": "Freeriderz Bikeshop",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/freeriderz-bikeshop",
+      "notes": null
+    },
+    {
+      "id": "org-stop-shop-kazincbarcika",
+      "name": "Stop Shop Kerékpárszaküzlet",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/stop-shop-kerekparszakuezlet",
+      "notes": null
+    },
+    {
+      "id": "org-excelsior-miskolc",
+      "name": "Excelsior Sportcentrum",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/excelsior-sportcentrum",
+      "notes": null
+    },
+    {
+      "id": "org-akosbike-godollo",
+      "name": "Ákosbike",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/akosbike",
+      "notes": null
+    },
+    {
+      "id": "org-gyore-cegled",
+      "name": "Györe Kerékpár Centrum",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/Gyore-Kerekpar-Centrum",
+      "notes": null
+    },
+    {
+      "id": "org-tito-nagykata",
+      "name": "Titó Bike Shop",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/tito-bike-shop",
+      "notes": null
+    },
+    {
+      "id": "org-nyolcas-hodmezovasarhely",
+      "name": "Nyolcas Kerékpár üzlet",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/nyolcas-kerekpar-uezlet",
+      "notes": null
+    },
+    {
+      "id": "org-kerekparudvar-mako",
+      "name": "Kerékpárudvar",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/kerekparudvar",
+      "notes": null
+    },
+    {
+      "id": "org-drotszamar-hodmezovasarhely",
+      "name": "Drótszamár Kerékpárbolt",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/drotszamar-kerekparbolt",
+      "notes": null
+    },
+    {
+      "id": "org-veloport-hodmezovasarhely",
+      "name": "Veloport Kerékpárüzlet",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/veloport-kerekparuezlet",
+      "notes": null
+    },
+    {
+      "id": "org-garage-bike-tech-tiszaujvaros",
+      "name": "Garage Bike Tech",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/garage-bike-tech",
+      "notes": null
+    },
+    {
+      "id": "org-bringabarat-kiskunfelegyhaza",
+      "name": "Bringabarát Kerékpárbolt",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/bringabarat-krekparbolt",
+      "notes": null
+    },
+    {
+      "id": "org-odor-mezokovesd",
+      "name": "Ódor Kerékvár",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/odor-kerekvar",
+      "notes": null
+    },
+    {
+      "id": "org-valto-gyomro",
+      "name": "Váltó Kerékpárüzlet",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/valto-kerekparuezlet",
+      "notes": null
+    },
+    {
+      "id": "org-nor-bike-kiskunfelegyhaza",
+      "name": "Nor-Bike Kerékpábolt",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/nor-bike-kerekpabolt",
+      "notes": null
+    },
+    {
+      "id": "org-r-bike-komarom",
+      "name": "R Bike",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/r-bike",
+      "notes": null
+    },
+    {
+      "id": "org-kerekpar-szakuzlet-baja",
+      "name": "Kerékpár Szaküzlet Baja",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/kerekpar-szakuezlet-baja",
+      "notes": null
+    },
+    {
+      "id": "org-no-limit-dunakeszi",
+      "name": "No Limit Kerékpár",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/no-limit-kerekpar",
+      "notes": null
+    },
+    {
+      "id": "org-winkler-sport-dunakeszi",
+      "name": "Winkler Sport",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/winkler-sport",
+      "notes": null
+    },
+    {
+      "id": "org-mountain-beka-budakeszi",
+      "name": "Mountain-Béka",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/mountain-beka",
+      "notes": null
+    },
+    {
+      "id": "org-pap-kerekpar-budapest",
+      "name": "Pap Kerékpár",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/Pap-Kerekpar",
+      "notes": null
+    },
+    {
+      "id": "org-kimibike-budapest",
+      "name": "KimiBike Kerékpár Szaküzlet",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/kimibike-kerekpar-szakuezlet",
+      "notes": null
+    },
+    {
+      "id": "org-roto-bike-budapest",
+      "name": "Roto Bike",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/roto-bike",
+      "notes": null
+    },
+    {
+      "id": "org-biondo-bike-budapest",
+      "name": "Biondo Bike kerékpárüzlet",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/biondo-bike-kerekparuezlet",
+      "notes": null
+    },
+    {
+      "id": "org-tutto-bici-torokbalint",
+      "name": "Tutto Bici Kerékpárbolt",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/tutto-bici-kerekparbolt",
+      "notes": null
+    },
+    {
+      "id": "org-speedy-bekescsaba",
+      "name": "Speedy Kerékpárüzlet",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/speedy-kerekparuezlet",
+      "notes": null
+    },
+    {
+      "id": "org-bakony-sport-ajka",
+      "name": "Bakony Sport",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/bakony-sport",
+      "notes": null
+    },
+    {
+      "id": "org-e-bike-szentes",
+      "name": "Elektromos kerékpár és kerékpárbolt & szervíz (Szentes)",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/elektromos-kerekpar-es-kerekparbolt-szerviz",
+      "notes": null
+    },
+    {
+      "id": "org-dynamic-sport-veresegyhaz",
+      "name": "Dynamic Sport Kerékpárüzlet",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/dynamic-sport-kerekparuezlet",
+      "notes": null
+    },
+    {
+      "id": "org-belobike-biatorbagy",
+      "name": "BeloBike",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/belobike",
+      "notes": null
+    },
+    {
+      "id": "org-bike-palota-budapest",
+      "name": "Bike Palota",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/bike-palota",
+      "notes": null
+    },
+    {
+      "id": "org-horex-god",
+      "name": "Horex Kerékpárbolt",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/horex-kerekparbolt",
+      "notes": null
+    },
+    {
+      "id": "org-laszlo-kerekpar-i-budapest",
+      "name": "László Kerékpár I.",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/laszlo-kerekpar-i",
+      "notes": null
+    },
+    {
+      "id": "org-farkas-totkomlos",
+      "name": "Farkas Kerékpárbolt",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/farkas-kerekparbolt",
+      "notes": null
+    },
+    {
+      "id": "org-zolikerekpar-tat",
+      "name": "Zolikerékpár",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/Zolikerekpar",
+      "notes": null
+    },
+    {
+      "id": "org-ride-bike-rakoczi-budapest",
+      "name": "Ride Bike – Rákóczi",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/ride-bike-rakoczi",
+      "notes": null
+    },
+    {
+      "id": "org-laszlo-kerekpar-ii-budapest",
+      "name": "László Kerékpár II.",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/laszlo-kerekpar-ii",
+      "notes": null
+    },
+    {
+      "id": "org-watthajtas-budaors",
+      "name": "Watthajtás",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/watthajtas",
+      "notes": null
+    },
+    {
+      "id": "org-kerekpar-szakuzlet-kalocsa",
+      "name": "Kerékpár Szaküzlet Kalocsa",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/kerekpar-szakuezlet-kalocsa",
+      "notes": null
     }
   ]
 }

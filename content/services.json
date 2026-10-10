@@ -1073,6 +1073,312 @@
       "role": "e-bike-szerviz",
       "sourceUrl": "https://karikazzunk.hu/szerviz/",
       "notes": "Oldal szerint Bosch és Bafang diagnosztika; nem minden motorrendszer."
+    },
+    {
+      "id": "svc-golyan-balassagyarmat-eladas",
+      "locationId": "loc-golyan-balassagyarmat",
+      "role": "eladas",
+      "sourceUrl": "https://golyankerekpar.hu/shop_contact.php"
+    },
+    {
+      "id": "svc-golyan-balassagyarmat-szerviz",
+      "locationId": "loc-golyan-balassagyarmat",
+      "role": "szerviz",
+      "sourceUrl": "https://golyankerekpar.hu/spg/565567/Kapcsolat"
+    },
+    {
+      "id": "svc-ciklotour-jaszbereny-eladas",
+      "locationId": "loc-ciklotour-jaszbereny",
+      "role": "eladas",
+      "sourceUrl": "https://ciklotourkerekpar.hu/"
+    },
+    {
+      "id": "svc-ciklotour-jaszbereny-szerviz",
+      "locationId": "loc-ciklotour-jaszbereny",
+      "role": "szerviz",
+      "sourceUrl": "https://ciklotourkerekpar.hu/"
+    },
+    {
+      "id": "svc-ciklotour-jaszbereny-e-bike-szerviz",
+      "locationId": "loc-ciklotour-jaszbereny",
+      "role": "e-bike-szerviz",
+      "sourceUrl": "https://ciklotourkerekpar.hu/"
+    },
+    {
+      "id": "svc-jbike-center-jaszbereny-eladas",
+      "locationId": "loc-jbike-center-jaszbereny",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/jbike-center"
+    },
+    {
+      "id": "svc-gyulabringa-gyula-eladas",
+      "locationId": "loc-gyulabringa-gyula",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/gyulabringa-kerekparbolt"
+    },
+    {
+      "id": "svc-kero-depo-oroshaza-eladas",
+      "locationId": "loc-kero-depo-oroshaza",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/Kero-Depo"
+    },
+    {
+      "id": "svc-toth-ozd-eladas",
+      "locationId": "loc-toth-ozd",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/Toth-Kerekparszakuzlet-es-Szerviz"
+    },
+    {
+      "id": "svc-rb-batonyterenye-eladas",
+      "locationId": "loc-rb-batonyterenye",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/r-b-kerekparszakuezlet"
+    },
+    {
+      "id": "svc-pedal-hatvan-horvath-eladas",
+      "locationId": "loc-pedal-hatvan-horvath",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/Pedal-Kerekparszakuzlet"
+    },
+    {
+      "id": "svc-pedal-hatvan-kossuth-eladas",
+      "locationId": "loc-pedal-hatvan-kossuth",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/pedal-kerekparuezlet-hatvan-2"
+    },
+    {
+      "id": "svc-freeriderz-miskolc-eladas",
+      "locationId": "loc-freeriderz-miskolc",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/freeriderz-bikeshop"
+    },
+    {
+      "id": "svc-stop-shop-kazincbarcika-eladas",
+      "locationId": "loc-stop-shop-kazincbarcika",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/stop-shop-kerekparszakuezlet"
+    },
+    {
+      "id": "svc-excelsior-miskolc-eladas",
+      "locationId": "loc-excelsior-miskolc",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/excelsior-sportcentrum"
+    },
+    {
+      "id": "svc-akosbike-godollo-eladas",
+      "locationId": "loc-akosbike-godollo",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/akosbike"
+    },
+    {
+      "id": "svc-gyore-cegled-eladas",
+      "locationId": "loc-gyore-cegled",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/Gyore-Kerekpar-Centrum"
+    },
+    {
+      "id": "svc-tito-nagykata-eladas",
+      "locationId": "loc-tito-nagykata",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/tito-bike-shop"
+    },
+    {
+      "id": "svc-nyolcas-hodmezovasarhely-eladas",
+      "locationId": "loc-nyolcas-hodmezovasarhely",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/nyolcas-kerekpar-uezlet"
+    },
+    {
+      "id": "svc-kerekparudvar-mako-eladas",
+      "locationId": "loc-kerekparudvar-mako",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/kerekparudvar"
+    },
+    {
+      "id": "svc-drotszamar-hodmezovasarhely-eladas",
+      "locationId": "loc-drotszamar-hodmezovasarhely",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/drotszamar-kerekparbolt"
+    },
+    {
+      "id": "svc-veloport-hodmezovasarhely-eladas",
+      "locationId": "loc-veloport-hodmezovasarhely",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/veloport-kerekparuezlet"
+    },
+    {
+      "id": "svc-garage-bike-tech-tiszaujvaros-eladas",
+      "locationId": "loc-garage-bike-tech-tiszaujvaros",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/garage-bike-tech"
+    },
+    {
+      "id": "svc-bringabarat-kiskunfelegyhaza-eladas",
+      "locationId": "loc-bringabarat-kiskunfelegyhaza",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/bringabarat-krekparbolt"
+    },
+    {
+      "id": "svc-odor-mezokovesd-eladas",
+      "locationId": "loc-odor-mezokovesd",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/odor-kerekvar"
+    },
+    {
+      "id": "svc-valto-gyomro-eladas",
+      "locationId": "loc-valto-gyomro",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/valto-kerekparuezlet"
+    },
+    {
+      "id": "svc-nor-bike-kiskunfelegyhaza-eladas",
+      "locationId": "loc-nor-bike-kiskunfelegyhaza",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/nor-bike-kerekpabolt"
+    },
+    {
+      "id": "svc-r-bike-komarom-eladas",
+      "locationId": "loc-r-bike-komarom",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/r-bike"
+    },
+    {
+      "id": "svc-kerekpar-szakuzlet-baja-eladas",
+      "locationId": "loc-kerekpar-szakuzlet-baja",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/kerekpar-szakuezlet-baja"
+    },
+    {
+      "id": "svc-no-limit-dunakeszi-eladas",
+      "locationId": "loc-no-limit-dunakeszi",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/no-limit-kerekpar"
+    },
+    {
+      "id": "svc-winkler-sport-dunakeszi-eladas",
+      "locationId": "loc-winkler-sport-dunakeszi",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/winkler-sport"
+    },
+    {
+      "id": "svc-mountain-beka-budakeszi-eladas",
+      "locationId": "loc-mountain-beka-budakeszi",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/mountain-beka"
+    },
+    {
+      "id": "svc-pap-kerekpar-budapest-eladas",
+      "locationId": "loc-pap-kerekpar-budapest",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/Pap-Kerekpar"
+    },
+    {
+      "id": "svc-kimibike-budapest-eladas",
+      "locationId": "loc-kimibike-budapest",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/kimibike-kerekpar-szakuezlet"
+    },
+    {
+      "id": "svc-roto-bike-budapest-eladas",
+      "locationId": "loc-roto-bike-budapest",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/roto-bike"
+    },
+    {
+      "id": "svc-biondo-bike-budapest-eladas",
+      "locationId": "loc-biondo-bike-budapest",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/biondo-bike-kerekparuezlet"
+    },
+    {
+      "id": "svc-tutto-bici-torokbalint-eladas",
+      "locationId": "loc-tutto-bici-torokbalint",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/tutto-bici-kerekparbolt"
+    },
+    {
+      "id": "svc-speedy-bekescsaba-eladas",
+      "locationId": "loc-speedy-bekescsaba",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/speedy-kerekparuezlet"
+    },
+    {
+      "id": "svc-bakony-sport-ajka-eladas",
+      "locationId": "loc-bakony-sport-ajka",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/bakony-sport"
+    },
+    {
+      "id": "svc-e-bike-szentes-eladas",
+      "locationId": "loc-e-bike-szentes",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/elektromos-kerekpar-es-kerekparbolt-szerviz"
+    },
+    {
+      "id": "svc-dynamic-sport-veresegyhaz-eladas",
+      "locationId": "loc-dynamic-sport-veresegyhaz",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/dynamic-sport-kerekparuezlet"
+    },
+    {
+      "id": "svc-belobike-biatorbagy-eladas",
+      "locationId": "loc-belobike-biatorbagy",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/belobike"
+    },
+    {
+      "id": "svc-bike-palota-budapest-eladas",
+      "locationId": "loc-bike-palota-budapest",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/bike-palota"
+    },
+    {
+      "id": "svc-horex-god-eladas",
+      "locationId": "loc-horex-god",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/horex-kerekparbolt"
+    },
+    {
+      "id": "svc-laszlo-kerekpar-i-budapest-eladas",
+      "locationId": "loc-laszlo-kerekpar-i-budapest",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/laszlo-kerekpar-i"
+    },
+    {
+      "id": "svc-farkas-totkomlos-eladas",
+      "locationId": "loc-farkas-totkomlos",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/farkas-kerekparbolt"
+    },
+    {
+      "id": "svc-zolikerekpar-tat-eladas",
+      "locationId": "loc-zolikerekpar-tat",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/Zolikerekpar"
+    },
+    {
+      "id": "svc-ride-bike-rakoczi-budapest-eladas",
+      "locationId": "loc-ride-bike-rakoczi-budapest",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/ride-bike-rakoczi"
+    },
+    {
+      "id": "svc-laszlo-kerekpar-ii-budapest-eladas",
+      "locationId": "loc-laszlo-kerekpar-ii-budapest",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/laszlo-kerekpar-ii"
+    },
+    {
+      "id": "svc-watthajtas-budaors-eladas",
+      "locationId": "loc-watthajtas-budaors",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/watthajtas"
+    },
+    {
+      "id": "svc-kerekpar-szakuzlet-kalocsa-eladas",
+      "locationId": "loc-kerekpar-szakuzlet-kalocsa",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/kerekpar-szakuezlet-kalocsa"
     }
   ],
   "organizationLevelNotes": [

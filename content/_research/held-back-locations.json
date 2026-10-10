@@ -110,6 +110,26 @@
       "city": "Agárd",
       "reason": "Nincs saját/hivatalos oldal; csak gyűjtő/nyitvatartás oldalak.",
       "candidateUrl": null
+    },
+    {
+      "name": "FreeBike Sportcentrum",
+      "city": "Balassagyarmat",
+      "reason": "freebike.hu csak üres WordPress; nincs kellő elsődleges forrás",
+      "candidateUrl": "https://www.freebike.hu/"
+    },
+    {
+      "name": "Amanita Kerékpár Üzlet és Szerviz",
+      "city": "Salgótarján",
+      "reason": "Csak gyűjtőoldal (megyerikerekpar); nincs saját/hivatalos üzleti oldal",
+      "candidateUrl": "https://megyerikerekpar.hu/amanita-kereskedelmi-es-szolgaltato-bt-kerekpar-uzlet-es-szerviz"
+    }
+  ],
+  "mergedDuplicates": [
+    {
+      "removedId": "loc-kuszi-veszprem",
+      "canonicalId": "loc-kuszi-kerekpar-veszprem",
+      "reason": "Ugyanaz a telephely: Szegfű/Szekfű u. 11 írásváltozat; a meglévő saját weboldalas rekord maradt.",
+      "accessedAt": "2026-10-10"
     }
   ]
 }

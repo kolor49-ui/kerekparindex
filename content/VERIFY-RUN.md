@@ -9,33 +9,57 @@ Result: **PASS**
 ```json
 {
   "brands": 10,
-  "organizations": 101,
-  "locations": 103,
-  "services": 177,
+  "organizations": 149,
+  "locations": 151,
+  "services": 228,
   "products": 12,
   "variants": 12,
-  "evidence": 183,
+  "evidence": 231,
   "explainers": 6,
   "comparisons": 3,
   "articleMarkdown": 9,
-  "brandLinks": 48,
+  "brandLinks": 70,
   "cities": [
+    "Ajka",
+    "Baja",
+    "Balassagyarmat",
     "Balatonfüred",
+    "Biatorbágy",
+    "Budakeszi",
     "Budapest",
+    "Budaörs",
+    "Bátonyterenye",
     "Békéscsaba",
+    "Cegléd",
     "Debrecen",
+    "Dunakeszi",
     "Dunaújváros",
     "Eger",
     "Esztergom",
+    "Gyula",
+    "Gyömrő",
     "Gyöngyös",
     "Győr",
+    "Göd",
+    "Gödöllő",
+    "Hatvan",
+    "Hódmezővásárhely",
+    "Jászberény",
+    "Kalocsa",
     "Kaposvár",
+    "Kazincbarcika",
     "Kecskemét",
     "Keszthely",
+    "Kiskunfélegyháza",
+    "Komárom",
     "Körmend",
+    "Makó",
+    "Mezőkövesd",
     "Miskolc",
     "Nagykanizsa",
+    "Nagykáta",
     "Nyíregyháza",
+    "Orosháza",
     "Pápa",
     "Pécs",
     "Salgótarján",
@@ -44,16 +68,23 @@ Result: **PASS**
     "Szeged",
     "Szekszárd",
     "Szentendre",
+    "Szentes",
     "Szolnok",
     "Szombathely",
     "Székesfehérvár",
     "Tatabánya",
     "Tiszafüred",
+    "Tiszaújváros",
+    "Tát",
+    "Tótkomlós",
+    "Törökbálint",
     "Velence",
+    "Veresegyház",
     "Veszprém",
     "Vác",
     "Zalaegerszeg",
-    "Érd"
+    "Érd",
+    "Ózd"
   ]
 }
 ```
@@ -67,7 +98,7 @@ Result: **PASS**
     "előkészített": 1
   },
   "locations": {
-    "ellenőrzött": 103
+    "ellenőrzött": 151
   },
   "variants": {
     "ellenőrzött": 10,
@@ -80,25 +111,25 @@ Result: **PASS**
     "ellenőrzött": 3
   },
   "evidence": {
-    "ellenőrzött": 179,
+    "ellenőrzött": 227,
     "előkészített": 3,
     "hiányos": 1
   },
-  "services": 177
+  "services": 228
 }
 ```
 
 ## Checks
 
 - PASS: `required_files` — all present
-- PASS: `count_brands_10` — 10
-- PASS: `count_locations_at_least_20` — 103
+- PASS: `count_brands_at_least_10` — 10
+- PASS: `count_locations_at_least_20` — 151
 - PASS: `count_variants_12` — 12
 - PASS: `count_explainers_6` — 6
 - PASS: `count_comparisons_3` — 3
 - PASS: `count_comparison_groups_3` — 3
-- PASS: `cities_at_least_6_total` — ['Balatonfüred', 'Budapest', 'Békéscsaba', 'Debrecen', 'Dunaújváros', 'Eger', 'Esztergom', 'Gyöngyös', 'Győr', 'Kaposvár', 'Kecskemét', 'Keszthely', 'Körmend', 'Miskolc', 'Nagykanizsa', 'Nyíregyháza', 'Pápa', 'Pécs', 'Salgótarján', 'Siófok', 'Sopron', 'Szeged', 'Szekszárd', 'Szentendre', 'Szolnok', 'Szombathely', 'Székesfehérvár', 'Tatabánya', 'Tiszafüred', 'Velence', 'Veszprém', 'Vác', 'Zalaegerszeg', 'Érd']
-- PASS: `cities_non_budapest_at_least_5` — ['Balatonfüred', 'Békéscsaba', 'Debrecen', 'Dunaújváros', 'Eger', 'Esztergom', 'Gyöngyös', 'Győr', 'Kaposvár', 'Kecskemét', 'Keszthely', 'Körmend', 'Miskolc', 'Nagykanizsa', 'Nyíregyháza', 'Pápa', 'Pécs', 'Salgótarján', 'Siófok', 'Sopron', 'Szeged', 'Szekszárd', 'Szentendre', 'Szolnok', 'Szombathely', 'Székesfehérvár', 'Tatabánya', 'Tiszafüred', 'Velence', 'Veszprém', 'Vác', 'Zalaegerszeg', 'Érd']
+- PASS: `cities_at_least_6_total` — ['Ajka', 'Baja', 'Balassagyarmat', 'Balatonfüred', 'Biatorbágy', 'Budakeszi', 'Budapest', 'Budaörs', 'Bátonyterenye', 'Békéscsaba', 'Cegléd', 'Debrecen', 'Dunakeszi', 'Dunaújváros', 'Eger', 'Esztergom', 'Gyula', 'Gyömrő', 'Gyöngyös', 'Győr', 'Göd', 'Gödöllő', 'Hatvan', 'Hódmezővásárhely', 'Jászberény', 'Kalocsa', 'Kaposvár', 'Kazincbarcika', 'Kecskemét', 'Keszthely', 'Kiskunfélegyháza', 'Komárom', 'Körmend', 'Makó', 'Mezőkövesd', 'Miskolc', 'Nagykanizsa', 'Nagykáta', 'Nyíregyháza', 'Orosháza', 'Pápa', 'Pécs', 'Salgótarján', 'Siófok', 'Sopron', 'Szeged', 'Szekszárd', 'Szentendre', 'Szentes', 'Szolnok', 'Szombathely', 'Székesfehérvár', 'Tatabánya', 'Tiszafüred', 'Tiszaújváros', 'Tát', 'Tótkomlós', 'Törökbálint', 'Velence', 'Veresegyház', 'Veszprém', 'Vác', 'Zalaegerszeg', 'Érd', 'Ózd']
+- PASS: `cities_non_budapest_at_least_5` — ['Ajka', 'Baja', 'Balassagyarmat', 'Balatonfüred', 'Biatorbágy', 'Budakeszi', 'Budaörs', 'Bátonyterenye', 'Békéscsaba', 'Cegléd', 'Debrecen', 'Dunakeszi', 'Dunaújváros', 'Eger', 'Esztergom', 'Gyula', 'Gyömrő', 'Gyöngyös', 'Győr', 'Göd', 'Gödöllő', 'Hatvan', 'Hódmezővásárhely', 'Jászberény', 'Kalocsa', 'Kaposvár', 'Kazincbarcika', 'Kecskemét', 'Keszthely', 'Kiskunfélegyháza', 'Komárom', 'Körmend', 'Makó', 'Mezőkövesd', 'Miskolc', 'Nagykanizsa', 'Nagykáta', 'Nyíregyháza', 'Orosháza', 'Pápa', 'Pécs', 'Salgótarján', 'Siófok', 'Sopron', 'Szeged', 'Szekszárd', 'Szentendre', 'Szentes', 'Szolnok', 'Szombathely', 'Székesfehérvár', 'Tatabánya', 'Tiszafüred', 'Tiszaújváros', 'Tát', 'Tótkomlós', 'Törökbálint', 'Velence', 'Veresegyház', 'Veszprém', 'Vác', 'Zalaegerszeg', 'Érd', 'Ózd']
 - PASS: `unique_ids_brands` — ok
 - PASS: `unique_ids_locations` — ok
 - PASS: `unique_ids_services` — ok
@@ -111,13 +142,13 @@ Result: **PASS**
 - PASS: `locations_organizationId_resolve` — ok
 - PASS: `services_locationId_resolve` — ok
 - PASS: `services_have_sourceUrl` — ok
-- PASS: `brand_links_and_location_evidence` — ok linked=48
-- PASS: `brand_links_at_least_8` — 48
+- PASS: `brand_links_and_location_evidence` — ok linked=70
+- PASS: `brand_links_at_least_8` — 70
 - PASS: `rekord_szerviz_not_on_locations` — ok
 - PASS: `variant_evidence_supports_and_titles` — ok
 - PASS: `location_evidence_pageTitles` — ok
 - PASS: `status_vocabulary` — ok
-- PASS: `publishable_brands_10` — 10
+- PASS: `publishable_brands_at_least_10` — 10
 - PASS: `publishable_variants_12` — 12
 - PASS: `article_markdown_files_9` — ['e-bike-tomeg-magyarazo.md', 'e-bike-motor-magyarazo.md', 'e-bike-nyomatek-nm-magyarazo.md', 'osszehasonlitas-varosi-trekking-e-bike.md', 'e-bike-szervizhatter-magyarazo.md', 'e-bike-hatotav-magyarazo.md', 'e-bike-akkukapacitas-wh-magyarazo.md', 'osszehasonlitas-varosi-komfort-e-bike.md', 'osszehasonlitas-e-mtb.md']
 - PASS: `article_md_matches_json_slugs` — ok

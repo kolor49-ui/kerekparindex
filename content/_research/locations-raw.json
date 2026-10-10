@@ -1171,7 +1171,14 @@
         "kerekpar@kuszi.hu"
       ],
       "status": "ellenőrzött",
-      "brandClaims": [],
+      "brandClaims": [
+        {
+          "brand": "Merida",
+          "relation": "sells_brand",
+          "sourceUrl": "https://bikefun.hu/shops/kuszi-kerekparuezlet",
+          "quote": "Merida dealer"
+        }
+      ],
       "notes": "Fizikai üzlet a webshop mellett."
     },
     {
@@ -2223,6 +2230,965 @@
       "status": "ellenőrzött",
       "brandClaims": [],
       "notes": "Házszám a forráson nem szerepel."
+    },
+    {
+      "id": "loc-golyan-balassagyarmat",
+      "organizationId": "org-golyan-balassagyarmat",
+      "name": "Golyán Kerékpár Szaküzlet és Szerviz",
+      "address": "2660 Balassagyarmat, Köztársaság tér 1.",
+      "city": "Balassagyarmat",
+      "website": "https://golyankerekpar.hu/",
+      "phone": [
+        "+36 70 734 3300"
+      ],
+      "email": [
+        "shop@golyankerekpar.hu"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [],
+      "notes": "Saját kapcsolat oldal: személyes átvétel/szaküzlet Balassagyarmaton; Kapcsolat oldal „szaküzlet és szerviz”."
+    },
+    {
+      "id": "loc-ciklotour-jaszbereny",
+      "organizationId": "org-ciklotour-jaszbereny",
+      "name": "Ciklotour Kerékpár Szaküzlet és Szerviz",
+      "address": "5100 Jászberény, Zoltán utca 12.",
+      "city": "Jászberény",
+      "website": "https://ciklotourkerekpar.hu/",
+      "phone": [
+        "+36 57 405 055"
+      ],
+      "email": [
+        "ciklotourbt@gmail.com"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [],
+      "notes": "Saját oldal: értékesítés + általános szerviz + e-bike diagnosztika/javítás."
+    },
+    {
+      "id": "loc-jbike-center-jaszbereny",
+      "organizationId": "org-jbike-center-jaszbereny",
+      "name": "JBike Center",
+      "address": "5100 Jászberény, Palotásy J. utca 7.",
+      "city": "Jászberény",
+      "website": "https://bikefun.hu/shops/jbike-center",
+      "phone": [
+        "+36 57 503 075"
+      ],
+      "email": [
+        "jbike@freemail.hu"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [],
+      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás (Merida/BikeFun márkakereskedés). Szerviz nincs igazolva erről az oldalról."
+    },
+    {
+      "id": "loc-gyulabringa-gyula",
+      "organizationId": "org-gyulabringa-gyula",
+      "name": "Gyulabringa Kerékpárbolt",
+      "address": "5700 Gyula, Nagyváradi út 23.",
+      "city": "Gyula",
+      "website": "https://bikefun.hu/shops/gyulabringa-kerekparbolt",
+      "phone": [
+        "+36 30 548 4260"
+      ],
+      "email": [
+        "gyulabringa@gmail.com"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [],
+      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás (Merida/BikeFun márkakereskedés). Szerviz nincs igazolva erről az oldalról."
+    },
+    {
+      "id": "loc-kero-depo-oroshaza",
+      "organizationId": "org-kero-depo-oroshaza",
+      "name": "Keró Depó",
+      "address": "5900 Orosháza, Lehel utca 66.",
+      "city": "Orosháza",
+      "website": "https://bikefun.hu/shops/Kero-Depo",
+      "phone": [
+        "+36 70 315 2053"
+      ],
+      "email": [
+        "kerodepo@citromail.hu"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [
+        {
+          "brand": "Merida",
+          "relation": "sells_brand",
+          "sourceUrl": "https://bikefun.hu/shops/Kero-Depo",
+          "quote": "Merida dealer"
+        }
+      ],
+      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás (Merida/BikeFun márkakereskedés). Szerviz nincs igazolva erről az oldalról."
+    },
+    {
+      "id": "loc-toth-ozd",
+      "organizationId": "org-toth-ozd",
+      "name": "Tóth Kerékpárszaküzlet és Szerviz",
+      "address": "3661 Ózd, Nyárjasalja u. 19.",
+      "city": "Ózd",
+      "website": "https://bikefun.hu/shops/Toth-Kerekparszakuzlet-es-Szerviz",
+      "phone": [
+        "+36 20 971 5869",
+        "+36 48 476 195"
+      ],
+      "email": [
+        "tothbike@t-online.hu"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [],
+      "notes": "BikeFun kereskedőoldal; név tartalmazza a szervizt, de az oldal nem ír le szervizszolgáltatást — publikált szerep: csak eladás."
+    },
+    {
+      "id": "loc-rb-batonyterenye",
+      "organizationId": "org-rb-batonyterenye",
+      "name": "R+B Kerékpárszaküzlet",
+      "address": "3078 Bátonyterenye, Zrínyi út 122.",
+      "city": "Bátonyterenye",
+      "website": "https://bikefun.hu/shops/r-b-kerekparszakuezlet",
+      "phone": [
+        "+36 32 350 500"
+      ],
+      "email": [
+        "rb.kft90@gmail.com"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [
+        {
+          "brand": "Merida",
+          "relation": "sells_brand",
+          "sourceUrl": "https://bikefun.hu/shops/r-b-kerekparszakuezlet",
+          "quote": "Merida dealer"
+        }
+      ],
+      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás (Merida/BikeFun márkakereskedés). Szerviz nincs igazolva erről az oldalról."
+    },
+    {
+      "id": "loc-pedal-hatvan-horvath",
+      "organizationId": "org-pedal-hatvan-horvath",
+      "name": "Pedál Kerékpárszaküzlet (Hatvan)",
+      "address": "3000 Hatvan, Horváth M. u. 7.",
+      "city": "Hatvan",
+      "website": "https://bikefun.hu/shops/Pedal-Kerekparszakuzlet",
+      "phone": [
+        "+36 37 343 090"
+      ],
+      "email": [
+        "pedalhatvan@t-online.hu"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [],
+      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás (Merida/BikeFun márkakereskedés). Szerviz nincs igazolva erről az oldalról."
+    },
+    {
+      "id": "loc-pedal-hatvan-kossuth",
+      "organizationId": "org-pedal-hatvan-kossuth",
+      "name": "Pedál Kerékpárüzlet (Hatvan 2)",
+      "address": "3000 Hatvan, Kossuth tér 12/3",
+      "city": "Hatvan",
+      "website": "https://bikefun.hu/shops/pedal-kerekparuezlet-hatvan-2",
+      "phone": [
+        "+36 37 343 090"
+      ],
+      "email": [
+        "pedalhatvan@t-online.hu"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [
+        {
+          "brand": "Merida",
+          "relation": "sells_brand",
+          "sourceUrl": "https://bikefun.hu/shops/pedal-kerekparuezlet-hatvan-2",
+          "quote": "Merida dealer"
+        }
+      ],
+      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás (Merida/BikeFun márkakereskedés). Szerviz nincs igazolva erről az oldalról."
+    },
+    {
+      "id": "loc-freeriderz-miskolc",
+      "organizationId": "org-freeriderz-miskolc",
+      "name": "Freeriderz Bikeshop",
+      "address": "3530 Miskolc, Árpád út 13.",
+      "city": "Miskolc",
+      "website": "https://bikefun.hu/shops/freeriderz-bikeshop",
+      "phone": [
+        "+36 46 789 303"
+      ],
+      "email": [
+        "freeriderzbikeshop@gmail.com"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [],
+      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás (Merida/BikeFun márkakereskedés). Szerviz nincs igazolva erről az oldalról."
+    },
+    {
+      "id": "loc-stop-shop-kazincbarcika",
+      "organizationId": "org-stop-shop-kazincbarcika",
+      "name": "Stop Shop Kerékpárszaküzlet",
+      "address": "3700 Kazincbarcika, Csokonai út 30.",
+      "city": "Kazincbarcika",
+      "website": "https://bikefun.hu/shops/stop-shop-kerekparszakuezlet",
+      "phone": [
+        "+36 48 315 134"
+      ],
+      "email": [
+        "pedalbarcika@t-online.hu"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [],
+      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás (Merida/BikeFun márkakereskedés). Szerviz nincs igazolva erről az oldalról."
+    },
+    {
+      "id": "loc-excelsior-miskolc",
+      "organizationId": "org-excelsior-miskolc",
+      "name": "Excelsior Sportcentrum",
+      "address": "3516 Miskolc, Pesti út 62.",
+      "city": "Miskolc",
+      "website": "https://bikefun.hu/shops/excelsior-sportcentrum",
+      "phone": [
+        "+36 46 791 407"
+      ],
+      "email": [
+        "bikegift.hu@gmail.com"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [
+        {
+          "brand": "Merida",
+          "relation": "sells_brand",
+          "sourceUrl": "https://bikefun.hu/shops/excelsior-sportcentrum",
+          "quote": "Merida dealer"
+        }
+      ],
+      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás (Merida/BikeFun márkakereskedés). Szerviz nincs igazolva erről az oldalról."
+    },
+    {
+      "id": "loc-akosbike-godollo",
+      "organizationId": "org-akosbike-godollo",
+      "name": "Ákosbike",
+      "address": "2100 Gödöllő, Szilhát utca 39.",
+      "city": "Gödöllő",
+      "website": "https://bikefun.hu/shops/akosbike",
+      "phone": [
+        "+36 70 504 0422"
+      ],
+      "email": [
+        "kerdes@akosbike.hu"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [],
+      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás (Merida/BikeFun márkakereskedés). Szerviz nincs igazolva erről az oldalról."
+    },
+    {
+      "id": "loc-gyore-cegled",
+      "organizationId": "org-gyore-cegled",
+      "name": "Györe Kerékpár Centrum",
+      "address": "2700 Cegléd, Kőrösi út 18.",
+      "city": "Cegléd",
+      "website": "https://bikefun.hu/shops/Gyore-Kerekpar-Centrum",
+      "phone": [
+        "+36 53 316 027",
+        "+36 30 349 4229"
+      ],
+      "email": [
+        "gyorekerekpar@t-online.hu"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [
+        {
+          "brand": "Merida",
+          "relation": "sells_brand",
+          "sourceUrl": "https://bikefun.hu/shops/Gyore-Kerekpar-Centrum",
+          "quote": "Merida dealer"
+        }
+      ],
+      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás (Merida/BikeFun márkakereskedés). Szerviz nincs igazolva erről az oldalról."
+    },
+    {
+      "id": "loc-tito-nagykata",
+      "organizationId": "org-tito-nagykata",
+      "name": "Titó Bike Shop",
+      "address": "2760 Nagykáta, Szabadság tér 7.",
+      "city": "Nagykáta",
+      "website": "https://bikefun.hu/shops/tito-bike-shop",
+      "phone": [
+        "+36 70 451 7635"
+      ],
+      "email": [
+        "minarovics78@gmail.com"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [
+        {
+          "brand": "Merida",
+          "relation": "sells_brand",
+          "sourceUrl": "https://bikefun.hu/shops/tito-bike-shop",
+          "quote": "Merida dealer"
+        }
+      ],
+      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás (Merida/BikeFun márkakereskedés). Szerviz nincs igazolva erről az oldalról."
+    },
+    {
+      "id": "loc-nyolcas-hodmezovasarhely",
+      "organizationId": "org-nyolcas-hodmezovasarhely",
+      "name": "Nyolcas Kerékpár üzlet",
+      "address": "6800 Hódmezővásárhely, Petőfi u. 3.",
+      "city": "Hódmezővásárhely",
+      "website": "https://bikefun.hu/shops/nyolcas-kerekpar-uezlet",
+      "phone": [
+        "+36 62 656 319"
+      ],
+      "email": [
+        "tradingpartnerm@freemail.hu"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [],
+      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás (Merida/BikeFun márkakereskedés). Szerviz nincs igazolva erről az oldalról."
+    },
+    {
+      "id": "loc-kerekparudvar-mako",
+      "organizationId": "org-kerekparudvar-mako",
+      "name": "Kerékpárudvar",
+      "address": "6900 Makó, Kálvin tér 1.",
+      "city": "Makó",
+      "website": "https://bikefun.hu/shops/kerekparudvar",
+      "phone": [
+        "+36 30 228 2550"
+      ],
+      "email": [
+        "kerekparudvar@t-online.hu"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [
+        {
+          "brand": "Merida",
+          "relation": "sells_brand",
+          "sourceUrl": "https://bikefun.hu/shops/kerekparudvar",
+          "quote": "Merida dealer"
+        }
+      ],
+      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás (Merida/BikeFun márkakereskedés). Szerviz nincs igazolva erről az oldalról."
+    },
+    {
+      "id": "loc-drotszamar-hodmezovasarhely",
+      "organizationId": "org-drotszamar-hodmezovasarhely",
+      "name": "Drótszamár Kerékpárbolt",
+      "address": "6800 Hódmezővásárhely, Oldalkosár utca 14.",
+      "city": "Hódmezővásárhely",
+      "website": "https://bikefun.hu/shops/drotszamar-kerekparbolt",
+      "phone": [
+        "+36 20 530 4544"
+      ],
+      "email": [
+        "drotszamar@dbike.hu"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [],
+      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás (Merida/BikeFun márkakereskedés). Szerviz nincs igazolva erről az oldalról."
+    },
+    {
+      "id": "loc-veloport-hodmezovasarhely",
+      "organizationId": "org-veloport-hodmezovasarhely",
+      "name": "Veloport Kerékpárüzlet",
+      "address": "6800 Hódmezővásárhely, Bakay u. 16.",
+      "city": "Hódmezővásárhely",
+      "website": "https://bikefun.hu/shops/veloport-kerekparuezlet",
+      "phone": [
+        "+36 70 609 1846"
+      ],
+      "email": [
+        "veloport@digikabel.hu"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [],
+      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás (Merida/BikeFun márkakereskedés). Szerviz nincs igazolva erről az oldalról."
+    },
+    {
+      "id": "loc-garage-bike-tech-tiszaujvaros",
+      "organizationId": "org-garage-bike-tech-tiszaujvaros",
+      "name": "Garage Bike Tech",
+      "address": "3580 Tiszaújváros, Bethlen Gábor út 15.",
+      "city": "Tiszaújváros",
+      "website": "https://bikefun.hu/shops/garage-bike-tech",
+      "phone": [
+        "+36 70 603 1039"
+      ],
+      "email": [
+        "garagebiketech@gmail.com"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [
+        {
+          "brand": "Merida",
+          "relation": "sells_brand",
+          "sourceUrl": "https://bikefun.hu/shops/garage-bike-tech",
+          "quote": "Merida dealer"
+        }
+      ],
+      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás (Merida/BikeFun márkakereskedés). Szerviz nincs igazolva erről az oldalról."
+    },
+    {
+      "id": "loc-bringabarat-kiskunfelegyhaza",
+      "organizationId": "org-bringabarat-kiskunfelegyhaza",
+      "name": "Bringabarát Kerékpárbolt",
+      "address": "6100 Kiskunfélegyháza, Fekete Pál sétány 1/3 (Petőfi tér)",
+      "city": "Kiskunfélegyháza",
+      "website": "https://bikefun.hu/shops/bringabarat-krekparbolt",
+      "phone": [
+        "+36 20 251 0765"
+      ],
+      "email": [
+        "info@bringabarat.com"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [],
+      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás (Merida/BikeFun márkakereskedés). Szerviz nincs igazolva erről az oldalról."
+    },
+    {
+      "id": "loc-odor-mezokovesd",
+      "organizationId": "org-odor-mezokovesd",
+      "name": "Ódor Kerékvár",
+      "address": "3400 Mezőkövesd, Mátyás Király út 58.",
+      "city": "Mezőkövesd",
+      "website": "https://bikefun.hu/shops/odor-kerekvar",
+      "phone": [
+        "+36 49 415 715"
+      ],
+      "email": [
+        "odorkerekvar@gmail.com"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [
+        {
+          "brand": "Merida",
+          "relation": "sells_brand",
+          "sourceUrl": "https://bikefun.hu/shops/odor-kerekvar",
+          "quote": "Merida dealer"
+        }
+      ],
+      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás (Merida/BikeFun márkakereskedés). Szerviz nincs igazolva erről az oldalról."
+    },
+    {
+      "id": "loc-valto-gyomro",
+      "organizationId": "org-valto-gyomro",
+      "name": "Váltó Kerékpárüzlet",
+      "address": "2230 Gyömrő, Táncsics Mihály u. 100/A",
+      "city": "Gyömrő",
+      "website": "https://bikefun.hu/shops/valto-kerekparuezlet",
+      "phone": [
+        "+36 29 330 270"
+      ],
+      "email": [
+        "valtokerekpar@gmail.com"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [],
+      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás (Merida/BikeFun márkakereskedés). Szerviz nincs igazolva erről az oldalról."
+    },
+    {
+      "id": "loc-nor-bike-kiskunfelegyhaza",
+      "organizationId": "org-nor-bike-kiskunfelegyhaza",
+      "name": "Nor-Bike Kerékpábolt",
+      "address": "6100 Kiskunfélegyháza, Halasi út 2.",
+      "city": "Kiskunfélegyháza",
+      "website": "https://bikefun.hu/shops/nor-bike-kerekpabolt",
+      "phone": [
+        "+36 70 364 9115"
+      ],
+      "email": [
+        "norbike.tarsai@gmail.com"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [
+        {
+          "brand": "Merida",
+          "relation": "sells_brand",
+          "sourceUrl": "https://bikefun.hu/shops/nor-bike-kerekpabolt",
+          "quote": "Merida dealer"
+        }
+      ],
+      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás (Merida/BikeFun márkakereskedés). Szerviz nincs igazolva erről az oldalról."
+    },
+    {
+      "id": "loc-r-bike-komarom",
+      "organizationId": "org-r-bike-komarom",
+      "name": "R Bike",
+      "address": "2900 Komárom, Klapka György u. 35.",
+      "city": "Komárom",
+      "website": "https://bikefun.hu/shops/r-bike",
+      "phone": [
+        "+36 70 904 4204"
+      ],
+      "email": [
+        "info@rbike.hu"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [
+        {
+          "brand": "Merida",
+          "relation": "sells_brand",
+          "sourceUrl": "https://bikefun.hu/shops/r-bike",
+          "quote": "Merida dealer"
+        }
+      ],
+      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás (Merida/BikeFun márkakereskedés). Szerviz nincs igazolva erről az oldalról."
+    },
+    {
+      "id": "loc-kerekpar-szakuzlet-baja",
+      "organizationId": "org-kerekpar-szakuzlet-baja",
+      "name": "Kerékpár Szaküzlet Baja",
+      "address": "6500 Baja, Dózsa György u. 30-32.",
+      "city": "Baja",
+      "website": "https://bikefun.hu/shops/kerekpar-szakuezlet-baja",
+      "phone": [
+        "+36 30 208 2198"
+      ],
+      "email": [
+        "info@kalobike.hu"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [],
+      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás. Szerviz erről az oldalról nem igazolt."
+    },
+    {
+      "id": "loc-no-limit-dunakeszi",
+      "organizationId": "org-no-limit-dunakeszi",
+      "name": "No Limit Kerékpár",
+      "address": "2120 Dunakeszi, Fő út 86.",
+      "city": "Dunakeszi",
+      "website": "https://bikefun.hu/shops/no-limit-kerekpar",
+      "phone": [
+        "+36 20 358 6198"
+      ],
+      "email": [
+        "nolimitkerekpar@gmail.com"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [],
+      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás. Szerviz erről az oldalról nem igazolt."
+    },
+    {
+      "id": "loc-winkler-sport-dunakeszi",
+      "organizationId": "org-winkler-sport-dunakeszi",
+      "name": "Winkler Sport",
+      "address": "2120 Dunakeszi, Fő út 85.",
+      "city": "Dunakeszi",
+      "website": "https://bikefun.hu/shops/winkler-sport",
+      "phone": [
+        "+36 27 344 769"
+      ],
+      "email": [
+        "winklersport@vnet.hu"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [
+        {
+          "brand": "Merida",
+          "relation": "sells_brand",
+          "sourceUrl": "https://bikefun.hu/shops/winkler-sport",
+          "quote": "Merida dealer"
+        }
+      ],
+      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás. Szerviz erről az oldalról nem igazolt."
+    },
+    {
+      "id": "loc-mountain-beka-budakeszi",
+      "organizationId": "org-mountain-beka-budakeszi",
+      "name": "Mountain-Béka",
+      "address": "2092 Budakeszi, Táncsics Mihály utca 1.",
+      "city": "Budakeszi",
+      "website": "https://bikefun.hu/shops/mountain-beka",
+      "phone": [
+        "+36 20 932 4020"
+      ],
+      "email": [],
+      "status": "ellenőrzött",
+      "brandClaims": [],
+      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás. Szerviz erről az oldalról nem igazolt."
+    },
+    {
+      "id": "loc-pap-kerekpar-budapest",
+      "organizationId": "org-pap-kerekpar-budapest",
+      "name": "Pap Kerékpár",
+      "address": "1173 Budapest, Pesti u. 37.",
+      "city": "Budapest",
+      "website": "https://bikefun.hu/shops/Pap-Kerekpar",
+      "phone": [
+        "+36 1 256 3663",
+        "+36 20 361 2652"
+      ],
+      "email": [
+        "papkerekpar666@gmail.com"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [
+        {
+          "brand": "Merida",
+          "relation": "sells_brand",
+          "sourceUrl": "https://bikefun.hu/shops/Pap-Kerekpar",
+          "quote": "Merida dealer"
+        }
+      ],
+      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás. Szerviz erről az oldalról nem igazolt."
+    },
+    {
+      "id": "loc-kimibike-budapest",
+      "organizationId": "org-kimibike-budapest",
+      "name": "KimiBike Kerékpár Szaküzlet",
+      "address": "1163 Budapest, Veres Péter út 91.",
+      "city": "Budapest",
+      "website": "https://bikefun.hu/shops/kimibike-kerekpar-szakuezlet",
+      "phone": [],
+      "email": [],
+      "status": "ellenőrzött",
+      "brandClaims": [],
+      "notes": "BikeFun kereskedőoldal címmel és nyitvatartással; telefon a lapon nem szerepel — elérhetőség: hivatalos kereskedőoldal."
+    },
+    {
+      "id": "loc-roto-bike-budapest",
+      "organizationId": "org-roto-bike-budapest",
+      "name": "Roto Bike",
+      "address": "1181 Budapest, Üllői út 527.",
+      "city": "Budapest",
+      "website": "https://bikefun.hu/shops/roto-bike",
+      "phone": [
+        "+36 1 291 2847"
+      ],
+      "email": [
+        "rotobike@gmail.com"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [
+        {
+          "brand": "Merida",
+          "relation": "sells_brand",
+          "sourceUrl": "https://bikefun.hu/shops/roto-bike",
+          "quote": "Merida dealer"
+        }
+      ],
+      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás. Szerviz erről az oldalról nem igazolt."
+    },
+    {
+      "id": "loc-biondo-bike-budapest",
+      "organizationId": "org-biondo-bike-budapest",
+      "name": "Biondo Bike kerékpárüzlet",
+      "address": "1039 Budapest, Pünkösdfürdő utca 48.",
+      "city": "Budapest",
+      "website": "https://bikefun.hu/shops/biondo-bike-kerekparuezlet",
+      "phone": [
+        "+36 20 229 3950"
+      ],
+      "email": [
+        "cicliottime@gmail.com"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [],
+      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás. Szerviz erről az oldalról nem igazolt."
+    },
+    {
+      "id": "loc-tutto-bici-torokbalint",
+      "organizationId": "org-tutto-bici-torokbalint",
+      "name": "Tutto Bici Kerékpárbolt",
+      "address": "2045 Törökbálint, Szabadság tér 22.",
+      "city": "Törökbálint",
+      "website": "https://bikefun.hu/shops/tutto-bici-kerekparbolt",
+      "phone": [
+        "+36 20 321 6898"
+      ],
+      "email": [],
+      "status": "ellenőrzött",
+      "brandClaims": [],
+      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás. Szerviz erről az oldalról nem igazolt."
+    },
+    {
+      "id": "loc-speedy-bekescsaba",
+      "organizationId": "org-speedy-bekescsaba",
+      "name": "Speedy Kerékpárüzlet",
+      "address": "5600 Békéscsaba, Gyóni Géza u. 22.",
+      "city": "Békéscsaba",
+      "website": "https://bikefun.hu/shops/speedy-kerekparuezlet",
+      "phone": [
+        "+36 66 640 602"
+      ],
+      "email": [
+        "speedykerekpar@t-online.hu"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [
+        {
+          "brand": "Merida",
+          "relation": "sells_brand",
+          "sourceUrl": "https://bikefun.hu/shops/speedy-kerekparuezlet",
+          "quote": "Merida dealer"
+        }
+      ],
+      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás. Szerviz erről az oldalról nem igazolt."
+    },
+    {
+      "id": "loc-bakony-sport-ajka",
+      "organizationId": "org-bakony-sport-ajka",
+      "name": "Bakony Sport",
+      "address": "8400 Ajka, Petőfi Sándor utca 9-11.",
+      "city": "Ajka",
+      "website": "https://bikefun.hu/shops/bakony-sport",
+      "phone": [
+        "+36 70 624 3688"
+      ],
+      "email": [
+        "bakonysport@gmail.com"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [
+        {
+          "brand": "Merida",
+          "relation": "sells_brand",
+          "sourceUrl": "https://bikefun.hu/shops/bakony-sport",
+          "quote": "Merida dealer"
+        }
+      ],
+      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás. Szerviz erről az oldalról nem igazolt."
+    },
+    {
+      "id": "loc-e-bike-szentes",
+      "organizationId": "org-e-bike-szentes",
+      "name": "Elektromos kerékpár és kerékpárbolt & szervíz (Szentes)",
+      "address": "6600 Szentes, Ady Endre utca 43.",
+      "city": "Szentes",
+      "website": "https://bikefun.hu/shops/elektromos-kerekpar-es-kerekparbolt-szerviz",
+      "phone": [
+        "+36 63 782 710"
+      ],
+      "email": [
+        "misi6640@freemail.hu"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [],
+      "notes": "BikeFun kereskedőoldal; név tartalmazza a szervizt, de a lapon nincs szervizleírás — publikált szerep: csak eladás."
+    },
+    {
+      "id": "loc-dynamic-sport-veresegyhaz",
+      "organizationId": "org-dynamic-sport-veresegyhaz",
+      "name": "Dynamic Sport Kerékpárüzlet",
+      "address": "2112 Veresegyház, Erkel Ferenc tér 1.",
+      "city": "Veresegyház",
+      "website": "https://bikefun.hu/shops/dynamic-sport-kerekparuezlet",
+      "phone": [
+        "+36 30 333 7073"
+      ],
+      "email": [
+        "dynamicsport@vnet.hu"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [
+        {
+          "brand": "Merida",
+          "relation": "sells_brand",
+          "sourceUrl": "https://bikefun.hu/shops/dynamic-sport-kerekparuezlet",
+          "quote": "Merida dealer"
+        }
+      ],
+      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás. Szerviz erről az oldalról nem igazolt."
+    },
+    {
+      "id": "loc-belobike-biatorbagy",
+      "organizationId": "org-belobike-biatorbagy",
+      "name": "BeloBike",
+      "address": "2051 Biatorbágy, Csodaszarvas utca 4.",
+      "city": "Biatorbágy",
+      "website": "https://bikefun.hu/shops/belobike",
+      "phone": [
+        "+36 70 778 7916"
+      ],
+      "email": [
+        "hello@belobike.hu"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [
+        {
+          "brand": "Merida",
+          "relation": "sells_brand",
+          "sourceUrl": "https://bikefun.hu/shops/belobike",
+          "quote": "Merida dealer"
+        }
+      ],
+      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás. Szerviz erről az oldalról nem igazolt."
+    },
+    {
+      "id": "loc-bike-palota-budapest",
+      "organizationId": "org-bike-palota-budapest",
+      "name": "Bike Palota",
+      "address": "1154 Budapest, Szentmihályi út 132.",
+      "city": "Budapest",
+      "website": "https://bikefun.hu/shops/bike-palota",
+      "phone": [
+        "+36 30 292 2666"
+      ],
+      "email": [
+        "bikepalota@gmail.com"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [],
+      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás. Szerviz erről az oldalról nem igazolt."
+    },
+    {
+      "id": "loc-horex-god",
+      "organizationId": "org-horex-god",
+      "name": "Horex Kerékpárbolt",
+      "address": "2132 Göd, Ady Endre út 1/a.",
+      "city": "Göd",
+      "website": "https://bikefun.hu/shops/horex-kerekparbolt",
+      "phone": [
+        "+36 30 594 3623",
+        "+36 30 280 5931"
+      ],
+      "email": [
+        "horakbea@gmail.com"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [],
+      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás. Szerviz erről az oldalról nem igazolt."
+    },
+    {
+      "id": "loc-laszlo-kerekpar-i-budapest",
+      "organizationId": "org-laszlo-kerekpar-i-budapest",
+      "name": "László Kerékpár I.",
+      "address": "1192 Budapest, Határ út 30.",
+      "city": "Budapest",
+      "website": "https://bikefun.hu/shops/laszlo-kerekpar-i",
+      "phone": [
+        "+36 70 328 3275",
+        "+36 1 357 1385"
+      ],
+      "email": [
+        "laszlokerekpar11@gmail.com"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [],
+      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás. Szerviz erről az oldalról nem igazolt."
+    },
+    {
+      "id": "loc-farkas-totkomlos",
+      "organizationId": "org-farkas-totkomlos",
+      "name": "Farkas Kerékpárbolt",
+      "address": "5940 Tótkomlós, Fő út 10.",
+      "city": "Tótkomlós",
+      "website": "https://bikefun.hu/shops/farkas-kerekparbolt",
+      "phone": [
+        "+36 68 462 549"
+      ],
+      "email": [
+        "info@wolfbike.hu"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [
+        {
+          "brand": "Merida",
+          "relation": "sells_brand",
+          "sourceUrl": "https://bikefun.hu/shops/farkas-kerekparbolt",
+          "quote": "Merida dealer"
+        }
+      ],
+      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás. Szerviz erről az oldalról nem igazolt."
+    },
+    {
+      "id": "loc-zolikerekpar-tat",
+      "organizationId": "org-zolikerekpar-tat",
+      "name": "Zolikerékpár",
+      "address": "2534 Tát, Árpád út 22.",
+      "city": "Tát",
+      "website": "https://bikefun.hu/shops/Zolikerekpar",
+      "phone": [
+        "+36 30 966 8761"
+      ],
+      "email": [
+        "bolt@zolikerekpar.hu"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [
+        {
+          "brand": "Merida",
+          "relation": "sells_brand",
+          "sourceUrl": "https://bikefun.hu/shops/Zolikerekpar",
+          "quote": "Merida dealer"
+        }
+      ],
+      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás. Szerviz erről az oldalról nem igazolt."
+    },
+    {
+      "id": "loc-ride-bike-rakoczi-budapest",
+      "organizationId": "org-ride-bike-rakoczi-budapest",
+      "name": "Ride Bike – Rákóczi",
+      "address": "1161 Budapest, Rákóczi út 51.",
+      "city": "Budapest",
+      "website": "https://bikefun.hu/shops/ride-bike-rakoczi",
+      "phone": [
+        "+36 1 401 0394"
+      ],
+      "email": [
+        "rakoczi@ridebike.hu"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [
+        {
+          "brand": "Merida",
+          "relation": "sells_brand",
+          "sourceUrl": "https://bikefun.hu/shops/ride-bike-rakoczi",
+          "quote": "Merida dealer"
+        }
+      ],
+      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás. Szerviz erről az oldalról nem igazolt."
+    },
+    {
+      "id": "loc-laszlo-kerekpar-ii-budapest",
+      "organizationId": "org-laszlo-kerekpar-ii-budapest",
+      "name": "László Kerékpár II.",
+      "address": "1184 Budapest, Üllői út 284.",
+      "city": "Budapest",
+      "website": "https://bikefun.hu/shops/laszlo-kerekpar-ii",
+      "phone": [
+        "+36 70 941 1425",
+        "+36 1 282 6445"
+      ],
+      "email": [],
+      "status": "ellenőrzött",
+      "brandClaims": [],
+      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás. Szerviz erről az oldalról nem igazolt."
+    },
+    {
+      "id": "loc-watthajtas-budaors",
+      "organizationId": "org-watthajtas-budaors",
+      "name": "Watthajtás",
+      "address": "2040 Budaörs, Szabadság u. 23.",
+      "city": "Budaörs",
+      "website": "https://bikefun.hu/shops/watthajtas",
+      "phone": [
+        "+36 30 400 5033"
+      ],
+      "email": [
+        "watthajtas@gmail.com"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [],
+      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás. Szerviz erről az oldalról nem igazolt."
+    },
+    {
+      "id": "loc-kerekpar-szakuzlet-kalocsa",
+      "organizationId": "org-kerekpar-szakuzlet-kalocsa",
+      "name": "Kerékpár Szaküzlet Kalocsa",
+      "address": "6300 Kalocsa, Petőfi u. 100.",
+      "city": "Kalocsa",
+      "website": "https://bikefun.hu/shops/kerekpar-szakuezlet-kalocsa",
+      "phone": [
+        "+36 30 723 8103"
+      ],
+      "email": [
+        "szamar19@gmail.com"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [],
+      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás. Szerviz erről az oldalról nem igazolt."
     }
   ],
   "services": [

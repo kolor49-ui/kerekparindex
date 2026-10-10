@@ -1,14 +1,17 @@
 {
   "accessedAt": "2026-10-10",
-  "totalPublished": 103,
-  "budapest": 12,
-  "budapestSharePct": 11.7,
-  "cityCount": 34,
-  "varmegyeCount": 19,
-  "varmegyeMax": 19,
-  "countyCountErrorNote": "A korábbi «20 vármegye (+ Budapest)» hibát az okozta, hogy a coverage-summary Budapestet is vármegyeként számolta a counties objektumban (19+1=20). Az adatállomány telephelyeihez nincs hibás county mező — csak a jelentés volt hibás.",
+  "totalLocations": 151,
+  "newSince103": 48,
+  "roles": {
+    "onlyEladas": 84,
+    "onlySzerviz": 1,
+    "both": 66
+  },
+  "brandLinks": 70,
+  "brands": 10,
+  "budapest": 20,
   "cities": {
-    "Budapest": 12,
+    "Budapest": 20,
     "Szeged": 7,
     "Debrecen": 5,
     "Győr": 5,
@@ -16,9 +19,12 @@
     "Veszprém": 5,
     "Zalaegerszeg": 5,
     "Kecskemét": 4,
+    "Miskolc": 4,
     "Sopron": 4,
     "Balatonfüred": 3,
+    "Békéscsaba": 3,
     "Eger": 3,
+    "Hódmezővásárhely": 3,
     "Kaposvár": 3,
     "Pápa": 3,
     "Pécs": 3,
@@ -26,108 +32,57 @@
     "Szombathely": 3,
     "Székesfehérvár": 3,
     "Érd": 3,
-    "Békéscsaba": 2,
+    "Dunakeszi": 2,
     "Dunaújváros": 2,
     "Gyöngyös": 2,
-    "Miskolc": 2,
+    "Hatvan": 2,
+    "Jászberény": 2,
+    "Kiskunfélegyháza": 2,
     "Nagykanizsa": 2,
     "Szolnok": 2,
     "Tatabánya": 2,
     "Velence": 2,
+    "Ajka": 1,
+    "Baja": 1,
+    "Balassagyarmat": 1,
+    "Biatorbágy": 1,
+    "Budakeszi": 1,
+    "Budaörs": 1,
+    "Bátonyterenye": 1,
+    "Cegléd": 1,
     "Esztergom": 1,
+    "Gyula": 1,
+    "Gyömrő": 1,
+    "Göd": 1,
+    "Gödöllő": 1,
+    "Kalocsa": 1,
+    "Kazincbarcika": 1,
     "Keszthely": 1,
+    "Komárom": 1,
     "Körmend": 1,
+    "Makó": 1,
+    "Mezőkövesd": 1,
+    "Nagykáta": 1,
+    "Orosháza": 1,
     "Salgótarján": 1,
     "Siófok": 1,
     "Szentendre": 1,
+    "Szentes": 1,
     "Tiszafüred": 1,
-    "Vác": 1
+    "Tiszaújváros": 1,
+    "Tát": 1,
+    "Tótkomlós": 1,
+    "Törökbálint": 1,
+    "Veresegyház": 1,
+    "Vác": 1,
+    "Ózd": 1
   },
-  "varmegyek": {
-    "Baranya": [
-      "Pécs"
-    ],
-    "Borsod-Abaúj-Zemplén": [
-      "Miskolc"
-    ],
-    "Bács-Kiskun": [
-      "Kecskemét"
-    ],
-    "Békés": [
-      "Békéscsaba"
-    ],
-    "Csongrád-Csanád": [
-      "Szeged"
-    ],
-    "Fejér": [
-      "Dunaújváros",
-      "Székesfehérvár",
-      "Velence"
-    ],
-    "Győr-Moson-Sopron": [
-      "Győr",
-      "Sopron"
-    ],
-    "Hajdú-Bihar": [
-      "Debrecen"
-    ],
-    "Heves": [
-      "Eger",
-      "Gyöngyös"
-    ],
-    "Jász-Nagykun-Szolnok": [
-      "Szolnok",
-      "Tiszafüred"
-    ],
-    "Komárom-Esztergom": [
-      "Esztergom",
-      "Tatabánya"
-    ],
-    "Nógrád": [
-      "Salgótarján"
-    ],
-    "Pest": [
-      "Szentendre",
-      "Vác",
-      "Érd"
-    ],
-    "Somogy": [
-      "Kaposvár",
-      "Siófok"
-    ],
-    "Szabolcs-Szatmár-Bereg": [
-      "Nyíregyháza"
-    ],
-    "Tolna": [
-      "Szekszárd"
-    ],
-    "Vas": [
-      "Körmend",
-      "Szombathely"
-    ],
-    "Veszprém": [
-      "Balatonfüred",
-      "Pápa",
-      "Veszprém"
-    ],
-    "Zala": [
-      "Keszthely",
-      "Nagykanizsa",
-      "Zalaegerszeg"
-    ]
-  },
-  "unknownCities": [],
-  "roles": {
-    "eladasOnly": 38,
-    "szervizOnly": 1,
-    "eladasAndSzerviz": 64
-  },
-  "szervizAudit": {
-    "strippedServiceRows": 0,
-    "strippedIds": [],
-    "overrideKeep": [
-      "svc-peppe-szerviz",
-      "svc-nelson-bike-veszprem-szerviz"
-    ]
-  }
+  "lastBatches": [
+    "batch-gap-ne-2026-10-10",
+    "batch-gap-pest-south-2026-10-10"
+  ],
+  "heldBackUnique": 13,
+  "heldBackNewThisRound": 2,
+  "mergedDuplicatesThisRound": 1,
+  "note": "Országos bővítés folyamatban; teljesség nincs állítva."
 }
