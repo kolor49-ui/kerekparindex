@@ -249,6 +249,996 @@
       "locationId": "loc-borsod-bike-miskolc",
       "role": "szerviz",
       "sourceUrl": "https://borsodbike.hu/"
+    },
+    {
+      "id": "svc-biciklon-sport-szombathely-eladas",
+      "locationId": "loc-biciklon-sport-szombathely",
+      "role": "eladas",
+      "sourceUrl": "https://biciklon.hu/"
+    },
+    {
+      "id": "svc-biciklon-sport-szombathely-szerviz",
+      "locationId": "loc-biciklon-sport-szombathely",
+      "role": "szerviz",
+      "sourceUrl": "https://biciklon.hu/"
+    },
+    {
+      "id": "svc-savaria-uniker-szombathely-eladas",
+      "locationId": "loc-savaria-uniker-szombathely",
+      "role": "eladas",
+      "sourceUrl": "https://savariauniker.uzleti.hu/"
+    },
+    {
+      "id": "svc-savaria-uniker-szombathely-szerviz",
+      "locationId": "loc-savaria-uniker-szombathely",
+      "role": "szerviz",
+      "sourceUrl": "https://savariauniker.uzleti.hu/"
+    },
+    {
+      "id": "svc-canyon-sport-szombathely-eladas",
+      "locationId": "loc-canyon-sport-szombathely",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/Canyon-Sport"
+    },
+    {
+      "id": "svc-canyon-sport-szombathely-szerviz",
+      "locationId": "loc-canyon-sport-szombathely",
+      "role": "szerviz",
+      "sourceUrl": "https://bikefun.hu/shops/Canyon-Sport"
+    },
+    {
+      "id": "svc-mixi-bike-zalaegerszeg-eladas",
+      "locationId": "loc-mixi-bike-zalaegerszeg",
+      "role": "eladas",
+      "sourceUrl": "https://mixi-bike.hu/shop_contact.php"
+    },
+    {
+      "id": "svc-storm-kerekpar-zalaegerszeg-eladas",
+      "locationId": "loc-storm-kerekpar-zalaegerszeg",
+      "role": "eladas",
+      "sourceUrl": "https://stormkerekpar.uzleti.hu/"
+    },
+    {
+      "id": "svc-storm-kerekpar-zalaegerszeg-szerviz",
+      "locationId": "loc-storm-kerekpar-zalaegerszeg",
+      "role": "szerviz",
+      "sourceUrl": "https://stormkerekpar.uzleti.hu/"
+    },
+    {
+      "id": "svc-podor-kerekpar-zalaegerszeg-eladas",
+      "locationId": "loc-podor-kerekpar-zalaegerszeg",
+      "role": "eladas",
+      "sourceUrl": "http://www.podorkerekpar.hu/kapcsolat.html"
+    },
+    {
+      "id": "svc-podor-kerekpar-zalaegerszeg-szerviz",
+      "locationId": "loc-podor-kerekpar-zalaegerszeg",
+      "role": "szerviz",
+      "sourceUrl": "http://www.podorkerekpar.hu/kapcsolat.html"
+    },
+    {
+      "id": "svc-madbike-zalaegerszeg-eladas",
+      "locationId": "loc-madbike-zalaegerszeg",
+      "role": "eladas",
+      "sourceUrl": "https://www.madbike.hu/kapcsolat"
+    },
+    {
+      "id": "svc-madbike-zalaegerszeg-szerviz",
+      "locationId": "loc-madbike-zalaegerszeg",
+      "role": "szerviz",
+      "sourceUrl": "https://www.madbike.hu/kapcsolat"
+    },
+    {
+      "id": "svc-bringavar-zalaegerszeg-eladas",
+      "locationId": "loc-bringavar-zalaegerszeg",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/bringavar-2"
+    },
+    {
+      "id": "svc-bringavar-zalaegerszeg-szerviz",
+      "locationId": "loc-bringavar-zalaegerszeg",
+      "role": "szerviz",
+      "sourceUrl": "https://bikefun.hu/shops/bringavar-2"
+    },
+    {
+      "id": "svc-fricikli-sopron-eladas",
+      "locationId": "loc-fricikli-sopron",
+      "role": "eladas",
+      "sourceUrl": "http://fricikli.hu/"
+    },
+    {
+      "id": "svc-fricikli-sopron-szerviz",
+      "locationId": "loc-fricikli-sopron",
+      "role": "szerviz",
+      "sourceUrl": "http://fricikli.hu/"
+    },
+    {
+      "id": "svc-toth-fia-sopron-eladas",
+      "locationId": "loc-toth-fia-sopron",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/toth-fia-kerekparbolt-es-muhely"
+    },
+    {
+      "id": "svc-toth-fia-sopron-szerviz",
+      "locationId": "loc-toth-fia-sopron",
+      "role": "szerviz",
+      "sourceUrl": "https://bikefun.hu/shops/toth-fia-kerekparbolt-es-muhely"
+    },
+    {
+      "id": "svc-toth-fia-sopron-kolcsonzes",
+      "locationId": "loc-toth-fia-sopron",
+      "role": "kolcsonzes",
+      "sourceUrl": "https://bikefun.hu/shops/toth-fia-kerekparbolt-es-muhely"
+    },
+    {
+      "id": "svc-ketkerek-sport-sopron-eladas",
+      "locationId": "loc-ketkerek-sport-sopron",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/ketkerek-sport"
+    },
+    {
+      "id": "svc-ketkerek-sport-sopron-szerviz",
+      "locationId": "loc-ketkerek-sport-sopron",
+      "role": "szerviz",
+      "sourceUrl": "https://bikefun.hu/shops/ketkerek-sport"
+    },
+    {
+      "id": "svc-mangobike-sopron-eladas",
+      "locationId": "loc-mangobike-sopron",
+      "role": "eladas",
+      "sourceUrl": "https://www.mangobike.hu/kapcsolat"
+    },
+    {
+      "id": "svc-mangobike-sopron-szerviz",
+      "locationId": "loc-mangobike-sopron",
+      "role": "szerviz",
+      "sourceUrl": "https://www.mangobike.hu/kapcsolat"
+    },
+    {
+      "id": "svc-tuttibringa-kaposvar-eladas",
+      "locationId": "loc-tuttibringa-kaposvar",
+      "role": "eladas",
+      "sourceUrl": "https://www.tuttibringa.hu/"
+    },
+    {
+      "id": "svc-tuttibringa-kaposvar-szerviz",
+      "locationId": "loc-tuttibringa-kaposvar",
+      "role": "szerviz",
+      "sourceUrl": "https://www.tuttibringa.hu/"
+    },
+    {
+      "id": "svc-littvan-kerekpar-kaposvar-eladas",
+      "locationId": "loc-littvan-kerekpar-kaposvar",
+      "role": "eladas",
+      "sourceUrl": "https://www.new.littvankerekpar.hu/?page_id=108"
+    },
+    {
+      "id": "svc-littvan-kerekpar-kaposvar-szerviz",
+      "locationId": "loc-littvan-kerekpar-kaposvar",
+      "role": "szerviz",
+      "sourceUrl": "https://www.new.littvankerekpar.hu/?page_id=108"
+    },
+    {
+      "id": "svc-ketkerek-centrum-szekszard-eladas",
+      "locationId": "loc-ketkerek-centrum-szekszard",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/ketkerek-centrum"
+    },
+    {
+      "id": "svc-ketkerek-centrum-szekszard-szerviz",
+      "locationId": "loc-ketkerek-centrum-szekszard",
+      "role": "szerviz",
+      "sourceUrl": "https://bikefun.hu/shops/ketkerek-centrum"
+    },
+    {
+      "id": "svc-korosi-kerekpar-szekszard-eladas",
+      "locationId": "loc-korosi-kerekpar-szekszard",
+      "role": "eladas",
+      "sourceUrl": "https://kellysbike.com/en/hu/dealers/"
+    },
+    {
+      "id": "svc-schneider-kerekpar-szekszard-eladas",
+      "locationId": "loc-schneider-kerekpar-szekszard",
+      "role": "eladas",
+      "sourceUrl": "http://javitomuhelyek.humusz.hu/schneider-ker-kp-r-szak-zlet"
+    },
+    {
+      "id": "svc-schneider-kerekpar-szekszard-szerviz",
+      "locationId": "loc-schneider-kerekpar-szekszard",
+      "role": "szerviz",
+      "sourceUrl": "http://javitomuhelyek.humusz.hu/schneider-ker-kp-r-szak-zlet"
+    },
+    {
+      "id": "svc-yankos-bike-nagykanizsa-eladas",
+      "locationId": "loc-yankos-bike-nagykanizsa",
+      "role": "eladas",
+      "sourceUrl": "http://yankosbike.hu/"
+    },
+    {
+      "id": "svc-yankos-bike-nagykanizsa-szerviz",
+      "locationId": "loc-yankos-bike-nagykanizsa",
+      "role": "szerviz",
+      "sourceUrl": "http://yankosbike.hu/"
+    },
+    {
+      "id": "svc-kanizsa-kerekparcentrum-nagykanizsa-eladas",
+      "locationId": "loc-kanizsa-kerekparcentrum-nagykanizsa",
+      "role": "eladas",
+      "sourceUrl": "https://www.polisport.com/en/stores_52.html?idst=1368"
+    },
+    {
+      "id": "svc-kanizsa-kerekparcentrum-nagykanizsa-szerviz",
+      "locationId": "loc-kanizsa-kerekparcentrum-nagykanizsa",
+      "role": "szerviz",
+      "sourceUrl": "https://www.polisport.com/en/stores_52.html?idst=1368"
+    },
+    {
+      "id": "svc-greenzone-keszthely-eladas",
+      "locationId": "loc-greenzone-keszthely",
+      "role": "eladas",
+      "sourceUrl": "https://greenzone.hu/aszf/"
+    },
+    {
+      "id": "svc-greenzone-keszthely-szerviz",
+      "locationId": "loc-greenzone-keszthely",
+      "role": "szerviz",
+      "sourceUrl": "https://greenzone.hu/aszf/"
+    },
+    {
+      "id": "svc-greenzone-keszthely-kolcsonzes",
+      "locationId": "loc-greenzone-keszthely",
+      "role": "kolcsonzes",
+      "sourceUrl": "https://greenzone.hu/aszf/"
+    },
+    {
+      "id": "svc-tempo-kerekpar-balatonfured-eladas",
+      "locationId": "loc-tempo-kerekpar-balatonfured",
+      "role": "eladas",
+      "sourceUrl": "https://tempokerekpar.hu/"
+    },
+    {
+      "id": "svc-tempo-kerekpar-balatonfured-szerviz",
+      "locationId": "loc-tempo-kerekpar-balatonfured",
+      "role": "szerviz",
+      "sourceUrl": "https://tempokerekpar.hu/"
+    },
+    {
+      "id": "svc-tempo-kerekpar-balatonfured-kolcsonzes",
+      "locationId": "loc-tempo-kerekpar-balatonfured",
+      "role": "kolcsonzes",
+      "sourceUrl": "https://tempokerekpar.hu/"
+    },
+    {
+      "id": "svc-csopi-kerekparos-kozpont-balatonfured-eladas",
+      "locationId": "loc-csopi-kerekparos-kozpont-balatonfured",
+      "role": "eladas",
+      "sourceUrl": "https://kerekparbalaton.hu/kapcsolat/"
+    },
+    {
+      "id": "svc-csopi-kerekparos-kozpont-balatonfured-szerviz",
+      "locationId": "loc-csopi-kerekparos-kozpont-balatonfured",
+      "role": "szerviz",
+      "sourceUrl": "https://kerekparbalaton.hu/kapcsolat/"
+    },
+    {
+      "id": "svc-csopi-kerekparos-kozpont-balatonfured-kolcsonzes",
+      "locationId": "loc-csopi-kerekparos-kozpont-balatonfured",
+      "role": "kolcsonzes",
+      "sourceUrl": "https://kerekparbalaton.hu/kapcsolat/"
+    },
+    {
+      "id": "svc-pelso-bike-siofok-eladas",
+      "locationId": "loc-pelso-bike-siofok",
+      "role": "eladas",
+      "sourceUrl": "https://www.pelsobike.hu/index.php?lang=hu"
+    },
+    {
+      "id": "svc-pelso-bike-siofok-szerviz",
+      "locationId": "loc-pelso-bike-siofok",
+      "role": "szerviz",
+      "sourceUrl": "https://www.pelsobike.hu/index.php?lang=hu"
+    },
+    {
+      "id": "svc-nelson-bike-veszprem-eladas",
+      "locationId": "loc-nelson-bike-veszprem",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/nelson-bike-1"
+    },
+    {
+      "id": "svc-nelson-bike-veszprem-szerviz",
+      "locationId": "loc-nelson-bike-veszprem",
+      "role": "szerviz",
+      "sourceUrl": "https://bikefun.hu/shops/nelson-bike-1"
+    },
+    {
+      "id": "svc-nelson-bike-veszprem-kolcsonzes",
+      "locationId": "loc-nelson-bike-veszprem",
+      "role": "kolcsonzes",
+      "sourceUrl": "https://bikefun.hu/shops/nelson-bike-1"
+    },
+    {
+      "id": "svc-kuszi-kerekpar-veszprem-eladas",
+      "locationId": "loc-kuszi-kerekpar-veszprem",
+      "role": "eladas",
+      "sourceUrl": "https://kuszikerekpar.hu/"
+    },
+    {
+      "id": "svc-kuszi-kerekpar-veszprem-szerviz",
+      "locationId": "loc-kuszi-kerekpar-veszprem",
+      "role": "szerviz",
+      "sourceUrl": "https://kuszikerekpar.hu/"
+    },
+    {
+      "id": "svc-bikeland-veszprem-eladas",
+      "locationId": "loc-bikeland-veszprem",
+      "role": "eladas",
+      "sourceUrl": "http://www.bikeland.hu/"
+    },
+    {
+      "id": "svc-bikeland-veszprem-szerviz",
+      "locationId": "loc-bikeland-veszprem",
+      "role": "szerviz",
+      "sourceUrl": "http://www.bikeland.hu/"
+    },
+    {
+      "id": "svc-ronabike-veszprem-eladas",
+      "locationId": "loc-ronabike-veszprem",
+      "role": "eladas",
+      "sourceUrl": "https://ronabike.hu/aszf.html"
+    },
+    {
+      "id": "svc-ronabike-veszprem-szerviz",
+      "locationId": "loc-ronabike-veszprem",
+      "role": "szerviz",
+      "sourceUrl": "https://ronabike.hu/aszf.html"
+    },
+    {
+      "id": "svc-farady-kerekpar-veszprem-eladas",
+      "locationId": "loc-farady-kerekpar-veszprem",
+      "role": "eladas",
+      "sourceUrl": "https://csepelkerekpar.hu/uzletek/?county=Veszpr%C3%A9m"
+    },
+    {
+      "id": "svc-farady-kerekpar-veszprem-szerviz",
+      "locationId": "loc-farady-kerekpar-veszprem",
+      "role": "szerviz",
+      "sourceUrl": "https://csepelkerekpar.hu/uzletek/?county=Veszpr%C3%A9m"
+    },
+    {
+      "id": "svc-sport-oazis-papa-eladas",
+      "locationId": "loc-sport-oazis-papa",
+      "role": "eladas",
+      "sourceUrl": "https://csepelkerekpar.hu/uzletek/?county=Veszpr%C3%A9m"
+    },
+    {
+      "id": "svc-sport-oazis-papa-szerviz",
+      "locationId": "loc-sport-oazis-papa",
+      "role": "szerviz",
+      "sourceUrl": "https://csepelkerekpar.hu/uzletek/?county=Veszpr%C3%A9m"
+    },
+    {
+      "id": "svc-balint-kerekpar-papa-eladas",
+      "locationId": "loc-balint-kerekpar-papa",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/balint-kerekpar"
+    },
+    {
+      "id": "svc-balint-kerekpar-papa-szerviz",
+      "locationId": "loc-balint-kerekpar-papa",
+      "role": "szerviz",
+      "sourceUrl": "https://bikefun.hu/shops/balint-kerekpar"
+    },
+    {
+      "id": "svc-biciklon-kormend-eladas",
+      "locationId": "loc-biciklon-kormend",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/biciklon-sport-kerekparuezlet-es-szerviz-koermend"
+    },
+    {
+      "id": "svc-biciklon-kormend-szerviz",
+      "locationId": "loc-biciklon-kormend",
+      "role": "szerviz",
+      "sourceUrl": "https://bikefun.hu/shops/biciklon-sport-kerekparuezlet-es-szerviz-koermend"
+    },
+    {
+      "id": "svc-bringabolt-kecskemet-eladas",
+      "locationId": "loc-bringabolt-kecskemet",
+      "role": "eladas",
+      "sourceUrl": "https://bringabolt.com/kapcsolat/"
+    },
+    {
+      "id": "svc-bringabolt-kecskemet-szerviz",
+      "locationId": "loc-bringabolt-kecskemet",
+      "role": "szerviz",
+      "sourceUrl": "https://bringabolt.com/kapcsolat/"
+    },
+    {
+      "id": "svc-szigma-trade-kecskemet-eladas",
+      "locationId": "loc-szigma-trade-kecskemet",
+      "role": "eladas",
+      "sourceUrl": "https://www.szigmatrade.hu/"
+    },
+    {
+      "id": "svc-szigma-trade-kecskemet-szerviz",
+      "locationId": "loc-szigma-trade-kecskemet",
+      "role": "szerviz",
+      "sourceUrl": "https://www.szigmatrade.hu/"
+    },
+    {
+      "id": "svc-bicishop-kecskemet-eladas",
+      "locationId": "loc-bicishop-kecskemet",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/bicishop"
+    },
+    {
+      "id": "svc-bicishop-kecskemet-szerviz",
+      "locationId": "loc-bicishop-kecskemet",
+      "role": "szerviz",
+      "sourceUrl": "https://bikefun.hu/shops/bicishop"
+    },
+    {
+      "id": "svc-szep-kerekpar-kecskemet-eladas",
+      "locationId": "loc-szep-kerekpar-kecskemet",
+      "role": "eladas",
+      "sourceUrl": "http://www.szepkerekpar.hu/"
+    },
+    {
+      "id": "svc-szep-kerekpar-kecskemet-szerviz",
+      "locationId": "loc-szep-kerekpar-kecskemet",
+      "role": "szerviz",
+      "sourceUrl": "http://www.szepkerekpar.hu/"
+    },
+    {
+      "id": "svc-canganyika-szolnok-eladas",
+      "locationId": "loc-canganyika-szolnok",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/canganyika-kerekparuezlet-es-szerviz"
+    },
+    {
+      "id": "svc-canganyika-szolnok-szerviz",
+      "locationId": "loc-canganyika-szolnok",
+      "role": "szerviz",
+      "sourceUrl": "https://bikefun.hu/shops/canganyika-kerekparuezlet-es-szerviz"
+    },
+    {
+      "id": "svc-pne-mobil-szolnok-eladas",
+      "locationId": "loc-pne-mobil-szolnok",
+      "role": "eladas",
+      "sourceUrl": "https://pnemobilkft.webnode.hu/"
+    },
+    {
+      "id": "svc-pne-mobil-szolnok-szerviz",
+      "locationId": "loc-pne-mobil-szolnok",
+      "role": "szerviz",
+      "sourceUrl": "https://pnemobilkft.webnode.hu/"
+    },
+    {
+      "id": "svc-egerbike-eger-eladas",
+      "locationId": "loc-egerbike-eger",
+      "role": "eladas",
+      "sourceUrl": "https://egerbike.hu/kapcsolat"
+    },
+    {
+      "id": "svc-egerbike-eger-szerviz",
+      "locationId": "loc-egerbike-eger",
+      "role": "szerviz",
+      "sourceUrl": "https://egerbike.hu/kapcsolat"
+    },
+    {
+      "id": "svc-bicocenter-eger-eladas",
+      "locationId": "loc-bicocenter-eger",
+      "role": "eladas",
+      "sourceUrl": "https://bicocenter.hu/"
+    },
+    {
+      "id": "svc-bicocenter-eger-szerviz",
+      "locationId": "loc-bicocenter-eger",
+      "role": "szerviz",
+      "sourceUrl": "https://bicocenter.hu/"
+    },
+    {
+      "id": "svc-bikeworkshop-eger-eladas",
+      "locationId": "loc-bikeworkshop-eger",
+      "role": "eladas",
+      "sourceUrl": "https://bikeworkshop.ewk.hu/elerhetosegek/"
+    },
+    {
+      "id": "svc-bikeworkshop-eger-szerviz",
+      "locationId": "loc-bikeworkshop-eger",
+      "role": "szerviz",
+      "sourceUrl": "https://bikeworkshop.ewk.hu/elerhetosegek/"
+    },
+    {
+      "id": "svc-rekord-mobil-bekescsaba-eladas",
+      "locationId": "loc-rekord-mobil-bekescsaba",
+      "role": "eladas",
+      "sourceUrl": "https://elektromos-kerekparbolt.hu/rolunk/"
+    },
+    {
+      "id": "svc-rekord-mobil-bekescsaba-szerviz",
+      "locationId": "loc-rekord-mobil-bekescsaba",
+      "role": "szerviz",
+      "sourceUrl": "https://elektromos-kerekparbolt.hu/rolunk/"
+    },
+    {
+      "id": "svc-balocom-bekescsaba-eladas",
+      "locationId": "loc-balocom-bekescsaba",
+      "role": "eladas",
+      "sourceUrl": "https://neuzer.hu/partnereink"
+    },
+    {
+      "id": "svc-balocom-bekescsaba-szerviz",
+      "locationId": "loc-balocom-bekescsaba",
+      "role": "szerviz",
+      "sourceUrl": "https://neuzer.hu/partnereink"
+    },
+    {
+      "id": "svc-velosport-salgotarjan-eladas",
+      "locationId": "loc-velosport-salgotarjan",
+      "role": "eladas",
+      "sourceUrl": "https://velosport.hu/rolunk"
+    },
+    {
+      "id": "svc-velosport-salgotarjan-szerviz",
+      "locationId": "loc-velosport-salgotarjan",
+      "role": "szerviz",
+      "sourceUrl": "https://velosport.hu/rolunk"
+    },
+    {
+      "id": "svc-jel-kerekpar-tatabanya-eladas",
+      "locationId": "loc-jel-kerekpar-tatabanya",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/Jel-Kerekpar-Szakuzlet-es-Szerviz"
+    },
+    {
+      "id": "svc-jel-kerekpar-tatabanya-szerviz",
+      "locationId": "loc-jel-kerekpar-tatabanya",
+      "role": "szerviz",
+      "sourceUrl": "https://bikefun.hu/shops/Jel-Kerekpar-Szakuzlet-es-Szerviz"
+    },
+    {
+      "id": "svc-konzum-kerekpar-tatabanya-eladas",
+      "locationId": "loc-konzum-kerekpar-tatabanya",
+      "role": "eladas",
+      "sourceUrl": "https://konzumkerekpar.webnode.hu/"
+    },
+    {
+      "id": "svc-konzum-kerekpar-tatabanya-szerviz",
+      "locationId": "loc-konzum-kerekpar-tatabanya",
+      "role": "szerviz",
+      "sourceUrl": "https://konzumkerekpar.webnode.hu/"
+    },
+    {
+      "id": "svc-pedal-kerekpar-gyongyos-eladas",
+      "locationId": "loc-pedal-kerekpar-gyongyos",
+      "role": "eladas",
+      "sourceUrl": "https://pedalkerekpar.hu/"
+    },
+    {
+      "id": "svc-pedal-kerekpar-gyongyos-szerviz",
+      "locationId": "loc-pedal-kerekpar-gyongyos",
+      "role": "szerviz",
+      "sourceUrl": "https://pedalkerekpar.hu/"
+    },
+    {
+      "id": "svc-matra-bike-gyongyos-eladas",
+      "locationId": "loc-matra-bike-gyongyos",
+      "role": "eladas",
+      "sourceUrl": "http://javitomuhelyek.humusz.hu/m-tra-bike"
+    },
+    {
+      "id": "svc-matra-bike-gyongyos-szerviz",
+      "locationId": "loc-matra-bike-gyongyos",
+      "role": "szerviz",
+      "sourceUrl": "http://javitomuhelyek.humusz.hu/m-tra-bike"
+    },
+    {
+      "id": "svc-aquarius-bike-dunaujvaros-eladas",
+      "locationId": "loc-aquarius-bike-dunaujvaros",
+      "role": "eladas",
+      "sourceUrl": "https://aquariusbike.hu/"
+    },
+    {
+      "id": "svc-aquarius-bike-dunaujvaros-szerviz",
+      "locationId": "loc-aquarius-bike-dunaujvaros",
+      "role": "szerviz",
+      "sourceUrl": "https://aquariusbike.hu/"
+    },
+    {
+      "id": "svc-magellan-bike-dunaujvaros-eladas",
+      "locationId": "loc-magellan-bike-dunaujvaros",
+      "role": "eladas",
+      "sourceUrl": "https://magellanbike.hu/kapcsolat/"
+    },
+    {
+      "id": "svc-magellan-bike-dunaujvaros-szerviz",
+      "locationId": "loc-magellan-bike-dunaujvaros",
+      "role": "szerviz",
+      "sourceUrl": "https://magellanbike.hu/kapcsolat/"
+    },
+    {
+      "id": "svc-urbanlegend-szeged-eladas",
+      "locationId": "loc-urbanlegend-szeged",
+      "role": "eladas",
+      "sourceUrl": "https://www.urbanlegend.hu/kapcsolat/"
+    },
+    {
+      "id": "svc-urbanlegend-szeged-szerviz",
+      "locationId": "loc-urbanlegend-szeged",
+      "role": "szerviz",
+      "sourceUrl": "https://www.urbanlegend.hu/kapcsolat/"
+    },
+    {
+      "id": "svc-vasparipa-szeged-eladas",
+      "locationId": "loc-vasparipa-szeged",
+      "role": "eladas",
+      "sourceUrl": "https://vasparipakerekpar.hu/kapcsolat/"
+    },
+    {
+      "id": "svc-vasparipa-szeged-szerviz",
+      "locationId": "loc-vasparipa-szeged",
+      "role": "szerviz",
+      "sourceUrl": "https://vasparipakerekpar.hu/kapcsolat/"
+    },
+    {
+      "id": "svc-maniac-szeged-eladas",
+      "locationId": "loc-maniac-szeged",
+      "role": "eladas",
+      "sourceUrl": "https://trek.hu/hu-hu/Trek_cikkek/Trek_kereskedes_Szeged"
+    },
+    {
+      "id": "svc-maniac-szeged-szerviz",
+      "locationId": "loc-maniac-szeged",
+      "role": "szerviz",
+      "sourceUrl": "https://trek.hu/hu-hu/Trek_cikkek/Trek_kereskedes_Szeged"
+    },
+    {
+      "id": "svc-gsportzona-szeged-eladas",
+      "locationId": "loc-gsportzona-szeged",
+      "role": "eladas",
+      "sourceUrl": "http://gsportzona.hu/"
+    },
+    {
+      "id": "svc-gsportzona-szeged-szerviz",
+      "locationId": "loc-gsportzona-szeged",
+      "role": "szerviz",
+      "sourceUrl": "http://gsportzona.hu/"
+    },
+    {
+      "id": "svc-prolog-szeged-eladas",
+      "locationId": "loc-prolog-szeged",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/Prolog-Kerekparuzlet"
+    },
+    {
+      "id": "svc-prolog-szeged-szerviz",
+      "locationId": "loc-prolog-szeged",
+      "role": "szerviz",
+      "sourceUrl": "https://bikefun.hu/shops/Prolog-Kerekparuzlet"
+    },
+    {
+      "id": "svc-chili-sport-debrecen-eladas",
+      "locationId": "loc-chili-sport-debrecen",
+      "role": "eladas",
+      "sourceUrl": "https://chilisport.hu/elerhetoseg/"
+    },
+    {
+      "id": "svc-chili-sport-debrecen-szerviz",
+      "locationId": "loc-chili-sport-debrecen",
+      "role": "szerviz",
+      "sourceUrl": "https://chilisport.hu/elerhetoseg/"
+    },
+    {
+      "id": "svc-regina-kerekparbolt-debrecen-eladas",
+      "locationId": "loc-regina-kerekparbolt-debrecen",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/regina-kerekparbolt"
+    },
+    {
+      "id": "svc-regina-kerekparbolt-debrecen-szerviz",
+      "locationId": "loc-regina-kerekparbolt-debrecen",
+      "role": "szerviz",
+      "sourceUrl": "https://bikefun.hu/shops/regina-kerekparbolt"
+    },
+    {
+      "id": "svc-bicaj-bt-debrecen-eladas",
+      "locationId": "loc-bicaj-bt-debrecen",
+      "role": "eladas",
+      "sourceUrl": "https://neuzer.hu/partnereink"
+    },
+    {
+      "id": "svc-bicaj-bt-debrecen-szerviz",
+      "locationId": "loc-bicaj-bt-debrecen",
+      "role": "szerviz",
+      "sourceUrl": "https://neuzer.hu/partnereink"
+    },
+    {
+      "id": "svc-bombastic-bringastic-miskolc-eladas",
+      "locationId": "loc-bombastic-bringastic-miskolc",
+      "role": "eladas",
+      "sourceUrl": "https://bombastic.uzleti.hu/"
+    },
+    {
+      "id": "svc-bombastic-bringastic-miskolc-szerviz",
+      "locationId": "loc-bombastic-bringastic-miskolc",
+      "role": "szerviz",
+      "sourceUrl": "https://bombastic.uzleti.hu/"
+    },
+    {
+      "id": "svc-bringasziget-nyiregyhaza-eladas",
+      "locationId": "loc-bringasziget-nyiregyhaza",
+      "role": "eladas",
+      "sourceUrl": "https://bringasziget.hu/"
+    },
+    {
+      "id": "svc-bringasziget-nyiregyhaza-szerviz",
+      "locationId": "loc-bringasziget-nyiregyhaza",
+      "role": "szerviz",
+      "sourceUrl": "https://bringasziget.hu/"
+    },
+    {
+      "id": "svc-kondor-kerekpar-nyiregyhaza-eladas",
+      "locationId": "loc-kondor-kerekpar-nyiregyhaza",
+      "role": "eladas",
+      "sourceUrl": "https://kondor-kerekpar.webnode.hu/"
+    },
+    {
+      "id": "svc-kondor-kerekpar-nyiregyhaza-szerviz",
+      "locationId": "loc-kondor-kerekpar-nyiregyhaza",
+      "role": "szerviz",
+      "sourceUrl": "https://kondor-kerekpar.webnode.hu/"
+    },
+    {
+      "id": "svc-halmibringa-nyiregyhaza-eladas",
+      "locationId": "loc-halmibringa-nyiregyhaza",
+      "role": "eladas",
+      "sourceUrl": "https://halmibringa.hu/"
+    },
+    {
+      "id": "svc-halmibringa-nyiregyhaza-szerviz",
+      "locationId": "loc-halmibringa-nyiregyhaza",
+      "role": "szerviz",
+      "sourceUrl": "https://halmibringa.hu/"
+    },
+    {
+      "id": "svc-imperator-pecs-eladas",
+      "locationId": "loc-imperator-pecs",
+      "role": "eladas",
+      "sourceUrl": "http://www.kerekparpecs.hu/"
+    },
+    {
+      "id": "svc-imperator-pecs-szerviz",
+      "locationId": "loc-imperator-pecs",
+      "role": "szerviz",
+      "sourceUrl": "http://www.kerekparpecs.hu/"
+    },
+    {
+      "id": "svc-dreamline-cycle-pecs-szerviz",
+      "locationId": "loc-dreamline-cycle-pecs",
+      "role": "szerviz",
+      "sourceUrl": "https://www.dreamlinecycle.hu/"
+    },
+    {
+      "id": "svc-dreamline-cycle-pecs-eladas",
+      "locationId": "loc-dreamline-cycle-pecs",
+      "role": "eladas",
+      "sourceUrl": "https://www.dreamlinecycle.hu/"
+    },
+    {
+      "id": "svc-tisza-bringa-tiszafured-eladas",
+      "locationId": "loc-tisza-bringa-tiszafured",
+      "role": "eladas",
+      "sourceUrl": "https://www.uzletektiszafured.hu/Kerekpar_alkatresz/674/Tisza-bringa_bolt/3339"
+    },
+    {
+      "id": "svc-tisza-bringa-tiszafured-szerviz",
+      "locationId": "loc-tisza-bringa-tiszafured",
+      "role": "szerviz",
+      "sourceUrl": "https://www.uzletektiszafured.hu/Kerekpar_alkatresz/674/Tisza-bringa_bolt/3339"
+    },
+    {
+      "id": "svc-dz-bike-vac-eladas",
+      "locationId": "loc-dz-bike-vac",
+      "role": "eladas",
+      "sourceUrl": "http://dzbike.hu/"
+    },
+    {
+      "id": "svc-dz-bike-vac-szerviz",
+      "locationId": "loc-dz-bike-vac",
+      "role": "szerviz",
+      "sourceUrl": "http://dzbike.hu/"
+    },
+    {
+      "id": "svc-balazs-kerekparbolt-szentendre-eladas",
+      "locationId": "loc-balazs-kerekparbolt-szentendre",
+      "role": "eladas",
+      "sourceUrl": "https://www.balazskerekparbolt.com/"
+    },
+    {
+      "id": "svc-balazs-kerekparbolt-szentendre-szerviz",
+      "locationId": "loc-balazs-kerekparbolt-szentendre",
+      "role": "szerviz",
+      "sourceUrl": "https://www.balazskerekparbolt.com/"
+    },
+    {
+      "id": "svc-altrix-esztergom-eladas",
+      "locationId": "loc-altrix-esztergom",
+      "role": "eladas",
+      "sourceUrl": "https://neuzer.hu/partnereink"
+    },
+    {
+      "id": "svc-altrix-esztergom-szerviz",
+      "locationId": "loc-altrix-esztergom",
+      "role": "szerviz",
+      "sourceUrl": "https://neuzer.hu/partnereink"
+    },
+    {
+      "id": "svc-fogas-kerekpar-gyor-eladas",
+      "locationId": "loc-fogas-kerekpar-gyor",
+      "role": "eladas",
+      "sourceUrl": "https://www.fogaskerekpargyor.hu/"
+    },
+    {
+      "id": "svc-fogas-kerekpar-gyor-szerviz",
+      "locationId": "loc-fogas-kerekpar-gyor",
+      "role": "szerviz",
+      "sourceUrl": "https://www.fogaskerekpargyor.hu/"
+    },
+    {
+      "id": "svc-ferita-sport-gyor-eladas",
+      "locationId": "loc-ferita-sport-gyor",
+      "role": "eladas",
+      "sourceUrl": "https://www.feritasport.hu/"
+    },
+    {
+      "id": "svc-ferita-sport-gyor-szerviz",
+      "locationId": "loc-ferita-sport-gyor",
+      "role": "szerviz",
+      "sourceUrl": "https://www.feritasport.hu/"
+    },
+    {
+      "id": "svc-stelvio-gyor-eladas",
+      "locationId": "loc-stelvio-gyor",
+      "role": "eladas",
+      "sourceUrl": "https://stelvio.hu/"
+    },
+    {
+      "id": "svc-stelvio-gyor-szerviz",
+      "locationId": "loc-stelvio-gyor",
+      "role": "szerviz",
+      "sourceUrl": "https://stelvio.hu/"
+    },
+    {
+      "id": "svc-velencebike-velence-eladas",
+      "locationId": "loc-velencebike-velence",
+      "role": "eladas",
+      "sourceUrl": "http://www.velencebike.hu/"
+    },
+    {
+      "id": "svc-velencebike-velence-szerviz",
+      "locationId": "loc-velencebike-velence",
+      "role": "szerviz",
+      "sourceUrl": "http://www.velencebike.hu/"
+    },
+    {
+      "id": "svc-velociped-fan-szekesfehervar-eladas",
+      "locationId": "loc-velociped-fan-szekesfehervar",
+      "role": "eladas",
+      "sourceUrl": "https://hariskerekpar.hu/kapcsolat/"
+    },
+    {
+      "id": "svc-velociped-fan-szekesfehervar-szerviz",
+      "locationId": "loc-velociped-fan-szekesfehervar",
+      "role": "szerviz",
+      "sourceUrl": "https://hariskerekpar.hu/kapcsolat/"
+    },
+    {
+      "id": "svc-bike-extrem-balatonfured-eladas",
+      "locationId": "loc-bike-extrem-balatonfured",
+      "role": "eladas",
+      "sourceUrl": "https://trek.hu/hu-hu/Trek_cikkek/Trek_kereskedesek_magyarorszagon"
+    },
+    {
+      "id": "svc-bike-extrem-balatonfured-szerviz",
+      "locationId": "loc-bike-extrem-balatonfured",
+      "role": "szerviz",
+      "sourceUrl": "https://trek.hu/hu-hu/Trek_cikkek/Trek_kereskedesek_magyarorszagon"
+    },
+    {
+      "id": "svc-horvath-kerekpar-papa-szerviz",
+      "locationId": "loc-horvath-kerekpar-papa",
+      "role": "szerviz",
+      "sourceUrl": "https://trek.hu/hu-hu/Trek_cikkek/Trek_kereskedesek_magyarorszagon"
+    },
+    {
+      "id": "svc-horvath-kerekpar-papa-eladas",
+      "locationId": "loc-horvath-kerekpar-papa",
+      "role": "eladas",
+      "sourceUrl": "https://trek.hu/hu-hu/Trek_cikkek/Trek_kereskedesek_magyarorszagon"
+    },
+    {
+      "id": "svc-solyombike-erd-eladas",
+      "locationId": "loc-solyombike-erd",
+      "role": "eladas",
+      "sourceUrl": "https://www.solyombike.hu/"
+    },
+    {
+      "id": "svc-solyombike-erd-szerviz",
+      "locationId": "loc-solyombike-erd",
+      "role": "szerviz",
+      "sourceUrl": "https://www.solyombike.hu/"
+    },
+    {
+      "id": "svc-alfabike-erd-eladas",
+      "locationId": "loc-alfabike-erd",
+      "role": "eladas",
+      "sourceUrl": "https://alfabike.hu/"
+    },
+    {
+      "id": "svc-alfabike-erd-szerviz",
+      "locationId": "loc-alfabike-erd",
+      "role": "szerviz",
+      "sourceUrl": "https://alfabike.hu/"
+    },
+    {
+      "id": "svc-robikes-erd-eladas",
+      "locationId": "loc-robikes-erd",
+      "role": "eladas",
+      "sourceUrl": "https://robikes.hu/"
+    },
+    {
+      "id": "svc-robikes-erd-szerviz",
+      "locationId": "loc-robikes-erd",
+      "role": "szerviz",
+      "sourceUrl": "https://robikes.hu/"
+    },
+    {
+      "id": "svc-bike-cafe-budapest-eladas",
+      "locationId": "loc-bike-cafe-budapest",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/bike-cafe-kerekparuezlet"
+    },
+    {
+      "id": "svc-bike-cafe-budapest-szerviz",
+      "locationId": "loc-bike-cafe-budapest",
+      "role": "szerviz",
+      "sourceUrl": "https://bikefun.hu/shops/bike-cafe-kerekparuezlet"
+    },
+    {
+      "id": "svc-big-bike-budapest-eladas",
+      "locationId": "loc-big-bike-budapest",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/big-bike"
+    },
+    {
+      "id": "svc-big-bike-budapest-szerviz",
+      "locationId": "loc-big-bike-budapest",
+      "role": "szerviz",
+      "sourceUrl": "https://bikefun.hu/shops/big-bike"
+    },
+    {
+      "id": "svc-bikemen-budapest-eladas",
+      "locationId": "loc-bikemen-budapest",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/bikemen-kerekparbolt"
+    },
+    {
+      "id": "svc-bikemen-budapest-szerviz",
+      "locationId": "loc-bikemen-budapest",
+      "role": "szerviz",
+      "sourceUrl": "https://bikefun.hu/shops/bikemen-kerekparbolt"
+    },
+    {
+      "id": "svc-fulop-mgbikes-budapest-eladas",
+      "locationId": "loc-fulop-mgbikes-budapest",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/fueloep-kerekpar-centrum-mgbikes"
+    },
+    {
+      "id": "svc-fulop-mgbikes-budapest-szerviz",
+      "locationId": "loc-fulop-mgbikes-budapest",
+      "role": "szerviz",
+      "sourceUrl": "https://bikefun.hu/shops/fueloep-kerekpar-centrum-mgbikes"
     }
   ],
   "organizationLevelNotes": [

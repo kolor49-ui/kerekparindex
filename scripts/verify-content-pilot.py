@@ -61,7 +61,7 @@ def main() -> int:
     evidence = load("evidence.json")["items"]
 
     check("count_brands_10", len(brands) == 10, len(brands))
-    check("count_locations_20", len(locations) == 20, len(locations))
+    check("count_locations_at_least_20", len(locations) >= 20, len(locations))
     check("count_variants_12", len(variants) == 12, len(variants))
     check("count_explainers_6", len(articles.get("explainers", [])) == 6, len(articles.get("explainers", [])))
     check("count_comparisons_3", len(articles.get("comparisons", [])) == 3, len(articles.get("comparisons", [])))
@@ -149,8 +149,13 @@ def main() -> int:
     check("brand_links_and_location_evidence", not bad_links, bad_links[:20] or f"ok linked={linked}")
     check("brand_links_at_least_8", linked >= 8, linked)
 
-    # Rekord szerviz not auto-assigned
-    rekord_svc = [s["id"] for s in services if "rekord" in s["id"] and "szerviz" in s["id"]]
+    # Rekord Bike (org) szerviz must not be auto-assigned to BP/Győr without site proof
+    rekord_svc = [
+        s["id"]
+        for s in services
+        if s.get("locationId") in ("loc-rekord-budapest", "loc-rekord-gyor")
+        and "szerviz" in (s.get("role") or "")
+    ]
     check("rekord_szerviz_not_on_locations", not rekord_svc, rekord_svc or "ok")
 
     # Variant evidence supports

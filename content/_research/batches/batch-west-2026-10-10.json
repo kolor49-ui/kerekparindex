@@ -1,0 +1,735 @@
+{
+  "batchId": "west-2026-10-10",
+  "accessedAt": "2026-10-10",
+  "items": [
+    {
+      "idSlug": "biciklon-sport-szombathely",
+      "name": "Biciklon Sport Kerékpárüzlet és Szerviz",
+      "city": "Szombathely",
+      "addressRaw": "9700 Szombathely, Paragvári u. 54.",
+      "website": "https://biciklon.hu/",
+      "phone": ["+36 94 320 579", "+36 20 411 6786"],
+      "email": [],
+      "openingHours": "H–P 8:30–17:00",
+      "roles": ["eladas", "szerviz"],
+      "brandClaims": [
+        {
+          "brand": "BikeFun",
+          "sourceUrl": "https://bikefun.hu/shops/biciklon-sport-kerekparuezlet-es-szerviz-szombathely",
+          "quote": "Kiemelt márkakereskedés: Northwave"
+        }
+      ],
+      "evidence": {
+        "url": "https://biciklon.hu/",
+        "pageTitle": "Biciklon"
+      },
+      "notes": "Raceline Kft. üzemeltetés; szerviz több mint 300 m².",
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "savaria-uniker-szombathely",
+      "name": "Savaria Uniker Kft. (Műszaki áruház)",
+      "city": "Szombathely",
+      "addressRaw": "9700 Szombathely, Mátyás király u. 26.",
+      "website": "http://www.savariaszerszam.hu/",
+      "phone": ["+36 94 317 943", "+36 30 150 7107"],
+      "email": [],
+      "openingHours": null,
+      "roles": ["eladas", "szerviz"],
+      "brandClaims": [],
+      "evidence": {
+        "url": "https://savariauniker.uzleti.hu/",
+        "pageTitle": "MŰSZAKI ÁRUHÁZ Savaria Uniker - Kerékpárok forgalmazása, szervizelése - Szombathely"
+      },
+      "notes": "Kerékpárkereskedelem és szerviz mellett műszaki kiskereskedelem.",
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "canyon-sport-szombathely",
+      "name": "Canyon Sport Kft.",
+      "city": "Szombathely",
+      "addressRaw": "9700 Szombathely, Hunyadi u. 13.",
+      "website": "http://www.canyonsport.hu/",
+      "phone": ["+36 70 248 9968"],
+      "email": ["info@canyonsport.hu"],
+      "openingHours": "H–P 8:30–17:00, Szo 8:00–12:30",
+      "roles": ["eladas", "szerviz"],
+      "brandClaims": [
+        {
+          "brand": "Merida",
+          "sourceUrl": "https://bikefun.hu/shops/Canyon-Sport",
+          "quote": "Kiemelt márkakereskedés: Merida dealer"
+        }
+      ],
+      "evidence": {
+        "url": "https://bikefun.hu/shops/Canyon-Sport",
+        "pageTitle": "Canyon Sport - BikeFun"
+      },
+      "notes": "Saját domain jelenleg nem elérhető (502); elérhetőség BikeFun kereskedői listából.",
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "mixi-bike-zalaegerszeg",
+      "name": "MIXI-BIKE Kerékpár Üzlet",
+      "city": "Zalaegerszeg",
+      "addressRaw": "8900 Zalaegerszeg, Ságodi út 65.",
+      "website": "https://mixi-bike.hu/",
+      "phone": ["+36 30 741 2915"],
+      "email": ["info@mixi-bike.hu"],
+      "openingHours": "H–P 8:00–16:00, Szo 8:00–12:00",
+      "roles": ["eladas"],
+      "brandClaims": [],
+      "evidence": {
+        "url": "https://mixi-bike.hu/shop_contact.php",
+        "pageTitle": "Információk - MIXI-BIKE Kerékpár Üzlet"
+      },
+      "notes": "Webshop mellett személyes átvétel az üzletben.",
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "storm-kerekpar-zalaegerszeg",
+      "name": "STORM Kerékpár",
+      "city": "Zalaegerszeg",
+      "addressRaw": "8900 Zalaegerszeg, Petőfi Sándor u. 20.",
+      "website": "https://stormkerekpar.uzleti.hu/",
+      "phone": ["+36 92 324 319"],
+      "email": [],
+      "openingHours": null,
+      "roles": ["eladas", "szerviz"],
+      "brandClaims": [
+        {
+          "brand": "Csepel",
+          "sourceUrl": "https://stormkerekpar.uzleti.hu/",
+          "quote": "Kínálatunkban olyan neves márkák termékei közül válogathat, mint a Csepel, Author, Kross"
+        }
+      ],
+      "evidence": {
+        "url": "https://stormkerekpar.uzleti.hu/",
+        "pageTitle": "STORM Kerékpár - Szaküzlet és Szerviz - Zalaegerszeg"
+      },
+      "notes": null,
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "podor-kerekpar-zalaegerszeg",
+      "name": "Pödör Kerékpárszaküzlet és Szerviz",
+      "city": "Zalaegerszeg",
+      "addressRaw": "8900 Zalaegerszeg, Petőfi u. 7. (Petőfi köz sarok)",
+      "website": "http://www.podorkerekpar.hu/",
+      "phone": ["+36 92 737 386", "+36 30 372 5200"],
+      "email": ["info@podorkerekpar.hu"],
+      "openingHours": null,
+      "roles": ["eladas", "szerviz"],
+      "brandClaims": [],
+      "evidence": {
+        "url": "http://www.podorkerekpar.hu/kapcsolat.html",
+        "pageTitle": "Pödör Kerékpárszaküzlet és Szerviz Zalaegerszeg"
+      },
+      "notes": null,
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "madbike-zalaegerszeg",
+      "name": "Madbike Kft.",
+      "city": "Zalaegerszeg",
+      "addressRaw": "8900 Zalaegerszeg, Mérleg tér 4.",
+      "website": "https://www.madbike.hu/",
+      "phone": ["+36 30 137 0940"],
+      "email": ["info@madbike.hu"],
+      "openingHours": null,
+      "roles": ["eladas", "szerviz"],
+      "brandClaims": [],
+      "evidence": {
+        "url": "https://www.madbike.hu/kapcsolat",
+        "pageTitle": "Kapcsolat | Madbike elektromos kerékpárok neked"
+      },
+      "notes": "Főoldalon Virágzó Mező u. 33. is szerepel; kapcsolat oldal szerint értékesítés/szerviz: Mérleg tér 4.",
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "bringavar-zalaegerszeg",
+      "name": "Bringavár",
+      "city": "Zalaegerszeg",
+      "addressRaw": "8900 Zalaegerszeg, Berzseny Dániel u. 26/d.",
+      "website": null,
+      "phone": ["+36 30 665 8282"],
+      "email": [],
+      "openingHours": "H–P 8:00–17:00, Szo 8:00–12:00",
+      "roles": ["eladas", "szerviz"],
+      "brandClaims": [
+        {
+          "brand": "Merida",
+          "sourceUrl": "https://bikefun.hu/shops/bringavar-2",
+          "quote": "Kiemelt márkakereskedés: Merida dealer"
+        }
+      ],
+      "evidence": {
+        "url": "https://bikefun.hu/shops/bringavar-2",
+        "pageTitle": "Bringavár - BikeFun"
+      },
+      "notes": "Nem azonos a bringavar.hu (Abádszalok) oldallal.",
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "fricikli-sopron",
+      "name": "Fricikli Kerékpárbolt és Műhely",
+      "city": "Sopron",
+      "addressRaw": "9400 Sopron, Balfi út 59.",
+      "website": "http://fricikli.hu/",
+      "phone": ["+36 99 325 021"],
+      "email": ["fricikli1990@gmail.com"],
+      "openingHours": "K–P 9:00–12:30 és 13:30–17:00, Szo 9:00–12:00 (H zárva)",
+      "roles": ["eladas", "szerviz"],
+      "brandClaims": [],
+      "evidence": {
+        "url": "http://fricikli.hu/",
+        "pageTitle": "Fricikli – Kerékpárbolt és Műhely"
+      },
+      "notes": null,
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "toth-fia-sopron",
+      "name": "Tóth & Fia Kerékpárbolt és Műhely",
+      "city": "Sopron",
+      "addressRaw": "9400 Sopron, Bécsi u. 13.",
+      "website": null,
+      "phone": ["+36 99 334 001"],
+      "email": ["tothesfia@gmail.com"],
+      "openingHours": "H–P 8:00–12:00 és 13:00–17:00, Szo 8:00–12:00",
+      "roles": ["eladas", "szerviz", "kolcsonzes"],
+      "brandClaims": [
+        {
+          "brand": "Merida",
+          "sourceUrl": "https://bikefun.hu/shops/toth-fia-kerekparbolt-es-muhely",
+          "quote": "Kiemelt márkakereskedés: Merida dealer"
+        }
+      ],
+      "evidence": {
+        "url": "https://bikefun.hu/shops/toth-fia-kerekparbolt-es-muhely",
+        "pageTitle": "Tóth & Fia Kerékpárbolt és Műhely - BikeFun"
+      },
+      "notes": "Saját weboldal nem azonosított; BikeFun hivatalos kereskedői adat.",
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "ketkerek-sport-sopron",
+      "name": "Kétkerék Sport",
+      "city": "Sopron",
+      "addressRaw": "9400 Sopron, Rákóczi Ferenc utca 14.",
+      "website": "http://www.ketkereksport.hu/",
+      "phone": ["+36 99 340 431"],
+      "email": ["info@ketkereksport.hu"],
+      "openingHours": "H–P 9:00–18:00, Szo 9:00–12:00",
+      "roles": ["eladas", "szerviz"],
+      "brandClaims": [
+        {
+          "brand": "Kellys",
+          "sourceUrl": "https://bikefun.hu/shops/ketkerek-sport",
+          "quote": "Kelly's, Merida, Gepida kerékpárok (Yoys/BikeFun kereskedői leírás)"
+        }
+      ],
+      "evidence": {
+        "url": "https://bikefun.hu/shops/ketkerek-sport",
+        "pageTitle": "Kétkerék Sport - BikeFun"
+      },
+      "notes": "Saját domain fetch 502; elérhetőség BikeFun listából.",
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "mangobike-sopron",
+      "name": "MangoBike kerékpárszaküzlet",
+      "city": "Sopron",
+      "addressRaw": "9400 Sopron, Lackner Kristóf u. 10.",
+      "website": "https://www.mangobike.hu/",
+      "phone": ["+36 99 524 341", "+36 20 539 4101"],
+      "email": ["hallo@mangobike.hu"],
+      "openingHours": "H–P 9:00–17:30, Szo 9:00–13:00",
+      "roles": ["eladas", "szerviz"],
+      "brandClaims": [],
+      "evidence": {
+        "url": "https://www.mangobike.hu/kapcsolat",
+        "pageTitle": "Kapcsolat - Mangobike"
+      },
+      "notes": null,
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "tuttibringa-kaposvar",
+      "name": "Tuttibringa Kft.",
+      "city": "Kaposvár",
+      "addressRaw": "7400 Kaposvár, Vásártéri u. 17.",
+      "website": "https://www.tuttibringa.hu/",
+      "phone": ["+36 82 555 565", "+36 20 405 1649"],
+      "email": ["info@tuttibringa.hu"],
+      "openingHours": "H–P 8:30–17:00, Szo 9:00–12:00",
+      "roles": ["eladas", "szerviz"],
+      "brandClaims": [],
+      "evidence": {
+        "url": "https://www.tuttibringa.hu/",
+        "pageTitle": "Tuttibringa"
+      },
+      "notes": null,
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "littvan-kerekpar-kaposvar",
+      "name": "Littván Kerékpár",
+      "city": "Kaposvár",
+      "addressRaw": "7400 Kaposvár, Zaranyi u. 4.",
+      "website": "https://www.new.littvankerekpar.hu/",
+      "phone": ["+36 30 246 2290"],
+      "email": ["littvan.b@gmail.com"],
+      "openingHours": "H–P 8:00–17:00, Szo 9:00–12:00",
+      "roles": ["eladas", "szerviz"],
+      "brandClaims": [
+        {
+          "brand": "Merida",
+          "sourceUrl": "https://bikefun.hu/shops/littvan-kerekpar",
+          "quote": "Kiemelt márkakereskedés: Merida dealer"
+        }
+      ],
+      "evidence": {
+        "url": "https://www.new.littvankerekpar.hu/?page_id=108",
+        "pageTitle": "FORDULJON HOZZÁNK BIZALOMMAL! – LITTVÁN KERÉKPÁR"
+      },
+      "notes": null,
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "ketkerek-centrum-szekszard",
+      "name": "Kétkerék Centrum",
+      "city": "Szekszárd",
+      "addressRaw": "7100 Szekszárd, Rákóczi u. 17.",
+      "website": null,
+      "phone": ["+36 70 944 4591"],
+      "email": ["ketkerekkft@gmail.com"],
+      "openingHours": "H–P 9:00–17:00, Szo 9:00–12:00",
+      "roles": ["eladas", "szerviz"],
+      "brandClaims": [
+        {
+          "brand": "Merida",
+          "sourceUrl": "https://bikefun.hu/shops/ketkerek-centrum",
+          "quote": "Kiemelt márkakereskedés: Merida dealer"
+        }
+      ],
+      "evidence": {
+        "url": "https://bikefun.hu/shops/ketkerek-centrum",
+        "pageTitle": "Kétkerék Centrum - BikeFun"
+      },
+      "notes": null,
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "korosi-kerekpar-szekszard",
+      "name": "Kőrösi Kerékpár (Kőrösi Örs)",
+      "city": "Szekszárd",
+      "addressRaw": "7100 Szekszárd, Széchenyi u. 55–57.",
+      "website": "https://kellysbike.com/",
+      "phone": ["+36 74 311 045"],
+      "email": ["kerekpar.korosi@gmail.com"],
+      "openingHours": null,
+      "roles": ["eladas"],
+      "brandClaims": [
+        {
+          "brand": "Kellys",
+          "sourceUrl": "https://kellysbike.com/en/hu/dealers/",
+          "quote": "Kőrösi Örs Széchényi utca 55-57., Szekszárd"
+        }
+      ],
+      "evidence": {
+        "url": "https://kellysbike.com/en/hu/dealers/",
+        "pageTitle": "Factory stores | Kellys"
+      },
+      "notes": "Kellys gyári kereskedői listás megjelenés.",
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "schneider-kerekpar-szekszard",
+      "name": "Schneider Kerékpár Szaküzlet",
+      "city": "Szekszárd",
+      "addressRaw": "7100 Szekszárd, Petőfi Sándor u. 13.",
+      "website": "http://www.szszke.net/?page_id=72",
+      "phone": ["+36 74 316 455"],
+      "email": [],
+      "openingHours": "H–P 9:00–17:00 (javítóműhely regiszter)",
+      "roles": ["eladas", "szerviz"],
+      "brandClaims": [],
+      "evidence": {
+        "url": "http://javitomuhelyek.humusz.hu/schneider-ker-kp-r-szak-zlet",
+        "pageTitle": "Schneider Kerékpár Szaküzlet | Javítóműhelyek"
+      },
+      "notes": "Saját oldal (szszke.net) fetch sikertelen; cím/telefon Humusz javítóműhely-regiszter + nyilvános elérhetőségek.",
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "yankos-bike-nagykanizsa",
+      "name": "Yanko's Bike Kerékpárbolt és Szervíz",
+      "city": "Nagykanizsa",
+      "addressRaw": "8800 Nagykanizsa, Zrínyi Miklós u. 11.",
+      "website": "http://yankosbike.hu/",
+      "phone": ["+36 93 784 468"],
+      "email": ["info@yankosbike.hu"],
+      "openingHours": "H–P 9:00–17:30, Szo 9:00–12:00",
+      "roles": ["eladas", "szerviz"],
+      "brandClaims": [],
+      "evidence": {
+        "url": "http://yankosbike.hu/",
+        "pageTitle": "Yanko's Bike – Szenvedélyünk az életünk"
+      },
+      "notes": null,
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "kanizsa-kerekparcentrum-nagykanizsa",
+      "name": "Kanizsa Kerékpárcentrum",
+      "city": "Nagykanizsa",
+      "addressRaw": "8800 Nagykanizsa, Arany János u. 1.",
+      "website": null,
+      "phone": ["+36 93 320 703"],
+      "email": ["kanizsakerekparcentrum@z-net.hu"],
+      "openingHours": "H–P 8:30–17:00, Szo 9:00–12:00",
+      "roles": ["eladas", "szerviz"],
+      "brandClaims": [
+        {
+          "brand": "Merida",
+          "sourceUrl": "https://bikefun.hu/shops/kanizsa-kerekparcentrum",
+          "quote": "Kiemelt márkakereskedés: Merida dealer"
+        }
+      ],
+      "evidence": {
+        "url": "https://www.polisport.com/en/stores_52.html?idst=1368",
+        "pageTitle": "Kanizsa Kerékpárcentrum - Polisport"
+      },
+      "notes": "BikeFun és Polisport kereskedői adatok egyeztetve.",
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "greenzone-keszthely",
+      "name": "GreenZone (Sikos Zoltán e.v.)",
+      "city": "Keszthely",
+      "addressRaw": "8360 Keszthely, Rákóczi u. 15.",
+      "website": "https://greenzone.hu/",
+      "phone": ["+36 83 315 463", "+36 30 694 6842"],
+      "email": ["keszthely@greenzone.hu"],
+      "openingHours": "H–P 9:00–16:00, Szo 9:00–13:00",
+      "roles": ["eladas", "szerviz", "kolcsonzes"],
+      "brandClaims": [
+        {
+          "brand": "Specialized",
+          "sourceUrl": "https://greenzone.hu/",
+          "quote": "Forgalmazunk Kelly's, CTM, Cross, Bianchi bringákat, valamint a Specialized prémium kategóriás kerékpárjait"
+        }
+      ],
+      "evidence": {
+        "url": "https://greenzone.hu/aszf/",
+        "pageTitle": "ÁSZF - GreenZone"
+      },
+      "notes": "Külön webshop: shop.greenzone.hu.",
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "tempo-kerekpar-balatonfured",
+      "name": "Tempo Kerékpárszaküzlet és Szerviz",
+      "city": "Balatonfüred",
+      "addressRaw": "8230 Balatonfüred, Ady Endre u. 52.",
+      "website": "https://tempokerekpar.hu/",
+      "phone": ["+36 87 480 671", "+36 20 9244 995"],
+      "email": ["kerekpar.tempo@gmail.com"],
+      "openingHours": null,
+      "roles": ["eladas", "szerviz", "kolcsonzes"],
+      "brandClaims": [],
+      "evidence": {
+        "url": "https://tempokerekpar.hu/",
+        "pageTitle": "Tempo Kerékpárszaküzlet | Balatonfüred"
+      },
+      "notes": null,
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "csopi-kerekparos-kozpont-balatonfured",
+      "name": "Csöpi Kerékpáros Központ",
+      "city": "Balatonfüred",
+      "addressRaw": "8230 Balatonfüred, Deák Ferenc u. 56.",
+      "website": "https://kerekparbalaton.hu/",
+      "phone": ["+36 20 551 1602"],
+      "email": ["info@kerekparbalaton.hu"],
+      "openingHours": "Szezonális; főszezonban 9:00–18:00 (telephely szerint változik)",
+      "roles": ["eladas", "szerviz", "kolcsonzes"],
+      "brandClaims": [],
+      "evidence": {
+        "url": "https://kerekparbalaton.hu/kapcsolat/",
+        "pageTitle": "Kapcsolat - Kerékpár Foglalás Balatonfüreden | kerekparbalaton.hu"
+      },
+      "notes": "Több balatonparti telephely (pl. Balatonakarattya); fő füredi cím a Deák Ferenc u.",
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "pelso-bike-siofok",
+      "name": "Pelso Bike Kft. (Böröcfi Kerékpárszaküzlet)",
+      "city": "Siófok",
+      "addressRaw": "8600 Siófok, Fő utca 99.",
+      "website": "https://www.pelsobike.hu/",
+      "phone": ["+36 84 310 007", "+36 30 331 9605"],
+      "email": [],
+      "openingHours": null,
+      "roles": ["eladas", "szerviz"],
+      "brandClaims": [],
+      "evidence": {
+        "url": "https://www.pelsobike.hu/index.php?lang=hu",
+        "pageTitle": "Főoldal"
+      },
+      "notes": "Kapcsolat aloldal botvédelem alatt; elérhetőség a főoldal láblécéből.",
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "nelson-bike-veszprem",
+      "name": "Nelson Bike Kerékpárszaküzlet, Szerviz és Kölcsönző",
+      "city": "Veszprém",
+      "addressRaw": "8200 Veszprém, Almádi u. 40.",
+      "website": "https://www.veszpremkerekpar.hu/",
+      "phone": ["+36 88 443 334"],
+      "email": ["info@nelsonbike.hu"],
+      "openingHours": "H–P 9:00–18:00 (szezonális változás októbertől 9:00–17:00)",
+      "roles": ["eladas", "szerviz", "kolcsonzes"],
+      "brandClaims": [
+        {
+          "brand": "Merida",
+          "sourceUrl": "https://bikefun.hu/shops/nelson-bike-1",
+          "quote": "Kiemelt márkakereskedés: Merida dealer"
+        }
+      ],
+      "evidence": {
+        "url": "https://bikefun.hu/shops/nelson-bike-1",
+        "pageTitle": "Nelson Bike - BikeFun"
+      },
+      "notes": "Saját kapcsolat oldal botvédelem alatt; BikeFun + nyilvános domain.",
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "kuszi-kerekpar-veszprem",
+      "name": "Kuszi Kerékpár Szaküzlet és Szerviz",
+      "city": "Veszprém",
+      "addressRaw": "8200 Veszprém, Szegfű u. 11.",
+      "website": "https://kuszikerekpar.hu/",
+      "phone": ["+36 70 312 3650", "+36 88 400 600"],
+      "email": ["kerekpar@kuszi.hu"],
+      "openingHours": null,
+      "roles": ["eladas", "szerviz"],
+      "brandClaims": [],
+      "evidence": {
+        "url": "https://kuszikerekpar.hu/",
+        "pageTitle": "Kuszi Kerékpár Szaküzlet és Szerviz Webshopja"
+      },
+      "notes": "Fizikai üzlet a webshop mellett.",
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "bikeland-veszprem",
+      "name": "BIKELAND Kerékpárszaküzlet és Szerviz",
+      "city": "Veszprém",
+      "addressRaw": "8200 Veszprém, Dózsa György u. 34/A.",
+      "website": "http://www.bikeland.hu/",
+      "phone": ["+36 20 912 4131"],
+      "email": ["bikeland2@hotmail.hu"],
+      "openingHours": "H–P 10:00–17:00, Szo 10:00–17:00",
+      "roles": ["eladas", "szerviz"],
+      "brandClaims": [
+        {
+          "brand": "Cube",
+          "sourceUrl": "http://www.bikeland.hu/",
+          "quote": "A veszprémi BIKE LAND kerékpárbolt a CUBE és DEMA kerékpárok kiemelt viszonteladója."
+        }
+      ],
+      "evidence": {
+        "url": "http://www.bikeland.hu/",
+        "pageTitle": "BIKE LAND Kerékpárszaküzlet és Szerviz 8200 Veszprém Dózsa György u. 34/A."
+      },
+      "notes": "Online értékesítést nem végez; vásárlás üzletben.",
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "ronabike-veszprem",
+      "name": "RonaBike Kerékpár Szaküzlet és Szervíz",
+      "city": "Veszprém",
+      "addressRaw": "8200 Veszprém, Petőfi Sándor u. 2.",
+      "website": "https://ronabike.hu/",
+      "phone": ["+36 30 856 3339", "+36 88 787 923"],
+      "email": ["mail@ronabike.hu"],
+      "openingHours": "H–P 10:00–17:00 (október–március)",
+      "roles": ["eladas", "szerviz"],
+      "brandClaims": [
+        {
+          "brand": "Merida",
+          "sourceUrl": "https://bikefun.hu/shops/rona-bike-kerekparuezlet",
+          "quote": "Kiemelt márkakereskedés: Merida dealer"
+        }
+      ],
+      "evidence": {
+        "url": "https://ronabike.hu/aszf.html",
+        "pageTitle": "RonaBike Kerékpár Szaküzlet és Szervíz - ASZF"
+      },
+      "notes": "Üzemeltető: Bike-Land Kft. (ASZF).",
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "farady-kerekpar-veszprem",
+      "name": "Farády Kerékpárszaküzlet",
+      "city": "Veszprém",
+      "addressRaw": "8200 Veszprém, Pipacs u. 23.",
+      "website": "http://www.faradykerekpar.hu/",
+      "phone": ["+36 88 328 379", "+36 20 418 2626"],
+      "email": ["info@faradykerekpar.hu"],
+      "openingHours": "H–P 10:00–17:00, Szo 9:00–12:00",
+      "roles": ["eladas", "szerviz"],
+      "brandClaims": [
+        {
+          "brand": "Csepel",
+          "sourceUrl": "https://csepelkerekpar.hu/uzletek/?county=Veszpr%C3%A9m",
+          "quote": "Farády Kerékpárszaküzlet – Csepel partner, Van szervíz"
+        }
+      ],
+      "evidence": {
+        "url": "https://csepelkerekpar.hu/uzletek/?county=Veszpr%C3%A9m",
+        "pageTitle": "Csepel bicikli boltok | Csepel kerékpár"
+      },
+      "notes": "Saját honlapon cím nem szerepel; cím Csepel hivatalos partnerlistából, telefon/email saját oldalról.",
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "sport-oazis-papa",
+      "name": "Sport Oázis Kft.",
+      "city": "Pápa",
+      "addressRaw": "8500 Pápa, Külső Veszprémi út 38.",
+      "website": "http://www.sportoazis.hu/",
+      "phone": ["+36 70 242 0523"],
+      "email": ["sportoazis@freemail.hu"],
+      "openingHours": "H–P 9:00–18:00, Szo 9:00–13:00",
+      "roles": ["eladas", "szerviz"],
+      "brandClaims": [
+        {
+          "brand": "Csepel",
+          "sourceUrl": "https://csepelkerekpar.hu/uzletek/?county=Veszpr%C3%A9m",
+          "quote": "SPORTOÁZIS KFT – Csepelt is árul, Van szervíz"
+        }
+      ],
+      "evidence": {
+        "url": "https://csepelkerekpar.hu/uzletek/?county=Veszpr%C3%A9m",
+        "pageTitle": "Csepel bicikli boltok | Csepel kerékpár"
+      },
+      "notes": "sportoazis.hu fetch HTTP 500; elérhetőség Csepel partnerlistából (telefon a listában 70 242 0523).",
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "balint-kerekpar-papa",
+      "name": "Bálint Kerékpár Szaküzlet és Szerviz",
+      "city": "Pápa",
+      "addressRaw": "8500 Pápa, Budai Nagy Antal u. 14.",
+      "website": null,
+      "phone": ["+36 20 250 8195"],
+      "email": ["balintkerekpar@freemail.hu"],
+      "openingHours": "H–P 8:00–17:00 (12:00–13:00 ebéd), Szo 8:00–12:00",
+      "roles": ["eladas", "szerviz"],
+      "brandClaims": [],
+      "evidence": {
+        "url": "https://bikefun.hu/shops/balint-kerekpar",
+        "pageTitle": "Bálint Kerékpár - BikeFun"
+      },
+      "notes": "Korábbi uw.hu oldal nem elérhető (500).",
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "biciklon-kormend",
+      "name": "Biciklon Sport Kerékpárüzlet és Szerviz Körmend",
+      "city": "Körmend",
+      "addressRaw": "9900 Körmend, Rákóczi u. 24.",
+      "website": "https://biciklon.hu/",
+      "phone": ["+36 20 580 2319"],
+      "email": ["kormend@biciklon.hu"],
+      "openingHours": "H–P 8:30–17:00, Szo 8:00–12:30",
+      "roles": ["eladas", "szerviz"],
+      "brandClaims": [
+        {
+          "brand": "BikeFun",
+          "sourceUrl": "https://bikefun.hu/shops/biciklon-sport-kerekparuezlet-es-szerviz-koermend",
+          "quote": "Kiemelt márkakereskedés: BikeFun"
+        }
+      ],
+      "evidence": {
+        "url": "https://bikefun.hu/shops/biciklon-sport-kerekparuezlet-es-szerviz-koermend",
+        "pageTitle": "Biciklon Sport Kerékpárüzlet és Szerviz Körmend - BikeFun"
+      },
+      "notes": "Vas megye, Szombathely közeli; biciklon.hu főoldal Rákóczi u. 29. említés – BikeFun 24.",
+      "heldBack": false,
+      "heldBackReason": null
+    }
+  ],
+  "heldBack": [
+    {
+      "name": "Westbike Kerékpárbolt és Szerviz",
+      "city": "Szombathely",
+      "reason": "westbike.hu csak „munkálatok” üzenetet ad; cím/telefon nem igazolható a saját oldalon (külső snippetek nem elegendők).",
+      "candidateUrl": "https://www.westbike.hu/"
+    },
+    {
+      "name": "BringaOtthon Árkádia Kerékpárbolt és Szerviz",
+      "city": "Szombathely",
+      "reason": "Nem található saját weboldal; csak aggregátor/értékelő oldalak (pl. aranyvallalkozas.eu) cím nélkül teljes elérhetőséggel.",
+      "candidateUrl": "https://www.aranyvallalkozas.eu/company/bringaotthon-arkadia-kerekparbolt-es-szerviz-536556"
+    },
+    {
+      "name": "BlackBike Kerékpár Szerviz",
+      "city": "Siófok",
+      "reason": "Nincs saját weboldal; csak POI/értékelő listák (pl. balatonbike365.hu).",
+      "candidateUrl": "https://www.facebook.com/blackbike.service/"
+    },
+    {
+      "name": "HeloVelo Bike & Cafe",
+      "city": "Pápa",
+      "reason": "2026 júniusi hír szerint bezárt; helovelo.hu nem megerősített aktív üzlet.",
+      "candidateUrl": "https://www.infopapa.hu/hirek/olvas/ket-igenyes-kavezo-is-bezart-a-heten-papan-2026-06-18-160000"
+    },
+    {
+      "name": "Ga-Bike / Dream Bike Kft.",
+      "city": "Kaposvár",
+      "reason": "Csak Facebook/aggregátor jelenlét (Fő u. 87.); saját weboldal nem azonosított.",
+      "candidateUrl": "https://www.facebook.com/gabike2014"
+    },
+    {
+      "name": "PedÁl Kerékpárüzlet és szerviz",
+      "city": "Szombathely",
+      "reason": "Csak Facebook/e-mail a veloregio listában; saját weboldal nem azonosított.",
+      "candidateUrl": "https://veloregio.com/hu/kerekparos-szervizek/"
+    }
+  ]
+}

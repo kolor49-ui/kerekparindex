@@ -1,0 +1,126 @@
+{
+  "accessedAt": "2026-10-10",
+  "previousPublished": 20,
+  "newPublished": 81,
+  "totalPublished": 101,
+  "budapest": 12,
+  "budapestSharePct": 11.9,
+  "cityCount": 34,
+  "countyCount": 20,
+  "cities": {
+    "Budapest": 12,
+    "Szeged": 7,
+    "Debrecen": 5,
+    "Győr": 5,
+    "Nyíregyháza": 5,
+    "Veszprém": 5,
+    "Zalaegerszeg": 5,
+    "Kecskemét": 4,
+    "Sopron": 4,
+    "Balatonfüred": 3,
+    "Eger": 3,
+    "Pápa": 3,
+    "Pécs": 3,
+    "Szekszárd": 3,
+    "Szombathely": 3,
+    "Székesfehérvár": 3,
+    "Érd": 3,
+    "Békéscsaba": 2,
+    "Dunaújváros": 2,
+    "Gyöngyös": 2,
+    "Kaposvár": 2,
+    "Miskolc": 2,
+    "Nagykanizsa": 2,
+    "Szolnok": 2,
+    "Tatabánya": 2,
+    "Esztergom": 1,
+    "Keszthely": 1,
+    "Körmend": 1,
+    "Salgótarján": 1,
+    "Siófok": 1,
+    "Szentendre": 1,
+    "Tiszafüred": 1,
+    "Velence": 1,
+    "Vác": 1
+  },
+  "counties": {
+    "Baranya": [
+      "Pécs"
+    ],
+    "Borsod-Abaúj-Zemplén": [
+      "Miskolc"
+    ],
+    "Budapest": [
+      "Budapest"
+    ],
+    "Bács-Kiskun": [
+      "Kecskemét"
+    ],
+    "Békés": [
+      "Békéscsaba"
+    ],
+    "Csongrád-Csanád": [
+      "Szeged"
+    ],
+    "Fejér": [
+      "Dunaújváros",
+      "Székesfehérvár",
+      "Velence"
+    ],
+    "Győr-Moson-Sopron": [
+      "Győr",
+      "Sopron"
+    ],
+    "Hajdú-Bihar": [
+      "Debrecen"
+    ],
+    "Heves": [
+      "Eger",
+      "Gyöngyös"
+    ],
+    "Jász-Nagykun-Szolnok": [
+      "Szolnok",
+      "Tiszafüred"
+    ],
+    "Komárom-Esztergom": [
+      "Esztergom",
+      "Tatabánya"
+    ],
+    "Nógrád": [
+      "Salgótarján"
+    ],
+    "Pest": [
+      "Szentendre",
+      "Vác",
+      "Érd"
+    ],
+    "Somogy": [
+      "Kaposvár",
+      "Siófok"
+    ],
+    "Szabolcs-Szatmár-Bereg": [
+      "Nyíregyháza"
+    ],
+    "Tolna": [
+      "Szekszárd"
+    ],
+    "Vas": [
+      "Körmend",
+      "Szombathely"
+    ],
+    "Veszprém": [
+      "Balatonfüred",
+      "Pápa",
+      "Veszprém"
+    ],
+    "Zala": [
+      "Keszthely",
+      "Nagykanizsa",
+      "Zalaegerszeg"
+    ]
+  },
+  "countySeatGapsBelow2": [
+    "Salgótarján"
+  ],
+  "countySeatMissing": []
+}

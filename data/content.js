@@ -914,6 +914,2330 @@ window.KEREKPARINDEX_CONTENT = {
         "ev-27"
       ],
       "brandLinks": []
+    },
+    {
+      "id": "loc-biciklon-sport-szombathely",
+      "organizationId": "org-biciklon-sport-szombathely",
+      "name": "Biciklon Sport Kerékpárüzlet és Szerviz",
+      "address": {
+        "raw": "9700 Szombathely, Paragvári u. 54.",
+        "city": "Szombathely",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://biciklon.hu/",
+      "phone": [
+        "+36 94 320 579",
+        "+36 20 411 6786"
+      ],
+      "email": [],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-biciklon-sport-szombathely-20261010"
+      ],
+      "brandLinks": [],
+      "openingHours": "H–P 8:30–17:00"
+    },
+    {
+      "id": "loc-savaria-uniker-szombathely",
+      "organizationId": "org-savaria-uniker-szombathely",
+      "name": "Savaria Uniker Kft. (Műszaki áruház)",
+      "address": {
+        "raw": "9700 Szombathely, Mátyás király u. 26.",
+        "city": "Szombathely",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "http://www.savariaszerszam.hu/",
+      "phone": [
+        "+36 94 317 943",
+        "+36 30 150 7107"
+      ],
+      "email": [],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-savaria-uniker-szombathely-20261010"
+      ],
+      "brandLinks": []
+    },
+    {
+      "id": "loc-canyon-sport-szombathely",
+      "organizationId": "org-canyon-sport-szombathely",
+      "name": "Canyon Sport Kft.",
+      "address": {
+        "raw": "9700 Szombathely, Hunyadi u. 13.",
+        "city": "Szombathely",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "http://www.canyonsport.hu/",
+      "phone": [
+        "+36 70 248 9968"
+      ],
+      "email": [
+        "info@canyonsport.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-canyon-sport-szombathely-20261010"
+      ],
+      "brandLinks": [
+        {
+          "brandId": "brand-merida",
+          "brandName": "Merida",
+          "relation": "sells_brand",
+          "sourceUrl": "https://bikefun.hu/shops/Canyon-Sport",
+          "quote": "Kiemelt márkakereskedés: Merida dealer",
+          "evidenceId": "ev-canyon-sport-szombathely-20261010",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
+          "inCatalog": true
+        }
+      ],
+      "openingHours": "H–P 8:30–17:00, Szo 8:00–12:30"
+    },
+    {
+      "id": "loc-mixi-bike-zalaegerszeg",
+      "organizationId": "org-mixi-bike-zalaegerszeg",
+      "name": "MIXI-BIKE Kerékpár Üzlet",
+      "address": {
+        "raw": "8900 Zalaegerszeg, Ságodi út 65.",
+        "city": "Zalaegerszeg",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://mixi-bike.hu/",
+      "phone": [
+        "+36 30 741 2915"
+      ],
+      "email": [
+        "info@mixi-bike.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-mixi-bike-zalaegerszeg-20261010"
+      ],
+      "brandLinks": [],
+      "openingHours": "H–P 8:00–16:00, Szo 8:00–12:00"
+    },
+    {
+      "id": "loc-storm-kerekpar-zalaegerszeg",
+      "organizationId": "org-storm-kerekpar-zalaegerszeg",
+      "name": "STORM Kerékpár",
+      "address": {
+        "raw": "8900 Zalaegerszeg, Petőfi Sándor u. 20.",
+        "city": "Zalaegerszeg",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://stormkerekpar.uzleti.hu/",
+      "phone": [
+        "+36 92 324 319"
+      ],
+      "email": [],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-storm-kerekpar-zalaegerszeg-20261010"
+      ],
+      "brandLinks": []
+    },
+    {
+      "id": "loc-podor-kerekpar-zalaegerszeg",
+      "organizationId": "org-podor-kerekpar-zalaegerszeg",
+      "name": "Pödör Kerékpárszaküzlet és Szerviz",
+      "address": {
+        "raw": "8900 Zalaegerszeg, Petőfi u. 7. (Petőfi köz sarok)",
+        "city": "Zalaegerszeg",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "http://www.podorkerekpar.hu/",
+      "phone": [
+        "+36 92 737 386",
+        "+36 30 372 5200"
+      ],
+      "email": [
+        "info@podorkerekpar.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-podor-kerekpar-zalaegerszeg-20261010"
+      ],
+      "brandLinks": []
+    },
+    {
+      "id": "loc-madbike-zalaegerszeg",
+      "organizationId": "org-madbike-zalaegerszeg",
+      "name": "Madbike Kft.",
+      "address": {
+        "raw": "8900 Zalaegerszeg, Mérleg tér 4.",
+        "city": "Zalaegerszeg",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://www.madbike.hu/",
+      "phone": [
+        "+36 30 137 0940"
+      ],
+      "email": [
+        "info@madbike.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-madbike-zalaegerszeg-20261010"
+      ],
+      "brandLinks": []
+    },
+    {
+      "id": "loc-bringavar-zalaegerszeg",
+      "organizationId": "org-bringavar-zalaegerszeg",
+      "name": "Bringavár",
+      "address": {
+        "raw": "8900 Zalaegerszeg, Berzseny Dániel u. 26/d.",
+        "city": "Zalaegerszeg",
+        "postalCode": null,
+        "street": null
+      },
+      "website": null,
+      "phone": [
+        "+36 30 665 8282"
+      ],
+      "email": [],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-bringavar-zalaegerszeg-20261010"
+      ],
+      "brandLinks": [
+        {
+          "brandId": "brand-merida",
+          "brandName": "Merida",
+          "relation": "sells_brand",
+          "sourceUrl": "https://bikefun.hu/shops/bringavar-2",
+          "quote": "Kiemelt márkakereskedés: Merida dealer",
+          "evidenceId": "ev-bringavar-zalaegerszeg-20261010",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
+          "inCatalog": true
+        }
+      ],
+      "openingHours": "H–P 8:00–17:00, Szo 8:00–12:00"
+    },
+    {
+      "id": "loc-fricikli-sopron",
+      "organizationId": "org-fricikli-sopron",
+      "name": "Fricikli Kerékpárbolt és Műhely",
+      "address": {
+        "raw": "9400 Sopron, Balfi út 59.",
+        "city": "Sopron",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "http://fricikli.hu/",
+      "phone": [
+        "+36 99 325 021"
+      ],
+      "email": [
+        "fricikli1990@gmail.com"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-fricikli-sopron-20261010"
+      ],
+      "brandLinks": [],
+      "openingHours": "K–P 9:00–12:30 és 13:30–17:00, Szo 9:00–12:00 (H zárva)"
+    },
+    {
+      "id": "loc-toth-fia-sopron",
+      "organizationId": "org-toth-fia-sopron",
+      "name": "Tóth & Fia Kerékpárbolt és Műhely",
+      "address": {
+        "raw": "9400 Sopron, Bécsi u. 13.",
+        "city": "Sopron",
+        "postalCode": null,
+        "street": null
+      },
+      "website": null,
+      "phone": [
+        "+36 99 334 001"
+      ],
+      "email": [
+        "tothesfia@gmail.com"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-toth-fia-sopron-20261010"
+      ],
+      "brandLinks": [
+        {
+          "brandId": "brand-merida",
+          "brandName": "Merida",
+          "relation": "sells_brand",
+          "sourceUrl": "https://bikefun.hu/shops/toth-fia-kerekparbolt-es-muhely",
+          "quote": "Kiemelt márkakereskedés: Merida dealer",
+          "evidenceId": "ev-toth-fia-sopron-20261010",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
+          "inCatalog": true
+        }
+      ],
+      "openingHours": "H–P 8:00–12:00 és 13:00–17:00, Szo 8:00–12:00"
+    },
+    {
+      "id": "loc-ketkerek-sport-sopron",
+      "organizationId": "org-ketkerek-sport-sopron",
+      "name": "Kétkerék Sport",
+      "address": {
+        "raw": "9400 Sopron, Rákóczi Ferenc utca 14.",
+        "city": "Sopron",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "http://www.ketkereksport.hu/",
+      "phone": [
+        "+36 99 340 431"
+      ],
+      "email": [
+        "info@ketkereksport.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-ketkerek-sport-sopron-20261010"
+      ],
+      "brandLinks": [],
+      "openingHours": "H–P 9:00–18:00, Szo 9:00–12:00"
+    },
+    {
+      "id": "loc-mangobike-sopron",
+      "organizationId": "org-mangobike-sopron",
+      "name": "MangoBike kerékpárszaküzlet",
+      "address": {
+        "raw": "9400 Sopron, Lackner Kristóf u. 10.",
+        "city": "Sopron",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://www.mangobike.hu/",
+      "phone": [
+        "+36 99 524 341",
+        "+36 20 539 4101"
+      ],
+      "email": [
+        "hallo@mangobike.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-mangobike-sopron-20261010"
+      ],
+      "brandLinks": [],
+      "openingHours": "H–P 9:00–17:30, Szo 9:00–13:00"
+    },
+    {
+      "id": "loc-tuttibringa-kaposvar",
+      "organizationId": "org-tuttibringa-kaposvar",
+      "name": "Tuttibringa Kft.",
+      "address": {
+        "raw": "7400 Kaposvár, Vásártéri u. 17.",
+        "city": "Kaposvár",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://www.tuttibringa.hu/",
+      "phone": [
+        "+36 82 555 565",
+        "+36 20 405 1649"
+      ],
+      "email": [
+        "info@tuttibringa.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-tuttibringa-kaposvar-20261010"
+      ],
+      "brandLinks": [],
+      "openingHours": "H–P 8:30–17:00, Szo 9:00–12:00"
+    },
+    {
+      "id": "loc-littvan-kerekpar-kaposvar",
+      "organizationId": "org-littvan-kerekpar-kaposvar",
+      "name": "Littván Kerékpár",
+      "address": {
+        "raw": "7400 Kaposvár, Zaranyi u. 4.",
+        "city": "Kaposvár",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://www.new.littvankerekpar.hu/",
+      "phone": [
+        "+36 30 246 2290"
+      ],
+      "email": [
+        "littvan.b@gmail.com"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-littvan-kerekpar-kaposvar-20261010"
+      ],
+      "brandLinks": [
+        {
+          "brandId": "brand-merida",
+          "brandName": "Merida",
+          "relation": "sells_brand",
+          "sourceUrl": "https://bikefun.hu/shops/littvan-kerekpar",
+          "quote": "Kiemelt márkakereskedés: Merida dealer",
+          "evidenceId": "ev-littvan-kerekpar-kaposvar-20261010",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
+          "inCatalog": true
+        }
+      ],
+      "openingHours": "H–P 8:00–17:00, Szo 9:00–12:00"
+    },
+    {
+      "id": "loc-ketkerek-centrum-szekszard",
+      "organizationId": "org-ketkerek-centrum-szekszard",
+      "name": "Kétkerék Centrum",
+      "address": {
+        "raw": "7100 Szekszárd, Rákóczi u. 17.",
+        "city": "Szekszárd",
+        "postalCode": null,
+        "street": null
+      },
+      "website": null,
+      "phone": [
+        "+36 70 944 4591"
+      ],
+      "email": [
+        "ketkerekkft@gmail.com"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-ketkerek-centrum-szekszard-20261010"
+      ],
+      "brandLinks": [
+        {
+          "brandId": "brand-merida",
+          "brandName": "Merida",
+          "relation": "sells_brand",
+          "sourceUrl": "https://bikefun.hu/shops/ketkerek-centrum",
+          "quote": "Kiemelt márkakereskedés: Merida dealer",
+          "evidenceId": "ev-ketkerek-centrum-szekszard-20261010",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
+          "inCatalog": true
+        }
+      ],
+      "openingHours": "H–P 9:00–17:00, Szo 9:00–12:00"
+    },
+    {
+      "id": "loc-korosi-kerekpar-szekszard",
+      "organizationId": "org-korosi-kerekpar-szekszard",
+      "name": "Kőrösi Kerékpár (Kőrösi Örs)",
+      "address": {
+        "raw": "7100 Szekszárd, Széchenyi u. 55–57.",
+        "city": "Szekszárd",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://kellysbike.com/",
+      "phone": [
+        "+36 74 311 045"
+      ],
+      "email": [
+        "kerekpar.korosi@gmail.com"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-korosi-kerekpar-szekszard-20261010"
+      ],
+      "brandLinks": []
+    },
+    {
+      "id": "loc-schneider-kerekpar-szekszard",
+      "organizationId": "org-schneider-kerekpar-szekszard",
+      "name": "Schneider Kerékpár Szaküzlet",
+      "address": {
+        "raw": "7100 Szekszárd, Petőfi Sándor u. 13.",
+        "city": "Szekszárd",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "http://www.szszke.net/?page_id=72",
+      "phone": [
+        "+36 74 316 455"
+      ],
+      "email": [],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-schneider-kerekpar-szekszard-20261010"
+      ],
+      "brandLinks": [],
+      "openingHours": "H–P 9:00–17:00 (javítóműhely regiszter)"
+    },
+    {
+      "id": "loc-yankos-bike-nagykanizsa",
+      "organizationId": "org-yankos-bike-nagykanizsa",
+      "name": "Yanko's Bike Kerékpárbolt és Szervíz",
+      "address": {
+        "raw": "8800 Nagykanizsa, Zrínyi Miklós u. 11.",
+        "city": "Nagykanizsa",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "http://yankosbike.hu/",
+      "phone": [
+        "+36 93 784 468"
+      ],
+      "email": [
+        "info@yankosbike.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-yankos-bike-nagykanizsa-20261010"
+      ],
+      "brandLinks": [],
+      "openingHours": "H–P 9:00–17:30, Szo 9:00–12:00"
+    },
+    {
+      "id": "loc-kanizsa-kerekparcentrum-nagykanizsa",
+      "organizationId": "org-kanizsa-kerekparcentrum-nagykanizsa",
+      "name": "Kanizsa Kerékpárcentrum",
+      "address": {
+        "raw": "8800 Nagykanizsa, Arany János u. 1.",
+        "city": "Nagykanizsa",
+        "postalCode": null,
+        "street": null
+      },
+      "website": null,
+      "phone": [
+        "+36 93 320 703"
+      ],
+      "email": [
+        "kanizsakerekparcentrum@z-net.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-kanizsa-kerekparcentrum-nagykanizsa-20261010"
+      ],
+      "brandLinks": [
+        {
+          "brandId": "brand-merida",
+          "brandName": "Merida",
+          "relation": "sells_brand",
+          "sourceUrl": "https://bikefun.hu/shops/kanizsa-kerekparcentrum",
+          "quote": "Kiemelt márkakereskedés: Merida dealer",
+          "evidenceId": "ev-kanizsa-kerekparcentrum-nagykanizsa-20261010",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
+          "inCatalog": true
+        }
+      ],
+      "openingHours": "H–P 8:30–17:00, Szo 9:00–12:00"
+    },
+    {
+      "id": "loc-greenzone-keszthely",
+      "organizationId": "org-greenzone-keszthely",
+      "name": "GreenZone (Sikos Zoltán e.v.)",
+      "address": {
+        "raw": "8360 Keszthely, Rákóczi u. 15.",
+        "city": "Keszthely",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://greenzone.hu/",
+      "phone": [
+        "+36 83 315 463",
+        "+36 30 694 6842"
+      ],
+      "email": [
+        "keszthely@greenzone.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-greenzone-keszthely-20261010"
+      ],
+      "brandLinks": [
+        {
+          "brandId": "brand-specialized",
+          "brandName": "Specialized",
+          "relation": "sells_brand",
+          "sourceUrl": "https://greenzone.hu/",
+          "quote": "Forgalmazunk Kelly's, CTM, Cross, Bianchi bringákat, valamint a Specialized prémium kategóriás kerékpárjait",
+          "evidenceId": "ev-greenzone-keszthely-20261010",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
+          "inCatalog": true
+        }
+      ],
+      "openingHours": "H–P 9:00–16:00, Szo 9:00–13:00"
+    },
+    {
+      "id": "loc-tempo-kerekpar-balatonfured",
+      "organizationId": "org-tempo-kerekpar-balatonfured",
+      "name": "Tempo Kerékpárszaküzlet és Szerviz",
+      "address": {
+        "raw": "8230 Balatonfüred, Ady Endre u. 52.",
+        "city": "Balatonfüred",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://tempokerekpar.hu/",
+      "phone": [
+        "+36 87 480 671",
+        "+36 20 9244 995"
+      ],
+      "email": [
+        "kerekpar.tempo@gmail.com"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-tempo-kerekpar-balatonfured-20261010"
+      ],
+      "brandLinks": []
+    },
+    {
+      "id": "loc-csopi-kerekparos-kozpont-balatonfured",
+      "organizationId": "org-csopi-kerekparos-kozpont-balatonfured",
+      "name": "Csöpi Kerékpáros Központ",
+      "address": {
+        "raw": "8230 Balatonfüred, Deák Ferenc u. 56.",
+        "city": "Balatonfüred",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://kerekparbalaton.hu/",
+      "phone": [
+        "+36 20 551 1602"
+      ],
+      "email": [
+        "info@kerekparbalaton.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-csopi-kerekparos-kozpont-balatonfured-20261010"
+      ],
+      "brandLinks": [],
+      "openingHours": "Szezonális; főszezonban 9:00–18:00 (telephely szerint változik)"
+    },
+    {
+      "id": "loc-pelso-bike-siofok",
+      "organizationId": "org-pelso-bike-siofok",
+      "name": "Pelso Bike Kft. (Böröcfi Kerékpárszaküzlet)",
+      "address": {
+        "raw": "8600 Siófok, Fő utca 99.",
+        "city": "Siófok",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://www.pelsobike.hu/",
+      "phone": [
+        "+36 84 310 007",
+        "+36 30 331 9605"
+      ],
+      "email": [],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-pelso-bike-siofok-20261010"
+      ],
+      "brandLinks": []
+    },
+    {
+      "id": "loc-nelson-bike-veszprem",
+      "organizationId": "org-nelson-bike-veszprem",
+      "name": "Nelson Bike Kerékpárszaküzlet, Szerviz és Kölcsönző",
+      "address": {
+        "raw": "8200 Veszprém, Almádi u. 40.",
+        "city": "Veszprém",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://www.veszpremkerekpar.hu/",
+      "phone": [
+        "+36 88 443 334"
+      ],
+      "email": [
+        "info@nelsonbike.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-nelson-bike-veszprem-20261010"
+      ],
+      "brandLinks": [
+        {
+          "brandId": "brand-merida",
+          "brandName": "Merida",
+          "relation": "sells_brand",
+          "sourceUrl": "https://bikefun.hu/shops/nelson-bike-1",
+          "quote": "Kiemelt márkakereskedés: Merida dealer",
+          "evidenceId": "ev-nelson-bike-veszprem-20261010",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
+          "inCatalog": true
+        }
+      ],
+      "openingHours": "H–P 9:00–18:00 (szezonális változás októbertől 9:00–17:00)"
+    },
+    {
+      "id": "loc-kuszi-kerekpar-veszprem",
+      "organizationId": "org-kuszi-kerekpar-veszprem",
+      "name": "Kuszi Kerékpár Szaküzlet és Szerviz",
+      "address": {
+        "raw": "8200 Veszprém, Szegfű u. 11.",
+        "city": "Veszprém",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://kuszikerekpar.hu/",
+      "phone": [
+        "+36 70 312 3650",
+        "+36 88 400 600"
+      ],
+      "email": [
+        "kerekpar@kuszi.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-kuszi-kerekpar-veszprem-20261010"
+      ],
+      "brandLinks": []
+    },
+    {
+      "id": "loc-bikeland-veszprem",
+      "organizationId": "org-bikeland-veszprem",
+      "name": "BIKELAND Kerékpárszaküzlet és Szerviz",
+      "address": {
+        "raw": "8200 Veszprém, Dózsa György u. 34/A.",
+        "city": "Veszprém",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "http://www.bikeland.hu/",
+      "phone": [
+        "+36 20 912 4131"
+      ],
+      "email": [
+        "bikeland2@hotmail.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-bikeland-veszprem-20261010"
+      ],
+      "brandLinks": [
+        {
+          "brandId": "brand-cube",
+          "brandName": "Cube",
+          "relation": "sells_brand",
+          "sourceUrl": "http://www.bikeland.hu/",
+          "quote": "A veszprémi BIKE LAND kerékpárbolt a CUBE és DEMA kerékpárok kiemelt viszonteladója.",
+          "evidenceId": "ev-bikeland-veszprem-20261010",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
+          "inCatalog": true
+        }
+      ],
+      "openingHours": "H–P 10:00–17:00, Szo 10:00–17:00"
+    },
+    {
+      "id": "loc-ronabike-veszprem",
+      "organizationId": "org-ronabike-veszprem",
+      "name": "RonaBike Kerékpár Szaküzlet és Szervíz",
+      "address": {
+        "raw": "8200 Veszprém, Petőfi Sándor u. 2.",
+        "city": "Veszprém",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://ronabike.hu/",
+      "phone": [
+        "+36 30 856 3339",
+        "+36 88 787 923"
+      ],
+      "email": [
+        "mail@ronabike.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-ronabike-veszprem-20261010"
+      ],
+      "brandLinks": [
+        {
+          "brandId": "brand-merida",
+          "brandName": "Merida",
+          "relation": "sells_brand",
+          "sourceUrl": "https://bikefun.hu/shops/rona-bike-kerekparuezlet",
+          "quote": "Kiemelt márkakereskedés: Merida dealer",
+          "evidenceId": "ev-ronabike-veszprem-20261010",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
+          "inCatalog": true
+        }
+      ],
+      "openingHours": "H–P 10:00–17:00 (október–március)"
+    },
+    {
+      "id": "loc-farady-kerekpar-veszprem",
+      "organizationId": "org-farady-kerekpar-veszprem",
+      "name": "Farády Kerékpárszaküzlet",
+      "address": {
+        "raw": "8200 Veszprém, Pipacs u. 23.",
+        "city": "Veszprém",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "http://www.faradykerekpar.hu/",
+      "phone": [
+        "+36 88 328 379",
+        "+36 20 418 2626"
+      ],
+      "email": [
+        "info@faradykerekpar.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-farady-kerekpar-veszprem-20261010"
+      ],
+      "brandLinks": [],
+      "openingHours": "H–P 10:00–17:00, Szo 9:00–12:00"
+    },
+    {
+      "id": "loc-sport-oazis-papa",
+      "organizationId": "org-sport-oazis-papa",
+      "name": "Sport Oázis Kft.",
+      "address": {
+        "raw": "8500 Pápa, Külső Veszprémi út 38.",
+        "city": "Pápa",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "http://www.sportoazis.hu/",
+      "phone": [
+        "+36 70 242 0523"
+      ],
+      "email": [
+        "sportoazis@freemail.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-sport-oazis-papa-20261010"
+      ],
+      "brandLinks": [],
+      "openingHours": "H–P 9:00–18:00, Szo 9:00–13:00"
+    },
+    {
+      "id": "loc-balint-kerekpar-papa",
+      "organizationId": "org-balint-kerekpar-papa",
+      "name": "Bálint Kerékpár Szaküzlet és Szerviz",
+      "address": {
+        "raw": "8500 Pápa, Budai Nagy Antal u. 14.",
+        "city": "Pápa",
+        "postalCode": null,
+        "street": null
+      },
+      "website": null,
+      "phone": [
+        "+36 20 250 8195"
+      ],
+      "email": [
+        "balintkerekpar@freemail.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-balint-kerekpar-papa-20261010"
+      ],
+      "brandLinks": [],
+      "openingHours": "H–P 8:00–17:00 (12:00–13:00 ebéd), Szo 8:00–12:00"
+    },
+    {
+      "id": "loc-biciklon-kormend",
+      "organizationId": "org-biciklon-kormend",
+      "name": "Biciklon Sport Kerékpárüzlet és Szerviz Körmend",
+      "address": {
+        "raw": "9900 Körmend, Rákóczi u. 24.",
+        "city": "Körmend",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://biciklon.hu/",
+      "phone": [
+        "+36 20 580 2319"
+      ],
+      "email": [
+        "kormend@biciklon.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-biciklon-kormend-20261010"
+      ],
+      "brandLinks": [],
+      "openingHours": "H–P 8:30–17:00, Szo 8:00–12:30"
+    },
+    {
+      "id": "loc-bringabolt-kecskemet",
+      "organizationId": "org-bringabolt-kecskemet",
+      "name": "Bringabolt",
+      "address": {
+        "raw": "6000 Kecskemét, Trombita utca 2.",
+        "city": "Kecskemét",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://bringabolt.com/",
+      "phone": [
+        "+36 76 322 526"
+      ],
+      "email": [],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-bringabolt-kecskemet-20261010"
+      ],
+      "brandLinks": [
+        {
+          "brandId": "brand-cube",
+          "brandName": "Cube",
+          "relation": "sells_brand",
+          "sourceUrl": "https://bringabolt.com/",
+          "quote": "CUBE kerékpárok a kínálatban.",
+          "evidenceId": "ev-bringabolt-kecskemet-20261010",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
+          "inCatalog": true
+        }
+      ],
+      "openingHours": "H–P 9:00–17:00, Sz 9:00–12:00"
+    },
+    {
+      "id": "loc-szigma-trade-kecskemet",
+      "organizationId": "org-szigma-trade-kecskemet",
+      "name": "Szigma-Trade Kft.",
+      "address": {
+        "raw": "6000 Kecskemét, Batthyány u. 25–27.",
+        "city": "Kecskemét",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://www.szigmatrade.hu/",
+      "phone": [
+        "+36 76 321 187"
+      ],
+      "email": [
+        "szigmatrade@gmail.com"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-szigma-trade-kecskemet-20261010"
+      ],
+      "brandLinks": [],
+      "openingHours": "H–P 9:00–17:00 (nyári 17:30), Sz 8:00–12:00"
+    },
+    {
+      "id": "loc-bicishop-kecskemet",
+      "organizationId": "org-bicishop-kecskemet",
+      "name": "Bicishop",
+      "address": {
+        "raw": "6000 Kecskemét, Nagykőrösi u. 17.",
+        "city": "Kecskemét",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://www.bicishop.hu/",
+      "phone": [
+        "+36 76 507 464"
+      ],
+      "email": [
+        "info@dabomb.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-bicishop-kecskemet-20261010"
+      ],
+      "brandLinks": [
+        {
+          "brandId": "brand-merida",
+          "brandName": "Merida",
+          "relation": "dealer",
+          "sourceUrl": "https://bikefun.hu/shops/bicishop",
+          "quote": "Merida dealer",
+          "evidenceId": "ev-bicishop-kecskemet-20261010",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
+          "inCatalog": true
+        }
+      ],
+      "openingHours": "H–P 9:00–17:00, Sz 8:00–12:00"
+    },
+    {
+      "id": "loc-szep-kerekpar-kecskemet",
+      "organizationId": "org-szep-kerekpar-kecskemet",
+      "name": "SZÉP Kerékpár Szaküzlet és Szerviz",
+      "address": {
+        "raw": "6000 Kecskemét, Jókai utca 36.",
+        "city": "Kecskemét",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "http://www.szepkerekpar.hu/",
+      "phone": [
+        "+36 76 410 494"
+      ],
+      "email": [
+        "bringabolt@kercom.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-szep-kerekpar-kecskemet-20261010"
+      ],
+      "brandLinks": [],
+      "openingHours": "H, Sze, P 9:00–12:00 és 13:30–17:00"
+    },
+    {
+      "id": "loc-canganyika-szolnok",
+      "organizationId": "org-canganyika-szolnok",
+      "name": "Canganyika Kerékpárüzlet és szerviz",
+      "address": {
+        "raw": "5000 Szolnok, Várkonyi tér 1.",
+        "city": "Szolnok",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "http://www.canganyika.hu/",
+      "phone": [
+        "+36 20 294 7294"
+      ],
+      "email": [
+        "canganyika@freemail.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-canganyika-szolnok-20261010"
+      ],
+      "brandLinks": [
+        {
+          "brandId": "brand-merida",
+          "brandName": "Merida",
+          "relation": "dealer",
+          "sourceUrl": "https://bikefun.hu/shops/canganyika-kerekparuezlet-es-szerviz",
+          "quote": "Merida dealer",
+          "evidenceId": "ev-canganyika-szolnok-20261010",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
+          "inCatalog": true
+        }
+      ],
+      "openingHours": "H–P 9:00–17:00, Sz 9:00–13:00"
+    },
+    {
+      "id": "loc-pne-mobil-szolnok",
+      "organizationId": "org-pne-mobil-szolnok",
+      "name": "PNÉ Mobil Kft. (Rodeó Viktória)",
+      "address": {
+        "raw": "5000 Szolnok, Pozsonyi út 15.",
+        "city": "Szolnok",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://pnemobilkft.webnode.hu/",
+      "phone": [
+        "+36 56 343 171"
+      ],
+      "email": [],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-pne-mobil-szolnok-20261010"
+      ],
+      "brandLinks": [],
+      "openingHours": "H–P 9:00–17:30, Sz 9:00–12:00"
+    },
+    {
+      "id": "loc-egerbike-eger",
+      "organizationId": "org-egerbike-eger",
+      "name": "Egerbike kerékpárbolt és szakszerviz",
+      "address": {
+        "raw": "3300 Eger, Hadnagy utca 5.",
+        "city": "Eger",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://egerbike.hu/",
+      "phone": [
+        "+36 20 503 9922"
+      ],
+      "email": [
+        "bolt@egerbike.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-egerbike-eger-20261010"
+      ],
+      "brandLinks": [],
+      "openingHours": "H–P 9:00–17:00, Sz 9:00–13:00"
+    },
+    {
+      "id": "loc-bicocenter-eger",
+      "organizationId": "org-bicocenter-eger",
+      "name": "Bicó Center",
+      "address": {
+        "raw": "3300 Eger, Egészségház u. 11.",
+        "city": "Eger",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://bicocenter.hu/",
+      "phone": [
+        "+36 70 530 3531"
+      ],
+      "email": [],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-bicocenter-eger-20261010"
+      ],
+      "brandLinks": [
+        {
+          "brandId": "brand-neuzer",
+          "brandName": "Neuzer",
+          "relation": "sells_brand",
+          "sourceUrl": "https://bicocenter.hu/",
+          "quote": "Neuzer kerékpárok értékesítése.",
+          "evidenceId": "ev-bicocenter-eger-20261010",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
+          "inCatalog": true
+        }
+      ],
+      "openingHours": "H–P 9:00–18:00, Sz 9:00–13:00"
+    },
+    {
+      "id": "loc-bikeworkshop-eger",
+      "organizationId": "org-bikeworkshop-eger",
+      "name": "Bike Work Shop (Bikeworkshop)",
+      "address": {
+        "raw": "3300 Eger, Sas út 25.",
+        "city": "Eger",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://bikeworkshop.ewk.hu/",
+      "phone": [
+        "+36 20 382 4248"
+      ],
+      "email": [
+        "bikeworkshopeger@gmail.com"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-bikeworkshop-eger-20261010"
+      ],
+      "brandLinks": [],
+      "openingHours": "H–P 13:00–17:00"
+    },
+    {
+      "id": "loc-rekord-mobil-bekescsaba",
+      "organizationId": "org-rekord-mobil-bekescsaba",
+      "name": "Rekord-Mobil Kft.",
+      "address": {
+        "raw": "5600 Békéscsaba, Bajza utca 15.",
+        "city": "Békéscsaba",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://elektromos-kerekparbolt.hu/",
+      "phone": [
+        "+36 30 945 1436"
+      ],
+      "email": [],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-rekord-mobil-bekescsaba-20261010"
+      ],
+      "brandLinks": [],
+      "openingHours": "H–P 9:00–17:00, Sz 8:00–12:00"
+    },
+    {
+      "id": "loc-balocom-bekescsaba",
+      "organizationId": "org-balocom-bekescsaba",
+      "name": "BALOCOM Kft.",
+      "address": {
+        "raw": "5600 Békéscsaba, Szabó Dezső utca 19.",
+        "city": "Békéscsaba",
+        "postalCode": null,
+        "street": null
+      },
+      "website": null,
+      "phone": [
+        "+36 66 622 769"
+      ],
+      "email": [
+        "balocomkft@gmail.com"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-balocom-bekescsaba-20261010"
+      ],
+      "brandLinks": [
+        {
+          "brandId": "brand-neuzer",
+          "brandName": "Neuzer",
+          "relation": "sells_brand",
+          "sourceUrl": "https://neuzer.hu/partnereink",
+          "quote": "Neuzer viszonteladói partner.",
+          "evidenceId": "ev-bicaj-bt-debrecen-20261010",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
+          "inCatalog": true
+        }
+      ]
+    },
+    {
+      "id": "loc-velosport-salgotarjan",
+      "organizationId": "org-velosport-salgotarjan",
+      "name": "Velosport Kerékpárüzlet és Kerékpárszerviz",
+      "address": {
+        "raw": "3100 Salgótarján, Füleki út 8.",
+        "city": "Salgótarján",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://velosport.hu/",
+      "phone": [
+        "+36 32 430 015"
+      ],
+      "email": [
+        "info@velosport.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-velosport-salgotarjan-20261010"
+      ],
+      "brandLinks": [],
+      "openingHours": "H–P 9:00–17:00, Sz 9:00–12:00"
+    },
+    {
+      "id": "loc-jel-kerekpar-tatabanya",
+      "organizationId": "org-jel-kerekpar-tatabanya",
+      "name": "Jel Kerékpár Szaküzlet és Szerviz",
+      "address": {
+        "raw": "2800 Tatabánya, Kossuth Lajos út 101.",
+        "city": "Tatabánya",
+        "postalCode": null,
+        "street": null
+      },
+      "website": null,
+      "phone": [
+        "+36 34 319 169"
+      ],
+      "email": [
+        "jelkft@gmail.com"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-jel-kerekpar-tatabanya-20261010"
+      ],
+      "brandLinks": [
+        {
+          "brandId": "brand-merida",
+          "brandName": "Merida",
+          "relation": "dealer",
+          "sourceUrl": "https://bikefun.hu/shops/Jel-Kerekpar-Szakuzlet-es-Szerviz",
+          "quote": "Merida dealer",
+          "evidenceId": "ev-jel-kerekpar-tatabanya-20261010",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
+          "inCatalog": true
+        }
+      ],
+      "openingHours": "K–P 10:00–17:00, Sz 9:00–16:00; H és V zárva"
+    },
+    {
+      "id": "loc-konzum-kerekpar-tatabanya",
+      "organizationId": "org-konzum-kerekpar-tatabanya",
+      "name": "Konzum Kerékpárszervíz",
+      "address": {
+        "raw": "2800 Tatabánya, Győri út 1/A",
+        "city": "Tatabánya",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://konzumkerekpar.webnode.hu/",
+      "phone": [
+        "+36 20 371 1645"
+      ],
+      "email": [
+        "modlokjozsef@gmail.com"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-konzum-kerekpar-tatabanya-20261010"
+      ],
+      "brandLinks": []
+    },
+    {
+      "id": "loc-pedal-kerekpar-gyongyos",
+      "organizationId": "org-pedal-kerekpar-gyongyos",
+      "name": "Pedál Kerékpárszaküzlet és Szerviz",
+      "address": {
+        "raw": "3200 Gyöngyös, Török Ignác u. 4.",
+        "city": "Gyöngyös",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://pedalkerekpar.hu/",
+      "phone": [
+        "+36 37 301 487"
+      ],
+      "email": [
+        "info@pedalkerekpar.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-pedal-kerekpar-gyongyos-20261010"
+      ],
+      "brandLinks": [
+        {
+          "brandId": "brand-neuzer",
+          "brandName": "Neuzer",
+          "relation": "sells_brand",
+          "sourceUrl": "https://pedalkerekpar.hu/",
+          "quote": "Neuzer kerékpárok a kínálatban.",
+          "evidenceId": "ev-pedal-kerekpar-gyongyos-20261010",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
+          "inCatalog": true
+        }
+      ]
+    },
+    {
+      "id": "loc-matra-bike-gyongyos",
+      "organizationId": "org-matra-bike-gyongyos",
+      "name": "Mátra Bike Kerékpárbolt és Szerviz",
+      "address": {
+        "raw": "3200 Gyöngyös, Széchenyi István u. 7.",
+        "city": "Gyöngyös",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "http://www.matrabikenet.hu/",
+      "phone": [
+        "+36 70 944 0237"
+      ],
+      "email": [
+        "matrabike@upcmail.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-matra-bike-gyongyos-20261010"
+      ],
+      "brandLinks": [
+        {
+          "brandId": "brand-trek",
+          "brandName": "Trek",
+          "relation": "dealer",
+          "sourceUrl": "https://www.gyongypartner.hu/szolgaltatasok-elerhetosegei/trek-gyongyos/trek-gyongyos-matra-bike",
+          "quote": "Trek kerékpárok márkaképviselete.",
+          "evidenceId": "ev-matra-bike-gyongyos-20261010",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
+          "inCatalog": true
+        }
+      ]
+    },
+    {
+      "id": "loc-aquarius-bike-dunaujvaros",
+      "organizationId": "org-aquarius-bike-dunaujvaros",
+      "name": "Aquarius Bike",
+      "address": {
+        "raw": "2400 Dunaújváros, Vasmű út 1.",
+        "city": "Dunaújváros",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://aquariusbike.hu/",
+      "phone": [
+        "+36 70 682 8108"
+      ],
+      "email": [
+        "info@aquariusbike.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-aquarius-bike-dunaujvaros-20261010"
+      ],
+      "brandLinks": [
+        {
+          "brandId": "brand-merida",
+          "brandName": "Merida",
+          "relation": "sells_brand",
+          "sourceUrl": "https://aquariusbike.hu/",
+          "quote": "Merida kerékpárok a kínálatban.",
+          "evidenceId": "ev-aquarius-bike-dunaujvaros-20261010",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
+          "inCatalog": true
+        }
+      ],
+      "openingHours": "H–P 9:00–17:00, Sz 9:00–12:00"
+    },
+    {
+      "id": "loc-magellan-bike-dunaujvaros",
+      "organizationId": "org-magellan-bike-dunaujvaros",
+      "name": "Magellán Bike",
+      "address": {
+        "raw": "2400 Dunaújváros, Szórád Márton u. 6/A",
+        "city": "Dunaújváros",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://magellanbike.hu/",
+      "phone": [
+        "+36 20 278 7951"
+      ],
+      "email": [
+        "magellanbt@gmail.com"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-magellan-bike-dunaujvaros-20261010"
+      ],
+      "brandLinks": [],
+      "openingHours": "H 13:00–17:00, K–P 9:00–12:00 és 13:00–17:00, Sz 9:00–12:00"
+    },
+    {
+      "id": "loc-urbanlegend-szeged",
+      "organizationId": "org-urbanlegend-szeged",
+      "name": "UrbanLegend Bike Kft.",
+      "address": {
+        "raw": "6723 Szeged, József Attila sgt. 47.",
+        "city": "Szeged",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://www.urbanlegend.hu/",
+      "phone": [
+        "+36 30 903 2310"
+      ],
+      "email": [
+        "info@urbanlegend.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-urbanlegend-szeged-20261010"
+      ],
+      "brandLinks": [],
+      "openingHours": "H–P 8:00–18:00, Sz 9:00–12:30"
+    },
+    {
+      "id": "loc-vasparipa-szeged",
+      "organizationId": "org-vasparipa-szeged",
+      "name": "Vasparipa Kerékpárbolt és Műhely",
+      "address": {
+        "raw": "6720 Szeged, Deák Ferenc utca 24–26.",
+        "city": "Szeged",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://vasparipakerekpar.hu/",
+      "phone": [
+        "+36 30 251 8234"
+      ],
+      "email": [
+        "vasparipakerekpar@gmail.com"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-vasparipa-szeged-20261010"
+      ],
+      "brandLinks": [],
+      "openingHours": "H–P 9:00–18:00"
+    },
+    {
+      "id": "loc-maniac-szeged",
+      "organizationId": "org-maniac-szeged",
+      "name": "Maniac Kerékpárüzlet",
+      "address": {
+        "raw": "6724 Szeged, Kossuth Lajos sugárút 57.",
+        "city": "Szeged",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://maniac.hu/",
+      "phone": [
+        "+36 62 543 370"
+      ],
+      "email": [
+        "mail@maniac.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-maniac-szeged-20261010"
+      ],
+      "brandLinks": [
+        {
+          "brandId": "brand-trek",
+          "brandName": "Trek",
+          "relation": "dealer",
+          "sourceUrl": "https://trek.hu/hu-hu/Trek_cikkek/Trek_kereskedes_Szeged",
+          "quote": "Trek kereskedés Szeged – Maniac.",
+          "evidenceId": "ev-maniac-szeged-20261010",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
+          "inCatalog": true
+        }
+      ],
+      "openingHours": "H–P 10:00–18:00, Sz 9:00–12:00"
+    },
+    {
+      "id": "loc-gsportzona-szeged",
+      "organizationId": "org-gsportzona-szeged",
+      "name": "GsportZóna",
+      "address": {
+        "raw": "6724 Szeged, Makkos Erdő sor 24.",
+        "city": "Szeged",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "http://gsportzona.hu/",
+      "phone": [
+        "+36 70 606 2230"
+      ],
+      "email": [
+        "gsportzona@gmail.com"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-gsportzona-szeged-20261010"
+      ],
+      "brandLinks": [],
+      "openingHours": "H–K 10:00–18:00, Sze–P 13:00–18:00"
+    },
+    {
+      "id": "loc-prolog-szeged",
+      "organizationId": "org-prolog-szeged",
+      "name": "Prolog Kerékpárüzlet",
+      "address": {
+        "raw": "6723 Szeged, Csongrádi sugárút 31.",
+        "city": "Szeged",
+        "postalCode": null,
+        "street": null
+      },
+      "website": null,
+      "phone": [
+        "+36 62 499 857"
+      ],
+      "email": [
+        "prologkerekpar@gmail.com"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-prolog-szeged-20261010"
+      ],
+      "brandLinks": [
+        {
+          "brandId": "brand-merida",
+          "brandName": "Merida",
+          "relation": "dealer",
+          "sourceUrl": "https://bikefun.hu/shops/Prolog-Kerekparuzlet",
+          "quote": "Merida dealer",
+          "evidenceId": "ev-prolog-szeged-20261010",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
+          "inCatalog": true
+        }
+      ],
+      "openingHours": "H–P 10:00–18:00, Sz 9:00–13:00"
+    },
+    {
+      "id": "loc-chili-sport-debrecen",
+      "organizationId": "org-chili-sport-debrecen",
+      "name": "Chili Sport Kft.",
+      "address": {
+        "raw": "4029 Debrecen, Csapó utca 63.",
+        "city": "Debrecen",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://chilisport.hu/",
+      "phone": [
+        "+36 52 535 539"
+      ],
+      "email": [
+        "chilisport@chilisport.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-chili-sport-debrecen-20261010"
+      ],
+      "brandLinks": [],
+      "openingHours": "H–P 9:00–18:00, Sz 9:00–13:00"
+    },
+    {
+      "id": "loc-regina-kerekparbolt-debrecen",
+      "organizationId": "org-regina-kerekparbolt-debrecen",
+      "name": "Regina Kerékpárbolt",
+      "address": {
+        "raw": "4027 Debrecen, Füredi utca 64.",
+        "city": "Debrecen",
+        "postalCode": null,
+        "street": null
+      },
+      "website": null,
+      "phone": [
+        "+36 20 283 5417"
+      ],
+      "email": [
+        "reginabicikli@gmail.com"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-regina-kerekparbolt-debrecen-20261010"
+      ],
+      "brandLinks": [],
+      "openingHours": "H–P 9:00–17:30, Sz 8:00–13:00"
+    },
+    {
+      "id": "loc-bicaj-bt-debrecen",
+      "organizationId": "org-bicaj-bt-debrecen",
+      "name": "BICAJ BT.",
+      "address": {
+        "raw": "4032 Debrecen, Pesti utca 65.",
+        "city": "Debrecen",
+        "postalCode": null,
+        "street": null
+      },
+      "website": null,
+      "phone": [
+        "+36 52 456 220"
+      ],
+      "email": [
+        "info@bicajbt.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-bicaj-bt-debrecen-20261010"
+      ],
+      "brandLinks": [
+        {
+          "brandId": "brand-neuzer",
+          "brandName": "Neuzer",
+          "relation": "sells_brand",
+          "sourceUrl": "https://neuzer.hu/partnereink",
+          "quote": "Neuzer viszonteladói partner.",
+          "evidenceId": "ev-bicaj-bt-debrecen-20261010",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
+          "inCatalog": true
+        }
+      ]
+    },
+    {
+      "id": "loc-bombastic-bringastic-miskolc",
+      "organizationId": "org-bombastic-bringastic-miskolc",
+      "name": "Bombastic Bringastic Kerékpárszalon (Inter-B Precíziós Kft.)",
+      "address": {
+        "raw": "3526 Miskolc, Szentpéteri kapu 80.",
+        "city": "Miskolc",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://bombastic.uzleti.hu/",
+      "phone": [
+        "+36 30 588 2689"
+      ],
+      "email": [],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-bombastic-bringastic-miskolc-20261010"
+      ],
+      "brandLinks": []
+    },
+    {
+      "id": "loc-bringasziget-nyiregyhaza",
+      "organizationId": "org-bringasziget-nyiregyhaza",
+      "name": "BringaSziget",
+      "address": {
+        "raw": "4400 Nyíregyháza, Agyag utca 6.",
+        "city": "Nyíregyháza",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://bringasziget.hu/",
+      "phone": [
+        "+36 30 740 4428"
+      ],
+      "email": [
+        "info@bringasziget.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-bringasziget-nyiregyhaza-20261010"
+      ],
+      "brandLinks": [],
+      "openingHours": "H–P 9:00–18:00, Sz 9:00–13:00"
+    },
+    {
+      "id": "loc-kondor-kerekpar-nyiregyhaza",
+      "organizationId": "org-kondor-kerekpar-nyiregyhaza",
+      "name": "Csepel Kerékpár és Szervíz (Kondor)",
+      "address": {
+        "raw": "4400 Nyíregyháza, Rákóczi utca 100.",
+        "city": "Nyíregyháza",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://kondor-kerekpar.webnode.hu/",
+      "phone": [
+        "+36 30 985 7097"
+      ],
+      "email": [],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-kondor-kerekpar-nyiregyhaza-20261010"
+      ],
+      "brandLinks": []
+    },
+    {
+      "id": "loc-halmibringa-nyiregyhaza",
+      "organizationId": "org-halmibringa-nyiregyhaza",
+      "name": "Halmibringa",
+      "address": {
+        "raw": "4400 Nyíregyháza, Ungvár sétány 10. D épület",
+        "city": "Nyíregyháza",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://halmibringa.hu/",
+      "phone": [
+        "+36 30 569 9614"
+      ],
+      "email": [
+        "bringahalmi@gmail.com"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-halmibringa-nyiregyhaza-20261010"
+      ],
+      "brandLinks": []
+    },
+    {
+      "id": "loc-imperator-pecs",
+      "organizationId": "org-imperator-pecs",
+      "name": "Imperátor kerékpárszalon",
+      "address": {
+        "raw": "7623 Pécs, Jászai Mari u. 34.",
+        "city": "Pécs",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "http://www.kerekparpecs.hu/",
+      "phone": [
+        "+36 72 534 530"
+      ],
+      "email": [],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-imperator-pecs-20261010"
+      ],
+      "brandLinks": [
+        {
+          "brandId": "brand-merida",
+          "brandName": "Merida",
+          "relation": "dealer",
+          "sourceUrl": "http://www.kerekparpecs.hu/",
+          "quote": "MERIDA TESZT CENTER.",
+          "evidenceId": "ev-imperator-pecs-20261010",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
+          "inCatalog": true
+        }
+      ]
+    },
+    {
+      "id": "loc-dreamline-cycle-pecs",
+      "organizationId": "org-dreamline-cycle-pecs",
+      "name": "Dreamline Cycle",
+      "address": {
+        "raw": "7625 Pécs, Hegyalja u. 20.",
+        "city": "Pécs",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://www.dreamlinecycle.hu/",
+      "phone": [
+        "+36 30 688 3723"
+      ],
+      "email": [
+        "dreamlinecycle@gmail.com"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-dreamline-cycle-pecs-20261010"
+      ],
+      "brandLinks": [],
+      "openingHours": "Időpont egyeztetéssel (telefon)"
+    },
+    {
+      "id": "loc-tisza-bringa-tiszafured",
+      "organizationId": "org-tisza-bringa-tiszafured",
+      "name": "Tisza-Bringa Bolt",
+      "address": {
+        "raw": "5350 Tiszafüred, Fő út 57.",
+        "city": "Tiszafüred",
+        "postalCode": null,
+        "street": null
+      },
+      "website": null,
+      "phone": [
+        "+36 20 323 0262"
+      ],
+      "email": [],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-tisza-bringa-tiszafured-20261010"
+      ],
+      "brandLinks": [],
+      "openingHours": "H–P 8:00–17:00, Sz 8:00–12:00"
+    },
+    {
+      "id": "loc-dz-bike-vac",
+      "organizationId": "org-dz-bike-vac",
+      "name": "DZ BIKE",
+      "address": {
+        "raw": "2600 Vác, Galcsek utca 8–10.",
+        "city": "Vác",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "http://dzbike.hu/",
+      "phone": [
+        "+36 27 310 554"
+      ],
+      "email": [],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-dz-bike-vac-20261010"
+      ],
+      "brandLinks": []
+    },
+    {
+      "id": "loc-balazs-kerekparbolt-szentendre",
+      "organizationId": "org-balazs-kerekparbolt-szentendre",
+      "name": "Balázs Kerékpárbolt",
+      "address": {
+        "raw": "2000 Szentendre, Előd u. 2/A",
+        "city": "Szentendre",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://www.balazskerekparbolt.com/",
+      "phone": [
+        "+36 26 312 111"
+      ],
+      "email": [
+        "balazskerekparboltok@gmail.com"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-balazs-kerekparbolt-szentendre-20261010"
+      ],
+      "brandLinks": [
+        {
+          "brandId": "brand-neuzer",
+          "brandName": "Neuzer",
+          "relation": "sells_brand",
+          "sourceUrl": "https://neuzer.hu/partnereink",
+          "quote": "Neuzer viszonteladói partner.",
+          "evidenceId": "ev-bicaj-bt-debrecen-20261010",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
+          "inCatalog": true
+        }
+      ],
+      "openingHours": "H–P 8:00–17:00"
+    },
+    {
+      "id": "loc-altrix-esztergom",
+      "organizationId": "org-altrix-esztergom",
+      "name": "Altrix bolt",
+      "address": {
+        "raw": "2500 Esztergom, Kossuth Lajos utca 65.",
+        "city": "Esztergom",
+        "postalCode": null,
+        "street": null
+      },
+      "website": null,
+      "phone": [
+        "+36 33 502 175"
+      ],
+      "email": [
+        "bolt@neuzer-bike.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-altrix-esztergom-20261010"
+      ],
+      "brandLinks": [
+        {
+          "brandId": "brand-neuzer",
+          "brandName": "Neuzer",
+          "relation": "dealer",
+          "sourceUrl": "https://neuzer.hu/partnereink",
+          "quote": "Neuzer viszonteladói partner.",
+          "evidenceId": "ev-bicaj-bt-debrecen-20261010",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
+          "inCatalog": true
+        }
+      ]
+    },
+    {
+      "id": "loc-fogas-kerekpar-gyor",
+      "organizationId": "org-fogas-kerekpar-gyor",
+      "name": "Fogas Kerékpárbolt",
+      "address": {
+        "raw": "9025 Győr, Korányi Frigyes tér 18.",
+        "city": "Győr",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://www.fogaskerekpargyor.hu/",
+      "phone": [
+        "+36 20 933 5683"
+      ],
+      "email": [],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-fogas-kerekpar-gyor-20261010"
+      ],
+      "brandLinks": [],
+      "openingHours": "H–P 10:00–17:00, Szombat zárva, Vasárnap zárva"
+    },
+    {
+      "id": "loc-ferita-sport-gyor",
+      "organizationId": "org-ferita-sport-gyor",
+      "name": "Ferita Sport kerékpár szaküzlet és szerviz",
+      "address": {
+        "raw": "9030 Győr, Bodzás utca 19.",
+        "city": "Győr",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://www.feritasport.hu/",
+      "phone": [
+        "+36 30 276 4359"
+      ],
+      "email": [
+        "info@feritasport.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-ferita-sport-gyor-20261010"
+      ],
+      "brandLinks": []
+    },
+    {
+      "id": "loc-stelvio-gyor",
+      "organizationId": "org-stelvio-gyor",
+      "name": "Stelvio Kerékpáros szaküzlet és szerviz",
+      "address": {
+        "raw": "9024 Győr, Práter utca 9.",
+        "city": "Győr",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://stelvio.hu/",
+      "phone": [
+        "+36 20 286 9441"
+      ],
+      "email": [
+        "info@stelvio.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-stelvio-gyor-20261010"
+      ],
+      "brandLinks": [],
+      "openingHours": "Hétfő zárva; K–P 10:00–18:00, Szo 9:00–13:00, Vasárnap zárva"
+    },
+    {
+      "id": "loc-velencebike-velence",
+      "organizationId": "org-velencebike-velence",
+      "name": "VelenceBike",
+      "address": {
+        "raw": "2481 Velence, Fő utca 172.",
+        "city": "Velence",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "http://www.velencebike.hu/",
+      "phone": [
+        "+36 70 329 8300"
+      ],
+      "email": [],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-velencebike-velence-20261010"
+      ],
+      "brandLinks": []
+    },
+    {
+      "id": "loc-velociped-fan-szekesfehervar",
+      "organizationId": "org-velociped-fan-szekesfehervar",
+      "name": "Velocipéd Fan / Trek Székesfehérvár",
+      "address": {
+        "raw": "8000 Székesfehérvár, Pozsonyi út 99/C",
+        "city": "Székesfehérvár",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://hariskerekpar.hu/kapcsolat/",
+      "phone": [
+        "+36 20 823 9073"
+      ],
+      "email": [
+        "trek.szekesfehervar@gmail.com"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-velociped-fan-szekesfehervar-20261010"
+      ],
+      "brandLinks": [
+        {
+          "brandId": "brand-trek",
+          "brandName": "Trek",
+          "relation": "sells_brand",
+          "sourceUrl": "https://trek.hu/hu-hu/Trek_cikkek/Trek_kereskedesek_magyarorszagon",
+          "quote": "Velocipéd Fan szaküzlet – Székesfehérvár, Pozsonyi út 99/C",
+          "evidenceId": "ev-horvath-kerekpar-papa-20261010",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
+          "inCatalog": true
+        }
+      ],
+      "openingHours": "Nyári: H–P 10:00–17:45 (ebéd 12–13), Szo 9:00–12:00; Téli: H–P 10:00–17:00, Szombat zárva"
+    },
+    {
+      "id": "loc-bike-extrem-balatonfured",
+      "organizationId": "org-bike-extrem-balatonfured",
+      "name": "Bike Extrém Kerékpárüzlet",
+      "address": {
+        "raw": "8230 Balatonfüred, Ady Endre utca 21.",
+        "city": "Balatonfüred",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://www.bikeextrem.hu/",
+      "phone": [
+        "+36 30 411 3241"
+      ],
+      "email": [
+        "info@bikeextrem.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-bike-extrem-balatonfured-20261010"
+      ],
+      "brandLinks": [
+        {
+          "brandId": "brand-trek",
+          "brandName": "Trek",
+          "relation": "sells_brand",
+          "sourceUrl": "https://trek.hu/hu-hu/Trek_cikkek/Trek_kereskedesek_magyarorszagon",
+          "quote": "Bike Extrém Kerékpárüzlet – Balatonfüred, Ady Endre utca 21.",
+          "evidenceId": "ev-horvath-kerekpar-papa-20261010",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
+          "inCatalog": true
+        }
+      ]
+    },
+    {
+      "id": "loc-horvath-kerekpar-papa",
+      "organizationId": "org-horvath-kerekpar-papa",
+      "name": "Horváth Kerékpárszervíz",
+      "address": {
+        "raw": "8500 Pápa, Harmadik u. 14.",
+        "city": "Pápa",
+        "postalCode": null,
+        "street": null
+      },
+      "website": null,
+      "phone": [
+        "+36 20 322 1773"
+      ],
+      "email": [
+        "horvathkerekpar@gmail.com"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-horvath-kerekpar-papa-20261010"
+      ],
+      "brandLinks": [
+        {
+          "brandId": "brand-trek",
+          "brandName": "Trek",
+          "relation": "sells_brand",
+          "sourceUrl": "https://trek.hu/hu-hu/Trek_cikkek/Trek_kereskedesek_magyarorszagon",
+          "quote": "Horváth Kerékpárszervíz – Pápa, Harmadik u. 14.",
+          "evidenceId": "ev-horvath-kerekpar-papa-20261010",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
+          "inCatalog": true
+        }
+      ]
+    },
+    {
+      "id": "loc-solyombike-erd",
+      "organizationId": "org-solyombike-erd",
+      "name": "Sólyombike Kerékpárbolt és szerviz",
+      "address": {
+        "raw": "2030 Érd, Tárnoki út 101/a",
+        "city": "Érd",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://www.solyombike.hu/",
+      "phone": [
+        "+36 30 165 6880"
+      ],
+      "email": [
+        "info@solyombike.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-solyombike-erd-20261010"
+      ],
+      "brandLinks": []
+    },
+    {
+      "id": "loc-alfabike-erd",
+      "organizationId": "org-alfabike-erd",
+      "name": "AlfaBike Kerékpárüzlet és Szerviz",
+      "address": {
+        "raw": "2030 Érd, Bajcsy-Zsilinszky út 117.",
+        "city": "Érd",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://alfabike.hu/",
+      "phone": [
+        "+36 20 365 9995"
+      ],
+      "email": [
+        "info@alfabike.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-alfabike-erd-20261010"
+      ],
+      "brandLinks": []
+    },
+    {
+      "id": "loc-robikes-erd",
+      "organizationId": "org-robikes-erd",
+      "name": "Robikes Kerékpárbolt és Szerviz",
+      "address": {
+        "raw": "2030 Érd, Csaba utca 56.",
+        "city": "Érd",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://robikes.hu/",
+      "phone": [
+        "+36 30 932 6478"
+      ],
+      "email": [
+        "info.robikes@gmail.com"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-robikes-erd-20261010"
+      ],
+      "brandLinks": []
+    },
+    {
+      "id": "loc-bike-cafe-budapest",
+      "organizationId": "org-bike-cafe-budapest",
+      "name": "Bike Cafe Kerékpárüzlet",
+      "address": {
+        "raw": "1149 Budapest, Mogyoródi út 16-20.",
+        "city": "Budapest",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://bikecafe.hu/",
+      "phone": [
+        "+36 20 321 6432"
+      ],
+      "email": [
+        "info@bikecafe.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-bike-cafe-budapest-20261010"
+      ],
+      "brandLinks": [
+        {
+          "brandId": "brand-merida",
+          "brandName": "Merida",
+          "relation": "sells_brand",
+          "sourceUrl": "https://bikefun.hu/shops/bike-cafe-kerekparuezlet",
+          "quote": "Merida dealer",
+          "evidenceId": "ev-bike-cafe-budapest-20261010",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
+          "inCatalog": true
+        }
+      ],
+      "openingHours": "H–P 10:00–18:00, Szo 10:00–15:00"
+    },
+    {
+      "id": "loc-big-bike-budapest",
+      "organizationId": "org-big-bike-budapest",
+      "name": "Big Bike",
+      "address": {
+        "raw": "1148 Budapest, Örs vezér tér 18.",
+        "city": "Budapest",
+        "postalCode": null,
+        "street": null
+      },
+      "website": null,
+      "phone": [
+        "+36 1 223 6219"
+      ],
+      "email": [
+        "bigbikekerekpar@gmail.com"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-big-bike-budapest-20261010"
+      ],
+      "brandLinks": [
+        {
+          "brandId": "brand-merida",
+          "brandName": "Merida",
+          "relation": "sells_brand",
+          "sourceUrl": "https://bikefun.hu/shops/big-bike",
+          "quote": "Merida dealer",
+          "evidenceId": "ev-big-bike-budapest-20261010",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
+          "inCatalog": true
+        }
+      ],
+      "openingHours": "H–P 10:00–18:30, Szo 9:00–14:30"
+    },
+    {
+      "id": "loc-bikemen-budapest",
+      "organizationId": "org-bikemen-budapest",
+      "name": "Bikemen Kerékpárbolt",
+      "address": {
+        "raw": "1117 Budapest, Fehérvári út 38/A",
+        "city": "Budapest",
+        "postalCode": null,
+        "street": null
+      },
+      "website": null,
+      "phone": [
+        "+36 1 209 5984"
+      ],
+      "email": [],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-bikemen-budapest-20261010"
+      ],
+      "brandLinks": [
+        {
+          "brandId": "brand-merida",
+          "brandName": "Merida",
+          "relation": "sells_brand",
+          "sourceUrl": "https://bikefun.hu/shops/bikemen-kerekparbolt",
+          "quote": "Merida dealer",
+          "evidenceId": "ev-bikemen-budapest-20261010",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
+          "inCatalog": true
+        }
+      ],
+      "openingHours": "Nyár (márc.–szept.): H–P 10:00–18:00, Szo 10:00–13:00; Tél (okt.–febr.): H–P 10:00–18:00, Szo 12:00–13:00"
+    },
+    {
+      "id": "loc-fulop-mgbikes-budapest",
+      "organizationId": "org-fulop-mgbikes-budapest",
+      "name": "Fülöp Kerékpár Centrum - MGbikes",
+      "address": {
+        "raw": "1145 Budapest, Erzsébet Királyné útja 14/A",
+        "city": "Budapest",
+        "postalCode": null,
+        "street": null
+      },
+      "website": null,
+      "phone": [
+        "+36 1 252 4190"
+      ],
+      "email": [],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-fulop-mgbikes-budapest-20261010"
+      ],
+      "brandLinks": [
+        {
+          "brandId": "brand-merida",
+          "brandName": "Merida",
+          "relation": "sells_brand",
+          "sourceUrl": "https://bikefun.hu/shops/fueloep-kerekpar-centrum-mgbikes",
+          "quote": "Merida dealer",
+          "evidenceId": "ev-fulop-mgbikes-budapest-20261010",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
+          "inCatalog": true
+        }
+      ],
+      "openingHours": "H–P 10:00–18:00; Szo 10:00–13:00 (szezonban márciustól októberig)"
     }
   ],
   "servicesByLocation": {
@@ -1204,6 +3528,1158 @@ window.KEREKPARINDEX_CONTENT = {
         "locationId": "loc-borsod-bike-miskolc",
         "role": "szerviz",
         "sourceUrl": "https://borsodbike.hu/"
+      }
+    ],
+    "loc-biciklon-sport-szombathely": [
+      {
+        "id": "svc-biciklon-sport-szombathely-eladas",
+        "locationId": "loc-biciklon-sport-szombathely",
+        "role": "eladas",
+        "sourceUrl": "https://biciklon.hu/"
+      },
+      {
+        "id": "svc-biciklon-sport-szombathely-szerviz",
+        "locationId": "loc-biciklon-sport-szombathely",
+        "role": "szerviz",
+        "sourceUrl": "https://biciklon.hu/"
+      }
+    ],
+    "loc-savaria-uniker-szombathely": [
+      {
+        "id": "svc-savaria-uniker-szombathely-eladas",
+        "locationId": "loc-savaria-uniker-szombathely",
+        "role": "eladas",
+        "sourceUrl": "https://savariauniker.uzleti.hu/"
+      },
+      {
+        "id": "svc-savaria-uniker-szombathely-szerviz",
+        "locationId": "loc-savaria-uniker-szombathely",
+        "role": "szerviz",
+        "sourceUrl": "https://savariauniker.uzleti.hu/"
+      }
+    ],
+    "loc-canyon-sport-szombathely": [
+      {
+        "id": "svc-canyon-sport-szombathely-eladas",
+        "locationId": "loc-canyon-sport-szombathely",
+        "role": "eladas",
+        "sourceUrl": "https://bikefun.hu/shops/Canyon-Sport"
+      },
+      {
+        "id": "svc-canyon-sport-szombathely-szerviz",
+        "locationId": "loc-canyon-sport-szombathely",
+        "role": "szerviz",
+        "sourceUrl": "https://bikefun.hu/shops/Canyon-Sport"
+      }
+    ],
+    "loc-mixi-bike-zalaegerszeg": [
+      {
+        "id": "svc-mixi-bike-zalaegerszeg-eladas",
+        "locationId": "loc-mixi-bike-zalaegerszeg",
+        "role": "eladas",
+        "sourceUrl": "https://mixi-bike.hu/shop_contact.php"
+      }
+    ],
+    "loc-storm-kerekpar-zalaegerszeg": [
+      {
+        "id": "svc-storm-kerekpar-zalaegerszeg-eladas",
+        "locationId": "loc-storm-kerekpar-zalaegerszeg",
+        "role": "eladas",
+        "sourceUrl": "https://stormkerekpar.uzleti.hu/"
+      },
+      {
+        "id": "svc-storm-kerekpar-zalaegerszeg-szerviz",
+        "locationId": "loc-storm-kerekpar-zalaegerszeg",
+        "role": "szerviz",
+        "sourceUrl": "https://stormkerekpar.uzleti.hu/"
+      }
+    ],
+    "loc-podor-kerekpar-zalaegerszeg": [
+      {
+        "id": "svc-podor-kerekpar-zalaegerszeg-eladas",
+        "locationId": "loc-podor-kerekpar-zalaegerszeg",
+        "role": "eladas",
+        "sourceUrl": "http://www.podorkerekpar.hu/kapcsolat.html"
+      },
+      {
+        "id": "svc-podor-kerekpar-zalaegerszeg-szerviz",
+        "locationId": "loc-podor-kerekpar-zalaegerszeg",
+        "role": "szerviz",
+        "sourceUrl": "http://www.podorkerekpar.hu/kapcsolat.html"
+      }
+    ],
+    "loc-madbike-zalaegerszeg": [
+      {
+        "id": "svc-madbike-zalaegerszeg-eladas",
+        "locationId": "loc-madbike-zalaegerszeg",
+        "role": "eladas",
+        "sourceUrl": "https://www.madbike.hu/kapcsolat"
+      },
+      {
+        "id": "svc-madbike-zalaegerszeg-szerviz",
+        "locationId": "loc-madbike-zalaegerszeg",
+        "role": "szerviz",
+        "sourceUrl": "https://www.madbike.hu/kapcsolat"
+      }
+    ],
+    "loc-bringavar-zalaegerszeg": [
+      {
+        "id": "svc-bringavar-zalaegerszeg-eladas",
+        "locationId": "loc-bringavar-zalaegerszeg",
+        "role": "eladas",
+        "sourceUrl": "https://bikefun.hu/shops/bringavar-2"
+      },
+      {
+        "id": "svc-bringavar-zalaegerszeg-szerviz",
+        "locationId": "loc-bringavar-zalaegerszeg",
+        "role": "szerviz",
+        "sourceUrl": "https://bikefun.hu/shops/bringavar-2"
+      }
+    ],
+    "loc-fricikli-sopron": [
+      {
+        "id": "svc-fricikli-sopron-eladas",
+        "locationId": "loc-fricikli-sopron",
+        "role": "eladas",
+        "sourceUrl": "http://fricikli.hu/"
+      },
+      {
+        "id": "svc-fricikli-sopron-szerviz",
+        "locationId": "loc-fricikli-sopron",
+        "role": "szerviz",
+        "sourceUrl": "http://fricikli.hu/"
+      }
+    ],
+    "loc-toth-fia-sopron": [
+      {
+        "id": "svc-toth-fia-sopron-eladas",
+        "locationId": "loc-toth-fia-sopron",
+        "role": "eladas",
+        "sourceUrl": "https://bikefun.hu/shops/toth-fia-kerekparbolt-es-muhely"
+      },
+      {
+        "id": "svc-toth-fia-sopron-szerviz",
+        "locationId": "loc-toth-fia-sopron",
+        "role": "szerviz",
+        "sourceUrl": "https://bikefun.hu/shops/toth-fia-kerekparbolt-es-muhely"
+      },
+      {
+        "id": "svc-toth-fia-sopron-kolcsonzes",
+        "locationId": "loc-toth-fia-sopron",
+        "role": "kolcsonzes",
+        "sourceUrl": "https://bikefun.hu/shops/toth-fia-kerekparbolt-es-muhely"
+      }
+    ],
+    "loc-ketkerek-sport-sopron": [
+      {
+        "id": "svc-ketkerek-sport-sopron-eladas",
+        "locationId": "loc-ketkerek-sport-sopron",
+        "role": "eladas",
+        "sourceUrl": "https://bikefun.hu/shops/ketkerek-sport"
+      },
+      {
+        "id": "svc-ketkerek-sport-sopron-szerviz",
+        "locationId": "loc-ketkerek-sport-sopron",
+        "role": "szerviz",
+        "sourceUrl": "https://bikefun.hu/shops/ketkerek-sport"
+      }
+    ],
+    "loc-mangobike-sopron": [
+      {
+        "id": "svc-mangobike-sopron-eladas",
+        "locationId": "loc-mangobike-sopron",
+        "role": "eladas",
+        "sourceUrl": "https://www.mangobike.hu/kapcsolat"
+      },
+      {
+        "id": "svc-mangobike-sopron-szerviz",
+        "locationId": "loc-mangobike-sopron",
+        "role": "szerviz",
+        "sourceUrl": "https://www.mangobike.hu/kapcsolat"
+      }
+    ],
+    "loc-tuttibringa-kaposvar": [
+      {
+        "id": "svc-tuttibringa-kaposvar-eladas",
+        "locationId": "loc-tuttibringa-kaposvar",
+        "role": "eladas",
+        "sourceUrl": "https://www.tuttibringa.hu/"
+      },
+      {
+        "id": "svc-tuttibringa-kaposvar-szerviz",
+        "locationId": "loc-tuttibringa-kaposvar",
+        "role": "szerviz",
+        "sourceUrl": "https://www.tuttibringa.hu/"
+      }
+    ],
+    "loc-littvan-kerekpar-kaposvar": [
+      {
+        "id": "svc-littvan-kerekpar-kaposvar-eladas",
+        "locationId": "loc-littvan-kerekpar-kaposvar",
+        "role": "eladas",
+        "sourceUrl": "https://www.new.littvankerekpar.hu/?page_id=108"
+      },
+      {
+        "id": "svc-littvan-kerekpar-kaposvar-szerviz",
+        "locationId": "loc-littvan-kerekpar-kaposvar",
+        "role": "szerviz",
+        "sourceUrl": "https://www.new.littvankerekpar.hu/?page_id=108"
+      }
+    ],
+    "loc-ketkerek-centrum-szekszard": [
+      {
+        "id": "svc-ketkerek-centrum-szekszard-eladas",
+        "locationId": "loc-ketkerek-centrum-szekszard",
+        "role": "eladas",
+        "sourceUrl": "https://bikefun.hu/shops/ketkerek-centrum"
+      },
+      {
+        "id": "svc-ketkerek-centrum-szekszard-szerviz",
+        "locationId": "loc-ketkerek-centrum-szekszard",
+        "role": "szerviz",
+        "sourceUrl": "https://bikefun.hu/shops/ketkerek-centrum"
+      }
+    ],
+    "loc-korosi-kerekpar-szekszard": [
+      {
+        "id": "svc-korosi-kerekpar-szekszard-eladas",
+        "locationId": "loc-korosi-kerekpar-szekszard",
+        "role": "eladas",
+        "sourceUrl": "https://kellysbike.com/en/hu/dealers/"
+      }
+    ],
+    "loc-schneider-kerekpar-szekszard": [
+      {
+        "id": "svc-schneider-kerekpar-szekszard-eladas",
+        "locationId": "loc-schneider-kerekpar-szekszard",
+        "role": "eladas",
+        "sourceUrl": "http://javitomuhelyek.humusz.hu/schneider-ker-kp-r-szak-zlet"
+      },
+      {
+        "id": "svc-schneider-kerekpar-szekszard-szerviz",
+        "locationId": "loc-schneider-kerekpar-szekszard",
+        "role": "szerviz",
+        "sourceUrl": "http://javitomuhelyek.humusz.hu/schneider-ker-kp-r-szak-zlet"
+      }
+    ],
+    "loc-yankos-bike-nagykanizsa": [
+      {
+        "id": "svc-yankos-bike-nagykanizsa-eladas",
+        "locationId": "loc-yankos-bike-nagykanizsa",
+        "role": "eladas",
+        "sourceUrl": "http://yankosbike.hu/"
+      },
+      {
+        "id": "svc-yankos-bike-nagykanizsa-szerviz",
+        "locationId": "loc-yankos-bike-nagykanizsa",
+        "role": "szerviz",
+        "sourceUrl": "http://yankosbike.hu/"
+      }
+    ],
+    "loc-kanizsa-kerekparcentrum-nagykanizsa": [
+      {
+        "id": "svc-kanizsa-kerekparcentrum-nagykanizsa-eladas",
+        "locationId": "loc-kanizsa-kerekparcentrum-nagykanizsa",
+        "role": "eladas",
+        "sourceUrl": "https://www.polisport.com/en/stores_52.html?idst=1368"
+      },
+      {
+        "id": "svc-kanizsa-kerekparcentrum-nagykanizsa-szerviz",
+        "locationId": "loc-kanizsa-kerekparcentrum-nagykanizsa",
+        "role": "szerviz",
+        "sourceUrl": "https://www.polisport.com/en/stores_52.html?idst=1368"
+      }
+    ],
+    "loc-greenzone-keszthely": [
+      {
+        "id": "svc-greenzone-keszthely-eladas",
+        "locationId": "loc-greenzone-keszthely",
+        "role": "eladas",
+        "sourceUrl": "https://greenzone.hu/aszf/"
+      },
+      {
+        "id": "svc-greenzone-keszthely-szerviz",
+        "locationId": "loc-greenzone-keszthely",
+        "role": "szerviz",
+        "sourceUrl": "https://greenzone.hu/aszf/"
+      },
+      {
+        "id": "svc-greenzone-keszthely-kolcsonzes",
+        "locationId": "loc-greenzone-keszthely",
+        "role": "kolcsonzes",
+        "sourceUrl": "https://greenzone.hu/aszf/"
+      }
+    ],
+    "loc-tempo-kerekpar-balatonfured": [
+      {
+        "id": "svc-tempo-kerekpar-balatonfured-eladas",
+        "locationId": "loc-tempo-kerekpar-balatonfured",
+        "role": "eladas",
+        "sourceUrl": "https://tempokerekpar.hu/"
+      },
+      {
+        "id": "svc-tempo-kerekpar-balatonfured-szerviz",
+        "locationId": "loc-tempo-kerekpar-balatonfured",
+        "role": "szerviz",
+        "sourceUrl": "https://tempokerekpar.hu/"
+      },
+      {
+        "id": "svc-tempo-kerekpar-balatonfured-kolcsonzes",
+        "locationId": "loc-tempo-kerekpar-balatonfured",
+        "role": "kolcsonzes",
+        "sourceUrl": "https://tempokerekpar.hu/"
+      }
+    ],
+    "loc-csopi-kerekparos-kozpont-balatonfured": [
+      {
+        "id": "svc-csopi-kerekparos-kozpont-balatonfured-eladas",
+        "locationId": "loc-csopi-kerekparos-kozpont-balatonfured",
+        "role": "eladas",
+        "sourceUrl": "https://kerekparbalaton.hu/kapcsolat/"
+      },
+      {
+        "id": "svc-csopi-kerekparos-kozpont-balatonfured-szerviz",
+        "locationId": "loc-csopi-kerekparos-kozpont-balatonfured",
+        "role": "szerviz",
+        "sourceUrl": "https://kerekparbalaton.hu/kapcsolat/"
+      },
+      {
+        "id": "svc-csopi-kerekparos-kozpont-balatonfured-kolcsonzes",
+        "locationId": "loc-csopi-kerekparos-kozpont-balatonfured",
+        "role": "kolcsonzes",
+        "sourceUrl": "https://kerekparbalaton.hu/kapcsolat/"
+      }
+    ],
+    "loc-pelso-bike-siofok": [
+      {
+        "id": "svc-pelso-bike-siofok-eladas",
+        "locationId": "loc-pelso-bike-siofok",
+        "role": "eladas",
+        "sourceUrl": "https://www.pelsobike.hu/index.php?lang=hu"
+      },
+      {
+        "id": "svc-pelso-bike-siofok-szerviz",
+        "locationId": "loc-pelso-bike-siofok",
+        "role": "szerviz",
+        "sourceUrl": "https://www.pelsobike.hu/index.php?lang=hu"
+      }
+    ],
+    "loc-nelson-bike-veszprem": [
+      {
+        "id": "svc-nelson-bike-veszprem-eladas",
+        "locationId": "loc-nelson-bike-veszprem",
+        "role": "eladas",
+        "sourceUrl": "https://bikefun.hu/shops/nelson-bike-1"
+      },
+      {
+        "id": "svc-nelson-bike-veszprem-szerviz",
+        "locationId": "loc-nelson-bike-veszprem",
+        "role": "szerviz",
+        "sourceUrl": "https://bikefun.hu/shops/nelson-bike-1"
+      },
+      {
+        "id": "svc-nelson-bike-veszprem-kolcsonzes",
+        "locationId": "loc-nelson-bike-veszprem",
+        "role": "kolcsonzes",
+        "sourceUrl": "https://bikefun.hu/shops/nelson-bike-1"
+      }
+    ],
+    "loc-kuszi-kerekpar-veszprem": [
+      {
+        "id": "svc-kuszi-kerekpar-veszprem-eladas",
+        "locationId": "loc-kuszi-kerekpar-veszprem",
+        "role": "eladas",
+        "sourceUrl": "https://kuszikerekpar.hu/"
+      },
+      {
+        "id": "svc-kuszi-kerekpar-veszprem-szerviz",
+        "locationId": "loc-kuszi-kerekpar-veszprem",
+        "role": "szerviz",
+        "sourceUrl": "https://kuszikerekpar.hu/"
+      }
+    ],
+    "loc-bikeland-veszprem": [
+      {
+        "id": "svc-bikeland-veszprem-eladas",
+        "locationId": "loc-bikeland-veszprem",
+        "role": "eladas",
+        "sourceUrl": "http://www.bikeland.hu/"
+      },
+      {
+        "id": "svc-bikeland-veszprem-szerviz",
+        "locationId": "loc-bikeland-veszprem",
+        "role": "szerviz",
+        "sourceUrl": "http://www.bikeland.hu/"
+      }
+    ],
+    "loc-ronabike-veszprem": [
+      {
+        "id": "svc-ronabike-veszprem-eladas",
+        "locationId": "loc-ronabike-veszprem",
+        "role": "eladas",
+        "sourceUrl": "https://ronabike.hu/aszf.html"
+      },
+      {
+        "id": "svc-ronabike-veszprem-szerviz",
+        "locationId": "loc-ronabike-veszprem",
+        "role": "szerviz",
+        "sourceUrl": "https://ronabike.hu/aszf.html"
+      }
+    ],
+    "loc-farady-kerekpar-veszprem": [
+      {
+        "id": "svc-farady-kerekpar-veszprem-eladas",
+        "locationId": "loc-farady-kerekpar-veszprem",
+        "role": "eladas",
+        "sourceUrl": "https://csepelkerekpar.hu/uzletek/?county=Veszpr%C3%A9m"
+      },
+      {
+        "id": "svc-farady-kerekpar-veszprem-szerviz",
+        "locationId": "loc-farady-kerekpar-veszprem",
+        "role": "szerviz",
+        "sourceUrl": "https://csepelkerekpar.hu/uzletek/?county=Veszpr%C3%A9m"
+      }
+    ],
+    "loc-sport-oazis-papa": [
+      {
+        "id": "svc-sport-oazis-papa-eladas",
+        "locationId": "loc-sport-oazis-papa",
+        "role": "eladas",
+        "sourceUrl": "https://csepelkerekpar.hu/uzletek/?county=Veszpr%C3%A9m"
+      },
+      {
+        "id": "svc-sport-oazis-papa-szerviz",
+        "locationId": "loc-sport-oazis-papa",
+        "role": "szerviz",
+        "sourceUrl": "https://csepelkerekpar.hu/uzletek/?county=Veszpr%C3%A9m"
+      }
+    ],
+    "loc-balint-kerekpar-papa": [
+      {
+        "id": "svc-balint-kerekpar-papa-eladas",
+        "locationId": "loc-balint-kerekpar-papa",
+        "role": "eladas",
+        "sourceUrl": "https://bikefun.hu/shops/balint-kerekpar"
+      },
+      {
+        "id": "svc-balint-kerekpar-papa-szerviz",
+        "locationId": "loc-balint-kerekpar-papa",
+        "role": "szerviz",
+        "sourceUrl": "https://bikefun.hu/shops/balint-kerekpar"
+      }
+    ],
+    "loc-biciklon-kormend": [
+      {
+        "id": "svc-biciklon-kormend-eladas",
+        "locationId": "loc-biciklon-kormend",
+        "role": "eladas",
+        "sourceUrl": "https://bikefun.hu/shops/biciklon-sport-kerekparuezlet-es-szerviz-koermend"
+      },
+      {
+        "id": "svc-biciklon-kormend-szerviz",
+        "locationId": "loc-biciklon-kormend",
+        "role": "szerviz",
+        "sourceUrl": "https://bikefun.hu/shops/biciklon-sport-kerekparuezlet-es-szerviz-koermend"
+      }
+    ],
+    "loc-bringabolt-kecskemet": [
+      {
+        "id": "svc-bringabolt-kecskemet-eladas",
+        "locationId": "loc-bringabolt-kecskemet",
+        "role": "eladas",
+        "sourceUrl": "https://bringabolt.com/kapcsolat/"
+      },
+      {
+        "id": "svc-bringabolt-kecskemet-szerviz",
+        "locationId": "loc-bringabolt-kecskemet",
+        "role": "szerviz",
+        "sourceUrl": "https://bringabolt.com/kapcsolat/"
+      }
+    ],
+    "loc-szigma-trade-kecskemet": [
+      {
+        "id": "svc-szigma-trade-kecskemet-eladas",
+        "locationId": "loc-szigma-trade-kecskemet",
+        "role": "eladas",
+        "sourceUrl": "https://www.szigmatrade.hu/"
+      },
+      {
+        "id": "svc-szigma-trade-kecskemet-szerviz",
+        "locationId": "loc-szigma-trade-kecskemet",
+        "role": "szerviz",
+        "sourceUrl": "https://www.szigmatrade.hu/"
+      }
+    ],
+    "loc-bicishop-kecskemet": [
+      {
+        "id": "svc-bicishop-kecskemet-eladas",
+        "locationId": "loc-bicishop-kecskemet",
+        "role": "eladas",
+        "sourceUrl": "https://bikefun.hu/shops/bicishop"
+      },
+      {
+        "id": "svc-bicishop-kecskemet-szerviz",
+        "locationId": "loc-bicishop-kecskemet",
+        "role": "szerviz",
+        "sourceUrl": "https://bikefun.hu/shops/bicishop"
+      }
+    ],
+    "loc-szep-kerekpar-kecskemet": [
+      {
+        "id": "svc-szep-kerekpar-kecskemet-eladas",
+        "locationId": "loc-szep-kerekpar-kecskemet",
+        "role": "eladas",
+        "sourceUrl": "http://www.szepkerekpar.hu/"
+      },
+      {
+        "id": "svc-szep-kerekpar-kecskemet-szerviz",
+        "locationId": "loc-szep-kerekpar-kecskemet",
+        "role": "szerviz",
+        "sourceUrl": "http://www.szepkerekpar.hu/"
+      }
+    ],
+    "loc-canganyika-szolnok": [
+      {
+        "id": "svc-canganyika-szolnok-eladas",
+        "locationId": "loc-canganyika-szolnok",
+        "role": "eladas",
+        "sourceUrl": "https://bikefun.hu/shops/canganyika-kerekparuezlet-es-szerviz"
+      },
+      {
+        "id": "svc-canganyika-szolnok-szerviz",
+        "locationId": "loc-canganyika-szolnok",
+        "role": "szerviz",
+        "sourceUrl": "https://bikefun.hu/shops/canganyika-kerekparuezlet-es-szerviz"
+      }
+    ],
+    "loc-pne-mobil-szolnok": [
+      {
+        "id": "svc-pne-mobil-szolnok-eladas",
+        "locationId": "loc-pne-mobil-szolnok",
+        "role": "eladas",
+        "sourceUrl": "https://pnemobilkft.webnode.hu/"
+      },
+      {
+        "id": "svc-pne-mobil-szolnok-szerviz",
+        "locationId": "loc-pne-mobil-szolnok",
+        "role": "szerviz",
+        "sourceUrl": "https://pnemobilkft.webnode.hu/"
+      }
+    ],
+    "loc-egerbike-eger": [
+      {
+        "id": "svc-egerbike-eger-eladas",
+        "locationId": "loc-egerbike-eger",
+        "role": "eladas",
+        "sourceUrl": "https://egerbike.hu/kapcsolat"
+      },
+      {
+        "id": "svc-egerbike-eger-szerviz",
+        "locationId": "loc-egerbike-eger",
+        "role": "szerviz",
+        "sourceUrl": "https://egerbike.hu/kapcsolat"
+      }
+    ],
+    "loc-bicocenter-eger": [
+      {
+        "id": "svc-bicocenter-eger-eladas",
+        "locationId": "loc-bicocenter-eger",
+        "role": "eladas",
+        "sourceUrl": "https://bicocenter.hu/"
+      },
+      {
+        "id": "svc-bicocenter-eger-szerviz",
+        "locationId": "loc-bicocenter-eger",
+        "role": "szerviz",
+        "sourceUrl": "https://bicocenter.hu/"
+      }
+    ],
+    "loc-bikeworkshop-eger": [
+      {
+        "id": "svc-bikeworkshop-eger-eladas",
+        "locationId": "loc-bikeworkshop-eger",
+        "role": "eladas",
+        "sourceUrl": "https://bikeworkshop.ewk.hu/elerhetosegek/"
+      },
+      {
+        "id": "svc-bikeworkshop-eger-szerviz",
+        "locationId": "loc-bikeworkshop-eger",
+        "role": "szerviz",
+        "sourceUrl": "https://bikeworkshop.ewk.hu/elerhetosegek/"
+      }
+    ],
+    "loc-rekord-mobil-bekescsaba": [
+      {
+        "id": "svc-rekord-mobil-bekescsaba-eladas",
+        "locationId": "loc-rekord-mobil-bekescsaba",
+        "role": "eladas",
+        "sourceUrl": "https://elektromos-kerekparbolt.hu/rolunk/"
+      },
+      {
+        "id": "svc-rekord-mobil-bekescsaba-szerviz",
+        "locationId": "loc-rekord-mobil-bekescsaba",
+        "role": "szerviz",
+        "sourceUrl": "https://elektromos-kerekparbolt.hu/rolunk/"
+      }
+    ],
+    "loc-balocom-bekescsaba": [
+      {
+        "id": "svc-balocom-bekescsaba-eladas",
+        "locationId": "loc-balocom-bekescsaba",
+        "role": "eladas",
+        "sourceUrl": "https://neuzer.hu/partnereink"
+      },
+      {
+        "id": "svc-balocom-bekescsaba-szerviz",
+        "locationId": "loc-balocom-bekescsaba",
+        "role": "szerviz",
+        "sourceUrl": "https://neuzer.hu/partnereink"
+      }
+    ],
+    "loc-velosport-salgotarjan": [
+      {
+        "id": "svc-velosport-salgotarjan-eladas",
+        "locationId": "loc-velosport-salgotarjan",
+        "role": "eladas",
+        "sourceUrl": "https://velosport.hu/rolunk"
+      },
+      {
+        "id": "svc-velosport-salgotarjan-szerviz",
+        "locationId": "loc-velosport-salgotarjan",
+        "role": "szerviz",
+        "sourceUrl": "https://velosport.hu/rolunk"
+      }
+    ],
+    "loc-jel-kerekpar-tatabanya": [
+      {
+        "id": "svc-jel-kerekpar-tatabanya-eladas",
+        "locationId": "loc-jel-kerekpar-tatabanya",
+        "role": "eladas",
+        "sourceUrl": "https://bikefun.hu/shops/Jel-Kerekpar-Szakuzlet-es-Szerviz"
+      },
+      {
+        "id": "svc-jel-kerekpar-tatabanya-szerviz",
+        "locationId": "loc-jel-kerekpar-tatabanya",
+        "role": "szerviz",
+        "sourceUrl": "https://bikefun.hu/shops/Jel-Kerekpar-Szakuzlet-es-Szerviz"
+      }
+    ],
+    "loc-konzum-kerekpar-tatabanya": [
+      {
+        "id": "svc-konzum-kerekpar-tatabanya-eladas",
+        "locationId": "loc-konzum-kerekpar-tatabanya",
+        "role": "eladas",
+        "sourceUrl": "https://konzumkerekpar.webnode.hu/"
+      },
+      {
+        "id": "svc-konzum-kerekpar-tatabanya-szerviz",
+        "locationId": "loc-konzum-kerekpar-tatabanya",
+        "role": "szerviz",
+        "sourceUrl": "https://konzumkerekpar.webnode.hu/"
+      }
+    ],
+    "loc-pedal-kerekpar-gyongyos": [
+      {
+        "id": "svc-pedal-kerekpar-gyongyos-eladas",
+        "locationId": "loc-pedal-kerekpar-gyongyos",
+        "role": "eladas",
+        "sourceUrl": "https://pedalkerekpar.hu/"
+      },
+      {
+        "id": "svc-pedal-kerekpar-gyongyos-szerviz",
+        "locationId": "loc-pedal-kerekpar-gyongyos",
+        "role": "szerviz",
+        "sourceUrl": "https://pedalkerekpar.hu/"
+      }
+    ],
+    "loc-matra-bike-gyongyos": [
+      {
+        "id": "svc-matra-bike-gyongyos-eladas",
+        "locationId": "loc-matra-bike-gyongyos",
+        "role": "eladas",
+        "sourceUrl": "http://javitomuhelyek.humusz.hu/m-tra-bike"
+      },
+      {
+        "id": "svc-matra-bike-gyongyos-szerviz",
+        "locationId": "loc-matra-bike-gyongyos",
+        "role": "szerviz",
+        "sourceUrl": "http://javitomuhelyek.humusz.hu/m-tra-bike"
+      }
+    ],
+    "loc-aquarius-bike-dunaujvaros": [
+      {
+        "id": "svc-aquarius-bike-dunaujvaros-eladas",
+        "locationId": "loc-aquarius-bike-dunaujvaros",
+        "role": "eladas",
+        "sourceUrl": "https://aquariusbike.hu/"
+      },
+      {
+        "id": "svc-aquarius-bike-dunaujvaros-szerviz",
+        "locationId": "loc-aquarius-bike-dunaujvaros",
+        "role": "szerviz",
+        "sourceUrl": "https://aquariusbike.hu/"
+      }
+    ],
+    "loc-magellan-bike-dunaujvaros": [
+      {
+        "id": "svc-magellan-bike-dunaujvaros-eladas",
+        "locationId": "loc-magellan-bike-dunaujvaros",
+        "role": "eladas",
+        "sourceUrl": "https://magellanbike.hu/kapcsolat/"
+      },
+      {
+        "id": "svc-magellan-bike-dunaujvaros-szerviz",
+        "locationId": "loc-magellan-bike-dunaujvaros",
+        "role": "szerviz",
+        "sourceUrl": "https://magellanbike.hu/kapcsolat/"
+      }
+    ],
+    "loc-urbanlegend-szeged": [
+      {
+        "id": "svc-urbanlegend-szeged-eladas",
+        "locationId": "loc-urbanlegend-szeged",
+        "role": "eladas",
+        "sourceUrl": "https://www.urbanlegend.hu/kapcsolat/"
+      },
+      {
+        "id": "svc-urbanlegend-szeged-szerviz",
+        "locationId": "loc-urbanlegend-szeged",
+        "role": "szerviz",
+        "sourceUrl": "https://www.urbanlegend.hu/kapcsolat/"
+      }
+    ],
+    "loc-vasparipa-szeged": [
+      {
+        "id": "svc-vasparipa-szeged-eladas",
+        "locationId": "loc-vasparipa-szeged",
+        "role": "eladas",
+        "sourceUrl": "https://vasparipakerekpar.hu/kapcsolat/"
+      },
+      {
+        "id": "svc-vasparipa-szeged-szerviz",
+        "locationId": "loc-vasparipa-szeged",
+        "role": "szerviz",
+        "sourceUrl": "https://vasparipakerekpar.hu/kapcsolat/"
+      }
+    ],
+    "loc-maniac-szeged": [
+      {
+        "id": "svc-maniac-szeged-eladas",
+        "locationId": "loc-maniac-szeged",
+        "role": "eladas",
+        "sourceUrl": "https://trek.hu/hu-hu/Trek_cikkek/Trek_kereskedes_Szeged"
+      },
+      {
+        "id": "svc-maniac-szeged-szerviz",
+        "locationId": "loc-maniac-szeged",
+        "role": "szerviz",
+        "sourceUrl": "https://trek.hu/hu-hu/Trek_cikkek/Trek_kereskedes_Szeged"
+      }
+    ],
+    "loc-gsportzona-szeged": [
+      {
+        "id": "svc-gsportzona-szeged-eladas",
+        "locationId": "loc-gsportzona-szeged",
+        "role": "eladas",
+        "sourceUrl": "http://gsportzona.hu/"
+      },
+      {
+        "id": "svc-gsportzona-szeged-szerviz",
+        "locationId": "loc-gsportzona-szeged",
+        "role": "szerviz",
+        "sourceUrl": "http://gsportzona.hu/"
+      }
+    ],
+    "loc-prolog-szeged": [
+      {
+        "id": "svc-prolog-szeged-eladas",
+        "locationId": "loc-prolog-szeged",
+        "role": "eladas",
+        "sourceUrl": "https://bikefun.hu/shops/Prolog-Kerekparuzlet"
+      },
+      {
+        "id": "svc-prolog-szeged-szerviz",
+        "locationId": "loc-prolog-szeged",
+        "role": "szerviz",
+        "sourceUrl": "https://bikefun.hu/shops/Prolog-Kerekparuzlet"
+      }
+    ],
+    "loc-chili-sport-debrecen": [
+      {
+        "id": "svc-chili-sport-debrecen-eladas",
+        "locationId": "loc-chili-sport-debrecen",
+        "role": "eladas",
+        "sourceUrl": "https://chilisport.hu/elerhetoseg/"
+      },
+      {
+        "id": "svc-chili-sport-debrecen-szerviz",
+        "locationId": "loc-chili-sport-debrecen",
+        "role": "szerviz",
+        "sourceUrl": "https://chilisport.hu/elerhetoseg/"
+      }
+    ],
+    "loc-regina-kerekparbolt-debrecen": [
+      {
+        "id": "svc-regina-kerekparbolt-debrecen-eladas",
+        "locationId": "loc-regina-kerekparbolt-debrecen",
+        "role": "eladas",
+        "sourceUrl": "https://bikefun.hu/shops/regina-kerekparbolt"
+      },
+      {
+        "id": "svc-regina-kerekparbolt-debrecen-szerviz",
+        "locationId": "loc-regina-kerekparbolt-debrecen",
+        "role": "szerviz",
+        "sourceUrl": "https://bikefun.hu/shops/regina-kerekparbolt"
+      }
+    ],
+    "loc-bicaj-bt-debrecen": [
+      {
+        "id": "svc-bicaj-bt-debrecen-eladas",
+        "locationId": "loc-bicaj-bt-debrecen",
+        "role": "eladas",
+        "sourceUrl": "https://neuzer.hu/partnereink"
+      },
+      {
+        "id": "svc-bicaj-bt-debrecen-szerviz",
+        "locationId": "loc-bicaj-bt-debrecen",
+        "role": "szerviz",
+        "sourceUrl": "https://neuzer.hu/partnereink"
+      }
+    ],
+    "loc-bombastic-bringastic-miskolc": [
+      {
+        "id": "svc-bombastic-bringastic-miskolc-eladas",
+        "locationId": "loc-bombastic-bringastic-miskolc",
+        "role": "eladas",
+        "sourceUrl": "https://bombastic.uzleti.hu/"
+      },
+      {
+        "id": "svc-bombastic-bringastic-miskolc-szerviz",
+        "locationId": "loc-bombastic-bringastic-miskolc",
+        "role": "szerviz",
+        "sourceUrl": "https://bombastic.uzleti.hu/"
+      }
+    ],
+    "loc-bringasziget-nyiregyhaza": [
+      {
+        "id": "svc-bringasziget-nyiregyhaza-eladas",
+        "locationId": "loc-bringasziget-nyiregyhaza",
+        "role": "eladas",
+        "sourceUrl": "https://bringasziget.hu/"
+      },
+      {
+        "id": "svc-bringasziget-nyiregyhaza-szerviz",
+        "locationId": "loc-bringasziget-nyiregyhaza",
+        "role": "szerviz",
+        "sourceUrl": "https://bringasziget.hu/"
+      }
+    ],
+    "loc-kondor-kerekpar-nyiregyhaza": [
+      {
+        "id": "svc-kondor-kerekpar-nyiregyhaza-eladas",
+        "locationId": "loc-kondor-kerekpar-nyiregyhaza",
+        "role": "eladas",
+        "sourceUrl": "https://kondor-kerekpar.webnode.hu/"
+      },
+      {
+        "id": "svc-kondor-kerekpar-nyiregyhaza-szerviz",
+        "locationId": "loc-kondor-kerekpar-nyiregyhaza",
+        "role": "szerviz",
+        "sourceUrl": "https://kondor-kerekpar.webnode.hu/"
+      }
+    ],
+    "loc-halmibringa-nyiregyhaza": [
+      {
+        "id": "svc-halmibringa-nyiregyhaza-eladas",
+        "locationId": "loc-halmibringa-nyiregyhaza",
+        "role": "eladas",
+        "sourceUrl": "https://halmibringa.hu/"
+      },
+      {
+        "id": "svc-halmibringa-nyiregyhaza-szerviz",
+        "locationId": "loc-halmibringa-nyiregyhaza",
+        "role": "szerviz",
+        "sourceUrl": "https://halmibringa.hu/"
+      }
+    ],
+    "loc-imperator-pecs": [
+      {
+        "id": "svc-imperator-pecs-eladas",
+        "locationId": "loc-imperator-pecs",
+        "role": "eladas",
+        "sourceUrl": "http://www.kerekparpecs.hu/"
+      },
+      {
+        "id": "svc-imperator-pecs-szerviz",
+        "locationId": "loc-imperator-pecs",
+        "role": "szerviz",
+        "sourceUrl": "http://www.kerekparpecs.hu/"
+      }
+    ],
+    "loc-dreamline-cycle-pecs": [
+      {
+        "id": "svc-dreamline-cycle-pecs-szerviz",
+        "locationId": "loc-dreamline-cycle-pecs",
+        "role": "szerviz",
+        "sourceUrl": "https://www.dreamlinecycle.hu/"
+      },
+      {
+        "id": "svc-dreamline-cycle-pecs-eladas",
+        "locationId": "loc-dreamline-cycle-pecs",
+        "role": "eladas",
+        "sourceUrl": "https://www.dreamlinecycle.hu/"
+      }
+    ],
+    "loc-tisza-bringa-tiszafured": [
+      {
+        "id": "svc-tisza-bringa-tiszafured-eladas",
+        "locationId": "loc-tisza-bringa-tiszafured",
+        "role": "eladas",
+        "sourceUrl": "https://www.uzletektiszafured.hu/Kerekpar_alkatresz/674/Tisza-bringa_bolt/3339"
+      },
+      {
+        "id": "svc-tisza-bringa-tiszafured-szerviz",
+        "locationId": "loc-tisza-bringa-tiszafured",
+        "role": "szerviz",
+        "sourceUrl": "https://www.uzletektiszafured.hu/Kerekpar_alkatresz/674/Tisza-bringa_bolt/3339"
+      }
+    ],
+    "loc-dz-bike-vac": [
+      {
+        "id": "svc-dz-bike-vac-eladas",
+        "locationId": "loc-dz-bike-vac",
+        "role": "eladas",
+        "sourceUrl": "http://dzbike.hu/"
+      },
+      {
+        "id": "svc-dz-bike-vac-szerviz",
+        "locationId": "loc-dz-bike-vac",
+        "role": "szerviz",
+        "sourceUrl": "http://dzbike.hu/"
+      }
+    ],
+    "loc-balazs-kerekparbolt-szentendre": [
+      {
+        "id": "svc-balazs-kerekparbolt-szentendre-eladas",
+        "locationId": "loc-balazs-kerekparbolt-szentendre",
+        "role": "eladas",
+        "sourceUrl": "https://www.balazskerekparbolt.com/"
+      },
+      {
+        "id": "svc-balazs-kerekparbolt-szentendre-szerviz",
+        "locationId": "loc-balazs-kerekparbolt-szentendre",
+        "role": "szerviz",
+        "sourceUrl": "https://www.balazskerekparbolt.com/"
+      }
+    ],
+    "loc-altrix-esztergom": [
+      {
+        "id": "svc-altrix-esztergom-eladas",
+        "locationId": "loc-altrix-esztergom",
+        "role": "eladas",
+        "sourceUrl": "https://neuzer.hu/partnereink"
+      },
+      {
+        "id": "svc-altrix-esztergom-szerviz",
+        "locationId": "loc-altrix-esztergom",
+        "role": "szerviz",
+        "sourceUrl": "https://neuzer.hu/partnereink"
+      }
+    ],
+    "loc-fogas-kerekpar-gyor": [
+      {
+        "id": "svc-fogas-kerekpar-gyor-eladas",
+        "locationId": "loc-fogas-kerekpar-gyor",
+        "role": "eladas",
+        "sourceUrl": "https://www.fogaskerekpargyor.hu/"
+      },
+      {
+        "id": "svc-fogas-kerekpar-gyor-szerviz",
+        "locationId": "loc-fogas-kerekpar-gyor",
+        "role": "szerviz",
+        "sourceUrl": "https://www.fogaskerekpargyor.hu/"
+      }
+    ],
+    "loc-ferita-sport-gyor": [
+      {
+        "id": "svc-ferita-sport-gyor-eladas",
+        "locationId": "loc-ferita-sport-gyor",
+        "role": "eladas",
+        "sourceUrl": "https://www.feritasport.hu/"
+      },
+      {
+        "id": "svc-ferita-sport-gyor-szerviz",
+        "locationId": "loc-ferita-sport-gyor",
+        "role": "szerviz",
+        "sourceUrl": "https://www.feritasport.hu/"
+      }
+    ],
+    "loc-stelvio-gyor": [
+      {
+        "id": "svc-stelvio-gyor-eladas",
+        "locationId": "loc-stelvio-gyor",
+        "role": "eladas",
+        "sourceUrl": "https://stelvio.hu/"
+      },
+      {
+        "id": "svc-stelvio-gyor-szerviz",
+        "locationId": "loc-stelvio-gyor",
+        "role": "szerviz",
+        "sourceUrl": "https://stelvio.hu/"
+      }
+    ],
+    "loc-velencebike-velence": [
+      {
+        "id": "svc-velencebike-velence-eladas",
+        "locationId": "loc-velencebike-velence",
+        "role": "eladas",
+        "sourceUrl": "http://www.velencebike.hu/"
+      },
+      {
+        "id": "svc-velencebike-velence-szerviz",
+        "locationId": "loc-velencebike-velence",
+        "role": "szerviz",
+        "sourceUrl": "http://www.velencebike.hu/"
+      }
+    ],
+    "loc-velociped-fan-szekesfehervar": [
+      {
+        "id": "svc-velociped-fan-szekesfehervar-eladas",
+        "locationId": "loc-velociped-fan-szekesfehervar",
+        "role": "eladas",
+        "sourceUrl": "https://hariskerekpar.hu/kapcsolat/"
+      },
+      {
+        "id": "svc-velociped-fan-szekesfehervar-szerviz",
+        "locationId": "loc-velociped-fan-szekesfehervar",
+        "role": "szerviz",
+        "sourceUrl": "https://hariskerekpar.hu/kapcsolat/"
+      }
+    ],
+    "loc-bike-extrem-balatonfured": [
+      {
+        "id": "svc-bike-extrem-balatonfured-eladas",
+        "locationId": "loc-bike-extrem-balatonfured",
+        "role": "eladas",
+        "sourceUrl": "https://trek.hu/hu-hu/Trek_cikkek/Trek_kereskedesek_magyarorszagon"
+      },
+      {
+        "id": "svc-bike-extrem-balatonfured-szerviz",
+        "locationId": "loc-bike-extrem-balatonfured",
+        "role": "szerviz",
+        "sourceUrl": "https://trek.hu/hu-hu/Trek_cikkek/Trek_kereskedesek_magyarorszagon"
+      }
+    ],
+    "loc-horvath-kerekpar-papa": [
+      {
+        "id": "svc-horvath-kerekpar-papa-szerviz",
+        "locationId": "loc-horvath-kerekpar-papa",
+        "role": "szerviz",
+        "sourceUrl": "https://trek.hu/hu-hu/Trek_cikkek/Trek_kereskedesek_magyarorszagon"
+      },
+      {
+        "id": "svc-horvath-kerekpar-papa-eladas",
+        "locationId": "loc-horvath-kerekpar-papa",
+        "role": "eladas",
+        "sourceUrl": "https://trek.hu/hu-hu/Trek_cikkek/Trek_kereskedesek_magyarorszagon"
+      }
+    ],
+    "loc-solyombike-erd": [
+      {
+        "id": "svc-solyombike-erd-eladas",
+        "locationId": "loc-solyombike-erd",
+        "role": "eladas",
+        "sourceUrl": "https://www.solyombike.hu/"
+      },
+      {
+        "id": "svc-solyombike-erd-szerviz",
+        "locationId": "loc-solyombike-erd",
+        "role": "szerviz",
+        "sourceUrl": "https://www.solyombike.hu/"
+      }
+    ],
+    "loc-alfabike-erd": [
+      {
+        "id": "svc-alfabike-erd-eladas",
+        "locationId": "loc-alfabike-erd",
+        "role": "eladas",
+        "sourceUrl": "https://alfabike.hu/"
+      },
+      {
+        "id": "svc-alfabike-erd-szerviz",
+        "locationId": "loc-alfabike-erd",
+        "role": "szerviz",
+        "sourceUrl": "https://alfabike.hu/"
+      }
+    ],
+    "loc-robikes-erd": [
+      {
+        "id": "svc-robikes-erd-eladas",
+        "locationId": "loc-robikes-erd",
+        "role": "eladas",
+        "sourceUrl": "https://robikes.hu/"
+      },
+      {
+        "id": "svc-robikes-erd-szerviz",
+        "locationId": "loc-robikes-erd",
+        "role": "szerviz",
+        "sourceUrl": "https://robikes.hu/"
+      }
+    ],
+    "loc-bike-cafe-budapest": [
+      {
+        "id": "svc-bike-cafe-budapest-eladas",
+        "locationId": "loc-bike-cafe-budapest",
+        "role": "eladas",
+        "sourceUrl": "https://bikefun.hu/shops/bike-cafe-kerekparuezlet"
+      },
+      {
+        "id": "svc-bike-cafe-budapest-szerviz",
+        "locationId": "loc-bike-cafe-budapest",
+        "role": "szerviz",
+        "sourceUrl": "https://bikefun.hu/shops/bike-cafe-kerekparuezlet"
+      }
+    ],
+    "loc-big-bike-budapest": [
+      {
+        "id": "svc-big-bike-budapest-eladas",
+        "locationId": "loc-big-bike-budapest",
+        "role": "eladas",
+        "sourceUrl": "https://bikefun.hu/shops/big-bike"
+      },
+      {
+        "id": "svc-big-bike-budapest-szerviz",
+        "locationId": "loc-big-bike-budapest",
+        "role": "szerviz",
+        "sourceUrl": "https://bikefun.hu/shops/big-bike"
+      }
+    ],
+    "loc-bikemen-budapest": [
+      {
+        "id": "svc-bikemen-budapest-eladas",
+        "locationId": "loc-bikemen-budapest",
+        "role": "eladas",
+        "sourceUrl": "https://bikefun.hu/shops/bikemen-kerekparbolt"
+      },
+      {
+        "id": "svc-bikemen-budapest-szerviz",
+        "locationId": "loc-bikemen-budapest",
+        "role": "szerviz",
+        "sourceUrl": "https://bikefun.hu/shops/bikemen-kerekparbolt"
+      }
+    ],
+    "loc-fulop-mgbikes-budapest": [
+      {
+        "id": "svc-fulop-mgbikes-budapest-eladas",
+        "locationId": "loc-fulop-mgbikes-budapest",
+        "role": "eladas",
+        "sourceUrl": "https://bikefun.hu/shops/fueloep-kerekpar-centrum-mgbikes"
+      },
+      {
+        "id": "svc-fulop-mgbikes-budapest-szerviz",
+        "locationId": "loc-fulop-mgbikes-budapest",
+        "role": "szerviz",
+        "sourceUrl": "https://bikefun.hu/shops/fueloep-kerekpar-centrum-mgbikes"
       }
     ]
   },
@@ -2473,6 +5949,41 @@ window.KEREKPARINDEX_CONTENT = {
         "city": "Nyíregyháza",
         "relation": "sells_brand",
         "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
+      },
+      {
+        "locationId": "loc-matra-bike-gyongyos",
+        "name": "Mátra Bike Kerékpárbolt és Szerviz",
+        "city": "Gyöngyös",
+        "relation": "dealer",
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
+      },
+      {
+        "locationId": "loc-maniac-szeged",
+        "name": "Maniac Kerékpárüzlet",
+        "city": "Szeged",
+        "relation": "dealer",
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
+      },
+      {
+        "locationId": "loc-velociped-fan-szekesfehervar",
+        "name": "Velocipéd Fan / Trek Székesfehérvár",
+        "city": "Székesfehérvár",
+        "relation": "sells_brand",
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
+      },
+      {
+        "locationId": "loc-bike-extrem-balatonfured",
+        "name": "Bike Extrém Kerékpárüzlet",
+        "city": "Balatonfüred",
+        "relation": "sells_brand",
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
+      },
+      {
+        "locationId": "loc-horvath-kerekpar-papa",
+        "name": "Horváth Kerékpárszervíz",
+        "city": "Pápa",
+        "relation": "sells_brand",
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
       }
     ],
     "brand-giant": [
@@ -2498,6 +6009,132 @@ window.KEREKPARINDEX_CONTENT = {
         "city": "Debrecen",
         "relation": "sells_brand",
         "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
+      },
+      {
+        "locationId": "loc-canyon-sport-szombathely",
+        "name": "Canyon Sport Kft.",
+        "city": "Szombathely",
+        "relation": "sells_brand",
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
+      },
+      {
+        "locationId": "loc-bringavar-zalaegerszeg",
+        "name": "Bringavár",
+        "city": "Zalaegerszeg",
+        "relation": "sells_brand",
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
+      },
+      {
+        "locationId": "loc-toth-fia-sopron",
+        "name": "Tóth & Fia Kerékpárbolt és Műhely",
+        "city": "Sopron",
+        "relation": "sells_brand",
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
+      },
+      {
+        "locationId": "loc-littvan-kerekpar-kaposvar",
+        "name": "Littván Kerékpár",
+        "city": "Kaposvár",
+        "relation": "sells_brand",
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
+      },
+      {
+        "locationId": "loc-ketkerek-centrum-szekszard",
+        "name": "Kétkerék Centrum",
+        "city": "Szekszárd",
+        "relation": "sells_brand",
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
+      },
+      {
+        "locationId": "loc-kanizsa-kerekparcentrum-nagykanizsa",
+        "name": "Kanizsa Kerékpárcentrum",
+        "city": "Nagykanizsa",
+        "relation": "sells_brand",
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
+      },
+      {
+        "locationId": "loc-nelson-bike-veszprem",
+        "name": "Nelson Bike Kerékpárszaküzlet, Szerviz és Kölcsönző",
+        "city": "Veszprém",
+        "relation": "sells_brand",
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
+      },
+      {
+        "locationId": "loc-ronabike-veszprem",
+        "name": "RonaBike Kerékpár Szaküzlet és Szervíz",
+        "city": "Veszprém",
+        "relation": "sells_brand",
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
+      },
+      {
+        "locationId": "loc-bicishop-kecskemet",
+        "name": "Bicishop",
+        "city": "Kecskemét",
+        "relation": "dealer",
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
+      },
+      {
+        "locationId": "loc-canganyika-szolnok",
+        "name": "Canganyika Kerékpárüzlet és szerviz",
+        "city": "Szolnok",
+        "relation": "dealer",
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
+      },
+      {
+        "locationId": "loc-jel-kerekpar-tatabanya",
+        "name": "Jel Kerékpár Szaküzlet és Szerviz",
+        "city": "Tatabánya",
+        "relation": "dealer",
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
+      },
+      {
+        "locationId": "loc-aquarius-bike-dunaujvaros",
+        "name": "Aquarius Bike",
+        "city": "Dunaújváros",
+        "relation": "sells_brand",
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
+      },
+      {
+        "locationId": "loc-prolog-szeged",
+        "name": "Prolog Kerékpárüzlet",
+        "city": "Szeged",
+        "relation": "dealer",
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
+      },
+      {
+        "locationId": "loc-imperator-pecs",
+        "name": "Imperátor kerékpárszalon",
+        "city": "Pécs",
+        "relation": "dealer",
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
+      },
+      {
+        "locationId": "loc-bike-cafe-budapest",
+        "name": "Bike Cafe Kerékpárüzlet",
+        "city": "Budapest",
+        "relation": "sells_brand",
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
+      },
+      {
+        "locationId": "loc-big-bike-budapest",
+        "name": "Big Bike",
+        "city": "Budapest",
+        "relation": "sells_brand",
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
+      },
+      {
+        "locationId": "loc-bikemen-budapest",
+        "name": "Bikemen Kerékpárbolt",
+        "city": "Budapest",
+        "relation": "sells_brand",
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
+      },
+      {
+        "locationId": "loc-fulop-mgbikes-budapest",
+        "name": "Fülöp Kerékpár Centrum - MGbikes",
+        "city": "Budapest",
+        "relation": "sells_brand",
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
       }
     ],
     "brand-cube": [
@@ -2507,6 +6144,20 @@ window.KEREKPARINDEX_CONTENT = {
         "city": "Győr",
         "relation": "sells_brand",
         "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
+      },
+      {
+        "locationId": "loc-bikeland-veszprem",
+        "name": "BIKELAND Kerékpárszaküzlet és Szerviz",
+        "city": "Veszprém",
+        "relation": "sells_brand",
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
+      },
+      {
+        "locationId": "loc-bringabolt-kecskemet",
+        "name": "Bringabolt",
+        "city": "Kecskemét",
+        "relation": "sells_brand",
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
       }
     ],
     "brand-neuzer": [
@@ -2514,6 +6165,57 @@ window.KEREKPARINDEX_CONTENT = {
         "locationId": "loc-bico-szekesfehervar",
         "name": "Bicó Kerékpárbolt és Kerékpárszerviz",
         "city": "Székesfehérvár",
+        "relation": "sells_brand",
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
+      },
+      {
+        "locationId": "loc-bicocenter-eger",
+        "name": "Bicó Center",
+        "city": "Eger",
+        "relation": "sells_brand",
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
+      },
+      {
+        "locationId": "loc-balocom-bekescsaba",
+        "name": "BALOCOM Kft.",
+        "city": "Békéscsaba",
+        "relation": "sells_brand",
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
+      },
+      {
+        "locationId": "loc-pedal-kerekpar-gyongyos",
+        "name": "Pedál Kerékpárszaküzlet és Szerviz",
+        "city": "Gyöngyös",
+        "relation": "sells_brand",
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
+      },
+      {
+        "locationId": "loc-bicaj-bt-debrecen",
+        "name": "BICAJ BT.",
+        "city": "Debrecen",
+        "relation": "sells_brand",
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
+      },
+      {
+        "locationId": "loc-balazs-kerekparbolt-szentendre",
+        "name": "Balázs Kerékpárbolt",
+        "city": "Szentendre",
+        "relation": "sells_brand",
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
+      },
+      {
+        "locationId": "loc-altrix-esztergom",
+        "name": "Altrix bolt",
+        "city": "Esztergom",
+        "relation": "dealer",
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
+      }
+    ],
+    "brand-specialized": [
+      {
+        "locationId": "loc-greenzone-keszthely",
+        "name": "GreenZone (Sikos Zoltán e.v.)",
+        "city": "Keszthely",
         "relation": "sells_brand",
         "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
       }
@@ -2679,6 +6381,41 @@ window.KEREKPARINDEX_CONTENT = {
       "pageTitle": "Rekord Bike – kezdőlap",
       "status": "ellenőrzött"
     },
+    "ev-alfabike-erd-20261010": {
+      "url": "https://alfabike.hu/",
+      "pageTitle": "AlfaBike — Kerékpárüzlet és Szerviz - Érd",
+      "status": "ellenőrzött"
+    },
+    "ev-altrix-esztergom-20261010": {
+      "url": "https://neuzer.hu/partnereink",
+      "pageTitle": "Viszonteladó partnereink",
+      "status": "ellenőrzött"
+    },
+    "ev-aquarius-bike-dunaujvaros-20261010": {
+      "url": "https://aquariusbike.hu/",
+      "pageTitle": "Aquarius Bike",
+      "status": "ellenőrzött"
+    },
+    "ev-balazs-kerekparbolt-szentendre-20261010": {
+      "url": "https://www.balazskerekparbolt.com/",
+      "pageTitle": "Balázs Kerékpárbolt",
+      "status": "ellenőrzött"
+    },
+    "ev-balint-kerekpar-papa-20261010": {
+      "url": "https://bikefun.hu/shops/balint-kerekpar",
+      "pageTitle": "Bálint Kerékpár - BikeFun",
+      "status": "ellenőrzött"
+    },
+    "ev-balocom-bekescsaba-20261010": {
+      "url": "https://neuzer.hu/partnereink",
+      "pageTitle": "Viszonteladó partnereink",
+      "status": "ellenőrzött"
+    },
+    "ev-bicaj-bt-debrecen-20261010": {
+      "url": "https://neuzer.hu/partnereink",
+      "pageTitle": "Viszonteladó partnereink",
+      "status": "ellenőrzött"
+    },
     "ev-biciklikk-ebike-szerviz": {
       "url": "https://www.biciklikk.hu/szerviz",
       "pageTitle": "Szerviz – Biciklikk (e-bike javítás)",
@@ -2689,9 +6426,44 @@ window.KEREKPARINDEX_CONTENT = {
       "pageTitle": "Kapcsolat - Biciklikk.hu",
       "status": "ellenőrzött"
     },
+    "ev-biciklon-kormend-20261010": {
+      "url": "https://bikefun.hu/shops/biciklon-sport-kerekparuezlet-es-szerviz-koermend",
+      "pageTitle": "Biciklon Sport Kerékpárüzlet és Szerviz Körmend - BikeFun",
+      "status": "ellenőrzött"
+    },
+    "ev-biciklon-sport-szombathely-20261010": {
+      "url": "https://biciklon.hu/",
+      "pageTitle": "Biciklon",
+      "status": "ellenőrzött"
+    },
+    "ev-bicishop-kecskemet-20261010": {
+      "url": "https://bikefun.hu/shops/bicishop",
+      "pageTitle": "Bicishop - BikeFun",
+      "status": "ellenőrzött"
+    },
     "ev-bicobolt-home-2026-10-10": {
       "url": "https://bicobolt.hu/",
       "pageTitle": "Bicó Kerékpárbolt és Kerékpárszerviz Székesfehérvár",
+      "status": "ellenőrzött"
+    },
+    "ev-bicocenter-eger-20261010": {
+      "url": "https://bicocenter.hu/",
+      "pageTitle": "Bicó Center – Kerékpár kölcsönző, szervíz és szaküzlet | Eger",
+      "status": "ellenőrzött"
+    },
+    "ev-big-bike-budapest-20261010": {
+      "url": "https://bikefun.hu/shops/big-bike",
+      "pageTitle": "Big Bike - BikeFun",
+      "status": "ellenőrzött"
+    },
+    "ev-bike-cafe-budapest-20261010": {
+      "url": "https://bikefun.hu/shops/bike-cafe-kerekparuezlet",
+      "pageTitle": "Bike Cafe Kerékpárüzlet - BikeFun",
+      "status": "ellenőrzött"
+    },
+    "ev-bike-extrem-balatonfured-20261010": {
+      "url": "https://trek.hu/hu-hu/Trek_cikkek/Trek_kereskedesek_magyarorszagon",
+      "pageTitle": "Trek üzletek Magyarországon",
       "status": "ellenőrzött"
     },
     "ev-bikeart-kapcsolat-2026-10-10": {
@@ -2709,9 +6481,29 @@ window.KEREKPARINDEX_CONTENT = {
       "pageTitle": "Nyitólap - BikeFun",
       "status": "ellenőrzött"
     },
+    "ev-bikeland-veszprem-20261010": {
+      "url": "http://www.bikeland.hu/",
+      "pageTitle": "BIKE LAND Kerékpárszaküzlet és Szerviz 8200 Veszprém Dózsa György u. 34/A.",
+      "status": "ellenőrzött"
+    },
+    "ev-bikemen-budapest-20261010": {
+      "url": "https://bikefun.hu/shops/bikemen-kerekparbolt",
+      "pageTitle": "Bikemen Kerékpárbolt - BikeFun",
+      "status": "ellenőrzött"
+    },
     "ev-bikeszaki-home-2026-10-10": {
       "url": "https://www.bikeszaki.hu/",
       "pageTitle": "Üdvözlünk a bikeszaki weboldalán!",
+      "status": "ellenőrzött"
+    },
+    "ev-bikeworkshop-eger-20261010": {
+      "url": "https://bikeworkshop.ewk.hu/elerhetosegek/",
+      "pageTitle": "Elérhetőségek - Bikeworkshop",
+      "status": "ellenőrzött"
+    },
+    "ev-bombastic-bringastic-miskolc-20261010": {
+      "url": "https://bombastic.uzleti.hu/",
+      "pageTitle": "Bombastic Bringastic Kerékpárszalon - Inter-B Precíziós Kft. - Miskolc",
       "status": "ellenőrzött"
     },
     "ev-borsodbike-home-2026-10-10": {
@@ -2749,9 +6541,29 @@ window.KEREKPARINDEX_CONTENT = {
       "pageTitle": "Biciklibolt és bicikli szerviz | Kerékpár webshop",
       "status": "ellenőrzött"
     },
+    "ev-bringabolt-kecskemet-20261010": {
+      "url": "https://bringabolt.com/kapcsolat/",
+      "pageTitle": "Kapcsolat - Bringabolt",
+      "status": "ellenőrzött"
+    },
+    "ev-bringasziget-nyiregyhaza-20261010": {
+      "url": "https://bringasziget.hu/",
+      "pageTitle": "BringaSziget - WebShop",
+      "status": "ellenőrzött"
+    },
+    "ev-bringavar-zalaegerszeg-20261010": {
+      "url": "https://bikefun.hu/shops/bringavar-2",
+      "pageTitle": "Bringavár - BikeFun",
+      "status": "ellenőrzött"
+    },
     "ev-bringavilag-home-2026-10-10": {
       "url": "https://bringavilag.com/",
       "pageTitle": "Bringavilág Kerékpárüzlet és szerviz",
+      "status": "ellenőrzött"
+    },
+    "ev-canganyika-szolnok-20261010": {
+      "url": "https://bikefun.hu/shops/canganyika-kerekparuezlet-es-szerviz",
+      "pageTitle": "Canganyika Kerékpárüzlet és szerviz - BikeFun",
       "status": "ellenőrzött"
     },
     "ev-cannondale-bikes-hu": {
@@ -2767,6 +6579,21 @@ window.KEREKPARINDEX_CONTENT = {
     "ev-cannondale-mali-hu": {
       "url": "https://www.cannondale.hu/",
       "pageTitle": "MALI Magyarország",
+      "status": "ellenőrzött"
+    },
+    "ev-canyon-sport-szombathely-20261010": {
+      "url": "https://bikefun.hu/shops/Canyon-Sport",
+      "pageTitle": "Canyon Sport - BikeFun",
+      "status": "ellenőrzött"
+    },
+    "ev-chili-sport-debrecen-20261010": {
+      "url": "https://chilisport.hu/elerhetoseg/",
+      "pageTitle": "Kapcsolat - Chili Sport",
+      "status": "ellenőrzött"
+    },
+    "ev-csopi-kerekparos-kozpont-balatonfured-20261010": {
+      "url": "https://kerekparbalaton.hu/kapcsolat/",
+      "pageTitle": "Kapcsolat - Kerékpár Foglalás Balatonfüreden | kerekparbalaton.hu",
       "status": "ellenőrzött"
     },
     "ev-cube-bikes-hu": {
@@ -2797,6 +6624,46 @@ window.KEREKPARINDEX_CONTENT = {
     "ev-cube-supreme-deluxe-one-625": {
       "url": "https://www.cube.eu/bg-en/cube-supreme-hybrid-deluxe-one-625-slateblack-n-black/813400",
       "pageTitle": "Supreme Hybrid Deluxe ONE 625 – CUBE Bikes",
+      "status": "ellenőrzött"
+    },
+    "ev-dreamline-cycle-pecs-20261010": {
+      "url": "https://www.dreamlinecycle.hu/",
+      "pageTitle": "Főoldal - dreamlinecycle",
+      "status": "ellenőrzött"
+    },
+    "ev-dz-bike-vac-20261010": {
+      "url": "http://dzbike.hu/",
+      "pageTitle": "DZ BIKE kerékpárüzlet és kerékpárszerviz Vác",
+      "status": "ellenőrzött"
+    },
+    "ev-egerbike-eger-20261010": {
+      "url": "https://egerbike.hu/kapcsolat",
+      "pageTitle": "Kapcsolat - Egerbike",
+      "status": "ellenőrzött"
+    },
+    "ev-farady-kerekpar-veszprem-20261010": {
+      "url": "https://csepelkerekpar.hu/uzletek/?county=Veszpr%C3%A9m",
+      "pageTitle": "Csepel bicikli boltok | Csepel kerékpár",
+      "status": "ellenőrzött"
+    },
+    "ev-ferita-sport-gyor-20261010": {
+      "url": "https://www.feritasport.hu/",
+      "pageTitle": "Ferita Sport, kerékpár szaküzlet és szervíz",
+      "status": "ellenőrzött"
+    },
+    "ev-fogas-kerekpar-gyor-20261010": {
+      "url": "https://www.fogaskerekpargyor.hu/",
+      "pageTitle": "Fogas Kerékpárbolt Győr",
+      "status": "ellenőrzött"
+    },
+    "ev-fricikli-sopron-20261010": {
+      "url": "http://fricikli.hu/",
+      "pageTitle": "Fricikli – Kerékpárbolt és Műhely",
+      "status": "ellenőrzött"
+    },
+    "ev-fulop-mgbikes-budapest-20261010": {
+      "url": "https://bikefun.hu/shops/fueloep-kerekpar-centrum-mgbikes",
+      "pageTitle": "Fülöp Kerékpár Centrum - MGbikes - BikeFun",
       "status": "ellenőrzött"
     },
     "ev-futurebike-scott-2026-10-10": {
@@ -2859,9 +6726,39 @@ window.KEREKPARINDEX_CONTENT = {
       "pageTitle": "Giant Bicycles Magyarország",
       "status": "hiányos"
     },
+    "ev-greenzone-keszthely-20261010": {
+      "url": "https://greenzone.hu/aszf/",
+      "pageTitle": "ÁSZF - GreenZone",
+      "status": "ellenőrzött"
+    },
+    "ev-gsportzona-szeged-20261010": {
+      "url": "http://gsportzona.hu/",
+      "pageTitle": "GsportZóna kerékpárüzlet és szerviz szeged",
+      "status": "ellenőrzött"
+    },
+    "ev-halmibringa-nyiregyhaza-20261010": {
+      "url": "https://halmibringa.hu/",
+      "pageTitle": "Halmibringa,kerékpár webshop,kerékpárbolt,kerékpár szerviz",
+      "status": "ellenőrzött"
+    },
     "ev-heavypedal-home-2026-10-10": {
       "url": "https://heavypedal.hu/",
       "pageTitle": "Home | Heavy Pedal Kerékpárüzlet",
+      "status": "ellenőrzött"
+    },
+    "ev-horvath-kerekpar-papa-20261010": {
+      "url": "https://trek.hu/hu-hu/Trek_cikkek/Trek_kereskedesek_magyarorszagon",
+      "pageTitle": "Trek üzletek Magyarországon",
+      "status": "ellenőrzött"
+    },
+    "ev-imperator-pecs-20261010": {
+      "url": "http://www.kerekparpecs.hu/",
+      "pageTitle": "Imperátor, a prémium kategóriás kerékpárok szaküzlete | kerekparpecs.hu",
+      "status": "ellenőrzött"
+    },
+    "ev-jel-kerekpar-tatabanya-20261010": {
+      "url": "https://bikefun.hu/shops/Jel-Kerekpar-Szakuzlet-es-Szerviz",
+      "pageTitle": "Jel Kerékpár Szaküzlet és Szerviz - BikeFun",
       "status": "ellenőrzött"
     },
     "ev-jobringa-kapcsolat-2026-10-10": {
@@ -2874,6 +6771,36 @@ window.KEREKPARINDEX_CONTENT = {
       "pageTitle": "News K2 Shop - Bike Ski Snowboard products selling and maintaining",
       "status": "ellenőrzött"
     },
+    "ev-kanizsa-kerekparcentrum-nagykanizsa-20261010": {
+      "url": "https://www.polisport.com/en/stores_52.html?idst=1368",
+      "pageTitle": "Kanizsa Kerékpárcentrum - Polisport",
+      "status": "ellenőrzött"
+    },
+    "ev-ketkerek-centrum-szekszard-20261010": {
+      "url": "https://bikefun.hu/shops/ketkerek-centrum",
+      "pageTitle": "Kétkerék Centrum - BikeFun",
+      "status": "ellenőrzött"
+    },
+    "ev-ketkerek-sport-sopron-20261010": {
+      "url": "https://bikefun.hu/shops/ketkerek-sport",
+      "pageTitle": "Kétkerék Sport - BikeFun",
+      "status": "ellenőrzött"
+    },
+    "ev-kondor-kerekpar-nyiregyhaza-20261010": {
+      "url": "https://kondor-kerekpar.webnode.hu/",
+      "pageTitle": "Csepel Kerékpár és Szervíz Nyíregyháza",
+      "status": "ellenőrzött"
+    },
+    "ev-konzum-kerekpar-tatabanya-20261010": {
+      "url": "https://konzumkerekpar.webnode.hu/",
+      "pageTitle": "KONZUM KERÉKPÁRSZERVÍZ, TATABÁNYA",
+      "status": "ellenőrzött"
+    },
+    "ev-korosi-kerekpar-szekszard-20261010": {
+      "url": "https://kellysbike.com/en/hu/dealers/",
+      "pageTitle": "Factory stores | Kellys",
+      "status": "ellenőrzött"
+    },
     "ev-ktm-official": {
       "url": "https://www.ktm-bikes.at/",
       "pageTitle": "E-Bikes and Bikes - KTM Bikes",
@@ -2882,6 +6809,41 @@ window.KEREKPARINDEX_CONTENT = {
     "ev-ktm-team-hu": {
       "url": "https://ktmteam.hu/",
       "pageTitle": "KTM Team - KTM magyarországi képviselet",
+      "status": "ellenőrzött"
+    },
+    "ev-kuszi-kerekpar-veszprem-20261010": {
+      "url": "https://kuszikerekpar.hu/",
+      "pageTitle": "Kuszi Kerékpár Szaküzlet és Szerviz Webshopja",
+      "status": "ellenőrzött"
+    },
+    "ev-littvan-kerekpar-kaposvar-20261010": {
+      "url": "https://www.new.littvankerekpar.hu/?page_id=108",
+      "pageTitle": "FORDULJON HOZZÁNK BIZALOMMAL! – LITTVÁN KERÉKPÁR",
+      "status": "ellenőrzött"
+    },
+    "ev-madbike-zalaegerszeg-20261010": {
+      "url": "https://www.madbike.hu/kapcsolat",
+      "pageTitle": "Kapcsolat | Madbike elektromos kerékpárok neked",
+      "status": "ellenőrzött"
+    },
+    "ev-magellan-bike-dunaujvaros-20261010": {
+      "url": "https://magellanbike.hu/kapcsolat/",
+      "pageTitle": "Kapcsolat és nyitvatartás – Magellán Bike",
+      "status": "ellenőrzött"
+    },
+    "ev-mangobike-sopron-20261010": {
+      "url": "https://www.mangobike.hu/kapcsolat",
+      "pageTitle": "Kapcsolat - Mangobike",
+      "status": "ellenőrzött"
+    },
+    "ev-maniac-szeged-20261010": {
+      "url": "https://trek.hu/hu-hu/Trek_cikkek/Trek_kereskedes_Szeged",
+      "pageTitle": "Maniac kerékárszaküzlet",
+      "status": "ellenőrzött"
+    },
+    "ev-matra-bike-gyongyos-20261010": {
+      "url": "http://javitomuhelyek.humusz.hu/m-tra-bike",
+      "pageTitle": "Mátra Bike | Javítóműhelyek",
       "status": "ellenőrzött"
     },
     "ev-melux-home-2026-10-10": {
@@ -2914,9 +6876,19 @@ window.KEREKPARINDEX_CONTENT = {
       "pageTitle": "Distributor in Spotlight – MERIDA Hungary - MERIDA BIKES",
       "status": "ellenőrzött"
     },
+    "ev-mixi-bike-zalaegerszeg-20261010": {
+      "url": "https://mixi-bike.hu/shop_contact.php",
+      "pageTitle": "Információk - MIXI-BIKE Kerékpár Üzlet",
+      "status": "ellenőrzött"
+    },
     "ev-nella-trek-contact-2026-10-10": {
       "url": "https://trek.hu/hu-hu?route=information%2Fcontact",
       "pageTitle": "Lépjen kapcsolatba velünk – Trek.hu / Nella",
+      "status": "ellenőrzött"
+    },
+    "ev-nelson-bike-veszprem-20261010": {
+      "url": "https://bikefun.hu/shops/nelson-bike-1",
+      "pageTitle": "Nelson Bike - BikeFun",
       "status": "ellenőrzött"
     },
     "ev-neuzer-emtb": {
@@ -2939,9 +6911,34 @@ window.KEREKPARINDEX_CONTENT = {
       "pageTitle": "Neuzer Kerékpárok",
       "status": "ellenőrzött"
     },
+    "ev-pedal-kerekpar-gyongyos-20261010": {
+      "url": "https://pedalkerekpar.hu/",
+      "pageTitle": "Pedál Kerékpár",
+      "status": "ellenőrzött"
+    },
+    "ev-pelso-bike-siofok-20261010": {
+      "url": "https://www.pelsobike.hu/index.php?lang=hu",
+      "pageTitle": "Főoldal",
+      "status": "ellenőrzött"
+    },
     "ev-peppe-home-2026-10-10": {
       "url": "https://peppekerekpar.hu/",
       "pageTitle": "Peppe Kerékpár szaküzlet és szerviz Győr",
+      "status": "ellenőrzött"
+    },
+    "ev-pne-mobil-szolnok-20261010": {
+      "url": "https://pnemobilkft.webnode.hu/",
+      "pageTitle": "PneMobilKft",
+      "status": "ellenőrzött"
+    },
+    "ev-podor-kerekpar-zalaegerszeg-20261010": {
+      "url": "http://www.podorkerekpar.hu/kapcsolat.html",
+      "pageTitle": "Pödör Kerékpárszaküzlet és Szerviz Zalaegerszeg",
+      "status": "ellenőrzött"
+    },
+    "ev-prolog-szeged-20261010": {
+      "url": "https://bikefun.hu/shops/Prolog-Kerekparuzlet",
+      "pageTitle": "Prolog Kerékpárüzlet - BikeFun",
       "status": "ellenőrzött"
     },
     "ev-q1-home-2026-10-10": {
@@ -2949,9 +6946,39 @@ window.KEREKPARINDEX_CONTENT = {
       "pageTitle": "q1 kerékpárszalon | Nyíregyháza",
       "status": "ellenőrzött"
     },
+    "ev-regina-kerekparbolt-debrecen-20261010": {
+      "url": "https://bikefun.hu/shops/regina-kerekparbolt",
+      "pageTitle": "Regina Kerékpárbolt - BikeFun",
+      "status": "ellenőrzött"
+    },
     "ev-rekord-contact-2026-10-10": {
       "url": "https://rekordbike.hu/shop_contact.php",
       "pageTitle": "Információk - Rekord Bike",
+      "status": "ellenőrzött"
+    },
+    "ev-rekord-mobil-bekescsaba-20261010": {
+      "url": "https://elektromos-kerekparbolt.hu/rolunk/",
+      "pageTitle": "Rólunk | Elektromos kerékpár szaküzlet",
+      "status": "ellenőrzött"
+    },
+    "ev-robikes-erd-20261010": {
+      "url": "https://robikes.hu/",
+      "pageTitle": "Robikes Kerékpárbolt és Szerviz",
+      "status": "ellenőrzött"
+    },
+    "ev-ronabike-veszprem-20261010": {
+      "url": "https://ronabike.hu/aszf.html",
+      "pageTitle": "RonaBike Kerékpár Szaküzlet és Szervíz - ASZF",
+      "status": "ellenőrzött"
+    },
+    "ev-savaria-uniker-szombathely-20261010": {
+      "url": "https://savariauniker.uzleti.hu/",
+      "pageTitle": "MŰSZAKI ÁRUHÁZ Savaria Uniker - Kerékpárok forgalmazása, szervizelése - Szombathely",
+      "status": "ellenőrzött"
+    },
+    "ev-schneider-kerekpar-szekszard-20261010": {
+      "url": "http://javitomuhelyek.humusz.hu/schneider-ker-kp-r-szak-zlet",
+      "pageTitle": "Schneider Kerékpár Szaküzlet | Javítóműhelyek",
       "status": "ellenőrzött"
     },
     "ev-scott-bikemag-2021": {
@@ -2963,6 +6990,11 @@ window.KEREKPARINDEX_CONTENT = {
       "url": "https://www.scott-sports.com/global/en/products/bike-bikes",
       "pageTitle": "Scott Sports bike products (fetch blocked / Incapsula)",
       "status": "előkészített"
+    },
+    "ev-solyombike-erd-20261010": {
+      "url": "https://www.solyombike.hu/",
+      "pageTitle": "solyombike.hu — Kerékpárbolt és szerviz Érden",
+      "status": "ellenőrzött"
     },
     "ev-specialized-distributors": {
       "url": "https://www.specialized.com/us/en/international-subsidiaries-and-distributors",
@@ -2999,6 +7031,46 @@ window.KEREKPARINDEX_CONTENT = {
       "pageTitle": "S-Works Turbo Levo 4 – weight conditions | Specialized",
       "status": "ellenőrzött"
     },
+    "ev-sport-oazis-papa-20261010": {
+      "url": "https://csepelkerekpar.hu/uzletek/?county=Veszpr%C3%A9m",
+      "pageTitle": "Csepel bicikli boltok | Csepel kerékpár",
+      "status": "ellenőrzött"
+    },
+    "ev-stelvio-gyor-20261010": {
+      "url": "https://stelvio.hu/",
+      "pageTitle": "Stelvio – Bike & Café",
+      "status": "ellenőrzött"
+    },
+    "ev-storm-kerekpar-zalaegerszeg-20261010": {
+      "url": "https://stormkerekpar.uzleti.hu/",
+      "pageTitle": "STORM Kerékpár - Szaküzlet és Szerviz - Zalaegerszeg",
+      "status": "ellenőrzött"
+    },
+    "ev-szep-kerekpar-kecskemet-20261010": {
+      "url": "http://www.szepkerekpar.hu/",
+      "pageTitle": "SZÉP Kerékpár Szaküzlet és Szerviz",
+      "status": "ellenőrzött"
+    },
+    "ev-szigma-trade-kecskemet-20261010": {
+      "url": "https://www.szigmatrade.hu/",
+      "pageTitle": "Kerékpárbolt és szerviz Kecskeméten | Szigma-Trade",
+      "status": "ellenőrzött"
+    },
+    "ev-tempo-kerekpar-balatonfured-20261010": {
+      "url": "https://tempokerekpar.hu/",
+      "pageTitle": "Tempo Kerékpárszaküzlet | Balatonfüred",
+      "status": "ellenőrzött"
+    },
+    "ev-tisza-bringa-tiszafured-20261010": {
+      "url": "https://www.uzletektiszafured.hu/Kerekpar_alkatresz/674/Tisza-bringa_bolt/3339",
+      "pageTitle": "TISZA-BRINGA BOLT - Tiszafüred",
+      "status": "ellenőrzött"
+    },
+    "ev-toth-fia-sopron-20261010": {
+      "url": "https://bikefun.hu/shops/toth-fia-kerekparbolt-es-muhely",
+      "pageTitle": "Tóth & Fia Kerékpárbolt és Műhely - BikeFun",
+      "status": "ellenőrzött"
+    },
     "ev-trek-district-plus-9": {
       "url": "https://www.trekbikes.com/gb/en_GB/bikes/hybrid-bikes/electric-hybrid-bikes/district/district-9/p/33186/",
       "pageTitle": "District+ 9 – Trek Bikes",
@@ -3024,6 +7096,36 @@ window.KEREKPARINDEX_CONTENT = {
       "pageTitle": "District+ 9 – weight excluding battery | Trek",
       "status": "ellenőrzött"
     },
+    "ev-tuttibringa-kaposvar-20261010": {
+      "url": "https://www.tuttibringa.hu/",
+      "pageTitle": "Tuttibringa",
+      "status": "ellenőrzött"
+    },
+    "ev-urbanlegend-szeged-20261010": {
+      "url": "https://www.urbanlegend.hu/kapcsolat/",
+      "pageTitle": "Információk - UrbanLegend.hu",
+      "status": "ellenőrzött"
+    },
+    "ev-vasparipa-szeged-20261010": {
+      "url": "https://vasparipakerekpar.hu/kapcsolat/",
+      "pageTitle": "Kapcsolat - Vasparipa Kerékpárbolt és műhely",
+      "status": "ellenőrzött"
+    },
+    "ev-velencebike-velence-20261010": {
+      "url": "http://www.velencebike.hu/",
+      "pageTitle": "Velencebike - Kerékpár és élmény a Velencei tónál",
+      "status": "ellenőrzött"
+    },
+    "ev-velociped-fan-szekesfehervar-20261010": {
+      "url": "https://hariskerekpar.hu/kapcsolat/",
+      "pageTitle": "Kapcsolat – Hariskerekpar.hu",
+      "status": "ellenőrzött"
+    },
+    "ev-velosport-salgotarjan-20261010": {
+      "url": "https://velosport.hu/rolunk",
+      "pageTitle": "A Velosport Kerékpárüzlet, magunkról",
+      "status": "ellenőrzött"
+    },
     "ev-vital-fehervar-2026-10-10": {
       "url": "https://www.fehervarkerekpar.hu/",
       "pageTitle": "Székesfehérvári kerékpárbolt | Vitál Club webshop",
@@ -3032,6 +7134,11 @@ window.KEREKPARINDEX_CONTENT = {
     "ev-vozzy-uzletunk-2026-10-10": {
       "url": "https://www.vozzy.hu/spg/601152/Uzletunk",
       "pageTitle": "Üzletünk - Vozzy Bike & Snow",
+      "status": "ellenőrzött"
+    },
+    "ev-yankos-bike-nagykanizsa-20261010": {
+      "url": "http://yankosbike.hu/",
+      "pageTitle": "Yanko's Bike – Szenvedélyünk az életünk",
       "status": "ellenőrzött"
     }
   }

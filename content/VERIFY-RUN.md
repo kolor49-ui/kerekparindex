@@ -9,25 +9,51 @@ Result: **PASS**
 ```json
 {
   "brands": 10,
-  "organizations": 18,
-  "locations": 20,
-  "services": 40,
+  "organizations": 99,
+  "locations": 101,
+  "services": 205,
   "products": 12,
   "variants": 12,
-  "evidence": 99,
+  "evidence": 180,
   "explainers": 6,
   "comparisons": 3,
   "articleMarkdown": 9,
-  "brandLinks": 16,
+  "brandLinks": 48,
   "cities": [
+    "Balatonfüred",
     "Budapest",
+    "Békéscsaba",
     "Debrecen",
+    "Dunaújváros",
+    "Eger",
+    "Esztergom",
+    "Gyöngyös",
     "Győr",
+    "Kaposvár",
+    "Kecskemét",
+    "Keszthely",
+    "Körmend",
     "Miskolc",
+    "Nagykanizsa",
     "Nyíregyháza",
+    "Pápa",
     "Pécs",
+    "Salgótarján",
+    "Siófok",
+    "Sopron",
     "Szeged",
-    "Székesfehérvár"
+    "Szekszárd",
+    "Szentendre",
+    "Szolnok",
+    "Szombathely",
+    "Székesfehérvár",
+    "Tatabánya",
+    "Tiszafüred",
+    "Velence",
+    "Veszprém",
+    "Vác",
+    "Zalaegerszeg",
+    "Érd"
   ]
 }
 ```
@@ -41,7 +67,7 @@ Result: **PASS**
     "előkészített": 1
   },
   "locations": {
-    "ellenőrzött": 20
+    "ellenőrzött": 101
   },
   "variants": {
     "ellenőrzött": 10,
@@ -54,11 +80,11 @@ Result: **PASS**
     "ellenőrzött": 3
   },
   "evidence": {
-    "ellenőrzött": 95,
+    "ellenőrzött": 176,
     "előkészített": 3,
     "hiányos": 1
   },
-  "services": 40
+  "services": 205
 }
 ```
 
@@ -66,13 +92,13 @@ Result: **PASS**
 
 - PASS: `required_files` — all present
 - PASS: `count_brands_10` — 10
-- PASS: `count_locations_20` — 20
+- PASS: `count_locations_at_least_20` — 101
 - PASS: `count_variants_12` — 12
 - PASS: `count_explainers_6` — 6
 - PASS: `count_comparisons_3` — 3
 - PASS: `count_comparison_groups_3` — 3
-- PASS: `cities_at_least_6_total` — ['Budapest', 'Debrecen', 'Győr', 'Miskolc', 'Nyíregyháza', 'Pécs', 'Szeged', 'Székesfehérvár']
-- PASS: `cities_non_budapest_at_least_5` — ['Debrecen', 'Győr', 'Miskolc', 'Nyíregyháza', 'Pécs', 'Szeged', 'Székesfehérvár']
+- PASS: `cities_at_least_6_total` — ['Balatonfüred', 'Budapest', 'Békéscsaba', 'Debrecen', 'Dunaújváros', 'Eger', 'Esztergom', 'Gyöngyös', 'Győr', 'Kaposvár', 'Kecskemét', 'Keszthely', 'Körmend', 'Miskolc', 'Nagykanizsa', 'Nyíregyháza', 'Pápa', 'Pécs', 'Salgótarján', 'Siófok', 'Sopron', 'Szeged', 'Szekszárd', 'Szentendre', 'Szolnok', 'Szombathely', 'Székesfehérvár', 'Tatabánya', 'Tiszafüred', 'Velence', 'Veszprém', 'Vác', 'Zalaegerszeg', 'Érd']
+- PASS: `cities_non_budapest_at_least_5` — ['Balatonfüred', 'Békéscsaba', 'Debrecen', 'Dunaújváros', 'Eger', 'Esztergom', 'Gyöngyös', 'Győr', 'Kaposvár', 'Kecskemét', 'Keszthely', 'Körmend', 'Miskolc', 'Nagykanizsa', 'Nyíregyháza', 'Pápa', 'Pécs', 'Salgótarján', 'Siófok', 'Sopron', 'Szeged', 'Szekszárd', 'Szentendre', 'Szolnok', 'Szombathely', 'Székesfehérvár', 'Tatabánya', 'Tiszafüred', 'Velence', 'Veszprém', 'Vác', 'Zalaegerszeg', 'Érd']
 - PASS: `unique_ids_brands` — ok
 - PASS: `unique_ids_locations` — ok
 - PASS: `unique_ids_services` — ok
@@ -84,8 +110,8 @@ Result: **PASS**
 - PASS: `variants_productId_resolve` — ok
 - PASS: `locations_organizationId_resolve` — ok
 - PASS: `services_locationId_resolve` — ok
-- PASS: `brand_links_and_location_evidence` — ok linked=16
-- PASS: `brand_links_at_least_8` — 16
+- PASS: `brand_links_and_location_evidence` — ok linked=48
+- PASS: `brand_links_at_least_8` — 48
 - PASS: `rekord_szerviz_not_on_locations` — ok
 - PASS: `variant_evidence_supports_and_titles` — ok
 - PASS: `location_evidence_pageTitles` — ok

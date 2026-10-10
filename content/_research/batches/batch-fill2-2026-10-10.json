@@ -1,0 +1,209 @@
+{
+  "batchId": "fill2-2026-10-10",
+  "accessedAt": "2026-10-10",
+  "items": [
+    {
+      "idSlug": "solyombike-erd",
+      "name": "Sólyombike Kerékpárbolt és szerviz",
+      "city": "Érd",
+      "addressRaw": "2030 Érd, Tárnoki út 101/a",
+      "website": "https://www.solyombike.hu/",
+      "phone": [
+        "+36 30 165 6880"
+      ],
+      "email": [
+        "info@solyombike.hu"
+      ],
+      "openingHours": null,
+      "roles": [
+        "eladas",
+        "szerviz"
+      ],
+      "brandClaims": [],
+      "evidence": {
+        "url": "https://www.solyombike.hu/",
+        "pageTitle": "solyombike.hu — Kerékpárbolt és szerviz Érden"
+      },
+      "notes": null,
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "alfabike-erd",
+      "name": "AlfaBike Kerékpárüzlet és Szerviz",
+      "city": "Érd",
+      "addressRaw": "2030 Érd, Bajcsy-Zsilinszky út 117.",
+      "website": "https://alfabike.hu/",
+      "phone": [
+        "+36 20 365 9995"
+      ],
+      "email": [
+        "info@alfabike.hu"
+      ],
+      "openingHours": null,
+      "roles": [
+        "eladas",
+        "szerviz"
+      ],
+      "brandClaims": [],
+      "evidence": {
+        "url": "https://alfabike.hu/",
+        "pageTitle": "AlfaBike — Kerékpárüzlet és Szerviz - Érd"
+      },
+      "notes": null,
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "robikes-erd",
+      "name": "Robikes Kerékpárbolt és Szerviz",
+      "city": "Érd",
+      "addressRaw": "2030 Érd, Csaba utca 56.",
+      "website": "https://robikes.hu/",
+      "phone": [
+        "+36 30 932 6478"
+      ],
+      "email": [
+        "info.robikes@gmail.com"
+      ],
+      "openingHours": null,
+      "roles": [
+        "eladas",
+        "szerviz"
+      ],
+      "brandClaims": [],
+      "evidence": {
+        "url": "https://robikes.hu/",
+        "pageTitle": "Robikes Kerékpárbolt és Szerviz"
+      },
+      "notes": "Kellys szakkereskedés; a márka nincs a 10-es katalógusban — belső jegyzetként kezelendő.",
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "bike-cafe-budapest",
+      "name": "Bike Cafe Kerékpárüzlet",
+      "city": "Budapest",
+      "addressRaw": "1149 Budapest, Mogyoródi út 16-20.",
+      "website": "https://bikecafe.hu/",
+      "phone": [
+        "+36 20 321 6432"
+      ],
+      "email": [
+        "info@bikecafe.hu"
+      ],
+      "openingHours": "H–P 10:00–18:00, Szo 10:00–15:00",
+      "roles": [
+        "eladas",
+        "szerviz"
+      ],
+      "brandClaims": [
+        {
+          "brand": "Merida",
+          "sourceUrl": "https://bikefun.hu/shops/bike-cafe-kerekparuezlet",
+          "quote": "Merida dealer"
+        }
+      ],
+      "evidence": {
+        "url": "https://bikefun.hu/shops/bike-cafe-kerekparuezlet",
+        "pageTitle": "Bike Cafe Kerékpárüzlet - BikeFun"
+      },
+      "notes": null,
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "big-bike-budapest",
+      "name": "Big Bike",
+      "city": "Budapest",
+      "addressRaw": "1148 Budapest, Örs vezér tér 18.",
+      "website": null,
+      "phone": [
+        "+36 1 223 6219"
+      ],
+      "email": [
+        "bigbikekerekpar@gmail.com"
+      ],
+      "openingHours": "H–P 10:00–18:30, Szo 9:00–14:30",
+      "roles": [
+        "eladas",
+        "szerviz"
+      ],
+      "brandClaims": [
+        {
+          "brand": "Merida",
+          "sourceUrl": "https://bikefun.hu/shops/big-bike",
+          "quote": "Merida dealer"
+        }
+      ],
+      "evidence": {
+        "url": "https://bikefun.hu/shops/big-bike",
+        "pageTitle": "Big Bike - BikeFun"
+      },
+      "notes": null,
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "bikemen-budapest",
+      "name": "Bikemen Kerékpárbolt",
+      "city": "Budapest",
+      "addressRaw": "1117 Budapest, Fehérvári út 38/A",
+      "website": null,
+      "phone": [
+        "+36 1 209 5984"
+      ],
+      "email": [],
+      "openingHours": "Nyár (márc.–szept.): H–P 10:00–18:00, Szo 10:00–13:00; Tél (okt.–febr.): H–P 10:00–18:00, Szo 12:00–13:00",
+      "roles": [
+        "eladas",
+        "szerviz"
+      ],
+      "brandClaims": [
+        {
+          "brand": "Merida",
+          "sourceUrl": "https://bikefun.hu/shops/bikemen-kerekparbolt",
+          "quote": "Merida dealer"
+        }
+      ],
+      "evidence": {
+        "url": "https://bikefun.hu/shops/bikemen-kerekparbolt",
+        "pageTitle": "Bikemen Kerékpárbolt - BikeFun"
+      },
+      "notes": null,
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "fulop-mgbikes-budapest",
+      "name": "Fülöp Kerékpár Centrum - MGbikes",
+      "city": "Budapest",
+      "addressRaw": "1145 Budapest, Erzsébet Királyné útja 14/A",
+      "website": null,
+      "phone": [
+        "+36 1 252 4190"
+      ],
+      "email": [],
+      "openingHours": "H–P 10:00–18:00; Szo 10:00–13:00 (szezonban márciustól októberig)",
+      "roles": [
+        "eladas",
+        "szerviz"
+      ],
+      "brandClaims": [
+        {
+          "brand": "Merida",
+          "sourceUrl": "https://bikefun.hu/shops/fueloep-kerekpar-centrum-mgbikes",
+          "quote": "Merida dealer"
+        }
+      ],
+      "evidence": {
+        "url": "https://bikefun.hu/shops/fueloep-kerekpar-centrum-mgbikes",
+        "pageTitle": "Fülöp Kerékpár Centrum - MGbikes - BikeFun"
+      },
+      "notes": null,
+      "heldBack": false,
+      "heldBackReason": null
+    }
+  ],
+  "heldBack": []
+}

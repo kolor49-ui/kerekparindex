@@ -13,9 +13,9 @@
       "detail": 10
     },
     {
-      "name": "count_locations_20",
+      "name": "count_locations_at_least_20",
       "ok": true,
-      "detail": 20
+      "detail": 101
     },
     {
       "name": "count_variants_12",
@@ -41,27 +41,79 @@
       "name": "cities_at_least_6_total",
       "ok": true,
       "detail": [
+        "Balatonfüred",
         "Budapest",
+        "Békéscsaba",
         "Debrecen",
+        "Dunaújváros",
+        "Eger",
+        "Esztergom",
+        "Gyöngyös",
         "Győr",
+        "Kaposvár",
+        "Kecskemét",
+        "Keszthely",
+        "Körmend",
         "Miskolc",
+        "Nagykanizsa",
         "Nyíregyháza",
+        "Pápa",
         "Pécs",
+        "Salgótarján",
+        "Siófok",
+        "Sopron",
         "Szeged",
-        "Székesfehérvár"
+        "Szekszárd",
+        "Szentendre",
+        "Szolnok",
+        "Szombathely",
+        "Székesfehérvár",
+        "Tatabánya",
+        "Tiszafüred",
+        "Velence",
+        "Veszprém",
+        "Vác",
+        "Zalaegerszeg",
+        "Érd"
       ]
     },
     {
       "name": "cities_non_budapest_at_least_5",
       "ok": true,
       "detail": [
+        "Balatonfüred",
+        "Békéscsaba",
         "Debrecen",
+        "Dunaújváros",
+        "Eger",
+        "Esztergom",
+        "Gyöngyös",
         "Győr",
+        "Kaposvár",
+        "Kecskemét",
+        "Keszthely",
+        "Körmend",
         "Miskolc",
+        "Nagykanizsa",
         "Nyíregyháza",
+        "Pápa",
         "Pécs",
+        "Salgótarján",
+        "Siófok",
+        "Sopron",
         "Szeged",
-        "Székesfehérvár"
+        "Szekszárd",
+        "Szentendre",
+        "Szolnok",
+        "Szombathely",
+        "Székesfehérvár",
+        "Tatabánya",
+        "Tiszafüred",
+        "Velence",
+        "Veszprém",
+        "Vác",
+        "Zalaegerszeg",
+        "Érd"
       ]
     },
     {
@@ -133,12 +185,12 @@
     {
       "name": "brand_links_and_location_evidence",
       "ok": true,
-      "detail": "ok linked=16"
+      "detail": "ok linked=48"
     },
     {
       "name": "brand_links_at_least_8",
       "ok": true,
-      "detail": 16
+      "detail": 48
     },
     {
       "name": "rekord_szerviz_not_on_locations",
@@ -276,7 +328,7 @@
       "előkészített": 1
     },
     "locations": {
-      "ellenőrzött": 20
+      "ellenőrzött": 101
     },
     "variants": {
       "ellenőrzött": 10,
@@ -289,33 +341,59 @@
       "ellenőrzött": 3
     },
     "evidence": {
-      "ellenőrzött": 95,
+      "ellenőrzött": 176,
       "előkészített": 3,
       "hiányos": 1
     },
-    "services": 40
+    "services": 205
   },
   "counts": {
     "brands": 10,
-    "organizations": 18,
-    "locations": 20,
-    "services": 40,
+    "organizations": 99,
+    "locations": 101,
+    "services": 205,
     "products": 12,
     "variants": 12,
-    "evidence": 99,
+    "evidence": 180,
     "explainers": 6,
     "comparisons": 3,
     "articleMarkdown": 9,
-    "brandLinks": 16,
+    "brandLinks": 48,
     "cities": [
+      "Balatonfüred",
       "Budapest",
+      "Békéscsaba",
       "Debrecen",
+      "Dunaújváros",
+      "Eger",
+      "Esztergom",
+      "Gyöngyös",
       "Győr",
+      "Kaposvár",
+      "Kecskemét",
+      "Keszthely",
+      "Körmend",
       "Miskolc",
+      "Nagykanizsa",
       "Nyíregyháza",
+      "Pápa",
       "Pécs",
+      "Salgótarján",
+      "Siófok",
+      "Sopron",
       "Szeged",
-      "Székesfehérvár"
+      "Szekszárd",
+      "Szentendre",
+      "Szolnok",
+      "Szombathely",
+      "Székesfehérvár",
+      "Tatabánya",
+      "Tiszafüred",
+      "Velence",
+      "Veszprém",
+      "Vác",
+      "Zalaegerszeg",
+      "Érd"
     ]
   },
   "conflicts": [

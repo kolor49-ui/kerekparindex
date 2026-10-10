@@ -4,12 +4,12 @@
   "visualBaseline": "ORBIT Compact",
   "counts": {
     "brands": 10,
-    "organizations": 18,
-    "locations": 20,
-    "services": 40,
+    "organizations": 99,
+    "locations": 101,
+    "services": 205,
     "products": 12,
     "variants": 12,
-    "evidence": 99,
+    "evidence": 180,
     "comparisonGroups": 3,
     "explainers": 6,
     "comparisons": 3

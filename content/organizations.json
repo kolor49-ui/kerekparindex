@@ -126,6 +126,573 @@
       "legalName": null,
       "website": "https://borsodbike.hu/",
       "notes": null
+    },
+    {
+      "id": "org-biciklon-sport-szombathely",
+      "name": "Biciklon Sport Kerékpárüzlet és Szerviz",
+      "legalName": null,
+      "website": "https://biciklon.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-savaria-uniker-szombathely",
+      "name": "Savaria Uniker Kft. (Műszaki áruház)",
+      "legalName": null,
+      "website": "http://www.savariaszerszam.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-canyon-sport-szombathely",
+      "name": "Canyon Sport Kft.",
+      "legalName": null,
+      "website": "http://www.canyonsport.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-mixi-bike-zalaegerszeg",
+      "name": "MIXI-BIKE Kerékpár Üzlet",
+      "legalName": null,
+      "website": "https://mixi-bike.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-storm-kerekpar-zalaegerszeg",
+      "name": "STORM Kerékpár",
+      "legalName": null,
+      "website": "https://stormkerekpar.uzleti.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-podor-kerekpar-zalaegerszeg",
+      "name": "Pödör Kerékpárszaküzlet és Szerviz",
+      "legalName": null,
+      "website": "http://www.podorkerekpar.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-madbike-zalaegerszeg",
+      "name": "Madbike Kft.",
+      "legalName": null,
+      "website": "https://www.madbike.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-bringavar-zalaegerszeg",
+      "name": "Bringavár",
+      "legalName": null,
+      "website": null,
+      "notes": null
+    },
+    {
+      "id": "org-fricikli-sopron",
+      "name": "Fricikli Kerékpárbolt és Műhely",
+      "legalName": null,
+      "website": "http://fricikli.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-toth-fia-sopron",
+      "name": "Tóth & Fia Kerékpárbolt és Műhely",
+      "legalName": null,
+      "website": null,
+      "notes": null
+    },
+    {
+      "id": "org-ketkerek-sport-sopron",
+      "name": "Kétkerék Sport",
+      "legalName": null,
+      "website": "http://www.ketkereksport.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-mangobike-sopron",
+      "name": "MangoBike kerékpárszaküzlet",
+      "legalName": null,
+      "website": "https://www.mangobike.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-tuttibringa-kaposvar",
+      "name": "Tuttibringa Kft.",
+      "legalName": null,
+      "website": "https://www.tuttibringa.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-littvan-kerekpar-kaposvar",
+      "name": "Littván Kerékpár",
+      "legalName": null,
+      "website": "https://www.new.littvankerekpar.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-ketkerek-centrum-szekszard",
+      "name": "Kétkerék Centrum",
+      "legalName": null,
+      "website": null,
+      "notes": null
+    },
+    {
+      "id": "org-korosi-kerekpar-szekszard",
+      "name": "Kőrösi Kerékpár (Kőrösi Örs)",
+      "legalName": null,
+      "website": "https://kellysbike.com/",
+      "notes": null
+    },
+    {
+      "id": "org-schneider-kerekpar-szekszard",
+      "name": "Schneider Kerékpár Szaküzlet",
+      "legalName": null,
+      "website": "http://www.szszke.net/?page_id=72",
+      "notes": null
+    },
+    {
+      "id": "org-yankos-bike-nagykanizsa",
+      "name": "Yanko's Bike Kerékpárbolt és Szervíz",
+      "legalName": null,
+      "website": "http://yankosbike.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-kanizsa-kerekparcentrum-nagykanizsa",
+      "name": "Kanizsa Kerékpárcentrum",
+      "legalName": null,
+      "website": null,
+      "notes": null
+    },
+    {
+      "id": "org-greenzone-keszthely",
+      "name": "GreenZone (Sikos Zoltán e.v.)",
+      "legalName": null,
+      "website": "https://greenzone.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-tempo-kerekpar-balatonfured",
+      "name": "Tempo Kerékpárszaküzlet és Szerviz",
+      "legalName": null,
+      "website": "https://tempokerekpar.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-csopi-kerekparos-kozpont-balatonfured",
+      "name": "Csöpi Kerékpáros Központ",
+      "legalName": null,
+      "website": "https://kerekparbalaton.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-pelso-bike-siofok",
+      "name": "Pelso Bike Kft. (Böröcfi Kerékpárszaküzlet)",
+      "legalName": null,
+      "website": "https://www.pelsobike.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-nelson-bike-veszprem",
+      "name": "Nelson Bike Kerékpárszaküzlet, Szerviz és Kölcsönző",
+      "legalName": null,
+      "website": "https://www.veszpremkerekpar.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-kuszi-kerekpar-veszprem",
+      "name": "Kuszi Kerékpár Szaküzlet és Szerviz",
+      "legalName": null,
+      "website": "https://kuszikerekpar.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-bikeland-veszprem",
+      "name": "BIKELAND Kerékpárszaküzlet és Szerviz",
+      "legalName": null,
+      "website": "http://www.bikeland.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-ronabike-veszprem",
+      "name": "RonaBike Kerékpár Szaküzlet és Szervíz",
+      "legalName": null,
+      "website": "https://ronabike.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-farady-kerekpar-veszprem",
+      "name": "Farády Kerékpárszaküzlet",
+      "legalName": null,
+      "website": "http://www.faradykerekpar.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-sport-oazis-papa",
+      "name": "Sport Oázis Kft.",
+      "legalName": null,
+      "website": "http://www.sportoazis.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-balint-kerekpar-papa",
+      "name": "Bálint Kerékpár Szaküzlet és Szerviz",
+      "legalName": null,
+      "website": null,
+      "notes": null
+    },
+    {
+      "id": "org-biciklon-kormend",
+      "name": "Biciklon Sport Kerékpárüzlet és Szerviz Körmend",
+      "legalName": null,
+      "website": "https://biciklon.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-bringabolt-kecskemet",
+      "name": "Bringabolt",
+      "legalName": null,
+      "website": "https://bringabolt.com/",
+      "notes": null
+    },
+    {
+      "id": "org-szigma-trade-kecskemet",
+      "name": "Szigma-Trade Kft.",
+      "legalName": null,
+      "website": "https://www.szigmatrade.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-bicishop-kecskemet",
+      "name": "Bicishop",
+      "legalName": null,
+      "website": "https://www.bicishop.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-szep-kerekpar-kecskemet",
+      "name": "SZÉP Kerékpár Szaküzlet és Szerviz",
+      "legalName": null,
+      "website": "http://www.szepkerekpar.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-canganyika-szolnok",
+      "name": "Canganyika Kerékpárüzlet és szerviz",
+      "legalName": null,
+      "website": "http://www.canganyika.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-pne-mobil-szolnok",
+      "name": "PNÉ Mobil Kft. (Rodeó Viktória)",
+      "legalName": null,
+      "website": "https://pnemobilkft.webnode.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-egerbike-eger",
+      "name": "Egerbike kerékpárbolt és szakszerviz",
+      "legalName": null,
+      "website": "https://egerbike.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-bicocenter-eger",
+      "name": "Bicó Center",
+      "legalName": null,
+      "website": "https://bicocenter.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-bikeworkshop-eger",
+      "name": "Bike Work Shop (Bikeworkshop)",
+      "legalName": null,
+      "website": "https://bikeworkshop.ewk.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-rekord-mobil-bekescsaba",
+      "name": "Rekord-Mobil Kft.",
+      "legalName": null,
+      "website": "https://elektromos-kerekparbolt.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-balocom-bekescsaba",
+      "name": "BALOCOM Kft.",
+      "legalName": null,
+      "website": null,
+      "notes": null
+    },
+    {
+      "id": "org-velosport-salgotarjan",
+      "name": "Velosport Kerékpárüzlet és Kerékpárszerviz",
+      "legalName": null,
+      "website": "https://velosport.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-jel-kerekpar-tatabanya",
+      "name": "Jel Kerékpár Szaküzlet és Szerviz",
+      "legalName": null,
+      "website": null,
+      "notes": null
+    },
+    {
+      "id": "org-konzum-kerekpar-tatabanya",
+      "name": "Konzum Kerékpárszervíz",
+      "legalName": null,
+      "website": "https://konzumkerekpar.webnode.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-pedal-kerekpar-gyongyos",
+      "name": "Pedál Kerékpárszaküzlet és Szerviz",
+      "legalName": null,
+      "website": "https://pedalkerekpar.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-matra-bike-gyongyos",
+      "name": "Mátra Bike Kerékpárbolt és Szerviz",
+      "legalName": null,
+      "website": "http://www.matrabikenet.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-aquarius-bike-dunaujvaros",
+      "name": "Aquarius Bike",
+      "legalName": null,
+      "website": "https://aquariusbike.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-magellan-bike-dunaujvaros",
+      "name": "Magellán Bike",
+      "legalName": null,
+      "website": "https://magellanbike.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-urbanlegend-szeged",
+      "name": "UrbanLegend Bike Kft.",
+      "legalName": null,
+      "website": "https://www.urbanlegend.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-vasparipa-szeged",
+      "name": "Vasparipa Kerékpárbolt és Műhely",
+      "legalName": null,
+      "website": "https://vasparipakerekpar.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-maniac-szeged",
+      "name": "Maniac Kerékpárüzlet",
+      "legalName": null,
+      "website": "https://maniac.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-gsportzona-szeged",
+      "name": "GsportZóna",
+      "legalName": null,
+      "website": "http://gsportzona.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-prolog-szeged",
+      "name": "Prolog Kerékpárüzlet",
+      "legalName": null,
+      "website": null,
+      "notes": null
+    },
+    {
+      "id": "org-chili-sport-debrecen",
+      "name": "Chili Sport Kft.",
+      "legalName": null,
+      "website": "https://chilisport.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-regina-kerekparbolt-debrecen",
+      "name": "Regina Kerékpárbolt",
+      "legalName": null,
+      "website": null,
+      "notes": null
+    },
+    {
+      "id": "org-bicaj-bt-debrecen",
+      "name": "BICAJ BT.",
+      "legalName": null,
+      "website": null,
+      "notes": null
+    },
+    {
+      "id": "org-bombastic-bringastic-miskolc",
+      "name": "Bombastic Bringastic Kerékpárszalon (Inter-B Precíziós Kft.)",
+      "legalName": null,
+      "website": "https://bombastic.uzleti.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-bringasziget-nyiregyhaza",
+      "name": "BringaSziget",
+      "legalName": null,
+      "website": "https://bringasziget.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-kondor-kerekpar-nyiregyhaza",
+      "name": "Csepel Kerékpár és Szervíz (Kondor)",
+      "legalName": null,
+      "website": "https://kondor-kerekpar.webnode.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-halmibringa-nyiregyhaza",
+      "name": "Halmibringa",
+      "legalName": null,
+      "website": "https://halmibringa.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-imperator-pecs",
+      "name": "Imperátor kerékpárszalon",
+      "legalName": null,
+      "website": "http://www.kerekparpecs.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-dreamline-cycle-pecs",
+      "name": "Dreamline Cycle",
+      "legalName": null,
+      "website": "https://www.dreamlinecycle.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-tisza-bringa-tiszafured",
+      "name": "Tisza-Bringa Bolt",
+      "legalName": null,
+      "website": null,
+      "notes": null
+    },
+    {
+      "id": "org-dz-bike-vac",
+      "name": "DZ BIKE",
+      "legalName": null,
+      "website": "http://dzbike.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-balazs-kerekparbolt-szentendre",
+      "name": "Balázs Kerékpárbolt",
+      "legalName": null,
+      "website": "https://www.balazskerekparbolt.com/",
+      "notes": null
+    },
+    {
+      "id": "org-altrix-esztergom",
+      "name": "Altrix bolt",
+      "legalName": null,
+      "website": null,
+      "notes": null
+    },
+    {
+      "id": "org-fogas-kerekpar-gyor",
+      "name": "Fogas Kerékpárbolt",
+      "legalName": null,
+      "website": "https://www.fogaskerekpargyor.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-ferita-sport-gyor",
+      "name": "Ferita Sport kerékpár szaküzlet és szerviz",
+      "legalName": null,
+      "website": "https://www.feritasport.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-stelvio-gyor",
+      "name": "Stelvio Kerékpáros szaküzlet és szerviz",
+      "legalName": null,
+      "website": "https://stelvio.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-velencebike-velence",
+      "name": "VelenceBike",
+      "legalName": null,
+      "website": "http://www.velencebike.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-velociped-fan-szekesfehervar",
+      "name": "Velocipéd Fan / Trek Székesfehérvár",
+      "legalName": null,
+      "website": "https://hariskerekpar.hu/kapcsolat/",
+      "notes": null
+    },
+    {
+      "id": "org-bike-extrem-balatonfured",
+      "name": "Bike Extrém Kerékpárüzlet",
+      "legalName": null,
+      "website": "https://www.bikeextrem.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-horvath-kerekpar-papa",
+      "name": "Horváth Kerékpárszervíz",
+      "legalName": null,
+      "website": null,
+      "notes": null
+    },
+    {
+      "id": "org-solyombike-erd",
+      "name": "Sólyombike Kerékpárbolt és szerviz",
+      "legalName": null,
+      "website": "https://www.solyombike.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-alfabike-erd",
+      "name": "AlfaBike Kerékpárüzlet és Szerviz",
+      "legalName": null,
+      "website": "https://alfabike.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-robikes-erd",
+      "name": "Robikes Kerékpárbolt és Szerviz",
+      "legalName": null,
+      "website": "https://robikes.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-bike-cafe-budapest",
+      "name": "Bike Cafe Kerékpárüzlet",
+      "legalName": null,
+      "website": "https://bikecafe.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-big-bike-budapest",
+      "name": "Big Bike",
+      "legalName": null,
+      "website": null,
+      "notes": null
+    },
+    {
+      "id": "org-bikemen-budapest",
+      "name": "Bikemen Kerékpárbolt",
+      "legalName": null,
+      "website": null,
+      "notes": null
+    },
+    {
+      "id": "org-fulop-mgbikes-budapest",
+      "name": "Fülöp Kerékpár Centrum - MGbikes",
+      "legalName": null,
+      "website": null,
+      "notes": null
     }
   ]
 }

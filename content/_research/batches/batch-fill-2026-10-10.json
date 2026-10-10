@@ -1,0 +1,243 @@
+{
+  "batchId": "fill-2026-10-10",
+  "accessedAt": "2026-10-10",
+  "items": [
+    {
+      "idSlug": "fogas-kerekpar-gyor",
+      "name": "Fogas Kerékpárbolt",
+      "city": "Győr",
+      "addressRaw": "9025 Győr, Korányi Frigyes tér 18.",
+      "website": "https://www.fogaskerekpargyor.hu/",
+      "phone": [
+        "+36 20 933 5683"
+      ],
+      "email": [],
+      "openingHours": "H–P 10:00–17:00, Szombat zárva, Vasárnap zárva",
+      "roles": [
+        "eladas",
+        "szerviz"
+      ],
+      "brandClaims": [],
+      "evidence": {
+        "url": "https://www.fogaskerekpargyor.hu/",
+        "pageTitle": "Fogas Kerékpárbolt Győr"
+      },
+      "notes": null,
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "ferita-sport-gyor",
+      "name": "Ferita Sport kerékpár szaküzlet és szerviz",
+      "city": "Győr",
+      "addressRaw": "9030 Győr, Bodzás utca 19.",
+      "website": "https://www.feritasport.hu/",
+      "phone": [
+        "+36 30 276 4359"
+      ],
+      "email": [
+        "info@feritasport.hu"
+      ],
+      "openingHours": null,
+      "roles": [
+        "eladas",
+        "szerviz"
+      ],
+      "brandClaims": [],
+      "evidence": {
+        "url": "https://www.feritasport.hu/",
+        "pageTitle": "Ferita Sport, kerékpár szaküzlet és szervíz"
+      },
+      "notes": null,
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "stelvio-gyor",
+      "name": "Stelvio Kerékpáros szaküzlet és szerviz",
+      "city": "Győr",
+      "addressRaw": "9024 Győr, Práter utca 9.",
+      "website": "https://stelvio.hu/",
+      "phone": [
+        "+36 20 286 9441"
+      ],
+      "email": [
+        "info@stelvio.hu"
+      ],
+      "openingHours": "Hétfő zárva; K–P 10:00–18:00, Szo 9:00–13:00, Vasárnap zárva",
+      "roles": [
+        "eladas",
+        "szerviz"
+      ],
+      "brandClaims": [],
+      "evidence": {
+        "url": "https://stelvio.hu/",
+        "pageTitle": "Stelvio – Bike & Café"
+      },
+      "notes": "A pannonhalmi e-bike bérlés és diagnosztika külön telephely; ebben a rekordban csak a győri üzlet szerepel.",
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "velencebike-velence",
+      "name": "VelenceBike",
+      "city": "Velence",
+      "addressRaw": "2481 Velence, Fő utca 172.",
+      "website": "http://www.velencebike.hu/",
+      "phone": [
+        "+36 70 329 8300"
+      ],
+      "email": [],
+      "openingHours": null,
+      "roles": [
+        "eladas",
+        "szerviz"
+      ],
+      "brandClaims": [],
+      "evidence": {
+        "url": "http://www.velencebike.hu/",
+        "pageTitle": "Velencebike - Kerékpár és élmény a Velencei tónál"
+      },
+      "notes": null,
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "velociped-fan-szekesfehervar",
+      "name": "Velocipéd Fan / Trek Székesfehérvár",
+      "city": "Székesfehérvár",
+      "addressRaw": "8000 Székesfehérvár, Pozsonyi út 99/C",
+      "website": "https://hariskerekpar.hu/kapcsolat/",
+      "phone": [
+        "+36 20 823 9073"
+      ],
+      "email": [
+        "trek.szekesfehervar@gmail.com"
+      ],
+      "openingHours": "Nyári: H–P 10:00–17:45 (ebéd 12–13), Szo 9:00–12:00; Téli: H–P 10:00–17:00, Szombat zárva",
+      "roles": [
+        "eladas",
+        "szerviz"
+      ],
+      "brandClaims": [
+        {
+          "brand": "Trek",
+          "sourceUrl": "https://trek.hu/hu-hu/Trek_cikkek/Trek_kereskedesek_magyarorszagon",
+          "quote": "Velocipéd Fan szaküzlet – Székesfehérvár, Pozsonyi út 99/C"
+        }
+      ],
+      "evidence": {
+        "url": "https://hariskerekpar.hu/kapcsolat/",
+        "pageTitle": "Kapcsolat – Hariskerekpar.hu"
+      },
+      "notes": null,
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "bike-extrem-balatonfured",
+      "name": "Bike Extrém Kerékpárüzlet",
+      "city": "Balatonfüred",
+      "addressRaw": "8230 Balatonfüred, Ady Endre utca 21.",
+      "website": "https://www.bikeextrem.hu/",
+      "phone": [
+        "+36 30 411 3241"
+      ],
+      "email": [
+        "info@bikeextrem.hu"
+      ],
+      "openingHours": null,
+      "roles": [
+        "eladas",
+        "szerviz"
+      ],
+      "brandClaims": [
+        {
+          "brand": "Trek",
+          "sourceUrl": "https://trek.hu/hu-hu/Trek_cikkek/Trek_kereskedesek_magyarorszagon",
+          "quote": "Bike Extrém Kerékpárüzlet – Balatonfüred, Ady Endre utca 21."
+        }
+      ],
+      "evidence": {
+        "url": "https://trek.hu/hu-hu/Trek_cikkek/Trek_kereskedesek_magyarorszagon",
+        "pageTitle": "Trek üzletek Magyarországon"
+      },
+      "notes": "Cím és elérhetőség a trek.hu hivatalos kereskedőlistáján; saját oldali nyitvatartás ebben a körben nem került külön rögzítésre.",
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "horvath-kerekpar-papa",
+      "name": "Horváth Kerékpárszervíz",
+      "city": "Pápa",
+      "addressRaw": "8500 Pápa, Harmadik u. 14.",
+      "website": null,
+      "phone": [
+        "+36 20 322 1773"
+      ],
+      "email": [
+        "horvathkerekpar@gmail.com"
+      ],
+      "openingHours": null,
+      "roles": [
+        "szerviz",
+        "eladas"
+      ],
+      "brandClaims": [
+        {
+          "brand": "Trek",
+          "sourceUrl": "https://trek.hu/hu-hu/Trek_cikkek/Trek_kereskedesek_magyarorszagon",
+          "quote": "Horváth Kerékpárszervíz – Pápa, Harmadik u. 14."
+        }
+      ],
+      "evidence": {
+        "url": "https://trek.hu/hu-hu/Trek_cikkek/Trek_kereskedesek_magyarorszagon",
+        "pageTitle": "Trek üzletek Magyarországon"
+      },
+      "notes": null,
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "karikazzunk-velence",
+      "name": "Karikázzunk kerékpár szerviz",
+      "city": "Velence",
+      "addressRaw": "2481 Velence",
+      "website": "https://karikazzunk.hu/szerviz/",
+      "phone": [],
+      "email": [],
+      "openingHours": null,
+      "roles": [
+        "szerviz"
+      ],
+      "brandClaims": [],
+      "evidence": {
+        "url": "https://karikazzunk.hu/szerviz/",
+        "pageTitle": "Kerékpár szerviz Velence"
+      },
+      "notes": null,
+      "heldBack": true,
+      "heldBackReason": "Saját szervizoldal van, de pontos utca/házszám nem egyértelmű a forráson"
+    }
+  ],
+  "heldBack": [
+    {
+      "name": "BiciKlikk Szolnok",
+      "city": "Szolnok",
+      "reason": "Saját üzleteink oldal csak Pécset sorol",
+      "candidateUrl": "https://www.biciklikk.hu/uzleteink"
+    },
+    {
+      "name": "Rent-E-Bike Miskolc",
+      "city": "Miskolc",
+      "reason": "Elsődlegesen kölcsönző",
+      "candidateUrl": "https://www.kerekparszallitoberles.hu/"
+    },
+    {
+      "name": "Csepi bicikli szerviz Agárd",
+      "city": "Agárd",
+      "reason": "Nincs saját hivatalos oldal; csak gyűjtő/nyitvatartás oldalak",
+      "candidateUrl": null
+    }
+  ]
+}

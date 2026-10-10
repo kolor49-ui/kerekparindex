@@ -1,0 +1,109 @@
+{
+  "items": [
+    {
+      "name": "Westbike Kerékpárbolt és Szerviz",
+      "city": "Szombathely",
+      "reason": "westbike.hu csak „munkálatok” üzenetet ad; cím/telefon nem igazolható a saját oldalon (külső snippetek nem elegendők).",
+      "candidateUrl": "https://www.westbike.hu/"
+    },
+    {
+      "name": "BringaOtthon Árkádia Kerékpárbolt és Szerviz",
+      "city": "Szombathely",
+      "reason": "Nem található saját weboldal; csak aggregátor/értékelő oldalak (pl. aranyvallalkozas.eu) cím nélkül teljes elérhetőséggel.",
+      "candidateUrl": "https://www.aranyvallalkozas.eu/company/bringaotthon-arkadia-kerekparbolt-es-szerviz-536556"
+    },
+    {
+      "name": "BlackBike Kerékpár Szerviz",
+      "city": "Siófok",
+      "reason": "Nincs saját weboldal; csak POI/értékelő listák (pl. balatonbike365.hu).",
+      "candidateUrl": "https://www.facebook.com/blackbike.service/"
+    },
+    {
+      "name": "HeloVelo Bike & Cafe",
+      "city": "Pápa",
+      "reason": "2026 júniusi hír szerint bezárt; helovelo.hu nem megerősített aktív üzlet.",
+      "candidateUrl": "https://www.infopapa.hu/hirek/olvas/ket-igenyes-kavezo-is-bezart-a-heten-papan-2026-06-18-160000"
+    },
+    {
+      "name": "Ga-Bike / Dream Bike Kft.",
+      "city": "Kaposvár",
+      "reason": "Csak Facebook/aggregátor jelenlét (Fő u. 87.); saját weboldal nem azonosított.",
+      "candidateUrl": "https://www.facebook.com/gabike2014"
+    },
+    {
+      "name": "PedÁl Kerékpárüzlet és szerviz",
+      "city": "Szombathely",
+      "reason": "Csak Facebook/e-mail a veloregio listában; saját weboldal nem azonosított.",
+      "candidateUrl": "https://veloregio.com/hu/kerekparos-szervizek/"
+    },
+    {
+      "name": "Bikeland Kerékpár Bolt és Szerviz",
+      "city": "Békéscsaba",
+      "reason": "Csak Facebook-profil és aggregátorok; nincs saját weboldal vagy hivatalos márkadealer-lista bejegyzés.",
+      "candidateUrl": "https://www.facebook.com/539958456163288"
+    },
+    {
+      "name": "M-Bike Kerékpárszaküzlet és Szerviz",
+      "city": "Tatabánya",
+      "reason": "A megadott domainek (mbike.hu, m-bike.hu) 2026-10-10-en nem elérhetők; BikeFun listán nincs.",
+      "candidateUrl": "https://mbike.hu/"
+    },
+    {
+      "name": "Kerékpár Szaküzlet és Szerviz (Szőlősi út)",
+      "city": "Tiszafüred",
+      "reason": "Önkormányzati szolgáltatáslista Cloudflare miatt nem ellenőrizhető; nincs saját weboldal.",
+      "candidateUrl": "https://www.tiszafured.hu/index.php/szolgaltatasok"
+    },
+    {
+      "name": "Nyolcas Kerékpárszerviz és Szaküzlet",
+      "city": "Vác",
+      "reason": "Csak katalógus-oldal; nincs saját domain vagy márkadealer hivatkozás.",
+      "candidateUrl": "https://www.szakkatalogus.hu/infok/Nyolcas_Ker%C3%A9kp%C3%A1rszerviz_%C3%89s_Szak%C3%BCzlet_-_V%C3%A1c-489103"
+    },
+    {
+      "name": "Localbike",
+      "city": "Kecskemét",
+      "reason": "localbike.hu időtúllépés; nem sikerült hivatalos elérhetőséget rögzíteni.",
+      "candidateUrl": "https://www.localbike.hu/"
+    },
+    {
+      "name": "loc-biciklikk-szolnok",
+      "city": "",
+      "reason": "Biciklikk saját üzleteink oldala csak Pécset sorol; Szolnok telephely nem igazolt a saját oldalon",
+      "candidateUrl": null,
+      "removedAfterImport": true
+    },
+    {
+      "name": "loc-rent-e-bike-miskolc",
+      "city": "",
+      "reason": "Elsődlegesen kölcsönző/szállítóberlés, nem egyértelmű fizikai üzlet/szerviz adatlap",
+      "candidateUrl": null,
+      "removedAfterImport": true
+    },
+    {
+      "name": "BiciKlikk Szolnok",
+      "city": "Szolnok",
+      "reason": "Saját üzleteink oldal csak Pécset sorol",
+      "candidateUrl": "https://www.biciklikk.hu/uzleteink"
+    },
+    {
+      "name": "Rent-E-Bike Miskolc",
+      "city": "Miskolc",
+      "reason": "Elsődlegesen kölcsönző",
+      "candidateUrl": "https://www.kerekparszallitoberles.hu/"
+    },
+    {
+      "name": "Csepi bicikli szerviz Agárd",
+      "city": "Agárd",
+      "reason": "Nincs saját hivatalos oldal; csak gyűjtő/nyitvatartás oldalak",
+      "candidateUrl": null
+    },
+    {
+      "name": "Karikázzunk kerékpár szerviz",
+      "city": "Velence",
+      "reason": "Saját szervizoldal van, de pontos utca/házszám nem egyértelmű a forráson",
+      "candidateUrl": "https://karikazzunk.hu/szerviz/"
+    }
+  ],
+  "accessedAt": "2026-10-10"
+}
