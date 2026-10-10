@@ -23,17 +23,10 @@
 .gateway{min-height:52px}
 }
 
-/* Live site: only content-ready gateways visible */
-.gateways.gateways-live{grid-template-columns:repeat(3,minmax(0,1fr))}
-@media(min-width:651px) and (max-width:900px){
-.gateways.gateways-live{grid-template-columns:repeat(3,minmax(0,1fr))}
-}
-@media(max-width:650px){
-.gateways.gateways-live{grid-template-columns:repeat(2,minmax(0,1fr))}
-}
-
-/* Planned (empty) sections stay out of the published page */
-[data-planned][hidden]{display:none!important}
+/* Planned-section shells (visible, no invented listings) */
+.planned-panel{background:var(--panel);border:1px solid var(--line);border-radius:17px;padding:20px}
+.planned-panel p{color:var(--muted);font-size:13px;margin:0 0 10px}
+.planned-panel strong{color:var(--ink);font-size:16px}
 
 /* Content dialog / lists (from Compact wiring, Világ tokens) */
 dialog{overflow:auto}
@@ -58,9 +51,6 @@ dialog th,dialog td{border:1px solid var(--line);padding:8px;text-align:left;ver
 .place-list{max-height:40vh;overflow:auto}
 #search-message,#result-status{font-size:12px;color:var(--muted);margin:10px 0}
 #search-message .linkish{margin:0 4px}
-.nav a[hidden],.chip[hidden],.gateway[hidden]{display:none!important}
 .story{cursor:pointer}
 .metric-copy strong{display:block;margin-bottom:4px}
-.brand-list{display:contents}
-.brands .brand{background:none}
 

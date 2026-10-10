@@ -17,9 +17,21 @@
         {
           "w": 25,
           "h": 25
+        },
+        {
+          "w": 25,
+          "h": 25
+        },
+        {
+          "w": 25,
+          "h": 25
+        },
+        {
+          "w": 25,
+          "h": 25
         }
       ],
-      "gatewayCount": 3,
+      "gatewayCount": 6,
       "brandCount": 6,
       "hasContent": true,
       "shot": "/Users/macbookair/Desktop/kerekparindex/screenshots/orbit-vilag/vilag-360.png"
@@ -40,9 +52,21 @@
         {
           "w": 25,
           "h": 25
+        },
+        {
+          "w": 25,
+          "h": 25
+        },
+        {
+          "w": 25,
+          "h": 25
+        },
+        {
+          "w": 25,
+          "h": 25
         }
       ],
-      "gatewayCount": 3,
+      "gatewayCount": 6,
       "brandCount": 6,
       "hasContent": true,
       "shot": "/Users/macbookair/Desktop/kerekparindex/screenshots/orbit-vilag/vilag-390.png"
@@ -63,9 +87,21 @@
         {
           "w": 23,
           "h": 23
+        },
+        {
+          "w": 23,
+          "h": 23
+        },
+        {
+          "w": 23,
+          "h": 23
+        },
+        {
+          "w": 23,
+          "h": 23
         }
       ],
-      "gatewayCount": 3,
+      "gatewayCount": 6,
       "brandCount": 6,
       "hasContent": true,
       "shot": "/Users/macbookair/Desktop/kerekparindex/screenshots/orbit-vilag/vilag-768.png"
@@ -86,9 +122,21 @@
         {
           "w": 23,
           "h": 23
+        },
+        {
+          "w": 23,
+          "h": 23
+        },
+        {
+          "w": 23,
+          "h": 23
+        },
+        {
+          "w": 23,
+          "h": 23
         }
       ],
-      "gatewayCount": 3,
+      "gatewayCount": 6,
       "brandCount": 6,
       "hasContent": true,
       "shot": "/Users/macbookair/Desktop/kerekparindex/screenshots/orbit-vilag/vilag-1024.png"
@@ -109,9 +157,21 @@
         {
           "w": 23,
           "h": 23
+        },
+        {
+          "w": 23,
+          "h": 23
+        },
+        {
+          "w": 23,
+          "h": 23
+        },
+        {
+          "w": 23,
+          "h": 23
         }
       ],
-      "gatewayCount": 3,
+      "gatewayCount": 6,
       "brandCount": 6,
       "hasContent": true,
       "shot": "/Users/macbookair/Desktop/kerekparindex/screenshots/orbit-vilag/vilag-1440.png"

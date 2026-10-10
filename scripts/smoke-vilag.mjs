@@ -26,15 +26,20 @@ async function measure(page) {
   return page.evaluate(() => {
     const issues = [];
     if (document.querySelector(".demo")) issues.push("demo_bar_present");
-    const plannedVisible = [...document.querySelectorAll("[data-planned]")].filter(
-      (el) => !el.hidden && getComputedStyle(el).display !== "none"
-    );
-    if (plannedVisible.length) issues.push("planned_visible:" + plannedVisible.length);
 
     const gateways = [...document.querySelectorAll(".gateways .gateway")].filter(
       (el) => !el.hidden && getComputedStyle(el).display !== "none"
     );
-    if (gateways.length !== 3) issues.push("gateway_count:" + gateways.length);
+    if (gateways.length !== 6) issues.push("gateway_count:" + gateways.length);
+    const chips = [...document.querySelectorAll(".search-tabs .chip")].filter(
+      (el) => getComputedStyle(el).display !== "none"
+    );
+    if (chips.length !== 5) issues.push("chip_count:" + chips.length);
+    const brandLabels = [...document.querySelectorAll(".brands .brand")].map((b) =>
+      b.textContent.trim()
+    );
+    if (brandLabels.join("|") !== "CUBE|TREK|GIANT|GEPIDA|SPECIALIZED|MERIDA")
+      issues.push("brand_order:" + brandLabels.join("|"));
 
     const icons = gateways.map((g) => {
       const icon = g.querySelector(".icon");
@@ -42,8 +47,8 @@ async function measure(page) {
       return r ? { w: Math.round(r.width), h: Math.round(r.height) } : null;
     });
 
-    const brands = [...document.querySelectorAll(".brands .brand")];
-    const brandOverflow = brands.some((b) => {
+    const brandEls = [...document.querySelectorAll(".brands .brand")];
+    const brandOverflow = brandEls.some((b) => {
       const r = b.getBoundingClientRect();
       return r.right > window.innerWidth + 1;
     });
@@ -58,7 +63,7 @@ async function measure(page) {
       issues,
       icons,
       gatewayCount: gateways.length,
-      brandCount: brands.length,
+      brandCount: brandEls.length,
       h1: (document.querySelector("h1") || {}).textContent || "",
       hasContent: !!window.KEREKPARINDEX_CONTENT,
       contentBrands: window.KEREKPARINDEX_CONTENT

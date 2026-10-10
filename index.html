@@ -81,15 +81,6 @@
             <path d="M11 3v8M22 3v8M5 15h23M10 20h5M18 20h5M10 24h5" />
           </g>
         </symbol>
-        <symbol id="book" viewBox="0 0 32 32">
-          <path
-            d="M6 5h9a4 4 0 014 4v18a3 3 0 00-3-3H6zM26 5h-9a4 4 0 00-4 4v18a3 3 0 013-3h10z"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="1.7"
-            stroke-linejoin="round"
-          />
-        </symbol>
       </defs>
     </svg>
 
@@ -113,51 +104,64 @@
       </header>
 
       <nav class="nav" id="nav" aria-label="Fő navigáció">
-        <a href="#markak">Márkák</a>
+        <a href="#results" data-open="brands">Kerékpárok és felszerelések</a>
         <a href="#ebike">Elektromos</a>
-        <a href="#szolgaltatasok">Üzletek és szervizek</a>
-        <a href="#tudastar">Magyarázók</a>
-        <a href="#tudastar" data-open="comparisons">Összehasonlítások</a>
-        <a
-          href="#szolgaltatasok"
-          class="orange"
-          data-open="places"
-          >Helyek keresése ↗</a
-        >
-        <!-- Teljes hatrovatos navigáció: docs/11-ORBIT-VILAG.md -->
-        <a href="#hasznalt" data-planned hidden>Adok-veszek</a>
-        <a href="#turak" data-planned hidden>Túrák</a>
-        <a href="#esemenyek" data-planned hidden>Események</a>
-        <a href="#akciok" data-planned hidden class="orange">Akciók ↗</a>
+        <a href="#hasznalt" data-planned="hasznalt">Adok-veszek</a>
+        <a href="#szolgaltatasok">Üzletek és szolgáltatások</a>
+        <a href="#turak" data-planned="tura">Túrák és útvonalak</a>
+        <a href="#esemenyek" data-planned="esemeny">Események</a>
+        <a href="#results" class="orange" data-planned="akcio">Akciók ↗</a>
       </nav>
 
       <main>
         <section class="intro">
           <h1>A te <span>kerékpáros világod.</span></h1>
           <p>
-            Márkák, modellek, üzletek és érthető magyarázók.<br />
-            Ellenőrzött adatokkal — készletígéret nélkül.
+            Márkák, bringák, jó helyek és új utak.<br />
+            Magyarországon és a szomszédban.
           </p>
         </section>
 
         <section class="finder" aria-label="Keresés">
           <div class="search-tabs" aria-label="Keresési terület">
-            <button class="chip" type="button" data-search="termek" aria-pressed="true">
+            <button
+              class="chip"
+              type="button"
+              data-search="termek"
+              aria-pressed="true"
+            >
               Termékek
             </button>
-            <button class="chip" type="button" data-search="hely" aria-pressed="false">
-              Helyek
-            </button>
-            <button class="chip" type="button" data-search="cikk" aria-pressed="false">
-              Magyarázók
-            </button>
-            <button class="chip" type="button" data-search="hasznalt" data-planned hidden aria-pressed="false">
+            <button
+              class="chip"
+              type="button"
+              data-search="hasznalt"
+              aria-pressed="false"
+            >
               Használt
             </button>
-            <button class="chip" type="button" data-search="tura" data-planned hidden aria-pressed="false">
+            <button
+              class="chip"
+              type="button"
+              data-search="hely"
+              aria-pressed="false"
+            >
+              Helyek
+            </button>
+            <button
+              class="chip"
+              type="button"
+              data-search="tura"
+              aria-pressed="false"
+            >
               Túrák
             </button>
-            <button class="chip" type="button" data-search="esemeny" data-planned hidden aria-pressed="false">
+            <button
+              class="chip"
+              type="button"
+              data-search="esemeny"
+              aria-pressed="false"
+            >
               Események
             </button>
           </div>
@@ -167,7 +171,7 @@
             <input
               id="query"
               type="search"
-              placeholder="Márka, kerékpár, település, szerviz…"
+              placeholder="Márka, kerékpár, alkatrész…"
               autocomplete="off"
             />
             <button class="go" type="submit">Keresés ↗</button>
@@ -177,20 +181,27 @@
 
         <section class="brands" id="markak" aria-label="Márkák">
           <span class="brands-label">ISMERŐS<br />NEVEK</span>
-          <div class="brand-list" id="brand-list"></div>
+          <button class="brand" type="button" data-brand="Cube">CUBE</button>
+          <button class="brand" type="button" data-brand="Trek">TREK</button>
+          <button class="brand" type="button" data-brand="Giant">GIANT</button>
+          <button class="brand" type="button" data-brand="Gepida">GEPIDA</button>
+          <button class="brand" type="button" data-brand="Specialized">
+            SPECIALIZED
+          </button>
+          <button class="brand" type="button" data-brand="Merida">MERIDA</button>
           <button class="brand-more" type="button" id="all-brands">
             Minden márka ↗
           </button>
         </section>
 
-        <div class="gateways gateways-live" aria-label="Fő belépők">
+        <div class="gateways" aria-label="Fő belépők">
           <button class="gateway" type="button" data-open="brands">
             <span class="icon" aria-hidden="true"
               ><svg><use href="#bike" /></svg
             ></span>
             <span class="arrow" aria-hidden="true">↗</span>
             <strong>Kerékpárok, felszerelések</strong>
-            <small>Márkák és modellek</small>
+            <small>Márkák és összehasonlítások</small>
           </button>
           <a class="gateway electric" href="#ebike">
             <span class="icon" aria-hidden="true"
@@ -200,30 +211,38 @@
             <strong>Elektromos</strong>
             <small>Technika, érthetően</small>
           </a>
+          <button class="gateway" type="button" data-planned="hasznalt">
+            <span class="icon" aria-hidden="true"
+              ><svg><use href="#swap" /></svg
+            ></span>
+            <span class="arrow" aria-hidden="true">↗</span>
+            <strong>Adok-veszek</strong>
+            <small>Eladó, keresett, cserélhető</small>
+          </button>
           <button class="gateway" type="button" data-open="places">
             <span class="icon" aria-hidden="true"
               ><svg><use href="#pin" /></svg
             ></span>
             <span class="arrow" aria-hidden="true">↗</span>
-            <strong>Üzletek és szervizek</strong>
-            <small>Országos mintapontok</small>
+            <strong>Üzletek és szolgáltatások</strong>
+            <small>Szerviz és kölcsönzés is</small>
           </button>
-          <!-- Tervezett kapuk: Adok-veszek, Túrák, Események — docs/11-ORBIT-VILAG.md -->
-          <button class="gateway" type="button" data-planned hidden data-open="planned-hasznalt">
-            <span class="icon"><svg><use href="#swap" /></svg></span>
-            <strong>Adok-veszek</strong>
-            <small>Eladó, keresett, cserélhető</small>
-          </button>
-          <a class="gateway" href="#turak" data-planned hidden>
-            <span class="icon"><svg><use href="#route" /></svg></span>
+          <button class="gateway" type="button" data-planned="tura">
+            <span class="icon" aria-hidden="true"
+              ><svg><use href="#route" /></svg
+            ></span>
+            <span class="arrow" aria-hidden="true">↗</span>
             <strong>Túrák és útvonalak</strong>
             <small>Itthon és a szomszédban</small>
-          </a>
-          <a class="gateway" href="#esemenyek" data-planned hidden>
-            <span class="icon"><svg><use href="#calendar" /></svg></span>
+          </button>
+          <button class="gateway" type="button" data-planned="esemeny">
+            <span class="icon" aria-hidden="true"
+              ><svg><use href="#calendar" /></svg
+            ></span>
+            <span class="arrow" aria-hidden="true">↗</span>
             <strong>Események</strong>
             <small>Versenyek és közös tekerések</small>
-          </a>
+          </button>
         </div>
 
         <section class="results section" id="results" hidden>
@@ -254,18 +273,22 @@
           <div>
             <div class="eyebrow">E-bike / külön világ, érthetően</div>
             <h2>Értsd a technikát.<br />Érezd a különbséget.</h2>
-            <p>Három jelölés, amellyel az adatlapokon találkozol.</p>
+            <p>Három jelölés, amellyel minden adatlapon találkozol.</p>
             <button
               class="text-link"
               type="button"
               data-open="explainers"
               style="color: #392545"
             >
-              Magyarázók és összehasonlítások ↗
+              Elektromos kerékpárok ↗
             </button>
           </div>
           <div>
-            <div class="metric-tabs" role="tablist" aria-label="Paraméter magyarázat">
+            <div
+              class="metric-tabs"
+              role="tablist"
+              aria-label="Paraméter magyarázat"
+            >
               <button
                 class="metric"
                 type="button"
@@ -312,10 +335,10 @@
         <section class="section service-banner" id="szolgaltatasok">
           <div>
             <div class="eyebrow">Országosan. Helyben.</div>
-            <h2>Megvennéd? Javíttatnád?</h2>
+            <h2>Megvennéd? Javíttatnád? Kölcsönöznél?</h2>
             <p>
-              Ellenőrzött üzletek és szervizek a próbakörből. A márka
-              forgalmazása nem modellkészlet-ígéret.
+              Találd meg a megfelelő helyet a közeledben vagy a következő
+              túrádhoz.
             </p>
           </div>
           <button class="go" type="button" data-open="places">
@@ -323,22 +346,75 @@
           </button>
         </section>
 
-        <!-- Tervezett, jelenleg üres rovatok — nem publikálva -->
-        <section class="section" id="hasznalt" data-planned hidden></section>
-        <section class="section" id="turak" data-planned hidden></section>
-        <section class="section" id="esemenyek" data-planned hidden></section>
+        <div class="split section">
+          <section id="turak">
+            <div class="section-head">
+              <div>
+                <div class="eyebrow">A következő kanyar után</div>
+                <h2>Merre indulnál?</h2>
+              </div>
+            </div>
+            <div class="planned-panel">
+              <p><strong>Ez a rovat előkészítés alatt áll.</strong></p>
+              <p class="note">
+                Még nincs ellenőrzött túra vagy útvonal. Kitalált útvonalakat
+                nem jelenítünk meg.
+              </p>
+              <button class="text-link" type="button" data-planned="tura">
+                Részletek ↗
+              </button>
+            </div>
+          </section>
+          <section id="esemenyek">
+            <div class="section-head">
+              <div>
+                <div class="eyebrow">Együtt még jobb</div>
+                <h2>Ott a helyed.</h2>
+              </div>
+            </div>
+            <div class="planned-panel">
+              <p><strong>Ez a rovat előkészítés alatt áll.</strong></p>
+              <p class="note">
+                Még nincs ellenőrzött esemény. Kitalált programokat nem
+                jelenítünk meg.
+              </p>
+              <button class="text-link" type="button" data-planned="esemeny">
+                Részletek ↗
+              </button>
+            </div>
+          </section>
+        </div>
+
+        <section class="section" id="hasznalt">
+          <div class="section-head">
+            <div>
+              <div class="eyebrow">Új gazda. Új kilométerek.</div>
+              <h2>Adok-veszek. Cserebere.</h2>
+            </div>
+            <button class="text-link" type="button" data-planned="hasznalt">
+              Részletek ↗
+            </button>
+          </div>
+          <div class="planned-panel">
+            <p><strong>Ez a rovat előkészítés alatt áll.</strong></p>
+            <p class="note">
+              Még nincs ellenőrzött hirdetés vagy ár. Kitalált ajánlatokat nem
+              jelenítünk meg.
+            </p>
+          </div>
+        </section>
       </main>
 
       <footer>
         <div class="footer-row">
           <a class="logo" href="#">KERÉKPÁR<span>INDEX</span></a>
-          <span>Márkák. Modellek. Helyek. Magyarázók.</span>
+          <span>Márkák. Emberek. Helyek. Útvonalak.</span>
         </div>
         <p>
           ORBIT Világ · Ellenőrzött tartalmi próbakör. Nincs élő ár- vagy
           készletadatbázis; a márkanevek tipográfiai megjelenítése nem jelez
-          partnerséget. A hatrovatos főoldalterv: Adok-veszek, túrák és
-          események későbbi, ellenőrzött tartalommal jelennek meg.
+          partnerséget. Az adok-veszek, túra- és eseményrovatok előkészítés
+          alatt állnak — kitalált tartalom nélkül.
         </p>
       </footer>
     </div>

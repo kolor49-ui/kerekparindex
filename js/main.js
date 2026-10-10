@@ -173,10 +173,52 @@
     }
   });
 
+  const PLANNED = {
+    hasznalt: {
+      title: "Adok-veszek",
+      body: "Ez a rovat előkészítés alatt áll. Még nincs ellenőrzött hirdetés vagy ár — kitalált ajánlatokat nem jelenítünk meg.",
+    },
+    tura: {
+      title: "Túrák és útvonalak",
+      body: "Ez a rovat előkészítés alatt áll. Még nincs ellenőrzött túra vagy útvonal — kitalált útvonalakat nem jelenítünk meg.",
+    },
+    esemeny: {
+      title: "Események",
+      body: "Ez a rovat előkészítés alatt áll. Még nincs ellenőrzött esemény — kitalált programokat nem jelenítünk meg.",
+    },
+    akcio: {
+      title: "Akciók",
+      body: "Ez a rovat előkészítés alatt áll. Még nincs ellenőrzött akció — kitalált árakat nem jelenítünk meg.",
+    },
+  };
+
   function brandById(id) {
     return content.brands.find(function (b) {
       return b.id === id;
     });
+  }
+
+  function brandByName(name) {
+    const key = String(name || "").toLocaleLowerCase("hu");
+    return content.brands.find(function (b) {
+      return (
+        b.name.toLocaleLowerCase("hu") === key ||
+        b.slug === key ||
+        b.id === "brand-" + key
+      );
+    });
+  }
+
+  function showPlanned(key, opener) {
+    const info = PLANNED[key];
+    if (!info) return;
+    show(
+      info.title,
+      "<p><strong>Ez a rovat előkészítés alatt áll.</strong></p><p>" +
+        esc(info.body) +
+        "</p>",
+      opener
+    );
   }
   function productById(id) {
     return content.products.find(function (p) {
@@ -615,23 +657,6 @@
     });
   }
 
-  function paintBrands() {
-    const list = document.getElementById("brand-list");
-    if (!list || !content) return;
-    list.innerHTML = "";
-    // Featured row: first 6 publishable brands for Compact-like strip
-    content.brands.slice(0, 6).forEach(function (b) {
-      const btn = document.createElement("button");
-      btn.className = "brand";
-      btn.type = "button";
-      btn.textContent = b.name;
-      btn.addEventListener("click", function () {
-        renderBrand(b, btn);
-      });
-      list.appendChild(btn);
-    });
-  }
-
   function paintStories() {
     const host = document.getElementById("stories");
     if (!host || !content) return;
@@ -761,6 +786,16 @@
 
   function runSearch(qRaw) {
     if (!content) return;
+    const msg = document.getElementById("search-message");
+
+    if (searchMode === "hasznalt" || searchMode === "tura" || searchMode === "esemeny") {
+      document.getElementById("results").hidden = true;
+      msg.hidden = false;
+      msg.textContent = "Ez a rovat előkészítés alatt áll.";
+      showPlanned(searchMode === "hasznalt" ? "hasznalt" : searchMode);
+      return;
+    }
+
     const q = norm(qRaw.trim());
     const hits = [];
     if (searchMode === "termek" || !searchMode) {
@@ -808,25 +843,11 @@
         }
       });
     }
-    if (searchMode === "cikk") {
-      content.explainers.concat(content.comparisons).forEach(function (a) {
-        if (!q || norm(a.title).includes(q)) {
-          hits.push({
-            type: a.type === "magyarazo" ? "Magyarázó" : "Összehasonlítás",
-            label: a.title,
-            sub: "Ellenőrzött tartalom",
-            open: function () {
-              renderArticle(a);
-            },
-          });
-        }
-      });
-    }
-    const msg = document.getElementById("search-message");
+
     if (!q && searchMode === "termek") {
       msg.hidden = true;
       showResultsPanel(
-        "Kerékpárok és márkák",
+        "Kerékpárok és felszerelések",
         hits.slice(0, 12),
         hits.length + " publikus rekord a próbakörből."
       );
@@ -835,7 +856,7 @@
     msg.hidden = false;
     if (!hits.length) {
       msg.textContent =
-        "Nincs egyezés. Próbáld: CUBE, Trek, Debrecen, szerviz, hatótáv.";
+        "Nincs egyezés. Próbáld: CUBE, Trek, Debrecen, szerviz.";
       document.getElementById("results").hidden = true;
       return;
     }
@@ -850,24 +871,32 @@
     return;
   }
 
-  paintBrands();
   paintStories();
+
+  document.querySelectorAll("[data-brand]").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      const b = brandByName(btn.dataset.brand);
+      if (b) renderBrand(b, btn);
+      else show(btn.dataset.brand, "<p>" + esc(NA) + "</p>", btn);
+    });
+  });
 
   document.getElementById("all-brands").addEventListener("click", function () {
     renderAllBrands(this);
   });
 
   document.querySelectorAll("[data-search]").forEach(function (b) {
-    if (b.hasAttribute("hidden")) return;
     b.addEventListener("click", function () {
       searchMode = b.dataset.search;
       document.querySelectorAll("[data-search]").forEach(function (x) {
         x.setAttribute("aria-pressed", String(x === b));
       });
       document.getElementById("query").placeholder = {
-        termek: "Márka, kerékpár, modell…",
-        hely: "Település, üzlet, szerviz…",
-        cikk: "Magyarázó vagy összehasonlítás…",
+        termek: "Márka, kerékpár, alkatrész…",
+        hasznalt: "Mit vennél vagy cserélnél?",
+        hely: "Település, üzlet, szerviz, kölcsönző…",
+        tura: "Ország, térség, útvonal…",
+        esemeny: "Esemény, helyszín…",
       }[searchMode];
     });
   });
@@ -891,6 +920,22 @@
       else if (key === "places") renderPlaces({}, el);
       else if (key === "explainers") renderExplainers(el);
       else if (key === "comparisons") renderComparisons(el);
+    });
+  });
+
+  document.querySelectorAll("[data-planned]").forEach(function (el) {
+    el.addEventListener("click", function (e) {
+      const key = el.getAttribute("data-planned");
+      if (!key || !PLANNED[key]) return;
+      if (el.tagName === "A") e.preventDefault();
+      // Allow in-page scroll for section anchors, then show status
+      if (el.getAttribute("href") && el.getAttribute("href").charAt(0) === "#") {
+        const target = document.querySelector(el.getAttribute("href"));
+        if (target) {
+          target.scrollIntoView({ behavior: scrollBehavior(), block: "start" });
+        }
+      }
+      showPlanned(key, el);
     });
   });
 
@@ -933,13 +978,4 @@
       menu.focus();
     }
   });
-
-  // Brand strip uses flex in reference CSS on .brands > .brand; ensure layout
-  const brandsSection = document.querySelector(".brands");
-  if (brandsSection) {
-    const style = document.createElement("style");
-    style.textContent =
-      ".brand-list{display:contents}.brands .brand-list .brand{font-size:inherit}";
-    document.head.appendChild(style);
-  }
 })();

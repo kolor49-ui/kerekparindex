@@ -1,0 +1,277 @@
+{
+  "pass": true,
+  "viewports": [
+    {
+      "viewport": "mobile",
+      "width": 390,
+      "issues": [],
+      "ref": {
+        "brands": [
+          "CUBE",
+          "TREK",
+          "GIANT",
+          "GEPIDA",
+          "SPECIALIZED",
+          "MERIDA"
+        ],
+        "chips": [
+          "Termékek",
+          "Használt",
+          "Helyek",
+          "Túrák",
+          "Események"
+        ],
+        "gateways": [
+          "Kerékpárok, felszerelések",
+          "Elektromos",
+          "Adok-veszek",
+          "Üzletek és szolgáltatások",
+          "Túrák és útvonalak",
+          "Események"
+        ],
+        "nav": [
+          "Kerékpárok és felszerelések",
+          "Elektromos",
+          "Adok-veszek",
+          "Üzletek és szolgáltatások",
+          "Túrák és útvonalak",
+          "Események",
+          "Akciók ↗"
+        ],
+        "intro": "Márkák, bringák, jó helyek és új utak. Magyarországon és a szomszédban.",
+        "demo": true,
+        "icons": [
+          {
+            "w": 25,
+            "h": 25
+          },
+          {
+            "w": 25,
+            "h": 25
+          },
+          {
+            "w": 25,
+            "h": 25
+          },
+          {
+            "w": 25,
+            "h": 25
+          },
+          {
+            "w": 25,
+            "h": 25
+          },
+          {
+            "w": 25,
+            "h": 25
+          }
+        ],
+        "nGateways": 6
+      },
+      "live": {
+        "brands": [
+          "CUBE",
+          "TREK",
+          "GIANT",
+          "GEPIDA",
+          "SPECIALIZED",
+          "MERIDA"
+        ],
+        "chips": [
+          "Termékek",
+          "Használt",
+          "Helyek",
+          "Túrák",
+          "Események"
+        ],
+        "gateways": [
+          "Kerékpárok, felszerelések",
+          "Elektromos",
+          "Adok-veszek",
+          "Üzletek és szolgáltatások",
+          "Túrák és útvonalak",
+          "Események"
+        ],
+        "nav": [
+          "Kerékpárok és felszerelések",
+          "Elektromos",
+          "Adok-veszek",
+          "Üzletek és szolgáltatások",
+          "Túrák és útvonalak",
+          "Események",
+          "Akciók ↗"
+        ],
+        "intro": "Márkák, bringák, jó helyek és új utak. Magyarországon és a szomszédban.",
+        "demo": false,
+        "icons": [
+          {
+            "w": 25,
+            "h": 25
+          },
+          {
+            "w": 25,
+            "h": 25
+          },
+          {
+            "w": 25,
+            "h": 25
+          },
+          {
+            "w": 25,
+            "h": 25
+          },
+          {
+            "w": 25,
+            "h": 25
+          },
+          {
+            "w": 25,
+            "h": 25
+          }
+        ],
+        "nGateways": 6
+      },
+      "refShot": "/Users/macbookair/Desktop/kerekparindex/screenshots/orbit-vilag-compare/ref-mobile.png",
+      "liveShot": "/Users/macbookair/Desktop/kerekparindex/screenshots/orbit-vilag-compare/live-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "width": 1440,
+      "issues": [],
+      "ref": {
+        "brands": [
+          "CUBE",
+          "TREK",
+          "GIANT",
+          "GEPIDA",
+          "SPECIALIZED",
+          "MERIDA"
+        ],
+        "chips": [
+          "Termékek",
+          "Használt",
+          "Helyek",
+          "Túrák",
+          "Események"
+        ],
+        "gateways": [
+          "Kerékpárok, felszerelések",
+          "Elektromos",
+          "Adok-veszek",
+          "Üzletek és szolgáltatások",
+          "Túrák és útvonalak",
+          "Események"
+        ],
+        "nav": [
+          "Kerékpárok és felszerelések",
+          "Elektromos",
+          "Adok-veszek",
+          "Üzletek és szolgáltatások",
+          "Túrák és útvonalak",
+          "Események",
+          "Akciók ↗"
+        ],
+        "intro": "Márkák, bringák, jó helyek és új utak. Magyarországon és a szomszédban.",
+        "demo": true,
+        "icons": [
+          {
+            "w": 23,
+            "h": 23
+          },
+          {
+            "w": 23,
+            "h": 23
+          },
+          {
+            "w": 23,
+            "h": 23
+          },
+          {
+            "w": 23,
+            "h": 23
+          },
+          {
+            "w": 23,
+            "h": 23
+          },
+          {
+            "w": 23,
+            "h": 23
+          }
+        ],
+        "nGateways": 6
+      },
+      "live": {
+        "brands": [
+          "CUBE",
+          "TREK",
+          "GIANT",
+          "GEPIDA",
+          "SPECIALIZED",
+          "MERIDA"
+        ],
+        "chips": [
+          "Termékek",
+          "Használt",
+          "Helyek",
+          "Túrák",
+          "Események"
+        ],
+        "gateways": [
+          "Kerékpárok, felszerelések",
+          "Elektromos",
+          "Adok-veszek",
+          "Üzletek és szolgáltatások",
+          "Túrák és útvonalak",
+          "Események"
+        ],
+        "nav": [
+          "Kerékpárok és felszerelések",
+          "Elektromos",
+          "Adok-veszek",
+          "Üzletek és szolgáltatások",
+          "Túrák és útvonalak",
+          "Események",
+          "Akciók ↗"
+        ],
+        "intro": "Márkák, bringák, jó helyek és új utak. Magyarországon és a szomszédban.",
+        "demo": false,
+        "icons": [
+          {
+            "w": 23,
+            "h": 23
+          },
+          {
+            "w": 23,
+            "h": 23
+          },
+          {
+            "w": 23,
+            "h": 23
+          },
+          {
+            "w": 23,
+            "h": 23
+          },
+          {
+            "w": 23,
+            "h": 23
+          },
+          {
+            "w": 23,
+            "h": 23
+          }
+        ],
+        "nGateways": 6
+      },
+      "refShot": "/Users/macbookair/Desktop/kerekparindex/screenshots/orbit-vilag-compare/ref-desktop.png",
+      "liveShot": "/Users/macbookair/Desktop/kerekparindex/screenshots/orbit-vilag-compare/live-desktop.png"
+    }
+  ],
+  "shots": [
+    "/Users/macbookair/Desktop/kerekparindex/screenshots/orbit-vilag-compare/ref-mobile.png",
+    "/Users/macbookair/Desktop/kerekparindex/screenshots/orbit-vilag-compare/live-mobile.png",
+    "/Users/macbookair/Desktop/kerekparindex/screenshots/orbit-vilag-compare/ref-desktop.png",
+    "/Users/macbookair/Desktop/kerekparindex/screenshots/orbit-vilag-compare/live-desktop.png"
+  ]
+}
