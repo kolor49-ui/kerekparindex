@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="hu">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="robots" content="noindex,nofollow" />
+    <title>KERÉKPÁRINDEX</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="head">
+        <a class="logo" href="#"><i></i>KERÉKPÁR<span>INDEX</span></a>
+        <div class="nav-scroll">
+          <nav aria-label="Fő navigáció">
+            <a href="#markak">Márkák</a>
+            <a href="#felfedezes">Minden, ami kerékpár</a>
+            <a href="#elektromos">Elektromos</a>
+            <a href="#helyek">Üzletek és szervizek</a>
+            <a class="nav-deal" href="#aktualis">Akciók ↗</a>
+            <button
+              class="search-icon"
+              type="button"
+              aria-label="Keresőhöz ugrás"
+            >
+              ⌕
+            </button>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="hero-content">
+            <div class="overline">
+              <span class="dot"></span>Az ország kerékpáros kínálata. Egy helyen.
+            </div>
+            <h1>
+              Minden, ami<br /><span>kerékpár.</span><br />Magyarországon.
+            </h1>
+            <p>
+              Márkák, kerékpárok, alkatrészek és felszerelések.<br />
+              Hazai üzletek, szervizek, újdonságok és akciók.
+            </p>
+            <a class="cta" href="#felfedezes">Fedezd fel a kínálatot <b>↗</b></a>
+            <div class="hero-bottom">
+              <span>MÁRKÁK</span><span> / </span><span>ÖSSZEHASONLÍTÁSOK</span
+              ><span> / </span><span>JÓ VÉTELEK</span>
+            </div>
+          </div>
+          <div class="hero-art">
+            <svg
+              viewBox="0 0 680 370"
+              role="img"
+              aria-label="Elektromos kerékpár illusztráció"
+            >
+              <ellipse
+                cx="338"
+                cy="329"
+                rx="245"
+                ry="13"
+                fill="#000"
+                opacity=".13"
+              />
+              <g fill="none" stroke="#202b31">
+                <circle cx="157" cy="238" r="91" stroke-width="13" />
+                <circle cx="520" cy="238" r="91" stroke-width="13" />
+                <circle
+                  cx="157"
+                  cy="238"
+                  r="81"
+                  stroke="#a6b1b3"
+                  stroke-width="2"
+                />
+                <circle
+                  cx="520"
+                  cy="238"
+                  r="81"
+                  stroke="#a6b1b3"
+                  stroke-width="2"
+                />
+              </g>
+              <g stroke="#809194" opacity=".4" stroke-width="1">
+                <path d="M66 238h182M157 147v182M93 174l128 128M93 302l128-128M429 238h182M520 147v182M456 174l128 128M456 302l128-128" />
+              </g>
+              <g
+                fill="none"
+                stroke="#ffab86"
+                stroke-linejoin="round"
+                stroke-linecap="round"
+              >
+                <path
+                  d="M157 238l110-119 54 126H157l301-127-137 127"
+                  stroke-width="13"
+                />
+                <path d="M267 119h191" stroke-width="16" />
+                <path d="M458 118l-137 127" stroke-width="26" />
+              </g>
+              <path
+                d="M520 238l-63-129-17-55h53"
+                stroke="#283439"
+                stroke-width="12"
+                fill="none"
+                stroke-linecap="round"
+              />
+              <path
+                d="M268 120l-13-37m-25 0h60"
+                stroke="#283439"
+                stroke-width="10"
+                stroke-linecap="round"
+              />
+              <circle cx="321" cy="245" r="20" fill="#283439" />
+              <circle cx="321" cy="245" r="9" fill="#8b999a" />
+              <path
+                d="M321 245l30 25h22"
+                stroke="#283439"
+                stroke-width="7"
+                fill="none"
+                stroke-linecap="round"
+              />
+              <path
+                d="M363 192l55-53"
+                stroke="#26363a"
+                stroke-width="16"
+                stroke-linecap="round"
+              />
+              <path
+                d="M157 238l164 7"
+                stroke="#626e71"
+                stroke-width="3"
+              />
+            </svg>
+          </div>
+          <div class="side-type">KERÉKPÁRINDEX / 2026</div>
+          <a class="float-label" href="#elektromos"
+            >KÖVETKEZŐ ÁLLOMÁS<b>Elektromos. Érthetően. ↗</b></a
+          >
+        </section>
+
+        <section class="brands" id="markak">
+          <div class="row-heading">
+            <span class="eyebrow">Ismerős márkák. Új lehetőségek.</span>
+            <button class="text-link" type="button" id="all-brands">
+              Márkák felfedezése ↗
+            </button>
+          </div>
+          <div class="brand-list">
+            <button class="brand" type="button" data-brand="CUBE">CUBE</button>
+            <button class="brand" type="button" data-brand="TREK">TREK</button>
+            <button class="brand" type="button" data-brand="GIANT">GIANT</button>
+            <button class="brand" type="button" data-brand="SPECIALIZED">
+              SPECIALIZED
+            </button>
+            <button class="brand" type="button" data-brand="MERIDA">
+              MERIDA
+            </button>
+            <button class="brand" type="button" data-brand="SCOTT">SCOTT</button>
+          </div>
+        </section>
+
+        <form class="search" id="search" role="search">
+          <span aria-hidden="true">⌕</span>
+          <input
+            type="search"
+            id="query"
+            aria-label="Márka vagy kategória keresése"
+            placeholder="Márka, kerékpár, alkatrész, szerviz…"
+          />
+          <button type="submit">Keresés ↗</button>
+        </form>
+        <p class="empty" id="search-message" role="status" hidden></p>
+
+        <section class="section" id="felfedezes">
+          <div class="eyebrow">Minden irány nyitva</div>
+          <h2>A teljes kerékpáros világ.</h2>
+          <div class="categories">
+            <button
+              class="category"
+              type="button"
+              data-category="Kerékpárok"
+            >
+              <span class="num">01 ↗</span>
+              <svg viewBox="0 0 46 46" aria-hidden="true">
+                <circle cx="10" cy="27" r="8" />
+                <circle cx="34" cy="27" r="8" />
+                <path
+                  d="M10 27l10-15 7 15H10l21-15 3 15M18 9h7m4-3h5l2 6"
+                />
+              </svg>
+              <strong>Kerékpárok</strong>
+              <small>Típusok és márkák</small>
+            </button>
+            <button
+              class="category"
+              type="button"
+              data-category="Elektromos"
+              data-scroll-to="elektromos"
+            >
+              <span class="num">02 ↗</span>
+              <svg viewBox="0 0 46 46" aria-hidden="true">
+                <path d="M25 3L12 23h12l-3 16 15-22H24z" />
+              </svg>
+              <strong>Elektromos</strong>
+              <small>Modellek és magyarázók</small>
+            </button>
+            <button
+              class="category"
+              type="button"
+              data-category="Alkatrészek"
+            >
+              <span class="num">03 ↗</span>
+              <svg viewBox="0 0 46 46" aria-hidden="true">
+                <circle cx="23" cy="22" r="11" />
+                <circle cx="23" cy="22" r="4" />
+                <path
+                  d="M23 5v6m0 22v6M6 22h6m22 0h6M11 10l4 4m16 16 4 4M11 34l4-4m16-16 4-4"
+                />
+              </svg>
+              <strong>Alkatrészek</strong>
+              <small>A hajtástól a fékig</small>
+            </button>
+            <button
+              class="category"
+              type="button"
+              data-category="Felszerelések"
+            >
+              <span class="num">04 ↗</span>
+              <svg viewBox="0 0 46 46" aria-hidden="true">
+                <path
+                  d="M6 25a17 17 0 0 1 34 0v4H6zm12-15-2 15m12-15 2 15M8 30l9 9h12l8-9"
+                />
+              </svg>
+              <strong>Felszerelések</strong>
+              <small>Minden az útra</small>
+            </button>
+            <button class="category" type="button" data-category="Üzletek">
+              <span class="num">05 ↗</span>
+              <svg viewBox="0 0 46 46" aria-hidden="true">
+                <path
+                  d="M6 18h34l-4-11H10zM9 18v20h28V18M17 38V25h12v13M5 18q4 8 9 0 5 8 10 0 5 8 10 0 5 8 8 0"
+                />
+              </svg>
+              <strong>Üzletek</strong>
+              <small>Vásárlás és kipróbálás</small>
+            </button>
+            <button class="category" type="button" data-category="Szervizek">
+              <span class="num">06 ↗</span>
+              <svg viewBox="0 0 46 46" aria-hidden="true">
+                <path
+                  d="M30 6a10 10 0 0 0-12 13L5 32l7 7 13-14A10 10 0 0 0 38 13l-8 6-5-5z"
+                />
+              </svg>
+              <strong>Szervizek</strong>
+              <small>Karbantartás és javítás</small>
+            </button>
+          </div>
+        </section>
+
+        <section class="electric" id="elektromos">
+          <div>
+            <div class="overline">E-bike / külön világ, érthetően</div>
+            <h2>Értsd a technikát.<br /><span>Érezd a különbséget.</span></h2>
+            <p>
+              Miért számít a motor, az akkumulátor vagy a tömeg? Válassz egy
+              paramétert, és nézd meg, mit jelent a gyakorlatban.
+            </p>
+            <div class="chips">
+              <button type="button" data-editorial="E-bike-bemutatók">
+                Bemutatók ↗
+              </button>
+              <button type="button" data-editorial="E-bike-összehasonlítások">
+                Összehasonlítások ↗
+              </button>
+              <button type="button" data-editorial="Elektromoskerékpár-akciók">
+                Akciók ↗
+              </button>
+            </div>
+          </div>
+          <div>
+            <div
+              class="metric-tabs"
+              role="tablist"
+              aria-label="E-bike paraméterek"
+            >
+              <button
+                class="active"
+                type="button"
+                role="tab"
+                id="metric-tab-wh"
+                aria-selected="true"
+                aria-controls="explanation"
+                tabindex="0"
+                data-metric="wh"
+              >
+                <b>Wh</b><span>AKKUMULÁTOR</span>
+              </button>
+              <button
+                type="button"
+                role="tab"
+                id="metric-tab-nm"
+                aria-selected="false"
+                aria-controls="explanation"
+                tabindex="-1"
+                data-metric="nm"
+              >
+                <b>Nm</b><span>NYOMATÉK</span>
+              </button>
+              <button
+                type="button"
+                role="tab"
+                id="metric-tab-km"
+                aria-selected="false"
+                aria-controls="explanation"
+                tabindex="-1"
+                data-metric="km"
+              >
+                <b>km</b><span>HATÓTÁV</span>
+              </button>
+            </div>
+            <div
+              class="explanation"
+              id="explanation"
+              role="tabpanel"
+              aria-labelledby="metric-tab-wh"
+              tabindex="0"
+              aria-live="polite"
+            >
+              <strong>Az energia, amit magaddal viszel.</strong>A wattóra az
+              akkumulátorban tárolható energia mennyiségét jelzi. Több Wh nagyobb
+              energiatartalékot jelent; a hatótávhoz a terepet, a terhelést és a
+              rásegítés mértékét is nézni kell.
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="aktualis">
+          <div class="row-heading">
+            <div>
+              <div class="eyebrow">Amit érdemes követned</div>
+              <h2>Mozgásban a kerékpáros világ.</h2>
+            </div>
+          </div>
+          <div class="editorial">
+            <button
+              class="story accent"
+              type="button"
+              data-editorial="Akciók és jó vételek"
+            >
+              <span class="eyebrow">Akciófigyelő</span>
+              <h3>Hol találsz<br />most jó vételt?</h3>
+              <span class="arrow">↗</span>
+            </button>
+            <button
+              class="story"
+              type="button"
+              data-editorial="Újdonságok és bemutatók"
+            >
+              <span class="eyebrow">Újdonságok / bemutatók</span>
+              <h3>Új modellek.<br />Új lehetőségek.</h3>
+              <span class="arrow">↗</span>
+            </button>
+            <button
+              class="story"
+              type="button"
+              data-editorial="Ár–érték összehasonlítások"
+            >
+              <span class="eyebrow">Ár–érték / összehasonlítás</span>
+              <h3>Mit kapsz<br />a pénzedért?</h3>
+              <span class="arrow">↗</span>
+            </button>
+          </div>
+        </section>
+
+        <section class="service" id="helyek">
+          <div>
+            <div class="eyebrow">Országosan. Helyben.</div>
+            <h2>Megnéznéd? Kipróbálnád? Javíttatnád?</h2>
+            <p>
+              Keresd meg a megfelelő kerékpárüzletet vagy szervizt a közeledben.
+            </p>
+          </div>
+          <button class="cta" type="button" id="local">
+            Üzletek és szervizek <b>↗</b>
+          </button>
+        </section>
+      </main>
+
+      <footer>
+        <a class="logo" href="#">KERÉKPÁR<span>INDEX</span></a>
+        <p>
+          Helyi prototípus · minta tartalmi útvonalakkal.<br />
+          A márkanevek tipográfiai helyőrzők, nem hivatalos logók; szerepeltetésük
+          nem jelez partnerséget. A kerékpár illusztráció. Élő ajánlat- és
+          üzletadatbázis még nincs.
+        </p>
+      </footer>
+    </div>
+
+    <dialog id="dialog" aria-labelledby="dialog-title">
+      <button class="close" type="button" aria-label="Bezárás">×</button>
+      <h2 id="dialog-title"></h2>
+      <div id="dialog-content"></div>
+      <button class="cta" type="button" id="dialog-ok">
+        Vissza a felfedezéshez ↗
+      </button>
+    </dialog>
+
+    <script src="data/sample.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

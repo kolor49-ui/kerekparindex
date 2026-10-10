@@ -1,0 +1,58 @@
+{
+  "project": "KERÉKPÁRINDEX",
+  "version": "handoff-v1",
+  "date": "2026-10-09",
+  "baseline": "C / ORBIT",
+  "files": [
+    {
+      "path": "CURSOR-START.md",
+      "bytes": 1748,
+      "sha256": "3ebb1dd7a324b2f9dd6a38fa0074709a07a5bd01974d0c2663f40dddd27377af"
+    },
+    {
+      "path": "PROJECT-DECISIONS.md",
+      "bytes": 2238,
+      "sha256": "f437a392f7ba9d79e7446cc4fd619c1082a94f22ff31dc6b3d99160cacff541f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2169,
+      "sha256": "602f7aab2dc5e7013eb2b95a77cf90a0863f1aee23c1933948ca3804e3ae32b6"
+    },
+    {
+      "path": "docs/01-PROJECT-BRIEF.md",
+      "bytes": 1685,
+      "sha256": "f98e4fdb5a0dc58bba69f18a8a8f8971e53e9b6a6f6ca07f48593e703e09f925"
+    },
+    {
+      "path": "docs/02-SITE-AND-CONTENT.md",
+      "bytes": 2919,
+      "sha256": "8e14ea5c9857be25d98caa7c9ff1f40c19154bfa3dcb8c438639628ea3a3db84"
+    },
+    {
+      "path": "docs/03-DESIGN-BASELINE.md",
+      "bytes": 2703,
+      "sha256": "1853dfdd5bdfd50c9b331b74fd24fa3e2fde3d511b07ed453132d9589db2a4b0"
+    },
+    {
+      "path": "docs/04-DATA-AND-EDITORIAL.md",
+      "bytes": 2959,
+      "sha256": "69a30ebd26186b34dbbcbb415a377df21d02d52a63d78410ca65e029872dd3dc"
+    },
+    {
+      "path": "docs/05-FIRST-IMPLEMENTATION.md",
+      "bytes": 4272,
+      "sha256": "bf2e64c5fbaad659b479ba6027df20828468642af4dae6e0730e4190f6628000"
+    },
+    {
+      "path": "reference/kerekparindex-v2-c.html",
+      "bytes": 26156,
+      "sha256": "5941f5d806f924e9020f2187f7f09422a2a9ca5ca359fdc8de82ca472930edfa"
+    },
+    {
+      "path": "reference/orbit-elfogadott-desktop.png",
+      "bytes": 610232,
+      "sha256": "57b55c7b9e8debad88bfe4c2cf92687610da37a5afe8d5c9c8e9dc6d55330976"
+    }
+  ]
+}

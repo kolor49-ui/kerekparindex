@@ -1,0 +1,538 @@
+{
+  "date": "2026-10-09",
+  "baseUrl": "http://127.0.0.1:8765/",
+  "mobile": {
+    "320": {
+      "ok": true,
+      "h1": {
+        "ok": true,
+        "textContent": "Minden, amikerékpár.Magyarországon.",
+        "includesFullWord": true,
+        "hero": {
+          "left": 18,
+          "right": 302,
+          "width": 284
+        },
+        "h1": {
+          "left": 41,
+          "right": 279,
+          "width": 238,
+          "fontSize": "24px",
+          "letterSpacing": "-0.9px"
+        },
+        "word": {
+          "left": 41,
+          "right": 224.890625,
+          "width": 183.890625,
+          "rectCount": 1
+        },
+        "lastChar": {
+          "left": 219.109375,
+          "right": 224.890625,
+          "width": 5.78125,
+          "height": 27
+        },
+        "lastCharIsPeriod": true,
+        "limit": 300,
+        "assertions": {
+          "includesFullWord": true,
+          "wordRightWithinLimit": true,
+          "periodRightWithinLimit": true,
+          "noPageHorizontalOverflow": true,
+          "scrollWidth": 320,
+          "clientWidth": 320
+        }
+      },
+      "nav": {
+        "ok": true,
+        "linkCount": 5,
+        "links": [
+          "Márkák",
+          "Minden, ami kerékpár",
+          "Elektromos",
+          "Üzletek és szervizek",
+          "Akciók ↗"
+        ],
+        "navScrollWidth": 450,
+        "navClientWidth": 284,
+        "scrollable": true,
+        "hasNavScroll": true,
+        "isScrollableClass": true,
+        "isEndClass": false,
+        "fadeContent": "\"\"",
+        "fadeWidth": 36,
+        "fadeBackground": "linear-gradient(to right, rgba(0, 0, 0, 0), rgb(25, 19, 32) 72%)",
+        "hasFade": true
+      },
+      "metrics": {
+        "ok": true,
+        "baseline": {
+          "hasTablist": true,
+          "tabCount": 3,
+          "hasTabpanel": true,
+          "rolesOk": true,
+          "noAriaPressed": true,
+          "selected": [
+            {
+              "metric": "wh",
+              "selected": "true"
+            },
+            {
+              "metric": "nm",
+              "selected": "false"
+            },
+            {
+              "metric": "km",
+              "selected": "false"
+            }
+          ]
+        },
+        "afterArrow": {
+          "selected": [
+            {
+              "metric": "wh",
+              "selected": "false",
+              "active": false
+            },
+            {
+              "metric": "nm",
+              "selected": "true",
+              "active": true
+            },
+            {
+              "metric": "km",
+              "selected": "false",
+              "active": false
+            }
+          ],
+          "explanation": "A rásegítés egyik fontos jellemzője.A newtonméter a motor forgatónyomatékának mértékegysége. Emelkedőn vagy nagyobb terhelésnél különösen érdekes, de a menetérzetet a vezérlés és az áttétel is alakítja."
+        }
+      }
+    },
+    "360": {
+      "ok": true,
+      "h1": {
+        "ok": true,
+        "textContent": "Minden, amikerékpár.Magyarországon.",
+        "includesFullWord": true,
+        "hero": {
+          "left": 18,
+          "right": 342,
+          "width": 324
+        },
+        "h1": {
+          "left": 41,
+          "right": 319,
+          "width": 278,
+          "fontSize": "24.48px",
+          "letterSpacing": "-0.9px"
+        },
+        "word": {
+          "left": 41,
+          "right": 228.828125,
+          "width": 187.828125,
+          "rectCount": 1
+        },
+        "lastChar": {
+          "left": 222.921875,
+          "right": 228.828125,
+          "width": 5.90625,
+          "height": 27
+        },
+        "lastCharIsPeriod": true,
+        "limit": 340,
+        "assertions": {
+          "includesFullWord": true,
+          "wordRightWithinLimit": true,
+          "periodRightWithinLimit": true,
+          "noPageHorizontalOverflow": true,
+          "scrollWidth": 360,
+          "clientWidth": 360
+        }
+      },
+      "nav": {
+        "ok": true,
+        "linkCount": 5,
+        "links": [
+          "Márkák",
+          "Minden, ami kerékpár",
+          "Elektromos",
+          "Üzletek és szervizek",
+          "Akciók ↗"
+        ],
+        "navScrollWidth": 450,
+        "navClientWidth": 324,
+        "scrollable": true,
+        "hasNavScroll": true,
+        "isScrollableClass": true,
+        "isEndClass": false,
+        "fadeContent": "\"\"",
+        "fadeWidth": 36,
+        "fadeBackground": "linear-gradient(to right, rgba(0, 0, 0, 0), rgb(25, 19, 32) 72%)",
+        "hasFade": true
+      },
+      "metrics": {
+        "ok": true,
+        "baseline": {
+          "hasTablist": true,
+          "tabCount": 3,
+          "hasTabpanel": true,
+          "rolesOk": true,
+          "noAriaPressed": true,
+          "selected": [
+            {
+              "metric": "wh",
+              "selected": "true"
+            },
+            {
+              "metric": "nm",
+              "selected": "false"
+            },
+            {
+              "metric": "km",
+              "selected": "false"
+            }
+          ]
+        },
+        "afterArrow": {
+          "selected": [
+            {
+              "metric": "wh",
+              "selected": "false",
+              "active": false
+            },
+            {
+              "metric": "nm",
+              "selected": "true",
+              "active": true
+            },
+            {
+              "metric": "km",
+              "selected": "false",
+              "active": false
+            }
+          ],
+          "explanation": "A rásegítés egyik fontos jellemzője.A newtonméter a motor forgatónyomatékának mértékegysége. Emelkedőn vagy nagyobb terhelésnél különösen érdekes, de a menetérzetet a vezérlés és az áttétel is alakítja."
+        }
+      }
+    },
+    "375": {
+      "ok": true,
+      "h1": {
+        "ok": true,
+        "textContent": "Minden, amikerékpár.Magyarországon.",
+        "includesFullWord": true,
+        "hero": {
+          "left": 18,
+          "right": 357,
+          "width": 339
+        },
+        "h1": {
+          "left": 41,
+          "right": 334,
+          "width": 293,
+          "fontSize": "25.5px",
+          "letterSpacing": "-0.9px"
+        },
+        "word": {
+          "left": 41,
+          "right": 237.21875,
+          "width": 196.21875,
+          "rectCount": 1
+        },
+        "lastChar": {
+          "left": 231.015625,
+          "right": 237.21875,
+          "width": 6.203125,
+          "height": 28
+        },
+        "lastCharIsPeriod": true,
+        "limit": 355,
+        "assertions": {
+          "includesFullWord": true,
+          "wordRightWithinLimit": true,
+          "periodRightWithinLimit": true,
+          "noPageHorizontalOverflow": true,
+          "scrollWidth": 375,
+          "clientWidth": 375
+        }
+      },
+      "nav": {
+        "ok": true,
+        "linkCount": 5,
+        "links": [
+          "Márkák",
+          "Minden, ami kerékpár",
+          "Elektromos",
+          "Üzletek és szervizek",
+          "Akciók ↗"
+        ],
+        "navScrollWidth": 450,
+        "navClientWidth": 339,
+        "scrollable": true,
+        "hasNavScroll": true,
+        "isScrollableClass": true,
+        "isEndClass": false,
+        "fadeContent": "\"\"",
+        "fadeWidth": 36,
+        "fadeBackground": "linear-gradient(to right, rgba(0, 0, 0, 0), rgb(25, 19, 32) 72%)",
+        "hasFade": true
+      },
+      "metrics": {
+        "ok": true,
+        "baseline": {
+          "hasTablist": true,
+          "tabCount": 3,
+          "hasTabpanel": true,
+          "rolesOk": true,
+          "noAriaPressed": true,
+          "selected": [
+            {
+              "metric": "wh",
+              "selected": "true"
+            },
+            {
+              "metric": "nm",
+              "selected": "false"
+            },
+            {
+              "metric": "km",
+              "selected": "false"
+            }
+          ]
+        },
+        "afterArrow": {
+          "selected": [
+            {
+              "metric": "wh",
+              "selected": "false",
+              "active": false
+            },
+            {
+              "metric": "nm",
+              "selected": "true",
+              "active": true
+            },
+            {
+              "metric": "km",
+              "selected": "false",
+              "active": false
+            }
+          ],
+          "explanation": "A rásegítés egyik fontos jellemzője.A newtonméter a motor forgatónyomatékának mértékegysége. Emelkedőn vagy nagyobb terhelésnél különösen érdekes, de a menetérzetet a vezérlés és az áttétel is alakítja."
+        }
+      }
+    },
+    "390": {
+      "ok": true,
+      "h1": {
+        "ok": true,
+        "textContent": "Minden, amikerékpár.Magyarországon.",
+        "includesFullWord": true,
+        "hero": {
+          "left": 18,
+          "right": 372,
+          "width": 354
+        },
+        "h1": {
+          "left": 41,
+          "right": 349,
+          "width": 308,
+          "fontSize": "26.52px",
+          "letterSpacing": "-0.9px"
+        },
+        "word": {
+          "left": 41,
+          "right": 245.609375,
+          "width": 204.609375,
+          "rectCount": 1
+        },
+        "lastChar": {
+          "left": 239.125,
+          "right": 245.609375,
+          "width": 6.484375,
+          "height": 30
+        },
+        "lastCharIsPeriod": true,
+        "limit": 370,
+        "assertions": {
+          "includesFullWord": true,
+          "wordRightWithinLimit": true,
+          "periodRightWithinLimit": true,
+          "noPageHorizontalOverflow": true,
+          "scrollWidth": 390,
+          "clientWidth": 390
+        }
+      },
+      "nav": {
+        "ok": true,
+        "linkCount": 5,
+        "links": [
+          "Márkák",
+          "Minden, ami kerékpár",
+          "Elektromos",
+          "Üzletek és szervizek",
+          "Akciók ↗"
+        ],
+        "navScrollWidth": 450,
+        "navClientWidth": 354,
+        "scrollable": true,
+        "hasNavScroll": true,
+        "isScrollableClass": true,
+        "isEndClass": false,
+        "fadeContent": "\"\"",
+        "fadeWidth": 36,
+        "fadeBackground": "linear-gradient(to right, rgba(0, 0, 0, 0), rgb(25, 19, 32) 72%)",
+        "hasFade": true
+      },
+      "metrics": {
+        "ok": true,
+        "baseline": {
+          "hasTablist": true,
+          "tabCount": 3,
+          "hasTabpanel": true,
+          "rolesOk": true,
+          "noAriaPressed": true,
+          "selected": [
+            {
+              "metric": "wh",
+              "selected": "true"
+            },
+            {
+              "metric": "nm",
+              "selected": "false"
+            },
+            {
+              "metric": "km",
+              "selected": "false"
+            }
+          ]
+        },
+        "afterArrow": {
+          "selected": [
+            {
+              "metric": "wh",
+              "selected": "false",
+              "active": false
+            },
+            {
+              "metric": "nm",
+              "selected": "true",
+              "active": true
+            },
+            {
+              "metric": "km",
+              "selected": "false",
+              "active": false
+            }
+          ],
+          "explanation": "A rásegítés egyik fontos jellemzője.A newtonméter a motor forgatónyomatékának mértékegysége. Emelkedőn vagy nagyobb terhelésnél különösen érdekes, de a menetérzetet a vezérlés és az áttétel is alakítja."
+        }
+      }
+    }
+  },
+  "searchAndDialog": {
+    "ok": true,
+    "searchMsg": "1 márka vagy kategória a helyi mintában.",
+    "visibleCats": [
+      "Elektromos"
+    ],
+    "afterClearHidden": 0,
+    "dialogOpen": true,
+    "focusAfter": "CUBE"
+  },
+  "desktop": {
+    "h1FontSize": {
+      "fontSizePx": 82.08,
+      "pass": true
+    }
+  },
+  "pass": true,
+  "summary": {
+    "h1Geometry": {
+      "320": {
+        "pass": true,
+        "h1FontSize": "24px",
+        "letterSpacing": "-0.9px",
+        "wordRight": 224.890625,
+        "lastCharRight": 224.890625,
+        "limit": 300,
+        "heroRight": 302,
+        "includesFullWord": true
+      },
+      "360": {
+        "pass": true,
+        "h1FontSize": "24.48px",
+        "letterSpacing": "-0.9px",
+        "wordRight": 228.828125,
+        "lastCharRight": 228.828125,
+        "limit": 340,
+        "heroRight": 342,
+        "includesFullWord": true
+      },
+      "375": {
+        "pass": true,
+        "h1FontSize": "25.5px",
+        "letterSpacing": "-0.9px",
+        "wordRight": 237.21875,
+        "lastCharRight": 237.21875,
+        "limit": 355,
+        "heroRight": 357,
+        "includesFullWord": true
+      },
+      "390": {
+        "pass": true,
+        "h1FontSize": "26.52px",
+        "letterSpacing": "-0.9px",
+        "wordRight": 245.609375,
+        "lastCharRight": 245.609375,
+        "limit": 370,
+        "heroRight": 372,
+        "includesFullWord": true
+      }
+    },
+    "nav": {
+      "320": {
+        "pass": true,
+        "hasFade": true,
+        "fadeWidth": 36
+      },
+      "360": {
+        "pass": true,
+        "hasFade": true,
+        "fadeWidth": 36
+      },
+      "375": {
+        "pass": true,
+        "hasFade": true,
+        "fadeWidth": 36
+      },
+      "390": {
+        "pass": true,
+        "hasFade": true,
+        "fadeWidth": 36
+      }
+    },
+    "metricsTabs": {
+      "320": {
+        "pass": true
+      },
+      "360": {
+        "pass": true
+      },
+      "375": {
+        "pass": true
+      },
+      "390": {
+        "pass": true
+      }
+    },
+    "searchAndDialog": {
+      "pass": true
+    },
+    "desktopH1FontSize": {
+      "pass": true,
+      "fontSizePx": 82.08
+    }
+  }
+}
