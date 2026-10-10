@@ -1,0 +1,180 @@
+{
+  "batchId": "batch-pest-pass1-b-2026-10-10",
+  "accessedAt": "2026-10-10",
+  "notes": "Pest első kör B adag — igazolt saját oldal / BikeFun.",
+  "items": [
+    {
+      "idSlug": "bringa-doki-albertirsa",
+      "name": "Bringa Doki Kerékpár szaküzlet és szerviz",
+      "city": "Albertirsa",
+      "addressRaw": "2730 Albertirsa, Vasút út 3.",
+      "website": "https://bringadoki.wixsite.com/kerekpar",
+      "phone": ["+36 53 342 266", "+36 20 451 9041"],
+      "email": [],
+      "openingHours": "K–P 8:00–12:00 és 14:00–17:00, Szo 8:00–12:00, H zárva",
+      "roles": ["eladas", "szerviz"],
+      "roleEvidence": {
+        "eladas": {"url": "https://bringadoki.wixsite.com/kerekpar", "pageTitle": "Új és használt kerékpárok"},
+        "szerviz": {"url": "https://bringadoki.wixsite.com/kerekpar", "pageTitle": "Kerékpár szaküzlet és szerviz"}
+      },
+      "brandClaims": [],
+      "evidence": {"url": "https://bringadoki.wixsite.com/kerekpar", "pageTitle": "Bringa Doki Albertirsa"},
+      "notes": null,
+      "heldBack": false
+    },
+    {
+      "idSlug": "tomi-kerekpar-alsonemedi",
+      "name": "Tomi Kerékpár",
+      "city": "Alsónémedi",
+      "addressRaw": "2351 Alsónémedi, Deák Ferenc utca 26.",
+      "website": "https://tomikerekpar.hu/",
+      "phone": ["+36 20 454 5783"],
+      "email": ["info@tomikerekpar.hu"],
+      "openingHours": "H–P 9:00–17:00, Szo 9:00–12:00",
+      "roles": ["eladas", "szerviz"],
+      "roleEvidence": {
+        "eladas": {"url": "https://tomikerekpar.hu/", "pageTitle": "Új Csepel és Kellys kerékpárok"},
+        "szerviz": {"url": "https://tomikerekpar.hu/", "pageTitle": "Teljes körű szerviz"}
+      },
+      "brandClaims": [],
+      "evidence": {"url": "https://tomikerekpar.hu/", "pageTitle": "Tomi Kerékpár – Alsónémedi"},
+      "notes": null,
+      "heldBack": false
+    },
+    {
+      "idSlug": "bellingo-bike-tokol",
+      "name": "Bellingo Bike Elektromos Kerékpár Szaküzlet",
+      "city": "Tököl",
+      "addressRaw": "2316 Tököl, Fő út 87.",
+      "website": "https://bellingobike.hu/kapcsolat/",
+      "phone": ["+36 70 701 8435"],
+      "email": ["info@bellingobike.hu"],
+      "openingHours": "H–P 9:00–18:00, Szo 9:00–14:00",
+      "roles": ["eladas", "szerviz"],
+      "roleEvidence": {
+        "eladas": {"url": "https://bellingobike.hu/kapcsolat/", "pageTitle": "Elektromos Kerékpár Szaküzlet Tököl"},
+        "szerviz": {"url": "https://bellingobike.hu/kapcsolat/", "pageTitle": "márkafüggetlen szervizünk"}
+      },
+      "brandClaims": [],
+      "evidence": {"url": "https://bellingobike.hu/kapcsolat/", "pageTitle": "Kapcsolat – Bellingo Bike"},
+      "notes": null,
+      "heldBack": false
+    },
+    {
+      "idSlug": "kerekpar-centrum-rideaway-pilisvorosvar",
+      "name": "Kerékpár Centrum - RideAway",
+      "city": "Pilisvörösvár",
+      "addressRaw": "2085 Pilisvörösvár, Fő u. 50.",
+      "website": "https://bikefun.hu/shops/kerekpar-centrum-rideaway",
+      "phone": ["+36 26 332 350"],
+      "email": ["kerekparcentrum@freemail.hu"],
+      "openingHours": "K 9–17, Sze 7–14, Cs 9–17, P 10–17, Szo 9–12, H–V zárva",
+      "roles": ["eladas"],
+      "roleEvidence": {
+        "eladas": {"url": "https://bikefun.hu/shops/kerekpar-centrum-rideaway", "pageTitle": "Merida dealer — Kerékpár Centrum RideAway"}
+      },
+      "brandClaims": [
+        {"brand": "Merida", "relation": "dealer", "sourceUrl": "https://bikefun.hu/shops/kerekpar-centrum-rideaway", "quote": "Merida dealer"}
+      ],
+      "evidence": {"url": "https://bikefun.hu/shops/kerekpar-centrum-rideaway", "pageTitle": "Kerékpár Centrum - RideAway - BikeFun"},
+      "notes": "Szerviz a BikeFun oldalon nincs külön igazolva.",
+      "heldBack": false
+    },
+    {
+      "idSlug": "tarnoki-kerekparmuhely",
+      "name": "Tárnoki Kerékpárműhely",
+      "city": "Tárnok",
+      "addressRaw": "2461 Tárnok, Rákóczi út 46/C.",
+      "website": "https://tarnokbike.hu/index.html",
+      "phone": ["+36 30 198 2662"],
+      "email": ["kerekparbolt.tarnok@gmail.com"],
+      "openingHours": null,
+      "roles": ["eladas", "szerviz", "kolcsonzes"],
+      "roleEvidence": {
+        "eladas": {"url": "https://tarnokbike.hu/index.html", "pageTitle": "boltként és szervizként is üzemel"},
+        "szerviz": {"url": "https://tarnokbike.hu/index.html", "pageTitle": "Tárnoki Kerékpárműhely"},
+        "kolcsonzes": {"url": "https://tarnokbike.hu/index.html", "pageTitle": "Kerékpárok / Bikes-to-rent"}
+      },
+      "brandClaims": [],
+      "evidence": {"url": "https://tarnokbike.hu/index.html", "pageTitle": "Tárnoki Kerékpárműhely"},
+      "notes": "Pázmánd / Budapest / Badacsony testvérhelyek más vármegyék — nem ebben a batchben.",
+      "heldBack": false
+    },
+    {
+      "idSlug": "tekero-kerekpar-szerviz-zsambek",
+      "name": "Tekerő kerékpár szerviz",
+      "city": "Zsámbék",
+      "addressRaw": "2072 Zsámbék, Petőfi Sándor u. – Honvéd u. sarok",
+      "website": "https://tekero.hu/",
+      "phone": ["+36 30 565 9451"],
+      "email": ["tekero.kerekpar@gmail.com"],
+      "openingHours": "Sze 8–13 és 15–18, P 15–18, Szo 8–13",
+      "roles": ["szerviz", "e-bike-szerviz"],
+      "roleEvidence": {
+        "szerviz": {"url": "https://tekero.hu/", "pageTitle": "Tekerő kerékpár szerviz — munkadíjak"},
+        "e-bike-szerviz": {"url": "https://tekero.hu/", "pageTitle": "Bosch ebike rendszer kiolvasás; Bosch/Shimano/Bafang"}
+      },
+      "brandClaims": [],
+      "evidence": {"url": "https://tekero.hu/", "pageTitle": "Tekerő kerékpár szerviz Zsámbék"},
+      "notes": "Új kerékpár csak rendelésre — eladás nem publikálva. Bosch e-bike diagnosztika igazolt.",
+      "heldBack": false
+    },
+    {
+      "idSlug": "bringacsalad-gyal",
+      "name": "Bringacsalád Kerékpár szaküzlet és szerviz",
+      "city": "Gyál",
+      "addressRaw": "2360 Gyál, Árpád utca 39.",
+      "website": "https://bringacsalad.webnode.hu/",
+      "phone": ["+36 30 256 7582"],
+      "email": [],
+      "openingHours": null,
+      "roles": ["eladas", "szerviz"],
+      "roleEvidence": {
+        "eladas": {"url": "https://bringacsalad.webnode.hu/", "pageTitle": "Új és használt kerékpárok adás-vétele"},
+        "szerviz": {"url": "https://bringacsalad.webnode.hu/", "pageTitle": "Kerékpárszerviz minden kategóriában"}
+      },
+      "brandClaims": [],
+      "evidence": {"url": "https://bringacsalad.webnode.hu/", "pageTitle": "Bringacsalád Gyál"},
+      "notes": null,
+      "heldBack": false
+    },
+    {
+      "idSlug": "marius-bike-halasztelek",
+      "name": "Marius Bike",
+      "city": "Halásztelek",
+      "addressRaw": "2314 Halásztelek, Csatár György utca 26/a.",
+      "website": "https://mariusbikes.hu/",
+      "phone": ["+36 20 323 4562"],
+      "email": ["info@mariuszawihegesztes.hu"],
+      "openingHours": null,
+      "roles": ["eladas", "szerviz"],
+      "roleEvidence": {
+        "eladas": {"url": "https://mariusbikes.hu/", "pageTitle": "Egyedi kerékpár vázak / komplett kivitelezés"},
+        "szerviz": {"url": "https://mariusbikes.hu/", "pageTitle": "Komplett szervíz"}
+      },
+      "brandClaims": [],
+      "evidence": {"url": "https://mariusbikes.hu/", "pageTitle": "Marius Bike Halásztelek"},
+      "notes": "Manufaktúra + szerviz; telefon a lapon +36-20-32-34-56-2 formában.",
+      "heldBack": false
+    },
+    {
+      "idSlug": "bicibolt-monor",
+      "name": "Bicibolt",
+      "city": "Monor",
+      "addressRaw": "2200 Monor, Piac tér 28. (Bocskai utca)",
+      "website": "https://bicibolt.hu/kapcsolat/",
+      "phone": ["+36 30 372 9864"],
+      "email": ["ugyfelszolgalat@bicibolt.hu"],
+      "openingHours": "Munkanapokon 15:00–16:00 (csomagátvétel / ügyfélszolgálat)",
+      "roles": ["eladas"],
+      "roleEvidence": {
+        "eladas": {"url": "https://bicibolt.hu/gyakran-ismetelt-kerdesek-gyik/", "pageTitle": "Telephely: 2200 Monor, (Bocskai utca) Piac tér 28."}
+      },
+      "brandClaims": [],
+      "evidence": {"url": "https://bicibolt.hu/kapcsolat/", "pageTitle": "Kapcsolat - Bicibolt"},
+      "notes": "Webáruház + monori átvételi/üzleti pont. Szerviz a saját oldalon nincs külön szolgáltatásként igazolva — nem publikálva.",
+      "heldBack": false
+    }
+  ],
+  "heldBack": []
+}

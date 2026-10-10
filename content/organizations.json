@@ -1190,6 +1190,188 @@
       "legalName": null,
       "website": "https://bikefun.hu/shops/vellai-kerekpar",
       "notes": null
+    },
+    {
+      "id": "org-javi-kerekparbolt-maglod",
+      "name": "Javi Kerékpárbolt és Szerviz",
+      "legalName": null,
+      "website": "https://javikerekparbolt.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-ks-kerekpar-kistarcsa",
+      "name": "KS Kerékpár",
+      "legalName": null,
+      "website": "https://kskerekpar.hu/magunkrol/",
+      "notes": null
+    },
+    {
+      "id": "org-diosdi-kerekparcentrum",
+      "name": "Diósdi Kerékpárcentrum",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/diosdi-kerekparcentrum",
+      "notes": null
+    },
+    {
+      "id": "org-patyi-kerekparbolt",
+      "name": "Pátyi Kerékpárbolt",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/patyi-kerekparbolt",
+      "notes": null
+    },
+    {
+      "id": "org-bicajos-bolt-fot",
+      "name": "Bicajos bolt Kerékpárüzlet és szerviz",
+      "legalName": null,
+      "website": "http://www.bicajosbolt.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-bringa-doki-albertirsa",
+      "name": "Bringa Doki Kerékpár szaküzlet és szerviz",
+      "legalName": null,
+      "website": "https://bringadoki.wixsite.com/kerekpar",
+      "notes": null
+    },
+    {
+      "id": "org-tomi-kerekpar-alsonemedi",
+      "name": "Tomi Kerékpár",
+      "legalName": null,
+      "website": "https://tomikerekpar.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-bellingo-bike-tokol",
+      "name": "Bellingo Bike Elektromos Kerékpár Szaküzlet",
+      "legalName": null,
+      "website": "https://bellingobike.hu/kapcsolat/",
+      "notes": null
+    },
+    {
+      "id": "org-kerekpar-centrum-rideaway-pilisvorosvar",
+      "name": "Kerékpár Centrum - RideAway",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/kerekpar-centrum-rideaway",
+      "notes": null
+    },
+    {
+      "id": "org-tarnoki-kerekparmuhely",
+      "name": "Tárnoki Kerékpárműhely",
+      "legalName": null,
+      "website": "https://tarnokbike.hu/index.html",
+      "notes": null
+    },
+    {
+      "id": "org-tekero-kerekpar-szerviz-zsambek",
+      "name": "Tekerő kerékpár szerviz",
+      "legalName": null,
+      "website": "https://tekero.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-bringacsalad-gyal",
+      "name": "Bringacsalád Kerékpár szaküzlet és szerviz",
+      "legalName": null,
+      "website": "https://bringacsalad.webnode.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-marius-bike-halasztelek",
+      "name": "Marius Bike",
+      "legalName": null,
+      "website": "https://mariusbikes.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-bicibolt-monor",
+      "name": "Bicibolt",
+      "legalName": null,
+      "website": "https://bicibolt.hu/kapcsolat/",
+      "notes": null
+    },
+    {
+      "id": "org-bringazo-kerekpar-szerviz-budajeno",
+      "name": "Bringázó Kerékpár Szerviz",
+      "legalName": null,
+      "website": "https://bringazo.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-koncz-elektromos-cegledbercel",
+      "name": "Koncz Elektromos Kerékpár és Robogó (elektromoskerekpar.net)",
+      "legalName": null,
+      "website": "https://www.elektromoskerekpar.net/",
+      "notes": null
+    },
+    {
+      "id": "org-multi-bringa-dabas",
+      "name": "Multi-Bringa",
+      "legalName": null,
+      "website": "https://multi-bringa.hu/rolunk",
+      "notes": null
+    },
+    {
+      "id": "org-zelo-kerekparszerviz-dabas",
+      "name": "ZELO Kerékpárszerviz",
+      "legalName": null,
+      "website": "http://zeloszerviz.ingyenweb.hu/index_elemei/Page383.htm",
+      "notes": null
+    },
+    {
+      "id": "org-bringalambos-dunaharaszti",
+      "name": "Bringalambos bolt és szerviz",
+      "legalName": null,
+      "website": "https://fogaskerekpar.hu/hu/kapcsolat",
+      "notes": null
+    },
+    {
+      "id": "org-hamori-sport-pomaz",
+      "name": "Hámori Sport",
+      "legalName": null,
+      "website": "http://www.hamorisport.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-kalman-bringa-19-pilis",
+      "name": "Kálmán Bringa 19",
+      "legalName": null,
+      "website": "https://kalmanbringa19.webnode.hu/szolgaltatasok/",
+      "notes": null
+    },
+    {
+      "id": "org-kerekmania-szentendre",
+      "name": "Kerékmánia Kerékpárbolt és Szerviz",
+      "legalName": null,
+      "website": "http://kerekmania.hu/kapcsolat.html",
+      "notes": null
+    },
+    {
+      "id": "org-ebikeshop-torokbalint",
+      "name": "Ebikeshop Törökbálint",
+      "legalName": null,
+      "website": "https://ebikeshop.hu/uzletek/torokbalint",
+      "notes": null
+    },
+    {
+      "id": "org-mindenbringa-veresegyhaz",
+      "name": "MindenBringa",
+      "legalName": null,
+      "website": "https://www.mindenbringa.com/bolt-es-szerviz",
+      "notes": null
+    },
+    {
+      "id": "org-napkereki-kukullo-nagymaros",
+      "name": "Napkereki Küküllő kerékpárbolt és szerviz",
+      "legalName": null,
+      "website": "https://old.nagymaros.hu/napkereki-kuekuell/",
+      "notes": null
+    },
+    {
+      "id": "org-bladeus-ullo",
+      "name": "Bladeus Design — kerékpárszerviz",
+      "legalName": null,
+      "website": "https://bladeus.hu/kapcsolat/",
+      "notes": null
     }
   ]
 }

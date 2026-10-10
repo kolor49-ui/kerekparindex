@@ -1601,6 +1601,270 @@
       "locationId": "loc-vellai-kerekpar-ocsa",
       "role": "eladas",
       "sourceUrl": "https://bikefun.hu/shops/vellai-kerekpar"
+    },
+    {
+      "id": "svc-javi-kerekparbolt-maglod-eladas",
+      "locationId": "loc-javi-kerekparbolt-maglod",
+      "role": "eladas",
+      "sourceUrl": "https://javikerekparbolt.hu/"
+    },
+    {
+      "id": "svc-javi-kerekparbolt-maglod-szerviz",
+      "locationId": "loc-javi-kerekparbolt-maglod",
+      "role": "szerviz",
+      "sourceUrl": "https://javikerekparbolt.hu/"
+    },
+    {
+      "id": "svc-ks-kerekpar-kistarcsa-eladas",
+      "locationId": "loc-ks-kerekpar-kistarcsa",
+      "role": "eladas",
+      "sourceUrl": "https://kskerekpar.hu/magunkrol/"
+    },
+    {
+      "id": "svc-ks-kerekpar-kistarcsa-szerviz",
+      "locationId": "loc-ks-kerekpar-kistarcsa",
+      "role": "szerviz",
+      "sourceUrl": "https://kskerekpar.hu/magunkrol/"
+    },
+    {
+      "id": "svc-diosdi-kerekparcentrum-eladas",
+      "locationId": "loc-diosdi-kerekparcentrum",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/diosdi-kerekparcentrum"
+    },
+    {
+      "id": "svc-diosdi-kerekparcentrum-szerviz",
+      "locationId": "loc-diosdi-kerekparcentrum",
+      "role": "szerviz",
+      "sourceUrl": "http://www.diosdbike.hu/"
+    },
+    {
+      "id": "svc-patyi-kerekparbolt-eladas",
+      "locationId": "loc-patyi-kerekparbolt",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/patyi-kerekparbolt"
+    },
+    {
+      "id": "svc-bicajos-bolt-fot-eladas",
+      "locationId": "loc-bicajos-bolt-fot",
+      "role": "eladas",
+      "sourceUrl": "http://www.bicajosbolt.hu/"
+    },
+    {
+      "id": "svc-bringa-doki-albertirsa-eladas",
+      "locationId": "loc-bringa-doki-albertirsa",
+      "role": "eladas",
+      "sourceUrl": "https://bringadoki.wixsite.com/kerekpar"
+    },
+    {
+      "id": "svc-bringa-doki-albertirsa-szerviz",
+      "locationId": "loc-bringa-doki-albertirsa",
+      "role": "szerviz",
+      "sourceUrl": "https://bringadoki.wixsite.com/kerekpar"
+    },
+    {
+      "id": "svc-tomi-kerekpar-alsonemedi-eladas",
+      "locationId": "loc-tomi-kerekpar-alsonemedi",
+      "role": "eladas",
+      "sourceUrl": "https://tomikerekpar.hu/"
+    },
+    {
+      "id": "svc-tomi-kerekpar-alsonemedi-szerviz",
+      "locationId": "loc-tomi-kerekpar-alsonemedi",
+      "role": "szerviz",
+      "sourceUrl": "https://tomikerekpar.hu/"
+    },
+    {
+      "id": "svc-bellingo-bike-tokol-eladas",
+      "locationId": "loc-bellingo-bike-tokol",
+      "role": "eladas",
+      "sourceUrl": "https://bellingobike.hu/kapcsolat/"
+    },
+    {
+      "id": "svc-bellingo-bike-tokol-szerviz",
+      "locationId": "loc-bellingo-bike-tokol",
+      "role": "szerviz",
+      "sourceUrl": "https://bellingobike.hu/kapcsolat/"
+    },
+    {
+      "id": "svc-kerekpar-centrum-rideaway-pilisvorosvar-eladas",
+      "locationId": "loc-kerekpar-centrum-rideaway-pilisvorosvar",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/kerekpar-centrum-rideaway"
+    },
+    {
+      "id": "svc-tarnoki-kerekparmuhely-eladas",
+      "locationId": "loc-tarnoki-kerekparmuhely",
+      "role": "eladas",
+      "sourceUrl": "https://tarnokbike.hu/index.html"
+    },
+    {
+      "id": "svc-tarnoki-kerekparmuhely-szerviz",
+      "locationId": "loc-tarnoki-kerekparmuhely",
+      "role": "szerviz",
+      "sourceUrl": "https://tarnokbike.hu/index.html"
+    },
+    {
+      "id": "svc-tekero-kerekpar-szerviz-zsambek-szerviz",
+      "locationId": "loc-tekero-kerekpar-szerviz-zsambek",
+      "role": "szerviz",
+      "sourceUrl": "https://tekero.hu/"
+    },
+    {
+      "id": "svc-tekero-kerekpar-szerviz-zsambek-e-bike-szerviz",
+      "locationId": "loc-tekero-kerekpar-szerviz-zsambek",
+      "role": "e-bike-szerviz",
+      "sourceUrl": "https://tekero.hu/"
+    },
+    {
+      "id": "svc-bringacsalad-gyal-eladas",
+      "locationId": "loc-bringacsalad-gyal",
+      "role": "eladas",
+      "sourceUrl": "https://bringacsalad.webnode.hu/"
+    },
+    {
+      "id": "svc-bringacsalad-gyal-szerviz",
+      "locationId": "loc-bringacsalad-gyal",
+      "role": "szerviz",
+      "sourceUrl": "https://bringacsalad.webnode.hu/"
+    },
+    {
+      "id": "svc-marius-bike-halasztelek-eladas",
+      "locationId": "loc-marius-bike-halasztelek",
+      "role": "eladas",
+      "sourceUrl": "https://mariusbikes.hu/"
+    },
+    {
+      "id": "svc-marius-bike-halasztelek-szerviz",
+      "locationId": "loc-marius-bike-halasztelek",
+      "role": "szerviz",
+      "sourceUrl": "https://mariusbikes.hu/"
+    },
+    {
+      "id": "svc-bicibolt-monor-eladas",
+      "locationId": "loc-bicibolt-monor",
+      "role": "eladas",
+      "sourceUrl": "https://bicibolt.hu/gyakran-ismetelt-kerdesek-gyik/"
+    },
+    {
+      "id": "svc-bringazo-kerekpar-szerviz-budajeno-szerviz",
+      "locationId": "loc-bringazo-kerekpar-szerviz-budajeno",
+      "role": "szerviz",
+      "sourceUrl": "https://bringazo.hu/"
+    },
+    {
+      "id": "svc-bringazo-kerekpar-szerviz-budajeno-e-bike-szerviz",
+      "locationId": "loc-bringazo-kerekpar-szerviz-budajeno",
+      "role": "e-bike-szerviz",
+      "sourceUrl": "https://bringazo.hu/"
+    },
+    {
+      "id": "svc-koncz-elektromos-cegledbercel-eladas",
+      "locationId": "loc-koncz-elektromos-cegledbercel",
+      "role": "eladas",
+      "sourceUrl": "https://www.elektromoskerekpar.net/"
+    },
+    {
+      "id": "svc-koncz-elektromos-cegledbercel-szerviz",
+      "locationId": "loc-koncz-elektromos-cegledbercel",
+      "role": "szerviz",
+      "sourceUrl": "https://www.elektromoskerekpar.net/"
+    },
+    {
+      "id": "svc-multi-bringa-dabas-eladas",
+      "locationId": "loc-multi-bringa-dabas",
+      "role": "eladas",
+      "sourceUrl": "https://multi-bringa.hu/rolunk"
+    },
+    {
+      "id": "svc-zelo-kerekparszerviz-dabas-szerviz",
+      "locationId": "loc-zelo-kerekparszerviz-dabas",
+      "role": "szerviz",
+      "sourceUrl": "http://zelokerekpar.hupont.hu/"
+    },
+    {
+      "id": "svc-zelo-kerekparszerviz-dabas-e-bike-szerviz",
+      "locationId": "loc-zelo-kerekparszerviz-dabas",
+      "role": "e-bike-szerviz",
+      "sourceUrl": "http://zelokerekpar.hupont.hu/"
+    },
+    {
+      "id": "svc-bringalambos-dunaharaszti-eladas",
+      "locationId": "loc-bringalambos-dunaharaszti",
+      "role": "eladas",
+      "sourceUrl": "https://fogaskerekpar.hu/hu/kapcsolat"
+    },
+    {
+      "id": "svc-bringalambos-dunaharaszti-szerviz",
+      "locationId": "loc-bringalambos-dunaharaszti",
+      "role": "szerviz",
+      "sourceUrl": "https://fogaskerekpar.hu/hu/kapcsolat"
+    },
+    {
+      "id": "svc-hamori-sport-pomaz-eladas",
+      "locationId": "loc-hamori-sport-pomaz",
+      "role": "eladas",
+      "sourceUrl": "http://www.hamorisport.hu/"
+    },
+    {
+      "id": "svc-kalman-bringa-19-pilis-eladas",
+      "locationId": "loc-kalman-bringa-19-pilis",
+      "role": "eladas",
+      "sourceUrl": "https://kalmanbringa19.webnode.hu/szolgaltatasok/"
+    },
+    {
+      "id": "svc-kalman-bringa-19-pilis-szerviz",
+      "locationId": "loc-kalman-bringa-19-pilis",
+      "role": "szerviz",
+      "sourceUrl": "https://kalmanbringa19.webnode.hu/szolgaltatasok/"
+    },
+    {
+      "id": "svc-kerekmania-szentendre-eladas",
+      "locationId": "loc-kerekmania-szentendre",
+      "role": "eladas",
+      "sourceUrl": "http://kerekmania.hu/kapcsolat.html"
+    },
+    {
+      "id": "svc-kerekmania-szentendre-szerviz",
+      "locationId": "loc-kerekmania-szentendre",
+      "role": "szerviz",
+      "sourceUrl": "http://kerekmania.hu/kapcsolat.html"
+    },
+    {
+      "id": "svc-ebikeshop-torokbalint-eladas",
+      "locationId": "loc-ebikeshop-torokbalint",
+      "role": "eladas",
+      "sourceUrl": "https://ebikeshop.hu/uzletek/torokbalint"
+    },
+    {
+      "id": "svc-ebikeshop-torokbalint-szerviz",
+      "locationId": "loc-ebikeshop-torokbalint",
+      "role": "szerviz",
+      "sourceUrl": "https://ebikeshop.hu/uzletek/torokbalint"
+    },
+    {
+      "id": "svc-mindenbringa-veresegyhaz-eladas",
+      "locationId": "loc-mindenbringa-veresegyhaz",
+      "role": "eladas",
+      "sourceUrl": "https://www.mindenbringa.com/bolt-es-szerviz"
+    },
+    {
+      "id": "svc-mindenbringa-veresegyhaz-szerviz",
+      "locationId": "loc-mindenbringa-veresegyhaz",
+      "role": "szerviz",
+      "sourceUrl": "https://www.mindenbringa.com/bolt-es-szerviz"
+    },
+    {
+      "id": "svc-napkereki-kukullo-nagymaros-szerviz",
+      "locationId": "loc-napkereki-kukullo-nagymaros",
+      "role": "szerviz",
+      "sourceUrl": "https://old.nagymaros.hu/napkereki-kuekuell/"
+    },
+    {
+      "id": "svc-bladeus-ullo-szerviz",
+      "locationId": "loc-bladeus-ullo",
+      "role": "szerviz",
+      "sourceUrl": "https://bladeus.hu/"
     }
   ],
   "organizationLevelNotes": [

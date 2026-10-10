@@ -1,0 +1,753 @@
+{
+  "batchId": "batch-pest-pass1-t-settlements-2026-10-10",
+  "accessedAt": "2026-10-10",
+  "county": "Pest",
+  "phase": "first_pass",
+  "notes": "T–Z + Vác/Vecsés/Veresegyház újraellenőrzés. Közeli település ≠ helyi. Aggregátor-only → pending. Már publikált: Tárnok, Tököl, Zsámbék.",
+  "standardQueries": [
+    "kerékpárbolt {settlement}",
+    "kerékpárüzlet {settlement}",
+    "kerékpárszerviz {settlement}",
+    "biciklijavítás {settlement}",
+    "bringaszerviz {settlement}",
+    "kerékpár {settlement} Facebook"
+  ],
+  "settlements": [
+    {
+      "name": "Sződ",
+      "queries": ["kerékpárbolt Sződ", "kerékpárszerviz Sződ", "biciklijavítás Sződ", "bringaszerviz Sződ", "kerékpár Sződ Facebook", "site:bikefun.hu Sződ"],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "DZ BIKE", "city": "Vác", "reason": "Váci járás központ, nem Sződ cím"},
+        {"name": "No Limit / Axus", "city": "Veresegyház", "reason": "Veresegyházi medence, ~15 km"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "EuroVelo 6 áthalad; helyi kerékpárüzlet/szerviz nem azonosítható első körben."
+    },
+    {
+      "name": "Sződliget",
+      "queries": ["kerékpárbolt Sződliget", "kerékpárszerviz Sződliget", "biciklijavítás Sződliget", "bringaszerviz Sződliget", "kerékpár Sződliget Facebook"],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "DZ BIKE", "city": "Vác", "reason": "legközelebbi városi bolt"},
+        {"name": "Dunakanyar kerékpár szerviz", "city": "Verőce", "reason": "Duna-parti szakasz, nem Sződliget"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Turista kerékpárút (EuroVelo 6); fix telephelyű bolt nem található."
+    },
+    {
+      "name": "Táborfalva",
+      "queries": ["kerékpárbolt Táborfalva", "kerékpárszerviz Táborfalva", "biciklijavítás Táborfalva", "bringaszerviz Táborfalva", "kerékpár Táborfalva Facebook"],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "Multi-Bringa / ZELO", "city": "Dabas", "reason": "Dabasi járás, Tatárszentgyörgy mellett"},
+        {"name": "Memo-Bike", "city": "Monor", "reason": "~25 km"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Katonai lőtér melletti kistelepülés; helyi szolgáltató nem jött elő."
+    },
+    {
+      "name": "Tahitótfalu",
+      "queries": ["kerékpárbolt Tahitótfalu", "kerékpárszerviz Tahitótfalu", "biciklijavítás Tahitótfalu", "bringaszerviz Tahitótfalu", "kerékpár Tahitótfalu Facebook"],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "Szentendrei/Dunakanyar szaküzletek", "city": "Szentendre", "reason": "sziget/part menti, nem Tahitótfalu"},
+        {"name": "El-Tekerentyű", "city": "Visegrád", "reason": "Dunakanyar túra/bérlés, nem helyi szerviz"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Duna-parti település; kerékpárút-projektek, de helyi bolt/szerviz nem található."
+    },
+    {
+      "name": "Taksony",
+      "queries": ["kerékpárbolt Taksony", "kerékpárszerviz Taksony", "biciklijavítás Taksony", "bringaszerviz Taksony", "kerékpár Taksony Facebook"],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "Bellingo Bike", "city": "Tököl", "reason": "szomszéd település, már publikált"},
+        {"name": "TuttoBici", "city": "Törökbálint", "reason": "Érd–Törökbálint tengely"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Önkormányzati kerékpárút-fejlesztés; helyi kerékpárkereskedés/szerviz nem azonosítható."
+    },
+    {
+      "name": "Tápióbicske",
+      "queries": ["kerékpárbolt Tápióbicske", "kerékpárszerviz Tápióbicske", "biciklijavítás Tápióbicske", "Tápióbicske bringaszerviz Facebook"],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "Titó Bike Shop és Szervíz", "city": "Nagykáta", "reason": "járási központ"},
+        {"name": "Györe Kerékpáristálló", "city": "Cegléd", "reason": "~35 km, Tápió-völgy túraútvonal"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Tápiómenti település; helyi bolt nem található (BikeFun üres)."
+    },
+    {
+      "name": "Tápiógyörgye",
+      "queries": ["kerékpárbolt Tápiógyörgye", "kerékpárszerviz Tápiógyörgye", "biciklijavítás Tápiógyörgye", "Tápiógyörgye Facebook kerékpár"],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "Bozsó Kerékpár", "city": "Tápiószele", "reason": "szomszéd település"},
+        {"name": "Titó Bike", "city": "Nagykáta", "reason": "járási központ"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": null
+    },
+    {
+      "name": "Tápióság",
+      "queries": ["kerékpárbolt Tápióság", "kerékpárszerviz Tápióság", "biciklijavítás Tápióság", "Tápióság bringa Facebook"],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "Titó Bike", "city": "Nagykáta", "reason": "legközelebbi azonosított szaküzlet"},
+        {"name": "Györe Kerékpáristálló", "city": "Cegléd", "reason": "Ceglédi járás határ"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": null
+    },
+    {
+      "name": "Tápiószecső",
+      "queries": ["kerékpárbolt Tápiószecső", "kerékpárszerviz Tápiószecső", "biciklijavítás Tápiószecső", "Tápiószecső kerékpár Facebook"],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "Györe Kerékpáristálló", "city": "Cegléd", "reason": "Cegléd felől legközelebbi nagy bolt"},
+        {"name": "Titó Bike", "city": "Nagykáta", "reason": "Nagykátai járás"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": null
+    },
+    {
+      "name": "Tápiószele",
+      "queries": ["kerékpárbolt Tápiószele", "kerékpárszerviz Tápiószele", "Bozsó Kerékpár Tápiószele", "biciklijavítás Tápiószele", "bringaszerviz Tápiószele"],
+      "candidates": [
+        {
+          "name": "Bozsó Kerékpár",
+          "addressRaw": "2766 Tápiószele, Kossuth Lajos út 23. (kerekpar.info; régi lista: Bartók Béla u. 12.)",
+          "primaryUrl": null,
+          "aggregatorUrls": [
+            "https://kerekpar.info/hely/bozso-kerekpar---tapioszele-5v",
+            "http://bringazz.hu/bringabolt/bozso-kerekpar/238"
+          ],
+          "phone": ["+36 20 341 7855", "+36 53 788 563"],
+          "rolesHint": ["eladas", "szerviz"],
+          "evidenceStatus": "aggregator_only"
+        }
+      ],
+      "nearbyRejected": [
+        {"name": "Titó Bike Shop és Szervíz", "city": "Nagykáta", "reason": "Nagykáta, nem Tápiószele cím"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Helyi jelölt csak aggregátorokon; címeltérés — telefonos megerősítés kell."
+    },
+    {
+      "name": "Tápiószentmárton",
+      "queries": ["kerékpárbolt Tápiószentmárton", "kerékpárszerviz Tápiószentmárton", "biciklijavítás Tápiószentmárton", "Tápiószentmárton Facebook bringa"],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "Titó Bike", "city": "Nagykáta", "reason": "járási központ"},
+        {"name": "Bozsó Kerékpár", "city": "Tápiószele", "reason": "szomszéd község"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": null
+    },
+    {
+      "name": "Tápiószőlős",
+      "queries": ["kerékpárbolt Tápiószőlős", "kerékpárszerviz Tápiószőlős", "biciklijavítás Tápiószőlős", "Tápiószőlős kerékpár Facebook"],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "Bozsó Kerékpár", "city": "Tápiószele", "reason": "szomszéd"},
+        {"name": "Györe Kerékpáristálló", "city": "Cegléd", "reason": "Cegléd irány"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": null
+    },
+    {
+      "name": "Tárnok",
+      "queries": ["kerékpárbolt Tárnok", "Tárnoki Kerékpárműhely", "tarnokbike.hu", "kerékpárszerviz Tárnok Facebook"],
+      "candidates": [
+        {
+          "name": "Tárnoki Kerékpárműhely",
+          "addressRaw": "2461 Tárnok, Rákóczi út 46/C.",
+          "primaryUrl": "https://tarnokbike.hu/index.html",
+          "phone": ["+36 30 198 2662"],
+          "rolesHint": ["eladas", "szerviz", "kolcsonzes"],
+          "evidenceStatus": "published_already"
+        }
+      ],
+      "nearbyRejected": [
+        {"name": "Sólyombike", "city": "Érd", "reason": "Érd, nem Tárnok"},
+        {"name": "BRINGOSZ Pázmánd", "city": "Pázmánd", "reason": "testvér telephely, Fejér/Pest határ"}
+      ],
+      "passStatus": "has_published",
+      "notes": "Már publikálva (batch-pest-pass1-b)."
+    },
+    {
+      "name": "Tatárszentgyörgy",
+      "queries": ["kerékpárbolt Tatárszentgyörgy", "kerékpárszerviz Tatárszentgyörgy", "biciklijavítás Tatárszentgyörgy", "Tatárszentgyörgy bringa Facebook"],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "Multi-Bringa", "city": "Dabas", "reason": "Dabasi járás szomszéd"},
+        {"name": "ZELO kerékpárszerviz", "city": "Dabas", "reason": "Dabas, nem Tatárszentgyörgy"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Dél-Pest, lőtér mellett; helyi bolt nem található."
+    },
+    {
+      "name": "Telki",
+      "queries": ["kerékpárbolt Telki", "kerékpárszerviz Telki", "biciklijavítás Telki", "site:telki.hu kerékpár", "kerékpár Telki Facebook"],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "TAK Bike", "city": "Biatorbágy", "reason": "Zsámbéki-medence, ~11 km"},
+        {"name": "Tekerő kerékpár szerviz", "city": "Zsámbék", "reason": "már publikált szomszéd"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Önkormányzati oldal: kerékpárút-tervek, de nincs helyi szaküzlet."
+    },
+    {
+      "name": "Tésa",
+      "queries": ["kerékpárbolt Tésa", "kerékpárszerviz Tésa", "biciklijavítás Tésa", "Tésa kerékpár Facebook"],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "TAK Bike", "city": "Biatorbágy", "reason": "Pilis-vidék"},
+        {"name": "Kerékpár Centrum RideAway", "city": "Pilisvörösvár", "reason": "már publikált Pest batch"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Apró település a Pilisben; helyi szolgáltató nem azonosítható."
+    },
+    {
+      "name": "Tinnye",
+      "queries": ["kerékpárbolt Tinnye", "kerékpárszerviz Tinnye", "biciklijavítás Tinnye", "kerékpár Tinnye Facebook"],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "TAK Bike / Belo Bike", "city": "Biatorbágy", "reason": "~7 km Tök felől"},
+        {"name": "Pátyi Kerékpárbolt", "city": "Páty", "reason": "BikeFun dealer, nem Tinnye"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": null
+    },
+    {
+      "name": "Tóalmás",
+      "queries": ["kerékpárbolt Tóalmás", "kerékpárszerviz Tóalmás", "biciklijavítás Tóalmás", "Tóalmás bringa Facebook"],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "TAK Bike", "city": "Biatorbágy", "reason": "kistérség"},
+        {"name": "Tóalmás Autóház", "city": "Tóalmás", "reason": "autószerviz, nem kerékpár"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": null
+    },
+    {
+      "name": "Tök",
+      "queries": ["kerékpárbolt Tök", "kerékpárszerviz Tök 2086", "biciklijavítás Tök", "kerékpár Tök Facebook"],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "TAK Bike", "city": "Biatorbágy", "reason": "~17 km"},
+        {"name": "Tekerő", "city": "Zsámbék", "reason": "szomszéd, publikált"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Ne keverendő Tököllel (Bellingo)."
+    },
+    {
+      "name": "Tököl",
+      "queries": ["Bellingo Bike Tököl", "kerékpárbolt Tököl", "bellingobike.hu"],
+      "candidates": [
+        {
+          "name": "Bellingo Bike Elektromos Kerékpár Szaküzlet",
+          "addressRaw": "2316 Tököl, Fő út 87.",
+          "primaryUrl": "https://bellingobike.hu/kapcsolat/",
+          "phone": ["+36 70 701 8435"],
+          "rolesHint": ["eladas", "szerviz", "e-bike-szerviz"],
+          "evidenceStatus": "published_already"
+        }
+      ],
+      "nearbyRejected": [],
+      "passStatus": "has_published",
+      "notes": "Már publikálva."
+    },
+    {
+      "name": "Törtel",
+      "queries": ["kerékpárbolt Törtel", "kerékpárszerviz Törtel", "biciklijavítás Törtel", "Törtel bringa Facebook"],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "Pedál Kerékpárbolt", "city": "Hatvan", "reason": "Heves megye, Tura–Hatvan tengely"},
+        {"name": "Titó Bike", "city": "Nagykáta", "reason": "Pest megye dél"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Határhelyi község; helyi szolgáltató nem található."
+    },
+    {
+      "name": "Tura",
+      "queries": ["kerékpárbolt Tura", "kerékpárszerviz Tura Pest", "biciklijavítás Tura", "Tura TIM Sport kerékpár"],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "Pedál Kerékpárbolt", "city": "Hatvan", "reason": "vasút/vonat tengely Tura–Hatvan"},
+        {"name": "TuttoBici", "city": "Törökbálint", "reason": "Exa/Maps visszautal, nem Tura cím"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "TIM Sport = általános sport/horgász; nem kerékpárszerviz."
+    },
+    {
+      "name": "Újhartyán",
+      "queries": ["kerékpárbolt Újhartyán", "kerékpárszerviz Újhartyán", "biciklijavítás Újhartyán", "Újhartyán Facebook bringa"],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "Multi-Bringa", "city": "Dabas", "reason": "Dabasi kistérség"},
+        {"name": "Bladeus Design", "city": "Üllő", "reason": "szomszéd, külön jelölt Üllőn"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": null
+    },
+    {
+      "name": "Újlengyel",
+      "queries": ["kerékpárbolt Újlengyel", "kerékpárszerviz Újlengyel", "biciklijavítás Újlengyel", "Újlengyel kerékpár Facebook"],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "Multi-Bringa", "city": "Dabas", "reason": "kistérség"},
+        {"name": "Memo-Bike", "city": "Monor", "reason": "Monori járás felől"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": null
+    },
+    {
+      "name": "Újszilvás",
+      "queries": ["kerékpárbolt Újszilvás", "kerékpárszerviz Újszilvás", "biciklijavítás Újszilvás", "Újszilvás bringa Facebook"],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "Bozsó Kerékpár", "city": "Tápiószele", "reason": "szomszéd"},
+        {"name": "Györe Kerékpáristálló", "city": "Cegléd", "reason": "Ceglédi járás"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": null
+    },
+    {
+      "name": "Úri",
+      "queries": ["kerékpárbolt Úri", "kerékpárszerviz Úri", "biciklijavítás Úri", "Úri 2244 kerékpár Facebook"],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "Titó Bike", "city": "Nagykáta", "reason": "Nagykátai járás"},
+        {"name": "Bozsó Kerékpár", "city": "Tápiószele", "reason": "Tápió-vidék"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": null
+    },
+    {
+      "name": "Üllő",
+      "queries": ["kerékpárbolt Üllő", "kerékpárszerviz Üllő", "biciklijavítás Üllő", "Bladeus Üllő kerékpár", "bringaszerviz Üllő Facebook"],
+      "candidates": [
+        {
+          "name": "Bladeus Design Kft. (kerékpárszerelés)",
+          "addressRaw": "2225 Üllő, Pávai-Vajna utca 5/B",
+          "primaryUrl": "https://bladeus.hu/kapcsolat/",
+          "phone": ["+36 30 444 3377"],
+          "email": ["laszlo.peter@bladeus.hu"],
+          "rolesHint": ["szerviz", "alkatresz"],
+          "evidenceStatus": "primary_confirmed"
+        },
+        {
+          "name": "Bicikliszerviz (Erik — ProVendo hirdetés)",
+          "addressRaw": "2225 Üllő (pontos utca nincs)",
+          "primaryUrl": "https://provendo.hu/ad/bicikliszerviz-ullon-503577",
+          "phone": [],
+          "rolesHint": ["szerviz"],
+          "evidenceStatus": "aggregator_only"
+        }
+      ],
+      "nearbyRejected": [
+        {"name": "László Kerékpár", "city": "Budapest XIX.", "reason": "Üllői út név, nem Üllő település"},
+        {"name": "Memo-Bike", "city": "Monor", "reason": "Monor, nem Üllő"},
+        {"name": "Kerék-Páros", "city": "Budapest IX.", "reason": "Üllői út közeli, Budapest cím"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Bladeus: IT + helyszíni kerékpárszerelés; előzetes egyeztetés szükséges."
+    },
+    {
+      "name": "Üröm",
+      "queries": ["kerékpárbolt Üröm", "kerékpárszerviz Üröm", "biciklijavítás Üröm", "kerékpár Üröm 2086 Facebook"],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "TAK Bike", "city": "Biatorbágy", "reason": "kistérség"},
+        {"name": "Diósdi Kerékpárcentrum", "city": "Diósd", "reason": "már publikált Pest batch"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": null
+    },
+    {
+      "name": "Vác",
+      "queries": ["kerékpárbolt Vác NEW", "Jaku eRoller Vác", "DZ BIKE Vác", "rollerwebaruhazvac.hu", "kerékpárszerviz Vác 2025"],
+      "candidates": [
+        {
+          "name": "DZ BIKE kerékpárüzlet és kerékpárszerviz",
+          "addressRaw": "2600 Vác, Galcsek utca 8–10.",
+          "primaryUrl": "http://dzbike.hu/",
+          "phone": ["+36 27 310 554"],
+          "rolesHint": ["eladas", "szerviz"],
+          "evidenceStatus": "published_already"
+        },
+        {
+          "name": "Jaku eRoller és elektromos kerékpár szaküzlet (Wermamba)",
+          "addressRaw": "2600 Vác, Zrínyi Miklós utca 17.",
+          "primaryUrl": "https://rollerwebaruhazvac.hu/",
+          "phone": [],
+          "rolesHint": ["eladas", "e-bike-szerviz", "roller-szerviz"],
+          "evidenceStatus": "primary_confirmed_new_vs_catalog"
+        }
+      ],
+      "nearbyRejected": [],
+      "passStatus": "has_published",
+      "notes": "Újraellenőrzés: DZ BIKE már publikált. Jaku/Wermamba üzlet + e-bike/roller szerviz — nincs még a katalógusban."
+    },
+    {
+      "name": "Vácduka",
+      "queries": ["kerékpárbolt Vácduka", "kerékpárszerviz Vácduka", "biciklijavítás Vácduka", "Vácduka bringa Facebook"],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "DZ BIKE", "city": "Vác", "reason": "~7 km, járási központ"},
+        {"name": "Veresegyházi boltok", "city": "Veresegyház", "reason": "Veresegyházi-medence"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": null
+    },
+    {
+      "name": "Vácegres",
+      "queries": ["kerékpárbolt Vácegres", "kerékpárszerviz Vácegres", "biciklijavítás Vácegres", "Vácegres kerékpár Facebook"],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "DZ BIKE", "city": "Vác", "reason": "Váci járás"},
+        {"name": "Galgahévízi/Gödöllői szolgáltatók", "city": "Gödöllő", "reason": "aggregátor javaslat, nem Vácegres cím"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": null
+    },
+    {
+      "name": "Váchartyán",
+      "queries": ["kerékpárbolt Váchartyán", "kerékpárszerviz Váchartyán", "biciklijavítás Váchartyán", "Váchartyán bringa"],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "DZ BIKE", "city": "Vác", "reason": "Váci járás"},
+        {"name": "No Limit", "city": "Veresegyház", "reason": "medence"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": null
+    },
+    {
+      "name": "Váckisújfalu",
+      "queries": ["kerékpárbolt Váckisújfalu", "kerékpárszerviz Váckisújfalu", "biciklijavítás Váckisújfalu", "Váckisújfalu Facebook kerékpár"],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "DZ BIKE", "city": "Vác", "reason": "vasút/Vác közel"},
+        {"name": "Dunakanyar kerékpár szerviz", "city": "Verőce", "reason": "Duna-part"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": null
+    },
+    {
+      "name": "Vácrátót",
+      "queries": ["kerékpárbolt Vácrátót", "kerékpárszerviz Vácrátót", "biciklijavítás Vácrátót", "Vácrátót botanikus kerékpár"],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "DZ BIKE", "city": "Vác", "reason": "szomszéd város"},
+        {"name": "Nemzeti Botanikus Kert", "city": "Vácrátót", "reason": "látogatói infrastruktúra, nem szaküzlet"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": null
+    },
+    {
+      "name": "Vácszentlászló",
+      "queries": ["kerékpárbolt Vácszentlászló", "kerékpárszerviz Vácszentlászló", "biciklijavítás Vácszentlászló", "Vácszentlászló bringa"],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "DZ BIKE", "city": "Vác", "reason": "Váci járás"},
+        {"name": "Veresegyházi szaküzletek", "city": "Veresegyház", "reason": "medence"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": null
+    },
+    {
+      "name": "Valkó",
+      "queries": ["kerékpárbolt Valkó", "kerékpárszerviz Valkó", "biciklijavítás Valkó", "Valkó kerékpár Facebook"],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "DZ BIKE", "city": "Vác", "reason": "Váci járás"},
+        {"name": "Fóti/társulás boltok", "city": "Fót", "reason": "Bicajos bolt Fót — már Pest batch, nem Valkó"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": null
+    },
+    {
+      "name": "Vámosmikola",
+      "queries": ["kerékpárbolt Vámosmikola", "kerékpárszerviz Vámosmikola", "biciklijavítás Vámosmikola", "Vámosmikola bringa Facebook"],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "Maróti Kiskert", "city": "Pilismarót", "reason": "Komárom-Esztergom, Dunakanyar bérlés"},
+        {"name": "Kerékpár Centrum", "city": "Pilisvörösvár", "reason": "Pilis agglomeráció"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Pilis-vidék; helyi szolgáltató nem található."
+    },
+    {
+      "name": "Vasad",
+      "queries": ["kerékpárbolt Vasad", "kerékpárszerviz Vasad", "biciklijavítás Vasad", "Vasad kerékpár Facebook"],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "Titó Bike", "city": "Nagykáta", "reason": "Nagykátai járás"},
+        {"name": "Multi-Bringa", "city": "Dabas", "reason": "dél-Pest"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": null
+    },
+    {
+      "name": "Vecsés",
+      "queries": ["kerékpárbolt Vecsés NEW", "SunVelo Vecsés", "Start Kerékpár Vecsés", "kerékpárszerviz Vecsés 2025"],
+      "candidates": [
+        {
+          "name": "Start Kerékpárüzlet és Szerviz (Vecsés)",
+          "addressRaw": "2220 Vecsés, Iskola utca 11.",
+          "primaryUrl": "https://www.startkerekpar.hu/",
+          "phone": ["+36 70 591 2116"],
+          "rolesHint": ["eladas", "szerviz"],
+          "evidenceStatus": "published_already"
+        },
+        {
+          "name": "SunVelo Bike & Coffee",
+          "addressRaw": "2220 Vecsés, Telepi út 34.",
+          "primaryUrl": "https://www.facebook.com/sunvelocycling",
+          "aggregatorUrls": [
+            "https://magyarvelemeny.com/kerekparbolt/vecses/sunvelo-bike-coffee/"
+          ],
+          "phone": [],
+          "rolesHint": ["eladas", "szerviz"],
+          "evidenceStatus": "facebook_primary_new"
+        },
+        {
+          "name": "INTERSPORT Ferihegy (kerékpárszerviz szolgáltatás)",
+          "addressRaw": "2220 Vecsés, Fő út 246-248.",
+          "primaryUrl": "https://www.intersport.hu/shop/ferihegy-vecses-9120045545333/",
+          "rolesHint": ["szerviz"],
+          "evidenceStatus": "chain_excluded"
+        }
+      ],
+      "nearbyRejected": [
+        {"name": "Biondo Bike", "city": "Gyál", "reason": "szomszéd város, nem Vecsés"}
+      ],
+      "passStatus": "has_published",
+      "notes": "Újraellenőrzés: Start már publikált. SunVelo — új helyi jelölt, FB elsődleges. INTERSPORT lánc — nem indexelt helyi műhely."
+    },
+    {
+      "name": "Veresegyház",
+      "queries": ["kerékpárbolt Veresegyház NEW", "MindenBringa Veresegyház", "Axus Veresegyház", "No Limit Veresegyház"],
+      "candidates": [
+        {
+          "name": "Axus Bringabolt (Veresegyház)",
+          "addressRaw": "2112 Veresegyház, Fő út 83.",
+          "primaryUrl": "https://www.axusbringa.hu/",
+          "evidenceStatus": "published_already"
+        },
+        {
+          "name": "No Limit Kerékpár, Roller és Sí (Veresegyház)",
+          "addressRaw": "2112 Veresegyház, Budapesti út 3/E.",
+          "primaryUrl": "https://www.nolimitbike.hu/elerhetosegek-230",
+          "evidenceStatus": "published_already"
+        },
+        {
+          "name": "Dynamic Sport Kerékpárüzlet",
+          "addressRaw": "2112 Veresegyház, Erkel Ferenc tér 1.",
+          "primaryUrl": "http://www.dynamic-sport.hu/",
+          "evidenceStatus": "published_already"
+        },
+        {
+          "name": "MindenBringa bolt és szerviz",
+          "addressRaw": "2112 Veresegyház, Fő út 42.",
+          "primaryUrl": "https://www.mindenbringa.com/bolt-es-szerviz",
+          "phone": ["+36 20 237 4334"],
+          "email": ["ugyfelszolgalat@mindenbringa.hu"],
+          "rolesHint": ["eladas", "szerviz"],
+          "evidenceStatus": "primary_confirmed_new_vs_catalog"
+        }
+      ],
+      "nearbyRejected": [
+        {"name": "No Limit", "city": "Dunakeszi", "reason": "külön telephely, nem Veresegyház cím"}
+      ],
+      "passStatus": "has_published",
+      "notes": "Újraellenőrzés: MindenBringa új a katalógushoz képest; többi már publikált."
+    },
+    {
+      "name": "Verőce",
+      "queries": ["kerékpárbolt Verőce", "Dunakanyar kerékpár szerviz Verőce", "kerékpárszerviz Verőce Árpád út 71", "Verőce bringa Facebook"],
+      "candidates": [
+        {
+          "name": "Dunakanyar kerékpár szerviz",
+          "addressRaw": "2621 Verőce, Árpád út 71.",
+          "primaryUrl": null,
+          "aggregatorUrls": [
+            "https://kerekpar.info/hely/dunakanyar-kerekpar-szerviz-K0",
+            "https://magyarvelemeny.com/elektronikai-szakuzlet/veroce/kerekparszerviz/"
+          ],
+          "phone": ["+36 30 360 0806"],
+          "rolesHint": ["szerviz"],
+          "evidenceStatus": "aggregator_only"
+        }
+      ],
+      "nearbyRejected": [
+        {"name": "El-Tekerentyű / Tekerentyű Szerelde", "city": "Visegrád", "reason": "Visegrád, nem Verőce"},
+        {"name": "Napkereki Küküllő Kerékpár Szervíz", "city": "Nagymaros", "reason": "túloldal, KEM"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Erős Maps/kerekpar.info jelenlét, de nincs nyitható saját web/Facebook URL első körben."
+    },
+    {
+      "name": "Verseg",
+      "queries": ["kerékpárbolt Verseg", "kerékpárszerviz Verseg", "biciklijavítás Verseg", "Verseg kerékpár Facebook"],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "Dunakanyar kerékpár szerviz", "city": "Verőce", "reason": "legközelebbi azonosított szerviz"},
+        {"name": "El-Tekerentyű", "city": "Visegrád", "reason": "Dunakanyar"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Kisméretű dunakanyari település."
+    },
+    {
+      "name": "Visegrád",
+      "queries": ["Tekerentyű Szerelde Visegrád", "eltekerentyu.hu", "kerékpárszerviz Visegrád Nap utca", "tekerentyu.hu", "Visegrád kerékpár kölcsönzés"],
+      "candidates": [
+        {
+          "name": "Tekerentyű Szerelde / El-Tekerentyű (e-bike túra, kölcsönzés, szerviz)",
+          "addressRaw": "2025 Visegrád, Nap utca 4.",
+          "primaryUrl": "https://eltekerentyu.hu/",
+          "altUrls": ["https://tekerentyu.hu/", "https://www.visegrad.hu/intezmenyek/varosi-kisokos/uzletek"],
+          "phone": ["+36 30 479 9740", "+36 20 343 9374"],
+          "email": ["eltekerentyu@gmail.com", "bigfooture@gmail.com"],
+          "rolesHint": ["szerviz", "kolcsonzes", "e-bike-szerviz", "e-bike-kolcsonzes"],
+          "evidenceStatus": "primary_confirmed"
+        }
+      ],
+      "nearbyRejected": [
+        {"name": "DunakanyarBike", "city": "Nagymaros", "reason": "Nagymaros Fő tér, e-bike bérlés"},
+        {"name": "Zebizerge / Bakec", "city": "Zebegény", "reason": "szomszéd, roller/kölcsönző"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Önkormányzati kisokos + eltekerentyu.hu: kerékpár szerviz és bérlés azonos címen."
+    },
+    {
+      "name": "Zebegény",
+      "queries": ["kerékpárbolt Zebegény", "Bakec kerékpárkölcsönző Zebegény", "zebizerge.hu", "kerékpárszerviz Zebegény"],
+      "candidates": [
+        {
+          "name": "Zebizerge E-Roller Center / Bakec Kerékpárkölcsönző",
+          "addressRaw": "2627 Zebegény, Árpád út 1/c",
+          "primaryUrl": "https://www.zebizerge.hu/",
+          "phone": ["+36 30 925 2282"],
+          "email": ["zebizerge@gmail.com"],
+          "rolesHint": ["kolcsonzes", "roller-kolcsonzes"],
+          "evidenceStatus": "primary_confirmed_rental_focus"
+        }
+      ],
+      "nearbyRejected": [
+        {"name": "El-Tekerentyű", "city": "Visegrád", "reason": "szomszéd, teljesebb szerviz/kölcsönző"},
+        {"name": "Dunakanyar kerékpár szerviz", "city": "Verőce", "reason": "Verőce"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Saját oldal: e-roller kölcsönzés; klasszikus kerékpárbolt/szerviz szerep gyenge — pending."
+    },
+    {
+      "name": "Zsámbék",
+      "queries": ["Tekerő Zsámbék", "tekero.hu", "kerékpárszerviz Zsámbék"],
+      "candidates": [
+        {
+          "name": "Tekerő kerékpár szerviz",
+          "addressRaw": "2072 Zsámbék, Petőfi Sándor u. – Honvéd u. sarok",
+          "primaryUrl": "https://tekero.hu/",
+          "phone": ["+36 30 565 9451"],
+          "evidenceStatus": "published_already"
+        }
+      ],
+      "nearbyRejected": [
+        {"name": "TAK Bike", "city": "Biatorbágy", "reason": "nem Zsámbék"}
+      ],
+      "passStatus": "has_published",
+      "notes": "Már publikálva."
+    },
+    {
+      "name": "Zsámbok",
+      "queries": ["kerékpárbolt Zsámbok", "kerékpárszerviz Zsámbok", "biciklijavítás Zsámbok", "Zsámbok bringa Facebook"],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "Fóti / Gödöllői szolgáltatók", "city": "Gödöllő", "reason": "Gödöllői agglomeráció"},
+        {"name": "Javi Kerékpárbolt", "city": "Maglód", "reason": "már publikált, távoli"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": null
+    }
+  ],
+  "highConfidencePublishable": [
+    {
+      "name": "Bladeus Design Kft. (kerékpárszerelés)",
+      "city": "Üllő",
+      "addressRaw": "2225 Üllő, Pávai-Vajna utca 5/B",
+      "website": "https://bladeus.hu/kapcsolat/",
+      "rolesSuggested": ["szerviz"],
+      "evidence": {"url": "https://bladeus.hu/kapcsolat/", "pageTitle": "Kapcsolat - Bladeus Design Kft."}
+    },
+    {
+      "name": "Tekerentyű Szerelde / El-Tekerentyű",
+      "city": "Visegrád",
+      "addressRaw": "2025 Visegrád, Nap utca 4.",
+      "website": "https://eltekerentyu.hu/",
+      "rolesSuggested": ["szerviz", "kolcsonzes", "e-bike-szerviz", "e-bike-kolcsonzes"],
+      "evidence": {"url": "https://www.visegrad.hu/intezmenyek/varosi-kisokos/uzletek", "pageTitle": "Kerékpár szervíz — Tekerentyű Szerelde"}
+    },
+    {
+      "name": "MindenBringa bolt és szerviz",
+      "city": "Veresegyház",
+      "addressRaw": "2112 Veresegyház, Fő út 42.",
+      "website": "https://www.mindenbringa.com/bolt-es-szerviz",
+      "rolesSuggested": ["eladas", "szerviz"],
+      "evidence": {"url": "https://www.mindenbringa.com/bolt-es-szerviz", "pageTitle": "Bolt és Szerviz | MindenBringa"}
+    }
+  ],
+  "pendingVerification": [
+    {
+      "name": "Dunakanyar kerékpár szerviz",
+      "city": "Verőce",
+      "addressRaw": "2621 Verőce, Árpád út 71.",
+      "barrier": "Csak aggregátor/Maps (kerekpar.info, magyarvelemeny); saját weboldal/Facebook nem nyitható megbízhatóan.",
+      "candidateUrl": "https://kerekpar.info/hely/dunakanyar-kerekpar-szerviz-K0",
+      "phoneHint": "+36 30 360 0806"
+    },
+    {
+      "name": "Bozsó Kerékpár",
+      "city": "Tápiószele",
+      "addressRaw": "2766 Tápiószele, Kossuth Lajos út 23. vs Bartók Béla u. 12.",
+      "barrier": "Nincs saját oldal; címeltérés az aggregátorok között.",
+      "candidateUrl": "https://kerekpar.info/hely/bozso-kerekpar---tapioszele-5v",
+      "phoneHint": "+36 20 341 7855"
+    },
+    {
+      "name": "Jaku eRoller és elektromos kerékpár szaküzlet",
+      "city": "Vác",
+      "addressRaw": "2600 Vác, Zrínyi Miklós utca 17.",
+      "barrier": "Új a katalógushoz képest; erős e-roller/e-bike fókusz — hagyományos kerékpár-szerepek külön igazolása.",
+      "candidateUrl": "https://rollerwebaruhazvac.hu/",
+      "phoneHint": null
+    },
+    {
+      "name": "SunVelo Bike & Coffee",
+      "city": "Vecsés",
+      "addressRaw": "2220 Vecsés, Telepi út 34.",
+      "barrier": "Új a katalógushoz képest; elsődleges URL Facebook (sunvelocycling); sunvelo.hu nem elérhető fetch-sel.",
+      "candidateUrl": "https://www.facebook.com/sunvelocycling",
+      "phoneHint": null
+    },
+    {
+      "name": "Zebizerge / Bakec Kerékpárkölcsönző",
+      "city": "Zebegény",
+      "addressRaw": "2627 Zebegény, Árpád út 1/c",
+      "barrier": "Saját oldal (zebizerge.hu) főleg e-roller kölcsönzés; kerékpár-szerviz szerep nem igazolt.",
+      "candidateUrl": "https://www.zebizerge.hu/",
+      "phoneHint": "+36 30 925 2282"
+    },
+    {
+      "name": "Bicikliszerviz (Erik — ProVendo)",
+      "city": "Üllő",
+      "addressRaw": "2225 Üllő",
+      "barrier": "Apróhirdetés-platform (ProVendo), magánszemély; fix műhelycím hiányzik.",
+      "candidateUrl": "https://provendo.hu/ad/bicikliszerviz-ullon-503577",
+      "phoneHint": null
+    }
+  ]
+}

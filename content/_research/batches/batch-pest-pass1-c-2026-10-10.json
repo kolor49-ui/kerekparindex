@@ -1,0 +1,232 @@
+{
+  "batchId": "batch-pest-pass1-c-2026-10-10",
+  "accessedAt": "2026-10-10",
+  "notes": "Pest első kör C adag — igazolt saját oldalak / webáruház telephely.",
+  "items": [
+    {
+      "idSlug": "bringazo-kerekpar-szerviz-budajeno",
+      "name": "Bringázó Kerékpár Szerviz",
+      "city": "Budajenő",
+      "addressRaw": "2093 Budajenő, Telki út 13.",
+      "website": "https://bringazo.hu/",
+      "phone": ["+36 30 789 5969"],
+      "email": ["hello@bringazo.hu"],
+      "openingHours": "H–P 7:00–17:00, Szo 7:00–14:00",
+      "roles": ["szerviz", "e-bike-szerviz"],
+      "roleEvidence": {
+        "szerviz": {"url": "https://bringazo.hu/", "pageTitle": "Bringázó Kerékpár Szerviz Budajenő"},
+        "e-bike-szerviz": {"url": "https://bringazo.hu/", "pageTitle": "Hivatalos Bosch / Fazua tanúsítvány — eBike"}
+      },
+      "brandClaims": [],
+      "evidence": {"url": "https://bringazo.hu/", "pageTitle": "Bringázó - Kerékpárszervíz"},
+      "notes": "Eladás nincs a saját oldalon.",
+      "heldBack": false
+    },
+    {
+      "idSlug": "koncz-elektromos-cegledbercel",
+      "name": "Koncz Elektromos Kerékpár és Robogó (elektromoskerekpar.net)",
+      "city": "Ceglédbercel",
+      "addressRaw": "2737 Ceglédbercel, Pesti út 168.",
+      "website": "https://www.elektromoskerekpar.net/",
+      "phone": ["+36 53 378 278"],
+      "email": ["koncz@robogo3k.hu"],
+      "openingHours": null,
+      "roles": ["eladas", "szerviz"],
+      "roleEvidence": {
+        "eladas": {"url": "https://www.elektromoskerekpar.net/", "pageTitle": "Ceglédberceli szaküzlet — e-bike / Csepel"},
+        "szerviz": {"url": "https://www.elektromoskerekpar.net/", "pageTitle": "szervizünk által üzembe helyezve"}
+      },
+      "brandClaims": [],
+      "evidence": {"url": "https://www.elektromoskerekpar.net/", "pageTitle": "Elektromos kerékpárok — Koncz Ceglédbercel"},
+      "notes": "E-jármű + hagyományos Csepel is; robogó/tricikli is a kínálatban.",
+      "heldBack": false
+    },
+    {
+      "idSlug": "multi-bringa-dabas",
+      "name": "Multi-Bringa",
+      "city": "Dabas",
+      "addressRaw": "2370 Dabas, Csarnok utca 10.",
+      "website": "https://multi-bringa.hu/rolunk",
+      "phone": ["+36 29 362 528", "+36 20 941 1429"],
+      "email": ["info@multi-bringa.hu"],
+      "openingHours": null,
+      "roles": ["eladas"],
+      "roleEvidence": {
+        "eladas": {"url": "https://multi-bringa.hu/rolunk", "pageTitle": "kerékpárok forgalmazása — Csarnok utca 10."}
+      },
+      "brandClaims": [],
+      "evidence": {"url": "https://multi-bringa.hu/rolunk", "pageTitle": "MULTI-BRINGA Webshop — Rólunk"},
+      "notes": "Kerékpárszerviz a saját Rólunk oldalon nincs külön igazolva (motorszerviz partner Bartók Béla út). Aggregátorok szervizt említenek — szerviz pending.",
+      "heldBack": false
+    },
+    {
+      "idSlug": "zelo-kerekparszerviz-dabas",
+      "name": "ZELO Kerékpárszerviz",
+      "city": "Dabas",
+      "addressRaw": "2370 Dabas, Zlinszky utca 21.",
+      "website": "http://zeloszerviz.ingyenweb.hu/index_elemei/Page383.htm",
+      "phone": ["+36 20 399 4473"],
+      "email": ["drk104@gmail.com"],
+      "openingHours": null,
+      "roles": ["szerviz", "e-bike-szerviz"],
+      "roleEvidence": {
+        "szerviz": {"url": "http://zelokerekpar.hupont.hu/", "pageTitle": "Zelo kerékpár szerviz Dabas"},
+        "e-bike-szerviz": {"url": "http://zelokerekpar.hupont.hu/", "pageTitle": "elektromos kerékpárok szervizelése"}
+      },
+      "brandClaims": [],
+      "evidence": {"url": "http://zeloszerviz.ingyenweb.hu/index_elemei/Page383.htm", "pageTitle": "ZELO — Zlinszky utca 21."},
+      "notes": "Eladás: alkatrész említve; teljes kerékpáreladás nem igazolt.",
+      "heldBack": false
+    },
+    {
+      "idSlug": "bringalambos-dunaharaszti",
+      "name": "Bringalambos bolt és szerviz",
+      "city": "Dunaharaszti",
+      "addressRaw": "2330 Dunaharaszti, Somogyváry utca 28.",
+      "website": "https://fogaskerekpar.hu/hu/kapcsolat",
+      "phone": ["+36 20 943 8555"],
+      "email": [],
+      "openingHours": "H–K 9–12 és 16–18:30, Sze 16–18:30, Cs–P 9–12 és 16–18:30, Szo 10–13",
+      "roles": ["eladas", "szerviz"],
+      "roleEvidence": {
+        "eladas": {"url": "https://fogaskerekpar.hu/hu/kapcsolat", "pageTitle": "Bringalambos — Értékesítés, szerviz"},
+        "szerviz": {"url": "https://fogaskerekpar.hu/hu/kapcsolat", "pageTitle": "Bringalambos bolt és szerviz"}
+      },
+      "brandClaims": [],
+      "evidence": {"url": "https://fogaskerekpar.hu/hu/kapcsolat", "pageTitle": "Kapcsolat | Fogaskerékpár"},
+      "notes": "Budapest Klauzál utca testvérüzlet nem ebben a batchben.",
+      "heldBack": false
+    },
+    {
+      "idSlug": "hamori-sport-pomaz",
+      "name": "Hámori Sport",
+      "city": "Pomáz",
+      "addressRaw": "2013 Pomáz, Kossuth út 37.",
+      "website": "http://www.hamorisport.hu/",
+      "phone": ["+36 26 323 936", "+36 20 368 5642"],
+      "email": ["hamorisport@gmail.com"],
+      "openingHours": null,
+      "roles": ["eladas"],
+      "roleEvidence": {
+        "eladas": {"url": "http://www.hamorisport.hu/", "pageTitle": "Hámorisport — kerékpárok kínálata"}
+      },
+      "brandClaims": [],
+      "evidence": {"url": "http://www.hamorisport.hu/", "pageTitle": "Hámorisport Pomáz"},
+      "notes": "Szerviz a főoldalon nincs külön igazolva.",
+      "heldBack": false
+    },
+    {
+      "idSlug": "kalman-bringa-19-pilis",
+      "name": "Kálmán Bringa 19",
+      "city": "Pilis",
+      "addressRaw": "2721 Pilis, Kossuth Lajos u. 51.",
+      "website": "https://kalmanbringa19.webnode.hu/szolgaltatasok/",
+      "phone": ["+36 70 776 3935", "+36 70 775 4812"],
+      "email": ["bringa19bt@gmail.com"],
+      "openingHours": null,
+      "roles": ["eladas", "szerviz"],
+      "roleEvidence": {
+        "eladas": {"url": "https://kalmanbringa19.webnode.hu/szolgaltatasok/", "pageTitle": "Kerékpárokat kínálunk"},
+        "szerviz": {"url": "https://kalmanbringa19.webnode.hu/szolgaltatasok/", "pageTitle": "Szerviz — kerékpárok javítása"}
+      },
+      "brandClaims": [],
+      "evidence": {"url": "https://kalmanbringa19.webnode.hu/szolgaltatasok/", "pageTitle": "Szolgáltatások :: Kálmán bringa 19"},
+      "notes": null,
+      "heldBack": false
+    },
+    {
+      "idSlug": "kerekmania-szentendre",
+      "name": "Kerékmánia Kerékpárbolt és Szerviz",
+      "city": "Szentendre",
+      "addressRaw": "2000 Szentendre, Kossuth Lajos u. 17-19. (Holdas udvar)",
+      "website": "http://kerekmania.hu/kapcsolat.html",
+      "phone": ["+36 20 523 0262"],
+      "email": [],
+      "openingHours": "H–P 9:00–18:00, Szo 9:00–14:00",
+      "roles": ["eladas", "szerviz"],
+      "roleEvidence": {
+        "eladas": {"url": "http://kerekmania.hu/kapcsolat.html", "pageTitle": "Kerékpárbolt és Szerviz"},
+        "szerviz": {"url": "http://kerekmania.hu/kapcsolat.html", "pageTitle": "Kerékpárbolt és Szerviz"}
+      },
+      "brandClaims": [],
+      "evidence": {"url": "http://kerekmania.hu/kapcsolat.html", "pageTitle": "KerékMánia - Kapcsolat"},
+      "notes": "Székhely Hamvas Béla u. — bolt a Kossuth Lajos u. 17-19.",
+      "heldBack": false
+    },
+    {
+      "idSlug": "ebikeshop-torokbalint",
+      "name": "Ebikeshop Törökbálint",
+      "city": "Törökbálint",
+      "addressRaw": "2045 Törökbálint, Dulácska u. 2.",
+      "website": "https://ebikeshop.hu/uzletek/torokbalint",
+      "phone": ["+36 1 327 4642"],
+      "email": ["info@ebikeshop.hu"],
+      "openingHours": "H–P 9:00–17:00, Szo zárva",
+      "roles": ["eladas", "szerviz"],
+      "roleEvidence": {
+        "eladas": {"url": "https://ebikeshop.hu/uzletek/torokbalint", "pageTitle": "Üzlet - Törökbálint"},
+        "szerviz": {"url": "https://ebikeshop.hu/uzletek/torokbalint", "pageTitle": "Teljeskörű szervizelés"}
+      },
+      "brandClaims": [],
+      "evidence": {"url": "https://ebikeshop.hu/uzletek/torokbalint", "pageTitle": "Ebikeshop — Törökbálint"},
+      "notes": "Auchan kereskedelmi park; Tutto Bici külön telephely.",
+      "heldBack": false
+    },
+    {
+      "idSlug": "mindenbringa-veresegyhaz",
+      "name": "MindenBringa",
+      "city": "Veresegyház",
+      "addressRaw": "2112 Veresegyház, Fő út 42.",
+      "website": "https://www.mindenbringa.com/bolt-es-szerviz",
+      "phone": ["+36 20 237 4334"],
+      "email": ["ugyfelszolgalat@mindenbringa.hu"],
+      "openingHours": "K–P 10:00–18:00, Szo 9:00–14:00, H–V zárva",
+      "roles": ["eladas", "szerviz"],
+      "roleEvidence": {
+        "eladas": {"url": "https://www.mindenbringa.com/bolt-es-szerviz", "pageTitle": "új kerékpárboltunk"},
+        "szerviz": {"url": "https://www.mindenbringa.com/bolt-es-szerviz", "pageTitle": "kerékpárszerviz"}
+      },
+      "brandClaims": [],
+      "evidence": {"url": "https://www.mindenbringa.com/bolt-es-szerviz", "pageTitle": "Bolt és Szerviz | MindenBringa"},
+      "notes": null,
+      "heldBack": false
+    },
+    {
+      "idSlug": "napkereki-kukullo-nagymaros",
+      "name": "Napkereki Küküllő kerékpárbolt és szerviz",
+      "city": "Nagymaros",
+      "addressRaw": "2626 Nagymaros, Német utca 28.",
+      "website": "https://old.nagymaros.hu/napkereki-kuekuell/",
+      "phone": ["+36 30 450 9336"],
+      "email": ["napkereki@windowslive.com"],
+      "openingHours": "H–K–Sze–P 10–18, Cs zárva, Szo 9–13",
+      "roles": ["szerviz"],
+      "roleEvidence": {
+        "szerviz": {"url": "https://old.nagymaros.hu/napkereki-kuekuell/", "pageTitle": "Kerékpár javítás, kiegészítők, alkatrészek"}
+      },
+      "brandClaims": [],
+      "evidence": {"url": "https://old.nagymaros.hu/napkereki-kuekuell/", "pageTitle": "Napkereki Küküllő — Nagymaros"},
+      "notes": "Önkormányzati szolgáltatásoldal. Teljes kerékpáreladás nem külön igazolt — csak szerviz publikálva.",
+      "heldBack": false
+    },
+    {
+      "idSlug": "bladeus-ullo",
+      "name": "Bladeus Design — kerékpárszerviz",
+      "city": "Üllő",
+      "addressRaw": "2225 Üllő, Pávai-Vajna utca 5/B.",
+      "website": "https://bladeus.hu/kapcsolat/",
+      "phone": ["+36 30 444 3377"],
+      "email": ["laszlo.peter@bladeus.hu"],
+      "openingHours": "9–12 és 14–17 (előzetes egyeztetés)",
+      "roles": ["szerviz"],
+      "roleEvidence": {
+        "szerviz": {"url": "https://bladeus.hu/", "pageTitle": "kerékpár javítás és kerékpár alkatrész forgalmazás"}
+      },
+      "brandClaims": [],
+      "evidence": {"url": "https://bladeus.hu/kapcsolat/", "pageTitle": "Kapcsolat - Bladeus Design Kft."},
+      "notes": "IT cég + bringaszerviz; előzetes telefonos egyeztetés.",
+      "heldBack": false
+    }
+  ],
+  "heldBack": []
+}

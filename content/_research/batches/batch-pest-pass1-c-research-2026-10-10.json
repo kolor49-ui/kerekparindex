@@ -1,0 +1,1263 @@
+{
+  "accessedAt": "2026-10-10",
+  "unit": "Pest vármegye",
+  "batchNote": "First pass O–Sz settlements + re-check Ócsa/Szentendre/Szigetszentmiklós/Törökbálint (NEW only). Primary URLs opened for strong hits.",
+  "highConfidencePublishable": [
+    {
+      "settlement": "Pomáz",
+      "name": "Hámori Sport / Hámori Kerékpárbolt és szerviz",
+      "addressRaw": "2013 Pomáz, Kossuth Lajos utca 37.",
+      "primaryUrl": "http://www.hamorisport.hu/",
+      "phone": [
+        "+36 26 323 936",
+        "+36 20 368 5642"
+      ],
+      "email": [
+        "hamorisport@gmail.com"
+      ],
+      "rolesHint": [
+        "eladas",
+        "szerviz"
+      ],
+      "evidenceNote": "Saját webshop + kapcsolat; kiegészítő/szerviz kategória oldal."
+    },
+    {
+      "settlement": "Pilis",
+      "name": "Kálmán Bringa 19 Bt. (Kerékpár szaküzlet és szerviz)",
+      "addressRaw": "2721 Pilis, Kossuth Lajos utca 51.",
+      "primaryUrl": "https://kalmanbringa19.webnode.hu/szolgaltatasok/",
+      "phone": [
+        "+36 70 776 3935",
+        "+36 70 775 4812"
+      ],
+      "email": [
+        "bringa19bt@gmail.com"
+      ],
+      "rolesHint": [
+        "eladas",
+        "szerviz"
+      ],
+      "evidenceNote": "Saját webnode: kerékpár, kiegészítő, szerviz szövegesen."
+    },
+    {
+      "settlement": "Szentendre",
+      "reCheck": "NEW only",
+      "name": "Kerékmánia Sportfelszerelés, Kerékpárbolt és Szerviz",
+      "addressRaw": "2000 Szentendre, Kossuth Lajos utca 17–19. (Holdas udvar)",
+      "primaryUrl": "http://kerekmania.hu/kapcsolat.html",
+      "phone": [
+        "+36 20 523 0262"
+      ],
+      "rolesHint": [
+        "eladas",
+        "szerviz"
+      ],
+      "evidenceNote": "Nincs a publikált listában (Balázs már publikált). Kapcsolat oldal: bolt + szerviz név."
+    },
+    {
+      "settlement": "Törökbálint",
+      "reCheck": "NEW only",
+      "name": "Ebikeshop Törökbálint (elektromos kerékpár szaküzlet)",
+      "addressRaw": "2045 Törökbálint, Dulácska utca 2.",
+      "primaryUrl": "https://ebikeshop.hu/uzletek/torokbalint",
+      "phone": [
+        "+36 1 327 4642"
+      ],
+      "email": [
+        "info@ebikeshop.hu"
+      ],
+      "rolesHint": [
+        "eladas",
+        "szerviz"
+      ],
+      "evidenceNote": "Tutto Bici már publikált; ez külön telephely, saját üzletoldal, teljeskörű szervizelés."
+    }
+  ],
+  "pendingVerification": [
+    {
+      "settlement": "Pomáz",
+      "name": "Pomáz Bringa",
+      "addressRaw": "2013 Pomáz, Illyés Gyula utca 29.",
+      "barrier": "Csak aggregátor/értékelő (Turul, magyarvelemeny); nincs nyitott elsődleges domain.",
+      "candidateUrl": "https://www.kerekparturul.eu/profile-10174-pomaz-bringa"
+    },
+    {
+      "settlement": "Pécel",
+      "name": "Péceli Bringa szerviz / Péceli Kerékpár Szerviz",
+      "addressRaw": "2119 Pécel, Mátyás király tér 7.",
+      "barrier": "pecelibringaszerviz.hu eszközzel 502; Facebook/Maps jelölt.",
+      "candidateUrl": "http://www.pecelibringaszerviz.hu/",
+      "phoneHint": "+36 20 947 5406"
+    },
+    {
+      "settlement": "Ráckeve",
+      "name": "Mike's Bikes & Bytes",
+      "addressRaw": "2300 Ráckeve, Lacházi út 32.",
+      "barrier": "Aggregátor + Maps; nincs igazolt saját web.",
+      "candidateUrl": "https://www.kerekparturul.eu/profile-8193-mike-s-bikes-and-bytes"
+    },
+    {
+      "settlement": "Ráckeve",
+      "name": "V+M '96 Kft. Kerékpárüzlet és szerviz",
+      "addressRaw": "2300 Ráckeve, Móricz Zsigmond utca 15.",
+      "barrier": "kerekpar.info + aggregátor; régi Kossuth u. 17. listaütközés.",
+      "candidateUrl": "https://kerekpar.info/bolt/rackeve",
+      "phoneHint": "+36 24 519 420"
+    },
+    {
+      "settlement": "Százhalombatta",
+      "name": "Kerékpárüzlet és Szerviz (Mikrobike Bt.)",
+      "addressRaw": "2440 Százhalombatta, Jedlik Ányos utca 11.",
+      "barrier": "Csak üzletjegyzék/Arany Oldalak; nincs elsődleges oldal.",
+      "candidateUrl": "https://aranyoldalak.hu/kerekpar-szerviz/szazhalombatta/",
+      "phoneHint": "+36 23 350 607"
+    },
+    {
+      "settlement": "Piliscsaba",
+      "name": "Pilis Bike Shop",
+      "addressRaw": "2081 Piliscsaba, Fő út 135.",
+      "barrier": "Elsődleges URL Facebook; aggregátorok egyeznek.",
+      "candidateUrl": "https://www.facebook.com/Pilisbikeshop/",
+      "phoneHint": "+36 20 367 0412"
+    },
+    {
+      "settlement": "Sülysáp",
+      "name": "Tápióbringa",
+      "addressRaw": "2241 Sülysáp, Fő utca 88.",
+      "barrier": "Csak értékelő/aggregátor.",
+      "candidateUrl": "https://magyarvelemeny.com/kerekparbolt/sulysap/tapiobringa/"
+    },
+    {
+      "settlement": "Szigethalom",
+      "name": "Szigethalom Kerékpárbolt és Szerviz (Veloat Bt.)",
+      "addressRaw": "2315 Szigethalom, Mű út 86.",
+      "barrier": "Aggregátor/2GO; Facebook jelölt, nincs saját domain.",
+      "candidateUrl": "https://2gohungary.com/item/szigethalom-kerekparbolt-es-szerviz/",
+      "phoneHint": "+36 20 418 6309"
+    },
+    {
+      "settlement": "Pusztavacs",
+      "name": "Használtbicajok Kerékpár Webshop",
+      "addressRaw": "Pusztavacs (telephely-cím hiányzik a főoldalon; időpont-egyeztetés)",
+      "barrier": "Webshop van, de nincs publikálható utcai cím az elsődleges oldalon.",
+      "candidateUrl": "http://www.hasznaltbicajok.hu/",
+      "phoneHint": "+36 70 325 4204"
+    },
+    {
+      "settlement": "Őrbottyán",
+      "name": "Bottyán Bringa",
+      "addressRaw": "2162 Őrbottyán (utcai bolt-cím nem igazolt)",
+      "barrier": "JóSzaki profil: Google→Bottyán Bringa; nincs saját web.",
+      "candidateUrl": "https://joszaki.hu/szakemberek/kerekpar-szerviz/orbottyan",
+      "phoneHint": "+36 70 408 4405",
+      "emailHint": "bottyanbringa@gmail.com"
+    },
+    {
+      "settlement": "Szigetszentmiklós",
+      "reCheck": "NEW only",
+      "name": "Szigetkerékpár",
+      "addressRaw": "2310 Szigetszentmiklós, Ifjúság útja 1. / Gyári út 9. (címeltérés)",
+      "barrier": "Már ledgerben; nem új találat — továbbra is pending/unreachable.",
+      "candidateUrl": "https://kerekpar.info/hely/szigetkerekpar-5B"
+    }
+  ],
+  "settlements": [
+    {
+      "name": "Őrbottyán",
+      "queries": [
+        "Őrbottyán kerékpárbolt",
+        "Őrbottyán kerékpárüzlet",
+        "Őrbottyán kerékpárszerviz",
+        "Őrbottyán biciklijavítás",
+        "Őrbottyán bringaszerviz",
+        "site:facebook.com Őrbottyán kerékpár",
+        "site:bikefun.hu Őrbottyán"
+      ],
+      "candidates": [
+        {
+          "name": "Bottyán Bringa",
+          "outcome": "pending_verification",
+          "source": "joszaki.hu profil"
+        }
+      ],
+      "nearbyRejected": [
+        {
+          "name": "CANGA mobil szerviz",
+          "city": "Budapest XV.",
+          "reason": "háztól-házig, nem helyi bolt"
+        }
+      ],
+      "passStatus": "pass_incomplete",
+      "notes": "Helyi szerviz-jelölt email/telefon; nincs igazolt utcai üzletcím."
+    },
+    {
+      "name": "Örkény",
+      "queries": [
+        "Örkény kerékpárbolt",
+        "Örkény kerékpárüzlet",
+        "Örkény kerékpárszerviz",
+        "Örkény biciklijavítás",
+        "Örkény bringaszerviz",
+        "site:facebook.com Örkény kerékpár",
+        "site:bikefun.hu Örkény"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {
+          "name": "Wheel kerékpár szerviz",
+          "city": "Győr (Örkény István u.)",
+          "reason": "utcanév, nem Örkény település"
+        }
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Településen kerékpárbolt/szerviz nem került elő a körben."
+    },
+    {
+      "name": "Pánd",
+      "queries": [
+        "Pánd kerékpárbolt",
+        "Pánd kerékpárüzlet",
+        "Pánd kerékpárszerviz",
+        "Pánd biciklijavítás",
+        "Pánd bringaszerviz",
+        "site:facebook.com Pánd kerékpár",
+        "site:bikefun.hu Pánd"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {
+          "name": "BRINGOSZ Kerékpárműhely",
+          "city": "Pázmánd",
+          "reason": "szomszéd település (~15 km)"
+        }
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Nincs helyi találat; Velence-tó környék — Pázmánd BRINGOSZ nem local."
+    },
+    {
+      "name": "Páty",
+      "queries": [
+        "Páty kerékpárbolt",
+        "Páty kerékpárüzlet",
+        "Páty kerékpárszerviz",
+        "Páty biciklijavítás",
+        "Páty bringaszerviz",
+        "site:facebook.com Páty kerékpár",
+        "site:bikefun.hu Páty"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {
+          "name": "Sólyom Bike",
+          "city": "Érd",
+          "reason": "agglomeráció, nem Páty"
+        },
+        {
+          "name": "Diósdi Kerékpárcentrum",
+          "city": "Diósd",
+          "reason": "BikeFun közeli lista"
+        }
+      ],
+      "passStatus": "has_published",
+      "notes": "Pátyi Kerékpárbolt már publikált; ebben a körben további helyi üzlet nem igazolt."
+    },
+    {
+      "name": "Pécel",
+      "queries": [
+        "Pécel kerékpárbolt",
+        "Pécel kerékpárüzlet",
+        "Pécel kerékpárszerviz",
+        "Pécel biciklijavítás",
+        "Pécel bringaszerviz",
+        "site:facebook.com Pécel kerékpár",
+        "site:bikefun.hu Pécel"
+      ],
+      "candidates": [
+        {
+          "name": "Péceli Bringa szerviz",
+          "address": "2119 Pécel, Mátyás király tér 7.",
+          "outcome": "pending_verification",
+          "url": "http://www.pecelibringaszerviz.hu/"
+        }
+      ],
+      "nearbyRejected": [
+        {
+          "name": "Bicajos bolt",
+          "city": "Fót",
+          "reason": "szomszéd járás"
+        }
+      ],
+      "passStatus": "pass_incomplete",
+      "notes": "Erős Maps/Facebook jel; saját domain 502."
+    },
+    {
+      "name": "Penc",
+      "queries": [
+        "Penc kerékpárbolt",
+        "Penc kerékpárüzlet",
+        "Penc kerékpárszerviz",
+        "Penc biciklijavítás",
+        "Penc bringaszerviz",
+        "site:facebook.com Penc kerékpár",
+        "site:bikefun.hu Penc"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {
+          "name": "Hámori Sport",
+          "city": "Pomáz",
+          "reason": "közeli város"
+        }
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Nincs helyi kerékpárüzlet találat."
+    },
+    {
+      "name": "Perbál",
+      "queries": [
+        "Perbál kerékpárbolt",
+        "Perbál kerékpárüzlet",
+        "Perbál kerékpárszerviz",
+        "Perbál biciklijavítás",
+        "Perbál bringaszerviz",
+        "site:facebook.com Perbál kerékpár",
+        "site:bikefun.hu Perbál"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {
+          "name": "Pilis Bike Shop",
+          "city": "Piliscsaba",
+          "reason": "szomszéd"
+        }
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Nincs helyi találat."
+    },
+    {
+      "name": "Perőcsény",
+      "queries": [
+        "Perőcsény kerékpárbolt",
+        "Perőcsény kerékpárüzlet",
+        "Perőcsény kerékpárszerviz",
+        "Perőcsény biciklijavítás",
+        "Perőcsény bringaszerviz",
+        "site:facebook.com Perőcsény kerékpár",
+        "site:bikefun.hu Perőcsény"
+      ],
+      "candidates": [],
+      "nearbyRejected": [],
+      "passStatus": "first_pass_closed",
+      "notes": "Kisméretű dunai falu; keresési kör üres."
+    },
+    {
+      "name": "Péteri",
+      "queries": [
+        "Péteri kerékpárbolt",
+        "Péteri kerékpárüzlet",
+        "Péteri kerékpárszerviz",
+        "Péteri biciklijavítás",
+        "Péteri bringaszerviz",
+        "site:facebook.com Péteri kerékpár",
+        "site:bikefun.hu Péteri"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {
+          "name": "Péceli Bringa szerviz",
+          "city": "Pécel",
+          "reason": "szomszéd"
+        }
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Nincs helyi találat."
+    },
+    {
+      "name": "Pilis",
+      "queries": [
+        "Pilis kerékpárbolt",
+        "Pilis kerékpárüzlet",
+        "Pilis kerékpárszerviz",
+        "Pilis biciklijavítás",
+        "Pilis bringaszerviz",
+        "site:facebook.com Pilis kerékpár",
+        "site:bikefun.hu Pilis"
+      ],
+      "candidates": [
+        {
+          "name": "Kálmán Bringa 19 Bt.",
+          "address": "2721 Pilis, Kossuth Lajos u. 51.",
+          "outcome": "high_confidence",
+          "url": "https://kalmanbringa19.webnode.hu/"
+        }
+      ],
+      "nearbyRejected": [
+        {
+          "name": "BRINGA DOKI",
+          "city": "Albertirsa",
+          "reason": "18+ km"
+        }
+      ],
+      "passStatus": "pass_incomplete",
+      "notes": "Publishable jelölt; Bringa-Napsugár Butik Rákóczi 22. ruházat, nem kerékpár-szaküzlet."
+    },
+    {
+      "name": "Pilisborosjenő",
+      "queries": [
+        "Pilisborosjenő kerékpárbolt",
+        "Pilisborosjenő kerékpárüzlet",
+        "Pilisborosjenő kerékpárszerviz",
+        "Pilisborosjenő biciklijavítás",
+        "Pilisborosjenő bringaszerviz",
+        "site:facebook.com Pilisborosjenő kerékpár",
+        "site:bikefun.hu Pilisborosjenő"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {
+          "name": "Mountain-Béka",
+          "city": "Budakeszi",
+          "reason": "Pilis-vonulat, nem település"
+        },
+        {
+          "name": "Pilis Bike (P+B)",
+          "city": "Pilisszentiván",
+          "reason": "turista P+B, nem bolt"
+        }
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Pilis Bike hálózat turistaút, nem kerékpárbolt."
+    },
+    {
+      "name": "Piliscsaba",
+      "queries": [
+        "Piliscsaba kerékpárbolt",
+        "Piliscsaba kerékpárüzlet",
+        "Piliscsaba kerékpárszerviz",
+        "Piliscsaba biciklijavítás",
+        "Piliscsaba bringaszerviz",
+        "site:facebook.com Piliscsaba kerékpár",
+        "site:bikefun.hu Piliscsaba"
+      ],
+      "candidates": [
+        {
+          "name": "Pilis Bike Shop",
+          "address": "2081 Piliscsaba, Fő út 135.",
+          "outcome": "pending_verification",
+          "url": "https://www.facebook.com/Pilisbikeshop/"
+        }
+      ],
+      "nearbyRejected": [
+        {
+          "name": "Pátyi Kerékpárbolt",
+          "city": "Páty",
+          "reason": "szomszéd"
+        }
+      ],
+      "passStatus": "pass_incomplete",
+      "notes": "Egy helyi Maps-jelölt; elsődleges Facebook."
+    },
+    {
+      "name": "Pilisjászfalu",
+      "queries": [
+        "Pilisjászfalu kerékpárbolt",
+        "Pilisjászfalu kerékpárüzlet",
+        "Pilisjászfalu kerékpárszerviz",
+        "Pilisjászfalu biciklijavítás",
+        "Pilisjászfalu bringaszerviz",
+        "site:facebook.com Pilisjászfalu kerékpár",
+        "site:bikefun.hu Pilisjászfalu"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {
+          "name": "Kerékpár Centrum RideAway",
+          "city": "Pilisvörösvár",
+          "reason": "szomszéd"
+        }
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Nincs helyi találat."
+    },
+    {
+      "name": "Pilisszántó",
+      "queries": [
+        "Pilisszántó kerékpárbolt",
+        "Pilisszántó kerékpárüzlet",
+        "Pilisszántó kerékpárszerviz",
+        "Pilisszántó biciklijavítás",
+        "Pilisszántó bringaszerviz",
+        "site:facebook.com Pilisszántó kerékpár",
+        "site:bikefun.hu Pilisszántó"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {
+          "name": "Balázs Kerékpárbolt",
+          "city": "Szentendre",
+          "reason": "Dunakanyar"
+        }
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Nincs helyi bolt; turista kerékpárút (Pilis Bike)."
+    },
+    {
+      "name": "Pilisszentiván",
+      "queries": [
+        "Pilisszentiván kerékpárbolt",
+        "Pilisszentiván kerékpárüzlet",
+        "Pilisszentiván kerékpárszerviz",
+        "Pilisszentiván biciklijavítás",
+        "Pilisszentiván bringaszerviz",
+        "site:facebook.com Pilisszentiván kerékpár",
+        "site:bikefun.hu Pilisszentiván"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {
+          "name": "Pilis Bike P+B Sportpálya",
+          "city": "Pilisszentiván",
+          "reason": "parkoló/túra, nem szaküzlet"
+        }
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Nincs kerékpárbolt találat."
+    },
+    {
+      "name": "Pilisszentkereszt",
+      "queries": [
+        "Pilisszentkereszt kerékpárbolt",
+        "Pilisszentkereszt kerékpárüzlet",
+        "Pilisszentkereszt kerékpárszerviz",
+        "Pilisszentkereszt biciklijavítás",
+        "Pilisszentkereszt bringaszerviz",
+        "site:facebook.com Pilisszentkereszt kerékpár",
+        "site:bikefun.hu Pilisszentkereszt"
+      ],
+      "candidates": [],
+      "nearbyRejected": [],
+      "passStatus": "first_pass_closed",
+      "notes": "Turista központ; kereskedelmi szerviz nem található."
+    },
+    {
+      "name": "Pilisszentlászló",
+      "queries": [
+        "Pilisszentlászló kerékpárbolt",
+        "Pilisszentlászló kerékpárüzlet",
+        "Pilisszentlászló kerékpárszerviz",
+        "Pilisszentlászló biciklijavítás",
+        "Pilisszentlászló bringaszerviz",
+        "site:facebook.com Pilisszentlászló kerékpár",
+        "site:bikefun.hu Pilisszentlászló"
+      ],
+      "candidates": [],
+      "nearbyRejected": [],
+      "passStatus": "first_pass_closed",
+      "notes": "Pilis Bike túraút; nincs helyi üzlet."
+    },
+    {
+      "name": "Pilisvörösvár",
+      "queries": [
+        "Pilisvörösvár kerékpárbolt",
+        "Pilisvörösvár kerékpárüzlet",
+        "Pilisvörösvár kerékpárszerviz",
+        "Pilisvörösvár biciklijavítás",
+        "Pilisvörösvár bringaszerviz",
+        "site:facebook.com Pilisvörösvár kerékpár",
+        "site:bikefun.hu Pilisvörösvár"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {
+          "name": "Pátyi Kerékpárbolt",
+          "city": "Páty",
+          "reason": "BikeFun közeli"
+        },
+        {
+          "name": "Pilis Bike Shop",
+          "city": "Piliscsaba",
+          "reason": "szomszéd"
+        }
+      ],
+      "passStatus": "has_published",
+      "notes": "RideAway/Kerékpár Centrum már publikált; további helyi üzlet nem igazolt."
+    },
+    {
+      "name": "Pócsmegyer",
+      "queries": [
+        "Pócsmegyer kerékpárbolt",
+        "Pócsmegyer kerékpárüzlet",
+        "Pócsmegyer kerékpárszerviz",
+        "Pócsmegyer biciklijavítás",
+        "Pócsmegyer bringaszerviz",
+        "site:facebook.com Pócsmegyer kerékpár",
+        "site:bikefun.hu Pócsmegyer"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {
+          "name": "Kalász Kerékpár Szerviz",
+          "city": "Budakalász",
+          "reason": "szomszéd"
+        }
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "EuroVelo 6 útvonal; nincs helyi bolt."
+    },
+    {
+      "name": "Pomáz",
+      "queries": [
+        "Pomáz kerékpárbolt",
+        "Pomáz kerékpárüzlet",
+        "Pomáz kerékpárszerviz",
+        "Pomáz biciklijavítás",
+        "Pomáz bringaszerviz",
+        "site:facebook.com Pomáz kerékpár",
+        "site:bikefun.hu Pomáz"
+      ],
+      "candidates": [
+        {
+          "name": "Hámori Sport",
+          "address": "2013 Pomáz, Kossuth Lajos u. 37.",
+          "outcome": "high_confidence",
+          "url": "http://www.hamorisport.hu/"
+        },
+        {
+          "name": "Pomáz Bringa",
+          "address": "2013 Pomáz, Illyés Gyula u. 29.",
+          "outcome": "pending_verification",
+          "url": "https://www.kerekparturul.eu/profile-10174-pomaz-bringa"
+        }
+      ],
+      "nearbyRejected": [
+        {
+          "name": "Kalász Kerékpár Szerviz",
+          "city": "Budakalász",
+          "reason": "3.5 km, más település"
+        },
+        {
+          "name": "Balázs Kerékpárbolt",
+          "city": "Szentendre",
+          "reason": "szomszéd város"
+        }
+      ],
+      "passStatus": "pass_incomplete",
+      "notes": "Két helyi jelölt; Hámori elsődleges web megnyitva."
+    },
+    {
+      "name": "Pusztavacs",
+      "queries": [
+        "Pusztavacs kerékpárbolt",
+        "Pusztavacs kerékpárüzlet",
+        "Pusztavacs kerékpárszerviz",
+        "Pusztavacs biciklijavítás",
+        "Pusztavacs bringaszerviz",
+        "site:facebook.com Pusztavacs kerékpár",
+        "site:bikefun.hu Pusztavacs"
+      ],
+      "candidates": [
+        {
+          "name": "Használtbicajok",
+          "outcome": "pending_verification",
+          "url": "http://www.hasznaltbicajok.hu/"
+        }
+      ],
+      "nearbyRejected": [
+        {
+          "name": "DZ BIKE",
+          "city": "Vác",
+          "reason": "távolabbi város"
+        }
+      ],
+      "passStatus": "pass_incomplete",
+      "notes": "Webshop telephely-cím hiányos."
+    },
+    {
+      "name": "Pusztazámor",
+      "queries": [
+        "Pusztazámor kerékpárbolt",
+        "Pusztazámor kerékpárüzlet",
+        "Pusztazámor kerékpárszerviz",
+        "Pusztazámor biciklijavítás",
+        "Pusztazámor bringaszerviz",
+        "site:facebook.com Pusztazámor kerékpár",
+        "site:bikefun.hu Pusztazámor"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {
+          "name": "Robikes / Sólyom Bike",
+          "city": "Érd",
+          "reason": "agglomeráció"
+        }
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "bikepATIka szervizterület említés, de nincs helyi telephely."
+    },
+    {
+      "name": "Püspökhatvan",
+      "queries": [
+        "Püspökhatvan kerékpárbolt",
+        "Püspökhatvan kerékpárüzlet",
+        "Püspökhatvan kerékpárszerviz",
+        "Püspökhatvan biciklijavítás",
+        "Püspökhatvan bringaszerviz",
+        "site:facebook.com Püspökhatvan kerékpár",
+        "site:bikefun.hu Püspökhatvan"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {
+          "name": "Tápióbringa",
+          "city": "Sülysáp",
+          "reason": "szomszéd"
+        }
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Nincs helyi találat."
+    },
+    {
+      "name": "Püspökszilágy",
+      "queries": [
+        "Püspökszilágy kerékpárbolt",
+        "Püspökszilágy kerékpárüzlet",
+        "Püspökszilágy kerékpárszerviz",
+        "Püspökszilágy biciklijavítás",
+        "Püspökszilágy bringaszerviz",
+        "site:facebook.com Püspökszilágy kerékpár",
+        "site:bikefun.hu Püspökszilágy"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {
+          "name": "No Limit Bike",
+          "city": "Dunakeszi",
+          "reason": "Cserhát-alja agglomeráció"
+        }
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Nincs helyi találat."
+    },
+    {
+      "name": "Ráckeve",
+      "queries": [
+        "Ráckeve kerékpárbolt",
+        "Ráckeve kerékpárüzlet",
+        "Ráckeve kerékpárszerviz",
+        "Ráckeve biciklijavítás",
+        "Ráckeve bringaszerviz",
+        "site:facebook.com Ráckeve kerékpár",
+        "site:bikefun.hu Ráckeve"
+      ],
+      "candidates": [
+        {
+          "name": "Mike's Bikes & Bytes",
+          "address": "2300 Ráckeve, Lacházi út 32.",
+          "outcome": "pending_verification"
+        },
+        {
+          "name": "V+M '96 Kft.",
+          "address": "2300 Ráckeve, Móricz Zsigmond u. 15.",
+          "outcome": "pending_verification"
+        }
+      ],
+      "nearbyRejected": [],
+      "passStatus": "pass_incomplete",
+      "notes": "kerekpar.info 1 bolt; másik csak aggregátorokon."
+    },
+    {
+      "name": "Rád",
+      "queries": [
+        "Rád kerékpárbolt",
+        "Rád kerékpárüzlet",
+        "Rád kerékpárszerviz",
+        "Rád biciklijavítás",
+        "Rád bringaszerviz",
+        "site:facebook.com Rád kerékpár",
+        "site:bikefun.hu Rád"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {
+          "name": "Sólyom Bike",
+          "city": "Érd",
+          "reason": "szomszéd agglomeráció"
+        }
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Nincs helyi találat."
+    },
+    {
+      "name": "Remeteszőlős",
+      "queries": [
+        "Remeteszőlős kerékpárbolt",
+        "Remeteszőlős kerékpárüzlet",
+        "Remeteszőlős kerékpárszerviz",
+        "Remeteszőlős biciklijavítás",
+        "Remeteszőlős bringaszerviz",
+        "site:facebook.com Remeteszőlős kerékpár",
+        "site:bikefun.hu Remeteszőlős"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {
+          "name": "No Limit Bike",
+          "city": "Dunakeszi/Veresegyház",
+          "reason": "szomszéd"
+        },
+        {
+          "name": "RideAway",
+          "city": "Pilisvörösvár",
+          "reason": "Pilis-vonulat"
+        }
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Legkisebb település; nincs helyi üzlet."
+    },
+    {
+      "name": "Solymár",
+      "queries": [
+        "Solymár kerékpárbolt",
+        "Solymár kerékpárüzlet",
+        "Solymár kerékpárszerviz",
+        "Solymár biciklijavítás",
+        "Solymár bringaszerviz",
+        "site:facebook.com Solymár kerékpár",
+        "site:bikefun.hu Solymár"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {
+          "name": "Sólyom Bike",
+          "city": "Érd",
+          "reason": "név hasonlóság, Érd cím"
+        },
+        {
+          "name": "No Limit Bike",
+          "city": "Dunakeszi",
+          "reason": "közeli"
+        }
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "JóSzaki szerviz-lista nem ad helyi boltcímet."
+    },
+    {
+      "name": "Sóskút",
+      "queries": [
+        "Sóskút kerékpárbolt",
+        "Sóskút kerékpárüzlet",
+        "Sóskút kerékpárszerviz",
+        "Sóskút biciklijavítás",
+        "Sóskút bringaszerviz",
+        "site:facebook.com Sóskút kerékpár",
+        "site:bikefun.hu Sóskút"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {
+          "name": "Robikes",
+          "city": "Érd",
+          "reason": "szomszéd"
+        }
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Nincs helyi találat."
+    },
+    {
+      "name": "Sülysáp",
+      "queries": [
+        "Sülysáp kerékpárbolt",
+        "Sülysáp kerékpárüzlet",
+        "Sülysáp kerékpárszerviz",
+        "Sülysáp biciklijavítás",
+        "Sülysáp bringaszerviz",
+        "site:facebook.com Sülysáp kerékpár",
+        "site:bikefun.hu Sülysáp"
+      ],
+      "candidates": [
+        {
+          "name": "Tápióbringa",
+          "address": "2241 Sülysáp, Fő u. 88.",
+          "outcome": "pending_verification"
+        }
+      ],
+      "nearbyRejected": [
+        {
+          "name": "BRINGA DOKI",
+          "city": "Albertirsa",
+          "reason": "szomszéd járás"
+        }
+      ],
+      "passStatus": "pass_incomplete",
+      "notes": "Erős értékelő-profil; aggregátor-only."
+    },
+    {
+      "name": "Szada",
+      "queries": [
+        "Szada kerékpárbolt",
+        "Szada kerékpárüzlet",
+        "Szada kerékpárszerviz",
+        "Szada biciklijavítás",
+        "Szada bringaszerviz",
+        "site:facebook.com Szada kerékpár",
+        "site:bikefun.hu Szada"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {
+          "name": "CANGA háztól-házig",
+          "city": "Bp. XV.",
+          "reason": "Szada szervizterület listán, de nem helyi bolt"
+        }
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Mobil szerviz lefedés ≠ helyi üzlet."
+    },
+    {
+      "name": "Százhalombatta",
+      "queries": [
+        "Százhalombatta kerékpárbolt",
+        "Százhalombatta kerékpárüzlet",
+        "Százhalombatta kerékpárszerviz",
+        "Százhalombatta biciklijavítás",
+        "Százhalombatta bringaszerviz",
+        "site:facebook.com Százhalombatta kerékpár",
+        "site:bikefun.hu Százhalombatta"
+      ],
+      "candidates": [
+        {
+          "name": "Kerékpárüzlet és Szerviz (Mikrobike Bt.)",
+          "address": "2440 Százhalombatta, Jedlik Ányos u. 11.",
+          "outcome": "pending_verification"
+        }
+      ],
+      "nearbyRejected": [
+        {
+          "name": "Lizicska Imre szerviz",
+          "city": "Tököl",
+          "reason": "Arany Oldalak szűrő, más település"
+        }
+      ],
+      "passStatus": "pass_incomplete",
+      "notes": "Több aggregátor egyező címmel; nincs saját web."
+    },
+    {
+      "name": "Szentlőrinckáta",
+      "queries": [
+        "Szentlőrinckáta kerékpárbolt",
+        "Szentlőrinckáta kerékpárüzlet",
+        "Szentlőrinckáta kerékpárszerviz",
+        "Szentlőrinckáta biciklijavítás",
+        "Szentlőrinckáta bringaszerviz",
+        "site:facebook.com Szentlőrinckáta kerékpár",
+        "site:bikefun.hu Szentlőrinckáta"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {
+          "name": "SCHWINN-CSEPEL üzlet",
+          "city": "Nagykáta",
+          "reason": "járási központ"
+        }
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Nincs helyi találat."
+    },
+    {
+      "name": "Szentmártonkáta",
+      "queries": [
+        "Szentmártonkáta kerékpárbolt",
+        "Szentmártonkáta kerékpárüzlet",
+        "Szentmártonkáta kerékpárszerviz",
+        "Szentmártonkáta biciklijavítás",
+        "Szentmártonkáta bringaszerviz",
+        "site:facebook.com Szentmártonkáta kerékpár",
+        "site:bikefun.hu Szentmártonkáta"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {
+          "name": "Bicajos bolt",
+          "city": "Fót",
+          "reason": "nyugati agglomeráció"
+        },
+        {
+          "name": "Szentmártonkátai Kerékpáros Klub",
+          "city": "Szentmártonkáta",
+          "reason": "egyesület, nem kereskedés"
+        }
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Klub ≠ kerékpárbolt."
+    },
+    {
+      "name": "Szigetbecse",
+      "queries": [
+        "Szigetbecse kerékpárbolt",
+        "Szigetbecse kerékpárüzlet",
+        "Szigetbecse kerékpárszerviz",
+        "Szigetbecse biciklijavítás",
+        "Szigetbecse bringaszerviz",
+        "site:facebook.com Szigetbecse kerékpár",
+        "site:bikefun.hu Szigetbecse"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {
+          "name": "Szigetkerékpár",
+          "city": "Szigetszentmiklós",
+          "reason": "szigetközi"
+        }
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Nincs helyi találat."
+    },
+    {
+      "name": "Szigetcsép",
+      "queries": [
+        "Szigetcsép kerékpárbolt",
+        "Szigetcsép kerékpárüzlet",
+        "Szigetcsép kerékpárszerviz",
+        "Szigetcsép biciklijavítás",
+        "Szigetcsép bringaszerviz",
+        "site:facebook.com Szigetcsép kerékpár",
+        "site:bikefun.hu Szigetcsép"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {
+          "name": "SunVelo Bike & Coffee",
+          "city": "Vecsés",
+          "reason": "portál tévesen Szigetcsép alatt hirdeti"
+        },
+        {
+          "name": "Szigetkerékpár",
+          "city": "Szigetszentmiklós",
+          "reason": "szigetközi"
+        }
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "SunVelo Vecsés címen; nem helyi."
+    },
+    {
+      "name": "Szigethalom",
+      "queries": [
+        "Szigethalom kerékpárbolt",
+        "Szigethalom kerékpárüzlet",
+        "Szigethalom kerékpárszerviz",
+        "Szigethalom biciklijavítás",
+        "Szigethalom bringaszerviz",
+        "site:facebook.com Szigethalom kerékpár",
+        "site:bikefun.hu Szigethalom"
+      ],
+      "candidates": [
+        {
+          "name": "Szigethalom Kerékpárbolt és Szerviz",
+          "address": "2315 Szigethalom, Mű út 86.",
+          "outcome": "pending_verification"
+        }
+      ],
+      "nearbyRejected": [
+        {
+          "name": "Szigetkerékpár",
+          "city": "Szigetszentmiklós",
+          "reason": "szomszéd szigetváros"
+        }
+      ],
+      "passStatus": "pass_incomplete",
+      "notes": "kerekpar.info közeli bolt hivatkozás Veloat-ra."
+    },
+    {
+      "name": "Szigetmonostor",
+      "queries": [
+        "Szigetmonostor kerékpárbolt",
+        "Szigetmonostor kerékpárüzlet",
+        "Szigetmonostor kerékpárszerviz",
+        "Szigetmonostor biciklijavítás",
+        "Szigetmonostor bringaszerviz",
+        "site:facebook.com Szigetmonostor kerékpár",
+        "site:bikefun.hu Szigetmonostor"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {
+          "name": "Szigetkerékpár",
+          "city": "Szigetszentmiklós",
+          "reason": "szigetközi"
+        }
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Nincs helyi találat."
+    },
+    {
+      "name": "Szigetszentmárton",
+      "queries": [
+        "Szigetszentmárton kerékpárbolt",
+        "Szigetszentmárton kerékpárüzlet",
+        "Szigetszentmárton kerékpárszerviz",
+        "Szigetszentmárton biciklijavítás",
+        "Szigetszentmárton bringaszerviz",
+        "site:facebook.com Szigetszentmárton kerékpár",
+        "site:bikefun.hu Szigetszentmárton"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {
+          "name": "Szigethalom Kerékpárbolt",
+          "city": "Szigethalom",
+          "reason": "szomszéd"
+        }
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Opendi/telefonkönyv: nincs kerékpár kategória."
+    },
+    {
+      "name": "Szigetújfalu",
+      "queries": [
+        "Szigetújfalu kerékpárbolt",
+        "Szigetújfalu kerékpárüzlet",
+        "Szigetújfalu kerékpárszerviz",
+        "Szigetújfalu biciklijavítás",
+        "Szigetújfalu bringaszerviz",
+        "site:facebook.com Szigetújfalu kerékpár",
+        "site:bikefun.hu Szigetújfalu"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {
+          "name": "Szigetkerékpár",
+          "city": "Szigetszentmiklós",
+          "reason": "szigetközi"
+        }
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Nincs helyi találat."
+    },
+    {
+      "name": "Szob",
+      "queries": [
+        "Szob kerékpárbolt",
+        "Szob kerékpárüzlet",
+        "Szob kerékpárszerviz",
+        "Szob biciklijavítás",
+        "Szob bringaszerviz",
+        "site:facebook.com Szob kerékpár",
+        "site:bikefun.hu Szob"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {
+          "name": "Hámori Sport",
+          "city": "Pomáz",
+          "reason": "Dunakanyar"
+        }
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Kerékpárbérlés turisztikai cikk; fix üzlet nem azonosított."
+    },
+    {
+      "name": "Szokolya",
+      "queries": [
+        "Szokolya kerékpárbolt",
+        "Szokolya kerékpárüzlet",
+        "Szokolya kerékpárszerviz",
+        "Szokolya biciklijavítás",
+        "Szokolya bringaszerviz",
+        "site:facebook.com Szokolya kerékpár",
+        "site:bikefun.hu Szokolya"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {
+          "name": "Tápióbringa",
+          "city": "Sülysáp",
+          "reason": "szomszéd"
+        }
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Nincs helyi találat."
+    },
+    {
+      "name": "Ócsa",
+      "queries": [
+        "Ócsa kerékpárbolt",
+        "Ócsa kerékpárüzlet",
+        "Ócsa kerékpárszerviz",
+        "Ócsa biciklijavítás",
+        "Ócsa bringaszerviz",
+        "site:facebook.com Ócsa kerékpár",
+        "site:bikefun.hu Ócsa"
+      ],
+      "candidates": [],
+      "nearbyRejected": [],
+      "passStatus": "has_published",
+      "notes": "Re-check NEW only: Vellai már publikált; új helyi üzlet nem található.",
+      "reCheck": true
+    },
+    {
+      "name": "Szentendre",
+      "queries": [
+        "Szentendre kerékpárbolt",
+        "Szentendre kerékpárüzlet",
+        "Szentendre kerékpárszerviz",
+        "Szentendre biciklijavítás",
+        "Szentendre bringaszerviz",
+        "site:facebook.com Szentendre kerékpár",
+        "site:bikefun.hu Szentendre"
+      ],
+      "candidates": [
+        {
+          "name": "Kerékmánia",
+          "address": "2000 Szentendre, Kossuth Lajos u. 17–19.",
+          "outcome": "high_confidence",
+          "url": "http://kerekmania.hu/kapcsolat.html"
+        }
+      ],
+      "nearbyRejected": [],
+      "passStatus": "pass_incomplete",
+      "notes": "Re-check NEW: Kerékmánia nem publikált (Balázs már van).",
+      "reCheck": true
+    },
+    {
+      "name": "Szigetszentmiklós",
+      "queries": [
+        "Szigetszentmiklós kerékpárbolt",
+        "Szigetszentmiklós kerékpárüzlet",
+        "Szigetszentmiklós kerékpárszerviz",
+        "Szigetszentmiklós biciklijavítás",
+        "Szigetszentmiklós bringaszerviz",
+        "site:facebook.com Szigetszentmiklós kerékpár",
+        "site:bikefun.hu Szigetszentmiklós"
+      ],
+      "candidates": [],
+      "nearbyRejected": [],
+      "passStatus": "pass_incomplete",
+      "notes": "Re-check NEW only: nincs új igazolt telephely; Szigetkerékpár/Bike55 ledger szerint.",
+      "reCheck": true
+    },
+    {
+      "name": "Törökbálint",
+      "queries": [
+        "Törökbálint kerékpárbolt",
+        "Törökbálint kerékpárüzlet",
+        "Törökbálint kerékpárszerviz",
+        "Törökbálint biciklijavítás",
+        "Törökbálint bringaszerviz",
+        "site:facebook.com Törökbálint kerékpár",
+        "site:bikefun.hu Törökbálint"
+      ],
+      "candidates": [
+        {
+          "name": "Ebikeshop Törökbálint",
+          "address": "2045 Törökbálint, Dulácska u. 2.",
+          "outcome": "high_confidence",
+          "url": "https://ebikeshop.hu/uzletek/torokbalint"
+        }
+      ],
+      "nearbyRejected": [],
+      "passStatus": "has_published",
+      "notes": "Re-check NEW: Tutto Bici publikált; Ebikeshop külön telephely, elsődleges web OK.",
+      "reCheck": true
+    }
+  ]
+}

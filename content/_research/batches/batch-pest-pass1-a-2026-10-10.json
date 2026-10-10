@@ -1,0 +1,106 @@
+{
+  "batchId": "batch-pest-pass1-a-2026-10-10",
+  "accessedAt": "2026-10-10",
+  "notes": "Pest vármegye első kutatási kör — A adag (igazolt saját oldal / BikeFun).",
+  "items": [
+    {
+      "idSlug": "javi-kerekparbolt-maglod",
+      "name": "Javi Kerékpárbolt és Szerviz",
+      "city": "Maglód",
+      "addressRaw": "2234 Maglód, Fő út 102.",
+      "website": "https://javikerekparbolt.hu/",
+      "phone": ["+36 29 745 663", "+36 20 437 0823"],
+      "email": ["javievszi@gmail.com"],
+      "openingHours": "H–P 9:00–17:30, Szo 9:00–14:00",
+      "roles": ["eladas", "szerviz", "kolcsonzes"],
+      "roleEvidence": {
+        "eladas": {"url": "https://javikerekparbolt.hu/", "pageTitle": "Kerékpár értékesítés"},
+        "szerviz": {"url": "https://javikerekparbolt.hu/", "pageTitle": "Kerékpár szerviz"},
+        "kolcsonzes": {"url": "https://javikerekparbolt.hu/", "pageTitle": "Kerékpár kölcsönzés"}
+      },
+      "brandClaims": [],
+      "evidence": {"url": "https://javikerekparbolt.hu/", "pageTitle": "Javi kerékpárbolt"},
+      "notes": "Kölcsönzés a saját oldalon listázva — deferredRoles ha a modell nem publikálja.",
+      "heldBack": false
+    },
+    {
+      "idSlug": "ks-kerekpar-kistarcsa",
+      "name": "KS Kerékpár",
+      "city": "Kistarcsa",
+      "addressRaw": "2143 Kistarcsa, Thököly út 3.",
+      "website": "https://kskerekpar.hu/magunkrol/",
+      "phone": ["+36 30 984 3306", "+36 28 472 554"],
+      "email": ["info@kskerekpar.hu"],
+      "openingHours": null,
+      "roles": ["eladas", "szerviz"],
+      "roleEvidence": {
+        "eladas": {"url": "https://kskerekpar.hu/magunkrol/", "pageTitle": "Üzlet — több mint 100 kerékpár"},
+        "szerviz": {"url": "https://kskerekpar.hu/magunkrol/", "pageTitle": "Szerviz — javítás profi szinten"}
+      },
+      "brandClaims": [],
+      "evidence": {"url": "https://kskerekpar.hu/magunkrol/", "pageTitle": "Magunkról - KS Kerékpár"},
+      "notes": null,
+      "heldBack": false
+    },
+    {
+      "idSlug": "diosdi-kerekparcentrum",
+      "name": "Diósdi Kerékpárcentrum",
+      "city": "Diósd",
+      "addressRaw": "2049 Diósd, Sashegyi köz 12/A.",
+      "website": "https://bikefun.hu/shops/diosdi-kerekparcentrum",
+      "phone": ["+36 23 381 751"],
+      "email": ["diosd01@gmail.com"],
+      "openingHours": "H–P 9:00–19:00, Szo 9:00–13:00 (BikeFun); saját oldal H–P 10–18, Szo 10–13",
+      "roles": ["eladas", "szerviz"],
+      "roleEvidence": {
+        "eladas": {"url": "https://bikefun.hu/shops/diosdi-kerekparcentrum", "pageTitle": "Diósdi Kerékpárcentrum — Merida dealer"},
+        "szerviz": {"url": "http://www.diosdbike.hu/", "pageTitle": "Szakműhely — kerékpár átvizsgálás"}
+      },
+      "brandClaims": [
+        {"brand": "Merida", "relation": "dealer", "sourceUrl": "https://bikefun.hu/shops/diosdi-kerekparcentrum", "quote": "Merida dealer"}
+      ],
+      "evidence": {"url": "https://bikefun.hu/shops/diosdi-kerekparcentrum", "pageTitle": "Diósdi Kerékpárcentrum - BikeFun"},
+      "notes": "Saját oldal: diosdbike.hu (Diósd Bike / Diósd Kerékpár Kft.).",
+      "heldBack": false
+    },
+    {
+      "idSlug": "patyi-kerekparbolt",
+      "name": "Pátyi Kerékpárbolt",
+      "city": "Páty",
+      "addressRaw": "2071 Páty, Rákóczi út 24.",
+      "website": "https://bikefun.hu/shops/patyi-kerekparbolt",
+      "phone": ["+36 20 491 7199"],
+      "email": ["merklbt@t-online.hu"],
+      "openingHours": "H–P 8:00–18:00, Szo 8:00–13:00",
+      "roles": ["eladas"],
+      "roleEvidence": {
+        "eladas": {"url": "https://bikefun.hu/shops/patyi-kerekparbolt", "pageTitle": "Pátyi Kerékpárbolt — Merida dealer"}
+      },
+      "brandClaims": [
+        {"brand": "Merida", "relation": "dealer", "sourceUrl": "https://bikefun.hu/shops/patyi-kerekparbolt", "quote": "Merida dealer"}
+      ],
+      "evidence": {"url": "https://bikefun.hu/shops/patyi-kerekparbolt", "pageTitle": "Pátyi Kerékpárbolt - BikeFun"},
+      "notes": "Szerviz a BikeFun oldalon nincs külön igazolva — nem publikálva.",
+      "heldBack": false
+    },
+    {
+      "idSlug": "bicajos-bolt-fot",
+      "name": "Bicajos bolt Kerékpárüzlet és szerviz",
+      "city": "Fót",
+      "addressRaw": "2151 Fót, Balassa Bálint utca 68.",
+      "website": "http://www.bicajosbolt.hu/",
+      "phone": ["+36 30 281 9525", "+36 20 551 9557"],
+      "email": ["bicajosbolt@gmail.com"],
+      "openingHours": "Bejelentkezés alapján (saját oldal)",
+      "roles": ["eladas"],
+      "roleEvidence": {
+        "eladas": {"url": "http://www.bicajosbolt.hu/", "pageTitle": "Új és használt kerékpárok eladása — Kellys, Kross viszonteladó"}
+      },
+      "brandClaims": [],
+      "evidence": {"url": "http://www.bicajosbolt.hu/", "pageTitle": "Bicajos bolt Fót"},
+      "notes": "Szerviz aggregátorokon említve; saját főoldalon nem külön igazolt — pending. Sí kölcsönzés nem kerékpár-kölcsönzésként publikálva.",
+      "heldBack": false
+    }
+  ],
+  "heldBack": []
+}

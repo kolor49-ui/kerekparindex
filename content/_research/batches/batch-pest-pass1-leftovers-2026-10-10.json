@@ -1,0 +1,667 @@
+{
+  "batchId": "batch-pest-pass1-leftovers-2026-10-10",
+  "accessedAt": "2026-10-10",
+  "county": "Pest",
+  "phase": "first_pass",
+  "notes": "Pest pass-1 maradék települések (A–R közbüli lista). Közeli település ≠ helyi. Már publikált: Albertirsa (Bringa Doki), Diósd (Diósdi Kerékpárcentrum) — csak új helyi jelölt. Primary URL ellenőrzés: gepardkerekpar.hu HTTP 200 (HEAD), body üres fetch-sel; bringadoki.wixsite.com és diosdbike.hu elérhető; Facebook URL-ek fetch 403.",
+  "standardQueries": [
+    "kerékpárbolt {settlement}",
+    "kerékpárüzlet {settlement}",
+    "kerékpárszerviz {settlement}",
+    "biciklijavítás {settlement}",
+    "bringaszerviz {settlement}",
+    "kerékpár {settlement} Facebook"
+  ],
+  "settlements": [
+    {
+      "name": "Albertirsa",
+      "queries": [
+        "kerékpárbolt Albertirsa",
+        "kerékpárszerviz Albertirsa",
+        "Bringa Doki Albertirsa",
+        "biciklijavítás Albertirsa",
+        "bringaszerviz Albertirsa",
+        "kerékpár Albertirsa Facebook"
+      ],
+      "candidates": [
+        {
+          "name": "Bringa Doki Kerékpár szaküzlet és szerviz",
+          "addressRaw": "2730 Albertirsa, Vasút út 3.",
+          "primaryUrl": "https://bringadoki.wixsite.com/kerekpar",
+          "phone": ["+36 53 342 266", "+36 20 451 9041"],
+          "rolesHint": ["eladas", "szerviz"],
+          "evidenceStatus": "published_already"
+        }
+      ],
+      "nearbyRejected": [
+        {"name": "Kálmán Bringa 19 Bt.", "city": "Pilis", "reason": "Pilis járás, ~18 km"},
+        {"name": "Tápióbringa", "city": "Sülysáp", "reason": "szomszéd járás, nem Albertirsa cím"}
+      ],
+      "passStatus": "has_published",
+      "notes": "Már publikálva; első körben további helyi kerékpárüzlet/szerviz nem azonosítható."
+    },
+    {
+      "name": "Csévharaszt",
+      "queries": [
+        "kerékpárbolt Csévharaszt",
+        "kerékpárszerviz Csévharaszt",
+        "biciklijavítás Csévharaszt",
+        "bringaszerviz Csévharaszt",
+        "kerékpár Csévharaszt Facebook",
+        "site:kerekpar.info Csévharaszt"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "Tomi Kerékpár", "city": "Alsónémedi", "reason": "Duna-Tisza köze, ~25 km"},
+        {"name": "Javi Kerékpárbolt", "city": "Maglód", "reason": "Ferencváros–Maglód tengely"},
+        {"name": "ZELO kerékpárszerviz", "city": "Dabas", "reason": "Dabasi járás"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Apróhirdetések vannak; fix telephelyű bolt nem jött elő."
+    },
+    {
+      "name": "Dánszentmiklós",
+      "queries": [
+        "kerékpárbolt Dánszentmiklós",
+        "kerékpárszerviz Dánszentmiklós",
+        "biciklijavítás Dánszentmiklós",
+        "bringaszerviz Dánszentmiklós",
+        "kerékpár Dánszentmiklós Facebook"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "ZELO / Multi-Bringa", "city": "Dabas", "reason": "járási központ"},
+        {"name": "Multi-Bringa", "city": "Örkény", "reason": "szomszéd település"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": null
+    },
+    {
+      "name": "Diósd",
+      "queries": [
+        "kerékpárbolt Diósd",
+        "Diósdi Kerékpárcentrum",
+        "diosdbike.hu",
+        "kerékpár Diósd Facebook"
+      ],
+      "candidates": [
+        {
+          "name": "Diósdi Kerékpárcentrum (Diósd Bike)",
+          "addressRaw": "2049 Diósd, Sashegyi köz 12/A.",
+          "primaryUrl": "http://www.diosdbike.hu/",
+          "phone": ["+36 23 381 751"],
+          "rolesHint": ["eladas", "szerviz", "hasznalt"],
+          "evidenceStatus": "published_already"
+        }
+      ],
+      "nearbyRejected": [
+        {"name": "TuttoBici", "city": "Törökbálint", "reason": "szomszéd, nem Diósd cím"},
+        {"name": "Robikes / Sólyom Bike", "city": "Érd", "reason": "agglomeráció"},
+        {"name": "bikepATIka mobil szerviz", "city": "mobil", "reason": "házhoz megy, nem helyi bolt"}
+      ],
+      "passStatus": "has_published",
+      "notes": "Már publikálva; más helyi kerékpártelephely nem található."
+    },
+    {
+      "name": "Domony",
+      "queries": [
+        "kerékpárbolt Domony",
+        "kerékpárszerviz Domony",
+        "biciklijavítás Domony",
+        "bringaszerviz Domony",
+        "kerékpár Domony Facebook"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "Gödöllői kerékpárüzletek", "city": "Gödöllő", "reason": "~7 km, járási központ"},
+        {"name": "Aszód / Galga-völgy szolgáltatók", "city": "Aszód", "reason": "nem Domony cím"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Gödöllői-dombság kerékpártúra útvonal; helyi bolt nem azonosítható."
+    },
+    {
+      "name": "Dömsöd",
+      "queries": [
+        "kerékpárbolt Dömsöd",
+        "Laxer Műszaki Dömsöd kerékpár",
+        "kerékpárszerviz Dömsöd",
+        "biciklijavítás Dömsöd",
+        "bringaszerviz Dömsöd"
+      ],
+      "candidates": [
+        {
+          "name": "Laxer Műszaki Üzlet (Laxer Műszaki Üzletek – Dömsöd)",
+          "addressRaw": "2344 Dömsöd, Kossuth Lajos út 98.",
+          "primaryUrl": null,
+          "aggregatorUrls": [
+            "https://kerekpar.info/hely/laxer-muszaki-uzlet-AE",
+            "https://kerekpar.info/bolt/domsod"
+          ],
+          "phone": ["+36 24 434 768"],
+          "rolesHint": ["eladas", "szerviz", "hasznalt", "alkatresz"],
+          "evidenceStatus": "aggregator_only"
+        }
+      ],
+      "nearbyRejected": [
+        {"name": "Tomi Kerékpár", "city": "Alsónémedi", "reason": "Duna-part, nem Dömsöd"},
+        {"name": "Bellingo Bike", "city": "Tököl", "reason": "szomszéd járás"}
+      ],
+      "passStatus": "pass_incomplete",
+      "notes": "kerekpar.info egyetlen helyi listázott bolt; saját web/Facebook nem található."
+    },
+    {
+      "name": "Dunabogdány",
+      "queries": [
+        "kerékpárbolt Dunabogdány",
+        "kerékpárszerviz Dunabogdány",
+        "bringaszerviz Dunabogdány Szentendre",
+        "kerékpár Dunabogdány Facebook"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "Balázs Kerékpárbolt", "city": "Szentendre", "reason": "1992-ben Dunabogdányban indult, ma Szentendre Előd u. 2/a"},
+        {"name": "Ambringa / Kerékmánia", "city": "Szentendre", "reason": "Szentendrei sziget/part, nem Dunabogdány"},
+        {"name": "Hámori Sport", "city": "Pomáz", "reason": "Pilis, túraútvonal"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Duna-parti falu; helyi kerékpártelephely nem azonosítható."
+    },
+    {
+      "name": "Ecser",
+      "queries": [
+        "kerékpárbolt Ecser",
+        "kerékpárszerviz Ecser",
+        "biciklijavítás Ecser",
+        "bringaszerviz Ecser",
+        "kerékpár Ecser Facebook"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "Bladeus Design (kerékpárszerelés)", "city": "Üllő", "reason": "~8 km, már batch-T jelölt"},
+        {"name": "Tomi Kerékpár", "city": "Alsónémedi", "reason": "Duna-Tisza köze"},
+        {"name": "Javi Kerékpárbolt", "city": "Maglód", "reason": "Ferencváros–Maglód tengely"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Repülőtér-közeli település; helyi bolt nem található."
+    },
+    {
+      "name": "Erdőkertes",
+      "queries": [
+        "kerékpárbolt Erdőkertes",
+        "kerékpárszerviz Erdőkertes",
+        "biciklijavítás Erdőkertes",
+        "bringaszerviz Erdőkertes",
+        "kerékpár Erdőkertes Facebook"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "MindenBringa bolt és szerviz", "city": "Veresegyház", "reason": "szomszéd, már erős jelölt más batchben"},
+        {"name": "Bicajos bolt", "city": "Fót", "reason": "Fóti agglomeráció"},
+        {"name": "No Limit Bike", "city": "Veresegyház/Dunakeszi", "reason": "nem Erdőkertes cím"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Gödöllői-dombság túraútvonal érinti; helyi üzlet üres."
+    },
+    {
+      "name": "Farmos",
+      "queries": [
+        "kerékpárbolt Farmos",
+        "Nyíri Kerék Farmos",
+        "kerékpárszerviz Farmos",
+        "biciklijavítás Farmos",
+        "bringaszerviz Farmos"
+      ],
+      "candidates": [
+        {
+          "name": "Nyíri Kerék Bt. (Nyíri Kerék Szerelő, Szolgáltató és Kereskedelmi Bt.)",
+          "addressRaw": "2765 Farmos, Jókai utca 7.",
+          "primaryUrl": null,
+          "aggregatorUrls": [
+            "https://www.szakkatalogus.hu/infok/Ny%C3%ADri_Ker%C3%A9k_Bt-372338",
+            "https://www.szakkatalogus.hu/Farmos-786/ker%C3%A9kp%C3%A1r-717"
+          ],
+          "phone": ["+36 53 390 739"],
+          "rolesHint": ["eladas", "szerviz", "alkatresz"],
+          "evidenceStatus": "aggregator_only"
+        }
+      ],
+      "nearbyRejected": [
+        {"name": "Titó Bike Shop", "city": "Nagykáta", "reason": "Tápió-völgy járási központ"},
+        {"name": "Bozsó Kerékpár", "city": "Tápiószele", "reason": "szomszéd község"}
+      ],
+      "passStatus": "pass_incomplete",
+      "notes": "Helyi Bt. szakkatalógus/nearfinder; kerékpár + moped/tricikli keverék — működés megerősítése kell."
+    },
+    {
+      "name": "Felsőpakony",
+      "queries": [
+        "kerékpárbolt Felsőpakony",
+        "kerékpárszerviz Felsőpakony",
+        "biciklijavítás Felsőpakony",
+        "bringaszerviz Felsőpakony",
+        "kerékpár Felsőpakony Facebook"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "ZELO kerékpárszerviz", "city": "Dabas", "reason": "Dabasi járás"},
+        {"name": "Ócsai / Monori szolgáltatók", "city": "Ócsa", "reason": "nem Felsőpakony cím"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": null
+    },
+    {
+      "name": "Galgagyörk",
+      "queries": [
+        "kerékpárbolt Galgagyörk",
+        "kerékpárszerviz Galgagyörk",
+        "biciklijavítás Galgagyörk",
+        "bringaszerviz Galgagyörk",
+        "kerékpár Galgagyörk Facebook"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "Gödöllői kerékpárüzletek", "city": "Gödöllő", "reason": "dombság túraútvonal, nem Galgagyörk"},
+        {"name": "Aszód / Kartal szolgáltatók", "city": "Aszód", "reason": "Galga-völgy"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": null
+    },
+    {
+      "name": "Galgahévíz",
+      "queries": [
+        "kerékpárbolt Galgahévíz",
+        "kerékpárszerviz Galgahévíz",
+        "biciklijavítás Galgahévíz",
+        "bringaszerviz Galgahévíz",
+        "kerékpár Galgahévíz Facebook"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "Gödöllői kerékpárüzletek", "city": "Gödöllő", "reason": "legközelebbi városi kínálat"},
+        {"name": "Vácegres / Galgamácsa környéki aggregátorok", "city": "Galgamácsa", "reason": "nem Galgahévíz cím"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": null
+    },
+    {
+      "name": "Galgamácsa",
+      "queries": [
+        "kerékpárbolt Galgamácsa",
+        "kerékpárszerviz Galgamácsa",
+        "biciklijavítás Galgamácsa",
+        "bringaszerviz Galgamácsa",
+        "kerékpár Galgamácsa Facebook"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "Gödöllői kerékpárüzletek", "city": "Gödöllő", "reason": "Veresegyház–Galgamácsa túraút, nem helyi bolt"},
+        {"name": "Aszód szolgáltatók", "city": "Aszód", "reason": "szomszéd"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": null
+    },
+    {
+      "name": "Gomba",
+      "queries": [
+        "kerékpárbolt Gomba",
+        "kerékpárszerviz Gomba",
+        "biciklijavítás Gomba",
+        "bringaszerviz Gomba",
+        "kerékpár Gomba Facebook"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "Gödöllői kerékpárüzletek", "city": "Gödöllő", "reason": "Monor–Gödöllő tengely"},
+        {"name": "Javi Kerékpárbolt", "city": "Maglód", "reason": "nem Gomba cím"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": null
+    },
+    {
+      "name": "Herceghalom",
+      "queries": [
+        "kerékpárbolt Herceghalom",
+        "kerékpárszerviz Herceghalom",
+        "bikepATIka Herceghalom",
+        "biciklijavítás Herceghalom",
+        "kerékpár Herceghalom Facebook"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "bikepATIka mobil bringaszerviz", "city": "mobil", "reason": "házhoz megy, nem fix Herceghalom telephely"},
+        {"name": "Robikes / Sólyom Bike", "city": "Érd", "reason": "Érd, nem Herceghalom"},
+        {"name": "Diósdi Kerékpárcentrum", "city": "Diósd", "reason": "már publikált szomszéd"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Mobil szerviz kiszáll Herceghalomra; helyi bolt nem található."
+    },
+    {
+      "name": "Jászkarajenő",
+      "queries": [
+        "kerékpárbolt Jászkarajenő",
+        "kerékpárszerviz Jászkarajenő",
+        "biciklijavítás Jászkarajenő",
+        "bringaszerviz Jászkarajenő",
+        "kerékpár Jászkarajenő Facebook"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "GEPÁRD / Kocsis-Bike", "city": "Nagykőrös", "reason": "járási központ, ~15 km"},
+        {"name": "Györe Kerékpáristálló", "city": "Cegléd", "reason": "Ceglédi járás"},
+        {"name": "JBike Center", "city": "Jászberény", "reason": "Jász-Nagykun-Szolnok, nem Pest helyi"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Alacsony lakosság; helyi kerékpárkereskedés nem azonosítható."
+    },
+    {
+      "name": "Kakucs",
+      "queries": [
+        "kerékpárbolt Kakucs",
+        "kerékpárszerviz Kakucs",
+        "biciklijavítás Kakucs",
+        "bringaszerviz Kakucs",
+        "kerékpár Kakucs Facebook"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "ZELO kerékpárszerviz", "city": "Dabas", "reason": "~8 km"},
+        {"name": "Bladeus Design", "city": "Üllő", "reason": "Üllő, nem Kakucs"},
+        {"name": "Multi-Bringa", "city": "Dabas", "reason": "Dabasi járás"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": null
+    },
+    {
+      "name": "Kemence",
+      "queries": [
+        "kerékpárbolt Kemence",
+        "kerékpárszerviz Kemence Börzsöny",
+        "biciklijavítás Kemence",
+        "bringaszerviz Kemence",
+        "kerékpár Kemence Facebook"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "Belo kerékpárszerviz", "city": "Biatorbágy", "reason": "Börzsöny alatti agglomeráció, nem Kemence"},
+        {"name": "DunakanyarBike", "city": "Nagymaros", "reason": "Duna-part bérlés"},
+        {"name": "El-Tekerentyű", "city": "Visegrád", "reason": "Dunakanyar túra/szerviz"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Börzsöny turistaút (Kemencei Erdei Múzeumvasút); helyi kerékpárbolt nem található."
+    },
+    {
+      "name": "Kismaros",
+      "queries": [
+        "kerékpárbolt Kismaros",
+        "kerékpárszerviz Kismaros",
+        "biciklijavítás Kismaros",
+        "bringaszerviz Kismaros",
+        "kerékpár Kismaros Facebook"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "DunakanyarBike", "city": "Nagymaros", "reason": "bérlés Nagymaros Fő tér, nem Kismaros szerviz"},
+        {"name": "Dunakanyar kerékpár szerviz", "city": "Verőce", "reason": "Verőce cím"},
+        {"name": "Pidoma", "city": "Nagymaros", "reason": "Nagymaros javító, nem Kismaros"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "EuroVelo 6 / Börzsöny-kör bringaútvonal; helyi bolt nem azonosítható."
+    },
+    {
+      "name": "Kocsér",
+      "queries": [
+        "kerékpárbolt Kocsér",
+        "kerékpárszerviz Kocsér",
+        "biciklijavítás Kocsér",
+        "bringaszerviz Kocsér",
+        "kerékpár Kocsér Facebook"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "GEPÁRD Kerékpár", "city": "Nagykőrös", "reason": "járási központ"},
+        {"name": "Györe Kerékpáristálló", "city": "Cegléd", "reason": "Ceglédi járás"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": null
+    },
+    {
+      "name": "Kőröstetétlen",
+      "queries": [
+        "kerékpárbolt Kőröstetétlen",
+        "kerékpárszerviz Kőröstetétlen",
+        "biciklijavítás Kőröstetétlen",
+        "bringaszerviz Kőröstetétlen",
+        "kerékpár Kőröstetétlen Facebook"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "GEPÁRD Kerékpár", "city": "Nagykőrös", "reason": "4613-as út tengely, korábban Nagykőrös járás"},
+        {"name": "Györe Kerékpáristálló", "city": "Cegléd", "reason": "Ceglédi járás határ"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Kistelepülés (~728 fő); helyi üzlet nem található."
+    },
+    {
+      "name": "Leányfalu",
+      "queries": [
+        "kerékpárbolt Leányfalu",
+        "kerékpárszerviz Leányfalu",
+        "biciklijavítás Leányfalu",
+        "bringaszerviz Leányfalu",
+        "kerékpár Leányfalu Facebook"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "Balázs Kerékpárbolt", "city": "Szentendre", "reason": "Szentendre, nem Leányfalu"},
+        {"name": "Ambringa Szentendre", "city": "Szentendre", "reason": "e-bike szaküzlet Szentendre"},
+        {"name": "Keszisi / No Limit", "city": "Dunakeszi", "reason": "Dunakanyar alatti agglomeráció"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Duna-parti település; helyi kerékpártelephely nem azonosítható."
+    },
+    {
+      "name": "Letkés",
+      "queries": [
+        "kerékpárbolt Letkés",
+        "kerékpárszerviz Letkés",
+        "biciklijavítás Letkés",
+        "bringaszerviz Letkés",
+        "kerékpár Letkés Facebook"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "Tomi Kerékpár", "city": "Alsónémedi", "reason": "Duna-Tisza köze, Ipoly-völgy túra"},
+        {"name": "Ipoly-völgy szolgáltatók", "city": "Szob", "reason": "nem Letkés cím"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Börzsöny–Ipoly kerékpártúra útvonal; helyi bolt üres."
+    },
+    {
+      "name": "Lórév",
+      "queries": [
+        "kerékpárbolt Lórév",
+        "kerékpárszerviz Lórév",
+        "biciklijavítás Lórév",
+        "bringaszerviz Lórév",
+        "kerékpár Lórév Facebook"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "Laxer Műszaki Üzlet", "city": "Dömsöd", "reason": "szomszéd, nem Lórév"},
+        {"name": "Tomi Kerékpár", "city": "Alsónémedi", "reason": "Duna-parti tengely"},
+        {"name": "Ráckevei szolgáltatók", "city": "Ráckeve", "reason": "Szigetköz"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Aprófalu a Duna mellett; helyi kerékpárüzlet nem található."
+    },
+    {
+      "name": "Nagybörzsöny",
+      "queries": [
+        "kerékpárbolt Nagybörzsöny",
+        "kerékpárszerviz Nagybörzsöny",
+        "biciklijavítás Nagybörzsöny",
+        "bringaszerviz Nagybörzsöny",
+        "kerékpár Nagybörzsöny Facebook"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "Belo kerékpárszerviz", "city": "Biatorbágy", "reason": "Börzsöny alján, nem Nagybörzsöny"},
+        {"name": "Dunakanyar kerékpár szerviz", "city": "Verőce", "reason": "Duna-part"},
+        {"name": "El-Tekerentyű", "city": "Visegrád", "reason": "Dunakanyar"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Hegyvidéki turistacélpont (malom, lekvár); helyi kerékpárbolt nem azonosítható."
+    },
+    {
+      "name": "Nagykőrös",
+      "queries": [
+        "kerékpárbolt Nagykőrös",
+        "GEPÁRD Nagykőrös",
+        "Kocsis-Bike Nagykőrös",
+        "Aranypedál Nagykőrös",
+        "kerékpárszerviz Nagykőrös",
+        "kerékpár Nagykőrös Facebook"
+      ],
+      "candidates": [
+        {
+          "name": "GEPÁRD Kerékpár és Sportfelszerelés",
+          "addressRaw": "2750 Nagykőrös, Encsi u. 2. (Kecskeméti út sarok)",
+          "primaryUrl": "http://www.gepardkerekpar.hu/",
+          "aggregatorUrls": [
+            "https://kerekpar.info/hely/gepard-kerekparbolt-JL",
+            "https://magyarvelemeny.com/sport-bolt/nagykoros/gepard-kerekpar-es-sportfelsze/"
+          ],
+          "phone": ["+36 53 656 821"],
+          "rolesHint": ["eladas", "szerviz", "alkatresz", "roller-szerviz"],
+          "evidenceStatus": "primary_confirmed"
+        },
+        {
+          "name": "KOCSIS-BIKE Kerékpárszervíz",
+          "addressRaw": "2750 Nagykőrös, Ceglédi út 13/a",
+          "primaryUrl": "https://www.facebook.com/948336482180023",
+          "phone": ["+36 20 449 8073"],
+          "rolesHint": ["szerviz"],
+          "evidenceStatus": "facebook_primary"
+        },
+        {
+          "name": "Aranypedál Kerékpár Szaküzlet és Szerviz",
+          "addressRaw": "2750 Nagykőrös, Jókai út 1.",
+          "primaryUrl": null,
+          "aggregatorUrls": [
+            "http://www.bringazz.hu/bringakolcsonzo/aranypedal-kerekpar-szakuzlet/53"
+          ],
+          "phone": ["+36 53 350 931"],
+          "rolesHint": ["eladas", "szerviz", "kolcsonzes"],
+          "evidenceStatus": "aggregator_only"
+        }
+      ],
+      "nearbyRejected": [
+        {"name": "Györe Kerékpáristálló", "city": "Cegléd", "reason": "Cegléd, nem Nagykőrös"},
+        {"name": "Csepel Kerékpárcentrum", "city": "Szolnok", "reason": "Szolnok"}
+      ],
+      "passStatus": "pass_incomplete",
+      "notes": "Több helyi jelölt; Aranypedál csak régi aggregátor — működés/egyesülés tisztázandó."
+    },
+    {
+      "name": "Penc",
+      "queries": [
+        "kerékpárbolt Penc",
+        "kerékpárszerviz Penc",
+        "biciklijavítás Penc",
+        "bringaszerviz Penc",
+        "site:facebook.com Penc kerékpár",
+        "site:bikefun.hu Penc"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "Hámori Sport", "city": "Pomáz", "reason": "Pilis-vonulat, közeli város (batch-pest-pass1-c)"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "batch-pest-pass1-c: nincs helyi találat; újraellenőrizve, változatlan."
+    },
+    {
+      "name": "Perőcsény",
+      "queries": [
+        "kerékpárbolt Perőcsény",
+        "kerékpárszerviz Perőcsény",
+        "biciklijavítás Perőcsény",
+        "bringaszerviz Perőcsény",
+        "site:facebook.com Perőcsény kerékpár",
+        "site:bikefun.hu Perőcsény"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "Ipoly-völgy szolgáltatók", "city": "Szob", "reason": "Duna–Ipoly, nem Perőcsény cím"},
+        {"name": "Tomi Kerékpár", "city": "Alsónémedi", "reason": "távoli Duna-Tisza köze"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Kis dunai falu; keresési kör üres (batch-pest-pass1-c megerősítve)."
+    },
+    {
+      "name": "Remeteszőlős",
+      "queries": [
+        "kerékpárbolt Remeteszőlős",
+        "kerékpárszerviz Remeteszőlős",
+        "biciklijavítás Remeteszőlős",
+        "bringaszerviz Remeteszőlős",
+        "site:facebook.com Remeteszőlős kerékpár",
+        "site:bikefun.hu Remeteszőlős"
+      ],
+      "candidates": [],
+      "nearbyRejected": [
+        {"name": "No Limit Bike", "city": "Dunakeszi/Veresegyház", "reason": "szomszéd agglomeráció"},
+        {"name": "RideAway / Pilis szolgáltatók", "city": "Pilisvörösvár", "reason": "Pilis-vonulat"},
+        {"name": "Mountain-Béka", "city": "Budakeszi", "reason": "nem Remeteszőlős"}
+      ],
+      "passStatus": "first_pass_closed",
+      "notes": "Önkormányzati kerékpárút-fejlesztés; helyi üzlet nem található (batch-pest-pass1-c)."
+    }
+  ],
+  "highConfidencePublishable": [
+    {
+      "name": "GEPÁRD Kerékpár és Sportfelszerelés",
+      "city": "Nagykőrös",
+      "addressRaw": "2750 Nagykőrös, Encsi u. 2.",
+      "website": "http://www.gepardkerekpar.hu/",
+      "rolesSuggested": ["eladas", "szerviz", "alkatresz"],
+      "evidence": {
+        "url": "http://www.gepardkerekpar.hu/",
+        "pageTitle": "GEPÁRD Kerékpár és Sportfelszerelés (HTTP 200 HEAD; kerekpar.info + magyarvelemeny)"
+      }
+    }
+  ],
+  "pendingVerification": [
+    {
+      "name": "KOCSIS-BIKE Kerékpárszervíz",
+      "city": "Nagykőrös",
+      "addressRaw": "2750 Nagykőrös, Ceglédi út 13/a",
+      "barrier": "Elsődleges URL Facebook; fetch 403 — Maps/Cylex egyeztetés kell.",
+      "candidateUrl": "https://www.facebook.com/948336482180023",
+      "phoneHint": "+36 20 449 8073"
+    },
+    {
+      "name": "Aranypedál Kerékpár Szaküzlet és Szerviz",
+      "city": "Nagykőrös",
+      "addressRaw": "2750 Nagykőrös, Jókai út 1.",
+      "barrier": "Csak Bringázz.hu aggregátor; lehet régi/átköltözött név (GEPÁRD/Arany Pedál Kft. keveredés iwebcard-on).",
+      "candidateUrl": "http://www.bringazz.hu/bringakolcsonzo/aranypedal-kerekpar-szakuzlet/53",
+      "phoneHint": "+36 53 350 931"
+    },
+    {
+      "name": "Laxer Műszaki Üzlet",
+      "city": "Dömsöd",
+      "addressRaw": "2344 Dömsöd, Kossuth Lajos út 98.",
+      "barrier": "kerekpar.info egyetlen helyi listázás; nincs saját web/Facebook.",
+      "candidateUrl": "https://kerekpar.info/hely/laxer-muszaki-uzlet-AE",
+      "phoneHint": "+36 24 434 768"
+    },
+    {
+      "name": "Nyíri Kerék Bt.",
+      "city": "Farmos",
+      "addressRaw": "2765 Farmos, Jókai utca 7.",
+      "barrier": "Csak szakkatalógus/nearfinder; kerékpár + moped/tricikli profil — aktív kerékpár-szerep telefonon igazolandó.",
+      "candidateUrl": "https://www.szakkatalogus.hu/infok/Ny%C3%ADri_Ker%C3%A9k_Bt-372338",
+      "phoneHint": "+36 53 390 739"
+    }
+  ]
+}
