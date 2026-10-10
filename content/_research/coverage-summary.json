@@ -1,12 +1,12 @@
 {
   "accessedAt": "2026-10-10",
-  "previousPublished": 20,
-  "newPublished": 81,
-  "totalPublished": 101,
+  "totalPublished": 103,
   "budapest": 12,
-  "budapestSharePct": 11.9,
+  "budapestSharePct": 11.7,
   "cityCount": 34,
-  "countyCount": 20,
+  "varmegyeCount": 19,
+  "varmegyeMax": 19,
+  "countyCountErrorNote": "A korábbi «20 vármegye (+ Budapest)» hibát az okozta, hogy a coverage-summary Budapestet is vármegyeként számolta a counties objektumban (19+1=20). Az adatállomány telephelyeihez nincs hibás county mező — csak a jelentés volt hibás.",
   "cities": {
     "Budapest": 12,
     "Szeged": 7,
@@ -19,6 +19,7 @@
     "Sopron": 4,
     "Balatonfüred": 3,
     "Eger": 3,
+    "Kaposvár": 3,
     "Pápa": 3,
     "Pécs": 3,
     "Szekszárd": 3,
@@ -28,11 +29,11 @@
     "Békéscsaba": 2,
     "Dunaújváros": 2,
     "Gyöngyös": 2,
-    "Kaposvár": 2,
     "Miskolc": 2,
     "Nagykanizsa": 2,
     "Szolnok": 2,
     "Tatabánya": 2,
+    "Velence": 2,
     "Esztergom": 1,
     "Keszthely": 1,
     "Körmend": 1,
@@ -40,18 +41,14 @@
     "Siófok": 1,
     "Szentendre": 1,
     "Tiszafüred": 1,
-    "Velence": 1,
     "Vác": 1
   },
-  "counties": {
+  "varmegyek": {
     "Baranya": [
       "Pécs"
     ],
     "Borsod-Abaúj-Zemplén": [
       "Miskolc"
-    ],
-    "Budapest": [
-      "Budapest"
     ],
     "Bács-Kiskun": [
       "Kecskemét"
@@ -119,8 +116,18 @@
       "Zalaegerszeg"
     ]
   },
-  "countySeatGapsBelow2": [
-    "Salgótarján"
-  ],
-  "countySeatMissing": []
+  "unknownCities": [],
+  "roles": {
+    "eladasOnly": 38,
+    "szervizOnly": 1,
+    "eladasAndSzerviz": 64
+  },
+  "szervizAudit": {
+    "strippedServiceRows": 0,
+    "strippedIds": [],
+    "overrideKeep": [
+      "svc-peppe-szerviz",
+      "svc-nelson-bike-veszprem-szerviz"
+    ]
+  }
 }

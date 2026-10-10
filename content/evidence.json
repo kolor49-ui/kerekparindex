@@ -1131,6 +1131,32 @@
       "status": "ellenőrzött"
     },
     {
+      "id": "ev-gabike-fb-20261010",
+      "url": "https://www.facebook.com/gabike2014",
+      "pageTitle": "Ga-Bike Kerékpár Szaküzlet és Szerviz | Kaposvár | Facebook",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "svc-gabike-kaposvar-szerviz",
+        "loc-gabike-kaposvar.website"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-gabike-kaposvar-20261010",
+      "url": "https://bikefun.hu/shops/gabike",
+      "pageTitle": "GaBike - BikeFun",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-gabike-kaposvar",
+        "loc-gabike-kaposvar.address",
+        "loc-gabike-kaposvar.phone",
+        "loc-gabike-kaposvar.email",
+        "loc-gabike-kaposvar.openingHours",
+        "svc-gabike-kaposvar-eladas"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
       "id": "ev-gepida-berig-deore-10-w",
       "url": "https://gepida.hu/gepida-berig-deore-10-w-matt-grafit-11372",
       "pageTitle": "BERIG DEORE 10 W – Gepida",
@@ -1418,6 +1444,20 @@
         "loc-kanizsa-kerekparcentrum-nagykanizsa.phone",
         "loc-kanizsa-kerekparcentrum-nagykanizsa.email",
         "loc-kanizsa-kerekparcentrum-nagykanizsa.brandLinks.Merida"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-karikazzunk-velence-20261010",
+      "url": "https://karikazzunk.hu/szerviz/",
+      "pageTitle": "Kerékpár szerviz Velence – Gyors javítás Velencei-tó",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-karikazzunk-velence",
+        "loc-karikazzunk-velence.address",
+        "loc-karikazzunk-velence.phone",
+        "svc-karikazzunk-velence-szerviz",
+        "svc-karikazzunk-velence-ebike"
       ],
       "status": "ellenőrzött"
     },

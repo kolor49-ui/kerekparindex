@@ -1,0 +1,1457 @@
+{
+  "accessedAt": "2026-10-10",
+  "urls": {
+    "https://gepida.hu/bemutatotermunk": {
+      "status": "supports_szerviz",
+      "note": "Gepida Factory Store Bartók u. explicitly offers márkafüggetlen szakszerviz.",
+      "pageTitle": "Gepida Factory Store - Bemutatótermünk"
+    },
+    "https://www.gepidastore.hu/kerekpar-szerviz/": {
+      "status": "supports_szerviz",
+      "note": "Dedicated szerviz page for Budapest XI Bartók Béla út with service menu and booking.",
+      "pageTitle": "Kerékpárszerviz Budapest XI."
+    },
+    "https://www.bringaboard.hu/": {
+      "status": "supports_szerviz",
+      "note": "Homepage titles shop as kereskedés, szerviz; separate szerviz phone.",
+      "pageTitle": "Biciklibolt és bicikli szerviz"
+    },
+    "https://bringavilag.com/": {
+      "status": "supports_szerviz",
+      "note": "About text mentions szervizelés at Cserhát u. Budapest location.",
+      "pageTitle": "Bringavilág Kerékpárüzlet és szerviz"
+    },
+    "https://k2-bike.hu/en/news/customer-information/ugyfelszolgalat.html": {
+      "status": "supports_szerviz",
+      "note": "States K2 Shop at Pacsirtamező 16 sells and services bicycle equipment; service appointments.",
+      "pageTitle": "Customer Service K2 Shop"
+    },
+    "https://www.bikeart.hu/szerviz.html": {
+      "status": "supports_szerviz",
+      "note": "Szerviz page lists both Csalogány and Kiss János Alt. Budapest locations.",
+      "pageTitle": "Szerviz"
+    },
+    "https://www.vozzy.hu/spg/601152/Uzletunk": {
+      "status": "supports_szerviz",
+      "note": "Debrecen store page lists kerékpár szerviz and e-Bike szerviz.",
+      "pageTitle": "Üzletünk - Vozzy Bike & Snow"
+    },
+    "https://www.jobringa.hu/kapcsolat": {
+      "status": "supports_szerviz",
+      "note": "Contact page describes szervizünk and repair services at Debrecen Böszörményi út 153.",
+      "pageTitle": "JóBringa elérhetőségek"
+    },
+    "https://heavypedal.hu/": {
+      "status": "supports_szerviz",
+      "note": "Homepage is Kerékpárüzlet & Szerviz Szeged with szerviz section.",
+      "pageTitle": "Heavy Pedal Kerékpárüzlet & Szerviz"
+    },
+    "https://www.bikeszaki.hu/": {
+      "status": "supports_szerviz",
+      "note": "Homepage states szegedi kerékpárszerviz at Szent István tér.",
+      "pageTitle": "Bikeszaki weboldal"
+    },
+    "https://www.biciklikk.hu/szerviz": {
+      "status": "supports_szerviz",
+      "note": "Szerviz page explicitly for Pécs Kodály Zoltán u. location only.",
+      "pageTitle": "Szervizeink"
+    },
+    "https://peppekerekpar.hu/": {
+      "status": "insufficient",
+      "note": "Webshop home lacks szerviz wording; business name includes szerviz but not on page body.",
+      "pageTitle": "Peppe Kerékpár szaküzlet és szerviz Győr"
+    },
+    "https://bicobolt.hu/": {
+      "status": "supports_szerviz",
+      "note": "Homepage dedicated szerviz section and Székesfehérvár address.",
+      "pageTitle": "Bicó Kerékpárbolt és Kerékpárszerviz"
+    },
+    "https://q1kerekparszalon.hu/": {
+      "status": "supports_szerviz",
+      "note": "Blog content on site discusses in-shop Bosch diagnosztika/szerviz at Nyíregyháza Bethlen Gábor u.",
+      "pageTitle": "q1 kerékpárszalon"
+    },
+    "https://melux.hu/": {
+      "status": "supports_szerviz",
+      "note": "Identifies physical shop as Bike Shop Kerékpárüzlet és szerviz Nyíregyháza Dózsa György u.",
+      "pageTitle": "melux.hu"
+    },
+    "https://borsodbike.hu/": {
+      "status": "supports_szerviz",
+      "note": "Homepage advertises 24h szerviz and repair at Miskolc Geró János u.",
+      "pageTitle": "Borsod Bike"
+    },
+    "https://biciklon.hu/": {
+      "status": "supports_szerviz",
+      "note": "Corporate page states szerviz at Szombathely Paragvári u. (and Körmend).",
+      "pageTitle": "Biciklon"
+    },
+    "https://savariauniker.uzleti.hu/": {
+      "status": "supports_szerviz",
+      "note": "Bemutatkozás: kerékpárok forgalmazása és szervizelése, Szombathely.",
+      "pageTitle": "Savaria Uniker"
+    },
+    "https://bikefun.hu/shops/Canyon-Sport": {
+      "status": "insufficient",
+      "note": "BikeFun dealer card: address/hours only, no szerviz claim for Canyon Sport.",
+      "pageTitle": "Canyon Sport - BikeFun"
+    },
+    "https://stormkerekpar.uzleti.hu/": {
+      "status": "supports_szerviz",
+      "note": "Szaküzlet és Szerviz Zalaegerszeg with full szerviz and gyorsszerviz text.",
+      "pageTitle": "STORM Kerékpár"
+    },
+    "http://www.podorkerekpar.hu/kapcsolat.html": {
+      "status": "supports_szerviz",
+      "note": "Site branding Pödör … és Szerviz; contact confirms Zalaegerszeg Petőfi u.",
+      "pageTitle": "Pödör Kerékpárszaküzlet és Szerviz"
+    },
+    "https://www.madbike.hu/kapcsolat": {
+      "status": "supports_szerviz",
+      "note": "Contact lists Értékesítés és szerviz at Zalaegerszeg.",
+      "pageTitle": "Kapcsolat | Madbike"
+    },
+    "https://bikefun.hu/shops/bringavar-2": {
+      "status": "insufficient",
+      "note": "BikeFun listing: address/hours only, no szerviz for Bringavár.",
+      "pageTitle": "Bringavár - BikeFun"
+    },
+    "http://fricikli.hu/": {
+      "status": "supports_szerviz",
+      "note": "Kerékpárbolt és Műhely Sopron Balfi út.",
+      "pageTitle": "Fricikli – Kerékpárbolt és Műhely"
+    },
+    "https://bikefun.hu/shops/toth-fia-kerekparbolt-es-muhely": {
+      "status": "supports_szerviz",
+      "note": "BikeFun shop title includes Kerékpárbolt és Műhely for Sopron Bécsi u.",
+      "pageTitle": "Tóth & Fia Kerékpárbolt és Műhely"
+    },
+    "https://bikefun.hu/shops/ketkerek-sport": {
+      "status": "insufficient",
+      "note": "BikeFun card address/hours only; no szerviz wording.",
+      "pageTitle": "Kétkerék Sport - BikeFun"
+    },
+    "https://www.mangobike.hu/kapcsolat": {
+      "status": "insufficient",
+      "note": "Contact page only; no szerviz on sourceUrl (website home mentions szerviz).",
+      "pageTitle": "Kapcsolat - Mangobike"
+    },
+    "https://www.tuttibringa.hu/": {
+      "status": "insufficient",
+      "note": "Homepage shop/e-commerce only, no szerviz mention.",
+      "pageTitle": "Tuttibringa"
+    },
+    "https://www.new.littvankerekpar.hu/?page_id=108": {
+      "status": "insufficient",
+      "note": "Contact page only, no szerviz/javítás wording.",
+      "pageTitle": "LITTVÁN KERÉKPÁR kapcsolat"
+    },
+    "https://bikefun.hu/shops/ketkerek-centrum": {
+      "status": "insufficient",
+      "note": "BikeFun dealer card without szerviz text.",
+      "pageTitle": "Kétkerék Centrum - BikeFun"
+    },
+    "http://javitomuhelyek.humusz.hu/schneider-ker-kp-r-szak-zlet": {
+      "status": "supports_szerviz",
+      "note": "Humusz listing: Kerékpár szaküzlet és javítás, Szekszárd Petőfi u.",
+      "pageTitle": "Schneider Kerékpár Szaküzlet"
+    },
+    "http://yankosbike.hu/": {
+      "status": "insufficient",
+      "note": "Webshop home no szerviz mention despite business name.",
+      "pageTitle": "Yanko's Bike"
+    },
+    "https://www.polisport.com/en/stores_52.html?idst=1368": {
+      "status": "insufficient",
+      "note": "Polisport store locator: address/phone only.",
+      "pageTitle": "Kanizsa Kerékpárcentrum - Polisport"
+    },
+    "https://greenzone.hu/aszf/": {
+      "status": "sales_only",
+      "note": "ASZF/webshop terms; no szerviz service claim.",
+      "pageTitle": "ÁSZF - GreenZone"
+    },
+    "https://tempokerekpar.hu/": {
+      "status": "unreachable",
+      "note": "Bot/security gate blocks automated fetch.",
+      "pageTitle": "Security check"
+    },
+    "https://kerekparbalaton.hu/kapcsolat/": {
+      "status": "supports_szerviz",
+      "note": "Lists kerékpár és síszerviz at Balatonfüred locations.",
+      "pageTitle": "Kapcsolat - kerekparbalaton.hu"
+    },
+    "https://www.pelsobike.hu/index.php?lang=hu": {
+      "status": "insufficient",
+      "note": "Home shows contact only, no szerviz text on page.",
+      "pageTitle": "Pelso Bike Főoldal"
+    },
+    "https://bikefun.hu/shops/nelson-bike-1": {
+      "status": "insufficient",
+      "note": "BikeFun dealer card without szerviz.",
+      "pageTitle": "Nelson Bike - BikeFun"
+    },
+    "https://kuszikerekpar.hu/": {
+      "status": "supports_szerviz",
+      "note": "Shop title and text: Kuszi … Szerviz Veszprém Szegfű u.",
+      "pageTitle": "Kuszi Kerékpár Szaküzlet és Szerviz"
+    },
+    "http://www.bikeland.hu/": {
+      "status": "supports_szerviz",
+      "note": "Title and header: BIKE LAND … Szerviz Veszprém Dózsa György u.",
+      "pageTitle": "BIKELAND Kerékpárszaküzlet és Szerviz"
+    },
+    "https://ronabike.hu/aszf.html": {
+      "status": "insufficient",
+      "note": "ASZF/webshop legal page only; no szerviz services described.",
+      "pageTitle": "RonaBike ASZF"
+    },
+    "https://csepelkerekpar.hu/uzletek/?county=Veszpr%C3%A9m": {
+      "status": "org_level_unclear",
+      "note": "County dealer list; per-shop Van szervíz flags (Farády yes, Sport Oázis yes).",
+      "pageTitle": "Csepel üzletek Veszprém megye"
+    },
+    "https://bikefun.hu/shops/balint-kerekpar": {
+      "status": "insufficient",
+      "note": "BikeFun card without szerviz.",
+      "pageTitle": "Bálint Kerékpár - BikeFun"
+    },
+    "https://bikefun.hu/shops/biciklon-sport-kerekparuezlet-es-szerviz-koermend": {
+      "status": "supports_szerviz",
+      "note": "BikeFun shop name includes Szerviz Körmend Rákóczi u.",
+      "pageTitle": "Biciklon Sport … Körmend"
+    },
+    "https://bringabolt.com/kapcsolat/": {
+      "status": "insufficient",
+      "note": "Contact/hours only; no szerviz on sourceUrl.",
+      "pageTitle": "Kapcsolat - Bringabolt"
+    },
+    "https://www.szigmatrade.hu/": {
+      "status": "sales_only",
+      "note": "Csepel web sales only, no szerviz.",
+      "pageTitle": "Szigmatrade / Csepel"
+    },
+    "https://bikefun.hu/shops/bicishop": {
+      "status": "insufficient",
+      "note": "BikeFun dealer card without szerviz.",
+      "pageTitle": "Bicishop - BikeFun"
+    },
+    "http://www.szepkerekpar.hu/": {
+      "status": "unreachable",
+      "note": "Site under maintenance; no szerviz content.",
+      "pageTitle": "Hamarosan újra elérhetőek"
+    },
+    "https://bikefun.hu/shops/canganyika-kerekparuezlet-es-szerviz": {
+      "status": "supports_szerviz",
+      "note": "BikeFun listing title includes szerviz for Szolnok location.",
+      "pageTitle": "Canganyika … szerviz"
+    },
+    "https://pnemobilkft.webnode.hu/": {
+      "status": "supports_szerviz",
+      "note": "Describes szervízpont and repairs at Szolnok Pozsonyi út.",
+      "pageTitle": "PneMobilKft"
+    },
+    "https://egerbike.hu/kapcsolat": {
+      "status": "insufficient",
+      "note": "Contact only on sourceUrl; egerbike.hu home confirms helyben szerviz.",
+      "pageTitle": "Kapcsolat - Egerbike"
+    },
+    "https://bicocenter.hu/": {
+      "status": "supports_szerviz",
+      "note": "Extensive SZERVÍZ section for Eger location.",
+      "pageTitle": "Bicó Center"
+    },
+    "https://bikeworkshop.ewk.hu/elerhetosegek/": {
+      "status": "insufficient",
+      "note": "Contact page only; shop name implies workshop but page lacks szerviz text.",
+      "pageTitle": "Bike Work Shop elérhetőségek"
+    },
+    "https://elektromos-kerekparbolt.hu/rolunk/": {
+      "status": "supports_szerviz",
+      "note": "Rekord-Mobil Békéscsaba: szerviz tapasztalat and műhely described.",
+      "pageTitle": "Rólunk | Rekord-Mobil"
+    },
+    "https://neuzer.hu/partnereink": {
+      "status": "sales_only",
+      "note": "Wholesale partner directory; no per-dealer szerviz claims.",
+      "pageTitle": "Viszonteladó partnereink"
+    },
+    "https://velosport.hu/rolunk": {
+      "status": "supports_szerviz",
+      "note": "Rólunk section Kerékpárszerviz at Salgótarján Füleki út.",
+      "pageTitle": "Velosport rólunk"
+    },
+    "https://bikefun.hu/shops/Jel-Kerekpar-Szakuzlet-es-Szerviz": {
+      "status": "supports_szerviz",
+      "note": "BikeFun listing title Szaküzlet és Szerviz Tatabánya.",
+      "pageTitle": "Jel Kerékpár … Szerviz"
+    },
+    "https://konzumkerekpar.webnode.hu/": {
+      "status": "supports_szerviz",
+      "note": "Konzum Kerékpárszervíz Tatabánya repair services described.",
+      "pageTitle": "Konzum Kerékpárszervíz"
+    },
+    "https://pedalkerekpar.hu/": {
+      "status": "supports_szerviz",
+      "note": "States garanciális szervizét vállalják Gyöngyös shop.",
+      "pageTitle": "Pedál Kerékpár"
+    },
+    "https://aquariusbike.hu/": {
+      "status": "supports_szerviz",
+      "note": "Kerékpár szerviz section and Shimano service center Dunaújváros.",
+      "pageTitle": "Aquarius Bike"
+    },
+    "https://magellanbike.hu/kapcsolat/": {
+      "status": "supports_szerviz",
+      "note": "Contact mentions szervizzel kapcsolatos kérdések Dunaújváros.",
+      "pageTitle": "Magellán Bike kapcsolat"
+    },
+    "https://www.urbanlegend.hu/kapcsolat/": {
+      "status": "supports_szerviz",
+      "note": "Describes 4-állásos szerviz Szeged József Attila sgt.",
+      "pageTitle": "UrbanLegend kapcsolat"
+    },
+    "https://vasparipakerekpar.hu/kapcsolat/": {
+      "status": "supports_szerviz",
+      "note": "Page title Kerékpárbolt és műhely Szeged.",
+      "pageTitle": "Vasparipa kapcsolat"
+    },
+    "https://trek.hu/hu-hu/Trek_cikkek/Trek_kereskedes_Szeged": {
+      "status": "insufficient",
+      "note": "Trek dealer listing: address/hours only for Maniac Szeged.",
+      "pageTitle": "Maniac kerékárszaküzlet"
+    },
+    "https://trek.hu/hu-hu/Trek_cikkek/Trek_kereskedesek_magyarorszagon": {
+      "status": "insufficient",
+      "note": "National Trek dealer index; no szerviz per shop on listing.",
+      "pageTitle": "Trek üzletek Magyarországon"
+    },
+    "http://gsportzona.hu/": {
+      "status": "supports_szerviz",
+      "note": "Title és szerviz section Teljeskörű kerékpár szerviz Szeged.",
+      "pageTitle": "GsportZóna kerékpárüzlet és szerviz"
+    },
+    "https://bikefun.hu/shops/Prolog-Kerekparuzlet": {
+      "status": "insufficient",
+      "note": "BikeFun card without szerviz.",
+      "pageTitle": "Prolog Kerékpárüzlet"
+    },
+    "https://chilisport.hu/elerhetoseg/": {
+      "status": "supports_szerviz",
+      "note": "Explicitly kerékpár üzlet és szerviz Debrecen Csapó u.",
+      "pageTitle": "Chili Sport elérhetőség"
+    },
+    "https://bikefun.hu/shops/regina-kerekparbolt": {
+      "status": "insufficient",
+      "note": "BikeFun dealer card without szerviz.",
+      "pageTitle": "Regina Kerékpárbolt"
+    },
+    "https://bombastic.uzleti.hu/": {
+      "status": "supports_szerviz",
+      "note": "Miskolc shop profile includes kerékpár szervizelése.",
+      "pageTitle": "Bombastic Bringastic"
+    },
+    "https://bringasziget.hu/": {
+      "status": "supports_szerviz",
+      "note": "Lists kerékpárszerviz Nyíregyháza Agyag u.",
+      "pageTitle": "BringaSziget"
+    },
+    "https://kondor-kerekpar.webnode.hu/": {
+      "status": "supports_szerviz",
+      "note": "Csepel … és Szervíz Nyíregyháza with szerviz section.",
+      "pageTitle": "Csepel Kerékpár és Szervíz"
+    },
+    "https://halmibringa.hu/": {
+      "status": "insufficient",
+      "note": "Title tag mentions szerviz but visible page is webshop/contact only.",
+      "pageTitle": "Halmibringa"
+    },
+    "http://www.kerekparpecs.hu/": {
+      "status": "supports_szerviz",
+      "note": "Imperátor Pécs: kerékpárszalon és szervíz.",
+      "pageTitle": "Imperátor kerekparpecs.hu"
+    },
+    "https://www.dreamlinecycle.hu/": {
+      "status": "supports_szerviz",
+      "note": "Pécs bringa szerviz primary business on homepage.",
+      "pageTitle": "Dreamline Cycle"
+    },
+    "https://www.uzletektiszafured.hu/Kerekpar_alkatresz/674/Tisza-bringa_bolt/3339": {
+      "status": "insufficient",
+      "note": "Directory listing: address/hours only.",
+      "pageTitle": "Tisza-bringa bolt Tiszafüred"
+    },
+    "http://dzbike.hu/": {
+      "status": "supports_szerviz",
+      "note": "DZ BIKE Vác kerékpárszerviz Galcsek u.",
+      "pageTitle": "DZ BIKE Vác"
+    },
+    "https://www.balazskerekparbolt.com/": {
+      "status": "supports_szerviz",
+      "note": "Szentendre shop lists Kerékpár szervíz service.",
+      "pageTitle": "Balázs Kerékpárbolt"
+    },
+    "https://www.fogaskerekpargyor.hu/": {
+      "status": "supports_szerviz",
+      "note": "Kerékpár szaküzlet & szerviz Győr with szerviz section.",
+      "pageTitle": "Fogas Kerékpárbolt Győr"
+    },
+    "https://www.feritasport.hu/": {
+      "status": "supports_szerviz",
+      "note": "Site title kerékpár szaküzlet és szervíz Győr Bodzás u.",
+      "pageTitle": "Ferita Sport"
+    },
+    "https://stelvio.hu/": {
+      "status": "supports_szerviz",
+      "note": "Stelvio szaküzlet és szerviz Győr Práter u.",
+      "pageTitle": "Stelvio Bike & Café"
+    },
+    "http://www.velencebike.hu/": {
+      "status": "insufficient",
+      "note": "Minimal landing page, no szerviz wording.",
+      "pageTitle": "VelenceBike"
+    },
+    "https://hariskerekpar.hu/kapcsolat/": {
+      "status": "supports_szerviz",
+      "note": "TREK márkakereskedés és szervíz Székesfehérvár.",
+      "pageTitle": "Hariskerekpar kapcsolat"
+    },
+    "https://www.solyombike.hu/": {
+      "status": "supports_szerviz",
+      "note": "Kerékpárbolt és szerviz Érd with szerviz content.",
+      "pageTitle": "Sólyombike"
+    },
+    "https://alfabike.hu/": {
+      "status": "supports_szerviz",
+      "note": "Kerékpárüzlet és Szerviz Érd with szerviz packages.",
+      "pageTitle": "AlfaBike Érd"
+    },
+    "https://robikes.hu/": {
+      "status": "supports_szerviz",
+      "note": "Robikes kerékpárszerviz Érd detailed.",
+      "pageTitle": "Robikes Kellys szerviz"
+    },
+    "https://bikefun.hu/shops/bike-cafe-kerekparuezlet": {
+      "status": "insufficient",
+      "note": "BikeFun card without szerviz.",
+      "pageTitle": "Bike Cafe - BikeFun"
+    },
+    "https://bikefun.hu/shops/big-bike": {
+      "status": "insufficient",
+      "note": "BikeFun card without szerviz.",
+      "pageTitle": "Big Bike - BikeFun"
+    },
+    "https://bikefun.hu/shops/bikemen-kerekparbolt": {
+      "status": "insufficient",
+      "note": "BikeFun card without szerviz.",
+      "pageTitle": "Bikemen - BikeFun"
+    },
+    "https://bikefun.hu/shops/fueloep-kerekpar-centrum-mgbikes": {
+      "status": "insufficient",
+      "note": "BikeFun card without szerviz.",
+      "pageTitle": "Fülöp Kerékpár Centrum - BikeFun"
+    },
+    "http://javitomuhelyek.humusz.hu/m-tra-bike": {
+      "status": "supports_szerviz",
+      "note": "Humusz: kerékpár szervizelése Gyöngyös Széchenyi u.",
+      "pageTitle": "Mátra Bike"
+    }
+  },
+  "perLocation": [
+    {
+      "locId": "loc-futurebike-bartok",
+      "name": "Gepida Factory Store / Futurebike",
+      "city": "Budapest",
+      "svcId": "svc-futurebike-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://gepida.hu/bemutatotermunk",
+      "verdict": "keep",
+      "reason": "Gepida Factory Store Bartók u. explicitly offers márkafüggetlen szakszerviz."
+    },
+    {
+      "locId": "loc-futurebike-bartok",
+      "name": "Gepida Factory Store / Futurebike",
+      "city": "Budapest",
+      "svcId": "svc-futurebike-ebike",
+      "role": "e-bike-szerviz",
+      "sourceUrl": "https://www.gepidastore.hu/kerekpar-szerviz/",
+      "verdict": "keep",
+      "reason": "Dedicated szerviz page for Budapest XI Bartók Béla út with service menu and booking."
+    },
+    {
+      "locId": "loc-bringaboard-jasz",
+      "name": "BringaBoard Kerékpár Szaküzlet",
+      "city": "Budapest",
+      "svcId": "svc-bringaboard-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://www.bringaboard.hu/",
+      "verdict": "keep",
+      "reason": "Homepage titles shop as kereskedés, szerviz; separate szerviz phone."
+    },
+    {
+      "locId": "loc-bringavilag-cserhat",
+      "name": "Bringavilág Kerékpárüzlet és szerviz",
+      "city": "Budapest",
+      "svcId": "svc-bringavilag-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://bringavilag.com/",
+      "verdict": "keep",
+      "reason": "About text mentions szervizelés at Cserhát u. Budapest location."
+    },
+    {
+      "locId": "loc-k2-pacsirtamezo",
+      "name": "K2 Shop",
+      "city": "Budapest",
+      "svcId": "svc-k2-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://k2-bike.hu/en/news/customer-information/ugyfelszolgalat.html",
+      "verdict": "keep",
+      "reason": "States K2 Shop at Pacsirtamező 16 sells and services bicycle equipment; service appointments."
+    },
+    {
+      "locId": "loc-bikeart-csalogany",
+      "name": "BikeArt Center – Csalogány utca",
+      "city": "Budapest",
+      "svcId": "svc-bikeart-csalogany-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://www.bikeart.hu/szerviz.html",
+      "verdict": "keep",
+      "reason": "Szerviz page lists both Csalogány and Kiss János Alt. Budapest locations."
+    },
+    {
+      "locId": "loc-bikeart-kissjanos",
+      "name": "BikeArt Center – Kiss János Alt. utca",
+      "city": "Budapest",
+      "svcId": "svc-bikeart-kissjanos-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://www.bikeart.hu/szerviz.html",
+      "verdict": "keep",
+      "reason": "Szerviz page lists both Csalogány and Kiss János Alt. Budapest locations."
+    },
+    {
+      "locId": "loc-vozzy-debrecen",
+      "name": "VOZZY Bike & Snow",
+      "city": "Debrecen",
+      "svcId": "svc-vozzy-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://www.vozzy.hu/spg/601152/Uzletunk",
+      "verdict": "keep",
+      "reason": "Debrecen store page lists kerékpár szerviz and e-Bike szerviz."
+    },
+    {
+      "locId": "loc-vozzy-debrecen",
+      "name": "VOZZY Bike & Snow",
+      "city": "Debrecen",
+      "svcId": "svc-vozzy-ebike",
+      "role": "e-bike-szerviz",
+      "sourceUrl": "https://www.vozzy.hu/spg/601152/Uzletunk",
+      "verdict": "keep",
+      "reason": "Debrecen store page lists kerékpár szerviz and e-Bike szerviz."
+    },
+    {
+      "locId": "loc-jobringa-debrecen",
+      "name": "JóBringa",
+      "city": "Debrecen",
+      "svcId": "svc-jobringa-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://www.jobringa.hu/kapcsolat",
+      "verdict": "keep",
+      "reason": "Contact page describes szervizünk and repair services at Debrecen Böszörményi út 153."
+    },
+    {
+      "locId": "loc-heavy-pedal-szeged",
+      "name": "Heavy Pedál Kerékpárüzlet & Szerviz",
+      "city": "Szeged",
+      "svcId": "svc-heavy-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://heavypedal.hu/",
+      "verdict": "keep",
+      "reason": "Homepage is Kerékpárüzlet & Szerviz Szeged with szerviz section."
+    },
+    {
+      "locId": "loc-bikeszaki-szeged",
+      "name": "Bikeszaki",
+      "city": "Szeged",
+      "svcId": "svc-bikeszaki-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://www.bikeszaki.hu/",
+      "verdict": "keep",
+      "reason": "Homepage states szegedi kerékpárszerviz at Szent István tér."
+    },
+    {
+      "locId": "loc-biciklikk-pecs",
+      "name": "Biciklikk Pécs",
+      "city": "Pécs",
+      "svcId": "svc-biciklikk-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://www.biciklikk.hu/szerviz",
+      "verdict": "keep",
+      "reason": "Szerviz page explicitly for Pécs Kodály Zoltán u. location only."
+    },
+    {
+      "locId": "loc-biciklikk-pecs",
+      "name": "Biciklikk Pécs",
+      "city": "Pécs",
+      "svcId": "svc-biciklikk-ebike",
+      "role": "e-bike-szerviz",
+      "sourceUrl": "https://www.biciklikk.hu/szerviz",
+      "verdict": "keep",
+      "reason": "Szerviz page explicitly for Pécs Kodály Zoltán u. location only."
+    },
+    {
+      "locId": "loc-peppe-gyor",
+      "name": "Peppe Kerékpár szaküzlet és szerviz",
+      "city": "Győr",
+      "svcId": "svc-peppe-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://peppekerekpar.hu/",
+      "verdict": "strip",
+      "reason": "Homepage still lacks szerviz body text; name-only insufficient on fetched page."
+    },
+    {
+      "locId": "loc-bico-szekesfehervar",
+      "name": "Bicó Kerékpárbolt és Kerékpárszerviz",
+      "city": "Székesfehérvár",
+      "svcId": "svc-bico-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://bicobolt.hu/",
+      "verdict": "keep",
+      "reason": "Homepage dedicated szerviz section and Székesfehérvár address."
+    },
+    {
+      "locId": "loc-q1-nyiregyhaza",
+      "name": "q1 kerékpárszalon",
+      "city": "Nyíregyháza",
+      "svcId": "svc-q1-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://q1kerekparszalon.hu/",
+      "verdict": "keep",
+      "reason": "Blog content on site discusses in-shop Bosch diagnosztika/szerviz at Nyíregyháza Bethlen Gábor u."
+    },
+    {
+      "locId": "loc-q1-nyiregyhaza",
+      "name": "q1 kerékpárszalon",
+      "city": "Nyíregyháza",
+      "svcId": "svc-q1-ebike",
+      "role": "e-bike-szerviz",
+      "sourceUrl": "https://q1kerekparszalon.hu/",
+      "verdict": "keep",
+      "reason": "Blog content on site discusses in-shop Bosch diagnosztika/szerviz at Nyíregyháza Bethlen Gábor u."
+    },
+    {
+      "locId": "loc-melux-nyiregyhaza",
+      "name": "Bike Shop Kerékpárüzlet és Szerviz",
+      "city": "Nyíregyháza",
+      "svcId": "svc-melux-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://melux.hu/",
+      "verdict": "keep",
+      "reason": "Identifies physical shop as Bike Shop Kerékpárüzlet és szerviz Nyíregyháza Dózsa György u."
+    },
+    {
+      "locId": "loc-borsod-bike-miskolc",
+      "name": "Borsod Bike",
+      "city": "Miskolc",
+      "svcId": "svc-borsod-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://borsodbike.hu/",
+      "verdict": "keep",
+      "reason": "Homepage advertises 24h szerviz and repair at Miskolc Geró János u."
+    },
+    {
+      "locId": "loc-biciklon-sport-szombathely",
+      "name": "Biciklon Sport Kerékpárüzlet és Szerviz",
+      "city": "Szombathely",
+      "svcId": "svc-biciklon-sport-szombathely-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://biciklon.hu/",
+      "verdict": "keep",
+      "reason": "Corporate page states szerviz at Szombathely Paragvári u. (and Körmend)."
+    },
+    {
+      "locId": "loc-savaria-uniker-szombathely",
+      "name": "Savaria Uniker Kft. (Műszaki áruház)",
+      "city": "Szombathely",
+      "svcId": "svc-savaria-uniker-szombathely-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://savariauniker.uzleti.hu/",
+      "verdict": "keep",
+      "reason": "Bemutatkozás: kerékpárok forgalmazása és szervizelése, Szombathely."
+    },
+    {
+      "locId": "loc-canyon-sport-szombathely",
+      "name": "Canyon Sport Kft.",
+      "city": "Szombathely",
+      "svcId": "svc-canyon-sport-szombathely-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://bikefun.hu/shops/Canyon-Sport",
+      "verdict": "strip",
+      "reason": "BikeFun dealer card: address/hours only, no szerviz claim for Canyon Sport."
+    },
+    {
+      "locId": "loc-storm-kerekpar-zalaegerszeg",
+      "name": "STORM Kerékpár",
+      "city": "Zalaegerszeg",
+      "svcId": "svc-storm-kerekpar-zalaegerszeg-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://stormkerekpar.uzleti.hu/",
+      "verdict": "keep",
+      "reason": "Szaküzlet és Szerviz Zalaegerszeg with full szerviz and gyorsszerviz text."
+    },
+    {
+      "locId": "loc-podor-kerekpar-zalaegerszeg",
+      "name": "Pödör Kerékpárszaküzlet és Szerviz",
+      "city": "Zalaegerszeg",
+      "svcId": "svc-podor-kerekpar-zalaegerszeg-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "http://www.podorkerekpar.hu/kapcsolat.html",
+      "verdict": "keep",
+      "reason": "Site branding Pödör … és Szerviz; contact confirms Zalaegerszeg Petőfi u."
+    },
+    {
+      "locId": "loc-madbike-zalaegerszeg",
+      "name": "Madbike Kft.",
+      "city": "Zalaegerszeg",
+      "svcId": "svc-madbike-zalaegerszeg-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://www.madbike.hu/kapcsolat",
+      "verdict": "keep",
+      "reason": "Contact lists Értékesítés és szerviz at Zalaegerszeg."
+    },
+    {
+      "locId": "loc-bringavar-zalaegerszeg",
+      "name": "Bringavár",
+      "city": "Zalaegerszeg",
+      "svcId": "svc-bringavar-zalaegerszeg-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://bikefun.hu/shops/bringavar-2",
+      "verdict": "strip",
+      "reason": "BikeFun listing: address/hours only, no szerviz for Bringavár."
+    },
+    {
+      "locId": "loc-fricikli-sopron",
+      "name": "Fricikli Kerékpárbolt és Műhely",
+      "city": "Sopron",
+      "svcId": "svc-fricikli-sopron-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "http://fricikli.hu/",
+      "verdict": "keep",
+      "reason": "Kerékpárbolt és Műhely Sopron Balfi út."
+    },
+    {
+      "locId": "loc-toth-fia-sopron",
+      "name": "Tóth & Fia Kerékpárbolt és Műhely",
+      "city": "Sopron",
+      "svcId": "svc-toth-fia-sopron-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://bikefun.hu/shops/toth-fia-kerekparbolt-es-muhely",
+      "verdict": "keep",
+      "reason": "BikeFun shop title includes Kerékpárbolt és Műhely for Sopron Bécsi u."
+    },
+    {
+      "locId": "loc-ketkerek-sport-sopron",
+      "name": "Kétkerék Sport",
+      "city": "Sopron",
+      "svcId": "svc-ketkerek-sport-sopron-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://bikefun.hu/shops/ketkerek-sport",
+      "verdict": "strip",
+      "reason": "BikeFun card address/hours only; no szerviz wording."
+    },
+    {
+      "locId": "loc-mangobike-sopron",
+      "name": "MangoBike kerékpárszaküzlet",
+      "city": "Sopron",
+      "svcId": "svc-mangobike-sopron-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://www.mangobike.hu/kapcsolat",
+      "verdict": "keep",
+      "reason": "sourceUrl contact-only; mangobike.hu home advertises szerviz/Shimano service center Sopron."
+    },
+    {
+      "locId": "loc-tuttibringa-kaposvar",
+      "name": "Tuttibringa Kft.",
+      "city": "Kaposvár",
+      "svcId": "svc-tuttibringa-kaposvar-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://www.tuttibringa.hu/",
+      "verdict": "strip",
+      "reason": "Homepage shop/e-commerce only, no szerviz mention."
+    },
+    {
+      "locId": "loc-littvan-kerekpar-kaposvar",
+      "name": "Littván Kerékpár",
+      "city": "Kaposvár",
+      "svcId": "svc-littvan-kerekpar-kaposvar-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://www.new.littvankerekpar.hu/?page_id=108",
+      "verdict": "strip",
+      "reason": "Contact page only, no szerviz/javítás wording."
+    },
+    {
+      "locId": "loc-ketkerek-centrum-szekszard",
+      "name": "Kétkerék Centrum",
+      "city": "Szekszárd",
+      "svcId": "svc-ketkerek-centrum-szekszard-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://bikefun.hu/shops/ketkerek-centrum",
+      "verdict": "strip",
+      "reason": "BikeFun dealer card without szerviz text."
+    },
+    {
+      "locId": "loc-schneider-kerekpar-szekszard",
+      "name": "Schneider Kerékpár Szaküzlet",
+      "city": "Szekszárd",
+      "svcId": "svc-schneider-kerekpar-szekszard-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "http://javitomuhelyek.humusz.hu/schneider-ker-kp-r-szak-zlet",
+      "verdict": "keep",
+      "reason": "Humusz listing: Kerékpár szaküzlet és javítás, Szekszárd Petőfi u."
+    },
+    {
+      "locId": "loc-yankos-bike-nagykanizsa",
+      "name": "Yanko's Bike Kerékpárbolt és Szervíz",
+      "city": "Nagykanizsa",
+      "svcId": "svc-yankos-bike-nagykanizsa-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "http://yankosbike.hu/",
+      "verdict": "strip",
+      "reason": "Webshop home no szerviz mention despite business name."
+    },
+    {
+      "locId": "loc-kanizsa-kerekparcentrum-nagykanizsa",
+      "name": "Kanizsa Kerékpárcentrum",
+      "city": "Nagykanizsa",
+      "svcId": "svc-kanizsa-kerekparcentrum-nagykanizsa-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://www.polisport.com/en/stores_52.html?idst=1368",
+      "verdict": "strip",
+      "reason": "Polisport store locator: address/phone only."
+    },
+    {
+      "locId": "loc-greenzone-keszthely",
+      "name": "GreenZone (Sikos Zoltán e.v.)",
+      "city": "Keszthely",
+      "svcId": "svc-greenzone-keszthely-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://greenzone.hu/aszf/",
+      "verdict": "strip",
+      "reason": "ASZF/sales only on sourceUrl; no szerviz on fetched greenzone page."
+    },
+    {
+      "locId": "loc-tempo-kerekpar-balatonfured",
+      "name": "Tempo Kerékpárszaküzlet és Szerviz",
+      "city": "Balatonfüred",
+      "svcId": "svc-tempo-kerekpar-balatonfured-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://tempokerekpar.hu/",
+      "verdict": "strip",
+      "reason": "tempokerekpar.hu blocked/unreachable in fetch; no verified szerviz evidence."
+    },
+    {
+      "locId": "loc-csopi-kerekparos-kozpont-balatonfured",
+      "name": "Csöpi Kerékpáros Központ",
+      "city": "Balatonfüred",
+      "svcId": "svc-csopi-kerekparos-kozpont-balatonfured-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://kerekparbalaton.hu/kapcsolat/",
+      "verdict": "keep",
+      "reason": "Lists kerékpár és síszerviz at Balatonfüred locations."
+    },
+    {
+      "locId": "loc-pelso-bike-siofok",
+      "name": "Pelso Bike Kft. (Böröcfi Kerékpárszaküzlet)",
+      "city": "Siófok",
+      "svcId": "svc-pelso-bike-siofok-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://www.pelsobike.hu/index.php?lang=hu",
+      "verdict": "strip",
+      "reason": "Home shows contact only, no szerviz text on page."
+    },
+    {
+      "locId": "loc-nelson-bike-veszprem",
+      "name": "Nelson Bike Kerékpárszaküzlet, Szerviz és Kölcsönző",
+      "city": "Veszprém",
+      "svcId": "svc-nelson-bike-veszprem-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://bikefun.hu/shops/nelson-bike-1",
+      "verdict": "strip",
+      "reason": "BikeFun dealer card without szerviz."
+    },
+    {
+      "locId": "loc-kuszi-kerekpar-veszprem",
+      "name": "Kuszi Kerékpár Szaküzlet és Szerviz",
+      "city": "Veszprém",
+      "svcId": "svc-kuszi-kerekpar-veszprem-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://kuszikerekpar.hu/",
+      "verdict": "keep",
+      "reason": "Shop title and text: Kuszi … Szerviz Veszprém Szegfű u."
+    },
+    {
+      "locId": "loc-bikeland-veszprem",
+      "name": "BIKELAND Kerékpárszaküzlet és Szerviz",
+      "city": "Veszprém",
+      "svcId": "svc-bikeland-veszprem-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "http://www.bikeland.hu/",
+      "verdict": "keep",
+      "reason": "Title and header: BIKE LAND … Szerviz Veszprém Dózsa György u."
+    },
+    {
+      "locId": "loc-ronabike-veszprem",
+      "name": "RonaBike Kerékpár Szaküzlet és Szervíz",
+      "city": "Veszprém",
+      "svcId": "svc-ronabike-veszprem-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://ronabike.hu/aszf.html",
+      "verdict": "keep",
+      "reason": "ASZF weak; ronabike.hu home title Kerékpár Szaküzlet és Szervíz (website supports)."
+    },
+    {
+      "locId": "loc-farady-kerekpar-veszprem",
+      "name": "Farády Kerékpárszaküzlet",
+      "city": "Veszprém",
+      "svcId": "svc-farady-kerekpar-veszprem-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://csepelkerekpar.hu/uzletek/?county=Veszpr%C3%A9m",
+      "verdict": "keep",
+      "reason": "Csepel listing marks Farády Veszprém with Van szervíz."
+    },
+    {
+      "locId": "loc-sport-oazis-papa",
+      "name": "Sport Oázis Kft.",
+      "city": "Pápa",
+      "svcId": "svc-sport-oazis-papa-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://csepelkerekpar.hu/uzletek/?county=Veszpr%C3%A9m",
+      "verdict": "keep",
+      "reason": "Csepel listing marks Sport Oázis Pápa with Van szervíz."
+    },
+    {
+      "locId": "loc-balint-kerekpar-papa",
+      "name": "Bálint Kerékpár Szaküzlet és Szerviz",
+      "city": "Pápa",
+      "svcId": "svc-balint-kerekpar-papa-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://bikefun.hu/shops/balint-kerekpar",
+      "verdict": "strip",
+      "reason": "BikeFun card without szerviz."
+    },
+    {
+      "locId": "loc-biciklon-kormend",
+      "name": "Biciklon Sport Kerékpárüzlet és Szerviz Körmend",
+      "city": "Körmend",
+      "svcId": "svc-biciklon-kormend-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://bikefun.hu/shops/biciklon-sport-kerekparuezlet-es-szerviz-koermend",
+      "verdict": "keep",
+      "reason": "BikeFun shop name includes Szerviz Körmend Rákóczi u."
+    },
+    {
+      "locId": "loc-bringabolt-kecskemet",
+      "name": "Bringabolt",
+      "city": "Kecskemét",
+      "svcId": "svc-bringabolt-kecskemet-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://bringabolt.com/kapcsolat/",
+      "verdict": "strip",
+      "reason": "bringabolt.com home/kapcsolat lack szerviz; no alternate evidence fetched."
+    },
+    {
+      "locId": "loc-szigma-trade-kecskemet",
+      "name": "Szigma-Trade Kft.",
+      "city": "Kecskemét",
+      "svcId": "svc-szigma-trade-kecskemet-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://www.szigmatrade.hu/",
+      "verdict": "strip",
+      "reason": "Csepel web sales only, no szerviz."
+    },
+    {
+      "locId": "loc-bicishop-kecskemet",
+      "name": "Bicishop",
+      "city": "Kecskemét",
+      "svcId": "svc-bicishop-kecskemet-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://bikefun.hu/shops/bicishop",
+      "verdict": "strip",
+      "reason": "bicishop.hu home has no szerviz wording; BikeFun card insufficient."
+    },
+    {
+      "locId": "loc-szep-kerekpar-kecskemet",
+      "name": "SZÉP Kerékpár Szaküzlet és Szerviz",
+      "city": "Kecskemét",
+      "svcId": "svc-szep-kerekpar-kecskemet-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "http://www.szepkerekpar.hu/",
+      "verdict": "strip",
+      "reason": "Site under maintenance; no szerviz content."
+    },
+    {
+      "locId": "loc-canganyika-szolnok",
+      "name": "Canganyika Kerékpárüzlet és szerviz",
+      "city": "Szolnok",
+      "svcId": "svc-canganyika-szolnok-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://bikefun.hu/shops/canganyika-kerekparuezlet-es-szerviz",
+      "verdict": "keep",
+      "reason": "BikeFun listing title includes szerviz for Szolnok location."
+    },
+    {
+      "locId": "loc-pne-mobil-szolnok",
+      "name": "PNÉ Mobil Kft. (Rodeó Viktória)",
+      "city": "Szolnok",
+      "svcId": "svc-pne-mobil-szolnok-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://pnemobilkft.webnode.hu/",
+      "verdict": "keep",
+      "reason": "Describes szervízpont and repairs at Szolnok Pozsonyi út."
+    },
+    {
+      "locId": "loc-egerbike-eger",
+      "name": "Egerbike kerékpárbolt és szakszerviz",
+      "city": "Eger",
+      "svcId": "svc-egerbike-eger-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://egerbike.hu/kapcsolat",
+      "verdict": "keep",
+      "reason": "sourceUrl contact-only; egerbike.hu home states helyben szerviz Eger."
+    },
+    {
+      "locId": "loc-bicocenter-eger",
+      "name": "Bicó Center",
+      "city": "Eger",
+      "svcId": "svc-bicocenter-eger-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://bicocenter.hu/",
+      "verdict": "keep",
+      "reason": "Extensive SZERVÍZ section for Eger location."
+    },
+    {
+      "locId": "loc-bikeworkshop-eger",
+      "name": "Bike Work Shop (Bikeworkshop)",
+      "city": "Eger",
+      "svcId": "svc-bikeworkshop-eger-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://bikeworkshop.ewk.hu/elerhetosegek/",
+      "verdict": "strip",
+      "reason": "Contact page only; shop name implies workshop but page lacks szerviz text."
+    },
+    {
+      "locId": "loc-rekord-mobil-bekescsaba",
+      "name": "Rekord-Mobil Kft.",
+      "city": "Békéscsaba",
+      "svcId": "svc-rekord-mobil-bekescsaba-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://elektromos-kerekparbolt.hu/rolunk/",
+      "verdict": "keep",
+      "reason": "Rekord-Mobil Békéscsaba: szerviz tapasztalat and műhely described."
+    },
+    {
+      "locId": "loc-balocom-bekescsaba",
+      "name": "BALOCOM Kft.",
+      "city": "Békéscsaba",
+      "svcId": "svc-balocom-bekescsaba-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://neuzer.hu/partnereink",
+      "verdict": "strip",
+      "reason": "Neuzer partner directory; no szerviz claim for this dealer entry."
+    },
+    {
+      "locId": "loc-velosport-salgotarjan",
+      "name": "Velosport Kerékpárüzlet és Kerékpárszerviz",
+      "city": "Salgótarján",
+      "svcId": "svc-velosport-salgotarjan-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://velosport.hu/rolunk",
+      "verdict": "keep",
+      "reason": "Rólunk section Kerékpárszerviz at Salgótarján Füleki út."
+    },
+    {
+      "locId": "loc-jel-kerekpar-tatabanya",
+      "name": "Jel Kerékpár Szaküzlet és Szerviz",
+      "city": "Tatabánya",
+      "svcId": "svc-jel-kerekpar-tatabanya-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://bikefun.hu/shops/Jel-Kerekpar-Szakuzlet-es-Szerviz",
+      "verdict": "keep",
+      "reason": "BikeFun listing title Szaküzlet és Szerviz Tatabánya."
+    },
+    {
+      "locId": "loc-konzum-kerekpar-tatabanya",
+      "name": "Konzum Kerékpárszervíz",
+      "city": "Tatabánya",
+      "svcId": "svc-konzum-kerekpar-tatabanya-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://konzumkerekpar.webnode.hu/",
+      "verdict": "keep",
+      "reason": "Konzum Kerékpárszervíz Tatabánya repair services described."
+    },
+    {
+      "locId": "loc-pedal-kerekpar-gyongyos",
+      "name": "Pedál Kerékpárszaküzlet és Szerviz",
+      "city": "Gyöngyös",
+      "svcId": "svc-pedal-kerekpar-gyongyos-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://pedalkerekpar.hu/",
+      "verdict": "keep",
+      "reason": "States garanciális szervizét vállalják Gyöngyös shop."
+    },
+    {
+      "locId": "loc-matra-bike-gyongyos",
+      "name": "Mátra Bike Kerékpárbolt és Szerviz",
+      "city": "Gyöngyös",
+      "svcId": "svc-matra-bike-gyongyos-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "http://javitomuhelyek.humusz.hu/m-tra-bike",
+      "verdict": "keep",
+      "reason": "Humusz: kerékpár szervizelése Gyöngyös Széchenyi u."
+    },
+    {
+      "locId": "loc-aquarius-bike-dunaujvaros",
+      "name": "Aquarius Bike",
+      "city": "Dunaújváros",
+      "svcId": "svc-aquarius-bike-dunaujvaros-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://aquariusbike.hu/",
+      "verdict": "keep",
+      "reason": "Kerékpár szerviz section and Shimano service center Dunaújváros."
+    },
+    {
+      "locId": "loc-magellan-bike-dunaujvaros",
+      "name": "Magellán Bike",
+      "city": "Dunaújváros",
+      "svcId": "svc-magellan-bike-dunaujvaros-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://magellanbike.hu/kapcsolat/",
+      "verdict": "keep",
+      "reason": "Contact mentions szervizzel kapcsolatos kérdések Dunaújváros."
+    },
+    {
+      "locId": "loc-urbanlegend-szeged",
+      "name": "UrbanLegend Bike Kft.",
+      "city": "Szeged",
+      "svcId": "svc-urbanlegend-szeged-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://www.urbanlegend.hu/kapcsolat/",
+      "verdict": "keep",
+      "reason": "Describes 4-állásos szerviz Szeged József Attila sgt."
+    },
+    {
+      "locId": "loc-vasparipa-szeged",
+      "name": "Vasparipa Kerékpárbolt és Műhely",
+      "city": "Szeged",
+      "svcId": "svc-vasparipa-szeged-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://vasparipakerekpar.hu/kapcsolat/",
+      "verdict": "keep",
+      "reason": "Page title Kerékpárbolt és műhely Szeged."
+    },
+    {
+      "locId": "loc-maniac-szeged",
+      "name": "Maniac Kerékpárüzlet",
+      "city": "Szeged",
+      "svcId": "svc-maniac-szeged-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://trek.hu/hu-hu/Trek_cikkek/Trek_kereskedes_Szeged",
+      "verdict": "strip",
+      "reason": "Trek Maniac card: address/hours only; maniac.hu not cited for szerviz on this page."
+    },
+    {
+      "locId": "loc-gsportzona-szeged",
+      "name": "GsportZóna",
+      "city": "Szeged",
+      "svcId": "svc-gsportzona-szeged-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "http://gsportzona.hu/",
+      "verdict": "keep",
+      "reason": "Title és szerviz section Teljeskörű kerékpár szerviz Szeged."
+    },
+    {
+      "locId": "loc-prolog-szeged",
+      "name": "Prolog Kerékpárüzlet",
+      "city": "Szeged",
+      "svcId": "svc-prolog-szeged-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://bikefun.hu/shops/Prolog-Kerekparuzlet",
+      "verdict": "strip",
+      "reason": "BikeFun card without szerviz."
+    },
+    {
+      "locId": "loc-chili-sport-debrecen",
+      "name": "Chili Sport Kft.",
+      "city": "Debrecen",
+      "svcId": "svc-chili-sport-debrecen-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://chilisport.hu/elerhetoseg/",
+      "verdict": "keep",
+      "reason": "Explicitly kerékpár üzlet és szerviz Debrecen Csapó u."
+    },
+    {
+      "locId": "loc-regina-kerekparbolt-debrecen",
+      "name": "Regina Kerékpárbolt",
+      "city": "Debrecen",
+      "svcId": "svc-regina-kerekparbolt-debrecen-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://bikefun.hu/shops/regina-kerekparbolt",
+      "verdict": "strip",
+      "reason": "BikeFun dealer card without szerviz."
+    },
+    {
+      "locId": "loc-bicaj-bt-debrecen",
+      "name": "BICAJ BT.",
+      "city": "Debrecen",
+      "svcId": "svc-bicaj-bt-debrecen-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://neuzer.hu/partnereink",
+      "verdict": "strip",
+      "reason": "Neuzer partner directory; no szerviz claim for this dealer entry."
+    },
+    {
+      "locId": "loc-bombastic-bringastic-miskolc",
+      "name": "Bombastic Bringastic Kerékpárszalon (Inter-B Precíziós Kft.)",
+      "city": "Miskolc",
+      "svcId": "svc-bombastic-bringastic-miskolc-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://bombastic.uzleti.hu/",
+      "verdict": "keep",
+      "reason": "Miskolc shop profile includes kerékpár szervizelése."
+    },
+    {
+      "locId": "loc-bringasziget-nyiregyhaza",
+      "name": "BringaSziget",
+      "city": "Nyíregyháza",
+      "svcId": "svc-bringasziget-nyiregyhaza-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://bringasziget.hu/",
+      "verdict": "keep",
+      "reason": "Lists kerékpárszerviz Nyíregyháza Agyag u."
+    },
+    {
+      "locId": "loc-kondor-kerekpar-nyiregyhaza",
+      "name": "Csepel Kerékpár és Szervíz (Kondor)",
+      "city": "Nyíregyháza",
+      "svcId": "svc-kondor-kerekpar-nyiregyhaza-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://kondor-kerekpar.webnode.hu/",
+      "verdict": "keep",
+      "reason": "Csepel … és Szervíz Nyíregyháza with szerviz section."
+    },
+    {
+      "locId": "loc-halmibringa-nyiregyhaza",
+      "name": "Halmibringa",
+      "city": "Nyíregyháza",
+      "svcId": "svc-halmibringa-nyiregyhaza-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://halmibringa.hu/",
+      "verdict": "strip",
+      "reason": "Title tag mentions szerviz but visible page is webshop/contact only."
+    },
+    {
+      "locId": "loc-imperator-pecs",
+      "name": "Imperátor kerékpárszalon",
+      "city": "Pécs",
+      "svcId": "svc-imperator-pecs-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "http://www.kerekparpecs.hu/",
+      "verdict": "keep",
+      "reason": "Imperátor Pécs: kerékpárszalon és szervíz."
+    },
+    {
+      "locId": "loc-dreamline-cycle-pecs",
+      "name": "Dreamline Cycle",
+      "city": "Pécs",
+      "svcId": "svc-dreamline-cycle-pecs-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://www.dreamlinecycle.hu/",
+      "verdict": "keep",
+      "reason": "Pécs bringa szerviz primary business on homepage."
+    },
+    {
+      "locId": "loc-tisza-bringa-tiszafured",
+      "name": "Tisza-Bringa Bolt",
+      "city": "Tiszafüred",
+      "svcId": "svc-tisza-bringa-tiszafured-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://www.uzletektiszafured.hu/Kerekpar_alkatresz/674/Tisza-bringa_bolt/3339",
+      "verdict": "strip",
+      "reason": "Directory listing: address/hours only."
+    },
+    {
+      "locId": "loc-dz-bike-vac",
+      "name": "DZ BIKE",
+      "city": "Vác",
+      "svcId": "svc-dz-bike-vac-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "http://dzbike.hu/",
+      "verdict": "keep",
+      "reason": "DZ BIKE Vác kerékpárszerviz Galcsek u."
+    },
+    {
+      "locId": "loc-balazs-kerekparbolt-szentendre",
+      "name": "Balázs Kerékpárbolt",
+      "city": "Szentendre",
+      "svcId": "svc-balazs-kerekparbolt-szentendre-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://www.balazskerekparbolt.com/",
+      "verdict": "keep",
+      "reason": "Szentendre shop lists Kerékpár szervíz service."
+    },
+    {
+      "locId": "loc-altrix-esztergom",
+      "name": "Altrix bolt",
+      "city": "Esztergom",
+      "svcId": "svc-altrix-esztergom-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://neuzer.hu/partnereink",
+      "verdict": "strip",
+      "reason": "Neuzer partner directory; no szerviz claim for this dealer entry."
+    },
+    {
+      "locId": "loc-fogas-kerekpar-gyor",
+      "name": "Fogas Kerékpárbolt",
+      "city": "Győr",
+      "svcId": "svc-fogas-kerekpar-gyor-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://www.fogaskerekpargyor.hu/",
+      "verdict": "keep",
+      "reason": "Kerékpár szaküzlet & szerviz Győr with szerviz section."
+    },
+    {
+      "locId": "loc-ferita-sport-gyor",
+      "name": "Ferita Sport kerékpár szaküzlet és szerviz",
+      "city": "Győr",
+      "svcId": "svc-ferita-sport-gyor-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://www.feritasport.hu/",
+      "verdict": "keep",
+      "reason": "Site title kerékpár szaküzlet és szervíz Győr Bodzás u."
+    },
+    {
+      "locId": "loc-stelvio-gyor",
+      "name": "Stelvio Kerékpáros szaküzlet és szerviz",
+      "city": "Győr",
+      "svcId": "svc-stelvio-gyor-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://stelvio.hu/",
+      "verdict": "keep",
+      "reason": "Stelvio szaküzlet és szerviz Győr Práter u."
+    },
+    {
+      "locId": "loc-velencebike-velence",
+      "name": "VelenceBike",
+      "city": "Velence",
+      "svcId": "svc-velencebike-velence-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "http://www.velencebike.hu/",
+      "verdict": "strip",
+      "reason": "Minimal landing page, no szerviz wording."
+    },
+    {
+      "locId": "loc-velociped-fan-szekesfehervar",
+      "name": "Velocipéd Fan / Trek Székesfehérvár",
+      "city": "Székesfehérvár",
+      "svcId": "svc-velociped-fan-szekesfehervar-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://hariskerekpar.hu/kapcsolat/",
+      "verdict": "keep",
+      "reason": "TREK márkakereskedés és szervíz Székesfehérvár."
+    },
+    {
+      "locId": "loc-bike-extrem-balatonfured",
+      "name": "Bike Extrém Kerékpárüzlet",
+      "city": "Balatonfüred",
+      "svcId": "svc-bike-extrem-balatonfured-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://trek.hu/hu-hu/Trek_cikkek/Trek_kereskedesek_magyarorszagon",
+      "verdict": "strip",
+      "reason": "Trek national dealer index; address only, no szerviz wording."
+    },
+    {
+      "locId": "loc-horvath-kerekpar-papa",
+      "name": "Horváth Kerékpárszervíz",
+      "city": "Pápa",
+      "svcId": "svc-horvath-kerekpar-papa-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://trek.hu/hu-hu/Trek_cikkek/Trek_kereskedesek_magyarorszagon",
+      "verdict": "strip",
+      "reason": "Trek index lists Horváth as dealer; no szerviz on Trek card (name suggests szervíz but source does not)."
+    },
+    {
+      "locId": "loc-solyombike-erd",
+      "name": "Sólyombike Kerékpárbolt és szerviz",
+      "city": "Érd",
+      "svcId": "svc-solyombike-erd-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://www.solyombike.hu/",
+      "verdict": "keep",
+      "reason": "Kerékpárbolt és szerviz Érd with szerviz content."
+    },
+    {
+      "locId": "loc-alfabike-erd",
+      "name": "AlfaBike Kerékpárüzlet és Szerviz",
+      "city": "Érd",
+      "svcId": "svc-alfabike-erd-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://alfabike.hu/",
+      "verdict": "keep",
+      "reason": "Kerékpárüzlet és Szerviz Érd with szerviz packages."
+    },
+    {
+      "locId": "loc-robikes-erd",
+      "name": "Robikes Kerékpárbolt és Szerviz",
+      "city": "Érd",
+      "svcId": "svc-robikes-erd-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://robikes.hu/",
+      "verdict": "keep",
+      "reason": "Robikes kerékpárszerviz Érd detailed."
+    },
+    {
+      "locId": "loc-bike-cafe-budapest",
+      "name": "Bike Cafe Kerékpárüzlet",
+      "city": "Budapest",
+      "svcId": "svc-bike-cafe-budapest-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://bikefun.hu/shops/bike-cafe-kerekparuezlet",
+      "verdict": "strip",
+      "reason": "BikeFun card without szerviz."
+    },
+    {
+      "locId": "loc-big-bike-budapest",
+      "name": "Big Bike",
+      "city": "Budapest",
+      "svcId": "svc-big-bike-budapest-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://bikefun.hu/shops/big-bike",
+      "verdict": "strip",
+      "reason": "BikeFun card without szerviz."
+    },
+    {
+      "locId": "loc-bikemen-budapest",
+      "name": "Bikemen Kerékpárbolt",
+      "city": "Budapest",
+      "svcId": "svc-bikemen-budapest-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://bikefun.hu/shops/bikemen-kerekparbolt",
+      "verdict": "strip",
+      "reason": "BikeFun card without szerviz."
+    },
+    {
+      "locId": "loc-fulop-mgbikes-budapest",
+      "name": "Fülöp Kerékpár Centrum - MGbikes",
+      "city": "Budapest",
+      "svcId": "svc-fulop-mgbikes-budapest-szerviz",
+      "role": "szerviz",
+      "sourceUrl": "https://bikefun.hu/shops/fueloep-kerekpar-centrum-mgbikes",
+      "verdict": "strip",
+      "reason": "BikeFun card without szerviz."
+    }
+  ],
+  "summary": {
+    "keep": 65,
+    "strip": 34,
+    "total": 99
+  }
+}

@@ -347,6 +347,7 @@ def fix_locations(raw_locs, evidence_items):
         loc["brandLinks"] = brand_links
         loc["evidenceIds"] = sorted(set(ev_by_loc.get(rid, [])))
         # Keep editorial notes public; research-only extras separate
+        prev_rn = loc.get("researchNotes") or {}
         loc["researchNotes"] = {
             "externalBrandClaims": [
                 {
@@ -370,6 +371,10 @@ def fix_locations(raw_locs, evidence_items):
                 if x["brandName"] == "LOOK"
             ],
         }
+        # Preserve audit notes (e.g. stripped szerviz) across brandLinks rebuilds
+        for key in ("unverifiedServices",):
+            if prev_rn.get(key):
+                loc["researchNotes"][key] = prev_rn[key]
         if not loc.get("notes"):
             loc["notes"] = raw.get("notes")
 

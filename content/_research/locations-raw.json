@@ -2190,6 +2190,39 @@
         }
       ],
       "notes": null
+    },
+    {
+      "id": "loc-gabike-kaposvar",
+      "organizationId": "org-gabike-kaposvar",
+      "name": "Ga-Bike Kerékpár Szaküzlet és Szerviz",
+      "address": "7400 Kaposvár, Fő utca 87.",
+      "city": "Kaposvár",
+      "website": "https://www.facebook.com/gabike2014",
+      "phone": [
+        "+36 20 373 8343"
+      ],
+      "email": [
+        "gabike2014@gmail.com"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [],
+      "notes": null
+    },
+    {
+      "id": "loc-karikazzunk-velence",
+      "organizationId": "org-karikazzunk-velence",
+      "name": "Karikázzunk kerékpár szerviz",
+      "address": "2481 Velence, Ország út",
+      "city": "Velence",
+      "website": "https://karikazzunk.hu/szerviz/",
+      "phone": [
+        "+36 30 545 3508",
+        "+36 70 397 3264"
+      ],
+      "email": [],
+      "status": "ellenőrzött",
+      "brandClaims": [],
+      "notes": "Házszám a forráson nem szerepel."
     }
   ],
   "services": [

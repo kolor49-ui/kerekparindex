@@ -9,12 +9,12 @@ Result: **PASS**
 ```json
 {
   "brands": 10,
-  "organizations": 99,
-  "locations": 101,
-  "services": 205,
+  "organizations": 101,
+  "locations": 103,
+  "services": 177,
   "products": 12,
   "variants": 12,
-  "evidence": 180,
+  "evidence": 183,
   "explainers": 6,
   "comparisons": 3,
   "articleMarkdown": 9,
@@ -67,7 +67,7 @@ Result: **PASS**
     "előkészített": 1
   },
   "locations": {
-    "ellenőrzött": 101
+    "ellenőrzött": 103
   },
   "variants": {
     "ellenőrzött": 10,
@@ -80,11 +80,11 @@ Result: **PASS**
     "ellenőrzött": 3
   },
   "evidence": {
-    "ellenőrzött": 176,
+    "ellenőrzött": 179,
     "előkészített": 3,
     "hiányos": 1
   },
-  "services": 205
+  "services": 177
 }
 ```
 
@@ -92,7 +92,7 @@ Result: **PASS**
 
 - PASS: `required_files` — all present
 - PASS: `count_brands_10` — 10
-- PASS: `count_locations_at_least_20` — 101
+- PASS: `count_locations_at_least_20` — 103
 - PASS: `count_variants_12` — 12
 - PASS: `count_explainers_6` — 6
 - PASS: `count_comparisons_3` — 3

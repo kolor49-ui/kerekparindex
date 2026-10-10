@@ -1015,7 +1015,16 @@
       ],
       "researchNotes": {
         "externalBrandClaims": [],
-        "excludedClaims": []
+        "excludedClaims": [],
+        "unverifiedServices": [
+          {
+            "role": "szerviz",
+            "sourceUrl": "https://bikefun.hu/shops/Canyon-Sport",
+            "note": "Szervizszerep 2026-10-10-es forrásellenőrzés után nem volt kellően igazolható az adott telephelyre; nem állítjuk, hogy nincs szerviz.",
+            "auditReason": "BikeFun dealer card: address/hours only, no szerviz claim for Canyon Sport.",
+            "accessedAt": "2026-10-10"
+          }
+        ]
       },
       "openingHours": "H–P 8:30–17:00, Szo 8:00–12:30"
     },
@@ -1179,7 +1188,16 @@
       ],
       "researchNotes": {
         "externalBrandClaims": [],
-        "excludedClaims": []
+        "excludedClaims": [],
+        "unverifiedServices": [
+          {
+            "role": "szerviz",
+            "sourceUrl": "https://bikefun.hu/shops/bringavar-2",
+            "note": "Szervizszerep 2026-10-10-es forrásellenőrzés után nem volt kellően igazolható az adott telephelyre; nem állítjuk, hogy nincs szerviz.",
+            "auditReason": "BikeFun listing: address/hours only, no szerviz for Bringavár.",
+            "accessedAt": "2026-10-10"
+          }
+        ]
       },
       "openingHours": "H–P 8:00–17:00, Szo 8:00–12:00"
     },
@@ -1289,7 +1307,16 @@
             "note": "Katalóguson kívüli márka — nincs stabil brandId ebben a próbakörben."
           }
         ],
-        "excludedClaims": []
+        "excludedClaims": [],
+        "unverifiedServices": [
+          {
+            "role": "szerviz",
+            "sourceUrl": "https://bikefun.hu/shops/ketkerek-sport",
+            "note": "Szervizszerep 2026-10-10-es forrásellenőrzés után nem volt kellően igazolható az adott telephelyre; nem állítjuk, hogy nincs szerviz.",
+            "auditReason": "BikeFun card address/hours only; no szerviz wording.",
+            "accessedAt": "2026-10-10"
+          }
+        ]
       },
       "openingHours": "H–P 9:00–18:00, Szo 9:00–12:00"
     },
@@ -1351,7 +1378,16 @@
       "brandLinks": [],
       "researchNotes": {
         "externalBrandClaims": [],
-        "excludedClaims": []
+        "excludedClaims": [],
+        "unverifiedServices": [
+          {
+            "role": "szerviz",
+            "sourceUrl": "https://www.tuttibringa.hu/",
+            "note": "Szervizszerep 2026-10-10-es forrásellenőrzés után nem volt kellően igazolható az adott telephelyre; nem állítjuk, hogy nincs szerviz.",
+            "auditReason": "Homepage shop/e-commerce only, no szerviz mention.",
+            "accessedAt": "2026-10-10"
+          }
+        ]
       },
       "openingHours": "H–P 8:30–17:00, Szo 9:00–12:00"
     },
@@ -1392,7 +1428,16 @@
       ],
       "researchNotes": {
         "externalBrandClaims": [],
-        "excludedClaims": []
+        "excludedClaims": [],
+        "unverifiedServices": [
+          {
+            "role": "szerviz",
+            "sourceUrl": "https://www.new.littvankerekpar.hu/?page_id=108",
+            "note": "Szervizszerep 2026-10-10-es forrásellenőrzés után nem volt kellően igazolható az adott telephelyre; nem állítjuk, hogy nincs szerviz.",
+            "auditReason": "Contact page only, no szerviz/javítás wording.",
+            "accessedAt": "2026-10-10"
+          }
+        ]
       },
       "openingHours": "H–P 8:00–17:00, Szo 9:00–12:00"
     },
@@ -1433,7 +1478,16 @@
       ],
       "researchNotes": {
         "externalBrandClaims": [],
-        "excludedClaims": []
+        "excludedClaims": [],
+        "unverifiedServices": [
+          {
+            "role": "szerviz",
+            "sourceUrl": "https://bikefun.hu/shops/ketkerek-centrum",
+            "note": "Szervizszerep 2026-10-10-es forrásellenőrzés után nem volt kellően igazolható az adott telephelyre; nem állítjuk, hogy nincs szerviz.",
+            "auditReason": "BikeFun dealer card without szerviz text.",
+            "accessedAt": "2026-10-10"
+          }
+        ]
       },
       "openingHours": "H–P 9:00–17:00, Szo 9:00–12:00"
     },
@@ -1529,7 +1583,16 @@
       "brandLinks": [],
       "researchNotes": {
         "externalBrandClaims": [],
-        "excludedClaims": []
+        "excludedClaims": [],
+        "unverifiedServices": [
+          {
+            "role": "szerviz",
+            "sourceUrl": "http://yankosbike.hu/",
+            "note": "Szervizszerep 2026-10-10-es forrásellenőrzés után nem volt kellően igazolható az adott telephelyre; nem állítjuk, hogy nincs szerviz.",
+            "auditReason": "Webshop home no szerviz mention despite business name.",
+            "accessedAt": "2026-10-10"
+          }
+        ]
       },
       "openingHours": "H–P 9:00–17:30, Szo 9:00–12:00"
     },
@@ -1570,7 +1633,16 @@
       ],
       "researchNotes": {
         "externalBrandClaims": [],
-        "excludedClaims": []
+        "excludedClaims": [],
+        "unverifiedServices": [
+          {
+            "role": "szerviz",
+            "sourceUrl": "https://www.polisport.com/en/stores_52.html?idst=1368",
+            "note": "Szervizszerep 2026-10-10-es forrásellenőrzés után nem volt kellően igazolható az adott telephelyre; nem állítjuk, hogy nincs szerviz.",
+            "auditReason": "Polisport store locator: address/phone only.",
+            "accessedAt": "2026-10-10"
+          }
+        ]
       },
       "openingHours": "H–P 8:30–17:00, Szo 9:00–12:00"
     },
@@ -1612,7 +1684,16 @@
       ],
       "researchNotes": {
         "externalBrandClaims": [],
-        "excludedClaims": []
+        "excludedClaims": [],
+        "unverifiedServices": [
+          {
+            "role": "szerviz",
+            "sourceUrl": "https://greenzone.hu/aszf/",
+            "note": "Szervizszerep 2026-10-10-es forrásellenőrzés után nem volt kellően igazolható az adott telephelyre; nem állítjuk, hogy nincs szerviz.",
+            "auditReason": "ASZF/sales only on sourceUrl; no szerviz on fetched greenzone page.",
+            "accessedAt": "2026-10-10"
+          }
+        ]
       },
       "openingHours": "H–P 9:00–16:00, Szo 9:00–13:00"
     },
@@ -1643,7 +1724,16 @@
       "brandLinks": [],
       "researchNotes": {
         "externalBrandClaims": [],
-        "excludedClaims": []
+        "excludedClaims": [],
+        "unverifiedServices": [
+          {
+            "role": "szerviz",
+            "sourceUrl": "https://tempokerekpar.hu/",
+            "note": "Szervizszerep 2026-10-10-es forrásellenőrzés után nem volt kellően igazolható az adott telephelyre; nem állítjuk, hogy nincs szerviz.",
+            "auditReason": "tempokerekpar.hu blocked/unreachable in fetch; no verified szerviz evidence.",
+            "accessedAt": "2026-10-10"
+          }
+        ]
       }
     },
     {
@@ -1701,7 +1791,16 @@
       "brandLinks": [],
       "researchNotes": {
         "externalBrandClaims": [],
-        "excludedClaims": []
+        "excludedClaims": [],
+        "unverifiedServices": [
+          {
+            "role": "szerviz",
+            "sourceUrl": "https://www.pelsobike.hu/index.php?lang=hu",
+            "note": "Szervizszerep 2026-10-10-es forrásellenőrzés után nem volt kellően igazolható az adott telephelyre; nem állítjuk, hogy nincs szerviz.",
+            "auditReason": "Home shows contact only, no szerviz text on page.",
+            "accessedAt": "2026-10-10"
+          }
+        ]
       }
     },
     {
@@ -1963,7 +2062,16 @@
       "brandLinks": [],
       "researchNotes": {
         "externalBrandClaims": [],
-        "excludedClaims": []
+        "excludedClaims": [],
+        "unverifiedServices": [
+          {
+            "role": "szerviz",
+            "sourceUrl": "https://bikefun.hu/shops/balint-kerekpar",
+            "note": "Szervizszerep 2026-10-10-es forrásellenőrzés után nem volt kellően igazolható az adott telephelyre; nem állítjuk, hogy nincs szerviz.",
+            "auditReason": "BikeFun card without szerviz.",
+            "accessedAt": "2026-10-10"
+          }
+        ]
       },
       "openingHours": "H–P 8:00–17:00 (12:00–13:00 ebéd), Szo 8:00–12:00"
     },
@@ -2050,7 +2158,16 @@
             "note": "Katalóguson kívüli márka — nincs stabil brandId ebben a próbakörben."
           }
         ],
-        "excludedClaims": []
+        "excludedClaims": [],
+        "unverifiedServices": [
+          {
+            "role": "szerviz",
+            "sourceUrl": "https://bringabolt.com/kapcsolat/",
+            "note": "Szervizszerep 2026-10-10-es forrásellenőrzés után nem volt kellően igazolható az adott telephelyre; nem állítjuk, hogy nincs szerviz.",
+            "auditReason": "bringabolt.com home/kapcsolat lack szerviz; no alternate evidence fetched.",
+            "accessedAt": "2026-10-10"
+          }
+        ]
       },
       "openingHours": "H–P 9:00–17:00, Sz 9:00–12:00"
     },
@@ -2080,7 +2197,16 @@
       "brandLinks": [],
       "researchNotes": {
         "externalBrandClaims": [],
-        "excludedClaims": []
+        "excludedClaims": [],
+        "unverifiedServices": [
+          {
+            "role": "szerviz",
+            "sourceUrl": "https://www.szigmatrade.hu/",
+            "note": "Szervizszerep 2026-10-10-es forrásellenőrzés után nem volt kellően igazolható az adott telephelyre; nem állítjuk, hogy nincs szerviz.",
+            "auditReason": "Csepel web sales only, no szerviz.",
+            "accessedAt": "2026-10-10"
+          }
+        ]
       },
       "openingHours": "H–P 9:00–17:00 (nyári 17:30), Sz 8:00–12:00"
     },
@@ -2121,7 +2247,16 @@
       ],
       "researchNotes": {
         "externalBrandClaims": [],
-        "excludedClaims": []
+        "excludedClaims": [],
+        "unverifiedServices": [
+          {
+            "role": "szerviz",
+            "sourceUrl": "https://bikefun.hu/shops/bicishop",
+            "note": "Szervizszerep 2026-10-10-es forrásellenőrzés után nem volt kellően igazolható az adott telephelyre; nem állítjuk, hogy nincs szerviz.",
+            "auditReason": "bicishop.hu home has no szerviz wording; BikeFun card insufficient.",
+            "accessedAt": "2026-10-10"
+          }
+        ]
       },
       "openingHours": "H–P 9:00–17:00, Sz 8:00–12:00"
     },
@@ -2151,7 +2286,16 @@
       "brandLinks": [],
       "researchNotes": {
         "externalBrandClaims": [],
-        "excludedClaims": []
+        "excludedClaims": [],
+        "unverifiedServices": [
+          {
+            "role": "szerviz",
+            "sourceUrl": "http://www.szepkerekpar.hu/",
+            "note": "Szervizszerep 2026-10-10-es forrásellenőrzés után nem volt kellően igazolható az adott telephelyre; nem állítjuk, hogy nincs szerviz.",
+            "auditReason": "Site under maintenance; no szerviz content.",
+            "accessedAt": "2026-10-10"
+          }
+        ]
       },
       "openingHours": "H, Sze, P 9:00–12:00 és 13:30–17:00"
     },
@@ -2319,7 +2463,16 @@
       "brandLinks": [],
       "researchNotes": {
         "externalBrandClaims": [],
-        "excludedClaims": []
+        "excludedClaims": [],
+        "unverifiedServices": [
+          {
+            "role": "szerviz",
+            "sourceUrl": "https://bikeworkshop.ewk.hu/elerhetosegek/",
+            "note": "Szervizszerep 2026-10-10-es forrásellenőrzés után nem volt kellően igazolható az adott telephelyre; nem állítjuk, hogy nincs szerviz.",
+            "auditReason": "Contact page only; shop name implies workshop but page lacks szerviz text.",
+            "accessedAt": "2026-10-10"
+          }
+        ]
       },
       "openingHours": "H–P 13:00–17:00"
     },
@@ -2388,7 +2541,16 @@
       ],
       "researchNotes": {
         "externalBrandClaims": [],
-        "excludedClaims": []
+        "excludedClaims": [],
+        "unverifiedServices": [
+          {
+            "role": "szerviz",
+            "sourceUrl": "https://neuzer.hu/partnereink",
+            "note": "Szervizszerep 2026-10-10-es forrásellenőrzés után nem volt kellően igazolható az adott telephelyre; nem állítjuk, hogy nincs szerviz.",
+            "auditReason": "Neuzer partner directory; no szerviz claim for this dealer entry.",
+            "accessedAt": "2026-10-10"
+          }
+        ]
       }
     },
     {
@@ -2739,7 +2901,16 @@
       ],
       "researchNotes": {
         "externalBrandClaims": [],
-        "excludedClaims": []
+        "excludedClaims": [],
+        "unverifiedServices": [
+          {
+            "role": "szerviz",
+            "sourceUrl": "https://trek.hu/hu-hu/Trek_cikkek/Trek_kereskedes_Szeged",
+            "note": "Szervizszerep 2026-10-10-es forrásellenőrzés után nem volt kellően igazolható az adott telephelyre; nem állítjuk, hogy nincs szerviz.",
+            "auditReason": "Trek Maniac card: address/hours only; maniac.hu not cited for szerviz on this page.",
+            "accessedAt": "2026-10-10"
+          }
+        ]
       },
       "openingHours": "H–P 10:00–18:00, Sz 9:00–12:00"
     },
@@ -2827,7 +2998,16 @@
       ],
       "researchNotes": {
         "externalBrandClaims": [],
-        "excludedClaims": []
+        "excludedClaims": [],
+        "unverifiedServices": [
+          {
+            "role": "szerviz",
+            "sourceUrl": "https://bikefun.hu/shops/Prolog-Kerekparuzlet",
+            "note": "Szervizszerep 2026-10-10-es forrásellenőrzés után nem volt kellően igazolható az adott telephelyre; nem állítjuk, hogy nincs szerviz.",
+            "auditReason": "BikeFun card without szerviz.",
+            "accessedAt": "2026-10-10"
+          }
+        ]
       },
       "openingHours": "H–P 10:00–18:00, Sz 9:00–13:00"
     },
@@ -2887,7 +3067,16 @@
       "brandLinks": [],
       "researchNotes": {
         "externalBrandClaims": [],
-        "excludedClaims": []
+        "excludedClaims": [],
+        "unverifiedServices": [
+          {
+            "role": "szerviz",
+            "sourceUrl": "https://bikefun.hu/shops/regina-kerekparbolt",
+            "note": "Szervizszerep 2026-10-10-es forrásellenőrzés után nem volt kellően igazolható az adott telephelyre; nem állítjuk, hogy nincs szerviz.",
+            "auditReason": "BikeFun dealer card without szerviz.",
+            "accessedAt": "2026-10-10"
+          }
+        ]
       },
       "openingHours": "H–P 9:00–17:30, Sz 8:00–13:00"
     },
@@ -2928,7 +3117,16 @@
       ],
       "researchNotes": {
         "externalBrandClaims": [],
-        "excludedClaims": []
+        "excludedClaims": [],
+        "unverifiedServices": [
+          {
+            "role": "szerviz",
+            "sourceUrl": "https://neuzer.hu/partnereink",
+            "note": "Szervizszerep 2026-10-10-es forrásellenőrzés után nem volt kellően igazolható az adott telephelyre; nem állítjuk, hogy nincs szerviz.",
+            "auditReason": "Neuzer partner directory; no szerviz claim for this dealer entry.",
+            "accessedAt": "2026-10-10"
+          }
+        ]
       }
     },
     {
@@ -3050,7 +3248,16 @@
             "note": "Katalóguson kívüli márka — nincs stabil brandId ebben a próbakörben."
           }
         ],
-        "excludedClaims": []
+        "excludedClaims": [],
+        "unverifiedServices": [
+          {
+            "role": "szerviz",
+            "sourceUrl": "https://halmibringa.hu/",
+            "note": "Szervizszerep 2026-10-10-es forrásellenőrzés után nem volt kellően igazolható az adott telephelyre; nem állítjuk, hogy nincs szerviz.",
+            "auditReason": "Title tag mentions szerviz but visible page is webshop/contact only.",
+            "accessedAt": "2026-10-10"
+          }
+        ]
       }
     },
     {
@@ -3145,7 +3352,16 @@
       "brandLinks": [],
       "researchNotes": {
         "externalBrandClaims": [],
-        "excludedClaims": []
+        "excludedClaims": [],
+        "unverifiedServices": [
+          {
+            "role": "szerviz",
+            "sourceUrl": "https://www.uzletektiszafured.hu/Kerekpar_alkatresz/674/Tisza-bringa_bolt/3339",
+            "note": "Szervizszerep 2026-10-10-es forrásellenőrzés után nem volt kellően igazolható az adott telephelyre; nem állítjuk, hogy nincs szerviz.",
+            "auditReason": "Directory listing: address/hours only.",
+            "accessedAt": "2026-10-10"
+          }
+        ]
       },
       "openingHours": "H–P 8:00–17:00, Sz 8:00–12:00"
     },
@@ -3254,7 +3470,16 @@
       ],
       "researchNotes": {
         "externalBrandClaims": [],
-        "excludedClaims": []
+        "excludedClaims": [],
+        "unverifiedServices": [
+          {
+            "role": "szerviz",
+            "sourceUrl": "https://neuzer.hu/partnereink",
+            "note": "Szervizszerep 2026-10-10-es forrásellenőrzés után nem volt kellően igazolható az adott telephelyre; nem állítjuk, hogy nincs szerviz.",
+            "auditReason": "Neuzer partner directory; no szerviz claim for this dealer entry.",
+            "accessedAt": "2026-10-10"
+          }
+        ]
       }
     },
     {
@@ -3368,7 +3593,16 @@
       "brandLinks": [],
       "researchNotes": {
         "externalBrandClaims": [],
-        "excludedClaims": []
+        "excludedClaims": [],
+        "unverifiedServices": [
+          {
+            "role": "szerviz",
+            "sourceUrl": "http://www.velencebike.hu/",
+            "note": "Szervizszerep 2026-10-10-es forrásellenőrzés után nem volt kellően igazolható az adott telephelyre; nem állítjuk, hogy nincs szerviz.",
+            "auditReason": "Minimal landing page, no szerviz wording.",
+            "accessedAt": "2026-10-10"
+          }
+        ]
       }
     },
     {
@@ -3449,7 +3683,16 @@
       ],
       "researchNotes": {
         "externalBrandClaims": [],
-        "excludedClaims": []
+        "excludedClaims": [],
+        "unverifiedServices": [
+          {
+            "role": "szerviz",
+            "sourceUrl": "https://trek.hu/hu-hu/Trek_cikkek/Trek_kereskedesek_magyarorszagon",
+            "note": "Szervizszerep 2026-10-10-es forrásellenőrzés után nem volt kellően igazolható az adott telephelyre; nem állítjuk, hogy nincs szerviz.",
+            "auditReason": "Trek national dealer index; address only, no szerviz wording.",
+            "accessedAt": "2026-10-10"
+          }
+        ]
       }
     },
     {
@@ -3489,7 +3732,16 @@
       ],
       "researchNotes": {
         "externalBrandClaims": [],
-        "excludedClaims": []
+        "excludedClaims": [],
+        "unverifiedServices": [
+          {
+            "role": "szerviz",
+            "sourceUrl": "https://trek.hu/hu-hu/Trek_cikkek/Trek_kereskedesek_magyarorszagon",
+            "note": "Szervizszerep 2026-10-10-es forrásellenőrzés után nem volt kellően igazolható az adott telephelyre; nem állítjuk, hogy nincs szerviz.",
+            "auditReason": "Trek index lists Horváth as dealer; no szerviz on Trek card (name suggests szervíz but source does not).",
+            "accessedAt": "2026-10-10"
+          }
+        ]
       }
     },
     {
@@ -3616,7 +3868,16 @@
       ],
       "researchNotes": {
         "externalBrandClaims": [],
-        "excludedClaims": []
+        "excludedClaims": [],
+        "unverifiedServices": [
+          {
+            "role": "szerviz",
+            "sourceUrl": "https://bikefun.hu/shops/bike-cafe-kerekparuezlet",
+            "note": "Szervizszerep 2026-10-10-es forrásellenőrzés után nem volt kellően igazolható az adott telephelyre; nem állítjuk, hogy nincs szerviz.",
+            "auditReason": "BikeFun card without szerviz.",
+            "accessedAt": "2026-10-10"
+          }
+        ]
       },
       "openingHours": "H–P 10:00–18:00, Szo 10:00–15:00"
     },
@@ -3657,7 +3918,16 @@
       ],
       "researchNotes": {
         "externalBrandClaims": [],
-        "excludedClaims": []
+        "excludedClaims": [],
+        "unverifiedServices": [
+          {
+            "role": "szerviz",
+            "sourceUrl": "https://bikefun.hu/shops/big-bike",
+            "note": "Szervizszerep 2026-10-10-es forrásellenőrzés után nem volt kellően igazolható az adott telephelyre; nem állítjuk, hogy nincs szerviz.",
+            "auditReason": "BikeFun card without szerviz.",
+            "accessedAt": "2026-10-10"
+          }
+        ]
       },
       "openingHours": "H–P 10:00–18:30, Szo 9:00–14:30"
     },
@@ -3696,7 +3966,16 @@
       ],
       "researchNotes": {
         "externalBrandClaims": [],
-        "excludedClaims": []
+        "excludedClaims": [],
+        "unverifiedServices": [
+          {
+            "role": "szerviz",
+            "sourceUrl": "https://bikefun.hu/shops/bikemen-kerekparbolt",
+            "note": "Szervizszerep 2026-10-10-es forrásellenőrzés után nem volt kellően igazolható az adott telephelyre; nem állítjuk, hogy nincs szerviz.",
+            "auditReason": "BikeFun card without szerviz.",
+            "accessedAt": "2026-10-10"
+          }
+        ]
       },
       "openingHours": "Nyár (márc.–szept.): H–P 10:00–18:00, Szo 10:00–13:00; Tél (okt.–febr.): H–P 10:00–18:00, Szo 12:00–13:00"
     },
@@ -3735,9 +4014,76 @@
       ],
       "researchNotes": {
         "externalBrandClaims": [],
-        "excludedClaims": []
+        "excludedClaims": [],
+        "unverifiedServices": [
+          {
+            "role": "szerviz",
+            "sourceUrl": "https://bikefun.hu/shops/fueloep-kerekpar-centrum-mgbikes",
+            "note": "Szervizszerep 2026-10-10-es forrásellenőrzés után nem volt kellően igazolható az adott telephelyre; nem állítjuk, hogy nincs szerviz.",
+            "auditReason": "BikeFun card without szerviz.",
+            "accessedAt": "2026-10-10"
+          }
+        ]
       },
       "openingHours": "H–P 10:00–18:00; Szo 10:00–13:00 (szezonban márciustól októberig)"
+    },
+    {
+      "id": "loc-gabike-kaposvar",
+      "organizationId": "org-gabike-kaposvar",
+      "name": "Ga-Bike Kerékpár Szaküzlet és Szerviz",
+      "address": {
+        "raw": "7400 Kaposvár, Fő utca 87.",
+        "city": "Kaposvár",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://www.facebook.com/gabike2014",
+      "phone": [
+        "+36 20 373 8343"
+      ],
+      "email": [
+        "gabike2014@gmail.com"
+      ],
+      "coordinates": null,
+      "openingHours": "H–P 9:00–17:00",
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-gabike-kaposvar-20261010"
+      ],
+      "notes": null,
+      "brandLinks": [],
+      "researchNotes": {
+        "externalBrandClaims": [],
+        "excludedClaims": []
+      }
+    },
+    {
+      "id": "loc-karikazzunk-velence",
+      "organizationId": "org-karikazzunk-velence",
+      "name": "Karikázzunk kerékpár szerviz",
+      "address": {
+        "raw": "2481 Velence, Ország út",
+        "city": "Velence",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://karikazzunk.hu/szerviz/",
+      "phone": [
+        "+36 30 545 3508",
+        "+36 70 397 3264"
+      ],
+      "email": [],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-karikazzunk-velence-20261010"
+      ],
+      "notes": "A saját szervizoldal házszám nélkül «Velence Ország út» címet közöl.",
+      "brandLinks": [],
+      "researchNotes": {
+        "externalBrandClaims": [],
+        "excludedClaims": []
+      }
     }
   ]
 }

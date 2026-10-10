@@ -18,8 +18,8 @@ Adatjelzők: `archivált` · `ellentmondás` · `hiányzó_adat`
 | Entitás | Publikálható | Megjegyzés |
 | --- | --- | --- |
 | Márkák | 10 | 9 ellenőrzött + Scott előkészített |
-| Telephelyek | 101 | Országos bővítés (20→101); brandLinks + evidenceIds |
-| Szolgáltatások | telephelyi szerepek | Rekord BP/Győr szerviz továbbra is visszatartva |
+| Telephelyek | 103 | Országos bővítés + audit utáni 2 felvétel; brandLinks + evidenceIds |
+| Szolgáltatások | telephelyi szerepek | Szerviz csak igazolt forrással; Rekord BP/Győr szerviz visszatartva |
 | Modellváltozatok | 12 | MERIDA archived → előkészített |
 | Magyarázók | 6 | Konkrét Bosch / gyártói forrásokkal |
 | Összehasonlítások | 3 | Városi komfort (átnevezve), trekking, e-MTB |
