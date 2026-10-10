@@ -58,12 +58,31 @@ async function measure(page) {
     const searchRect = search ? search.getBoundingClientRect() : null;
     if (searchRect && searchRect.width > window.innerWidth) issues.push("search_overflow");
 
+    if (document.querySelector(".planned-panel")) issues.push("planned_panel_present");
+    const routes = [...document.querySelectorAll(".routes .route")];
+    if (routes.length !== 2) issues.push("route_count:" + routes.length);
+    const events = [...document.querySelectorAll("#esemenyek .event")];
+    if (events.length !== 3) issues.push("event_count:" + events.length);
+    const used = [...document.querySelectorAll(".used-grid .used")].filter(
+      (el) => getComputedStyle(el).display !== "none"
+    );
+    const expectUsed = window.innerWidth <= 1000 && window.innerWidth > 650 ? 2 : 3;
+    if (used.length !== expectUsed) issues.push("used_count:" + used.length);
+    if (!document.getElementById("country")) issues.push("country_select_missing");
+    if (!document.querySelector("#landscape")) issues.push("landscape_symbol_missing");
+    const bodyText = document.body.innerText;
+    if (/Kitalált/.test(bodyText)) issues.push("kitalalt_copy_visible");
+    if (!/Hamarosan/.test(bodyText)) issues.push("hamarosan_missing");
+
     // open a brand dialog if possible
     return {
       issues,
       icons,
       gatewayCount: gateways.length,
       brandCount: brandEls.length,
+      routeCount: routes.length,
+      eventCount: events.length,
+      usedCount: used.length,
       h1: (document.querySelector("h1") || {}).textContent || "",
       hasContent: !!window.KEREKPARINDEX_CONTENT,
       contentBrands: window.KEREKPARINDEX_CONTENT
@@ -149,6 +168,26 @@ async function main() {
       path: path.join(SHOT_DIR, "vilag-desktop-places-dialog.png"),
       fullPage: false,
     }).then(() => path.join(SHOT_DIR, "vilag-desktop-places-dialog.png"))
+  );
+  await page.keyboard.press("Escape");
+  await new Promise((r) => setTimeout(r, 200));
+
+  // Planned shell click + bottom section crops
+  await page.click("#esemenyek .event");
+  await page.waitForSelector("dialog[open]", { timeout: 5000 }).catch(() => null);
+  const plannedOk = await page.evaluate(() => {
+    const d = document.querySelector("dialog");
+    return !!(d && d.open && /előkészítés alatt áll/i.test(d.innerText));
+  });
+  if (!plannedOk) {
+    results.pass = false;
+    results.checks.push("planned_dialog_failed");
+  }
+  results.shots.push(
+    await page.screenshot({
+      path: path.join(SHOT_DIR, "vilag-desktop-planned-dialog.png"),
+      fullPage: false,
+    }).then(() => path.join(SHOT_DIR, "vilag-desktop-planned-dialog.png"))
   );
 
   await browser.close();

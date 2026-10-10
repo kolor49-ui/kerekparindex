@@ -15,8 +15,8 @@
 | Túrák és útvonalak | látható · előkészítés alatt |
 | Események | látható · előkészítés alatt |
 
-Az előkészítés alatt álló rovatok kattintáskor: **„Ez a rovat előkészítés alatt áll.”**  
-Kitalált hirdetés, ár, túra vagy esemény nem jelenik meg.
+Az előkészítés alatt álló rovatok a referencia kártya-/sorstruktúrájában jelennek meg („Hamarosan” jelzéssel).  
+Kattintáskor: **„Ez a rovat előkészítés alatt áll.”** — konkrét dátum, ár vagy kitalált listázás nélkül.
 
 ## Keresési területek (5)
 

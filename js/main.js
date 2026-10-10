@@ -174,22 +174,10 @@
   });
 
   const PLANNED = {
-    hasznalt: {
-      title: "Adok-veszek",
-      body: "Ez a rovat előkészítés alatt áll. Még nincs ellenőrzött hirdetés vagy ár — kitalált ajánlatokat nem jelenítünk meg.",
-    },
-    tura: {
-      title: "Túrák és útvonalak",
-      body: "Ez a rovat előkészítés alatt áll. Még nincs ellenőrzött túra vagy útvonal — kitalált útvonalakat nem jelenítünk meg.",
-    },
-    esemeny: {
-      title: "Események",
-      body: "Ez a rovat előkészítés alatt áll. Még nincs ellenőrzött esemény — kitalált programokat nem jelenítünk meg.",
-    },
-    akcio: {
-      title: "Akciók",
-      body: "Ez a rovat előkészítés alatt áll. Még nincs ellenőrzött akció — kitalált árakat nem jelenítünk meg.",
-    },
+    hasznalt: { title: "Adok-veszek" },
+    tura: { title: "Túrák és útvonalak" },
+    esemeny: { title: "Események" },
+    akcio: { title: "Akciók" },
   };
 
   function brandById(id) {
@@ -214,9 +202,7 @@
     if (!info) return;
     show(
       info.title,
-      "<p><strong>Ez a rovat előkészítés alatt áll.</strong></p><p>" +
-        esc(info.body) +
-        "</p>",
+      "<p><strong>Ez a rovat előkészítés alatt áll.</strong></p>",
       opener
     );
   }
@@ -938,6 +924,16 @@
       showPlanned(key, el);
     });
   });
+
+  const countrySelect = document.getElementById("country");
+  if (countrySelect) {
+    countrySelect.addEventListener("change", function () {
+      const value = countrySelect.value;
+      document.querySelectorAll("[data-country]").forEach(function (el) {
+        el.hidden = value !== "all" && el.dataset.country !== value;
+      });
+    });
+  }
 
   document.querySelectorAll("[data-metric]").forEach(function (btn, index, all) {
     btn.addEventListener("click", function () {

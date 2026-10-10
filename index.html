@@ -81,6 +81,29 @@
             <path d="M11 3v8M22 3v8M5 15h23M10 20h5M18 20h5M10 24h5" />
           </g>
         </symbol>
+        <symbol id="landscape" viewBox="0 0 500 250">
+          <rect width="500" height="250" fill="#bdcda6" />
+          <circle cx="385" cy="52" r="27" fill="#fce8b7" />
+          <path
+            d="M0 130L110 35l90 90 75-75 140 110 85-50v140H0z"
+            fill="#7b9c82"
+          />
+          <path
+            d="M0 160l100-54 110 75 115-48 175 64v53H0z"
+            fill="#425f56"
+          />
+          <path
+            d="M0 209q150-48 275-4t225 4v41H0z"
+            fill="#283f38"
+          />
+          <path
+            d="M280 250q-110-53-25-73t-13-28"
+            fill="none"
+            stroke="#e9d9b2"
+            stroke-width="12"
+            stroke-linecap="round"
+          />
+        </symbol>
       </defs>
     </svg>
 
@@ -353,17 +376,71 @@
                 <div class="eyebrow">A következő kanyar után</div>
                 <h2>Merre indulnál?</h2>
               </div>
+              <label>
+                <span class="sr-only">Útvonalak országa</span>
+                <select class="filter-select" id="country">
+                  <option value="all">Itthon és körülöttünk</option>
+                  <option value="hu">Magyarország</option>
+                  <option value="at">Ausztria</option>
+                </select>
+              </label>
             </div>
-            <div class="planned-panel">
-              <p><strong>Ez a rovat előkészítés alatt áll.</strong></p>
-              <p class="note">
-                Még nincs ellenőrzött túra vagy útvonal. Kitalált útvonalakat
-                nem jelenítünk meg.
-              </p>
-              <button class="text-link" type="button" data-planned="tura">
-                Részletek ↗
+            <div class="routes">
+              <button
+                class="route"
+                type="button"
+                data-country="hu"
+                data-planned="tura"
+              >
+                <div class="art">
+                  <svg><use href="#landscape" /></svg>
+                  <span class="tag">MAGYARORSZÁG · HAMAROSAN</span>
+                </div>
+                <div class="story-body">
+                  <h3>Hazai túrák</h3>
+                  <div class="pills">
+                    <span>Hamarosan</span>
+                    <span>Itthon</span>
+                    <span>Útvonalak</span>
+                  </div>
+                </div>
+              </button>
+              <button
+                class="route"
+                type="button"
+                data-country="at"
+                data-planned="tura"
+              >
+                <div class="art">
+                  <svg viewBox="0 0 500 250">
+                    <use href="#landscape" />
+                    <path d="M0 250l135-92 130 92" fill="#26453d" />
+                    <path
+                      d="M345 250q-150-55-62-85"
+                      stroke="#b3d8e0"
+                      stroke-width="24"
+                      fill="none"
+                    />
+                  </svg>
+                  <span class="tag">SZOMSZÉD · HAMAROSAN</span>
+                </div>
+                <div class="story-body">
+                  <h3>Túrák a szomszédban</h3>
+                  <div class="pills">
+                    <span>Hamarosan</span>
+                    <span>Határmentén</span>
+                  </div>
+                </div>
               </button>
             </div>
+            <button
+              class="text-link"
+              type="button"
+              style="margin-top: 12px"
+              data-planned="tura"
+            >
+              Útvonalak felfedezése ↗
+            </button>
           </section>
           <section id="esemenyek">
             <div class="section-head">
@@ -371,17 +448,34 @@
                 <div class="eyebrow">Együtt még jobb</div>
                 <h2>Ott a helyed.</h2>
               </div>
-            </div>
-            <div class="planned-panel">
-              <p><strong>Ez a rovat előkészítés alatt áll.</strong></p>
-              <p class="note">
-                Még nincs ellenőrzött esemény. Kitalált programokat nem
-                jelenítünk meg.
-              </p>
               <button class="text-link" type="button" data-planned="esemeny">
-                Részletek ↗
+                Naptár ↗
               </button>
             </div>
+            <button class="event" type="button" data-planned="esemeny">
+              <span class="date" aria-hidden="true">···<strong>—</strong></span>
+              <span>
+                <h3>Közösségi tekerések</h3>
+                <p>Hamarosan</p>
+              </span>
+              <span class="arrow" aria-hidden="true">↗</span>
+            </button>
+            <button class="event" type="button" data-planned="esemeny">
+              <span class="date" aria-hidden="true">···<strong>—</strong></span>
+              <span>
+                <h3>E-bike tesztnapok</h3>
+                <p>Hamarosan</p>
+              </span>
+              <span class="arrow" aria-hidden="true">↗</span>
+            </button>
+            <button class="event" type="button" data-planned="esemeny">
+              <span class="date" aria-hidden="true">···<strong>—</strong></span>
+              <span>
+                <h3>Versenyek</h3>
+                <p>Hamarosan</p>
+              </span>
+              <span class="arrow" aria-hidden="true">↗</span>
+            </button>
           </section>
         </div>
 
@@ -392,15 +486,43 @@
               <h2>Adok-veszek. Cserebere.</h2>
             </div>
             <button class="text-link" type="button" data-planned="hasznalt">
-              Részletek ↗
+              Minden hirdetés ↗
             </button>
           </div>
-          <div class="planned-panel">
-            <p><strong>Ez a rovat előkészítés alatt áll.</strong></p>
-            <p class="note">
-              Még nincs ellenőrzött hirdetés vagy ár. Kitalált ajánlatokat nem
-              jelenítünk meg.
-            </p>
+          <div class="used-grid">
+            <button class="used" type="button" data-planned="hasznalt">
+              <span class="used-art"
+                ><svg style="color: #d8efa4">
+                  <use href="#bike" /></svg
+              ></span>
+              <span>
+                <h3>Eladó kerékpárok</h3>
+                <p>Hamarosan</p>
+                <strong>Hamarosan</strong>
+              </span>
+            </button>
+            <button class="used" type="button" data-planned="hasznalt">
+              <span class="used-art"
+                ><svg style="color: #ff966f">
+                  <use href="#bike" /></svg
+              ></span>
+              <span>
+                <h3>Cserebere</h3>
+                <p>Hamarosan</p>
+                <strong>Hamarosan</strong>
+              </span>
+            </button>
+            <button class="used" type="button" data-planned="hasznalt">
+              <span class="used-art"
+                ><svg style="color: #cbb2ff">
+                  <use href="#bike" /></svg
+              ></span>
+              <span>
+                <h3>Kerékpárt keresek</h3>
+                <p>Hamarosan</p>
+                <strong>Hamarosan</strong>
+              </span>
+            </button>
           </div>
         </section>
       </main>
@@ -413,8 +535,8 @@
         <p>
           ORBIT Világ · Ellenőrzött tartalmi próbakör. Nincs élő ár- vagy
           készletadatbázis; a márkanevek tipográfiai megjelenítése nem jelez
-          partnerséget. Az adok-veszek, túra- és eseményrovatok előkészítés
-          alatt állnak — kitalált tartalom nélkül.
+          partnerséget. A túra-, esemény- és adok-veszek rovatok hamarosan
+          érkeznek.
         </p>
       </footer>
     </div>

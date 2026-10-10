@@ -20,3 +20,4 @@ Result: **PASS**
 - `screenshots/orbit-vilag/vilag-mobile-full.png`
 - `screenshots/orbit-vilag/vilag-desktop-full.png`
 - `screenshots/orbit-vilag/vilag-desktop-places-dialog.png`
+- `screenshots/orbit-vilag/vilag-desktop-planned-dialog.png`

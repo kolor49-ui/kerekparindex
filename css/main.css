@@ -23,11 +23,6 @@
 .gateway{min-height:52px}
 }
 
-/* Planned-section shells (visible, no invented listings) */
-.planned-panel{background:var(--panel);border:1px solid var(--line);border-radius:17px;padding:20px}
-.planned-panel p{color:var(--muted);font-size:13px;margin:0 0 10px}
-.planned-panel strong{color:var(--ink);font-size:16px}
-
 /* Content dialog / lists (from Compact wiring, Világ tokens) */
 dialog{overflow:auto}
 dialog h3{font-size:18px;letter-spacing:-.4px;margin:22px 0 10px}
