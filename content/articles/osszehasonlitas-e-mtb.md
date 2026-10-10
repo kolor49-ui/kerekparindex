@@ -23,7 +23,7 @@ Ahol „Nincs ellenőrzött adat” szerepel: a megnyitott oldalon nem volt egy�
 ### Reaction Hybrid ONE 800
 **Adatokból levezetett előnyök**
 - merevvázas (hardtail) e-MTB: 800 Wh + Bosch CX max. 120 Nm (BDU38) magas gyártói energia-/nyomatékértékkel.
-- Gyártói tömeg 25,9 kg — 25,9 kg gyártói tömeg, mérési feltétel nélkül — csak tájékoztató adat, nem rangsor.
+- Gyártói tömeg 25,9 kg, mérési feltétel nélkül — csak tájékoztató adat, nem rangsor.
 **Kompromisszumok**
 - Csak első teleszkóp (merevvázas (hardtail)): hátsó rugózás nincs — technikai ösvényen más karakter, mint az összteleszkópos.
 - Mérési feltétel a tömeghez nincs megadva.
@@ -39,7 +39,7 @@ Ahol „Nincs ellenőrzött adat” szerepel: a megnyitott oldalon nem volt egy�
 
 ### S-Works Turbo Levo 4
 **Adatokból levezetett előnyök**
-- Összteleszkópos e-MTB (150 mm hátsó út): elöl és hátul rugóz — más felépítés, mint a hardtaileké.
+- Összteleszkópos e-MTB (150 mm hátsó út): elöl és hátul rugóz — más felépítés, mint a merevvázas modelleké.
 - 840 Wh akku, 111 Nm / 850 W gyártói motoradat; tömeg 23,68 kg S4 méreten, feltétellel.
 **Kompromisszumok**
 - S-Works szintű felszereltség: a specifikáció prémium hajtást/féket listáz — nem „jobb merevvázas (hardtail)”, hanem más kategória.

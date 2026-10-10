@@ -739,7 +739,7 @@ def build_pros_cons():
         },
         "var-specialized-s-works-turbo-levo-4-840": {
             "pros": [
-                "Összteleszkópos e-MTB (150 mm hátsó út): elöl és hátul rugóz — más felépítés, mint a hardtaileké.",
+                "Összteleszkópos e-MTB (150 mm hátsó út): elöl és hátul rugóz — más felépítés, mint a merevvázas modelleké.",
                 "840 Wh akku, 111 Nm / 850 W gyártói motoradat; tömeg 23,68 kg S4 méreten, feltétellel.",
             ],
             "cons": [
