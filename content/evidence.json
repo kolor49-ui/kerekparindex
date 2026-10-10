@@ -400,6 +400,38 @@
       "status": "ellenőrzött"
     },
     {
+      "id": "ev-axus-bringabolt-godollo-20261010",
+      "url": "https://axusbike.hu/boltjaink/",
+      "pageTitle": "Boltjaink - Axus Bike Webáruház",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-axus-bringabolt-godollo",
+        "loc-axus-bringabolt-godollo.address",
+        "loc-axus-bringabolt-godollo.openingHours",
+        "loc-axus-bringabolt-godollo.phone",
+        "loc-axus-bringabolt-godollo.email",
+        "loc-axus-bringabolt-godollo.website",
+        "svc-axus-bringabolt-godollo-eladas"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-axus-bringabolt-veresegyhaz-20261010",
+      "url": "https://axusbike.hu/boltjaink/",
+      "pageTitle": "Boltjaink - Axus Bike Webáruház",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-axus-bringabolt-veresegyhaz",
+        "loc-axus-bringabolt-veresegyhaz.address",
+        "loc-axus-bringabolt-veresegyhaz.openingHours",
+        "loc-axus-bringabolt-veresegyhaz.phone",
+        "loc-axus-bringabolt-veresegyhaz.email",
+        "loc-axus-bringabolt-veresegyhaz.website",
+        "svc-axus-bringabolt-veresegyhaz-eladas"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
       "id": "ev-bakony-sport-ajka-20261010",
       "url": "https://bikefun.hu/shops/bakony-sport",
       "pageTitle": "Bakony Sport - BikeFun",
@@ -457,6 +489,23 @@
         "loc-balocom-bekescsaba.phone",
         "loc-balocom-bekescsaba.email",
         "loc-balocom-bekescsaba.brandLinks.Neuzer"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-barkobike-komarom-koppanymonostor-20261010",
+      "url": "https://barkobike.com/szerviz",
+      "pageTitle": "Szerviz | Barkobike Kerékpérszaküzlet és Szerviz",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-barkobike-komarom-koppanymonostor",
+        "loc-barkobike-komarom-koppanymonostor.address",
+        "loc-barkobike-komarom-koppanymonostor.openingHours",
+        "loc-barkobike-komarom-koppanymonostor.phone",
+        "loc-barkobike-komarom-koppanymonostor.email",
+        "loc-barkobike-komarom-koppanymonostor.website",
+        "svc-barkobike-komarom-koppanymonostor-eladas",
+        "svc-barkobike-komarom-koppanymonostor-szerviz"
       ],
       "status": "ellenőrzött"
     },
@@ -1227,6 +1276,23 @@
       "status": "ellenőrzött"
     },
     {
+      "id": "ev-ebikepro-budapest-rakoczi-20261010",
+      "url": "https://ebikepro.hu/kapcsolat",
+      "pageTitle": "Kapcsolat | ebikepro.hu",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-ebikepro-budapest-rakoczi",
+        "loc-ebikepro-budapest-rakoczi.address",
+        "loc-ebikepro-budapest-rakoczi.openingHours",
+        "loc-ebikepro-budapest-rakoczi.phone",
+        "loc-ebikepro-budapest-rakoczi.email",
+        "loc-ebikepro-budapest-rakoczi.website",
+        "svc-ebikepro-budapest-rakoczi-eladas",
+        "svc-ebikepro-budapest-rakoczi-szerviz"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
       "id": "ev-egerbike-eger-20261010",
       "url": "https://egerbike.hu/kapcsolat",
       "pageTitle": "Kapcsolat - Egerbike",
@@ -1678,6 +1744,22 @@
       "status": "ellenőrzött"
     },
     {
+      "id": "ev-hodkerek-hodmezovasarhely-20261010",
+      "url": "https://hodkerek.uzleti.hu/",
+      "pageTitle": "Hódkerék Kft. - Kerékpárbolt és kerékpár szerviz - Hódmezővásárhely",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-hodkerek-hodmezovasarhely",
+        "loc-hodkerek-hodmezovasarhely.address",
+        "loc-hodkerek-hodmezovasarhely.openingHours",
+        "loc-hodkerek-hodmezovasarhely.phone",
+        "loc-hodkerek-hodmezovasarhely.website",
+        "svc-hodkerek-hodmezovasarhely-eladas",
+        "svc-hodkerek-hodmezovasarhely-szerviz"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
       "id": "ev-horex-god-20261010",
       "url": "https://bikefun.hu/shops/horex-kerekparbolt",
       "pageTitle": "Horex Kerékpárbolt - BikeFun",
@@ -1839,6 +1921,38 @@
       "status": "ellenőrzött"
     },
     {
+      "id": "ev-kerekparcity-budapest-erdosor-20261010",
+      "url": "https://kerekparcity.hu/shop_contact.php",
+      "pageTitle": "KerékpárCity Kft. elérhetőség",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-kerekparcity-budapest-erdosor",
+        "loc-kerekparcity-budapest-erdosor.address",
+        "loc-kerekparcity-budapest-erdosor.openingHours",
+        "loc-kerekparcity-budapest-erdosor.phone",
+        "loc-kerekparcity-budapest-erdosor.email",
+        "loc-kerekparcity-budapest-erdosor.website",
+        "svc-kerekparcity-budapest-erdosor-szerviz"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-kerekparcity-kiskunlachaza-20261010",
+      "url": "https://kerekparcity.hu/shop_contact.php",
+      "pageTitle": "KerékpárCity Kft. elérhetőség",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-kerekparcity-kiskunlachaza",
+        "loc-kerekparcity-kiskunlachaza.address",
+        "loc-kerekparcity-kiskunlachaza.openingHours",
+        "loc-kerekparcity-kiskunlachaza.phone",
+        "loc-kerekparcity-kiskunlachaza.email",
+        "loc-kerekparcity-kiskunlachaza.website",
+        "svc-kerekparcity-kiskunlachaza-szerviz"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
       "id": "ev-kerekparudvar-mako-20261010",
       "url": "https://bikefun.hu/shops/kerekparudvar",
       "pageTitle": "Kerékpárudvar - BikeFun",
@@ -1869,6 +1983,22 @@
         "loc-kero-depo-oroshaza.website",
         "loc-kero-depo-oroshaza.brandLinks.Merida",
         "svc-kero-depo-oroshaza-eladas"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-keszibike-dunakeszi-20261010",
+      "url": "https://keszibike.hu/index.php?route=information/contact",
+      "pageTitle": "Kapcsolat",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-keszibike-dunakeszi",
+        "loc-keszibike-dunakeszi.address",
+        "loc-keszibike-dunakeszi.openingHours",
+        "loc-keszibike-dunakeszi.phone",
+        "loc-keszibike-dunakeszi.email",
+        "loc-keszibike-dunakeszi.website",
+        "svc-keszibike-dunakeszi-szerviz"
       ],
       "status": "ellenőrzött"
     },
@@ -2316,6 +2446,40 @@
       "status": "ellenőrzött"
     },
     {
+      "id": "ev-no-limit-dunakeszi-szerviz-20261010",
+      "url": "https://www.nolimitbike.hu/elerhetosegek-230",
+      "pageTitle": "Elérhetőségeink / Üzleteink - No Limit Bike (Dunakeszi + szerviz)",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-no-limit-dunakeszi",
+        "loc-no-limit-dunakeszi.address",
+        "loc-no-limit-dunakeszi.phone",
+        "loc-no-limit-dunakeszi.email",
+        "loc-no-limit-dunakeszi.website",
+        "loc-no-limit-dunakeszi.openingHours",
+        "svc-no-limit-dunakeszi-eladas",
+        "svc-no-limit-dunakeszi-szerviz"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-nolimit-bike-veresegyhaz-20261010",
+      "url": "https://www.nolimitbike.hu/elerhetosegek-230",
+      "pageTitle": "Elérhetőségeink / Üzleteink - No Limit Bike",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-nolimit-bike-veresegyhaz",
+        "loc-nolimit-bike-veresegyhaz.address",
+        "loc-nolimit-bike-veresegyhaz.openingHours",
+        "loc-nolimit-bike-veresegyhaz.phone",
+        "loc-nolimit-bike-veresegyhaz.email",
+        "loc-nolimit-bike-veresegyhaz.website",
+        "svc-nolimit-bike-veresegyhaz-eladas",
+        "svc-nolimit-bike-veresegyhaz-szerviz"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
       "id": "ev-nor-bike-kiskunfelegyhaza-20261010",
       "url": "https://bikefun.hu/shops/nor-bike-kerekpabolt",
       "pageTitle": "Nor-Bike Kerékpábolt - BikeFun",
@@ -2345,6 +2509,22 @@
         "loc-nyolcas-hodmezovasarhely.email",
         "loc-nyolcas-hodmezovasarhely.website",
         "svc-nyolcas-hodmezovasarhely-eladas"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-ocsai-kerekpar-cegled-20261010",
+      "url": "https://ocsaikerekpar.hu/",
+      "pageTitle": "Ócsai Kerékpár és Motorszervíz Cegléd | Kerékpár Javítás és Robogó Szerviz",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-ocsai-kerekpar-cegled",
+        "loc-ocsai-kerekpar-cegled.address",
+        "loc-ocsai-kerekpar-cegled.openingHours",
+        "loc-ocsai-kerekpar-cegled.phone",
+        "loc-ocsai-kerekpar-cegled.email",
+        "loc-ocsai-kerekpar-cegled.website",
+        "svc-ocsai-kerekpar-cegled-szerviz"
       ],
       "status": "ellenőrzött"
     },
@@ -2529,6 +2709,23 @@
       "status": "ellenőrzött"
     },
     {
+      "id": "ev-r-bike-komarom-varfal-20261010",
+      "url": "https://www.rbike.hu/uzletunk",
+      "pageTitle": "Komáromi Kerékpárüzlet és Szerviz — RBIKE Várfal utca 1.",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-r-bike-komarom",
+        "loc-r-bike-komarom.address",
+        "loc-r-bike-komarom.phone",
+        "loc-r-bike-komarom.email",
+        "loc-r-bike-komarom.website",
+        "loc-r-bike-komarom.brandLinks.Merida",
+        "svc-r-bike-komarom-eladas",
+        "svc-r-bike-komarom-szerviz"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
       "id": "ev-radvanyi-kerekparszerviz-miskolc-20261010",
       "url": "https://kerekparszervizmiskolc.hu/",
       "pageTitle": "Radványi Norbert kerékpárszerviz, Miskolc",
@@ -2541,6 +2738,22 @@
         "loc-radvanyi-kerekparszerviz-miskolc.website",
         "svc-radvanyi-kerekparszerviz-miskolc-szerviz",
         "svc-radvanyi-kerekparszerviz-miskolc-e-bike-szerviz"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-rausch-kerekpar-baja-20261010",
+      "url": "https://www.rauschkerekpar.hu/index.php?route=information/contact",
+      "pageTitle": "Kerékpárok kis- és nagykereskedelme és szervizelése - Rausch",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-rausch-kerekpar-baja",
+        "loc-rausch-kerekpar-baja.address",
+        "loc-rausch-kerekpar-baja.phone",
+        "loc-rausch-kerekpar-baja.email",
+        "loc-rausch-kerekpar-baja.website",
+        "svc-rausch-kerekpar-baja-eladas",
+        "svc-rausch-kerekpar-baja-szerviz"
       ],
       "status": "ellenőrzött"
     },
@@ -2842,6 +3055,17 @@
       "status": "ellenőrzött"
     },
     {
+      "id": "ev-speedy-bekescsaba-szerviz-20261010",
+      "url": "http://www.speedybicikli.hu/index.php/szerviz",
+      "pageTitle": "Szerviz — Speedy Kerékpárüzlet",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-speedy-bekescsaba",
+        "svc-speedy-bekescsaba-szerviz"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
       "id": "ev-sport-oazis-papa-20261010",
       "url": "https://csepelkerekpar.hu/uzletek/?county=Veszpr%C3%A9m",
       "pageTitle": "Csepel bicikli boltok | Csepel kerékpár",
@@ -2869,6 +3093,23 @@
         "loc-sprint-kerekpar-szolnok.website",
         "loc-sprint-kerekpar-szolnok.brandLinks.Neuzer",
         "svc-sprint-kerekpar-szolnok-eladas"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-start-kerekpar-vecses-20261010",
+      "url": "https://www.startkerekpar.hu/vecses",
+      "pageTitle": "VECSÉS - www.startkerekpar.hu",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-start-kerekpar-vecses",
+        "loc-start-kerekpar-vecses.address",
+        "loc-start-kerekpar-vecses.openingHours",
+        "loc-start-kerekpar-vecses.phone",
+        "loc-start-kerekpar-vecses.email",
+        "loc-start-kerekpar-vecses.website",
+        "svc-start-kerekpar-vecses-eladas",
+        "svc-start-kerekpar-vecses-szerviz"
       ],
       "status": "ellenőrzött"
     },
@@ -2947,6 +3188,23 @@
       "status": "ellenőrzött"
     },
     {
+      "id": "ev-takbike-biatorbagy-20261010",
+      "url": "https://takbike.hu/hu/muhely",
+      "pageTitle": "Műhely - TAK Bike: Kerékpár szaküzlet és szerviz",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-takbike-biatorbagy",
+        "loc-takbike-biatorbagy.address",
+        "loc-takbike-biatorbagy.openingHours",
+        "loc-takbike-biatorbagy.phone",
+        "loc-takbike-biatorbagy.email",
+        "loc-takbike-biatorbagy.website",
+        "svc-takbike-biatorbagy-eladas",
+        "svc-takbike-biatorbagy-szerviz"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
       "id": "ev-tempo-kerekpar-balatonfured-20261010",
       "url": "https://tempokerekpar.hu/",
       "pageTitle": "Tempo Kerékpárszaküzlet | Balatonfüred",
@@ -2987,6 +3245,23 @@
         "loc-tito-nagykata.website",
         "loc-tito-nagykata.brandLinks.Merida",
         "svc-tito-nagykata-eladas"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-toparti-kerekpar-tata-20261010",
+      "url": "http://bringaszerviz.hu/",
+      "pageTitle": "Tóparti kerékpárbolt",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-toparti-kerekpar-tata",
+        "loc-toparti-kerekpar-tata.address",
+        "loc-toparti-kerekpar-tata.openingHours",
+        "loc-toparti-kerekpar-tata.phone",
+        "loc-toparti-kerekpar-tata.email",
+        "loc-toparti-kerekpar-tata.website",
+        "svc-toparti-kerekpar-tata-eladas",
+        "svc-toparti-kerekpar-tata-szerviz"
       ],
       "status": "ellenőrzött"
     },
@@ -3329,17 +3604,6 @@
         "loc-zolikerekpar-tat.website",
         "loc-zolikerekpar-tat.brandLinks.Merida",
         "svc-zolikerekpar-tat-eladas"
-      ],
-      "status": "ellenőrzött"
-    },
-    {
-      "id": "ev-speedy-bekescsaba-szerviz-20261010",
-      "url": "http://www.speedybicikli.hu/index.php/szerviz",
-      "pageTitle": "Szerviz — Speedy Kerékpárüzlet",
-      "accessedAt": "2026-10-10",
-      "supports": [
-        "loc-speedy-bekescsaba",
-        "svc-speedy-bekescsaba-szerviz"
       ],
       "status": "ellenőrzött"
     }

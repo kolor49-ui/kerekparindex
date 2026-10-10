@@ -878,9 +878,9 @@
     },
     {
       "id": "org-r-bike-komarom",
-      "name": "R Bike",
+      "name": "R Bike / RBIKE",
       "legalName": null,
-      "website": "https://bikefun.hu/shops/r-bike",
+      "website": "https://www.rbike.hu/uzletunk",
       "notes": null
     },
     {
@@ -894,7 +894,7 @@
       "id": "org-no-limit-dunakeszi",
       "name": "No Limit Kerékpár",
       "legalName": null,
-      "website": "https://bikefun.hu/shops/no-limit-kerekpar",
+      "website": "https://www.nolimitbike.hu/elerhetosegek-230",
       "notes": null
     },
     {
@@ -1077,6 +1077,104 @@
       "name": "Radványi Norbert kerékpárszerviz",
       "legalName": null,
       "website": "https://kerekparszervizmiskolc.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-axus-bringabolt-godollo",
+      "name": "Axus Bringabolt (Gödöllő)",
+      "legalName": null,
+      "website": "https://axusbike.hu/boltjaink/",
+      "notes": null
+    },
+    {
+      "id": "org-axus-bringabolt-veresegyhaz",
+      "name": "Axus Bringabolt (Veresegyház)",
+      "legalName": null,
+      "website": "https://axusbike.hu/boltjaink/",
+      "notes": null
+    },
+    {
+      "id": "org-start-kerekpar-vecses",
+      "name": "Start Kerékpárüzlet és Szerviz (Vecsés)",
+      "legalName": null,
+      "website": "https://www.startkerekpar.hu/vecses",
+      "notes": null
+    },
+    {
+      "id": "org-ocsai-kerekpar-cegled",
+      "name": "Ócsai Kerékpár és Motorszervíz",
+      "legalName": null,
+      "website": "https://ocsaikerekpar.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-keszibike-dunakeszi",
+      "name": "Keszibike",
+      "legalName": null,
+      "website": "https://keszibike.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-nolimit-bike-veresegyhaz",
+      "name": "No Limit Kerékpár, Roller és Sí (Veresegyház)",
+      "legalName": null,
+      "website": "https://www.nolimitbike.hu/elerhetosegek-230",
+      "notes": null
+    },
+    {
+      "id": "org-rausch-kerekpar-baja",
+      "name": "Rausch Kerékpár Kereskedés és Szerviz",
+      "legalName": null,
+      "website": "https://www.rauschkerekpar.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-hodkerek-hodmezovasarhely",
+      "name": "Hódkerék Kft.",
+      "legalName": null,
+      "website": "https://hodkerek.uzleti.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-toparti-kerekpar-tata",
+      "name": "Tóparti Kerékpárbolt és Szerviz",
+      "legalName": null,
+      "website": "http://bringaszerviz.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-barkobike-komarom-koppanymonostor",
+      "name": "BarkoBike Kerékpár Szaküzlet és Szerviz",
+      "legalName": null,
+      "website": "https://barkobike.com/",
+      "notes": null
+    },
+    {
+      "id": "org-kerekparcity-budapest-erdosor",
+      "name": "KerékpárCity szerviz (Erdősor)",
+      "legalName": null,
+      "website": "https://kerekparcity.hu/shop_contact.php",
+      "notes": null
+    },
+    {
+      "id": "org-kerekparcity-kiskunlachaza",
+      "name": "KerékpárCity szerviz (Kiskunlacháza)",
+      "legalName": null,
+      "website": "https://kerekparcity.hu/shop_contact.php",
+      "notes": null
+    },
+    {
+      "id": "org-ebikepro-budapest-rakoczi",
+      "name": "Ebikepro (Urbanbiker telephely)",
+      "legalName": null,
+      "website": "https://ebikepro.hu/kapcsolat",
+      "notes": null
+    },
+    {
+      "id": "org-takbike-biatorbagy",
+      "name": "TAK Bike",
+      "legalName": null,
+      "website": "https://takbike.hu/hu/",
       "notes": null
     }
   ]

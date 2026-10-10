@@ -1,7 +1,7 @@
 {
   "accessedAt": "2026-10-10",
   "schemaNote": "researchStatus: not_researched | in_progress | researched_no_verified | has_published. researched_no_verified ≠ «nincs ott üzlet».",
-  "publishedLocationCount": 156,
+  "publishedLocationCount": 170,
   "units": [
     {
       "name": "Budapest",
@@ -32,9 +32,11 @@
             "loc-bike-palota-budapest",
             "loc-laszlo-kerekpar-i-budapest",
             "loc-ride-bike-rakoczi-budapest",
-            "loc-laszlo-kerekpar-ii-budapest"
+            "loc-laszlo-kerekpar-ii-budapest",
+            "loc-kerekparcity-budapest-erdosor",
+            "loc-ebikepro-budapest-rakoczi"
           ],
-          "publishedCount": 20,
+          "publishedCount": 22,
           "notes": null
         }
       ],
@@ -178,7 +180,7 @@
           "publishedLocationIds": []
         }
       ],
-      "publishedTotal": 20
+      "publishedTotal": 22
     },
     {
       "name": "Bács-Kiskun",
@@ -190,9 +192,10 @@
           "isCountySeat": false,
           "researchStatus": "has_published",
           "publishedLocationIds": [
-            "loc-kerekpar-szakuzlet-baja"
+            "loc-kerekpar-szakuzlet-baja",
+            "loc-rausch-kerekpar-baja"
           ],
-          "publishedCount": 1,
+          "publishedCount": 2,
           "notes": null
         },
         {
@@ -231,7 +234,7 @@
         }
       ],
       "districts": null,
-      "publishedTotal": 8
+      "publishedTotal": 9
     },
     {
       "name": "Baranya",
@@ -382,9 +385,10 @@
           "publishedLocationIds": [
             "loc-nyolcas-hodmezovasarhely",
             "loc-drotszamar-hodmezovasarhely",
-            "loc-veloport-hodmezovasarhely"
+            "loc-veloport-hodmezovasarhely",
+            "loc-hodkerek-hodmezovasarhely"
           ],
-          "publishedCount": 3,
+          "publishedCount": 4,
           "notes": null
         },
         {
@@ -425,7 +429,7 @@
         }
       ],
       "districts": null,
-      "publishedTotal": 12
+      "publishedTotal": 13
     },
     {
       "name": "Fejér",
@@ -635,7 +639,18 @@
           "isCountySeat": false,
           "researchStatus": "has_published",
           "publishedLocationIds": [
-            "loc-r-bike-komarom"
+            "loc-r-bike-komarom",
+            "loc-barkobike-komarom-koppanymonostor"
+          ],
+          "publishedCount": 2,
+          "notes": null
+        },
+        {
+          "name": "Tata",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-toparti-kerekpar-tata"
           ],
           "publishedCount": 1,
           "notes": null
@@ -663,7 +678,7 @@
         }
       ],
       "districts": null,
-      "publishedTotal": 5
+      "publishedTotal": 7
     },
     {
       "name": "Nógrád",
@@ -714,9 +729,10 @@
           "isCountySeat": false,
           "researchStatus": "has_published",
           "publishedLocationIds": [
-            "loc-belobike-biatorbagy"
+            "loc-belobike-biatorbagy",
+            "loc-takbike-biatorbagy"
           ],
-          "publishedCount": 1,
+          "publishedCount": 2,
           "notes": null
         },
         {
@@ -744,9 +760,10 @@
           "isCountySeat": false,
           "researchStatus": "has_published",
           "publishedLocationIds": [
-            "loc-gyore-cegled"
+            "loc-gyore-cegled",
+            "loc-ocsai-kerekpar-cegled"
           ],
-          "publishedCount": 1,
+          "publishedCount": 2,
           "notes": null
         },
         {
@@ -755,9 +772,10 @@
           "researchStatus": "has_published",
           "publishedLocationIds": [
             "loc-no-limit-dunakeszi",
-            "loc-winkler-sport-dunakeszi"
+            "loc-winkler-sport-dunakeszi",
+            "loc-keszibike-dunakeszi"
           ],
-          "publishedCount": 2,
+          "publishedCount": 3,
           "notes": null
         },
         {
@@ -785,7 +803,18 @@
           "isCountySeat": false,
           "researchStatus": "has_published",
           "publishedLocationIds": [
-            "loc-akosbike-godollo"
+            "loc-akosbike-godollo",
+            "loc-axus-bringabolt-godollo"
+          ],
+          "publishedCount": 2,
+          "notes": null
+        },
+        {
+          "name": "Kiskunlacháza",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-kerekparcity-kiskunlachaza"
           ],
           "publishedCount": 1,
           "notes": null
@@ -821,13 +850,25 @@
           "notes": null
         },
         {
+          "name": "Vecsés",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-start-kerekpar-vecses"
+          ],
+          "publishedCount": 1,
+          "notes": null
+        },
+        {
           "name": "Veresegyház",
           "isCountySeat": false,
           "researchStatus": "has_published",
           "publishedLocationIds": [
-            "loc-dynamic-sport-veresegyhaz"
+            "loc-dynamic-sport-veresegyhaz",
+            "loc-axus-bringabolt-veresegyhaz",
+            "loc-nolimit-bike-veresegyhaz"
           ],
-          "publishedCount": 1,
+          "publishedCount": 3,
           "notes": null
         },
         {
@@ -854,7 +895,7 @@
         }
       ],
       "districts": null,
-      "publishedTotal": 17
+      "publishedTotal": 25
     },
     {
       "name": "Somogy",
@@ -1082,16 +1123,16 @@
     "afterBatches": [
       "batch-gap-ne-2026-10-10",
       "batch-gap-pest-south-2026-10-10",
-      "batch-ne-followup-2026-10-10"
+      "batch-ne-followup-2026-10-10",
+      "batch-pest-south-followup-2026-10-10"
     ],
-    "published": 156,
+    "published": 170,
     "resumeFrom": [
       "Nógrád: Salgótarján +1 (Amanita továbbra is aggregátor)",
       "Komárom-Esztergom: Tatabánya +1",
-      "Pest: Szigetszentmiklós, Monor, Vecsés",
-      "Baranya: Mohács; Tolna: Paks",
+      "Pest: Szigetszentmiklós, Monor (held); Vecsés most publikált",
+      "Baranya: Mohács; Tolna: Paks (held)",
       "Budapest kerületek folytatás",
-      "Önálló szervizek (most 2 only-szerviz)",
       "BICIKLIKK Szolnok: saját üzletlista vs Neuzer ellentmondás feloldása"
     ]
   },
@@ -1100,21 +1141,21 @@
   "sessionCheckpoint": {
     "savedAt": "2026-10-10",
     "status": "paused_ready_to_resume",
-    "published": 156,
+    "published": 170,
     "lastDeployedBatches": [
       "batch-gap-ne-2026-10-10",
       "batch-gap-pest-south-2026-10-10",
-      "batch-ne-followup-2026-10-10"
+      "batch-ne-followup-2026-10-10",
+      "batch-pest-south-followup-2026-10-10"
     ],
     "resumeFrom": [
       "Nógrád: Salgótarján +1 (Amanita továbbra is aggregátor)",
       "Komárom-Esztergom: Tatabánya +1",
-      "Pest: Szigetszentmiklós, Monor, Vecsés",
-      "Baranya: Mohács; Tolna: Paks",
+      "Pest: Szigetszentmiklós, Monor (held); Vecsés most publikált",
+      "Baranya: Mohács; Tolna: Paks (held)",
       "Budapest kerületek folytatás",
-      "Önálló szervizek (most 2 only-szerviz)",
       "BICIKLIKK Szolnok: saját üzletlista vs Neuzer ellentmondás feloldása"
     ],
-    "note": "Gyűjtés szüneteltetve kereső/UI javítás idejére. Adatok és batch fájlok megőrizve."
+    "note": "Pest/South follow-up importálva (14 új + R Bike költözés + No Limit Dunakeszi szerviz). Gyűjtés folytatható."
   }
 }

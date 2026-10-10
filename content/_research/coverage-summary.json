@@ -1,17 +1,9 @@
 {
   "accessedAt": "2026-10-10",
-  "totalLocations": 156,
-  "newSince103": 53,
-  "roles": {
-    "onlyEladas": 85,
-    "onlySzerviz": 2,
-    "both": 69
-  },
-  "brandLinks": 72,
-  "brands": 10,
-  "budapest": 20,
+  "totalLocations": 170,
+  "budapest": 22,
   "cities": {
-    "Budapest": 20,
+    "Budapest": 22,
     "Szeged": 7,
     "Miskolc": 6,
     "Debrecen": 5,
@@ -19,46 +11,48 @@
     "Nyíregyháza": 5,
     "Veszprém": 5,
     "Zalaegerszeg": 5,
+    "Hódmezővásárhely": 4,
     "Kecskemét": 4,
     "Sopron": 4,
     "Szolnok": 4,
     "Balatonfüred": 3,
     "Békéscsaba": 3,
+    "Dunakeszi": 3,
     "Eger": 3,
-    "Hódmezővásárhely": 3,
     "Kaposvár": 3,
     "Pápa": 3,
     "Pécs": 3,
     "Szekszárd": 3,
     "Szombathely": 3,
     "Székesfehérvár": 3,
+    "Veresegyház": 3,
     "Érd": 3,
-    "Dunakeszi": 2,
+    "Baja": 2,
+    "Biatorbágy": 2,
+    "Cegléd": 2,
     "Dunaújváros": 2,
     "Gyula": 2,
     "Gyöngyös": 2,
+    "Gödöllő": 2,
     "Hatvan": 2,
     "Jászberény": 2,
     "Kiskunfélegyháza": 2,
+    "Komárom": 2,
     "Nagykanizsa": 2,
     "Tatabánya": 2,
     "Velence": 2,
     "Ajka": 1,
-    "Baja": 1,
     "Balassagyarmat": 1,
-    "Biatorbágy": 1,
     "Budakeszi": 1,
     "Budaörs": 1,
     "Bátonyterenye": 1,
-    "Cegléd": 1,
     "Esztergom": 1,
     "Gyömrő": 1,
     "Göd": 1,
-    "Gödöllő": 1,
     "Kalocsa": 1,
     "Kazincbarcika": 1,
     "Keszthely": 1,
-    "Komárom": 1,
+    "Kiskunlacháza": 1,
     "Körmend": 1,
     "Makó": 1,
     "Mezőkövesd": 1,
@@ -68,19 +62,80 @@
     "Siófok": 1,
     "Szentendre": 1,
     "Szentes": 1,
+    "Tata": 1,
     "Tiszafüred": 1,
     "Tiszaújváros": 1,
     "Tát": 1,
     "Tótkomlós": 1,
     "Törökbálint": 1,
-    "Veresegyház": 1,
+    "Vecsés": 1,
     "Vác": 1,
     "Ózd": 1
   },
-  "lastBatches": [
-    "batch-gap-ne-2026-10-10",
-    "batch-gap-pest-south-2026-10-10",
-    "batch-ne-followup-2026-10-10"
-  ],
-  "note": "NE agent follow-up: +5 telephely; Biciklikk/Ebikeshop visszatartva. Országos teljesség nincs állítva."
+  "lastBatch": "batch-pest-south-followup-2026-10-10",
+  "lastBatchAdded": 14,
+  "lastBatchSkipped": [],
+  "heldBackCount": 10,
+  "heldBackSample": [
+    {
+      "name": "Ride On Bike Kerékpárbolt és Szervíz",
+      "city": "Gödöllő",
+      "reason": "Nincs saját domain; hivatalos online jelenlét főleg Facebook (robshopbicycle).",
+      "candidateUrl": "https://www.facebook.com/robshopbicycle/"
+    },
+    {
+      "name": "Memo-Bike Kerékpár Szaküzlet és Szerviz",
+      "city": "Monor",
+      "reason": "Nincs működő saját weboldal; csak aggregátorok és e-mail.",
+      "candidateUrl": "mailto:memobike2011@gmail.com"
+    },
+    {
+      "name": "Bike55 Kerékpár webshop és szerviz",
+      "city": "Szigetszentmiklós",
+      "reason": "bike55.hu nem feloldható; nincs más hivatalos domain ellenőrizve.",
+      "candidateUrl": "https://bike55.hu/"
+    },
+    {
+      "name": "The Cruiser Shop",
+      "city": "Baja",
+      "reason": "Saját oldal (kerekparszakuzletbaja.hu) nem ad utca/házszámot, csak „6500 Baja”.",
+      "candidateUrl": "https://kerekparszakuzletbaja.hu/kapcsolat"
+    },
+    {
+      "name": "Star Bike Kerékpárüzlet és Szervíz",
+      "city": "Ajka",
+      "reason": "starbike.hu 2026-10-10-en időtúllépés / nem elérhető a hivatalos ellenőrzéshez.",
+      "candidateUrl": "https://starbike.hu/"
+    },
+    {
+      "name": "Eurocikli Kerékpárszaküzlet",
+      "city": "Paks",
+      "reason": "Korábban hivatkozott eurocikli.business.site 404; nincs friss hivatalos oldal.",
+      "candidateUrl": "https://eurocikli.business.site/"
+    },
+    {
+      "name": "Stefi '97 Motor és Kerékpárbolt Bt.",
+      "city": "Mohács",
+      "reason": "Nincs saját weboldal; csak katalógusok és Csepel-partner listák.",
+      "candidateUrl": null
+    },
+    {
+      "name": "Szigetkerékpár",
+      "city": "Szigetszentmiklós",
+      "reason": "Nincs működő hivatalos weboldal (404 / SSL hiba); csak térképes listák.",
+      "candidateUrl": "https://szigetkerekpar.hu/"
+    },
+    {
+      "name": "Zsiráfok.hu Kft. Kerékpár és Fitnessgép Centrum",
+      "city": "Dunaharaszti",
+      "reason": "Hivatalos oldal főleg fitnessgép/szobakerékpár; kültéri kerékpárbolt+szerviz nem bizonyítható egyértelműen.",
+      "candidateUrl": "https://zsirafok.hu/kapcsolat.htm"
+    },
+    {
+      "name": "R+R Worldbike / RBIKE (új tételként)",
+      "city": "Komárom",
+      "reason": "Nem új helyszín: meglévő loc-r-bike-komarom címfrissítés Várfal utca 1.-re (hivatalos rbike.hu), nem duplikátum.",
+      "candidateUrl": "https://www.rbike.hu/uzletunk"
+    }
+  ]
 }

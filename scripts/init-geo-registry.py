@@ -60,6 +60,8 @@ CITY_UNIT = {
     "Cegléd": "Pest",
     "Szigetszentmiklós": "Pest",
     "Dunakeszi": "Pest",
+    "Vecsés": "Pest",
+    "Kiskunlacháza": "Pest",
     "Esztergom": "Komárom-Esztergom",
     "Tatabánya": "Komárom-Esztergom",
     "Tata": "Komárom-Esztergom",

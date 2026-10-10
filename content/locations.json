@@ -4931,14 +4931,14 @@
     {
       "id": "loc-r-bike-komarom",
       "organizationId": "org-r-bike-komarom",
-      "name": "R Bike",
+      "name": "R Bike / RBIKE",
       "address": {
-        "raw": "2900 Komárom, Klapka György u. 35.",
+        "raw": "2900 Komárom, Várfal utca 1.",
         "city": "Komárom",
         "postalCode": null,
         "street": null
       },
-      "website": "https://bikefun.hu/shops/r-bike",
+      "website": "https://www.rbike.hu/uzletunk",
       "phone": [
         "+36 70 904 4204"
       ],
@@ -4948,9 +4948,10 @@
       "coordinates": null,
       "status": "ellenőrzött",
       "evidenceIds": [
-        "ev-r-bike-komarom-20261010"
+        "ev-r-bike-komarom-20261010",
+        "ev-r-bike-komarom-varfal-20261010"
       ],
-      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás (Merida/BikeFun márkakereskedés). Szerviz nincs igazolva erről az oldalról.",
+      "notes": "Hivatalos rbike.hu üzletoldal: Várfal utca 1. (korábbi BikeFun-cím: Klapka György u. 35. — költözésként kezelve). Eladás + teljes szerviz a saját oldalon.",
       "brandLinks": [
         {
           "brandId": "brand-merida",
@@ -5009,7 +5010,7 @@
         "postalCode": null,
         "street": null
       },
-      "website": "https://bikefun.hu/shops/no-limit-kerekpar",
+      "website": "https://www.nolimitbike.hu/elerhetosegek-230",
       "phone": [
         "+36 20 358 6198"
       ],
@@ -5019,9 +5020,10 @@
       "coordinates": null,
       "status": "ellenőrzött",
       "evidenceIds": [
-        "ev-no-limit-dunakeszi-20261010"
+        "ev-no-limit-dunakeszi-20261010",
+        "ev-no-limit-dunakeszi-szerviz-20261010"
       ],
-      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás. Szerviz erről az oldalról nem igazolt.",
+      "notes": "Saját elerhetosegek oldal: Dunakeszi Fő út 86. üzlet + szerviz. Veresegyház Budapesti út 3/E külön bejegyzés.",
       "brandLinks": [],
       "researchNotes": {
         "externalBrandClaims": [],
@@ -5938,6 +5940,464 @@
         "externalBrandClaims": [],
         "excludedClaims": []
       }
+    },
+    {
+      "id": "loc-axus-bringabolt-godollo",
+      "organizationId": "org-axus-bringabolt-godollo",
+      "name": "Axus Bringabolt (Gödöllő)",
+      "address": {
+        "raw": "2100 Gödöllő, Petőfi Sándor út 4.",
+        "city": "Gödöllő",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://axusbike.hu/boltjaink/",
+      "phone": [
+        "+36 31 784 7474",
+        "+36 28 783 881"
+      ],
+      "email": [
+        "axusbringa@gmail.com"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-axus-bringabolt-godollo-20261010"
+      ],
+      "notes": "Hivatalos boltlista: Gödöllő Petőfi Sándor út 4. Szerviz nem igazolt ezen az oldalon. Ákosbike (Szilhát u.) külön bejegyzés.",
+      "brandLinks": [],
+      "researchNotes": {
+        "externalBrandClaims": [],
+        "excludedClaims": []
+      },
+      "openingHours": "H–P 9:30–17:30"
+    },
+    {
+      "id": "loc-axus-bringabolt-veresegyhaz",
+      "organizationId": "org-axus-bringabolt-veresegyhaz",
+      "name": "Axus Bringabolt (Veresegyház)",
+      "address": {
+        "raw": "2112 Veresegyház, Fő út 83.",
+        "city": "Veresegyház",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://axusbike.hu/boltjaink/",
+      "phone": [
+        "+36 70 616 5075",
+        "+36 28 636 655"
+      ],
+      "email": [
+        "bikeaxus@gmail.com"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-axus-bringabolt-veresegyhaz-20261010"
+      ],
+      "notes": "Hivatalos boltlista: Veresegyház Fő út 83 (irányítószám a lapon helyenként 4112 — javítva 2112-re). Dynamic Sport külön cím.",
+      "brandLinks": [],
+      "researchNotes": {
+        "externalBrandClaims": [],
+        "excludedClaims": []
+      },
+      "openingHours": "H–P 9:30–17:30, Szo 9:30–12:30"
+    },
+    {
+      "id": "loc-start-kerekpar-vecses",
+      "organizationId": "org-start-kerekpar-vecses",
+      "name": "Start Kerékpárüzlet és Szerviz (Vecsés)",
+      "address": {
+        "raw": "2220 Vecsés, Iskola utca 11.",
+        "city": "Vecsés",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://www.startkerekpar.hu/vecses",
+      "phone": [
+        "+36 70 591 2116"
+      ],
+      "email": [
+        "info@startkerekpar.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-start-kerekpar-vecses-20261010"
+      ],
+      "notes": null,
+      "brandLinks": [],
+      "researchNotes": {
+        "externalBrandClaims": [],
+        "excludedClaims": []
+      },
+      "openingHours": "H–P 10:00–18:00, Szo 09:00–13:00"
+    },
+    {
+      "id": "loc-ocsai-kerekpar-cegled",
+      "organizationId": "org-ocsai-kerekpar-cegled",
+      "name": "Ócsai Kerékpár és Motorszervíz",
+      "address": {
+        "raw": "2700 Cegléd, Hajó utca 20.",
+        "city": "Cegléd",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://ocsaikerekpar.hu/",
+      "phone": [
+        "+36 53 321 192"
+      ],
+      "email": [
+        "info@ocsaikerekpar.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-ocsai-kerekpar-cegled-20261010"
+      ],
+      "notes": "Független műhely; értékesítés nem igazolt. Györe (Kőrösi út) külön bejegyzés.",
+      "brandLinks": [],
+      "researchNotes": {
+        "externalBrandClaims": [],
+        "excludedClaims": []
+      },
+      "openingHours": "H–P 08:00–17:00"
+    },
+    {
+      "id": "loc-keszibike-dunakeszi",
+      "organizationId": "org-keszibike-dunakeszi",
+      "name": "Keszibike",
+      "address": {
+        "raw": "2120 Dunakeszi, Katona József utca 23.",
+        "city": "Dunakeszi",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://keszibike.hu/",
+      "phone": [
+        "+36 30 459 5670"
+      ],
+      "email": [
+        "dunakeszisi@gmail.com"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-keszibike-dunakeszi-20261010"
+      ],
+      "notes": "Szerviz-központú profil; No Limit és WinklerSport külön címek ugyanazon városban.",
+      "brandLinks": [],
+      "researchNotes": {
+        "externalBrandClaims": [],
+        "excludedClaims": []
+      },
+      "openingHours": "H,Cs: 08:00–12:00, 13:00–18:00; P: 13:00–18:00; Szo: 09:00–14:00; K,V zárva"
+    },
+    {
+      "id": "loc-nolimit-bike-veresegyhaz",
+      "organizationId": "org-nolimit-bike-veresegyhaz",
+      "name": "No Limit Kerékpár, Roller és Sí (Veresegyház)",
+      "address": {
+        "raw": "2112 Veresegyház, Budapesti út 3/E.",
+        "city": "Veresegyház",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://www.nolimitbike.hu/elerhetosegek-230",
+      "phone": [
+        "+36 20 487 6312"
+      ],
+      "email": [
+        "nolimitkerekpar@gmail.com"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-nolimit-bike-veresegyhaz-20261010"
+      ],
+      "notes": "Dunakeszi Fő út 86 külön bejegyzés. Kölcsönző említve — deferred (modell nem támogatja).",
+      "brandLinks": [],
+      "researchNotes": {
+        "externalBrandClaims": [],
+        "excludedClaims": [],
+        "deferredRoles": [
+          {
+            "role": "kolcsonzes",
+            "note": "A jelenlegi publikus modellben nem szerepel; belső jelöltként őrizve.",
+            "sourceUrl": "https://www.nolimitbike.hu/elerhetosegek-230"
+          }
+        ]
+      },
+      "openingHours": "H,Sze,Cs,P 9:00–18:00; K zárva; Szo 9:00–13:00"
+    },
+    {
+      "id": "loc-rausch-kerekpar-baja",
+      "organizationId": "org-rausch-kerekpar-baja",
+      "name": "Rausch Kerékpár Kereskedés és Szerviz",
+      "address": {
+        "raw": "6500 Baja, Czirfusz F. u. 4.",
+        "city": "Baja",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://www.rauschkerekpar.hu/",
+      "phone": [
+        "+36 79 325 336",
+        "+36 30 205 3871"
+      ],
+      "email": [
+        "info@rauschkerekpar.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-rausch-kerekpar-baja-20261010"
+      ],
+      "notes": "Kerékpár Szaküzlet (Dózsa György u.) külön cím a katalógusban.",
+      "brandLinks": [],
+      "researchNotes": {
+        "externalBrandClaims": [],
+        "excludedClaims": []
+      }
+    },
+    {
+      "id": "loc-hodkerek-hodmezovasarhely",
+      "organizationId": "org-hodkerek-hodmezovasarhely",
+      "name": "Hódkerék Kft.",
+      "address": {
+        "raw": "6800 Hódmezővásárhely, Bajcsy-Zsilinszky utca 37.",
+        "city": "Hódmezővásárhely",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://hodkerek.uzleti.hu/",
+      "phone": [
+        "+36 62 222 284"
+      ],
+      "email": [],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-hodkerek-hodmezovasarhely-20261010"
+      ],
+      "notes": "Nyolcas, Drótszamár, Veloport külön címek ugyanazon városban. Forrás: üzleti profil oldal konkrét címmel és telefonszámmal.",
+      "brandLinks": [],
+      "researchNotes": {
+        "externalBrandClaims": [],
+        "excludedClaims": []
+      },
+      "openingHours": "H–P 8:30–17:00, Szo 8:30–12:00"
+    },
+    {
+      "id": "loc-toparti-kerekpar-tata",
+      "organizationId": "org-toparti-kerekpar-tata",
+      "name": "Tóparti Kerékpárbolt és Szerviz",
+      "address": {
+        "raw": "2890 Tata, Május 1. út 5.",
+        "city": "Tata",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "http://bringaszerviz.hu/",
+      "phone": [
+        "+36 30 433 6638",
+        "+36 30 474 6388"
+      ],
+      "email": [
+        "bringaszerviz@hotmail.com"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-toparti-kerekpar-tata-20261010"
+      ],
+      "notes": "Kölcsönző a névben/oldalon említve — deferred (modell nem támogatja).",
+      "brandLinks": [],
+      "researchNotes": {
+        "externalBrandClaims": [],
+        "excludedClaims": [],
+        "deferredRoles": [
+          {
+            "role": "kolcsonzes",
+            "note": "A jelenlegi publikus modellben nem szerepel; belső jelöltként őrizve.",
+            "sourceUrl": "http://bringaszerviz.hu/"
+          }
+        ]
+      },
+      "openingHours": "H–P 10:00–17:00, Szo 10:00–13:00"
+    },
+    {
+      "id": "loc-barkobike-komarom-koppanymonostor",
+      "organizationId": "org-barkobike-komarom-koppanymonostor",
+      "name": "BarkoBike Kerékpár Szaküzlet és Szerviz",
+      "address": {
+        "raw": "2900 Komárom-Koppánymonostor, Áprily Lajos utca 26.",
+        "city": "Komárom",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://barkobike.com/",
+      "phone": [
+        "+36 20 474 2083"
+      ],
+      "email": [
+        "info@barkobike.com"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-barkobike-komarom-koppanymonostor-20261010"
+      ],
+      "notes": "Külön telephely az R Bike / RBIKE Várfal u. 1. üzlettől.",
+      "brandLinks": [],
+      "researchNotes": {
+        "externalBrandClaims": [],
+        "excludedClaims": []
+      },
+      "openingHours": "H–P 14:00–19:00, Szo 09:00–12:00"
+    },
+    {
+      "id": "loc-kerekparcity-budapest-erdosor",
+      "organizationId": "org-kerekparcity-budapest-erdosor",
+      "name": "KerékpárCity szerviz (Erdősor)",
+      "address": {
+        "raw": "1213 Budapest, Erdősor utca 128.",
+        "city": "Budapest",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://kerekparcity.hu/shop_contact.php",
+      "phone": [
+        "+36 70 614 1270"
+      ],
+      "email": [
+        "info@kerekparcity.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-kerekparcity-budapest-erdosor-20261010"
+      ],
+      "notes": "Hivatalos kapcsolat: új kerékpárok nincsenek az üzletben — eladás nem. Átvevőpont deferred a publikus modellben.",
+      "brandLinks": [],
+      "researchNotes": {
+        "externalBrandClaims": [],
+        "excludedClaims": [],
+        "deferredRoles": [
+          {
+            "role": "atveteli-pont",
+            "note": "A jelenlegi publikus modellben nem szerepel; belső jelöltként őrizve.",
+            "sourceUrl": "https://kerekparcity.hu/shop_contact.php"
+          }
+        ]
+      },
+      "openingHours": "K–P 10:00–18:00, Szo 10:00–14:00 (átvevőpont); szerviz fő profil"
+    },
+    {
+      "id": "loc-kerekparcity-kiskunlachaza",
+      "organizationId": "org-kerekparcity-kiskunlachaza",
+      "name": "KerékpárCity szerviz (Kiskunlacháza)",
+      "address": {
+        "raw": "2340 Kiskunlacháza, Bugyi úti dűlő 42.",
+        "city": "Kiskunlacháza",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://kerekparcity.hu/shop_contact.php",
+      "phone": [
+        "+36 50 121 8125"
+      ],
+      "email": [
+        "info@kerekparcity.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-kerekparcity-kiskunlachaza-20261010"
+      ],
+      "notes": "Hivatalos szöveg: csak átvevőpontként és szervizként üzemel, nem üzletként — eladás nem. Átvevőpont deferred.",
+      "brandLinks": [],
+      "researchNotes": {
+        "externalBrandClaims": [],
+        "excludedClaims": [],
+        "deferredRoles": [
+          {
+            "role": "atveteli-pont",
+            "note": "A jelenlegi publikus modellben nem szerepel; belső jelöltként őrizve.",
+            "sourceUrl": "https://kerekparcity.hu/shop_contact.php"
+          }
+        ]
+      },
+      "openingHours": "H–P 9:00–16:00"
+    },
+    {
+      "id": "loc-ebikepro-budapest-rakoczi",
+      "organizationId": "org-ebikepro-budapest-rakoczi",
+      "name": "Ebikepro (Urbanbiker telephely)",
+      "address": {
+        "raw": "1214 Budapest, Rákóczi Ferenc út 277.",
+        "city": "Budapest",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://ebikepro.hu/kapcsolat",
+      "phone": [
+        "+36 20 972 3421"
+      ],
+      "email": [
+        "info@ebikepro.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-ebikepro-budapest-rakoczi-20261010"
+      ],
+      "notes": "Szigetszentmiklósi átvétel említve — külön cím nélkül nem importálva.",
+      "brandLinks": [],
+      "researchNotes": {
+        "externalBrandClaims": [
+          {
+            "brandName": "Urbanbiker",
+            "relation": "dealer",
+            "sourceUrl": "https://ebikepro.hu/",
+            "quote": "Hivatalos Urbanbiker szakértői háttér",
+            "evidenceId": "ev-ebikepro-budapest-rakoczi-20261010",
+            "note": "Katalóguson kívüli márka — nincs stabil brandId ebben a próbakörben."
+          }
+        ],
+        "excludedClaims": []
+      },
+      "openingHours": "H–P 9:00–16:00"
+    },
+    {
+      "id": "loc-takbike-biatorbagy",
+      "organizationId": "org-takbike-biatorbagy",
+      "name": "TAK Bike",
+      "address": {
+        "raw": "2051 Biatorbágy, Szabadság út 72.",
+        "city": "Biatorbágy",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://takbike.hu/hu/",
+      "phone": [
+        "+36 23 362 358"
+      ],
+      "email": [
+        "info@takbike.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-takbike-biatorbagy-20261010"
+      ],
+      "notes": "BeloBike (Csodaszarvas u.) külön bejegyzés ugyanazon városban.",
+      "brandLinks": [],
+      "researchNotes": {
+        "externalBrandClaims": [],
+        "excludedClaims": []
+      },
+      "openingHours": "K–P 9:00–18:00, Szo 9:00–13:00"
     }
   ]
 }

@@ -15,7 +15,7 @@
     {
       "name": "count_locations_at_least_20",
       "ok": true,
-      "detail": 156
+      "detail": 170
     },
     {
       "name": "count_variants_12",
@@ -72,6 +72,7 @@
         "Kecskemét",
         "Keszthely",
         "Kiskunfélegyháza",
+        "Kiskunlacháza",
         "Komárom",
         "Körmend",
         "Makó",
@@ -93,12 +94,14 @@
         "Szolnok",
         "Szombathely",
         "Székesfehérvár",
+        "Tata",
         "Tatabánya",
         "Tiszafüred",
         "Tiszaújváros",
         "Tát",
         "Tótkomlós",
         "Törökbálint",
+        "Vecsés",
         "Velence",
         "Veresegyház",
         "Veszprém",
@@ -142,6 +145,7 @@
         "Kecskemét",
         "Keszthely",
         "Kiskunfélegyháza",
+        "Kiskunlacháza",
         "Komárom",
         "Körmend",
         "Makó",
@@ -163,12 +167,14 @@
         "Szolnok",
         "Szombathely",
         "Székesfehérvár",
+        "Tata",
         "Tatabánya",
         "Tiszafüred",
         "Tiszaújváros",
         "Tát",
         "Tótkomlós",
         "Törökbálint",
+        "Vecsés",
         "Velence",
         "Veresegyház",
         "Veszprém",
@@ -395,7 +401,7 @@
       "előkészített": 1
     },
     "locations": {
-      "ellenőrzött": 156
+      "ellenőrzött": 170
     },
     "variants": {
       "ellenőrzött": 10,
@@ -408,20 +414,20 @@
       "ellenőrzött": 3
     },
     "evidence": {
-      "ellenőrzött": 233,
+      "ellenőrzött": 249,
       "előkészített": 3,
       "hiányos": 1
     },
-    "services": 237
+    "services": 261
   },
   "counts": {
     "brands": 10,
-    "organizations": 154,
-    "locations": 156,
-    "services": 237,
+    "organizations": 168,
+    "locations": 170,
+    "services": 261,
     "products": 12,
     "variants": 12,
-    "evidence": 237,
+    "evidence": 253,
     "explainers": 6,
     "comparisons": 3,
     "articleMarkdown": 9,
@@ -458,6 +464,7 @@
       "Kecskemét",
       "Keszthely",
       "Kiskunfélegyháza",
+      "Kiskunlacháza",
       "Komárom",
       "Körmend",
       "Makó",
@@ -479,12 +486,14 @@
       "Szolnok",
       "Szombathely",
       "Székesfehérvár",
+      "Tata",
       "Tatabánya",
       "Tiszafüred",
       "Tiszaújváros",
       "Tát",
       "Tótkomlós",
       "Törökbálint",
+      "Vecsés",
       "Velence",
       "Veresegyház",
       "Veszprém",

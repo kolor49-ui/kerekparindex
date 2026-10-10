@@ -164,6 +164,66 @@
       "city": "Ózd",
       "reason": "Nincs saját weboldal vagy márkadealer-bejegyzés.",
       "candidateUrl": null
+    },
+    {
+      "name": "Ride On Bike Kerékpárbolt és Szervíz",
+      "city": "Gödöllő",
+      "reason": "Nincs saját domain; hivatalos online jelenlét főleg Facebook (robshopbicycle).",
+      "candidateUrl": "https://www.facebook.com/robshopbicycle/"
+    },
+    {
+      "name": "Memo-Bike Kerékpár Szaküzlet és Szerviz",
+      "city": "Monor",
+      "reason": "Nincs működő saját weboldal; csak aggregátorok és e-mail.",
+      "candidateUrl": "mailto:memobike2011@gmail.com"
+    },
+    {
+      "name": "Bike55 Kerékpár webshop és szerviz",
+      "city": "Szigetszentmiklós",
+      "reason": "bike55.hu nem feloldható; nincs más hivatalos domain ellenőrizve.",
+      "candidateUrl": "https://bike55.hu/"
+    },
+    {
+      "name": "The Cruiser Shop",
+      "city": "Baja",
+      "reason": "Saját oldal (kerekparszakuzletbaja.hu) nem ad utca/házszámot, csak „6500 Baja”.",
+      "candidateUrl": "https://kerekparszakuzletbaja.hu/kapcsolat"
+    },
+    {
+      "name": "Star Bike Kerékpárüzlet és Szervíz",
+      "city": "Ajka",
+      "reason": "starbike.hu 2026-10-10-en időtúllépés / nem elérhető a hivatalos ellenőrzéshez.",
+      "candidateUrl": "https://starbike.hu/"
+    },
+    {
+      "name": "Eurocikli Kerékpárszaküzlet",
+      "city": "Paks",
+      "reason": "Korábban hivatkozott eurocikli.business.site 404; nincs friss hivatalos oldal.",
+      "candidateUrl": "https://eurocikli.business.site/"
+    },
+    {
+      "name": "Stefi '97 Motor és Kerékpárbolt Bt.",
+      "city": "Mohács",
+      "reason": "Nincs saját weboldal; csak katalógusok és Csepel-partner listák.",
+      "candidateUrl": null
+    },
+    {
+      "name": "Szigetkerékpár",
+      "city": "Szigetszentmiklós",
+      "reason": "Nincs működő hivatalos weboldal (404 / SSL hiba); csak térképes listák.",
+      "candidateUrl": "https://szigetkerekpar.hu/"
+    },
+    {
+      "name": "Zsiráfok.hu Kft. Kerékpár és Fitnessgép Centrum",
+      "city": "Dunaharaszti",
+      "reason": "Hivatalos oldal főleg fitnessgép/szobakerékpár; kültéri kerékpárbolt+szerviz nem bizonyítható egyértelműen.",
+      "candidateUrl": "https://zsirafok.hu/kapcsolat.htm"
+    },
+    {
+      "name": "R+R Worldbike / RBIKE (új tételként)",
+      "city": "Komárom",
+      "reason": "Nem új helyszín: meglévő loc-r-bike-komarom címfrissítés Várfal utca 1.-re (hivatalos rbike.hu), nem duplikátum.",
+      "candidateUrl": "https://www.rbike.hu/uzletunk"
     }
   ],
   "mergedDuplicates": [

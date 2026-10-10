@@ -1433,6 +1433,150 @@
       "locationId": "loc-speedy-bekescsaba",
       "role": "szerviz",
       "sourceUrl": "http://www.speedybicikli.hu/index.php/szerviz"
+    },
+    {
+      "id": "svc-axus-bringabolt-godollo-eladas",
+      "locationId": "loc-axus-bringabolt-godollo",
+      "role": "eladas",
+      "sourceUrl": "https://axusbike.hu/boltjaink/"
+    },
+    {
+      "id": "svc-axus-bringabolt-veresegyhaz-eladas",
+      "locationId": "loc-axus-bringabolt-veresegyhaz",
+      "role": "eladas",
+      "sourceUrl": "https://axusbike.hu/boltjaink/"
+    },
+    {
+      "id": "svc-start-kerekpar-vecses-eladas",
+      "locationId": "loc-start-kerekpar-vecses",
+      "role": "eladas",
+      "sourceUrl": "https://www.startkerekpar.hu/vecses"
+    },
+    {
+      "id": "svc-start-kerekpar-vecses-szerviz",
+      "locationId": "loc-start-kerekpar-vecses",
+      "role": "szerviz",
+      "sourceUrl": "https://www.startkerekpar.hu/vecses"
+    },
+    {
+      "id": "svc-ocsai-kerekpar-cegled-szerviz",
+      "locationId": "loc-ocsai-kerekpar-cegled",
+      "role": "szerviz",
+      "sourceUrl": "https://ocsaikerekpar.hu/"
+    },
+    {
+      "id": "svc-keszibike-dunakeszi-szerviz",
+      "locationId": "loc-keszibike-dunakeszi",
+      "role": "szerviz",
+      "sourceUrl": "https://keszibike.hu/index.php?route=information/contact"
+    },
+    {
+      "id": "svc-nolimit-bike-veresegyhaz-eladas",
+      "locationId": "loc-nolimit-bike-veresegyhaz",
+      "role": "eladas",
+      "sourceUrl": "https://www.nolimitbike.hu/elerhetosegek-230"
+    },
+    {
+      "id": "svc-nolimit-bike-veresegyhaz-szerviz",
+      "locationId": "loc-nolimit-bike-veresegyhaz",
+      "role": "szerviz",
+      "sourceUrl": "https://www.nolimitbike.hu/elerhetosegek-230"
+    },
+    {
+      "id": "svc-rausch-kerekpar-baja-eladas",
+      "locationId": "loc-rausch-kerekpar-baja",
+      "role": "eladas",
+      "sourceUrl": "https://www.rauschkerekpar.hu/index.php?route=information/contact"
+    },
+    {
+      "id": "svc-rausch-kerekpar-baja-szerviz",
+      "locationId": "loc-rausch-kerekpar-baja",
+      "role": "szerviz",
+      "sourceUrl": "https://www.rauschkerekpar.hu/index.php?route=information/contact"
+    },
+    {
+      "id": "svc-hodkerek-hodmezovasarhely-eladas",
+      "locationId": "loc-hodkerek-hodmezovasarhely",
+      "role": "eladas",
+      "sourceUrl": "https://hodkerek.uzleti.hu/"
+    },
+    {
+      "id": "svc-hodkerek-hodmezovasarhely-szerviz",
+      "locationId": "loc-hodkerek-hodmezovasarhely",
+      "role": "szerviz",
+      "sourceUrl": "https://hodkerek.uzleti.hu/"
+    },
+    {
+      "id": "svc-toparti-kerekpar-tata-eladas",
+      "locationId": "loc-toparti-kerekpar-tata",
+      "role": "eladas",
+      "sourceUrl": "http://bringaszerviz.hu/"
+    },
+    {
+      "id": "svc-toparti-kerekpar-tata-szerviz",
+      "locationId": "loc-toparti-kerekpar-tata",
+      "role": "szerviz",
+      "sourceUrl": "http://bringaszerviz.hu/"
+    },
+    {
+      "id": "svc-barkobike-komarom-koppanymonostor-eladas",
+      "locationId": "loc-barkobike-komarom-koppanymonostor",
+      "role": "eladas",
+      "sourceUrl": "https://barkobike.com/"
+    },
+    {
+      "id": "svc-barkobike-komarom-koppanymonostor-szerviz",
+      "locationId": "loc-barkobike-komarom-koppanymonostor",
+      "role": "szerviz",
+      "sourceUrl": "https://barkobike.com/szerviz"
+    },
+    {
+      "id": "svc-kerekparcity-budapest-erdosor-szerviz",
+      "locationId": "loc-kerekparcity-budapest-erdosor",
+      "role": "szerviz",
+      "sourceUrl": "https://kerekparcity.hu/shop_contact.php"
+    },
+    {
+      "id": "svc-kerekparcity-kiskunlachaza-szerviz",
+      "locationId": "loc-kerekparcity-kiskunlachaza",
+      "role": "szerviz",
+      "sourceUrl": "https://kerekparcity.hu/shop_contact.php"
+    },
+    {
+      "id": "svc-ebikepro-budapest-rakoczi-eladas",
+      "locationId": "loc-ebikepro-budapest-rakoczi",
+      "role": "eladas",
+      "sourceUrl": "https://ebikepro.hu/kapcsolat"
+    },
+    {
+      "id": "svc-ebikepro-budapest-rakoczi-szerviz",
+      "locationId": "loc-ebikepro-budapest-rakoczi",
+      "role": "szerviz",
+      "sourceUrl": "https://ebikepro.hu/"
+    },
+    {
+      "id": "svc-takbike-biatorbagy-eladas",
+      "locationId": "loc-takbike-biatorbagy",
+      "role": "eladas",
+      "sourceUrl": "https://takbike.hu/hu/"
+    },
+    {
+      "id": "svc-takbike-biatorbagy-szerviz",
+      "locationId": "loc-takbike-biatorbagy",
+      "role": "szerviz",
+      "sourceUrl": "https://takbike.hu/hu/muhely"
+    },
+    {
+      "id": "svc-r-bike-komarom-szerviz",
+      "locationId": "loc-r-bike-komarom",
+      "role": "szerviz",
+      "sourceUrl": "https://www.rbike.hu/uzletunk"
+    },
+    {
+      "id": "svc-no-limit-dunakeszi-szerviz",
+      "locationId": "loc-no-limit-dunakeszi",
+      "role": "szerviz",
+      "sourceUrl": "https://www.nolimitbike.hu/elerhetosegek-230"
     }
   ],
   "organizationLevelNotes": [

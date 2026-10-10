@@ -372,7 +372,7 @@ def fix_locations(raw_locs, evidence_items):
             ],
         }
         # Preserve audit notes (e.g. stripped szerviz) across brandLinks rebuilds
-        for key in ("unverifiedServices",):
+        for key in ("unverifiedServices", "deferredRoles"):
             if prev_rn.get(key):
                 loc["researchNotes"][key] = prev_rn[key]
         if not loc.get("notes"):
