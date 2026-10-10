@@ -6,10 +6,10 @@ Hasonló, mindennapi és túrázós használatra szánt trekking/SUV jellegű e-
 
 | Modell | Típus | Motor | Nm | Wh | Tömeg | Forrás |
 | --- | --- | --- | --- | --- | --- | --- |
-| Kathmandu Hybrid ONE 800 | trekking-e-bike | Bosch Drive Unit Performance Line CX max. 120Nm (BDU38) | 120 | 800 | 28.4 (mérési feltétel: Nincs ellenőrzött adat) | https://www.cube.eu/cube-kathmandu-hybrid-one-800-metallicgrey-n-grey/112111 |
-| Explore E+ 1 Stagger | trekking-e-bike | Giant SyncDrive Pro2, 85Nm PedalPlus 6-Sensor technology | 85 | 800 | Nincs ellenőrzött adat | https://www.giant-bicycles.com/int/explore-eplus-1-stagger |
-| eSPRESSO 575 EQ | trekking-e-bike | Shimano EP6 | 85 | 750 | 27.1 (approx. weight weighed at frame size M) | https://www.merida-bikes.com/en/bike/5675-7682/espresso-575-eq |
-| BERIG DEORE 10 W | suv-e-bike | BOSCH PERFORMANCE LINE CRUISE BES2 | Nincs ellenőrzött adat | 500 | Nincs ellenőrzött adat | https://gepida.hu/gepida-berig-deore-10-w-matt-grafit-11372 |
+| Kathmandu Hybrid ONE 800 | trekking e-bike | Bosch Drive Unit Performance Line CX max. 120Nm (BDU38) | 120 | 800 | 28.4 (mérési feltétel: Nincs ellenőrzött adat) | https://www.cube.eu/cube-kathmandu-hybrid-one-800-metallicgrey-n-grey/112111 |
+| Explore E+ 1 Stagger | trekking e-bike | Giant SyncDrive Pro2, 85Nm PedalPlus 6-Sensor technology | 85 | 800 | Nincs ellenőrzött adat | https://www.giant-bicycles.com/int/explore-eplus-1-stagger |
+| eSPRESSO 575 EQ | trekking e-bike | Shimano EP6 | 85 | 750 | 27.1 (kb. tömeg, M vázméreten mérve) | https://www.merida-bikes.com/en/bike/5675-7682/espresso-575-eq |
+| BERIG DEORE 10 W | SUV e-bike | BOSCH PERFORMANCE LINE CRUISE BES2 | Nincs ellenőrzött adat | 500 | Nincs ellenőrzött adat | https://gepida.hu/gepida-berig-deore-10-w-matt-grafit-11372 |
 
 Ahol „Nincs ellenőrzött adat” szerepel: a megnyitott oldalon nem volt egyértelmű numerikus adat, vagy hiányzik a mérési feltétel.
 

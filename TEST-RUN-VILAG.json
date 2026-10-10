@@ -1,0 +1,131 @@
+{
+  "pass": true,
+  "viewports": [
+    {
+      "viewport": "360",
+      "width": 360,
+      "issues": [],
+      "icons": [
+        {
+          "w": 25,
+          "h": 25
+        },
+        {
+          "w": 25,
+          "h": 25
+        },
+        {
+          "w": 25,
+          "h": 25
+        }
+      ],
+      "gatewayCount": 3,
+      "brandCount": 6,
+      "hasContent": true,
+      "shot": "/Users/macbookair/Desktop/kerekparindex/screenshots/orbit-vilag/vilag-360.png"
+    },
+    {
+      "viewport": "390",
+      "width": 390,
+      "issues": [],
+      "icons": [
+        {
+          "w": 25,
+          "h": 25
+        },
+        {
+          "w": 25,
+          "h": 25
+        },
+        {
+          "w": 25,
+          "h": 25
+        }
+      ],
+      "gatewayCount": 3,
+      "brandCount": 6,
+      "hasContent": true,
+      "shot": "/Users/macbookair/Desktop/kerekparindex/screenshots/orbit-vilag/vilag-390.png"
+    },
+    {
+      "viewport": "768",
+      "width": 768,
+      "issues": [],
+      "icons": [
+        {
+          "w": 23,
+          "h": 23
+        },
+        {
+          "w": 23,
+          "h": 23
+        },
+        {
+          "w": 23,
+          "h": 23
+        }
+      ],
+      "gatewayCount": 3,
+      "brandCount": 6,
+      "hasContent": true,
+      "shot": "/Users/macbookair/Desktop/kerekparindex/screenshots/orbit-vilag/vilag-768.png"
+    },
+    {
+      "viewport": "1024",
+      "width": 1024,
+      "issues": [],
+      "icons": [
+        {
+          "w": 23,
+          "h": 23
+        },
+        {
+          "w": 23,
+          "h": 23
+        },
+        {
+          "w": 23,
+          "h": 23
+        }
+      ],
+      "gatewayCount": 3,
+      "brandCount": 6,
+      "hasContent": true,
+      "shot": "/Users/macbookair/Desktop/kerekparindex/screenshots/orbit-vilag/vilag-1024.png"
+    },
+    {
+      "viewport": "1440",
+      "width": 1440,
+      "issues": [],
+      "icons": [
+        {
+          "w": 23,
+          "h": 23
+        },
+        {
+          "w": 23,
+          "h": 23
+        },
+        {
+          "w": 23,
+          "h": 23
+        }
+      ],
+      "gatewayCount": 3,
+      "brandCount": 6,
+      "hasContent": true,
+      "shot": "/Users/macbookair/Desktop/kerekparindex/screenshots/orbit-vilag/vilag-1440.png"
+    }
+  ],
+  "shots": [
+    "/Users/macbookair/Desktop/kerekparindex/screenshots/orbit-vilag/vilag-360.png",
+    "/Users/macbookair/Desktop/kerekparindex/screenshots/orbit-vilag/vilag-390.png",
+    "/Users/macbookair/Desktop/kerekparindex/screenshots/orbit-vilag/vilag-768.png",
+    "/Users/macbookair/Desktop/kerekparindex/screenshots/orbit-vilag/vilag-1024.png",
+    "/Users/macbookair/Desktop/kerekparindex/screenshots/orbit-vilag/vilag-1440.png",
+    "/Users/macbookair/Desktop/kerekparindex/screenshots/orbit-vilag/vilag-mobile-full.png",
+    "/Users/macbookair/Desktop/kerekparindex/screenshots/orbit-vilag/vilag-desktop-full.png",
+    "/Users/macbookair/Desktop/kerekparindex/screenshots/orbit-vilag/vilag-desktop-places-dialog.png"
+  ],
+  "checks": []
+}

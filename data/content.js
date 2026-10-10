@@ -1427,7 +1427,7 @@ window.KEREKPARINDEX_CONTENT = {
       "modelYear": 2026,
       "modelYearMissingReason": null,
       "modelYearSource": "CUBE Declaration of Conformity / operating instructions labeled MY2026 on product page downloads",
-      "bikeType": "trekking-e-bike",
+      "bikeType": "trekking e-bike",
       "officialUrl": "https://www.cube.eu/cube-kathmandu-hybrid-one-800-metallicgrey-n-grey/112111",
       "pageNote": null,
       "status": "ellenőrzött",
@@ -1441,7 +1441,7 @@ window.KEREKPARINDEX_CONTENT = {
       "modelYear": 2026,
       "modelYearMissingReason": null,
       "modelYearSource": "Product page title: Explore E+ 1 Stagger (2026)",
-      "bikeType": "trekking-e-bike",
+      "bikeType": "trekking e-bike",
       "officialUrl": "https://www.giant-bicycles.com/int/explore-eplus-1-stagger",
       "pageNote": null,
       "status": "ellenőrzött",
@@ -1455,7 +1455,7 @@ window.KEREKPARINDEX_CONTENT = {
       "modelYear": null,
       "modelYearMissingReason": "Archived MERIDA product page does not state a numeric model year",
       "modelYearSource": null,
-      "bikeType": "trekking-e-bike",
+      "bikeType": "trekking e-bike",
       "officialUrl": "https://www.merida-bikes.com/en/bike/5675-7682/espresso-575-eq",
       "pageNote": "Page marked as archived model",
       "status": "előkészített",
@@ -1471,7 +1471,7 @@ window.KEREKPARINDEX_CONTENT = {
       "modelYear": null,
       "modelYearMissingReason": "gepida.hu product page does not state model year",
       "modelYearSource": null,
-      "bikeType": "suv-e-bike",
+      "bikeType": "SUV e-bike",
       "officialUrl": "https://gepida.hu/gepida-berig-deore-10-w-matt-grafit-11372",
       "pageNote": null,
       "status": "ellenőrzött",
@@ -1485,7 +1485,7 @@ window.KEREKPARINDEX_CONTENT = {
       "modelYear": 2026,
       "modelYearMissingReason": null,
       "modelYearSource": "CUBE operating instructions / Declaration of Conformity labeled MY2026 on product page downloads",
-      "bikeType": "e-mtb-hardtail",
+      "bikeType": "e-MTB merevvázas",
       "officialUrl": "https://www.cube.eu/sk-de/cube-reaction-hybrid-one-800-royalgreen-n-prism/108120",
       "pageNote": null,
       "status": "ellenőrzött",
@@ -1499,7 +1499,7 @@ window.KEREKPARINDEX_CONTENT = {
       "modelYear": null,
       "modelYearMissingReason": "Archived MERIDA product page does not state a numeric model year",
       "modelYearSource": null,
-      "bikeType": "e-mtb-hardtail",
+      "bikeType": "e-MTB merevvázas",
       "officialUrl": "https://www.merida-bikes.com/en/bike/5704-7528/ebignine-675",
       "pageNote": "Page marked as archived model",
       "status": "előkészített",
@@ -1515,7 +1515,7 @@ window.KEREKPARINDEX_CONTENT = {
       "modelYear": null,
       "modelYearMissingReason": "specialized.com product page does not state a discrete model year in title/specs (mentions 2026 Design & Innovation Award only)",
       "modelYearSource": null,
-      "bikeType": "e-mtb-full-suspension",
+      "bikeType": "e-MTB összteleszkópos",
       "officialUrl": "https://www.specialized.com/us/en/s-works-turbo-levo-4/p/4291509",
       "pageNote": null,
       "status": "ellenőrzött",
@@ -1529,7 +1529,7 @@ window.KEREKPARINDEX_CONTENT = {
       "modelYear": null,
       "modelYearMissingReason": "gepida.hu product page does not state model year",
       "modelYearSource": null,
-      "bikeType": "e-mtb-hardtail",
+      "bikeType": "e-MTB merevvázas",
       "officialUrl": "https://gepida.hu/gepida-sirmium-pro-deore-10-feher-11105",
       "pageNote": null,
       "status": "ellenőrzött",
@@ -1543,7 +1543,7 @@ window.KEREKPARINDEX_CONTENT = {
       "modelYear": 2025,
       "modelYearMissingReason": null,
       "modelYearSource": "Product page heading: 2025 Turbo Como 4.0",
-      "bikeType": "city-urban-e-bike",
+      "bikeType": "városi e-bike",
       "officialUrl": "https://www.specialized.com/us/en/turbo-como-40/p/4277417",
       "pageNote": null,
       "status": "ellenőrzött",
@@ -1557,7 +1557,7 @@ window.KEREKPARINDEX_CONTENT = {
       "modelYear": null,
       "modelYearMissingReason": "trekbikes.com product page does not state model year in fetched specs block",
       "modelYearSource": null,
-      "bikeType": "city-urban-e-bike",
+      "bikeType": "városi e-bike",
       "officialUrl": "https://www.trekbikes.com/gb/en_GB/bikes/hybrid-bikes/electric-hybrid-bikes/district/district-9/p/33186/",
       "pageNote": null,
       "status": "ellenőrzött",
@@ -1571,7 +1571,7 @@ window.KEREKPARINDEX_CONTENT = {
       "modelYear": 2025,
       "modelYearMissingReason": null,
       "modelYearSource": "CUBE operating instructions / CE docs labeled MY2025 on product page downloads",
-      "bikeType": "city-urban-e-bike",
+      "bikeType": "városi e-bike",
       "officialUrl": "https://www.cube.eu/bg-en/cube-supreme-hybrid-deluxe-one-625-slateblack-n-black/813400",
       "pageNote": null,
       "status": "ellenőrzött",
@@ -1585,7 +1585,7 @@ window.KEREKPARINDEX_CONTENT = {
       "modelYear": null,
       "modelYearMissingReason": "gepida.hu product page does not state model year",
       "modelYearSource": null,
-      "bikeType": "city-urban-e-bike",
+      "bikeType": "városi e-bike",
       "officialUrl": "https://gepida.hu/bonum-edge-nexus-8c-coaster-wh-28-13619",
       "pageNote": null,
       "status": "ellenőrzött",
@@ -1602,7 +1602,7 @@ window.KEREKPARINDEX_CONTENT = {
       "frameVariant": "Trapeze",
       "manufacturerSku": null,
       "skuMissingReason": "ArtNo/SKU not shown on fetched CUBE info portal page",
-      "bikeType": "trekking-e-bike",
+      "bikeType": "trekking e-bike",
       "motorExactType": "Bosch Drive Unit Performance Line CX max. 120Nm (BDU38)",
       "motorPosition": null,
       "motorPositionMissingReason": "Product page lists drive unit type but does not explicitly state motor position",
@@ -1643,7 +1643,7 @@ window.KEREKPARINDEX_CONTENT = {
       "frameVariant": "Stagger",
       "manufacturerSku": null,
       "skuMissingReason": "SKU/part number not listed in fetched specs",
-      "bikeType": "trekking-e-bike",
+      "bikeType": "trekking e-bike",
       "motorExactType": "Giant SyncDrive Pro2, 85Nm PedalPlus 6-Sensor technology",
       "motorPosition": null,
       "motorPositionMissingReason": "Specs list motor type/torque but do not explicitly state motor position",
@@ -1692,7 +1692,7 @@ window.KEREKPARINDEX_CONTENT = {
       "frameVariant": "eSPRESSO LITE IV (standard step-over sizes XS–XL listed)",
       "manufacturerSku": null,
       "skuMissingReason": "SKU not listed on fetched page",
-      "bikeType": "trekking-e-bike",
+      "bikeType": "trekking e-bike",
       "motorExactType": "Shimano EP6",
       "motorPosition": null,
       "motorPositionMissingReason": "Page lists drive unit Shimano EP6 but does not explicitly state motor position",
@@ -1704,7 +1704,7 @@ window.KEREKPARINDEX_CONTENT = {
       "brakes": "Shimano MT-200, 2-piston; rotors Shimano RT10 180 mm",
       "weightKg": 27.1,
       "weightMissingReason": null,
-      "weighingConditions": "approx. weight weighed at frame size M",
+      "weighingConditions": "kb. tömeg, M vázméreten mérve",
       "weighingConditionsMissingReason": null,
       "sourceUrl": "https://www.merida-bikes.com/en/bike/5675-7682/espresso-575-eq",
       "manufacturerRangeClaim": null,
@@ -1730,9 +1730,9 @@ window.KEREKPARINDEX_CONTENT = {
       "frameVariant": null,
       "manufacturerSku": "3GFWPR320A17A5",
       "skuMissingReason": null,
-      "bikeType": "suv-e-bike",
+      "bikeType": "SUV e-bike",
       "motorExactType": "BOSCH PERFORMANCE LINE CRUISE BES2",
-      "motorPosition": "középmotoros (mid-drive)",
+      "motorPosition": "középmotoros",
       "motorPositionMissingReason": null,
       "torqueNm": null,
       "torqueNote": null,
@@ -1772,7 +1772,7 @@ window.KEREKPARINDEX_CONTENT = {
       "frameVariant": "Classic Size Split (27.5: S // 29: M–XXL)",
       "manufacturerSku": null,
       "skuMissingReason": "ArtNo not shown on fetched CUBE info portal page (marketing URLs reference 108120)",
-      "bikeType": "e-mtb-hardtail",
+      "bikeType": "e-mtb-merevvázas (hardtail)",
       "motorExactType": "Bosch Drive Unit Performance Line CX max. 120Nm (BDU38)",
       "motorPosition": null,
       "motorPositionMissingReason": "Product page lists drive unit type but does not explicitly state motor position",
@@ -1813,7 +1813,7 @@ window.KEREKPARINDEX_CONTENT = {
       "frameVariant": "eBIG.NINE LITE III",
       "manufacturerSku": null,
       "skuMissingReason": "SKU not listed on fetched page",
-      "bikeType": "e-mtb-hardtail",
+      "bikeType": "e-mtb-merevvázas (hardtail)",
       "motorExactType": "Shimano EP6",
       "motorPosition": null,
       "motorPositionMissingReason": "Page lists drive unit Shimano EP6 but does not explicitly state motor position",
@@ -1825,7 +1825,7 @@ window.KEREKPARINDEX_CONTENT = {
       "brakes": "Sram DB6 stealth, 4-piston; rotors Sram CenterLine 180mm",
       "weightKg": 23.6,
       "weightMissingReason": null,
-      "weighingConditions": "approx. weight weighed at frame size M",
+      "weighingConditions": "kb. tömeg, M vázméreten mérve",
       "weighingConditionsMissingReason": null,
       "sourceUrl": "https://www.merida-bikes.com/en/bike/5704-7528/ebignine-675",
       "manufacturerRangeClaim": null,
@@ -1851,7 +1851,7 @@ window.KEREKPARINDEX_CONTENT = {
       "frameVariant": "Levo 4 carbon, 150mm rear travel",
       "manufacturerSku": "291509",
       "skuMissingReason": null,
-      "bikeType": "e-mtb-full-suspension",
+      "bikeType": "e-mtb-összteleszkópos",
       "motorExactType": "Specialized 3.1 S-Works motor, 111Nm, 850W",
       "motorPosition": null,
       "motorPositionMissingReason": "Specs list motor type but do not use an explicit position label (mid/hub)",
@@ -1863,7 +1863,7 @@ window.KEREKPARINDEX_CONTENT = {
       "brakes": "SRAM Maven Ultimate 4-piston hydraulic disc; 220mm HS2 [F] / 200mm HS2 [R]",
       "weightKg": 23.68,
       "weightMissingReason": null,
-      "weighingConditions": "Weight Size S4; weights based on production painted frames as pictured; actual weights vary by colorway, frame size, and component variation",
+      "weighingConditions": "S4 méret; a tömeg a képen látható, gyártási festett vázakon alapul; a szín, a vázméret és az alkatrészváltozat módosíthatja",
       "weighingConditionsMissingReason": null,
       "sourceUrl": "https://www.specialized.com/us/en/s-works-turbo-levo-4/p/4291509",
       "manufacturerRangeClaim": {
@@ -1891,9 +1891,9 @@ window.KEREKPARINDEX_CONTENT = {
       "frameVariant": null,
       "manufacturerSku": "3GFMCX420A15A5",
       "skuMissingReason": null,
-      "bikeType": "e-mtb-hardtail",
+      "bikeType": "e-mtb-merevvázas (hardtail)",
       "motorExactType": "BOSCH PERFORMANCE LINE CX BES2",
-      "motorPosition": "középmotoros (mid-drive)",
+      "motorPosition": "középmotoros",
       "motorPositionMissingReason": null,
       "torqueNm": 85,
       "torqueNote": null,
@@ -1933,9 +1933,9 @@ window.KEREKPARINDEX_CONTENT = {
       "frameVariant": "Step-through E5 Aluminum",
       "manufacturerSku": "277417",
       "skuMissingReason": null,
-      "bikeType": "city-urban-e-bike",
-      "motorExactType": "Specialized 2.0, 70Nm torque, custom tuned motor, 250W nominal (Turbo Full Power 2.0)",
-      "motorPosition": "bottom bracket motor mount (mid-drive)",
+      "bikeType": "városi e-bike",
+      "motorExactType": "Specialized 2.0, 70Nm nyomaték, egyedi hangolású motor, 250 W névleges (Turbo Full Power 2.0)",
+      "motorPosition": "bottom bracket motor mount (középmotor)",
       "motorPositionMissingReason": null,
       "torqueNm": 70,
       "torqueNote": null,
@@ -1973,8 +1973,8 @@ window.KEREKPARINDEX_CONTENT = {
       "frameVariant": "Alpha Smooth Aluminum; model 1047465",
       "manufacturerSku": "1047465",
       "skuMissingReason": null,
-      "bikeType": "city-urban-e-bike",
-      "motorExactType": "Bosch Performance, 250Watt, 65Nm, 20 mph / 32 km/h (25 km/h in Europe)",
+      "bikeType": "városi e-bike",
+      "motorExactType": "Bosch Performance, 250 W, 65Nm, 32 km/h (Európában tipikusan 25 km/h pedelec)",
       "motorPosition": null,
       "motorPositionMissingReason": "Specs list motor type/torque but do not explicitly state motor position",
       "torqueNm": 65,
@@ -1985,7 +1985,7 @@ window.KEREKPARINDEX_CONTENT = {
       "brakes": "Shimano MT200 hydraulic disc",
       "weightKg": 24.9,
       "weightMissingReason": null,
-      "weighingConditions": "L méret: 24,90 kg / 54,9 lbs, akkumulátor nélkül; előgyártási festett vázakon alapuló adat a közzététel idején; a végleges gyártásban eltérhet.",
+      "weighingConditions": "L méret: 24,90 kg / 54,9 font, akkumulátor nélkül; előgyártási festett vázakon alapuló adat a közzététel idején; a végleges gyártásban eltérhet.",
       "weighingConditionsMissingReason": null,
       "sourceUrl": "https://www.trekbikes.com/gb/en_GB/bikes/hybrid-bikes/electric-hybrid-bikes/district/district-9/p/33186/",
       "manufacturerRangeClaim": null,
@@ -2010,8 +2010,8 @@ window.KEREKPARINDEX_CONTENT = {
       "frameVariant": "Easy Entry Size Split (26: XXS/42cm // 28: XS–L)",
       "manufacturerSku": null,
       "skuMissingReason": "ArtNo not shown on fetched CUBE info portal page (marketing URLs reference 813400)",
-      "bikeType": "city-urban-e-bike",
-      "motorExactType": "Bosch Drive Unit Active Line Plus Generation 3 (50Nm) Cruise (250Watt), Smart System",
+      "bikeType": "városi e-bike",
+      "motorExactType": "Bosch Drive Unit Active Line Plus Generation 3 (50Nm) Cruise (250 W), Smart System",
       "motorPosition": null,
       "motorPositionMissingReason": "Product page lists drive unit type but does not explicitly state motor position",
       "torqueNm": 50,
@@ -2047,9 +2047,9 @@ window.KEREKPARINDEX_CONTENT = {
       "frameVariant": null,
       "manufacturerSku": "3GIWAP32EA46C4",
       "skuMissingReason": null,
-      "bikeType": "city-urban-e-bike",
+      "bikeType": "városi e-bike",
       "motorExactType": "BOSCH ACTIVE LINE PLUS BES2",
-      "motorPosition": "középmotoros (mid-drive)",
+      "motorPosition": "középmotoros",
       "motorPositionMissingReason": null,
       "torqueNm": null,
       "torqueNote": null,
@@ -2205,7 +2205,7 @@ window.KEREKPARINDEX_CONTENT = {
           "variantId": "var-cube-kathmandu-hybrid-one-800-metallicgrey",
           "name": "Kathmandu Hybrid ONE 800",
           "trim": "ONE 800 / Bosch PowerTube 800",
-          "bikeType": "trekking-e-bike",
+          "bikeType": "trekking e-bike",
           "motor": "Bosch Drive Unit Performance Line CX max. 120Nm (BDU38)",
           "torqueNm": 120,
           "batteryWh": 800,
@@ -2234,7 +2234,7 @@ window.KEREKPARINDEX_CONTENT = {
           "variantId": "var-giant-explore-eplus-1-stagger-2026",
           "name": "Explore E+ 1 Stagger",
           "trim": "1 Stagger / EnergyPak 800Wh",
-          "bikeType": "trekking-e-bike",
+          "bikeType": "trekking e-bike",
           "motor": "Giant SyncDrive Pro2, 85Nm PedalPlus 6-Sensor technology",
           "torqueNm": 85,
           "batteryWh": 800,
@@ -2263,7 +2263,7 @@ window.KEREKPARINDEX_CONTENT = {
           "variantId": "var-merida-espresso-575-eq-750",
           "name": "eSPRESSO 575 EQ",
           "trim": "575 EQ / Trendpower Internal Battery 750 Wh TPS-C04-35SD",
-          "bikeType": "trekking-e-bike",
+          "bikeType": "trekking e-bike",
           "motor": "Shimano EP6",
           "torqueNm": 85,
           "batteryWh": 750,
@@ -2271,8 +2271,8 @@ window.KEREKPARINDEX_CONTENT = {
           "drivetrain": "Shimano CUES U6000 GS rear derailleur; CUES U6000-10 shifters; LG300 11-48T 10-speed freewheel; Samox NWP203 38T; MERIDA EXPERT TK crank 165mm; Shimano LG500 chain",
           "brakes": "Shimano MT-200, 2-piston; rotors Shimano RT10 180 mm",
           "weightKg": 27.1,
-          "weightDisplay": "27.1 (approx. weight weighed at frame size M)",
-          "weighingConditions": "approx. weight weighed at frame size M",
+          "weightDisplay": "27.1 (kb. tömeg, M vázméreten mérve)",
+          "weighingConditions": "kb. tömeg, M vázméreten mérve",
           "sourceUrl": "https://www.merida-bikes.com/en/bike/5675-7682/espresso-575-eq",
           "status": "előkészített",
           "dataFlags": [
@@ -2292,7 +2292,7 @@ window.KEREKPARINDEX_CONTENT = {
           "variantId": "var-gepida-berig-deore-10-w-500",
           "name": "BERIG DEORE 10 W",
           "trim": "DEORE 10 W / 500 WH",
-          "bikeType": "suv-e-bike",
+          "bikeType": "SUV e-bike",
           "motor": "BOSCH PERFORMANCE LINE CRUISE BES2",
           "torqueNm": null,
           "batteryWh": 500,
@@ -2318,12 +2318,12 @@ window.KEREKPARINDEX_CONTENT = {
           ]
         }
       ],
-      "bodyMarkdown": "## Cél\n\nHasonló, mindennapi és túrázós használatra szánt trekking/SUV jellegű e-bike modellváltozatok gyártói adatai alapján. Nem saját teszt; nincs abszolút győztes.\n\n## Egységes adattábla (gyártói források, 2026-10-10)\n\n| Modell | Típus | Motor | Nm | Wh | Tömeg | Forrás |\n| --- | --- | --- | --- | --- | --- | --- |\n| Kathmandu Hybrid ONE 800 | trekking-e-bike | Bosch Drive Unit Performance Line CX max. 120Nm (BDU38) | 120 | 800 | 28.4 (mérési feltétel: Nincs ellenőrzött adat) | https://www.cube.eu/cube-kathmandu-hybrid-one-800-metallicgrey-n-grey/112111 |\n| Explore E+ 1 Stagger | trekking-e-bike | Giant SyncDrive Pro2, 85Nm PedalPlus 6-Sensor technology | 85 | 800 | Nincs ellenőrzött adat | https://www.giant-bicycles.com/int/explore-eplus-1-stagger |\n| eSPRESSO 575 EQ | trekking-e-bike | Shimano EP6 | 85 | 750 | 27.1 (approx. weight weighed at frame size M) | https://www.merida-bikes.com/en/bike/5675-7682/espresso-575-eq |\n| BERIG DEORE 10 W | suv-e-bike | BOSCH PERFORMANCE LINE CRUISE BES2 | Nincs ellenőrzött adat | 500 | Nincs ellenőrzött adat | https://gepida.hu/gepida-berig-deore-10-w-matt-grafit-11372 |\n\nAhol „Nincs ellenőrzött adat” szerepel: a megnyitott oldalon nem volt egyértelmű numerikus adat, vagy hiányzik a mérési feltétel.\n\n## Modellenként: előnyök és kompromisszumok\n\n### Kathmandu Hybrid ONE 800\n**Adatokból levezetett előnyök**\n- 800 Wh akkumulátor és 120 Nm-es Bosch Performance Line CX (BDU38) a csoport magasabb gyártói energia- és nyomatékértékei között.\n- Hidraulikus tárcsafék (180/180) és 10 fokozatú Cues hajtás trekking/túra jellegű felszereltséghez igazodik.\n**Kompromisszumok**\n- Gyártói tömeg 28,4 kg, mérési feltétel (méret/felszereltség) nélkül — a kg csak tájékoztató.\n- A motor pozíciója a megnyitott oldalon nincs külön címkézve.\n\n### Explore E+ 1 Stagger\n**Adatokból levezetett előnyök**\n- 800 Wh EnergyPak és SyncDrive Pro2 85 Nm; a gyártó három kategóriás hatótáv-becslést is közöl (nem mért teszt).\n- 4 dugattyús Deore hidraulikus tárcsafék (203/180 mm) a csoport erősebb fékkínálata között.\n**Kompromisszumok**\n- Numerikus tömeg a specifikációban nincs; a gyártó helyi mérést javasol.\n- Marketing öves hajtást is említ (select models), a Specs Di2 váltós hajtást listáz — a táblában a Specs szerinti adat szerepel.\n\n### eSPRESSO 575 EQ\n*Archivált gyártói oldal — specifikáció olvasható, aktuális gyártás nem igazolt.*\n**Adatokból levezetett előnyök**\n- 750 Wh belső akku és Shimano EP6 85 Nm; tömeg 27,1 kg M méreten mérve (feltétel megadva).\n- EQ felszereltségű trekking jelleg a specifikáció alapján.\n**Kompromisszumok**\n- Hivatalos oldal archived — aktuális gyártás/elérhetőség nem igazolt.\n- Modellév a megnyitott oldalon nem szerepel külön számként.\n\n### BERIG DEORE 10 W\n**Adatokból levezetett előnyök**\n- Középmotoros Bosch Performance Line Cruise BES2 és 500 Wh, SUV jellegű pozicionálás.\n- Deore 10 fokozatú hajtás és hidraulikus tárcsafék a specifikációban.\n**Kompromisszumok**\n- Nyomaték (Nm) és tömeg a gepida.hu oldalon nem szerepel numerikusan.\n- Színmegnevezés ellentmondásos a forráson (cím vs. matrica szín).\n\n\n## Gyakorlati értelmezés\n\n- **Nm és Wh együtt:** nagyobb nyomaték + magas rásegítés gyorsabban merítheti az akkut; a Wh önmagában nem hatótávgarancia.\n- **Tömeg:** ahol nincs mérési feltétel, a kg csak tájékoztató.\n- **Motortípus:** ugyanaz a „Bosch CX” felirat különböző generációknál más Nm-értéket jelenthet.\n- **Nem saját teszt:** menetélményt, mért hatótávot és abszolút győztest nem állítunk.\n\n## Kinek lehet hasznos ez a tábla\n\nAkik aszfaltos és vegyes útvonalon, csomaggal vagy hosszabb távon is gondolkodnak, és a katalógusadatokból szeretnének kiindulni. Kipróbálást csak akkor tekintsd adottnak, ha a konkrét üzlet ezt állítja.\n"
+      "bodyMarkdown": "## Cél\n\nHasonló, mindennapi és túrázós használatra szánt trekking/SUV jellegű e-bike modellváltozatok gyártói adatai alapján. Nem saját teszt; nincs abszolút győztes.\n\n## Egységes adattábla (gyártói források, 2026-10-10)\n\n| Modell | Típus | Motor | Nm | Wh | Tömeg | Forrás |\n| --- | --- | --- | --- | --- | --- | --- |\n| Kathmandu Hybrid ONE 800 | trekking e-bike | Bosch Drive Unit Performance Line CX max. 120Nm (BDU38) | 120 | 800 | 28.4 (mérési feltétel: Nincs ellenőrzött adat) | https://www.cube.eu/cube-kathmandu-hybrid-one-800-metallicgrey-n-grey/112111 |\n| Explore E+ 1 Stagger | trekking e-bike | Giant SyncDrive Pro2, 85Nm PedalPlus 6-Sensor technology | 85 | 800 | Nincs ellenőrzött adat | https://www.giant-bicycles.com/int/explore-eplus-1-stagger |\n| eSPRESSO 575 EQ | trekking e-bike | Shimano EP6 | 85 | 750 | 27.1 (kb. tömeg, M vázméreten mérve) | https://www.merida-bikes.com/en/bike/5675-7682/espresso-575-eq |\n| BERIG DEORE 10 W | SUV e-bike | BOSCH PERFORMANCE LINE CRUISE BES2 | Nincs ellenőrzött adat | 500 | Nincs ellenőrzött adat | https://gepida.hu/gepida-berig-deore-10-w-matt-grafit-11372 |\n\nAhol „Nincs ellenőrzött adat” szerepel: a megnyitott oldalon nem volt egyértelmű numerikus adat, vagy hiányzik a mérési feltétel.\n\n## Modellenként: előnyök és kompromisszumok\n\n### Kathmandu Hybrid ONE 800\n**Adatokból levezetett előnyök**\n- 800 Wh akkumulátor és 120 Nm-es Bosch Performance Line CX (BDU38) a csoport magasabb gyártói energia- és nyomatékértékei között.\n- Hidraulikus tárcsafék (180/180) és 10 fokozatú Cues hajtás trekking/túra jellegű felszereltséghez igazodik.\n**Kompromisszumok**\n- Gyártói tömeg 28,4 kg, mérési feltétel (méret/felszereltség) nélkül — a kg csak tájékoztató.\n- A motor pozíciója a megnyitott oldalon nincs külön címkézve.\n\n### Explore E+ 1 Stagger\n**Adatokból levezetett előnyök**\n- 800 Wh EnergyPak és SyncDrive Pro2 85 Nm; a gyártó három kategóriás hatótáv-becslést is közöl (nem mért teszt).\n- 4 dugattyús Deore hidraulikus tárcsafék (203/180 mm) a csoport erősebb fékkínálata között.\n**Kompromisszumok**\n- Numerikus tömeg a specifikációban nincs; a gyártó helyi mérést javasol.\n- Marketing öves hajtást is említ (select models), a Specs Di2 váltós hajtást listáz — a táblában a Specs szerinti adat szerepel.\n\n### eSPRESSO 575 EQ\n*Archivált gyártói oldal — specifikáció olvasható, aktuális gyártás nem igazolt.*\n**Adatokból levezetett előnyök**\n- 750 Wh belső akku és Shimano EP6 85 Nm; tömeg 27,1 kg M méreten mérve (feltétel megadva).\n- EQ felszereltségű trekking jelleg a specifikáció alapján.\n**Kompromisszumok**\n- Hivatalos oldal archived — aktuális gyártás/elérhetőség nem igazolt.\n- Modellév a megnyitott oldalon nem szerepel külön számként.\n\n### BERIG DEORE 10 W\n**Adatokból levezetett előnyök**\n- Középmotoros Bosch Performance Line Cruise BES2 és 500 Wh, SUV jellegű pozicionálás.\n- Deore 10 fokozatú hajtás és hidraulikus tárcsafék a specifikációban.\n**Kompromisszumok**\n- Nyomaték (Nm) és tömeg a gepida.hu oldalon nem szerepel numerikusan.\n- Színmegnevezés ellentmondásos a forráson (cím vs. matrica szín).\n\n\n## Gyakorlati értelmezés\n\n- **Nm és Wh együtt:** nagyobb nyomaték + magas rásegítés gyorsabban merítheti az akkut; a Wh önmagában nem hatótávgarancia.\n- **Tömeg:** ahol nincs mérési feltétel, a kg csak tájékoztató.\n- **Motortípus:** ugyanaz a „Bosch CX” felirat különböző generációknál más Nm-értéket jelenthet.\n- **Nem saját teszt:** menetélményt, mért hatótávot és abszolút győztest nem állítunk.\n\n## Kinek lehet hasznos ez a tábla\n\nAkik aszfaltos és vegyes útvonalon, csomaggal vagy hosszabb távon is gondolkodnak, és a katalógusadatokból szeretnének kiindulni. Kipróbálást csak akkor tekintsd adottnak, ha a konkrét üzlet ezt állítja.\n"
     },
     {
       "id": "art-cmp-e-mtb",
       "type": "osszehasonlitas",
-      "title": "E-MTB: hardtail és összteleszkópos összehasonlítás",
+      "title": "E-MTB: merevvázas (hardtail) és összteleszkópos összehasonlítás",
       "slug": "osszehasonlitas-e-mtb",
       "status": "ellenőrzött",
       "comparisonGroupId": "cmp-e-mtb",
@@ -2346,7 +2346,7 @@ window.KEREKPARINDEX_CONTENT = {
           "variantId": "var-cube-reaction-hybrid-one-800-royalgreen",
           "name": "Reaction Hybrid ONE 800",
           "trim": "ONE 800 / Bosch PowerTube 800",
-          "bikeType": "e-mtb-hardtail",
+          "bikeType": "e-mtb-merevvázas (hardtail)",
           "motor": "Bosch Drive Unit Performance Line CX max. 120Nm (BDU38)",
           "torqueNm": 120,
           "batteryWh": 800,
@@ -2363,11 +2363,11 @@ window.KEREKPARINDEX_CONTENT = {
             "hiányzó_adat"
           ],
           "pros": [
-            "Hardtail e-MTB: 800 Wh + Bosch CX max. 120 Nm (BDU38) magas gyártói energia-/nyomatékértékkel.",
-            "Gyártói tömeg 25,9 kg — a hardtail csoport középmezőnyében (feltétel nélkül)."
+            "merevvázas (hardtail) e-MTB: 800 Wh + Bosch CX max. 120 Nm (BDU38) magas gyártói energia-/nyomatékértékkel.",
+            "Gyártói tömeg 25,9 kg — 25,9 kg gyártói tömeg, mérési feltétel nélkül — csak tájékoztató adat, nem rangsor."
           ],
           "cons": [
-            "Csak első teleszkóp (hardtail): hátsó rugózás nincs — technikai ösvényen más karakter, mint az összteleszkópos.",
+            "Csak első teleszkóp (merevvázas (hardtail)): hátsó rugózás nincs — technikai ösvényen más karakter, mint az összteleszkópos.",
             "Mérési feltétel a tömeghez nincs megadva."
           ]
         },
@@ -2375,7 +2375,7 @@ window.KEREKPARINDEX_CONTENT = {
           "variantId": "var-merida-ebignine-675-750",
           "name": "eBIG.NINE 675",
           "trim": "675 / Trendpower Internal Battery 750 Wh TPS-C04-35SD",
-          "bikeType": "e-mtb-hardtail",
+          "bikeType": "e-mtb-merevvázas (hardtail)",
           "motor": "Shimano EP6",
           "torqueNm": 85,
           "batteryWh": 750,
@@ -2383,8 +2383,8 @@ window.KEREKPARINDEX_CONTENT = {
           "drivetrain": "Sram NX Eagle rear derailleur; Sram NX Eagle 12 shifters; PG-1210 Eagle 11-50T 12-speed; SAMOX EMA04 34T; Shimano FC-EM600 crank 165mm; Sram SX Eagle chain",
           "brakes": "Sram DB6 stealth, 4-piston; rotors Sram CenterLine 180mm",
           "weightKg": 23.6,
-          "weightDisplay": "23.6 (approx. weight weighed at frame size M)",
-          "weighingConditions": "approx. weight weighed at frame size M",
+          "weightDisplay": "23.6 (kb. tömeg, M vázméreten mérve)",
+          "weighingConditions": "kb. tömeg, M vázméreten mérve",
           "sourceUrl": "https://www.merida-bikes.com/en/bike/5704-7528/ebignine-675",
           "status": "előkészített",
           "dataFlags": [
@@ -2392,19 +2392,19 @@ window.KEREKPARINDEX_CONTENT = {
             "hiányzó_adat"
           ],
           "pros": [
-            "Hardtail e-MTB 750 Wh-vel és EP6 85 Nm-rel; tömeg 23,6 kg M méreten (feltétel megadva).",
+            "merevvázas (hardtail) e-MTB 750 Wh-vel és EP6 85 Nm-rel; tömeg 23,6 kg M méreten (feltétel megadva).",
             "12 fokozatú Eagle hajtás a specifikáció szerint."
           ],
           "cons": [
             "Archivált gyártói oldal — aktuális gyártás nem igazolt.",
-            "Hardtail felépítés: nincs hátsó teleszkóp (szándékos kompromisszum a tömeg/egyszerűség felé)."
+            "merevvázas (hardtail) felépítés: nincs hátsó teleszkóp (szándékos kompromisszum a tömeg/egyszerűség felé)."
           ]
         },
         {
           "variantId": "var-specialized-s-works-turbo-levo-4-840",
           "name": "S-Works Turbo Levo 4",
           "trim": "S-Works / Specialized Turbo X2 840Wh",
-          "bikeType": "e-mtb-full-suspension",
+          "bikeType": "e-mtb-összteleszkópos",
           "motor": "Specialized 3.1 S-Works motor, 111Nm, 850W",
           "torqueNm": 111,
           "batteryWh": 840,
@@ -2412,8 +2412,8 @@ window.KEREKPARINDEX_CONTENT = {
           "drivetrain": "SRAM XX Eagle Transmission: AXS Pod Ultimate; XX Eagle T-Type derailleur; XX Transmission XS 1297 10-52t; XX T-Type chain; XX Carbon crank 160mm ISIS; 34t T-Type chainring",
           "brakes": "SRAM Maven Ultimate 4-piston hydraulic disc; 220mm HS2 [F] / 200mm HS2 [R]",
           "weightKg": 23.68,
-          "weightDisplay": "23.68 (Weight Size S4; weights based on production painted frames as pictured; actual weights vary by colorway, frame size, and component variation)",
-          "weighingConditions": "Weight Size S4; weights based on production painted frames as pictured; actual weights vary by colorway, frame size, and component variation",
+          "weightDisplay": "23.68 (S4 méret; a tömeg a képen látható, gyártási festett vázakon alapul; a szín, a vázméret és az alkatrészváltozat módosíthatja)",
+          "weighingConditions": "S4 méret; a tömeg a képen látható, gyártási festett vázakon alapul; a szín, a vázméret és az alkatrészváltozat módosíthatja",
           "sourceUrl": "https://www.specialized.com/us/en/s-works-turbo-levo-4/p/4291509",
           "status": "ellenőrzött",
           "dataFlags": [
@@ -2424,7 +2424,7 @@ window.KEREKPARINDEX_CONTENT = {
             "840 Wh akku, 111 Nm / 850 W gyártói motoradat; tömeg 23,68 kg S4 méreten, feltétellel."
           ],
           "cons": [
-            "S-Works szintű felszereltség: a specifikáció prémium hajtást/féket listáz — nem „jobb hardtail”, hanem más kategória.",
+            "S-Works szintű felszereltség: a specifikáció prémium hajtást/féket listáz — nem „jobb merevvázas (hardtail)”, hanem más kategória.",
             "Hatótáv-közlés gyártói Eco-móddal és Range Extender feltételekkel — nem független mérés."
           ]
         },
@@ -2432,7 +2432,7 @@ window.KEREKPARINDEX_CONTENT = {
           "variantId": "var-gepida-sirmium-pro-deore-10-500",
           "name": "SIRMIUM PRO DEORE 10",
           "trim": "PRO DEORE 10 / 500 WH",
-          "bikeType": "e-mtb-hardtail",
+          "bikeType": "e-mtb-merevvázas (hardtail)",
           "motor": "BOSCH PERFORMANCE LINE CX BES2",
           "torqueNm": 85,
           "batteryWh": 500,
@@ -2449,7 +2449,7 @@ window.KEREKPARINDEX_CONTENT = {
             "hiányzó_adat"
           ],
           "pros": [
-            "Hardtail e-MTB középmotoros Bosch Performance Line CX BES2 85 Nm és 500 Wh adattal.",
+            "merevvázas (hardtail) e-MTB középmotoros Bosch Performance Line CX BES2 85 Nm és 500 Wh adattal.",
             "Deore 10 fokozat + hidraulikus tárcsafék a specifikáció táblájában."
           ],
           "cons": [
@@ -2458,7 +2458,7 @@ window.KEREKPARINDEX_CONTENT = {
           ]
         }
       ],
-      "bodyMarkdown": "## Cél\n\nTerepes használatra pozicionált e-MTB modellváltozatok. A **S-Works Turbo Levo 4 összteleszkópos** (elöl és hátul rugóz); a CUBE Reaction, a MERIDA eBIG.NINE és a Gepida SIRMIUM **hardtail** (csak elöl teleszkóp, merev hátsó háromszög). Ez felépítésbeli különbség, nem rangsor. Nem saját teszt; nincs abszolút győztes.\n\n## Hardtail vs. összteleszkópos — röviden\n\n- **Hardtail:** egyszerűbb, tipikusan könnyebb karbantartású hátsó rész; technikás, gyökeres/köves ösvényen a hátsó kerék kevésbé nyeli az ütést.\n- **Összteleszkópos:** hátsó rugóút (itt: 150 mm a Levo 4 specifikáció szerint) — más karakterű terepes használatra tervezve; nem „jobb hardtail”, hanem más konstrukció.\n\n## Egységes adattábla (gyártói források, 2026-10-10)\n\n| Modell | Típus | Motor | Nm | Wh | Tömeg | Forrás |\n| --- | --- | --- | --- | --- | --- | --- |\n| Reaction Hybrid ONE 800 | e-mtb-hardtail | Bosch Drive Unit Performance Line CX max. 120Nm (BDU38) | 120 | 800 | 25.9 (mérési feltétel: Nincs ellenőrzött adat) | https://www.cube.eu/sk-de/cube-reaction-hybrid-one-800-royalgreen-n-prism/108120 |\n| eBIG.NINE 675 | e-mtb-hardtail | Shimano EP6 | 85 | 750 | 23.6 (approx. weight weighed at frame size M) | https://www.merida-bikes.com/en/bike/5704-7528/ebignine-675 |\n| S-Works Turbo Levo 4 | e-mtb-full-suspension | Specialized 3.1 S-Works motor, 111Nm, 850W | 111 | 840 | 23.68 (Weight Size S4; weights based on production painted frames as pictured; actual weights vary by colorway, frame size, and component variation) | https://www.specialized.com/us/en/s-works-turbo-levo-4/p/4291509 |\n| SIRMIUM PRO DEORE 10 | e-mtb-hardtail | BOSCH PERFORMANCE LINE CX BES2 | 85 | 500 | Nincs ellenőrzött adat | https://gepida.hu/gepida-sirmium-pro-deore-10-feher-11105 |\n\nAhol „Nincs ellenőrzött adat” szerepel: a megnyitott oldalon nem volt egyértelmű numerikus adat, vagy hiányzik a mérési feltétel.\n\n## Modellenként: előnyök és kompromisszumok\n\n### Reaction Hybrid ONE 800\n**Adatokból levezetett előnyök**\n- Hardtail e-MTB: 800 Wh + Bosch CX max. 120 Nm (BDU38) magas gyártói energia-/nyomatékértékkel.\n- Gyártói tömeg 25,9 kg — a hardtail csoport középmezőnyében (feltétel nélkül).\n**Kompromisszumok**\n- Csak első teleszkóp (hardtail): hátsó rugózás nincs — technikai ösvényen más karakter, mint az összteleszkópos.\n- Mérési feltétel a tömeghez nincs megadva.\n\n### eBIG.NINE 675\n*Archivált gyártói oldal — specifikáció olvasható, aktuális gyártás nem igazolt.*\n**Adatokból levezetett előnyök**\n- Hardtail e-MTB 750 Wh-vel és EP6 85 Nm-rel; tömeg 23,6 kg M méreten (feltétel megadva).\n- 12 fokozatú Eagle hajtás a specifikáció szerint.\n**Kompromisszumok**\n- Archivált gyártói oldal — aktuális gyártás nem igazolt.\n- Hardtail felépítés: nincs hátsó teleszkóp (szándékos kompromisszum a tömeg/egyszerűség felé).\n\n### S-Works Turbo Levo 4\n**Adatokból levezetett előnyök**\n- Összteleszkópos e-MTB (150 mm hátsó út): elöl és hátul rugóz — más felépítés, mint a hardtaileké.\n- 840 Wh akku, 111 Nm / 850 W gyártói motoradat; tömeg 23,68 kg S4 méreten, feltétellel.\n**Kompromisszumok**\n- S-Works szintű felszereltség: a specifikáció prémium hajtást/féket listáz — nem „jobb hardtail”, hanem más kategória.\n- Hatótáv-közlés gyártói Eco-móddal és Range Extender feltételekkel — nem független mérés.\n\n### SIRMIUM PRO DEORE 10\n**Adatokból levezetett előnyök**\n- Hardtail e-MTB középmotoros Bosch Performance Line CX BES2 85 Nm és 500 Wh adattal.\n- Deore 10 fokozat + hidraulikus tárcsafék a specifikáció táblájában.\n**Kompromisszumok**\n- Tömeg numerikusan hiányzik; gumi megnevezés marketing vs. specs ellentmondásos.\n- 500 Wh a csoport alacsonyabb gyártói kapacitása a 750–840 Wh modellekhez képest — nem győzelem/veszteség, kapacitáskülönbség.\n\n\n## Gyakorlati értelmezés\n\n- Hardtail és összteleszkópos modelleket ne rangsorolj ugyanazon „nyertes” skálán.\n- Nm és Wh együtt értelmezendő; a Wh nem hatótávgarancia.\n- Archivált MERIDA oldal: specifikáció olvasható, aktuális gyártás nem igazolt.\n- Nem saját teszt; abszolút győztes nincs.\n"
+      "bodyMarkdown": "## Cél\n\nTerepes használatra pozicionált e-MTB modellváltozatok. A **S-Works Turbo Levo 4 összteleszkópos** (elöl és hátul rugóz); a CUBE Reaction, a MERIDA eBIG.NINE és a Gepida SIRMIUM **merevvázas (hardtail)** (csak elöl teleszkóp, merev hátsó háromszög). Ez felépítésbeli különbség, nem rangsor. Nem saját teszt; nincs abszolút győztes.\n\n## merevvázas (hardtail) vs. összteleszkópos — röviden\n\n- **merevvázas (hardtail):** egyszerűbb, tipikusan könnyebb karbantartású hátsó rész; technikás, gyökeres/köves ösvényen a hátsó kerék kevésbé nyeli az ütést.\n- **Összteleszkópos:** hátsó rugóút (itt: 150 mm a Levo 4 specifikáció szerint) — más karakterű terepes használatra tervezve; nem „jobb merevvázas (hardtail)”, hanem más konstrukció.\n\n## Egységes adattábla (gyártói források, 2026-10-10)\n\n| Modell | Típus | Motor | Nm | Wh | Tömeg | Forrás |\n| --- | --- | --- | --- | --- | --- | --- |\n| Reaction Hybrid ONE 800 | e-mtb-merevvázas (hardtail) | Bosch Drive Unit Performance Line CX max. 120Nm (BDU38) | 120 | 800 | 25.9 (mérési feltétel: Nincs ellenőrzött adat) | https://www.cube.eu/sk-de/cube-reaction-hybrid-one-800-royalgreen-n-prism/108120 |\n| eBIG.NINE 675 | e-mtb-merevvázas (hardtail) | Shimano EP6 | 85 | 750 | 23.6 (kb. tömeg, M vázméreten mérve) | https://www.merida-bikes.com/en/bike/5704-7528/ebignine-675 |\n| S-Works Turbo Levo 4 | e-mtb-összteleszkópos | Specialized 3.1 S-Works motor, 111Nm, 850W | 111 | 840 | 23.68 (S4 méret; a tömeg a képen látható, gyártási festett vázakon alapul; a szín, a vázméret és az alkatrészváltozat módosíthatja) | https://www.specialized.com/us/en/s-works-turbo-levo-4/p/4291509 |\n| SIRMIUM PRO DEORE 10 | e-mtb-merevvázas (hardtail) | BOSCH PERFORMANCE LINE CX BES2 | 85 | 500 | Nincs ellenőrzött adat | https://gepida.hu/gepida-sirmium-pro-deore-10-feher-11105 |\n\nAhol „Nincs ellenőrzött adat” szerepel: a megnyitott oldalon nem volt egyértelmű numerikus adat, vagy hiányzik a mérési feltétel.\n\n## Modellenként: előnyök és kompromisszumok\n\n### Reaction Hybrid ONE 800\n**Adatokból levezetett előnyök**\n- merevvázas (hardtail) e-MTB: 800 Wh + Bosch CX max. 120 Nm (BDU38) magas gyártói energia-/nyomatékértékkel.\n- Gyártói tömeg 25,9 kg — 25,9 kg gyártói tömeg, mérési feltétel nélkül — csak tájékoztató adat, nem rangsor.\n**Kompromisszumok**\n- Csak első teleszkóp (merevvázas (hardtail)): hátsó rugózás nincs — technikai ösvényen más karakter, mint az összteleszkópos.\n- Mérési feltétel a tömeghez nincs megadva.\n\n### eBIG.NINE 675\n*Archivált gyártói oldal — specifikáció olvasható, aktuális gyártás nem igazolt.*\n**Adatokból levezetett előnyök**\n- merevvázas (hardtail) e-MTB 750 Wh-vel és EP6 85 Nm-rel; tömeg 23,6 kg M méreten (feltétel megadva).\n- 12 fokozatú Eagle hajtás a specifikáció szerint.\n**Kompromisszumok**\n- Archivált gyártói oldal — aktuális gyártás nem igazolt.\n- merevvázas (hardtail) felépítés: nincs hátsó teleszkóp (szándékos kompromisszum a tömeg/egyszerűség felé).\n\n### S-Works Turbo Levo 4\n**Adatokból levezetett előnyök**\n- Összteleszkópos e-MTB (150 mm hátsó út): elöl és hátul rugóz — más felépítés, mint a hardtaileké.\n- 840 Wh akku, 111 Nm / 850 W gyártói motoradat; tömeg 23,68 kg S4 méreten, feltétellel.\n**Kompromisszumok**\n- S-Works szintű felszereltség: a specifikáció prémium hajtást/féket listáz — nem „jobb merevvázas (hardtail)”, hanem más kategória.\n- Hatótáv-közlés gyártói Eco-móddal és Range Extender feltételekkel — nem független mérés.\n\n### SIRMIUM PRO DEORE 10\n**Adatokból levezetett előnyök**\n- merevvázas (hardtail) e-MTB középmotoros Bosch Performance Line CX BES2 85 Nm és 500 Wh adattal.\n- Deore 10 fokozat + hidraulikus tárcsafék a specifikáció táblájában.\n**Kompromisszumok**\n- Tömeg numerikusan hiányzik; gumi megnevezés marketing vs. specs ellentmondásos.\n- 500 Wh a csoport alacsonyabb gyártói kapacitása a 750–840 Wh modellekhez képest — nem győzelem/veszteség, kapacitáskülönbség.\n\n\n## Gyakorlati értelmezés\n\n- merevvázas (hardtail) és összteleszkópos modelleket ne rangsorolj ugyanazon „nyertes” skálán.\n- Nm és Wh együtt értelmezendő; a Wh nem hatótávgarancia.\n- Archivált MERIDA oldal: specifikáció olvasható, aktuális gyártás nem igazolt.\n- Nem saját teszt; abszolút győztes nincs.\n"
     },
     {
       "id": "art-cmp-city-comfort",
@@ -2486,8 +2486,8 @@ window.KEREKPARINDEX_CONTENT = {
           "variantId": "var-specialized-turbo-como-4-0-710-2025",
           "name": "2025 Turbo Como 4.0",
           "trim": "4.0 / Specialized U2-710 710Wh",
-          "bikeType": "city-urban-e-bike",
-          "motor": "Specialized 2.0, 70Nm torque, custom tuned motor, 250W nominal (Turbo Full Power 2.0)",
+          "bikeType": "városi e-bike",
+          "motor": "Specialized 2.0, 70Nm nyomaték, egyedi hangolású motor, 250 W névleges (Turbo Full Power 2.0)",
           "torqueNm": 70,
           "batteryWh": 710,
           "batteryExact": "Specialized U2-710, alloy casing, state of charge display, 710Wh",
@@ -2502,7 +2502,7 @@ window.KEREKPARINDEX_CONTENT = {
             "hiányzó_adat"
           ],
           "pros": [
-            "Városi step-through váz; 710 Wh U2 akku és Specialized 2.0 / 70 Nm a csoport magasabb Wh-értékei között.",
+            "Városi átlépős váz; 710 Wh U2 akku és Specialized 2.0 / 70 Nm a csoport magasabb Wh-értékei között.",
             "Gyártói hatótáv-közlés Eco módban feltüntetve (nem független mérés)."
           ],
           "cons": [
@@ -2514,8 +2514,8 @@ window.KEREKPARINDEX_CONTENT = {
           "variantId": "var-trek-district-plus-9-powertube-500",
           "name": "District+ 9",
           "trim": "District+ 9 / Bosch PowerTube 500",
-          "bikeType": "city-urban-e-bike",
-          "motor": "Bosch Performance, 250Watt, 65Nm, 20 mph / 32 km/h (25 km/h in Europe)",
+          "bikeType": "városi e-bike",
+          "motor": "Bosch Performance, 250 W, 65Nm, 32 km/h (Európában tipikusan 25 km/h pedelec)",
           "torqueNm": 65,
           "batteryWh": 500,
           "batteryExact": "Bosch PowerTube 500",
@@ -2523,7 +2523,7 @@ window.KEREKPARINDEX_CONTENT = {
           "brakes": "Shimano MT200 hydraulic disc",
           "weightKg": 24.9,
           "weightDisplay": "24,9 kg, akkumulátor nélkül",
-          "weighingConditions": "L méret: 24,90 kg / 54,9 lbs, akkumulátor nélkül; előgyártási festett vázakon alapuló adat a közzététel idején; a végleges gyártásban eltérhet.",
+          "weighingConditions": "L méret: 24,90 kg / 54,9 font, akkumulátor nélkül; előgyártási festett vázakon alapuló adat a közzététel idején; a végleges gyártásban eltérhet.",
           "sourceUrl": "https://www.trekbikes.com/gb/en_GB/bikes/hybrid-bikes/electric-hybrid-bikes/district/district-9/p/33186/",
           "status": "ellenőrzött",
           "dataFlags": [
@@ -2542,8 +2542,8 @@ window.KEREKPARINDEX_CONTENT = {
           "variantId": "var-cube-supreme-hybrid-deluxe-one-625-slateblack",
           "name": "Supreme Hybrid Deluxe ONE 625",
           "trim": "Deluxe ONE 625 / Bosch PowerTube 625",
-          "bikeType": "city-urban-e-bike",
-          "motor": "Bosch Drive Unit Active Line Plus Generation 3 (50Nm) Cruise (250Watt), Smart System",
+          "bikeType": "városi e-bike",
+          "motor": "Bosch Drive Unit Active Line Plus Generation 3 (50Nm) Cruise (250 W), Smart System",
           "torqueNm": 50,
           "batteryWh": 625,
           "batteryExact": "Bosch PowerTube 625",
@@ -2558,7 +2558,7 @@ window.KEREKPARINDEX_CONTENT = {
             "hiányzó_adat"
           ],
           "pros": [
-            "Easy Entry váz + Nexus 8 agyváltó + Gates szíj: mindennapi városi komfortfelszereltség.",
+            "könnyű beszállású váz + Nexus 8 agyváltó + Gates szíj: mindennapi városi komfortfelszereltség.",
             "625 Wh PowerTube; Active Line Plus 50 Nm a gyártói adat szerint."
           ],
           "cons": [
@@ -2570,7 +2570,7 @@ window.KEREKPARINDEX_CONTENT = {
           "variantId": "var-gepida-bonum-edge-nexus-8c-coaster-400",
           "name": "BONUM EDGE NEXUS 8C (COASTER)",
           "trim": "NEXUS 8C (COASTER) / 400 WH",
-          "bikeType": "city-urban-e-bike",
+          "bikeType": "városi e-bike",
           "motor": "BOSCH ACTIVE LINE PLUS BES2",
           "torqueNm": null,
           "batteryWh": 400,
@@ -2596,7 +2596,7 @@ window.KEREKPARINDEX_CONTENT = {
           ]
         }
       ],
-      "bodyMarkdown": "## Cél\n\nVárosi, mindennapi közlekedésre szánt komfort / city e-bike modellváltozatok (step-through / easy entry, agyváltós vagy szíjhajtásos jellegű felszereltség). **Nem** összecsukható „kompakt” kategória — a csoport neve a tényleges tartalomhoz igazodik. Nem saját teszt; nincs abszolút győztes.\n\n## Egységes adattábla (gyártói források, 2026-10-10)\n\n| Modell | Típus | Motor | Nm | Wh | Tömeg | Forrás |\n| --- | --- | --- | --- | --- | --- | --- |\n| 2025 Turbo Como 4.0 | city-urban-e-bike | Specialized 2.0, 70Nm torque, custom tuned motor, 250W nominal (Turbo Full Power 2.0) | 70 | 710 | Nincs ellenőrzött adat | https://www.specialized.com/us/en/turbo-como-40/p/4277417 |\n| District+ 9 | city-urban-e-bike | Bosch Performance, 250Watt, 65Nm, 20 mph / 32 km/h (25 km/h in Europe) | 65 | 500 | 24,9 kg, akkumulátor nélkül | https://www.trekbikes.com/gb/en_GB/bikes/hybrid-bikes/electric-hybrid-bikes/district/district-9/p/33186/ |\n| Supreme Hybrid Deluxe ONE 625 | city-urban-e-bike | Bosch Drive Unit Active Line Plus Generation 3 (50Nm) Cruise (250Watt), Smart System | 50 | 625 | 27.8 (mérési feltétel: Nincs ellenőrzött adat) | https://www.cube.eu/bg-en/cube-supreme-hybrid-deluxe-one-625-slateblack-n-black/813400 |\n| BONUM EDGE NEXUS 8C (COASTER) | city-urban-e-bike | BOSCH ACTIVE LINE PLUS BES2 | Nincs ellenőrzött adat | 400 | Nincs ellenőrzött adat | https://gepida.hu/bonum-edge-nexus-8c-coaster-wh-28-13619 |\n\nA Trek District+ 9 tömege közvetlenül: **24,9 kg, akkumulátor nélkül** (L méret, gyártói feltétel). Ahol „Nincs ellenőrzött adat” szerepel: numerikus adat vagy feltétel hiányzik a megnyitott oldalon.\n\n## Modellenként: előnyök és kompromisszumok\n\n### 2025 Turbo Como 4.0\n**Adatokból levezetett előnyök**\n- Városi step-through váz; 710 Wh U2 akku és Specialized 2.0 / 70 Nm a csoport magasabb Wh-értékei között.\n- Gyártói hatótáv-közlés Eco módban feltüntetve (nem független mérés).\n**Kompromisszumok**\n- Numerikus össztömeg a megnyitott specifikációban nincs.\n- Nem összecsukható / nem „kompakt” a szó szoros értelmében — mindennapi városi komfortmodell.\n\n### District+ 9\n**Adatokból levezetett előnyök**\n- Tömeg: 24,9 kg, akkumulátor nélkül (L méret) — a feltétel a gyártói oldalon szerepel.\n- Enviolo CVT + Gates szíj: alacsonyabb karbantartási jellegű városi hajtás a specifikáció szerint.\n**Kompromisszumok**\n- 500 Wh PowerTube — kisebb gyártói energiatartalék, mint a 625–710 Wh társaknál.\n- 65 Nm Bosch Performance; a motor pozíciója a megnyitott oldalon nincs külön címkézve.\n\n### Supreme Hybrid Deluxe ONE 625\n**Adatokból levezetett előnyök**\n- Easy Entry váz + Nexus 8 agyváltó + Gates szíj: mindennapi városi komfortfelszereltség.\n- 625 Wh PowerTube; Active Line Plus 50 Nm a gyártói adat szerint.\n**Kompromisszumok**\n- Gyártói tömeg 27,8 kg, mérési feltétel nélkül.\n- 50 Nm — a csoport alacsonyabb nyomatékértéke; sík városi használatra tipikus, emelkedőn más karakter.\n\n### BONUM EDGE NEXUS 8C (COASTER)\n**Adatokból levezetett előnyök**\n- Vázba integrált 400 Wh és középmotoros Active Line Plus BES2; Nexus 8 agyváltó városi használathoz.\n- Alacsonyabb Wh a csoportban — kisebb energiatartalék, jellemzően könnyebb rendszerigényhez igazítható (gyártói adat).\n**Kompromisszumok**\n- Nm és tömeg numerikusan hiányzik a gepida.hu oldalon.\n- Féktípus ellentmondás a forrásban (kontrafék vs. tárcsa felsorolás) — féket nem közlünk ellenőrzött tényként.\n\n\n## Gyakorlati értelmezés\n\n- A nagyobb Wh nem automatikus győzelem városi használatban.\n- Tömegnél a mérési feltétel (akkuval / anélkül, méret) legalább annyira számít, mint a szám.\n- Féktípus-ellentmondásnál (Gepida BONUM) a fékadat nem ellenőrzött tényként jelenik meg.\n- Nem saját teszt; abszolút győztes nincs.\n"
+      "bodyMarkdown": "## Cél\n\nVárosi, mindennapi közlekedésre szánt komfort / city e-bike modellváltozatok (átlépős / könnyű beszállású, agyváltós vagy szíjhajtásos jellegű felszereltség). **Nem** összecsukható „kompakt” kategória — a csoport neve a tényleges tartalomhoz igazodik. Nem saját teszt; nincs abszolút győztes.\n\n## Egységes adattábla (gyártói források, 2026-10-10)\n\n| Modell | Típus | Motor | Nm | Wh | Tömeg | Forrás |\n| --- | --- | --- | --- | --- | --- | --- |\n| 2025 Turbo Como 4.0 | városi e-bike | Specialized 2.0, 70Nm nyomaték, egyedi hangolású motor, 250 W névleges (Turbo Full Power 2.0) | 70 | 710 | Nincs ellenőrzött adat | https://www.specialized.com/us/en/turbo-como-40/p/4277417 |\n| District+ 9 | városi e-bike | Bosch Performance, 250 W, 65Nm, 32 km/h (Európában tipikusan 25 km/h pedelec) | 65 | 500 | 24,9 kg, akkumulátor nélkül | https://www.trekbikes.com/gb/en_GB/bikes/hybrid-bikes/electric-hybrid-bikes/district/district-9/p/33186/ |\n| Supreme Hybrid Deluxe ONE 625 | városi e-bike | Bosch Drive Unit Active Line Plus Generation 3 (50Nm) Cruise (250 W), Smart System | 50 | 625 | 27.8 (mérési feltétel: Nincs ellenőrzött adat) | https://www.cube.eu/bg-en/cube-supreme-hybrid-deluxe-one-625-slateblack-n-black/813400 |\n| BONUM EDGE NEXUS 8C (COASTER) | városi e-bike | BOSCH ACTIVE LINE PLUS BES2 | Nincs ellenőrzött adat | 400 | Nincs ellenőrzött adat | https://gepida.hu/bonum-edge-nexus-8c-coaster-wh-28-13619 |\n\nA Trek District+ 9 tömege közvetlenül: **24,9 kg, akkumulátor nélkül** (L méret, gyártói feltétel). Ahol „Nincs ellenőrzött adat” szerepel: numerikus adat vagy feltétel hiányzik a megnyitott oldalon.\n\n## Modellenként: előnyök és kompromisszumok\n\n### 2025 Turbo Como 4.0\n**Adatokból levezetett előnyök**\n- Városi átlépős váz; 710 Wh U2 akku és Specialized 2.0 / 70 Nm a csoport magasabb Wh-értékei között.\n- Gyártói hatótáv-közlés Eco módban feltüntetve (nem független mérés).\n**Kompromisszumok**\n- Numerikus össztömeg a megnyitott specifikációban nincs.\n- Nem összecsukható / nem „kompakt” a szó szoros értelmében — mindennapi városi komfortmodell.\n\n### District+ 9\n**Adatokból levezetett előnyök**\n- Tömeg: 24,9 kg, akkumulátor nélkül (L méret) — a feltétel a gyártói oldalon szerepel.\n- Enviolo CVT + Gates szíj: alacsonyabb karbantartási jellegű városi hajtás a specifikáció szerint.\n**Kompromisszumok**\n- 500 Wh PowerTube — kisebb gyártói energiatartalék, mint a 625–710 Wh társaknál.\n- 65 Nm Bosch Performance; a motor pozíciója a megnyitott oldalon nincs külön címkézve.\n\n### Supreme Hybrid Deluxe ONE 625\n**Adatokból levezetett előnyök**\n- könnyű beszállású váz + Nexus 8 agyváltó + Gates szíj: mindennapi városi komfortfelszereltség.\n- 625 Wh PowerTube; Active Line Plus 50 Nm a gyártói adat szerint.\n**Kompromisszumok**\n- Gyártói tömeg 27,8 kg, mérési feltétel nélkül.\n- 50 Nm — a csoport alacsonyabb nyomatékértéke; sík városi használatra tipikus, emelkedőn más karakter.\n\n### BONUM EDGE NEXUS 8C (COASTER)\n**Adatokból levezetett előnyök**\n- Vázba integrált 400 Wh és középmotoros Active Line Plus BES2; Nexus 8 agyváltó városi használathoz.\n- Alacsonyabb Wh a csoportban — kisebb energiatartalék, jellemzően könnyebb rendszerigényhez igazítható (gyártói adat).\n**Kompromisszumok**\n- Nm és tömeg numerikusan hiányzik a gepida.hu oldalon.\n- Féktípus ellentmondás a forrásban (kontrafék vs. tárcsa felsorolás) — féket nem közlünk ellenőrzött tényként.\n\n\n## Gyakorlati értelmezés\n\n- A nagyobb Wh nem automatikus győzelem városi használatban.\n- Tömegnél a mérési feltétel (akkuval / anélkül, méret) legalább annyira számít, mint a szám.\n- Féktípus-ellentmondásnál (Gepida BONUM) a fékadat nem ellenőrzött tényként jelenik meg.\n- Nem saját teszt; abszolút győztes nincs.\n"
     }
   ],
   "shopsByBrand": {

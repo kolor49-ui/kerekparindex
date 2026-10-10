@@ -15,7 +15,8 @@
 | D-09 | Modern, dinamikus formák és színek, erős sans-serif tipográfia; retró betűk helyett a jóváhagyott ORBIT megjelenés. |
 | D-10 | *(felülírva D-12-vel)* Korábbi vizuális alap: C · ORBIT nagy herós változat (`reference/kerekparindex-v2-c.html`). |
 | D-11 | Főüzenet: „Minden, ami kerékpár. Magyarországon.” |
-| D-12 | **Elfogadott főoldali elrendezés (2026-10-10): ORBIT Compact** — `reference/kerekparindex-orbit-compact.html`. Felváltja a korábbi nagy herós ORBIT C változatot mobilon és asztalon. Ugyanaz a vizuális identitás (mélylila–korall–levendula), tömörebb hero, új szekvenció (márkák → kereső → kategóriák → aktualis → e-bike → helyek), mobil hamburger menü. |
+| D-12 | *(felülírva D-13-mal)* Korábbi elfogadott elrendezés: ORBIT Compact — `reference/kerekparindex-orbit-compact.html`. |
+| D-13 | **Elfogadott főoldali vizuális referencia (2026-10-10): ORBIT Világ** — `reference/kerekparindex-orbit-vilag.html`. Mobilnézet + alacsony asztali kategóriasor (kis ikonok). Tartalom: content pilot v2. Üres rovatok (adok-veszek, túrák, események, akciók) rejtve; a hat kapu terve dokumentálva: `docs/11-ORBIT-VILAG.md`. Nincs kosár/fizetés/piactér. |
 
 ## Megvalósítási javaslatok, nem korábban jóváhagyott végleges döntések
 

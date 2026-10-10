@@ -720,7 +720,7 @@ def build_pros_cons():
         "var-cube-reaction-hybrid-one-800-royalgreen": {
             "pros": [
                 "Hardtail e-MTB: 800 Wh + Bosch CX max. 120 Nm (BDU38) magas gyártói energia-/nyomatékértékkel.",
-                "Gyártói tömeg 25,9 kg — a hardtail csoport középmezőnyében (feltétel nélkül).",
+                "Gyártói tömeg 25,9 kg, mérési feltétel nélkül — csak tájékoztató adat, nem rangsor.",
             ],
             "cons": [
                 "Csak első teleszkóp (hardtail): hátsó rugózás nincs — technikai ösvényen más karakter, mint az összteleszkópos.",
