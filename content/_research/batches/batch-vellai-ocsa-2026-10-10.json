@@ -1,0 +1,46 @@
+{
+  "batchId": "batch-vellai-ocsa-2026-10-10",
+  "accessedAt": "2026-10-10",
+  "notes": "Ócsa korábban settlement_not_searched. Vellai: BikeFun Merida dealer — eladás. Szerviz nem a BikeFun oldalról; Facebook 403 → rolesPending a research-ledgerben.",
+  "items": [
+    {
+      "idSlug": "vellai-kerekpar-ocsa",
+      "name": "Vellai Kerékpár",
+      "city": "Ócsa",
+      "addressRaw": "2364 Ócsa, Viola utca 10.",
+      "website": "https://bikefun.hu/shops/vellai-kerekpar",
+      "phone": [
+        "+36 70 363 0090"
+      ],
+      "email": [
+        "vellaij@gmail.com"
+      ],
+      "openingHours": "H 10:00–17:00, K–P 12:00–17:00, Szo 09:00–12:00",
+      "roles": [
+        "eladas"
+      ],
+      "roleEvidence": {
+        "eladas": {
+          "url": "https://bikefun.hu/shops/vellai-kerekpar",
+          "pageTitle": "Vellai Kerékpár — BikeFun / Merida dealer"
+        }
+      },
+      "brandClaims": [
+        {
+          "brand": "Merida",
+          "relation": "dealer",
+          "sourceUrl": "https://bikefun.hu/shops/vellai-kerekpar",
+          "quote": "Merida dealer"
+        }
+      ],
+      "evidence": {
+        "url": "https://bikefun.hu/shops/vellai-kerekpar",
+        "pageTitle": "Vellai Kerékpár - BikeFun"
+      },
+      "notes": "Ócsa első kutatási köre. Szerviz értékelők/AI említik; Facebook nem elérhető (403) — szerviz nem publikálva. Google Business site 404.",
+      "heldBack": false,
+      "heldBackReason": null
+    }
+  ],
+  "heldBack": []
+}

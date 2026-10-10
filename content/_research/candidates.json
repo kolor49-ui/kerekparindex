@@ -1,4 +1,110 @@
 {
   "accessedAt": "2026-10-10",
-  "items": []
+  "schemaNote": [
+    "settlement_not_searched — a település nem volt a kutatási körben",
+    "searched_not_found — a körben nem került elő ez a jelölt",
+    "found_source_unreachable — megtalálva, de a forrás az eszközökkel nem nyitható / 403/timeout/404",
+    "found_excluded — megtalálva, de szabály szerint kizárva (pl. bezárt, fitness-only, cím hiányzik)",
+    "pending_verification — megtalálva, ellenőrzésre vár (konkrét akadály megadva)",
+    "published — igazolt és publikálva"
+  ],
+  "items": [
+    {
+      "name": "Vellai Kerékpár",
+      "city": "Ócsa",
+      "addressRaw": "2364 Ócsa, Viola utca 10.",
+      "outcome": "published",
+      "publishedLocationId": "loc-vellai-kerekpar-ocsa",
+      "rolesPublished": [
+        "eladas"
+      ],
+      "rolesPending": [
+        {
+          "role": "szerviz",
+          "outcome": "pending_verification",
+          "barrier": "Facebook 403; BikeFun oldal nem állít szervizt; AI/Maps/értékelők említik — nem automatikus átvétel",
+          "candidateUrl": "https://www.facebook.com/116038466457503"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://bikefun.hu/shops/vellai-kerekpar",
+          "ok": true,
+          "supports": [
+            "address",
+            "phone",
+            "email",
+            "eladas",
+            "brand-merida"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Memo-Bike Kerékpár Szaküzlet és Szerviz",
+      "city": "Monor",
+      "addressRaw": "2200 Monor, Bajcsy-Zsilinszky utca 6.",
+      "outcome": "pending_verification",
+      "barrier": "Facebook oldal eszközzel timeout; nincs más elsődleges oldal. Telefon +36 29 414 499 aggregátorokon.",
+      "candidateUrl": "https://www.facebook.com/350236528400715",
+      "priorWrongExclusion": "Saját weboldal hiánya — ez már nem kizáró ok."
+    },
+    {
+      "name": "Bike55 Kerékpár webshop és szerviz",
+      "city": "Szigetszentmiklós",
+      "addressRaw": "2310 Szigetszentmiklós, Széchenyi utca 55.",
+      "outcome": "found_source_unreachable",
+      "barrier": "bike55.hu nem feloldható; elsődleges oldal hiányzik. Aggregátor/Maps jelölt.",
+      "candidateUrl": "https://bike55.hu/",
+      "phoneHint": "+36 30 577 2946"
+    },
+    {
+      "name": "Szigetkerékpár",
+      "city": "Szigetszentmiklós",
+      "addressRaw": "2310 Szigetszentmiklós, Gyári út 9. (Maps) / Ifjúság útja 1. (régebbi lista) — címeltérés",
+      "outcome": "pending_verification",
+      "barrier": "Saját domain korábban 404/SSL; egymásnak ellentmondó címek a listákban; Facebook/Maps nem nyitható megbízhatóan.",
+      "candidateUrl": "https://szigetkerekpar.hu/"
+    },
+    {
+      "name": "Eurocikli Kerékpárszaküzlet",
+      "city": "Paks",
+      "addressRaw": "7030 Paks, Villany u. 2/b (frissebb listák) vs Széchenyi tér 13. (régi)",
+      "outcome": "found_source_unreachable",
+      "barrier": "eurocikli.business.site 404; címeltérés; Facebook eszközzel nem ellenőrizhető. Nem minősítjük megszűntnek.",
+      "candidateUrl": "https://eurocikli.business.site/",
+      "phoneHint": "+36 31 700 4991"
+    },
+    {
+      "name": "Kerékpár szerviz Tatabánya Dózsakert / Erdész u.",
+      "city": "Tatabánya",
+      "addressRaw": "2800 Tatabánya, Dózsakert / Erdész u. (házszám Maps-en tisztázandó)",
+      "outcome": "pending_verification",
+      "barrier": "Térképes szerviz-jelölt; hiányos cím; nincs saját domain a keresésben.",
+      "candidateUrl": null,
+      "priorGapCause": "searched_not_found a korábbi szűk Tatabánya-körben (csak Jel/Konzum/M-Bike)."
+    },
+    {
+      "name": "M-Bike Kerékpárszaküzlet és Szerviz",
+      "city": "Tatabánya",
+      "outcome": "found_source_unreachable",
+      "barrier": "mbike.hu nem elérhető; pótló hivatalos forrás nincs.",
+      "candidateUrl": "https://mbike.hu/"
+    },
+    {
+      "name": "Amanita Kerékpár Üzlet és Szerviz",
+      "city": "Salgótarján",
+      "outcome": "found_excluded",
+      "barrier": "Csak gyűjtőoldal (megyerikerekpar); nincs saját/hivatalos üzleti oldal vagy ellenőrizhető Facebook-elsődleges forrás ebben a körben.",
+      "candidateUrl": "https://megyerikerekpar.hu/amanita-kereskedelmi-es-szolgaltato-bt-kerekpar-uzlet-es-szerviz"
+    },
+    {
+      "name": "NE-VA-DA BT. kerékpárbolt",
+      "city": "Monor",
+      "addressRaw": "2200 Monor, Kapisztrán u. 3.",
+      "outcome": "pending_verification",
+      "barrier": "Régi kerekpar.info bejegyzés; nincs online elsődleges forrás; aktív-e tisztázandó.",
+      "candidateUrl": "https://kerekpar.info/hely/ne-va-da-bt-C2"
+    }
+  ]
 }

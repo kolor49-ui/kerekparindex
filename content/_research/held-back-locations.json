@@ -174,14 +174,16 @@
     {
       "name": "Memo-Bike Kerékpár Szaküzlet és Szerviz",
       "city": "Monor",
-      "reason": "Nincs működő saját weboldal; csak aggregátorok és e-mail.",
-      "candidateUrl": "mailto:memobike2011@gmail.com"
+      "reason": "pending_verification: Facebook eszközzel timeout; saját web hiánya már nem kizáró ok. Jelölt: https://www.facebook.com/350236528400715 · Bajcsy-Zsilinszky u. 6.",
+      "candidateUrl": "mailto:memobike2011@gmail.com",
+      "outcome": "pending_verification"
     },
     {
       "name": "Bike55 Kerékpár webshop és szerviz",
       "city": "Szigetszentmiklós",
-      "reason": "bike55.hu nem feloldható; nincs más hivatalos domain ellenőrizve.",
-      "candidateUrl": "https://bike55.hu/"
+      "reason": "found_source_unreachable: bike55.hu nem feloldható — nem minősítjük megszűntnek. Cím-jelölt: Széchenyi u. 55.",
+      "candidateUrl": "https://bike55.hu/",
+      "outcome": "found_source_unreachable"
     },
     {
       "name": "The Cruiser Shop",
@@ -198,8 +200,9 @@
     {
       "name": "Eurocikli Kerékpárszaküzlet",
       "city": "Paks",
-      "reason": "Korábban hivatkozott eurocikli.business.site 404; nincs friss hivatalos oldal.",
-      "candidateUrl": "https://eurocikli.business.site/"
+      "reason": "found_source_unreachable: eurocikli.business.site 404; cím Villany u. 2/b vs régi Széchenyi tér. Nem minősítjük megszűntnek — pending_verification.",
+      "candidateUrl": "https://eurocikli.business.site/",
+      "outcome": "pending_verification"
     },
     {
       "name": "Stefi '97 Motor és Kerékpárbolt Bt.",
@@ -210,8 +213,9 @@
     {
       "name": "Szigetkerékpár",
       "city": "Szigetszentmiklós",
-      "reason": "Nincs működő hivatalos weboldal (404 / SSL hiba); csak térképes listák.",
-      "candidateUrl": "https://szigetkerekpar.hu/"
+      "reason": "pending_verification: domain korábban hibás; címeltérés (Gyári út 9 vs Ifjúság útja 1). Nem minősítjük megszűntnek.",
+      "candidateUrl": "https://szigetkerekpar.hu/",
+      "outcome": "pending_verification"
     },
     {
       "name": "Zsiráfok.hu Kft. Kerékpár és Fitnessgép Centrum",

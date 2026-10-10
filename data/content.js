@@ -5266,6 +5266,42 @@ window.KEREKPARINDEX_CONTENT = {
         }
       ],
       "openingHours": "H–P 09:00–17:30, Szo 09:00–13:00"
+    },
+    {
+      "id": "loc-vellai-kerekpar-ocsa",
+      "organizationId": "org-vellai-kerekpar-ocsa",
+      "name": "Vellai Kerékpár",
+      "address": {
+        "raw": "2364 Ócsa, Viola utca 10.",
+        "city": "Ócsa",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://bikefun.hu/shops/vellai-kerekpar",
+      "phone": [
+        "+36 70 363 0090"
+      ],
+      "email": [
+        "vellaij@gmail.com"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-vellai-kerekpar-ocsa-20261010"
+      ],
+      "brandLinks": [
+        {
+          "brandId": "brand-merida",
+          "brandName": "Merida",
+          "relation": "dealer",
+          "sourceUrl": "https://bikefun.hu/shops/vellai-kerekpar",
+          "quote": "Merida dealer",
+          "evidenceId": "ev-vellai-kerekpar-ocsa-20261010",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
+          "inCatalog": true
+        }
+      ],
+      "openingHours": "H 10:00–17:00, K–P 12:00–17:00, Szo 09:00–12:00"
     }
   ],
   "servicesByLocation": {
@@ -7205,6 +7241,14 @@ window.KEREKPARINDEX_CONTENT = {
         "role": "e-bike-szerviz",
         "sourceUrl": "https://velomax.hu/termekkategoria/alkatreszek/bosch-e-bike-alkatreszek/"
       }
+    ],
+    "loc-vellai-kerekpar-ocsa": [
+      {
+        "id": "svc-vellai-kerekpar-ocsa-eladas",
+        "locationId": "loc-vellai-kerekpar-ocsa",
+        "role": "eladas",
+        "sourceUrl": "https://bikefun.hu/shops/vellai-kerekpar"
+      }
     ]
   },
   "products": [
@@ -8813,6 +8857,13 @@ window.KEREKPARINDEX_CONTENT = {
         "city": "Budapest",
         "relation": "sells_brand",
         "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
+      },
+      {
+        "locationId": "loc-vellai-kerekpar-ocsa",
+        "name": "Vellai Kerékpár",
+        "city": "Ócsa",
+        "relation": "dealer",
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
       }
     ],
     "brand-cube": [
@@ -10167,6 +10218,11 @@ window.KEREKPARINDEX_CONTENT = {
     "ev-velencebike-velence-20261010": {
       "url": "http://www.velencebike.hu/",
       "pageTitle": "Velencebike - Kerékpár és élmény a Velencei tónál",
+      "status": "ellenőrzött"
+    },
+    "ev-vellai-kerekpar-ocsa-20261010": {
+      "url": "https://bikefun.hu/shops/vellai-kerekpar",
+      "pageTitle": "Vellai Kerékpár - BikeFun",
       "status": "ellenőrzött"
     },
     "ev-velociped-fan-szekesfehervar-20261010": {

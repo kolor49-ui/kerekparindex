@@ -1183,6 +1183,13 @@
       "legalName": null,
       "website": "https://velomax.hu/kapcsolat/",
       "notes": null
+    },
+    {
+      "id": "org-vellai-kerekpar-ocsa",
+      "name": "Vellai Kerékpár",
+      "legalName": null,
+      "website": "https://bikefun.hu/shops/vellai-kerekpar",
+      "notes": null
     }
   ]
 }

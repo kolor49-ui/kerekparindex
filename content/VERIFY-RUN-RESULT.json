@@ -15,7 +15,7 @@
     {
       "name": "count_locations_at_least_20",
       "ok": true,
-      "detail": 171
+      "detail": 172
     },
     {
       "name": "count_variants_12",
@@ -108,6 +108,7 @@
         "Vác",
         "Zalaegerszeg",
         "Érd",
+        "Ócsa",
         "Ózd"
       ]
     },
@@ -181,6 +182,7 @@
         "Vác",
         "Zalaegerszeg",
         "Érd",
+        "Ócsa",
         "Ózd"
       ]
     },
@@ -258,12 +260,12 @@
     {
       "name": "brand_links_and_location_evidence",
       "ok": true,
-      "detail": "ok linked=74"
+      "detail": "ok linked=75"
     },
     {
       "name": "brand_links_at_least_8",
       "ok": true,
-      "detail": 74
+      "detail": 75
     },
     {
       "name": "rekord_szerviz_not_on_locations",
@@ -401,7 +403,7 @@
       "előkészített": 1
     },
     "locations": {
-      "ellenőrzött": 171
+      "ellenőrzött": 172
     },
     "variants": {
       "ellenőrzött": 10,
@@ -414,24 +416,24 @@
       "ellenőrzött": 3
     },
     "evidence": {
-      "ellenőrzött": 250,
+      "ellenőrzött": 251,
       "előkészített": 3,
       "hiányos": 1
     },
-    "services": 264
+    "services": 265
   },
   "counts": {
     "brands": 10,
-    "organizations": 169,
-    "locations": 171,
-    "services": 264,
+    "organizations": 170,
+    "locations": 172,
+    "services": 265,
     "products": 12,
     "variants": 12,
-    "evidence": 254,
+    "evidence": 255,
     "explainers": 6,
     "comparisons": 3,
     "articleMarkdown": 9,
-    "brandLinks": 74,
+    "brandLinks": 75,
     "cities": [
       "Ajka",
       "Baja",
@@ -500,6 +502,7 @@
       "Vác",
       "Zalaegerszeg",
       "Érd",
+      "Ócsa",
       "Ózd"
     ]
   },

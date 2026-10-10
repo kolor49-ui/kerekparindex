@@ -3473,6 +3473,23 @@
       "status": "ellenőrzött"
     },
     {
+      "id": "ev-vellai-kerekpar-ocsa-20261010",
+      "url": "https://bikefun.hu/shops/vellai-kerekpar",
+      "pageTitle": "Vellai Kerékpár - BikeFun",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-vellai-kerekpar-ocsa",
+        "loc-vellai-kerekpar-ocsa.address",
+        "loc-vellai-kerekpar-ocsa.openingHours",
+        "loc-vellai-kerekpar-ocsa.phone",
+        "loc-vellai-kerekpar-ocsa.email",
+        "loc-vellai-kerekpar-ocsa.website",
+        "loc-vellai-kerekpar-ocsa.brandLinks.Merida",
+        "svc-vellai-kerekpar-ocsa-eladas"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
       "id": "ev-velociped-fan-szekesfehervar-20261010",
       "url": "https://hariskerekpar.hu/kapcsolat/",
       "pageTitle": "Kapcsolat – Hariskerekpar.hu",

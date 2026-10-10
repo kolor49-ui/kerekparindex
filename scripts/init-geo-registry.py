@@ -62,6 +62,10 @@ CITY_UNIT = {
     "Dunakeszi": "Pest",
     "Vecsés": "Pest",
     "Kiskunlacháza": "Pest",
+    "Ócsa": "Pest",
+    "Monor": "Pest",
+    "Szigetszentmiklós": "Pest",
+    "Paks": "Tolna",
     "Esztergom": "Komárom-Esztergom",
     "Tatabánya": "Komárom-Esztergom",
     "Tata": "Komárom-Esztergom",
@@ -232,8 +236,12 @@ def main() -> None:
     doc = {
         "accessedAt": ACCESS,
         "schemaNote": (
-            "researchStatus: not_researched | in_progress | researched_no_verified | has_published. "
-            "researched_no_verified ≠ «nincs ott üzlet»."
+            "researchStatus: not_researched | in_progress | pass_incomplete | researched_no_verified | has_published. "
+            "researched_no_verified ≠ «nincs ott üzlet». "
+            "Egyetlen üres keresés ≠ lezárt település. "
+            "Jelölt kimenetek (research-ledger.json): settlement_not_searched | searched_not_found | "
+            "found_source_unreachable | found_excluded | pending_verification | published. "
+            "Saját weboldal hiánya nem kizáró ok; Facebook célzottan is keresendő."
         ),
         "publishedLocationCount": len(locs),
         "units": units,

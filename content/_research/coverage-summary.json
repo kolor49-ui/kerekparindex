@@ -1,6 +1,6 @@
 {
   "accessedAt": "2026-10-10",
-  "totalLocations": 171,
+  "totalLocations": 172,
   "budapest": 22,
   "cities": {
     "Budapest": 22,
@@ -70,9 +70,10 @@
     "Törökbálint": 1,
     "Vecsés": 1,
     "Vác": 1,
+    "Ócsa": 1,
     "Ózd": 1
   },
-  "lastBatch": "batch-forum-sport-keszthely-2026-10-10",
+  "lastBatch": "batch-vellai-ocsa-2026-10-10",
   "lastBatchAdded": 1,
   "lastBatchSkipped": [],
   "heldBackCount": 0,

@@ -3570,6 +3570,30 @@
         }
       ],
       "notes": "Forum Sport / Fórum Üzletház a velomax.hu Cím2 címe (Rákóczi út 3.). Elsődleges raktár/webshop cím: Tündérlak u. 8. — külön tételként nem importálva ebben a körben. GreenZone (Rákóczi u. 15.) külön bejegyzés. Kölcsönzés aggregátorokon említve — deferred."
+    },
+    {
+      "id": "loc-vellai-kerekpar-ocsa",
+      "organizationId": "org-vellai-kerekpar-ocsa",
+      "name": "Vellai Kerékpár",
+      "address": "2364 Ócsa, Viola utca 10.",
+      "city": "Ócsa",
+      "website": "https://bikefun.hu/shops/vellai-kerekpar",
+      "phone": [
+        "+36 70 363 0090"
+      ],
+      "email": [
+        "vellaij@gmail.com"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [
+        {
+          "brand": "Merida",
+          "relation": "dealer",
+          "sourceUrl": "https://bikefun.hu/shops/vellai-kerekpar",
+          "quote": "Merida dealer"
+        }
+      ],
+      "notes": "Ócsa első kutatási köre. Szerviz értékelők/AI említik; Facebook nem elérhető (403) — szerviz nem publikálva. Google Business site 404."
     }
   ],
   "services": [

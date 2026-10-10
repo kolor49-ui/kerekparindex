@@ -1,7 +1,7 @@
 {
   "accessedAt": "2026-10-10",
-  "schemaNote": "researchStatus: not_researched | in_progress | researched_no_verified | has_published. researched_no_verified ≠ «nincs ott üzlet».",
-  "publishedLocationCount": 171,
+  "schemaNote": "researchStatus: not_researched | in_progress | pass_incomplete | researched_no_verified | has_published. researched_no_verified ≠ «nincs ott üzlet». Egyetlen üres keresés ≠ lezárt település. Jelölt kimenetek (research-ledger.json): settlement_not_searched | searched_not_found | found_source_unreachable | found_excluded | pending_verification | published. Saját weboldal hiánya nem kizáró ok; Facebook célzottan is keresendő.",
+  "publishedLocationCount": 172,
   "units": [
     {
       "name": "Budapest",
@@ -664,7 +664,7 @@
             "loc-konzum-kerekpar-tatabanya"
           ],
           "publishedCount": 2,
-          "notes": null
+          "notes": "2026-10-10 újramódszer: Jel+Konzum publikált; Dózsakert/M-Bike pending — pass_incomplete (székhely <3 cél)."
         },
         {
           "name": "Tát",
@@ -820,6 +820,14 @@
           "notes": null
         },
         {
+          "name": "Monor",
+          "isCountySeat": false,
+          "researchStatus": "pass_incomplete",
+          "publishedLocationIds": [],
+          "publishedCount": 0,
+          "notes": "2026-10-10 újramódszer: Memo-Bike pending_verification (FB unreachable). NE-VA-DA pending."
+        },
+        {
           "name": "Nagykáta",
           "isCountySeat": false,
           "researchStatus": "has_published",
@@ -838,6 +846,14 @@
           ],
           "publishedCount": 1,
           "notes": null
+        },
+        {
+          "name": "Szigetszentmiklós",
+          "isCountySeat": false,
+          "researchStatus": "pass_incomplete",
+          "publishedLocationIds": [],
+          "publishedCount": 0,
+          "notes": "2026-10-10: Bike55/Szigetkerékpár forrásgát — pass_incomplete."
         },
         {
           "name": "Törökbálint",
@@ -892,10 +908,20 @@
           ],
           "publishedCount": 3,
           "notes": null
+        },
+        {
+          "name": "Ócsa",
+          "isCountySeat": false,
+          "researchStatus": "has_published",
+          "publishedLocationIds": [
+            "loc-vellai-kerekpar-ocsa"
+          ],
+          "publishedCount": 1,
+          "notes": "2026-10-10: korábban settlement_not_searched; Vellai publikálva (eladas)."
         }
       ],
       "districts": null,
-      "publishedTotal": 25
+      "publishedTotal": 26
     },
     {
       "name": "Somogy",
@@ -956,6 +982,14 @@
       "type": "varmegye",
       "seat": "Szekszárd",
       "cities": [
+        {
+          "name": "Paks",
+          "isCountySeat": false,
+          "researchStatus": "pass_incomplete",
+          "publishedLocationIds": [],
+          "publishedCount": 0,
+          "notes": "2026-10-10: Eurocikli forrásgát/címeltérés — pass_incomplete."
+        },
         {
           "name": "Szekszárd",
           "isCountySeat": true,
@@ -1126,39 +1160,43 @@
       "batch-gap-pest-south-2026-10-10",
       "batch-ne-followup-2026-10-10",
       "batch-pest-south-followup-2026-10-10",
-      "batch-forum-sport-keszthely-2026-10-10"
+      "batch-forum-sport-keszthely-2026-10-10",
+      "batch-vellai-ocsa-2026-10-10"
     ],
-    "published": 171,
+    "published": 172,
     "resumeFrom": [
-      "Nógrád: Salgótarján +1 (Amanita továbbra is aggregátor)",
-      "Komárom-Esztergom: Tatabánya +1",
-      "Pest: Szigetszentmiklós, Monor (held); Vecsés most publikált",
-      "Baranya: Mohács; Tolna: Paks (held)",
-      "Budapest kerületek folytatás",
-      "BICIKLIKK Szolnok: saját üzletlista vs Neuzer ellentmondás feloldása"
-    ]
+      "Monor: Memo-Bike Facebook ellenőrzés (pending_verification)",
+      "Szigetszentmiklós: Bike55 / Szigetkerékpár forrásgát",
+      "Paks: Eurocikli cím + forrás",
+      "Tatabánya: Dózsakert szerviz cím",
+      "Ócsa: Vellai szerviz Facebook ha elérhető",
+      "Pest kisebb települések többkifejezéses kör (ne egy keresés = kész)"
+    ],
+    "methodPath": "_research/research-ledger.json"
   },
   "brandBacklogPath": "_research/brand-backlog.json",
   "candidatesPath": "_research/candidates.json",
   "sessionCheckpoint": {
     "savedAt": "2026-10-10",
     "status": "paused_ready_to_resume",
-    "published": 171,
+    "published": 172,
     "lastDeployedBatches": [
       "batch-gap-ne-2026-10-10",
       "batch-gap-pest-south-2026-10-10",
       "batch-ne-followup-2026-10-10",
       "batch-pest-south-followup-2026-10-10",
-      "batch-forum-sport-keszthely-2026-10-10"
+      "batch-forum-sport-keszthely-2026-10-10",
+      "batch-vellai-ocsa-2026-10-10"
     ],
     "resumeFrom": [
-      "Nógrád: Salgótarján +1 (Amanita továbbra is aggregátor)",
-      "Komárom-Esztergom: Tatabánya +1",
-      "Pest: Szigetszentmiklós, Monor (held); Vecsés most publikált",
-      "Baranya: Mohács; Tolna: Paks (held)",
-      "Budapest kerületek folytatás",
-      "BICIKLIKK Szolnok: saját üzletlista vs Neuzer ellentmondás feloldása"
+      "Monor: Memo-Bike Facebook ellenőrzés (pending_verification)",
+      "Szigetszentmiklós: Bike55 / Szigetkerékpár forrásgát",
+      "Paks: Eurocikli cím + forrás",
+      "Tatabánya: Dózsakert szerviz cím",
+      "Ócsa: Vellai szerviz Facebook ha elérhető",
+      "Pest kisebb települések többkifejezéses kör (ne egy keresés = kész)"
     ],
-    "note": "Forum Sport Keszthely (Rákóczi út 3.) hozzáadva felhasználói jelzés alapján."
-  }
+    "note": "Kutatási módszer frissítve (research-ledger). Vellai Ócsa felvéve. Facebook gyakran unreachable az eszközökkel."
+  },
+  "researchLedgerPath": "_research/research-ledger.json"
 }

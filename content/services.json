@@ -1595,6 +1595,12 @@
       "locationId": "loc-forum-sport-keszthely",
       "role": "e-bike-szerviz",
       "sourceUrl": "https://velomax.hu/termekkategoria/alkatreszek/bosch-e-bike-alkatreszek/"
+    },
+    {
+      "id": "svc-vellai-kerekpar-ocsa-eladas",
+      "locationId": "loc-vellai-kerekpar-ocsa",
+      "role": "eladas",
+      "sourceUrl": "https://bikefun.hu/shops/vellai-kerekpar"
     }
   ],
   "organizationLevelNotes": [
