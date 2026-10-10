@@ -1,0 +1,157 @@
+{
+  "accessedAt": "2026-10-10T17:51:46.795Z",
+  "base": "http://127.0.0.1:8771/",
+  "pass": true,
+  "viewports": [
+    {
+      "viewport": "390x844",
+      "cases": [
+        {
+          "id": "default-tab-exact-Szolnok",
+          "query": "Szolnok",
+          "publishedInCity": 4,
+          "placeCardCount": 4,
+          "status": "4 találat",
+          "pass": true
+        },
+        {
+          "id": "default-tab-ascii-enter-Szolnok",
+          "query": "szolnok",
+          "publishedInCity": 4,
+          "placeCardCount": 4,
+          "pass": true
+        },
+        {
+          "id": "default-tab-exact-Debrecen",
+          "query": "Debrecen",
+          "publishedInCity": 5,
+          "placeCardCount": 5,
+          "status": "5 találat",
+          "pass": true
+        },
+        {
+          "id": "default-tab-ascii-enter-Debrecen",
+          "query": "debrecen",
+          "publishedInCity": 5,
+          "placeCardCount": 5,
+          "pass": true
+        },
+        {
+          "id": "default-tab-exact-Győr",
+          "query": "Győr",
+          "publishedInCity": 5,
+          "placeCardCount": 12,
+          "status": "14 találat",
+          "pass": true
+        },
+        {
+          "id": "default-tab-ascii-enter-Gyor",
+          "query": "gyor",
+          "publishedInCity": 5,
+          "placeCardCount": 12,
+          "pass": true
+        },
+        {
+          "id": "default-tab-partial-whitespace",
+          "query": "  szoln  ",
+          "placeCardCount": 4,
+          "pass": true
+        },
+        {
+          "id": "hely-tab-miskolc",
+          "query": "Miskolc",
+          "publishedInCity": 6,
+          "placeCardCount": 6,
+          "pass": true
+        },
+        {
+          "id": "default-tab-brand-trek",
+          "query": "Trek",
+          "cardCount": 1,
+          "pass": true
+        },
+        {
+          "id": "default-tab-miss",
+          "query": "xyzzyqwerty999",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "1280x800",
+      "cases": [
+        {
+          "id": "default-tab-exact-Szolnok",
+          "query": "Szolnok",
+          "publishedInCity": 4,
+          "placeCardCount": 4,
+          "status": "4 találat",
+          "pass": true
+        },
+        {
+          "id": "default-tab-ascii-enter-Szolnok",
+          "query": "szolnok",
+          "publishedInCity": 4,
+          "placeCardCount": 4,
+          "pass": true
+        },
+        {
+          "id": "default-tab-exact-Debrecen",
+          "query": "Debrecen",
+          "publishedInCity": 5,
+          "placeCardCount": 5,
+          "status": "5 találat",
+          "pass": true
+        },
+        {
+          "id": "default-tab-ascii-enter-Debrecen",
+          "query": "debrecen",
+          "publishedInCity": 5,
+          "placeCardCount": 5,
+          "pass": true
+        },
+        {
+          "id": "default-tab-exact-Győr",
+          "query": "Győr",
+          "publishedInCity": 5,
+          "placeCardCount": 12,
+          "status": "14 találat",
+          "pass": true
+        },
+        {
+          "id": "default-tab-ascii-enter-Gyor",
+          "query": "gyor",
+          "publishedInCity": 5,
+          "placeCardCount": 12,
+          "pass": true
+        },
+        {
+          "id": "default-tab-partial-whitespace",
+          "query": "  szoln  ",
+          "placeCardCount": 4,
+          "pass": true
+        },
+        {
+          "id": "hely-tab-miskolc",
+          "query": "Miskolc",
+          "publishedInCity": 6,
+          "placeCardCount": 6,
+          "pass": true
+        },
+        {
+          "id": "default-tab-brand-trek",
+          "query": "Trek",
+          "cardCount": 8,
+          "pass": true
+        },
+        {
+          "id": "default-tab-miss",
+          "query": "xyzzyqwerty999",
+          "pass": true
+        }
+      ],
+      "pass": true
+    }
+  ]
+}

@@ -820,10 +820,69 @@
   }
 
   function norm(s) {
-    return s
+    return String(s == null ? "" : s)
       .toLocaleLowerCase("hu")
       .normalize("NFD")
-      .replace(/[\u0300-\u036f]/g, "");
+      .replace(/[\u0300-\u036f]/g, "")
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
+  function locationRoleLine(loc) {
+    const city = ((loc.address || {}).city || "").trim();
+    const seen = {};
+    const roles = ((content.servicesByLocation && content.servicesByLocation[loc.id]) || [])
+      .map(function (s) {
+        return labelRole(s.role);
+      })
+      .filter(function (r) {
+        if (!r || seen[r]) return false;
+        seen[r] = true;
+        return true;
+      });
+    return [city, roles.join(", ")].filter(Boolean).join(" · ");
+  }
+
+  /** Location hits from published content: name, city, address; exact city first. */
+  function matchLocationHits(q) {
+    const exactCity = [];
+    const cityPartial = [];
+    const other = [];
+    (content.locations || []).forEach(function (l) {
+      const city = (l.address || {}).city || "";
+      const raw = (l.address || {}).raw || "";
+      const nCity = norm(city);
+      const nName = norm(l.name);
+      const nRaw = norm(raw);
+      if (q) {
+        const cityExact = nCity === q;
+        const cityInc = !cityExact && nCity.indexOf(q) !== -1;
+        const nameOrAddr =
+          nName.indexOf(q) !== -1 || nRaw.indexOf(q) !== -1;
+        if (!cityExact && !cityInc && !nameOrAddr) return;
+        const hit = {
+          type: "Üzlet",
+          label: l.name,
+          sub: locationRoleLine(l),
+          open: function () {
+            renderLocation(l);
+          },
+        };
+        if (cityExact) exactCity.push(hit);
+        else if (cityInc) cityPartial.push(hit);
+        else other.push(hit);
+      } else {
+        other.push({
+          type: "Üzlet",
+          label: l.name,
+          sub: locationRoleLine(l),
+          open: function () {
+            renderLocation(l);
+          },
+        });
+      }
+    });
+    return exactCity.concat(cityPartial, other);
   }
 
   function showResultsPanel(title, items, status) {
@@ -863,8 +922,10 @@
       return;
     }
 
-    const q = norm(qRaw.trim());
+    const q = norm(qRaw);
     const hits = [];
+    const locationHits = q || searchMode === "hely" ? matchLocationHits(q) : [];
+
     if (searchMode === "termek" || !searchMode) {
       content.brands.forEach(function (b) {
         if (!q || norm(b.name).includes(q) || norm(b.shortDescription || "").includes(q)) {
@@ -927,21 +988,15 @@
             });
           }
         });
+        // Default hero: keep city/shop intent — append published place hits.
+        locationHits.forEach(function (h) {
+          hits.push(h);
+        });
       }
     }
     if (searchMode === "hely") {
-      content.locations.forEach(function (l) {
-        const city = (l.address || {}).city || "";
-        if (!q || norm(l.name).includes(q) || norm(city).includes(q)) {
-          hits.push({
-            type: "Üzlet",
-            label: l.name,
-            sub: city,
-            open: function () {
-              renderLocation(l);
-            },
-          });
-        }
+      locationHits.forEach(function (h) {
+        hits.push(h);
       });
     }
 
@@ -956,6 +1011,18 @@
     }
     msg.hidden = false;
     if (!hits.length) {
+      // Category empty but places match → surface place hits (no false "nincs találat").
+      if (q && locationHits.length && searchMode !== "hely") {
+        msg.textContent =
+          locationHits.length +
+          " helytalálat (a „Helyek” kategóriában is kereshetsz)";
+        showResultsPanel(
+          "Helytalálatok",
+          locationHits.slice(0, 24),
+          locationHits.length + " találat"
+        );
+        return;
+      }
       msg.textContent =
         "Nincs egyezés. Próbáld például: CUBE, Trek, Debrecen, akkukapacitás.";
       document.getElementById("results").hidden = true;
