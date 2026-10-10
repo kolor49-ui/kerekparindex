@@ -13,8 +13,9 @@
 | D-07 | Az oldal ne webshop benyomását keltse; a termékkártyák és árak ne uralják a nyitóképernyőt. |
 | D-08 | Az országos jelleg, a teljes kerékpáros világ és az ismert márkák azonnal legyenek felismerhetők. |
 | D-09 | Modern, dinamikus formák és színek, erős sans-serif tipográfia; retró betűk helyett a jóváhagyott ORBIT megjelenés. |
-| D-10 | Elfogadott vizuális alap: C · ORBIT, `reference/kerekparindex-v2-c.html` és a mellékelt képernyőkép. |
+| D-10 | *(felülírva D-12-vel)* Korábbi vizuális alap: C · ORBIT nagy herós változat (`reference/kerekparindex-v2-c.html`). |
 | D-11 | Főüzenet: „Minden, ami kerékpár. Magyarországon.” |
+| D-12 | **Elfogadott főoldali elrendezés (2026-10-10): ORBIT Compact** — `reference/kerekparindex-orbit-compact.html`. Felváltja a korábbi nagy herós ORBIT C változatot mobilon és asztalon. Ugyanaz a vizuális identitás (mélylila–korall–levendula), tömörebb hero, új szekvenció (márkák → kereső → kategóriák → aktualis → e-bike → helyek), mobil hamburger menü. |
 
 ## Megvalósítási javaslatok, nem korábban jóváhagyott végleges döntések
 

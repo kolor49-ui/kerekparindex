@@ -1,61 +1,30 @@
 /**
- * Helyi prototípus-mintaadatok.
+ * Helyi prototípus-mintaadatok — ORBIT Compact.
  * Nem élő adatbázis, nem igazolt partnerség vagy ajánlat.
  */
 window.KEREKPARINDEX_SAMPLE = {
   notice:
     "Helyi prototípus: a megjelenő márkák, kategóriák és tartalmi belépők mintaadatok. Élő ajánlat- és üzletadatbázis még nincs.",
   brands: [
-    { id: "cube", name: "CUBE", labelStyle: "regular" },
-    { id: "trek", name: "TREK", labelStyle: "italic" },
-    { id: "giant", name: "GIANT", labelStyle: "tight" },
-    { id: "specialized", name: "SPECIALIZED", labelStyle: "italic-tight" },
-    { id: "merida", name: "MERIDA", labelStyle: "smaller" },
-    { id: "scott", name: "SCOTT", labelStyle: "italic" },
+    { id: "cube", name: "CUBE" },
+    { id: "trek", name: "TREK" },
+    { id: "giant", name: "GIANT" },
+    { id: "specialized", name: "SPECIALIZED" },
+    { id: "merida", name: "MERIDA" },
+    { id: "scott", name: "SCOTT" },
   ],
   categories: [
-    {
-      id: "kerekparok",
-      name: "Kerékpárok",
-      num: "01",
-      subtitle: "Típusok és márkák",
-      scrollTo: null,
-    },
+    { id: "kerekparok", name: "Kerékpárok", subtitle: "Típusok és márkák" },
     {
       id: "elektromos",
       name: "Elektromos",
-      num: "02",
       subtitle: "Modellek és magyarázók",
       scrollTo: "elektromos",
     },
-    {
-      id: "alkatreszek",
-      name: "Alkatrészek",
-      num: "03",
-      subtitle: "A hajtástól a fékig",
-      scrollTo: null,
-    },
-    {
-      id: "felszerelesek",
-      name: "Felszerelések",
-      num: "04",
-      subtitle: "Minden az útra",
-      scrollTo: null,
-    },
-    {
-      id: "uzletek",
-      name: "Üzletek",
-      num: "05",
-      subtitle: "Vásárlás és kipróbálás",
-      scrollTo: null,
-    },
-    {
-      id: "szervizek",
-      name: "Szervizek",
-      num: "06",
-      subtitle: "Karbantartás és javítás",
-      scrollTo: null,
-    },
+    { id: "alkatreszek", name: "Alkatrészek", subtitle: "A hajtástól a fékig" },
+    { id: "felszerelesek", name: "Felszerelések", subtitle: "Minden az útra" },
+    { id: "uzletek", name: "Üzletek", subtitle: "Vásárlás és kipróbálás" },
+    { id: "szervizek", name: "Szervizek", subtitle: "Karbantartás és javítás" },
   ],
   metrics: {
     wh: {
@@ -71,42 +40,20 @@ window.KEREKPARINDEX_SAMPLE = {
       body: "A hatótáv függ a tereptől, a terheléstől, az időjárástól és a választott rásegítéstől. A megadott kilométerérték mellett mindig keresd a mérési körülményeket is.",
     },
   },
-  editorial: [
-    {
-      id: "akciok",
-      title: "Akciók és jó vételek",
-      eyebrow: "Akciófigyelő",
-      heading: "Hol találsz<br>most jó vételt?",
-      accent: true,
-    },
-    {
-      id: "ujdonsagok",
-      title: "Újdonságok és bemutatók",
-      eyebrow: "Újdonságok / bemutatók",
-      heading: "Új modellek.<br>Új lehetőségek.",
-      accent: false,
-    },
-    {
-      id: "ar-ertek",
-      title: "Ár–érték összehasonlítások",
-      eyebrow: "Ár–érték / összehasonlítás",
-      heading: "Mit kapsz<br>a pénzedért?",
-      accent: false,
-    },
-  ],
-  eBikeEditorial: [
-    { id: "ebike-bemutatok", title: "E-bike-bemutatók", label: "Bemutatók ↗" },
-    {
-      id: "ebike-osszehasonlitasok",
-      title: "E-bike-összehasonlítások",
-      label: "Összehasonlítások ↗",
-    },
-    {
-      id: "ebike-akciok",
-      title: "Elektromoskerékpár-akciók",
-      label: "Akciók ↗",
-    },
-  ],
+  editorialBodies: {
+    "Jó vételt keresel?":
+      "<p>Itt jelenhetnek majd meg a kereskedők ellenőrzött ajánlatai, érvényességgel és forráslinkkel. Ebben a látványtervben még nincs élő akciós kínálat.</p>",
+    "500 vagy 750 Wh?":
+      "<p>A Wh az akkumulátorban tárolható energiát jelzi. A nagyobb kapacitás több energiatartalékot ad, de a hatótávot a terep, a terhelés, az időjárás és a rásegítés is alakítja.</p><p>Választásnál a teljes kerékpár tömegét, a töltést és az akkumulátor cserélhetőségét is érdemes megnézni.</p>",
+    "Mitől drágább egy e-bike?":
+      "<p>Hasonlítsd össze a hajtásrendszert, az akkumulátort, a fékeket, a váltót, a vázat és a felszereltséget. Egyetlen paraméter nem írja le az egész kerékpárt.</p><p>A szervizháttér és a használati igényeid ugyanúgy részei a döntésnek.</p>",
+    "E-bike-bemutatók":
+      "<p>Itt önálló szerkesztett tartalmak jelennek majd meg: érthető magyarázatokkal, ellenőrzött forrásokkal és a kapcsolódó kereskedők elérhetőségével.</p><p>Ez egy tartalmi belépő látványterve, nem élő ajánlat vagy megjelent teszt.</p>",
+    "E-bike-összehasonlítások":
+      "<p>Itt önálló szerkesztett tartalmak jelennek majd meg: érthető magyarázatokkal, ellenőrzött forrásokkal és a kapcsolódó kereskedők elérhetőségével.</p><p>Ez egy tartalmi belépő látványterve, nem élő ajánlat vagy megjelent teszt.</p>",
+    "Elektromoskerékpár-akciók":
+      "<p>Itt jelenhetnek majd meg a kereskedők ellenőrzött ajánlatai, érvényességgel és forráslinkkel. Ebben a látványtervben még nincs élő akciós kínálat.</p>",
+  },
   dialogPaths: [
     "Modellek és bemutatók",
     "Alkatrészek és felszerelések",

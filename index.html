@@ -7,46 +7,44 @@
     <title>KERÉKPÁRINDEX</title>
     <link rel="stylesheet" href="css/main.css" />
   </head>
-  <body>
+  <body class="v-c">
     <div class="wrap">
       <header class="head">
         <a class="logo" href="#"><i></i>KERÉKPÁR<span>INDEX</span></a>
-        <div class="nav-scroll">
-          <nav aria-label="Fő navigáció">
-            <a href="#markak">Márkák</a>
-            <a href="#felfedezes">Minden, ami kerékpár</a>
-            <a href="#elektromos">Elektromos</a>
-            <a href="#helyek">Üzletek és szervizek</a>
-            <a class="nav-deal" href="#aktualis">Akciók ↗</a>
-            <button
-              class="search-icon"
-              type="button"
-              aria-label="Keresőhöz ugrás"
-            >
-              ⌕
-            </button>
-          </nav>
-        </div>
+        <nav aria-label="Fő navigáció" id="main-nav">
+          <a href="#markak">Márkák</a>
+          <a href="#felfedezes">Minden, ami kerékpár</a>
+          <a href="#elektromos">Elektromos</a>
+          <a href="#helyek">Üzletek és szervizek</a>
+          <a class="nav-deal" href="#aktualis">Akciók ↗</a>
+          <button
+            class="search-icon"
+            type="button"
+            aria-label="Keresőhöz ugrás"
+          >
+            ⌕
+          </button>
+        </nav>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-controls="main-nav"
+          aria-expanded="false"
+          aria-label="Menü megnyitása"
+        >
+          ☰
+        </button>
       </header>
 
       <main>
         <section class="hero">
           <div class="hero-content">
-            <div class="overline">
-              <span class="dot"></span>Az ország kerékpáros kínálata. Egy helyen.
-            </div>
             <h1>
-              Minden, ami<br /><span>kerékpár.</span><br />Magyarországon.
+              Minden, ami <span>kerékpár.</span><br />Magyarországon.
             </h1>
             <p>
-              Márkák, kerékpárok, alkatrészek és felszerelések.<br />
-              Hazai üzletek, szervizek, újdonságok és akciók.
+              Márkák, üzletek, szervizek, újdonságok és akciók. Egy helyen.
             </p>
-            <a class="cta" href="#felfedezes">Fedezd fel a kínálatot <b>↗</b></a>
-            <div class="hero-bottom">
-              <span>MÁRKÁK</span><span> / </span><span>ÖSSZEHASONLÍTÁSOK</span
-              ><span> / </span><span>JÓ VÉTELEK</span>
-            </div>
           </div>
           <div class="hero-art">
             <svg
@@ -81,7 +79,9 @@
                 />
               </g>
               <g stroke="#809194" opacity=".4" stroke-width="1">
-                <path d="M66 238h182M157 147v182M93 174l128 128M93 302l128-128M429 238h182M520 147v182M456 174l128 128M456 302l128-128" />
+                <path
+                  d="M66 238h182M157 147v182M93 174l128 128M93 302l128-128M429 238h182M520 147v182M456 174l128 128M456 302l128-128"
+                />
               </g>
               <g
                 fill="none"
@@ -124,24 +124,16 @@
                 stroke-width="16"
                 stroke-linecap="round"
               />
-              <path
-                d="M157 238l164 7"
-                stroke="#626e71"
-                stroke-width="3"
-              />
+              <path d="M157 238l164 7" stroke="#626e71" stroke-width="3" />
             </svg>
           </div>
-          <div class="side-type">KERÉKPÁRINDEX / 2026</div>
-          <a class="float-label" href="#elektromos"
-            >KÖVETKEZŐ ÁLLOMÁS<b>Elektromos. Érthetően. ↗</b></a
-          >
         </section>
 
         <section class="brands" id="markak">
           <div class="row-heading">
-            <span class="eyebrow">Ismerős márkák. Új lehetőségek.</span>
+            <span class="eyebrow">Kezdd egy ismerős márkával</span>
             <button class="text-link" type="button" id="all-brands">
-              Márkák felfedezése ↗
+              Összes márka ↗
             </button>
           </div>
           <div class="brand-list">
@@ -171,15 +163,9 @@
         <p class="empty" id="search-message" role="status" hidden></p>
 
         <section class="section" id="felfedezes">
-          <div class="eyebrow">Minden irány nyitva</div>
-          <h2>A teljes kerékpáros világ.</h2>
+          <h2>Mit keresel?</h2>
           <div class="categories">
-            <button
-              class="category"
-              type="button"
-              data-category="Kerékpárok"
-            >
-              <span class="num">01 ↗</span>
+            <button class="category" type="button" data-category="Kerékpárok">
               <svg viewBox="0 0 46 46" aria-hidden="true">
                 <circle cx="10" cy="27" r="8" />
                 <circle cx="34" cy="27" r="8" />
@@ -196,19 +182,13 @@
               data-category="Elektromos"
               data-scroll-to="elektromos"
             >
-              <span class="num">02 ↗</span>
               <svg viewBox="0 0 46 46" aria-hidden="true">
                 <path d="M25 3L12 23h12l-3 16 15-22H24z" />
               </svg>
               <strong>Elektromos</strong>
               <small>Modellek és magyarázók</small>
             </button>
-            <button
-              class="category"
-              type="button"
-              data-category="Alkatrészek"
-            >
-              <span class="num">03 ↗</span>
+            <button class="category" type="button" data-category="Alkatrészek">
               <svg viewBox="0 0 46 46" aria-hidden="true">
                 <circle cx="23" cy="22" r="11" />
                 <circle cx="23" cy="22" r="4" />
@@ -224,7 +204,6 @@
               type="button"
               data-category="Felszerelések"
             >
-              <span class="num">04 ↗</span>
               <svg viewBox="0 0 46 46" aria-hidden="true">
                 <path
                   d="M6 25a17 17 0 0 1 34 0v4H6zm12-15-2 15m12-15 2 15M8 30l9 9h12l8-9"
@@ -234,7 +213,6 @@
               <small>Minden az útra</small>
             </button>
             <button class="category" type="button" data-category="Üzletek">
-              <span class="num">05 ↗</span>
               <svg viewBox="0 0 46 46" aria-hidden="true">
                 <path
                   d="M6 18h34l-4-11H10zM9 18v20h28V18M17 38V25h12v13M5 18q4 8 9 0 5 8 10 0 5 8 10 0 5 8 8 0"
@@ -244,7 +222,6 @@
               <small>Vásárlás és kipróbálás</small>
             </button>
             <button class="category" type="button" data-category="Szervizek">
-              <span class="num">06 ↗</span>
               <svg viewBox="0 0 46 46" aria-hidden="true">
                 <path
                   d="M30 6a10 10 0 0 0-12 13L5 32l7 7 13-14A10 10 0 0 0 38 13l-8 6-5-5z"
@@ -256,13 +233,53 @@
           </div>
         </section>
 
+        <section class="section" id="aktualis">
+          <div class="row-heading">
+            <div>
+              <div class="eyebrow">Ajánlatok · bemutatók · összehasonlítások</div>
+              <h2>Ami most érdekelhet</h2>
+            </div>
+          </div>
+          <div class="editorial">
+            <button
+              class="story accent"
+              type="button"
+              data-editorial="Jó vételt keresel?"
+            >
+              <span class="eyebrow">AKCIÓK</span>
+              <h3>Jó vételt keresel?</h3>
+              <p>Kerékpárok és felszerelések ajánlatai, egy helyen.</p>
+              <span class="arrow">Ajánlatok felfedezése ↗</span>
+            </button>
+            <button
+              class="story"
+              type="button"
+              data-editorial="500 vagy 750 Wh?"
+            >
+              <span class="eyebrow">VÁSÁRLÁSI SEGÍTSÉG</span>
+              <h3>500 vagy 750 Wh?</h3>
+              <p>Mit árul el az akkukapacitás, és mit nem?</p>
+              <span class="arrow">Olvasd el a magyarázót ↗</span>
+            </button>
+            <button
+              class="story"
+              type="button"
+              data-editorial="Mitől drágább egy e-bike?"
+            >
+              <span class="eyebrow">ÖSSZEHASONLÍTÁS</span>
+              <h3>Mitől drágább egy e-bike?</h3>
+              <p>Motor, fék, akkumulátor: hol keresd a különbséget?</p>
+              <span class="arrow">Nézd meg a szempontokat ↗</span>
+            </button>
+          </div>
+        </section>
+
         <section class="electric" id="elektromos">
           <div>
-            <div class="overline">E-bike / külön világ, érthetően</div>
-            <h2>Értsd a technikát.<br /><span>Érezd a különbséget.</span></h2>
+            <div class="overline">ELEKTROMOS KERÉKPÁROK</div>
+            <h2>Nézz a számok mögé.</h2>
             <p>
-              Miért számít a motor, az akkumulátor vagy a tömeg? Válassz egy
-              paramétert, és nézd meg, mit jelent a gyakorlatban.
+              Motor, akkumulátor, hatótáv. Kattints arra, amit jobban értenél.
             </p>
             <div class="chips">
               <button type="button" data-editorial="E-bike-bemutatók">
@@ -333,54 +350,15 @@
           </div>
         </section>
 
-        <section class="section" id="aktualis">
-          <div class="row-heading">
-            <div>
-              <div class="eyebrow">Amit érdemes követned</div>
-              <h2>Mozgásban a kerékpáros világ.</h2>
-            </div>
-          </div>
-          <div class="editorial">
-            <button
-              class="story accent"
-              type="button"
-              data-editorial="Akciók és jó vételek"
-            >
-              <span class="eyebrow">Akciófigyelő</span>
-              <h3>Hol találsz<br />most jó vételt?</h3>
-              <span class="arrow">↗</span>
-            </button>
-            <button
-              class="story"
-              type="button"
-              data-editorial="Újdonságok és bemutatók"
-            >
-              <span class="eyebrow">Újdonságok / bemutatók</span>
-              <h3>Új modellek.<br />Új lehetőségek.</h3>
-              <span class="arrow">↗</span>
-            </button>
-            <button
-              class="story"
-              type="button"
-              data-editorial="Ár–érték összehasonlítások"
-            >
-              <span class="eyebrow">Ár–érték / összehasonlítás</span>
-              <h3>Mit kapsz<br />a pénzedért?</h3>
-              <span class="arrow">↗</span>
-            </button>
-          </div>
-        </section>
-
         <section class="service" id="helyek">
           <div>
-            <div class="eyebrow">Országosan. Helyben.</div>
-            <h2>Megnéznéd? Kipróbálnád? Javíttatnád?</h2>
+            <h2>Üzlet vagy szerviz a közeledben</h2>
             <p>
-              Keresd meg a megfelelő kerékpárüzletet vagy szervizt a közeledben.
+              Vásárlás, kipróbálás, javítás. Találd meg a megfelelő helyet.
             </p>
           </div>
           <button class="cta" type="button" id="local">
-            Üzletek és szervizek <b>↗</b>
+            Keresek egy helyet ↗
           </button>
         </section>
       </main>
@@ -388,10 +366,8 @@
       <footer>
         <a class="logo" href="#">KERÉKPÁR<span>INDEX</span></a>
         <p>
-          Helyi prototípus · minta tartalmi útvonalakkal.<br />
-          A márkanevek tipográfiai helyőrzők, nem hivatalos logók; szerepeltetésük
-          nem jelez partnerséget. A kerékpár illusztráció. Élő ajánlat- és
-          üzletadatbázis még nincs.
+          ORBIT Compact · Helyi prototípus. A márkafeliratok helyőrzők; a
+          tartalmi kártyák minták. Nincs élő ár-, készlet- vagy üzletadatbázis.
         </p>
       </footer>
     </div>

@@ -1,14 +1,16 @@
-# Elfogadott vizuális alap — C · ORBIT
+# Elfogadott vizuális alap — ORBIT Compact
 
-Elsődleges forrás: `reference/kerekparindex-v2-c.html`. Vizuális bizonyíték: `reference/orbit-elfogadott-desktop.png`.
+Elsődleges forrás (2026-10-10): `reference/kerekparindex-orbit-compact.html`.  
+Korábbi nagy herós C · ORBIT (történeti): `reference/kerekparindex-v2-c.html`, `reference/orbit-elfogadott-desktop.png`.  
+Lásd: `docs/09-ORBIT-COMPACT.md`, döntés **D-12**.
 
 ## Megőrzendő
 
 - Mélylila alap, korall kiemelések, levendula grafikai formák.
-- A hero kompozíciója, nagy tipográfiája, szövege, átlós formái és kerékpár-illusztrációja.
-- A fejléc, szójel, navigáció, gombstílus, lekerekítések és térközök aránya.
+- A Compact hero kompozíciója, tipográfiája, szövege és (asztali) kerékpár-illusztrációja.
+- A fejléc, szójel, navigáció / mobil menü, gombstílus, lekerekítések és Compact térközök.
 - Márkasáv és a portáljellegű kategóriabelépők.
-- A működő frontend-interakciók szerepe és a reszponzív szabályok kiinduló logikája.
+- A működő frontend-interakciók szerepe és a reszponzív Compact szabályok.
 
 A komponensekre bontás nem jelent engedélyt új designra. CSS-reset, UI-könyvtár vagy alapértelmezett framework-font ne változtassa meg észrevétlenül a megjelenést. SEO-feladat miatt sem változhat a vizuális hierarchia vagy a felirat.
 

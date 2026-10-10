@@ -3,7 +3,12 @@
   const dialog = document.getElementById("dialog");
   const dialogTitle = document.getElementById("dialog-title");
   const dialogContent = document.getElementById("dialog-content");
+  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
   let lastOpener = null;
+
+  function scrollBehavior() {
+    return reduceMotion.matches ? "auto" : "smooth";
+  }
 
   function grid(items) {
     return (
@@ -73,7 +78,7 @@
       if (btn.dataset.scrollTo) {
         document
           .getElementById(btn.dataset.scrollTo)
-          .scrollIntoView({ behavior: "smooth" });
+          .scrollIntoView({ behavior: scrollBehavior() });
         return;
       }
       show(
@@ -126,28 +131,14 @@
     });
   });
 
-  (function setupNavScrollHint() {
-    const wrap = document.querySelector(".nav-scroll");
-    const nav = wrap && wrap.querySelector("nav");
-    if (!wrap || !nav) return;
-    function update() {
-      const max = nav.scrollWidth - nav.clientWidth;
-      const atEnd = max <= 1 || nav.scrollLeft >= max - 1;
-      wrap.classList.toggle("is-end", atEnd);
-      wrap.classList.toggle("is-scrollable", max > 1);
-    }
-    nav.addEventListener("scroll", update, { passive: true });
-    window.addEventListener("resize", update);
-    update();
-  })();
-
   document.querySelectorAll("[data-editorial]").forEach(function (btn) {
     btn.addEventListener("click", function () {
-      show(
-        btn.dataset.editorial,
-        "<p>Itt önálló szerkesztett tartalmak jelennek majd meg: érthető magyarázatokkal, ellenőrzött forrásokkal és a kapcsolódó kereskedők elérhetőségével.</p><p>Ez egy tartalmi belépő látványterve, nem élő ajánlat vagy megjelent teszt.</p>",
-        btn
-      );
+      const title = btn.dataset.editorial;
+      const custom = sample.editorialBodies[title];
+      const body =
+        custom ||
+        "<p>Itt önálló szerkesztett tartalmak jelennek majd meg: érthető magyarázatokkal, ellenőrzött forrásokkal és a kapcsolódó kereskedők elérhetőségével.</p><p>Ez egy tartalmi belépő látványterve, nem élő ajánlat vagy megjelent teszt.</p>";
+      show(title, body, btn);
     });
   });
 
@@ -168,9 +159,8 @@
       .replace(/[\u0300-\u036f]/g, "");
   }
 
-  document.getElementById("search").addEventListener("submit", function (e) {
-    e.preventDefault();
-    const q = norm(document.getElementById("query").value.trim());
+  function applySearch(qRaw) {
+    const q = norm(qRaw.trim());
     let n = 0;
     document.querySelectorAll("[data-brand], [data-category]").forEach(function (el) {
       const yes = !q || norm(el.textContent).includes(q);
@@ -178,21 +168,69 @@
       if (yes) n += 1;
     });
     const message = document.getElementById("search-message");
-    message.hidden = false;
     if (!q) {
-      message.textContent = "Minden márka és kategória látható.";
-    } else if (n) {
-      message.textContent = n + " márka vagy kategória a helyi mintában.";
-    } else {
-      message.textContent =
-        "Nincs egyezés a mintában. Próbáld: Cube, elektromos, alkatrészek vagy szerviz.";
+      message.hidden = true;
+      message.textContent = "";
+      return;
+    }
+    message.hidden = false;
+    message.textContent = n
+      ? n + " márka vagy kategória a helyi mintában."
+      : "Nincs egyezés a mintában. Próbáld: Cube, elektromos, alkatrészek vagy szerviz.";
+  }
+
+  document.getElementById("search").addEventListener("submit", function (e) {
+    e.preventDefault();
+    applySearch(document.getElementById("query").value);
+  });
+
+  document.getElementById("query").addEventListener("input", function (e) {
+    if (!e.target.value) {
+      document
+        .querySelectorAll("[data-brand], [data-category]")
+        .forEach(function (b) {
+          b.hidden = false;
+        });
+      document.getElementById("search-message").hidden = true;
     }
   });
 
-  document.querySelector(".search-icon").addEventListener("click", function () {
-    document.getElementById("query").focus();
-    document
-      .getElementById("search")
-      .scrollIntoView({ behavior: "smooth", block: "center" });
+  const searchIcon = document.querySelector(".search-icon");
+  if (searchIcon) {
+    searchIcon.addEventListener("click", function () {
+      document.getElementById("query").focus();
+      document
+        .getElementById("search")
+        .scrollIntoView({ behavior: scrollBehavior(), block: "center" });
+    });
+  }
+
+  const menu = document.querySelector(".menu-toggle");
+  const nav = document.getElementById("main-nav");
+
+  function closeMenu() {
+    nav.classList.remove("open");
+    menu.setAttribute("aria-expanded", "false");
+    menu.setAttribute("aria-label", "Menü megnyitása");
+  }
+
+  menu.addEventListener("click", function () {
+    const open = nav.classList.toggle("open");
+    menu.setAttribute("aria-expanded", String(open));
+    menu.setAttribute(
+      "aria-label",
+      open ? "Menü bezárása" : "Menü megnyitása"
+    );
+  });
+
+  nav.querySelectorAll("a").forEach(function (a) {
+    a.addEventListener("click", closeMenu);
+  });
+
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape" && nav.classList.contains("open")) {
+      closeMenu();
+      menu.focus();
+    }
   });
 })();
