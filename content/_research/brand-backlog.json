@@ -1,4 +1,13 @@
 {
   "accessedAt": "2026-10-10",
-  "items": []
+  "items": [
+    {
+      "name": "Csepel",
+      "seenAtLocation": "loc-csepel-centrum-szolnok",
+      "sourceUrl": "https://csepelkerekpar.109.hu/?p=kapcsolat",
+      "quote": "Csepel Kerékpár Kft. — kerékpárok széles választéka",
+      "accessedAt": "2026-10-10",
+      "status": "candidate"
+    }
+  ]
 }

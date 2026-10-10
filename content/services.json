@@ -1379,6 +1379,60 @@
       "locationId": "loc-kerekpar-szakuzlet-kalocsa",
       "role": "eladas",
       "sourceUrl": "https://bikefun.hu/shops/kerekpar-szakuezlet-kalocsa"
+    },
+    {
+      "id": "svc-csepel-centrum-szolnok-eladas",
+      "locationId": "loc-csepel-centrum-szolnok",
+      "role": "eladas",
+      "sourceUrl": "https://csepelkerekpar.109.hu/?p=kapcsolat"
+    },
+    {
+      "id": "svc-sprint-kerekpar-szolnok-eladas",
+      "locationId": "loc-sprint-kerekpar-szolnok",
+      "role": "eladas",
+      "sourceUrl": "https://sprintkerekpar.109.hu/?p=kapcsolat"
+    },
+    {
+      "id": "svc-webbicikli-gyula-eladas",
+      "locationId": "loc-webbicikli-gyula",
+      "role": "eladas",
+      "sourceUrl": "https://www.webbicikli.hu/"
+    },
+    {
+      "id": "svc-webbicikli-gyula-szerviz",
+      "locationId": "loc-webbicikli-gyula",
+      "role": "szerviz",
+      "sourceUrl": "https://www.webbicikli.hu/"
+    },
+    {
+      "id": "svc-anger-es-tarsa-miskolc-eladas",
+      "locationId": "loc-anger-es-tarsa-miskolc",
+      "role": "eladas",
+      "sourceUrl": "http://www.anger.hu/kapcsolat"
+    },
+    {
+      "id": "svc-anger-es-tarsa-miskolc-szerviz",
+      "locationId": "loc-anger-es-tarsa-miskolc",
+      "role": "szerviz",
+      "sourceUrl": "http://www.anger.hu/bemutatkozas"
+    },
+    {
+      "id": "svc-radvanyi-kerekparszerviz-miskolc-szerviz",
+      "locationId": "loc-radvanyi-kerekparszerviz-miskolc",
+      "role": "szerviz",
+      "sourceUrl": "https://kerekparszervizmiskolc.hu/"
+    },
+    {
+      "id": "svc-radvanyi-kerekparszerviz-miskolc-e-bike-szerviz",
+      "locationId": "loc-radvanyi-kerekparszerviz-miskolc",
+      "role": "e-bike-szerviz",
+      "sourceUrl": "https://kerekparszervizmiskolc.hu/"
+    },
+    {
+      "id": "svc-speedy-bekescsaba-szerviz",
+      "locationId": "loc-speedy-bekescsaba",
+      "role": "szerviz",
+      "sourceUrl": "http://www.speedybicikli.hu/index.php/szerviz"
     }
   ],
   "organizationLevelNotes": [

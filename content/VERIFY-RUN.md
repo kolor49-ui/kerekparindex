@@ -9,16 +9,16 @@ Result: **PASS**
 ```json
 {
   "brands": 10,
-  "organizations": 149,
-  "locations": 151,
-  "services": 228,
+  "organizations": 154,
+  "locations": 156,
+  "services": 237,
   "products": 12,
   "variants": 12,
-  "evidence": 231,
+  "evidence": 237,
   "explainers": 6,
   "comparisons": 3,
   "articleMarkdown": 9,
-  "brandLinks": 70,
+  "brandLinks": 72,
   "cities": [
     "Ajka",
     "Baja",
@@ -98,7 +98,7 @@ Result: **PASS**
     "előkészített": 1
   },
   "locations": {
-    "ellenőrzött": 151
+    "ellenőrzött": 156
   },
   "variants": {
     "ellenőrzött": 10,
@@ -111,11 +111,11 @@ Result: **PASS**
     "ellenőrzött": 3
   },
   "evidence": {
-    "ellenőrzött": 227,
+    "ellenőrzött": 233,
     "előkészített": 3,
     "hiányos": 1
   },
-  "services": 228
+  "services": 237
 }
 ```
 
@@ -123,7 +123,7 @@ Result: **PASS**
 
 - PASS: `required_files` — all present
 - PASS: `count_brands_at_least_10` — 10
-- PASS: `count_locations_at_least_20` — 151
+- PASS: `count_locations_at_least_20` — 156
 - PASS: `count_variants_12` — 12
 - PASS: `count_explainers_6` — 6
 - PASS: `count_comparisons_3` — 3
@@ -142,8 +142,8 @@ Result: **PASS**
 - PASS: `locations_organizationId_resolve` — ok
 - PASS: `services_locationId_resolve` — ok
 - PASS: `services_have_sourceUrl` — ok
-- PASS: `brand_links_and_location_evidence` — ok linked=70
-- PASS: `brand_links_at_least_8` — 70
+- PASS: `brand_links_and_location_evidence` — ok linked=72
+- PASS: `brand_links_at_least_8` — 72
 - PASS: `rekord_szerviz_not_on_locations` — ok
 - PASS: `variant_evidence_supports_and_titles` — ok
 - PASS: `location_evidence_pageTitles` — ok

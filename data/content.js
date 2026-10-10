@@ -4307,7 +4307,7 @@ window.KEREKPARINDEX_CONTENT = {
         "postalCode": null,
         "street": null
       },
-      "website": "https://bikefun.hu/shops/speedy-kerekparuezlet",
+      "website": "http://www.speedybicikli.hu/",
       "phone": [
         "+36 66 640 602"
       ],
@@ -4317,7 +4317,8 @@ window.KEREKPARINDEX_CONTENT = {
       "coordinates": null,
       "status": "ellenőrzött",
       "evidenceIds": [
-        "ev-speedy-bekescsaba-20261010"
+        "ev-speedy-bekescsaba-20261010",
+        "ev-speedy-bekescsaba-szerviz-20261010"
       ],
       "brandLinks": [
         {
@@ -4723,6 +4724,148 @@ window.KEREKPARINDEX_CONTENT = {
       ],
       "brandLinks": [],
       "openingHours": "H–P 9:00–17:00, Szo 8:00–12:00"
+    },
+    {
+      "id": "loc-csepel-centrum-szolnok",
+      "organizationId": "org-csepel-centrum-szolnok",
+      "name": "Csepel Kerékpárcentrum",
+      "address": {
+        "raw": "5000 Szolnok, Thököly út 97.",
+        "city": "Szolnok",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://csepelkerekpar.109.hu/",
+      "phone": [
+        "+36 20 941 8354"
+      ],
+      "email": [],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-csepel-centrum-szolnok-20261010"
+      ],
+      "brandLinks": [],
+      "openingHours": "H–P nyitvatartás a kapcsolat oldalon (zárás 17:00; részletek a forráson)"
+    },
+    {
+      "id": "loc-sprint-kerekpar-szolnok",
+      "organizationId": "org-sprint-kerekpar-szolnok",
+      "name": "Sprint Kerékpárbolt",
+      "address": {
+        "raw": "5000 Szolnok, Baross utca 48.",
+        "city": "Szolnok",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://sprintkerekpar.109.hu/",
+      "phone": [],
+      "email": [
+        "sprint.kerekpar@postafiok.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-sprint-kerekpar-szolnok-20261010"
+      ],
+      "brandLinks": [
+        {
+          "brandId": "brand-neuzer",
+          "brandName": "Neuzer",
+          "relation": "sells_brand",
+          "sourceUrl": "https://sprintkerekpar.109.hu/?p=kapcsolat",
+          "quote": "Női kerékpárok, Neuzer, Mali, Kross Evado.",
+          "evidenceId": "ev-sprint-kerekpar-szolnok-20261010",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
+          "inCatalog": true
+        }
+      ],
+      "openingHours": "H 10:00–17:30, K–P 10:00–18:00 (kapcsolat oldal)"
+    },
+    {
+      "id": "loc-webbicikli-gyula",
+      "organizationId": "org-webbicikli-gyula",
+      "name": "Webbicikli",
+      "address": {
+        "raw": "5700 Gyula, Zrínyi tér 3.",
+        "city": "Gyula",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://www.webbicikli.hu/",
+      "phone": [
+        "+36 70 238 2381"
+      ],
+      "email": [
+        "info@webbicikli.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-webbicikli-gyula-20261010"
+      ],
+      "brandLinks": [],
+      "openingHours": "H–P 9:00–17:00 (ebéd 12:00–13:00), Szo 9:00–12:00"
+    },
+    {
+      "id": "loc-anger-es-tarsa-miskolc",
+      "organizationId": "org-anger-es-tarsa-miskolc",
+      "name": "Anger és Társa Bt.",
+      "address": {
+        "raw": "3528 Miskolc, Gvadányi József utca 29.",
+        "city": "Miskolc",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://www.anger.hu/",
+      "phone": [
+        "+36 46 389 846",
+        "+36 30 565 0827"
+      ],
+      "email": [
+        "info@anger.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-anger-es-tarsa-miskolc-20261010"
+      ],
+      "brandLinks": [
+        {
+          "brandId": "brand-neuzer",
+          "brandName": "Neuzer",
+          "relation": "sells_brand",
+          "sourceUrl": "https://neuzer.hu/partnereink",
+          "quote": "Anger/Gvadányi — Neuzer viszonteladói partner",
+          "evidenceId": "ev-bicaj-bt-debrecen-20261010",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
+          "inCatalog": true
+        }
+      ]
+    },
+    {
+      "id": "loc-radvanyi-kerekparszerviz-miskolc",
+      "organizationId": "org-radvanyi-kerekparszerviz-miskolc",
+      "name": "Radványi Norbert kerékpárszerviz",
+      "address": {
+        "raw": "3508 Miskolc, Gátőr utca 24.",
+        "city": "Miskolc",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://kerekparszervizmiskolc.hu/",
+      "phone": [
+        "+36 30 829 5238"
+      ],
+      "email": [
+        "norbi@kerekparszervizmiskolc.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-radvanyi-kerekparszerviz-miskolc-20261010"
+      ],
+      "brandLinks": []
     }
   ],
   "servicesByLocation": {
@@ -6301,6 +6444,12 @@ window.KEREKPARINDEX_CONTENT = {
         "locationId": "loc-speedy-bekescsaba",
         "role": "eladas",
         "sourceUrl": "https://bikefun.hu/shops/speedy-kerekparuezlet"
+      },
+      {
+        "id": "svc-speedy-bekescsaba-szerviz",
+        "locationId": "loc-speedy-bekescsaba",
+        "role": "szerviz",
+        "sourceUrl": "http://www.speedybicikli.hu/index.php/szerviz"
       }
     ],
     "loc-bakony-sport-ajka": [
@@ -6405,6 +6554,64 @@ window.KEREKPARINDEX_CONTENT = {
         "locationId": "loc-kerekpar-szakuzlet-kalocsa",
         "role": "eladas",
         "sourceUrl": "https://bikefun.hu/shops/kerekpar-szakuezlet-kalocsa"
+      }
+    ],
+    "loc-csepel-centrum-szolnok": [
+      {
+        "id": "svc-csepel-centrum-szolnok-eladas",
+        "locationId": "loc-csepel-centrum-szolnok",
+        "role": "eladas",
+        "sourceUrl": "https://csepelkerekpar.109.hu/?p=kapcsolat"
+      }
+    ],
+    "loc-sprint-kerekpar-szolnok": [
+      {
+        "id": "svc-sprint-kerekpar-szolnok-eladas",
+        "locationId": "loc-sprint-kerekpar-szolnok",
+        "role": "eladas",
+        "sourceUrl": "https://sprintkerekpar.109.hu/?p=kapcsolat"
+      }
+    ],
+    "loc-webbicikli-gyula": [
+      {
+        "id": "svc-webbicikli-gyula-eladas",
+        "locationId": "loc-webbicikli-gyula",
+        "role": "eladas",
+        "sourceUrl": "https://www.webbicikli.hu/"
+      },
+      {
+        "id": "svc-webbicikli-gyula-szerviz",
+        "locationId": "loc-webbicikli-gyula",
+        "role": "szerviz",
+        "sourceUrl": "https://www.webbicikli.hu/"
+      }
+    ],
+    "loc-anger-es-tarsa-miskolc": [
+      {
+        "id": "svc-anger-es-tarsa-miskolc-eladas",
+        "locationId": "loc-anger-es-tarsa-miskolc",
+        "role": "eladas",
+        "sourceUrl": "http://www.anger.hu/kapcsolat"
+      },
+      {
+        "id": "svc-anger-es-tarsa-miskolc-szerviz",
+        "locationId": "loc-anger-es-tarsa-miskolc",
+        "role": "szerviz",
+        "sourceUrl": "http://www.anger.hu/bemutatkozas"
+      }
+    ],
+    "loc-radvanyi-kerekparszerviz-miskolc": [
+      {
+        "id": "svc-radvanyi-kerekparszerviz-miskolc-szerviz",
+        "locationId": "loc-radvanyi-kerekparszerviz-miskolc",
+        "role": "szerviz",
+        "sourceUrl": "https://kerekparszervizmiskolc.hu/"
+      },
+      {
+        "id": "svc-radvanyi-kerekparszerviz-miskolc-e-bike-szerviz",
+        "locationId": "loc-radvanyi-kerekparszerviz-miskolc",
+        "role": "e-bike-szerviz",
+        "sourceUrl": "https://kerekparszervizmiskolc.hu/"
       }
     ]
   },
@@ -8088,6 +8295,20 @@ window.KEREKPARINDEX_CONTENT = {
         "city": "Esztergom",
         "relation": "dealer",
         "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
+      },
+      {
+        "locationId": "loc-sprint-kerekpar-szolnok",
+        "name": "Sprint Kerékpárbolt",
+        "city": "Szolnok",
+        "relation": "sells_brand",
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
+      },
+      {
+        "locationId": "loc-anger-es-tarsa-miskolc",
+        "name": "Anger és Társa Bt.",
+        "city": "Miskolc",
+        "relation": "sells_brand",
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
       }
     ],
     "brand-specialized": [
@@ -8273,6 +8494,11 @@ window.KEREKPARINDEX_CONTENT = {
     "ev-altrix-esztergom-20261010": {
       "url": "https://neuzer.hu/partnereink",
       "pageTitle": "Viszonteladó partnereink",
+      "status": "ellenőrzött"
+    },
+    "ev-anger-es-tarsa-miskolc-20261010": {
+      "url": "http://www.anger.hu/kapcsolat",
+      "pageTitle": "Kapcsolat — Anger és Társa Bt., Miskolc",
       "status": "ellenőrzött"
     },
     "ev-aquarius-bike-dunaujvaros-20261010": {
@@ -8503,6 +8729,11 @@ window.KEREKPARINDEX_CONTENT = {
     "ev-ciklotour-jaszbereny-20261010": {
       "url": "https://ciklotourkerekpar.hu/",
       "pageTitle": "Ciklotour Kerékpár Szaküzlet és Szerviz | Jászberény",
+      "status": "ellenőrzött"
+    },
+    "ev-csepel-centrum-szolnok-20261010": {
+      "url": "https://csepelkerekpar.109.hu/?p=kapcsolat",
+      "pageTitle": "Kapcsolat — Csepel Kerékpár Kft., Szolnok Thököly út 97",
       "status": "ellenőrzött"
     },
     "ev-csopi-kerekparos-kozpont-balatonfured-20261010": {
@@ -9015,6 +9246,11 @@ window.KEREKPARINDEX_CONTENT = {
       "pageTitle": "R Bike - BikeFun",
       "status": "ellenőrzött"
     },
+    "ev-radvanyi-kerekparszerviz-miskolc-20261010": {
+      "url": "https://kerekparszervizmiskolc.hu/",
+      "pageTitle": "Radványi Norbert kerékpárszerviz, Miskolc",
+      "status": "ellenőrzött"
+    },
     "ev-rb-batonyterenye-20261010": {
       "url": "https://bikefun.hu/shops/r-b-kerekparszakuezlet",
       "pageTitle": "R+B Kerékpárszaküzlet - BikeFun",
@@ -9123,6 +9359,11 @@ window.KEREKPARINDEX_CONTENT = {
     "ev-sport-oazis-papa-20261010": {
       "url": "https://csepelkerekpar.hu/uzletek/?county=Veszpr%C3%A9m",
       "pageTitle": "Csepel bicikli boltok | Csepel kerékpár",
+      "status": "ellenőrzött"
+    },
+    "ev-sprint-kerekpar-szolnok-20261010": {
+      "url": "https://sprintkerekpar.109.hu/?p=kapcsolat",
+      "pageTitle": "Kapcsolat — Sprint kerékpárbolt, Szolnok Baross u. 48",
       "status": "ellenőrzött"
     },
     "ev-stelvio-gyor-20261010": {
@@ -9260,6 +9501,11 @@ window.KEREKPARINDEX_CONTENT = {
       "pageTitle": "Watthajtás - BikeFun",
       "status": "ellenőrzött"
     },
+    "ev-webbicikli-gyula-20261010": {
+      "url": "https://www.webbicikli.hu/",
+      "pageTitle": "Kerékpár üzlet és szerviz Gyulán — webbicikli.hu",
+      "status": "ellenőrzött"
+    },
     "ev-winkler-sport-dunakeszi-20261010": {
       "url": "https://bikefun.hu/shops/winkler-sport",
       "pageTitle": "Winkler Sport - BikeFun",
@@ -9273,6 +9519,11 @@ window.KEREKPARINDEX_CONTENT = {
     "ev-zolikerekpar-tat-20261010": {
       "url": "https://bikefun.hu/shops/Zolikerekpar",
       "pageTitle": "Zolikerékpár - BikeFun",
+      "status": "ellenőrzött"
+    },
+    "ev-speedy-bekescsaba-szerviz-20261010": {
+      "url": "http://www.speedybicikli.hu/index.php/szerviz",
+      "pageTitle": "Szerviz — Speedy Kerékpárüzlet",
       "status": "ellenőrzött"
     }
   }

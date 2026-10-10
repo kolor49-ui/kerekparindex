@@ -367,6 +367,23 @@
       "status": "ellenőrzött"
     },
     {
+      "id": "ev-anger-es-tarsa-miskolc-20261010",
+      "url": "http://www.anger.hu/kapcsolat",
+      "pageTitle": "Kapcsolat — Anger és Társa Bt., Miskolc",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-anger-es-tarsa-miskolc",
+        "loc-anger-es-tarsa-miskolc.address",
+        "loc-anger-es-tarsa-miskolc.phone",
+        "loc-anger-es-tarsa-miskolc.email",
+        "loc-anger-es-tarsa-miskolc.website",
+        "loc-anger-es-tarsa-miskolc.brandLinks.Neuzer",
+        "svc-anger-es-tarsa-miskolc-eladas",
+        "svc-anger-es-tarsa-miskolc-szerviz"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
       "id": "ev-aquarius-bike-dunaujvaros-20261010",
       "url": "https://aquariusbike.hu/",
       "pageTitle": "Aquarius Bike",
@@ -1009,6 +1026,21 @@
         "svc-ciklotour-jaszbereny-eladas",
         "svc-ciklotour-jaszbereny-szerviz",
         "svc-ciklotour-jaszbereny-e-bike-szerviz"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-csepel-centrum-szolnok-20261010",
+      "url": "https://csepelkerekpar.109.hu/?p=kapcsolat",
+      "pageTitle": "Kapcsolat — Csepel Kerékpár Kft., Szolnok Thököly út 97",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-csepel-centrum-szolnok",
+        "loc-csepel-centrum-szolnok.address",
+        "loc-csepel-centrum-szolnok.openingHours",
+        "loc-csepel-centrum-szolnok.phone",
+        "loc-csepel-centrum-szolnok.website",
+        "svc-csepel-centrum-szolnok-eladas"
       ],
       "status": "ellenőrzött"
     },
@@ -2497,6 +2529,22 @@
       "status": "ellenőrzött"
     },
     {
+      "id": "ev-radvanyi-kerekparszerviz-miskolc-20261010",
+      "url": "https://kerekparszervizmiskolc.hu/",
+      "pageTitle": "Radványi Norbert kerékpárszerviz, Miskolc",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-radvanyi-kerekparszerviz-miskolc",
+        "loc-radvanyi-kerekparszerviz-miskolc.address",
+        "loc-radvanyi-kerekparszerviz-miskolc.phone",
+        "loc-radvanyi-kerekparszerviz-miskolc.email",
+        "loc-radvanyi-kerekparszerviz-miskolc.website",
+        "svc-radvanyi-kerekparszerviz-miskolc-szerviz",
+        "svc-radvanyi-kerekparszerviz-miskolc-e-bike-szerviz"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
       "id": "ev-rb-batonyterenye-20261010",
       "url": "https://bikefun.hu/shops/r-b-kerekparszakuezlet",
       "pageTitle": "R+B Kerékpárszaküzlet - BikeFun",
@@ -2805,6 +2853,22 @@
         "loc-sport-oazis-papa.phone",
         "loc-sport-oazis-papa.email",
         "loc-sport-oazis-papa.website"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-sprint-kerekpar-szolnok-20261010",
+      "url": "https://sprintkerekpar.109.hu/?p=kapcsolat",
+      "pageTitle": "Kapcsolat — Sprint kerékpárbolt, Szolnok Baross u. 48",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-sprint-kerekpar-szolnok",
+        "loc-sprint-kerekpar-szolnok.address",
+        "loc-sprint-kerekpar-szolnok.openingHours",
+        "loc-sprint-kerekpar-szolnok.email",
+        "loc-sprint-kerekpar-szolnok.website",
+        "loc-sprint-kerekpar-szolnok.brandLinks.Neuzer",
+        "svc-sprint-kerekpar-szolnok-eladas"
       ],
       "status": "ellenőrzött"
     },
@@ -3203,6 +3267,23 @@
       "status": "ellenőrzött"
     },
     {
+      "id": "ev-webbicikli-gyula-20261010",
+      "url": "https://www.webbicikli.hu/",
+      "pageTitle": "Kerékpár üzlet és szerviz Gyulán — webbicikli.hu",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-webbicikli-gyula",
+        "loc-webbicikli-gyula.address",
+        "loc-webbicikli-gyula.openingHours",
+        "loc-webbicikli-gyula.phone",
+        "loc-webbicikli-gyula.email",
+        "loc-webbicikli-gyula.website",
+        "svc-webbicikli-gyula-eladas",
+        "svc-webbicikli-gyula-szerviz"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
       "id": "ev-winkler-sport-dunakeszi-20261010",
       "url": "https://bikefun.hu/shops/winkler-sport",
       "pageTitle": "Winkler Sport - BikeFun",
@@ -3248,6 +3329,17 @@
         "loc-zolikerekpar-tat.website",
         "loc-zolikerekpar-tat.brandLinks.Merida",
         "svc-zolikerekpar-tat-eladas"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-speedy-bekescsaba-szerviz-20261010",
+      "url": "http://www.speedybicikli.hu/index.php/szerviz",
+      "pageTitle": "Szerviz — Speedy Kerékpárüzlet",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-speedy-bekescsaba",
+        "svc-speedy-bekescsaba-szerviz"
       ],
       "status": "ellenőrzött"
     }

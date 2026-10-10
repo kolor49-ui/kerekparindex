@@ -2908,7 +2908,7 @@
       "name": "Speedy Kerékpárüzlet",
       "address": "5600 Békéscsaba, Gyóni Géza u. 22.",
       "city": "Békéscsaba",
-      "website": "https://bikefun.hu/shops/speedy-kerekparuezlet",
+      "website": "http://www.speedybicikli.hu/",
       "phone": [
         "+36 66 640 602"
       ],
@@ -2924,7 +2924,7 @@
           "quote": "Merida dealer"
         }
       ],
-      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás. Szerviz erről az oldalról nem igazolt."
+      "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás. Szerviz erről az oldalról nem igazolt. Szerviz: saját szerviz oldal (2026-10-10)."
     },
     {
       "id": "loc-bakony-sport-ajka",
@@ -3189,6 +3189,109 @@
       "status": "ellenőrzött",
       "brandClaims": [],
       "notes": "BikeFun hivatalos kereskedőoldal; szerepkör: eladás. Szerviz erről az oldalról nem igazolt."
+    },
+    {
+      "id": "loc-csepel-centrum-szolnok",
+      "organizationId": "org-csepel-centrum-szolnok",
+      "name": "Csepel Kerékpárcentrum",
+      "address": "5000 Szolnok, Thököly út 97.",
+      "city": "Szolnok",
+      "website": "https://csepelkerekpar.109.hu/",
+      "phone": [
+        "+36 20 941 8354"
+      ],
+      "email": [],
+      "status": "ellenőrzött",
+      "brandClaims": [
+        {
+          "brand": "Csepel",
+          "relation": "sells_brand",
+          "sourceUrl": "https://csepelkerekpar.109.hu/?p=kapcsolat",
+          "quote": "Csepel Kerékpár Kft. — kerékpárok széles választéka"
+        }
+      ],
+      "notes": "Saját kapcsolat oldal: cím igazolt. Szerviz nem szerepel. Forrás: [Research NE Hungary shops batch](ad397ad8-d2dc-46d5-bd53-a6be425551ba) ellenőrzés után."
+    },
+    {
+      "id": "loc-sprint-kerekpar-szolnok",
+      "organizationId": "org-sprint-kerekpar-szolnok",
+      "name": "Sprint Kerékpárbolt",
+      "address": "5000 Szolnok, Baross utca 48.",
+      "city": "Szolnok",
+      "website": "https://sprintkerekpar.109.hu/",
+      "phone": [],
+      "email": [
+        "sprint.kerekpar@postafiok.hu"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [
+        {
+          "brand": "Neuzer",
+          "relation": "sells_brand",
+          "sourceUrl": "https://sprintkerekpar.109.hu/?p=kapcsolat",
+          "quote": "Női kerékpárok, Neuzer, Mali, Kross Evado."
+        }
+      ],
+      "notes": "Saját kapcsolat: cím + e-mail. Telefon a lapon jelenleg nem közölt. Szerviz nem igazolt."
+    },
+    {
+      "id": "loc-webbicikli-gyula",
+      "organizationId": "org-webbicikli-gyula",
+      "name": "Webbicikli",
+      "address": "5700 Gyula, Zrínyi tér 3.",
+      "city": "Gyula",
+      "website": "https://www.webbicikli.hu/",
+      "phone": [
+        "+36 70 238 2381"
+      ],
+      "email": [
+        "info@webbicikli.hu"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [],
+      "notes": "Főoldal: fizikai cím + „Kerékpár üzlet és szerviz Gyulán” + személyes szerviz említés."
+    },
+    {
+      "id": "loc-anger-es-tarsa-miskolc",
+      "organizationId": "org-anger-es-tarsa-miskolc",
+      "name": "Anger és Társa Bt.",
+      "address": "3528 Miskolc, Gvadányi József utca 29.",
+      "city": "Miskolc",
+      "website": "https://www.anger.hu/",
+      "phone": [
+        "+36 46 389 846",
+        "+36 30 565 0827"
+      ],
+      "email": [
+        "info@anger.hu"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [
+        {
+          "brand": "Neuzer",
+          "relation": "sells_brand",
+          "sourceUrl": "https://neuzer.hu/partnereink",
+          "quote": "Anger/Gvadányi — Neuzer viszonteladói partner"
+        }
+      ],
+      "notes": "Kapcsolat: telephely. Bemutatkozás: szervíz szolgáltatás fejlesztése igazolt."
+    },
+    {
+      "id": "loc-radvanyi-kerekparszerviz-miskolc",
+      "organizationId": "org-radvanyi-kerekparszerviz-miskolc",
+      "name": "Radványi Norbert kerékpárszerviz",
+      "address": "3508 Miskolc, Gátőr utca 24.",
+      "city": "Miskolc",
+      "website": "https://kerekparszervizmiskolc.hu/",
+      "phone": [
+        "+36 30 829 5238"
+      ],
+      "email": [
+        "norbi@kerekparszervizmiskolc.hu"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [],
+      "notes": "Önálló műhely; értékesítés nem igazolt. E-bike szerviz a saját oldalon külön szekció."
     }
   ],
   "services": [

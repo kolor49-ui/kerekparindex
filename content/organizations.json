@@ -1043,6 +1043,41 @@
       "legalName": null,
       "website": "https://bikefun.hu/shops/kerekpar-szakuezlet-kalocsa",
       "notes": null
+    },
+    {
+      "id": "org-csepel-centrum-szolnok",
+      "name": "Csepel Kerékpárcentrum",
+      "legalName": null,
+      "website": "https://csepelkerekpar.109.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-sprint-kerekpar-szolnok",
+      "name": "Sprint Kerékpárbolt",
+      "legalName": null,
+      "website": "https://sprintkerekpar.109.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-webbicikli-gyula",
+      "name": "Webbicikli",
+      "legalName": null,
+      "website": "https://www.webbicikli.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-anger-es-tarsa-miskolc",
+      "name": "Anger és Társa Bt.",
+      "legalName": null,
+      "website": "https://www.anger.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-radvanyi-kerekparszerviz-miskolc",
+      "name": "Radványi Norbert kerékpárszerviz",
+      "legalName": null,
+      "website": "https://kerekparszervizmiskolc.hu/",
+      "notes": null
     }
   ]
 }

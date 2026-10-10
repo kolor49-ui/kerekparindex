@@ -1,0 +1,246 @@
+{
+  "batchId": "batch-ne-followup-2026-10-10",
+  "accessedAt": "2026-10-10",
+  "sourceAgent": "ad397ad8-d2dc-46d5-bd53-a6be425551ba",
+  "items": [
+    {
+      "idSlug": "csepel-centrum-szolnok",
+      "name": "Csepel Kerékpárcentrum",
+      "city": "Szolnok",
+      "addressRaw": "5000 Szolnok, Thököly út 97.",
+      "website": "https://csepelkerekpar.109.hu/",
+      "phone": [
+        "+36 20 941 8354"
+      ],
+      "email": [],
+      "openingHours": "H–P nyitvatartás a kapcsolat oldalon (zárás 17:00; részletek a forráson)",
+      "roles": [
+        "eladas"
+      ],
+      "roleEvidence": {
+        "eladas": {
+          "url": "https://csepelkerekpar.109.hu/?p=kapcsolat",
+          "pageTitle": "Kapcsolat — Csepel Kerékpár Kft."
+        }
+      },
+      "brandClaims": [
+        {
+          "brand": "Csepel",
+          "relation": "sells_brand",
+          "sourceUrl": "https://csepelkerekpar.109.hu/?p=kapcsolat",
+          "quote": "Csepel Kerékpár Kft. — kerékpárok széles választéka"
+        }
+      ],
+      "evidence": {
+        "url": "https://csepelkerekpar.109.hu/?p=kapcsolat",
+        "pageTitle": "Kapcsolat — Csepel Kerékpár Kft., Szolnok Thököly út 97"
+      },
+      "notes": "Saját kapcsolat oldal: cím igazolt. Szerviz nem szerepel. Forrás: [Research NE Hungary shops batch](ad397ad8-d2dc-46d5-bd53-a6be425551ba) ellenőrzés után.",
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "sprint-kerekpar-szolnok",
+      "name": "Sprint Kerékpárbolt",
+      "city": "Szolnok",
+      "addressRaw": "5000 Szolnok, Baross utca 48.",
+      "website": "https://sprintkerekpar.109.hu/",
+      "phone": [],
+      "email": [
+        "sprint.kerekpar@postafiok.hu"
+      ],
+      "openingHours": "H 10:00–17:30, K–P 10:00–18:00 (kapcsolat oldal)",
+      "roles": [
+        "eladas"
+      ],
+      "roleEvidence": {
+        "eladas": {
+          "url": "https://sprintkerekpar.109.hu/?p=kapcsolat",
+          "pageTitle": "Kapcsolat — Sprint kerékpárbolt"
+        }
+      },
+      "brandClaims": [
+        {
+          "brand": "Neuzer",
+          "relation": "sells_brand",
+          "sourceUrl": "https://sprintkerekpar.109.hu/?p=kapcsolat",
+          "quote": "Női kerékpárok, Neuzer, Mali, Kross Evado."
+        }
+      ],
+      "evidence": {
+        "url": "https://sprintkerekpar.109.hu/?p=kapcsolat",
+        "pageTitle": "Kapcsolat — Sprint kerékpárbolt, Szolnok Baross u. 48"
+      },
+      "notes": "Saját kapcsolat: cím + e-mail. Telefon a lapon jelenleg nem közölt. Szerviz nem igazolt.",
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "webbicikli-gyula",
+      "name": "Webbicikli",
+      "city": "Gyula",
+      "addressRaw": "5700 Gyula, Zrínyi tér 3.",
+      "website": "https://www.webbicikli.hu/",
+      "phone": [
+        "+36 70 238 2381"
+      ],
+      "email": [
+        "info@webbicikli.hu"
+      ],
+      "openingHours": "H–P 9:00–17:00 (ebéd 12:00–13:00), Szo 9:00–12:00",
+      "roles": [
+        "eladas",
+        "szerviz"
+      ],
+      "roleEvidence": {
+        "eladas": {
+          "url": "https://www.webbicikli.hu/",
+          "pageTitle": "Webbicikli — kerékpár üzlet Gyulán"
+        },
+        "szerviz": {
+          "url": "https://www.webbicikli.hu/",
+          "pageTitle": "Webbicikli — szerviz Gyulán"
+        }
+      },
+      "brandClaims": [],
+      "evidence": {
+        "url": "https://www.webbicikli.hu/",
+        "pageTitle": "Kerékpár üzlet és szerviz Gyulán — webbicikli.hu"
+      },
+      "notes": "Főoldal: fizikai cím + „Kerékpár üzlet és szerviz Gyulán” + személyes szerviz említés.",
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "anger-es-tarsa-miskolc",
+      "name": "Anger és Társa Bt.",
+      "city": "Miskolc",
+      "addressRaw": "3528 Miskolc, Gvadányi József utca 29.",
+      "website": "https://www.anger.hu/",
+      "phone": [
+        "+36 46 389 846",
+        "+36 30 565 0827"
+      ],
+      "email": [
+        "info@anger.hu"
+      ],
+      "openingHours": null,
+      "roles": [
+        "eladas",
+        "szerviz"
+      ],
+      "roleEvidence": {
+        "eladas": {
+          "url": "http://www.anger.hu/kapcsolat",
+          "pageTitle": "Kapcsolat — Anger és Társa Bt."
+        },
+        "szerviz": {
+          "url": "http://www.anger.hu/bemutatkozas",
+          "pageTitle": "Bemutatkozás — szervíz szolgáltatás"
+        }
+      },
+      "brandClaims": [
+        {
+          "brand": "Neuzer",
+          "relation": "sells_brand",
+          "sourceUrl": "https://neuzer.hu/partnereink",
+          "quote": "Anger/Gvadányi — Neuzer viszonteladói partner"
+        }
+      ],
+      "evidence": {
+        "url": "http://www.anger.hu/kapcsolat",
+        "pageTitle": "Kapcsolat — Anger és Társa Bt., Miskolc"
+      },
+      "notes": "Kapcsolat: telephely. Bemutatkozás: szervíz szolgáltatás fejlesztése igazolt.",
+      "heldBack": false,
+      "heldBackReason": null
+    },
+    {
+      "idSlug": "radvanyi-kerekparszerviz-miskolc",
+      "name": "Radványi Norbert kerékpárszerviz",
+      "city": "Miskolc",
+      "addressRaw": "3508 Miskolc, Gátőr utca 24.",
+      "website": "https://kerekparszervizmiskolc.hu/",
+      "phone": [
+        "+36 30 829 5238"
+      ],
+      "email": [
+        "norbi@kerekparszervizmiskolc.hu"
+      ],
+      "openingHours": null,
+      "roles": [
+        "szerviz",
+        "e-bike-szerviz"
+      ],
+      "roleEvidence": {
+        "szerviz": {
+          "url": "https://kerekparszervizmiskolc.hu/",
+          "pageTitle": "Radványi Norbert — kerékpárszerviz"
+        },
+        "e-bike-szerviz": {
+          "url": "https://kerekparszervizmiskolc.hu/",
+          "pageTitle": "Radványi Norbert — E-bike szerviz"
+        }
+      },
+      "brandClaims": [],
+      "evidence": {
+        "url": "https://kerekparszervizmiskolc.hu/",
+        "pageTitle": "Radványi Norbert kerékpárszerviz, Miskolc"
+      },
+      "notes": "Önálló műhely; értékesítés nem igazolt. E-bike szerviz a saját oldalon külön szekció.",
+      "heldBack": false,
+      "heldBackReason": null
+    }
+  ],
+  "heldBack": [
+    {
+      "name": "BICIKLIKK Szolnok",
+      "city": "Szolnok",
+      "reason": "Neuzer partnereink listázza (Lovas István u. 1.), de a biciklikk.hu saját üzletlistája továbbra is ellentmondásos — bizonytalan, visszatartva.",
+      "candidateUrl": "https://neuzer.hu/partnereink"
+    },
+    {
+      "name": "Ebikeshop Miskolc",
+      "city": "Miskolc",
+      "reason": "ebringa.hu/aggregátor vs ebikeshop.hu üzletlista ellentmondás; fizikai Miskolc telephely nem eléggé igazolt.",
+      "candidateUrl": "https://ebringa.hu/"
+    },
+    {
+      "name": "2kerék / Ketkerek Kerékpárbolt",
+      "city": "Orosháza",
+      "reason": "ketkerek.hu nem elérhető; csak aggregátor.",
+      "candidateUrl": null
+    },
+    {
+      "name": "Belvárosi Bringabolt",
+      "city": "Gyula",
+      "reason": "belvarosibringabolt.hu nem elérhető (500).",
+      "candidateUrl": null
+    },
+    {
+      "name": "Bringa Doki",
+      "city": "Balassagyarmat",
+      "reason": "Csak Facebook; nincs saját domain.",
+      "candidateUrl": null
+    },
+    {
+      "name": "Folytontipró Kerékpárbolt és Szervíz",
+      "city": "Kazincbarcika",
+      "reason": "Csak üzletkatalógus; nincs saját weboldal.",
+      "candidateUrl": null
+    },
+    {
+      "name": "Zsolt Kerékpárbolt",
+      "city": "Ózd",
+      "reason": "Nincs saját weboldal vagy márkadealer-bejegyzés.",
+      "candidateUrl": null
+    }
+  ],
+  "researchedNoVerified": [
+    {
+      "city": "Salgótarján",
+      "unit": "Nógrád",
+      "note": "Agent: Amanita továbbra sem igazolható elsődleges forrással."
+    }
+  ]
+}

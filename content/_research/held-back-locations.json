@@ -122,6 +122,48 @@
       "city": "Salgótarján",
       "reason": "Csak gyűjtőoldal (megyerikerekpar); nincs saját/hivatalos üzleti oldal",
       "candidateUrl": "https://megyerikerekpar.hu/amanita-kereskedelmi-es-szolgaltato-bt-kerekpar-uzlet-es-szerviz"
+    },
+    {
+      "name": "BICIKLIKK Szolnok",
+      "city": "Szolnok",
+      "reason": "Neuzer partnereink listázza (Lovas István u. 1.), de a biciklikk.hu saját üzletlistája továbbra is ellentmondásos — bizonytalan, visszatartva.",
+      "candidateUrl": "https://neuzer.hu/partnereink"
+    },
+    {
+      "name": "Ebikeshop Miskolc",
+      "city": "Miskolc",
+      "reason": "ebringa.hu/aggregátor vs ebikeshop.hu üzletlista ellentmondás; fizikai Miskolc telephely nem eléggé igazolt.",
+      "candidateUrl": "https://ebringa.hu/"
+    },
+    {
+      "name": "2kerék / Ketkerek Kerékpárbolt",
+      "city": "Orosháza",
+      "reason": "ketkerek.hu nem elérhető; csak aggregátor.",
+      "candidateUrl": null
+    },
+    {
+      "name": "Belvárosi Bringabolt",
+      "city": "Gyula",
+      "reason": "belvarosibringabolt.hu nem elérhető (500).",
+      "candidateUrl": null
+    },
+    {
+      "name": "Bringa Doki",
+      "city": "Balassagyarmat",
+      "reason": "Csak Facebook; nincs saját domain.",
+      "candidateUrl": null
+    },
+    {
+      "name": "Folytontipró Kerékpárbolt és Szervíz",
+      "city": "Kazincbarcika",
+      "reason": "Csak üzletkatalógus; nincs saját weboldal.",
+      "candidateUrl": null
+    },
+    {
+      "name": "Zsolt Kerékpárbolt",
+      "city": "Ózd",
+      "reason": "Nincs saját weboldal vagy márkadealer-bejegyzés.",
+      "candidateUrl": null
     }
   ],
   "mergedDuplicates": [

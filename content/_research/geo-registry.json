@@ -1,7 +1,7 @@
 {
   "accessedAt": "2026-10-10",
   "schemaNote": "researchStatus: not_researched | in_progress | researched_no_verified | has_published. researched_no_verified ≠ «nincs ott üzlet».",
-  "publishedLocationCount": 151,
+  "publishedLocationCount": 156,
   "units": [
     {
       "name": "Budapest",
@@ -276,9 +276,10 @@
           "isCountySeat": false,
           "researchStatus": "has_published",
           "publishedLocationIds": [
-            "loc-gyulabringa-gyula"
+            "loc-gyulabringa-gyula",
+            "loc-webbicikli-gyula"
           ],
-          "publishedCount": 1,
+          "publishedCount": 2,
           "notes": null
         },
         {
@@ -303,7 +304,7 @@
         }
       ],
       "districts": null,
-      "publishedTotal": 6
+      "publishedTotal": 7
     },
     {
       "name": "Borsod-Abaúj-Zemplén",
@@ -338,9 +339,11 @@
             "loc-borsod-bike-miskolc",
             "loc-bombastic-bringastic-miskolc",
             "loc-freeriderz-miskolc",
-            "loc-excelsior-miskolc"
+            "loc-excelsior-miskolc",
+            "loc-anger-es-tarsa-miskolc",
+            "loc-radvanyi-kerekparszerviz-miskolc"
           ],
-          "publishedCount": 4,
+          "publishedCount": 6,
           "notes": null
         },
         {
@@ -365,7 +368,7 @@
         }
       ],
       "districts": null,
-      "publishedTotal": 8
+      "publishedTotal": 10
     },
     {
       "name": "Csongrád-Csanád",
@@ -591,9 +594,11 @@
           "researchStatus": "has_published",
           "publishedLocationIds": [
             "loc-canganyika-szolnok",
-            "loc-pne-mobil-szolnok"
+            "loc-pne-mobil-szolnok",
+            "loc-csepel-centrum-szolnok",
+            "loc-sprint-kerekpar-szolnok"
           ],
-          "publishedCount": 2,
+          "publishedCount": 4,
           "notes": null
         },
         {
@@ -608,7 +613,7 @@
         }
       ],
       "districts": null,
-      "publishedTotal": 5
+      "publishedTotal": 7
     },
     {
       "name": "Komárom-Esztergom",
@@ -1061,12 +1066,6 @@
   ],
   "priorityQueue": [
     {
-      "unit": "Jász-Nagykun-Szolnok",
-      "city": "Szolnok",
-      "reason": "székhely <3 (most 2)",
-      "published": 2
-    },
-    {
       "unit": "Komárom-Esztergom",
       "city": "Tatabánya",
       "reason": "székhely <3 (most 2)",
@@ -1082,21 +1081,19 @@
   "nextContinuation": {
     "afterBatches": [
       "batch-gap-ne-2026-10-10",
-      "batch-gap-pest-south-2026-10-10"
+      "batch-gap-pest-south-2026-10-10",
+      "batch-ne-followup-2026-10-10"
     ],
-    "published": 151,
+    "published": 156,
     "resumeFrom": [
-      "Nógrád: Salgótarján +1 (Amanita csak aggregátor — más elsődleges forrás kell)",
-      "Jász-Nagykun-Szolnok: Szolnok +1 (BiciKlikk ellentmondásos — más jelölt)",
-      "Komárom-Esztergom: Tatabánya +1 (M-Bike domain down — más jelölt)",
-      "Pest: Szigetszentmiklós, Monor, Vecsés, Cegléd már OK",
-      "Baranya: Mohács (Schmidt ellenőrzés)",
-      "Tolna: Paks",
-      "Budapest: kerületenként (III/XV/XVI/XVII/XVIII/XX folytatás; 12→20)",
-      "Önálló szervizek: kevés only-szerviz — célzott workshop keresés",
-      "Márkák: Merida kapcsolatok bővültek; katalóguson kívüli márkák brand-backlog.json"
-    ],
-    "note": "Országos gyűjtés folyamatban; 152 publikált nem teljesség."
+      "Nógrád: Salgótarján +1 (Amanita továbbra is aggregátor)",
+      "Komárom-Esztergom: Tatabánya +1",
+      "Pest: Szigetszentmiklós, Monor, Vecsés",
+      "Baranya: Mohács; Tolna: Paks",
+      "Budapest kerületek folytatás",
+      "Önálló szervizek (most 2 only-szerviz)",
+      "BICIKLIKK Szolnok: saját üzletlista vs Neuzer ellentmondás feloldása"
+    ]
   },
   "brandBacklogPath": "_research/brand-backlog.json",
   "candidatesPath": "_research/candidates.json"
