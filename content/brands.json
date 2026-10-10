@@ -20,7 +20,7 @@
         "e-transport",
         "e-kids"
       ],
-      "shortDescription": "Német kerékpármárka hivatalos magyar nyelvű cube.eu/hu-hu oldalával; mountain, road, gravel, trekking, gyerek és több e-bike kategóriával. A cube-bikes.hu magyar oldalon Cube kerékpárokat és kiegészítőket kínál.",
+      "shortDescription": "Német kerékpármárka mountain, road, gravel, trekking, gyerek és több e-bike kategóriával. Hivatalos magyar nyelvű oldal: cube.eu/hu-hu; a cube-bikes.hu Cube kerékpárokat és kiegészítőket kínál.",
       "status": "ellenőrzött",
       "evidenceIds": [
         "ev-cube-eu-hu",
@@ -39,13 +39,16 @@
         "accessories",
         "e-bike"
       ],
-      "shortDescription": "Giant hivatalos magyar nyelvű oldala (giant-bicycles.com/hu) kerékpárokat és kiegészítőket mutat; a főoldalon e-bike modell (Trance Advanced E+) is szerepel.",
+      "shortDescription": "A Giant hivatalos magyar oldalán (giant-bicycles.com/hu) kerékpárok és kiegészítők szerepelnek; a főoldalon e-bike modell is megjelenik.",
       "status": "ellenőrzött",
       "evidenceIds": [
         "ev-giant-hu",
         "ev-giant-hu-bikes"
       ],
-      "notes": "Részletes kategórialista a /hu/bikes aloldalon a fetch során csak címszinten volt olvasható; missing_reason: teljes kategória-fa nem állt rendelkezésre a HTML-ből."
+      "notes": null,
+      "researchNotes": {
+        "categoryCoverage": "A /hu/bikes aloldalon a részletes kategória-fa a forrásból nem volt teljes egészében kiolvasható."
+      }
     },
     {
       "id": "brand-trek",
@@ -65,14 +68,14 @@
         "cyclocross",
         "triathlon"
       ],
-      "shortDescription": "Nemzetközi Trek márka; magyarországi jelenlét a trek.hu importőr oldalon (Genomed Kft., Budapest), amely Trek kerékpárokat, alkatrészeket és kiegészítőket forgalmaz, országos üzlethálózattal.",
+      "shortDescription": "Nemzetközi Trek márka. Magyarországon a trek.hu (Genomed Kft., Budapest) forgalmaz Trek kerékpárokat, alkatrészeket és kiegészítőket, országos üzlethálózattal.",
       "status": "ellenőrzött",
       "evidenceIds": [
         "ev-trek-global",
         "ev-trek-hu",
         "ev-trek-hu-cegadatok"
       ],
-      "notes": "A trek.hu Genomed Kft. által üzemeltetett magyar importőr/forgalmazó oldal, nem a trekbikes.com országválasztója."
+      "notes": "A trek.hu importőr/forgalmazó oldal, nem a trekbikes.com országválasztója."
     },
     {
       "id": "brand-specialized",
@@ -88,7 +91,7 @@
         "e-city",
         "apparel-equipment"
       ],
-      "shortDescription": "Specialized hivatalos /hu/en locale oldala elérhető; a gyártó nemzetközi forgalmazói listáján Magyarország (Hauser Kerkpr Kft., Budapest) szerepel Specialized Hungaryként.",
+      "shortDescription": "A Specialized hivatalos magyar nyelvű (/hu/en) oldala elérhető. A gyártó forgalmazói listáján Magyarország (Hauser Kerkpr Kft., Budapest) Specialized Hungaryként szerepel.",
       "status": "ellenőrzött",
       "evidenceIds": [
         "ev-specialized-global",
@@ -96,7 +99,10 @@
         "ev-specialized-distributors",
         "ev-specialized-hu-warranty"
       ],
-      "notes": "specialized.bikexpert.hu kereskedői oldal fetch: timeout/Forbidden — nem használt evidence. Kategóriák a global/hu főoldal modellcsoportjaiból."
+      "notes": null,
+      "researchNotes": {
+        "retailFetch": "specialized.bikexpert.hu: timeout/Forbidden — nem használt evidence. Kategóriák a global/hu főoldal modellcsoportjaiból."
+      }
     },
     {
       "id": "brand-merida",
@@ -110,14 +116,17 @@
         "mountain",
         "e-bike"
       ],
-      "shortDescription": "Merida hivatalos oldala BikeFun-t nevezi meg magyarországi (és romániai) forgalmazóként; a bikefun.hu Merida híreket és modelleket közöl.",
+      "shortDescription": "A Merida hivatalos oldala a BikeFun-t nevezi meg magyarországi forgalmazóként. A bikefun.hu Merida híreket és modelleket közöl.",
       "status": "ellenőrzött",
       "evidenceIds": [
         "ev-merida-global",
         "ev-merida-hu-distributor",
         "ev-bikefun-hu"
       ],
-      "notes": "Kategóriák a Merida „Distributor in Spotlight – MERIDA Hungary” interjúban említett kulcsmodellekből (road, gravel/SILEX, MTB, eSPEEDER)."
+      "notes": null,
+      "researchNotes": {
+        "categories": "Kategóriák a Merida „Distributor in Spotlight – MERIDA Hungary” interjú említéseiből (road, gravel/SILEX, MTB, eSPEEDER)."
+      }
     },
     {
       "id": "brand-scott",
@@ -130,12 +139,15 @@
         "e-mountain",
         "urban-mobility"
       ],
-      "shortDescription": "Scott magyarországi közvetlen márkaképviseletét 2021-es sajtóközlemény (Bikemag) szerint Nagy Oszkár vezeti; hivatalos scott-sports.com oldal 2026-10-10-én Incapsula miatt nem volt olvasható.",
+      "shortDescription": "A magyarországi képviseletről egy 2021-es sajtóközlemény alapján tudunk. A hivatalos gyártói oldal jelenleg nem volt ellenőrizhető, ezért ez a márkalap még előkészítés alatt áll.",
       "status": "előkészített",
       "evidenceIds": [
         "ev-scott-bikemag-2021"
       ],
-      "notes": "missing_reason: officialWebsite fetch sikertelen (Incapsula); nincs ellenőrizhető dedikált HU importer domain. hungaryRelatedWebsite null. productCategories csak a 2021-es sajtóközlemény említéseiből (Gravel, Sub Tour, e-MTB). Aktuális 2026-os hivatalos HU jelenlét nem erősíthető meg elsődleges forrásból."
+      "notes": null,
+      "researchNotes": {
+        "missing_reason": "officialWebsite fetch sikertelen (Incapsula); nincs ellenőrizhető dedikált HU importer domain. hungaryRelatedWebsite null. productCategories a 2021-es sajtóközlemény említéseiből. Aktuális 2026-os hivatalos HU jelenlét nem erősíthető meg elsődleges forrásból."
+      }
     },
     {
       "id": "brand-cannondale",
@@ -150,14 +162,14 @@
         "mountain",
         "kids"
       ],
-      "shortDescription": "Cannondale nemzetközi oldal road/mountain/gravel/electric/kids kínálattal; magyar nyelvű cannondale-bikes.hu és a MALI Magyarország cannondale.hu oldala Cannondale kerékpárokat forgalmaz Magyarországon.",
+      "shortDescription": "A Cannondale nemzetközi oldalán road, mountain, gravel, electric és kids kínálat szerepel. Magyarországon a cannondale-bikes.hu és a MALI Magyarország cannondale.hu oldala forgalmaz Cannondale kerékpárokat.",
       "status": "ellenőrzött",
       "evidenceIds": [
         "ev-cannondale-global",
         "ev-cannondale-bikes-hu",
         "ev-cannondale-mali-hu"
       ],
-      "notes": "cannondale.hu = MALI Magyarország kereskedői/forgalmazói jelenlét; a hivatalos gyári /hu locale nem került külön megerősítésre."
+      "notes": "A cannondale.hu a MALI Magyarország kereskedői/forgalmazói jelenléte; a gyári /hu locale külön nem került megerősítésre."
     },
     {
       "id": "brand-gepida",
@@ -170,7 +182,7 @@
         "e-mtb",
         "e-bike"
       ],
-      "shortDescription": "Magyar kerékpármárka: a gepida.hu szerint Magyarországon alapították, tervezik és gyártják a kerékpárokat; trekking és e-MTB modellek, budapesti elérhetőséggel (1164 Budapest, Ostorhegy u. 4.).",
+      "shortDescription": "Magyar kerékpármárka: a gepida.hu szerint Magyarországon alapították, tervezik és gyártják a kerékpárokat. Trekking és e-MTB modellek; budapesti elérhetőség: 1164 Budapest, Ostorhegy u. 4.",
       "status": "ellenőrzött",
       "evidenceIds": [
         "ev-gepida-home",
@@ -189,14 +201,17 @@
         "e-trekking",
         "e-bike"
       ],
-      "shortDescription": "Magyar kerékpármárka esztergomi székhellyel és gyártással; budapesti nagykereskedelmi raktár; e-MTB és e-trekking modellek a neuzer.hu-n; lakossági rendelés a Viddabringát.hu-ra irányítva.",
+      "shortDescription": "Magyar kerékpármárka esztergomi székhellyel és gyártással, budapesti nagykereskedelmi raktárral. A neuzer.hu-n e-MTB és e-trekking modellek szerepelnek; a lakossági rendelést a Viddabringát.hu-ra irányítják.",
       "status": "ellenőrzött",
       "evidenceIds": [
         "ev-neuzer-home",
         "ev-neuzer-emtb",
         "ev-neuzer-etrekking"
       ],
-      "notes": "Teljes hagyományos (nem e-) kategórialista a főoldalon nem volt részletesen kibontva; missing_reason: road/city/MTB hobby stb. csak másodlagos forrásokban (árlista) — azokat nem vettük fel evidence nélkül."
+      "notes": null,
+      "researchNotes": {
+        "categoryCoverage": "Teljes hagyományos (nem e-) kategórialista a főoldalon nem volt részletesen kibontva; másodlagos forrásokból nem vettük fel evidence nélkül."
+      }
     },
     {
       "id": "brand-ktm",
@@ -208,13 +223,16 @@
         "e-bike",
         "bike"
       ],
-      "shortDescription": "KTM Fahrrad GmbH kerékpárok és e-bike-ok (ktm-bikes.at); a ktmteam.hu a KTM kerékpárok magyarországi képviseleti oldala, magyar telefonszámmal.",
+      "shortDescription": "A KTM Fahrrad GmbH kerékpárokat és e-bike-okat gyárt (ktm-bikes.at). A ktmteam.hu a KTM kerékpárok magyarországi képviseleti oldala. Nem azonos a KTM AG motorkerékpár-gyártóval.",
       "status": "ellenőrzött",
       "evidenceIds": [
         "ev-ktm-official",
         "ev-ktm-team-hu"
       ],
-      "notes": "Nem azonos a KTM AG motorkerékpár-gyártóval — a ktmteam.hu és ktm-bikes.at ezt külön kiemeli. Részletes kategórialista: missing_reason: a főoldal csak általános e-bike/bike és modellkampányokat mutatott."
+      "notes": "Nem azonos a KTM AG motorkerékpár-gyártóval — a ktmteam.hu és ktm-bikes.at ezt külön kiemeli.",
+      "researchNotes": {
+        "categories": "Részletes kategórialista: a főoldal főként általános e-bike/bike és modellkampányokat mutatott."
+      }
     }
   ]
 }

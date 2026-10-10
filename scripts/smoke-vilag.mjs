@@ -177,7 +177,7 @@ async function main() {
   await page.waitForSelector("dialog[open]", { timeout: 5000 }).catch(() => null);
   const plannedOk = await page.evaluate(() => {
     const d = document.querySelector("dialog");
-    return !!(d && d.open && /előkészítés alatt áll/i.test(d.innerText));
+    return !!(d && d.open && /Hamarosan itt is böngészhetsz/i.test(d.innerText));
   });
   if (!plannedOk) {
     results.pass = false;

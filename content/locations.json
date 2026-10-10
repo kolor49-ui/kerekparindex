@@ -36,7 +36,7 @@
           "sourceUrl": "https://gepida.hu/bemutatotermunk",
           "quote": "Az üzletben folyamatosan megtalálható a szinte teljes szezonális Gepida kínálat",
           "evidenceId": "ev-01",
-          "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
           "inCatalog": true
         }
       ],
@@ -80,7 +80,7 @@
           "sourceUrl": "https://www.bringaboard.hu/",
           "quote": "Cannondale AKCIÓ",
           "evidenceId": "ev-04",
-          "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
           "inCatalog": true
         }
       ],
@@ -153,7 +153,7 @@
           "sourceUrl": "https://trek.hu/hu-hu?route=information%2Fcontact",
           "quote": "A legnagyobb hazai Trek kereskedés / Trek importőr",
           "evidenceId": "ev-06",
-          "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
           "inCatalog": true
         }
       ],
@@ -196,7 +196,7 @@
           "sourceUrl": "https://trek.hu/hu-hu/Trek_cikkek/Trek_kereskedesek-Budapesten",
           "quote": "Trek kereskedések Budapesten listában (K2 Shop)",
           "evidenceId": "ev-07",
-          "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
           "inCatalog": true
         }
       ],
@@ -239,7 +239,7 @@
           "sourceUrl": "https://www.bikeart.hu/",
           "quote": "Trek kerékpárjainkat keresd webshopunkban!",
           "evidenceId": "ev-12",
-          "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
           "inCatalog": true
         },
         {
@@ -249,7 +249,7 @@
           "sourceUrl": "https://www.bikeart.hu/",
           "quote": "GIANT felfogása szerint…",
           "evidenceId": "ev-12",
-          "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
           "inCatalog": true
         }
       ],
@@ -305,7 +305,7 @@
           "sourceUrl": "https://www.bikeart.hu/",
           "quote": "Trek kerékpárjainkat keresd webshopunkban!",
           "evidenceId": "ev-12",
-          "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
           "inCatalog": true
         },
         {
@@ -315,7 +315,7 @@
           "sourceUrl": "https://www.bikeart.hu/",
           "quote": "GIANT felfogása szerint…",
           "evidenceId": "ev-12",
-          "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
           "inCatalog": true
         }
       ],
@@ -395,7 +395,7 @@
           "sourceUrl": "https://www.vozzy.hu/spg/601152/Uzletunk",
           "quote": "új kerékpárok értékesítése: Merida, Adriatica, Cross márkák",
           "evidenceId": "ev-15",
-          "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
           "inCatalog": true
         }
       ],
@@ -486,7 +486,7 @@
           "sourceUrl": "https://heavypedal.hu/",
           "quote": "Kiemelt kerékpár márkáink: Bianchi, Gepida, Kross",
           "evidenceId": "ev-17",
-          "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
           "inCatalog": true
         }
       ],
@@ -614,7 +614,7 @@
           "sourceUrl": "https://peppekerekpar.hu/",
           "quote": "CUBE ATTAIN / CUBE KATHMANDU terméklistán",
           "evidenceId": "ev-22",
-          "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
           "inCatalog": true
         },
         {
@@ -624,7 +624,7 @@
           "sourceUrl": "https://peppekerekpar.hu/",
           "quote": "Gepida Alboin 200",
           "evidenceId": "ev-22",
-          "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
           "inCatalog": true
         }
       ],
@@ -704,7 +704,7 @@
           "sourceUrl": "https://bicobolt.hu/",
           "quote": "új kerékpárok (Csepel, Gepida, Koliken, Neuzer stb…)",
           "evidenceId": "ev-23",
-          "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
           "inCatalog": true
         },
         {
@@ -714,7 +714,7 @@
           "sourceUrl": "https://bicobolt.hu/",
           "quote": "új kerékpárok (Csepel, Gepida, Koliken, Neuzer stb…)",
           "evidenceId": "ev-23",
-          "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
           "inCatalog": true
         }
       ],
@@ -802,7 +802,7 @@
           "sourceUrl": "https://q1kerekparszalon.hu/",
           "quote": "Komoly szállítmány érkezett a Trek hazai képviseletének raktárába és így üzletünkbe is",
           "evidenceId": "ev-25",
-          "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
           "inCatalog": true
         }
       ],

@@ -16,7 +16,7 @@
 | Események | látható · előkészítés alatt |
 
 Az előkészítés alatt álló rovatok a referencia kártya-/sorstruktúrájában jelennek meg („Hamarosan” jelzéssel).  
-Kattintáskor: **„Ez a rovat előkészítés alatt áll.”** — konkrét dátum, ár vagy kitalált listázás nélkül.
+Kattintáskor: **„Hamarosan itt is böngészhetsz.”** — konkrét dátum, ár vagy kitalált listázás nélkül.
 
 ## Keresési területek (5)
 

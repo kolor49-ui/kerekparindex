@@ -2,7 +2,7 @@
 
 A szervizháttér az a helyi kapacitás, ahol a kerékpárt és az elektromos rendszert karbantartják, diagnosztizálják, javítják. Ez lehet általános kerékpárszerviz, e-bike-ra felkészült műhely, vagy igazolt márka-/rendszerszerviz — ezek külön állítások.
 
-Példák a próbakör ellenőrzött forrásaiból: a BikeArt Center külön szerviz oldalt közöl; a Biciklikk szervizoldala említi az elektromos kerékpárok (e-bike, pedelec) javítását és rendszerdiagnosztikát; a Futurebike/Gepida Store elektronikai szervizénél Bosch és TQ rendszerek szerepelnek.
+Példák ellenőrzött forrásokból: a BikeArt Center külön szervizoldalt közöl; a Biciklikk szervizoldala említi az elektromos kerékpárok (e-bike, pedelec) javítását és a rendszerdiagnosztikát; a Futurebike/Gepida Store elektronikai szervizénél Bosch és TQ rendszerek szerepelnek.
 
 ## Miért számít használat közben?
 

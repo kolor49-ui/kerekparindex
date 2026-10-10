@@ -4,22 +4,37 @@
   const dialogTitle = document.getElementById("dialog-title");
   const dialogContent = document.getElementById("dialog-content");
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
-  const NA = (content && content.naLabel) || "Nincs ellenőrzött adat";
+  const NA = (content && content.naLabel) || "Nincs ellenőrzött adatunk";
   let lastOpener = null;
   let searchMode = "termek";
+
+  const STATUS_LABEL = {
+    ellenőrzött: "Ellenőrzött",
+    előkészített: "Előkészítés alatt",
+    hiányos: "Hiányos",
+    archivált: "Archivált gyártói oldal",
+    ellentmondás: "Ellentmondásos adat",
+    hiányzó_adat: "Hiányzó adat",
+  };
+
+  const ROLE_LABEL = {
+    eladas: "Eladás",
+    szerviz: "Szerviz",
+    "e-bike-szerviz": "E-bike szerviz",
+  };
 
   const metricFallback = {
     wh: [
       "Az energia, amit magaddal viszel.",
-      "A Wh a tárolható energiát jelzi. Több Wh nagyobb tartalékot jelenthet; a megtehető távot a terep és a rásegítés is befolyásolja.",
+      "A Wh (wattóra) a tárolható energiát jelzi. Több Wh nagyobb tartalékot jelenthet; a megtehető távot a terep és a rásegítés is befolyásolja.",
     ],
     nm: [
       "Rásegítés, amit emelkedőn is érzel.",
-      "A Nm a forgatónyomaték mértékegysége. A menetérzetet a vezérlés és az áttétel is alakítja; a nagyobb szám önmagában nem jelent jobb kerékpárt.",
+      "A Nm (newtonméter) a forgatónyomaték mértékegysége. A menetérzetet a vezérlés és az áttétel is alakítja; a nagyobb szám önmagában nem jelent jobb kerékpárt.",
     ],
     km: [
       "A távolság a körülményektől függ.",
-      "A hatótáv becslés. Számít a terep, a terhelés, az időjárás és a rásegítés. A gyártói érték mellett mindig keresd a megadott feltételeket.",
+      "A hatótáv becslés. Számít a terep, a terhelés, az időjárás és a rásegítés. A gyártói érték mellett nézd meg a megadott feltételeket is.",
     ],
   };
   const metricMap = { wh: "art-exp-wh", nm: "art-exp-nm", km: "art-exp-range" };
@@ -179,6 +194,7 @@
     esemeny: { title: "Események" },
     akcio: { title: "Akciók" },
   };
+  const PLANNED_BODY = "<p><strong>Hamarosan itt is böngészhetsz.</strong></p>";
 
   function brandById(id) {
     return content.brands.find(function (b) {
@@ -200,11 +216,15 @@
   function showPlanned(key, opener) {
     const info = PLANNED[key];
     if (!info) return;
-    show(
-      info.title,
-      "<p><strong>Ez a rovat előkészítés alatt áll.</strong></p>",
-      opener
-    );
+    show(info.title, PLANNED_BODY, opener);
+  }
+
+  function labelStatus(status) {
+    return STATUS_LABEL[status] || status;
+  }
+
+  function labelRole(role) {
+    return ROLE_LABEL[role] || role;
   }
   function productById(id) {
     return content.products.find(function (p) {
@@ -223,9 +243,9 @@
 
   function statusBadge(status, flags) {
     const bits = [];
-    if (status && status !== "ellenőrzött") bits.push(status);
+    if (status && status !== "ellenőrzött") bits.push(labelStatus(status));
     (flags || []).forEach(function (f) {
-      bits.push(f);
+      bits.push(labelStatus(f));
     });
     if (!bits.length) return "";
     return (
@@ -253,10 +273,10 @@
       }
       html += "</p>";
     }
-    html += "<h3>Modellváltozatok a próbakörben</h3>";
+    html += "<h3>Modellváltozatok</h3>";
     if (!vars.length) {
       html +=
-        "<p>Ehhez a márkához ebben a próbakörben még nincs közzétett modellváltozat.</p>";
+        "<p>Ehhez a márkához még nincs közzétett modellváltozat.</p>";
     } else {
       html += '<div class="dialog-grid">';
       vars.forEach(function (v) {
@@ -271,10 +291,10 @@
     }
     html += "<h3>Márkát forgalmazó üzletek</h3>";
     html +=
-      "<p class='note'>A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.</p>";
+      "<p class='note'>Ha egy üzlet forgalmazza a márkát, az nem jelenti automatikusan, hogy az adott modell raktáron van, vagy kipróbálható.</p>";
     if (!shops.length) {
       html +=
-        "<p>Ebben a próbakörben nincs forrással igazolt kapcsolat ehhez a márkához.</p>";
+        "<p>Ehhez a márkához még nincs forrással igazolt üzletkapcsolatunk.</p>";
     } else {
       html += "<ul>";
       shops.forEach(function (s) {
@@ -350,7 +370,7 @@
       const shops = shopsForBrand(brand.id);
       html += "<h3>Márkát forgalmazó üzletek</h3>";
       html +=
-        "<p class='note'>Nincs igazolt modell–üzlet készletkapcsolat. Az alábbi üzletek a márkát forgalmazzák.</p>";
+        "<p class='note'>Az alábbi üzletek a márkát forgalmazzák. Konkrét modellkészletről vagy kipróbálásról itt nincs adatunk.</p>";
       if (!shops.length) html += "<p>" + esc(NA) + "</p>";
       else {
         html += "<ul>";
@@ -391,23 +411,23 @@
       services.forEach(function (s) {
         html +=
           "<li>" +
-          esc(s.role) +
+          esc(labelRole(s.role)) +
           (s.sourceUrl
             ? ' · <a href="' +
               esc(s.sourceUrl) +
-              '" target="_blank" rel="noopener">forrás</a>'
+              '" target="_blank" rel="noopener">Forrás ↗</a>'
             : "") +
           "</li>";
       });
     }
-    html += "</ul><h3>Forgalmazott márkák (igazolt)</h3>";
+    html += "</ul><h3>Forgalmazott márkák</h3>";
     html +=
-      "<p class='note'>A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.</p>";
+      "<p class='note'>A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.</p>";
     const links = (loc.brandLinks || []).filter(function (b) {
       return b.inCatalog;
     });
     if (!links.length) {
-      html += "<p>Ebben a próbakörben nincs katalógusmárka sells_brand állítás.</p>";
+      html += "<p>Ehhez a telephelyhez még nincs forrással igazolt katalógusmárka.</p>";
     } else {
       html += "<ul>";
       links.forEach(function (b) {
@@ -463,7 +483,7 @@
       .sort();
 
     let html =
-      "<p>Település, márka vagy szolgáltatás szerint. A találatok ellenőrzött telephelyek.</p>";
+      "<p>Szűrj település, márka vagy szolgáltatás szerint. A listában ellenőrzött telephelyek szerepelnek.</p>";
     html += '<form class="place-filter" id="place-filter">';
     html += '<label>Település <select name="city"><option value="">Mind</option>';
     cities.forEach(function (c) {
@@ -498,7 +518,7 @@
         '"' +
         (q.role === r ? " selected" : "") +
         ">" +
-        esc(r) +
+        esc(labelRole(r)) +
         "</option>";
     });
     html +=
@@ -508,7 +528,7 @@
     locs.forEach(function (l) {
       const roles = (content.servicesByLocation[l.id] || [])
         .map(function (s) {
-          return s.role;
+          return labelRole(s.role);
         })
         .join(", ");
       html +=
@@ -547,7 +567,7 @@
 
   function renderExplainers(opener) {
     let html =
-      "<p>Hat magyarázó a próbakörből — motor, Nm, Wh, hatótáv, tömeg, szervizháttér.</p><ul>";
+      "<p>Rövid magyarázók: motor, nyomaték (Nm), akkukapacitás (Wh), hatótáv, tömeg és szervizháttér.</p><ul>";
     content.explainers.forEach(function (a) {
       html +=
         "<li><button type='button' class='linkish' data-open-explainer='" +
@@ -572,7 +592,7 @@
 
   function renderComparisons(opener) {
     let html =
-      "<p>Három összehasonlítás gyártói adatokból. Nincs saját menetpróba és abszolút győztes.</p><ul>";
+      "<p>Három összehasonlítás gyártói adatokból. Nincs saját menetpróba, és nincs abszolút győztes.</p><ul>";
     content.comparisons.forEach(function (a) {
       html +=
         "<li><button type='button' class='linkish' data-open-comparison='" +
@@ -594,7 +614,7 @@
         esc(b.id) +
         '">' +
         esc(b.name) +
-        (b.status !== "ellenőrzött" ? " · " + esc(b.status) : "") +
+        (b.status !== "ellenőrzött" ? " · " + esc(labelStatus(b.status)) : "") +
         "</button>";
     });
     html += "</div>";
@@ -660,7 +680,7 @@
         featured: true,
         tag: "ÖSSZEHASONLÍTÁS",
         title: comfort ? comfort.title : "Városi e-bike összehasonlítás",
-        body: "Gyártói adatok, mérési feltételek, előnyök és kompromisszumok — abszolút győztes nélkül.",
+        body: "Gyártói adatok és mérési feltételek — abszolút győztes nélkül.",
         article: comfort,
         artClass: "",
       },
@@ -668,7 +688,7 @@
         featured: false,
         tag: "MAGYARÁZÓ",
         title: wh ? wh.title : "Akkukapacitás (Wh)",
-        body: "Mit árul el a Wh, és mit nem? Ellenőrzött szakmai forrásokkal.",
+        body: "Mit árul el a Wh, és mit nem?",
         article: wh,
         artClass: "coral",
       },
@@ -676,7 +696,7 @@
         featured: false,
         tag: "E-MTB",
         title: emtb ? emtb.title : "E-MTB összehasonlítás",
-        body: "Merevvázas és összteleszkópos felépítés — világosan elválasztva.",
+        body: "Merevvázas és összteleszkópos felépítés, világosan elválasztva.",
         article: emtb,
         artClass: "lav",
       },
@@ -695,7 +715,7 @@
         esc(c.title) +
         "</h3><p>" +
         esc(c.body) +
-        '</p><div class="meta"><span>Ellenőrzött tartalom</span><span>↗</span></div></div>';
+        '</p><div class="meta"><span>Gyártói adatok</span><span>↗</span></div></div>';
       btn.addEventListener("click", function () {
         if (c.article) renderArticle(c.article, btn);
       });
@@ -777,7 +797,7 @@
     if (searchMode === "hasznalt" || searchMode === "tura" || searchMode === "esemeny") {
       document.getElementById("results").hidden = true;
       msg.hidden = false;
-      msg.textContent = "Ez a rovat előkészítés alatt áll.";
+      msg.textContent = "Hamarosan itt is böngészhetsz.";
       showPlanned(searchMode === "hasznalt" ? "hasznalt" : searchMode);
       return;
     }
@@ -835,14 +855,14 @@
       showResultsPanel(
         "Kerékpárok és felszerelések",
         hits.slice(0, 12),
-        hits.length + " publikus rekord a próbakörből."
+        hits.length + " találat a jelenlegi kínálatból."
       );
       return;
     }
     msg.hidden = false;
     if (!hits.length) {
       msg.textContent =
-        "Nincs egyezés. Próbáld: CUBE, Trek, Debrecen, szerviz.";
+        "Nincs egyezés. Próbáld például: CUBE, Trek, Debrecen, szerviz.";
       document.getElementById("results").hidden = true;
       return;
     }

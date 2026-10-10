@@ -1,6 +1,6 @@
 ## Mit jelent?
 
-A gyártói tömeg (kg) a kerékpár súlyát jelöli. Fontos, hogy milyen felszereltséggel és melyik vázméretre vonatkozik. Példa: a Trek District+ 9 oldalán a tömeg **24,9 kg, akkumulátor nélkül** (L méret) — a feltétel a számmal együtt szerepel. A Specialized termékoldalak gyakran méretre és festett gyártási vázakra hivatkoznak, és jelzik, hogy a szín, méret és alkatrészváltozat módosíthatja az értéket.
+A gyártói tömeg (kg) a kerékpár súlyát jelöli. Fontos, hogy milyen felszereltséggel és melyik vázméretre vonatkozik. Példa: a Trek District+ 9 oldalán a tömeg **24,9 kg, akkumulátor nélkül, L-es vázméretben** — a feltétel a számmal együtt szerepel. A Specialized termékoldalak gyakran méretre és festett gyártási vázakra hivatkoznak, és jelzik, hogy a szín, méret és alkatrészváltozat módosíthatja az értéket.
 
 ## Miért számít használat közben?
 

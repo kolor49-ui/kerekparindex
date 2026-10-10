@@ -2,7 +2,7 @@
 
 Az elektromos rásegítésű kerékpár (pedelec) motorja a pedálozáshoz ad plusz erőt. Gyártói adatlapokon a pontos típusjelzés az elsődleges azonosító — például Bosch Performance Line CX, Shimano EP6 vagy Specialized saját egység —, nem elég csak a márkanevet nézni.
 
-A Bosch eBike hivataladokumentációja külön kezelési útmutatókat közöl a különböző hajtásegységekhez (Active Line, Performance Line CX stb.).
+A Bosch eBike hivatalos dokumentációja külön kezelési útmutatókat közöl a különböző hajtásegységekhez (Active Line, Performance Line CX stb.).
 
 ## Miért számít használat közben?
 

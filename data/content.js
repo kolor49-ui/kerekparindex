@@ -1,12 +1,12 @@
 /**
- * Publikált tartalmi próbakör (generált). Forrás: content/*.json
+ * Publikált tartalom (generált). Forrás: content/*.json
  * Frissítés: python3 scripts/apply-content-pilot-v2.py
  */
 window.KEREKPARINDEX_CONTENT = {
   "generatedAt": "2026-10-10",
   "package": "kerekparindex-content-pilot-v2",
-  "notice": "Ellenőrzött tartalmi próbakör. A márka–üzlet kapcsolat sells_brand szintű; nem készlet- és nem kipróbálási ígéret. Nincs élő ár-/készletadatbázis.",
-  "naLabel": "Nincs ellenőrzött adat",
+  "notice": "A márka–üzlet kapcsolat azt jelenti, hogy az üzlet a márkát forgalmazza. Ez nem készletígéret és nem kipróbálási ígéret. Élő ár- vagy készletadatbázis nincs.",
+  "naLabel": "Nincs ellenőrzött adatunk",
   "brands": [
     {
       "id": "brand-cube",
@@ -27,7 +27,7 @@ window.KEREKPARINDEX_CONTENT = {
         "e-transport",
         "e-kids"
       ],
-      "shortDescription": "Német kerékpármárka hivatalos magyar nyelvű cube.eu/hu-hu oldalával; mountain, road, gravel, trekking, gyerek és több e-bike kategóriával. A cube-bikes.hu magyar oldalon Cube kerékpárokat és kiegészítőket kínál.",
+      "shortDescription": "Német kerékpármárka mountain, road, gravel, trekking, gyerek és több e-bike kategóriával. Hivatalos magyar nyelvű oldal: cube.eu/hu-hu; a cube-bikes.hu Cube kerékpárokat és kiegészítőket kínál.",
       "status": "ellenőrzött",
       "evidenceIds": [
         "ev-cube-eu-hu",
@@ -46,13 +46,13 @@ window.KEREKPARINDEX_CONTENT = {
         "accessories",
         "e-bike"
       ],
-      "shortDescription": "Giant hivatalos magyar nyelvű oldala (giant-bicycles.com/hu) kerékpárokat és kiegészítőket mutat; a főoldalon e-bike modell (Trance Advanced E+) is szerepel.",
+      "shortDescription": "A Giant hivatalos magyar oldalán (giant-bicycles.com/hu) kerékpárok és kiegészítők szerepelnek; a főoldalon e-bike modell is megjelenik.",
       "status": "ellenőrzött",
       "evidenceIds": [
         "ev-giant-hu",
         "ev-giant-hu-bikes"
       ],
-      "notes": "Részletes kategórialista a /hu/bikes aloldalon a fetch során csak címszinten volt olvasható; missing_reason: teljes kategória-fa nem állt rendelkezésre a HTML-ből."
+      "notes": null
     },
     {
       "id": "brand-trek",
@@ -72,14 +72,14 @@ window.KEREKPARINDEX_CONTENT = {
         "cyclocross",
         "triathlon"
       ],
-      "shortDescription": "Nemzetközi Trek márka; magyarországi jelenlét a trek.hu importőr oldalon (Genomed Kft., Budapest), amely Trek kerékpárokat, alkatrészeket és kiegészítőket forgalmaz, országos üzlethálózattal.",
+      "shortDescription": "Nemzetközi Trek márka. Magyarországon a trek.hu (Genomed Kft., Budapest) forgalmaz Trek kerékpárokat, alkatrészeket és kiegészítőket, országos üzlethálózattal.",
       "status": "ellenőrzött",
       "evidenceIds": [
         "ev-trek-global",
         "ev-trek-hu",
         "ev-trek-hu-cegadatok"
       ],
-      "notes": "A trek.hu Genomed Kft. által üzemeltetett magyar importőr/forgalmazó oldal, nem a trekbikes.com országválasztója."
+      "notes": "A trek.hu importőr/forgalmazó oldal, nem a trekbikes.com országválasztója."
     },
     {
       "id": "brand-specialized",
@@ -95,7 +95,7 @@ window.KEREKPARINDEX_CONTENT = {
         "e-city",
         "apparel-equipment"
       ],
-      "shortDescription": "Specialized hivatalos /hu/en locale oldala elérhető; a gyártó nemzetközi forgalmazói listáján Magyarország (Hauser Kerkpr Kft., Budapest) szerepel Specialized Hungaryként.",
+      "shortDescription": "A Specialized hivatalos magyar nyelvű (/hu/en) oldala elérhető. A gyártó forgalmazói listáján Magyarország (Hauser Kerkpr Kft., Budapest) Specialized Hungaryként szerepel.",
       "status": "ellenőrzött",
       "evidenceIds": [
         "ev-specialized-global",
@@ -103,7 +103,7 @@ window.KEREKPARINDEX_CONTENT = {
         "ev-specialized-distributors",
         "ev-specialized-hu-warranty"
       ],
-      "notes": "specialized.bikexpert.hu kereskedői oldal fetch: timeout/Forbidden — nem használt evidence. Kategóriák a global/hu főoldal modellcsoportjaiból."
+      "notes": null
     },
     {
       "id": "brand-merida",
@@ -117,14 +117,14 @@ window.KEREKPARINDEX_CONTENT = {
         "mountain",
         "e-bike"
       ],
-      "shortDescription": "Merida hivatalos oldala BikeFun-t nevezi meg magyarországi (és romániai) forgalmazóként; a bikefun.hu Merida híreket és modelleket közöl.",
+      "shortDescription": "A Merida hivatalos oldala a BikeFun-t nevezi meg magyarországi forgalmazóként. A bikefun.hu Merida híreket és modelleket közöl.",
       "status": "ellenőrzött",
       "evidenceIds": [
         "ev-merida-global",
         "ev-merida-hu-distributor",
         "ev-bikefun-hu"
       ],
-      "notes": "Kategóriák a Merida „Distributor in Spotlight – MERIDA Hungary” interjúban említett kulcsmodellekből (road, gravel/SILEX, MTB, eSPEEDER)."
+      "notes": null
     },
     {
       "id": "brand-scott",
@@ -137,12 +137,12 @@ window.KEREKPARINDEX_CONTENT = {
         "e-mountain",
         "urban-mobility"
       ],
-      "shortDescription": "Scott magyarországi közvetlen márkaképviseletét 2021-es sajtóközlemény (Bikemag) szerint Nagy Oszkár vezeti; hivatalos scott-sports.com oldal 2026-10-10-én Incapsula miatt nem volt olvasható.",
+      "shortDescription": "A magyarországi képviseletről egy 2021-es sajtóközlemény alapján tudunk. A hivatalos gyártói oldal jelenleg nem volt ellenőrizhető, ezért ez a márkalap még előkészítés alatt áll.",
       "status": "előkészített",
       "evidenceIds": [
         "ev-scott-bikemag-2021"
       ],
-      "notes": "missing_reason: officialWebsite fetch sikertelen (Incapsula); nincs ellenőrizhető dedikált HU importer domain. hungaryRelatedWebsite null. productCategories csak a 2021-es sajtóközlemény említéseiből (Gravel, Sub Tour, e-MTB). Aktuális 2026-os hivatalos HU jelenlét nem erősíthető meg elsődleges forrásból."
+      "notes": null
     },
     {
       "id": "brand-cannondale",
@@ -157,14 +157,14 @@ window.KEREKPARINDEX_CONTENT = {
         "mountain",
         "kids"
       ],
-      "shortDescription": "Cannondale nemzetközi oldal road/mountain/gravel/electric/kids kínálattal; magyar nyelvű cannondale-bikes.hu és a MALI Magyarország cannondale.hu oldala Cannondale kerékpárokat forgalmaz Magyarországon.",
+      "shortDescription": "A Cannondale nemzetközi oldalán road, mountain, gravel, electric és kids kínálat szerepel. Magyarországon a cannondale-bikes.hu és a MALI Magyarország cannondale.hu oldala forgalmaz Cannondale kerékpárokat.",
       "status": "ellenőrzött",
       "evidenceIds": [
         "ev-cannondale-global",
         "ev-cannondale-bikes-hu",
         "ev-cannondale-mali-hu"
       ],
-      "notes": "cannondale.hu = MALI Magyarország kereskedői/forgalmazói jelenlét; a hivatalos gyári /hu locale nem került külön megerősítésre."
+      "notes": "A cannondale.hu a MALI Magyarország kereskedői/forgalmazói jelenléte; a gyári /hu locale külön nem került megerősítésre."
     },
     {
       "id": "brand-gepida",
@@ -177,7 +177,7 @@ window.KEREKPARINDEX_CONTENT = {
         "e-mtb",
         "e-bike"
       ],
-      "shortDescription": "Magyar kerékpármárka: a gepida.hu szerint Magyarországon alapították, tervezik és gyártják a kerékpárokat; trekking és e-MTB modellek, budapesti elérhetőséggel (1164 Budapest, Ostorhegy u. 4.).",
+      "shortDescription": "Magyar kerékpármárka: a gepida.hu szerint Magyarországon alapították, tervezik és gyártják a kerékpárokat. Trekking és e-MTB modellek; budapesti elérhetőség: 1164 Budapest, Ostorhegy u. 4.",
       "status": "ellenőrzött",
       "evidenceIds": [
         "ev-gepida-home",
@@ -196,14 +196,14 @@ window.KEREKPARINDEX_CONTENT = {
         "e-trekking",
         "e-bike"
       ],
-      "shortDescription": "Magyar kerékpármárka esztergomi székhellyel és gyártással; budapesti nagykereskedelmi raktár; e-MTB és e-trekking modellek a neuzer.hu-n; lakossági rendelés a Viddabringát.hu-ra irányítva.",
+      "shortDescription": "Magyar kerékpármárka esztergomi székhellyel és gyártással, budapesti nagykereskedelmi raktárral. A neuzer.hu-n e-MTB és e-trekking modellek szerepelnek; a lakossági rendelést a Viddabringát.hu-ra irányítják.",
       "status": "ellenőrzött",
       "evidenceIds": [
         "ev-neuzer-home",
         "ev-neuzer-emtb",
         "ev-neuzer-etrekking"
       ],
-      "notes": "Teljes hagyományos (nem e-) kategórialista a főoldalon nem volt részletesen kibontva; missing_reason: road/city/MTB hobby stb. csak másodlagos forrásokban (árlista) — azokat nem vettük fel evidence nélkül."
+      "notes": null
     },
     {
       "id": "brand-ktm",
@@ -215,13 +215,13 @@ window.KEREKPARINDEX_CONTENT = {
         "e-bike",
         "bike"
       ],
-      "shortDescription": "KTM Fahrrad GmbH kerékpárok és e-bike-ok (ktm-bikes.at); a ktmteam.hu a KTM kerékpárok magyarországi képviseleti oldala, magyar telefonszámmal.",
+      "shortDescription": "A KTM Fahrrad GmbH kerékpárokat és e-bike-okat gyárt (ktm-bikes.at). A ktmteam.hu a KTM kerékpárok magyarországi képviseleti oldala. Nem azonos a KTM AG motorkerékpár-gyártóval.",
       "status": "ellenőrzött",
       "evidenceIds": [
         "ev-ktm-official",
         "ev-ktm-team-hu"
       ],
-      "notes": "Nem azonos a KTM AG motorkerékpár-gyártóval — a ktmteam.hu és ktm-bikes.at ezt külön kiemeli. Részletes kategórialista: missing_reason: a főoldal csak általános e-bike/bike és modellkampányokat mutatott."
+      "notes": "Nem azonos a KTM AG motorkerékpár-gyártóval — a ktmteam.hu és ktm-bikes.at ezt külön kiemeli."
     }
   ],
   "locations": [
@@ -251,7 +251,6 @@ window.KEREKPARINDEX_CONTENT = {
         "ev-01",
         "ev-02"
       ],
-      "notes": "gepida.hu és gepidastore.hu ugyanazt a címet adja; e-mail és szombati nyitvatartás forrásonként eltérhet.",
       "brandLinks": [
         {
           "brandId": "brand-gepida",
@@ -260,14 +259,10 @@ window.KEREKPARINDEX_CONTENT = {
           "sourceUrl": "https://gepida.hu/bemutatotermunk",
           "quote": "Az üzletben folyamatosan megtalálható a szinte teljes szezonális Gepida kínálat",
           "evidenceId": "ev-01",
-          "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
           "inCatalog": true
         }
-      ],
-      "researchNotes": {
-        "externalBrandClaims": [],
-        "excludedClaims": []
-      }
+      ]
     },
     {
       "id": "loc-bringaboard-jasz",
@@ -295,7 +290,6 @@ window.KEREKPARINDEX_CONTENT = {
       "evidenceIds": [
         "ev-04"
       ],
-      "notes": "Üzlet / szerviz / webshop admin telefonok külön jelölve az oldalon.",
       "brandLinks": [
         {
           "brandId": "brand-cannondale",
@@ -304,14 +298,10 @@ window.KEREKPARINDEX_CONTENT = {
           "sourceUrl": "https://www.bringaboard.hu/",
           "quote": "Cannondale AKCIÓ",
           "evidenceId": "ev-04",
-          "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
           "inCatalog": true
         }
-      ],
-      "researchNotes": {
-        "externalBrandClaims": [],
-        "excludedClaims": []
-      }
+      ]
     },
     {
       "id": "loc-bringavilag-cserhat",
@@ -337,12 +327,7 @@ window.KEREKPARINDEX_CONTENT = {
       "evidenceIds": [
         "ev-05"
       ],
-      "notes": "Márkanevek csak terméklistában; általános „nemzetközi és magyar” állítás – konkrét sells_brand nem rögzítve.",
-      "brandLinks": [],
-      "researchNotes": {
-        "externalBrandClaims": [],
-        "excludedClaims": []
-      }
+      "brandLinks": []
     },
     {
       "id": "loc-nella-kalman",
@@ -368,7 +353,6 @@ window.KEREKPARINDEX_CONTENT = {
         "ev-06",
         "ev-07"
       ],
-      "notes": "Hivatalos/authorized dealer szöveg nem szerepelt a megnyitott oldalakon – csak sells_brand.",
       "brandLinks": [
         {
           "brandId": "brand-trek",
@@ -377,14 +361,10 @@ window.KEREKPARINDEX_CONTENT = {
           "sourceUrl": "https://trek.hu/hu-hu?route=information%2Fcontact",
           "quote": "A legnagyobb hazai Trek kereskedés / Trek importőr",
           "evidenceId": "ev-06",
-          "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
           "inCatalog": true
         }
-      ],
-      "researchNotes": {
-        "externalBrandClaims": [],
-        "excludedClaims": []
-      }
+      ]
     },
     {
       "id": "loc-k2-pacsirtamezo",
@@ -411,7 +391,6 @@ window.KEREKPARINDEX_CONTENT = {
         "ev-07",
         "ev-08"
       ],
-      "notes": "E-mail az oldalon k2[a]k2shop.hu formában; belépés Viador / Amphitheatre felől.",
       "brandLinks": [
         {
           "brandId": "brand-trek",
@@ -420,14 +399,10 @@ window.KEREKPARINDEX_CONTENT = {
           "sourceUrl": "https://trek.hu/hu-hu/Trek_cikkek/Trek_kereskedesek-Budapesten",
           "quote": "Trek kereskedések Budapesten listában (K2 Shop)",
           "evidenceId": "ev-07",
-          "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
           "inCatalog": true
         }
-      ],
-      "researchNotes": {
-        "externalBrandClaims": [],
-        "excludedClaims": []
-      }
+      ]
     },
     {
       "id": "loc-bikeart-csalogany",
@@ -454,7 +429,6 @@ window.KEREKPARINDEX_CONTENT = {
         "ev-09",
         "ev-10"
       ],
-      "notes": "Title ORBEA/LOOK/SPORTFUL; ORBEA szöveges sells claim a fetchált törzsben nem volt egyértelmű – nem jelölve.",
       "brandLinks": [
         {
           "brandId": "brand-trek",
@@ -463,7 +437,7 @@ window.KEREKPARINDEX_CONTENT = {
           "sourceUrl": "https://www.bikeart.hu/",
           "quote": "Trek kerékpárjainkat keresd webshopunkban!",
           "evidenceId": "ev-12",
-          "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
           "inCatalog": true
         },
         {
@@ -473,29 +447,10 @@ window.KEREKPARINDEX_CONTENT = {
           "sourceUrl": "https://www.bikeart.hu/",
           "quote": "GIANT felfogása szerint…",
           "evidenceId": "ev-12",
-          "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
           "inCatalog": true
         }
-      ],
-      "researchNotes": {
-        "externalBrandClaims": [
-          {
-            "brandName": "Bianchi",
-            "relation": "sells_brand",
-            "sourceUrl": "https://www.bikeart.hu/",
-            "quote": "A Bianchi nem csupán kerékpárokat gyárt…",
-            "evidenceId": "ev-12",
-            "note": "Katalóguson kívüli márka — nincs stabil brandId ebben a próbakörben."
-          }
-        ],
-        "excludedClaims": [
-          {
-            "brandName": "LOOK",
-            "reason": "LOOK pedál-állításként szerepelt; nem kerékpármárka sells_brand.",
-            "sourceUrl": "https://www.bikeart.hu/"
-          }
-        ]
-      }
+      ]
     },
     {
       "id": "loc-bikeart-kissjanos",
@@ -520,7 +475,6 @@ window.KEREKPARINDEX_CONTENT = {
       "evidenceIds": [
         "ev-09"
       ],
-      "notes": "Szervezeti e-mail a Csalogány webshop/boltok oldaláról; helyspecifikus e-mail JS mögött.",
       "brandLinks": [
         {
           "brandId": "brand-trek",
@@ -529,7 +483,7 @@ window.KEREKPARINDEX_CONTENT = {
           "sourceUrl": "https://www.bikeart.hu/",
           "quote": "Trek kerékpárjainkat keresd webshopunkban!",
           "evidenceId": "ev-12",
-          "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
           "inCatalog": true
         },
         {
@@ -539,23 +493,10 @@ window.KEREKPARINDEX_CONTENT = {
           "sourceUrl": "https://www.bikeart.hu/",
           "quote": "GIANT felfogása szerint…",
           "evidenceId": "ev-12",
-          "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
           "inCatalog": true
         }
-      ],
-      "researchNotes": {
-        "externalBrandClaims": [
-          {
-            "brandName": "Bianchi",
-            "relation": "sells_brand",
-            "sourceUrl": "https://www.bikeart.hu/",
-            "quote": "A Bianchi nem csupán kerékpárokat gyárt…",
-            "evidenceId": "ev-12",
-            "note": "Katalóguson kívüli márka — nincs stabil brandId ebben a próbakörben."
-          }
-        ],
-        "excludedClaims": []
-      }
+      ]
     },
     {
       "id": "loc-rekord-budapest",
@@ -580,12 +521,7 @@ window.KEREKPARINDEX_CONTENT = {
       "evidenceIds": [
         "ev-13"
       ],
-      "notes": "Szerviz oldal org-szinten van; melyik telephelyen a műhely, nincs külön megjelölve.",
-      "brandLinks": [],
-      "researchNotes": {
-        "externalBrandClaims": [],
-        "excludedClaims": []
-      }
+      "brandLinks": []
     },
     {
       "id": "loc-vozzy-debrecen",
@@ -610,7 +546,6 @@ window.KEREKPARINDEX_CONTENT = {
       "evidenceIds": [
         "ev-15"
       ],
-      "notes": null,
       "brandLinks": [
         {
           "brandId": "brand-merida",
@@ -619,31 +554,10 @@ window.KEREKPARINDEX_CONTENT = {
           "sourceUrl": "https://www.vozzy.hu/spg/601152/Uzletunk",
           "quote": "új kerékpárok értékesítése: Merida, Adriatica, Cross márkák",
           "evidenceId": "ev-15",
-          "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
           "inCatalog": true
         }
-      ],
-      "researchNotes": {
-        "externalBrandClaims": [
-          {
-            "brandName": "Adriatica",
-            "relation": "sells_brand",
-            "sourceUrl": "https://www.vozzy.hu/spg/601152/Uzletunk",
-            "quote": "új kerékpárok értékesítése: Merida, Adriatica, Cross márkák",
-            "evidenceId": "ev-15",
-            "note": "Katalóguson kívüli márka — nincs stabil brandId ebben a próbakörben."
-          },
-          {
-            "brandName": "Cross",
-            "relation": "sells_brand",
-            "sourceUrl": "https://www.vozzy.hu/spg/601152/Uzletunk",
-            "quote": "új kerékpárok értékesítése: Merida, Adriatica, Cross márkák",
-            "evidenceId": "ev-15",
-            "note": "Katalóguson kívüli márka — nincs stabil brandId ebben a próbakörben."
-          }
-        ],
-        "excludedClaims": []
-      }
+      ]
     },
     {
       "id": "loc-jobringa-debrecen",
@@ -670,12 +584,7 @@ window.KEREKPARINDEX_CONTENT = {
       "evidenceIds": [
         "ev-16"
       ],
-      "notes": "Irányítószám ÁSZF-ből (4032); kapcsolat oldal szövegesen Böszörményi út 153.",
-      "brandLinks": [],
-      "researchNotes": {
-        "externalBrandClaims": [],
-        "excludedClaims": []
-      }
+      "brandLinks": []
     },
     {
       "id": "loc-heavy-pedal-szeged",
@@ -701,7 +610,6 @@ window.KEREKPARINDEX_CONTENT = {
       "evidenceIds": [
         "ev-17"
       ],
-      "notes": null,
       "brandLinks": [
         {
           "brandId": "brand-gepida",
@@ -710,39 +618,10 @@ window.KEREKPARINDEX_CONTENT = {
           "sourceUrl": "https://heavypedal.hu/",
           "quote": "Kiemelt kerékpár márkáink: Bianchi, Gepida, Kross",
           "evidenceId": "ev-17",
-          "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
           "inCatalog": true
         }
-      ],
-      "researchNotes": {
-        "externalBrandClaims": [
-          {
-            "brandName": "Bianchi",
-            "relation": "sells_brand",
-            "sourceUrl": "https://heavypedal.hu/",
-            "quote": "Kiemelt kerékpár márkáink: Bianchi, Gepida, Kross",
-            "evidenceId": "ev-17",
-            "note": "Katalóguson kívüli márka — nincs stabil brandId ebben a próbakörben."
-          },
-          {
-            "brandName": "Kross",
-            "relation": "sells_brand",
-            "sourceUrl": "https://heavypedal.hu/",
-            "quote": "Kiemelt kerékpár márkáink: Bianchi, Gepida, Kross",
-            "evidenceId": "ev-17",
-            "note": "Katalóguson kívüli márka — nincs stabil brandId ebben a próbakörben."
-          },
-          {
-            "brandName": "Csepel",
-            "relation": "sells_brand",
-            "sourceUrl": "https://heavypedal.hu/",
-            "quote": "A Csepel e-bike-ok pedelec rendszerű elektromos kerékpárok",
-            "evidenceId": "ev-17",
-            "note": "Katalóguson kívüli márka — nincs stabil brandId ebben a próbakörben."
-          }
-        ],
-        "excludedClaims": []
-      }
+      ]
     },
     {
       "id": "loc-bikeszaki-szeged",
@@ -766,12 +645,7 @@ window.KEREKPARINDEX_CONTENT = {
         "ev-18",
         "ev-19"
       ],
-      "notes": "Telefon a kapcsolat oldalon maszkolva (+36 ** ** ****); harmadik féltől nem vettünk át számot.",
-      "brandLinks": [],
-      "researchNotes": {
-        "externalBrandClaims": [],
-        "excludedClaims": []
-      }
+      "brandLinks": []
     },
     {
       "id": "loc-biciklikk-pecs",
@@ -798,12 +672,7 @@ window.KEREKPARINDEX_CONTENT = {
       "evidenceIds": [
         "ev-20"
       ],
-      "notes": "uzleteink: 2403=bolt, 2410=szerviz; site header más helyen fordítva jelöli – lásd gaps.",
-      "brandLinks": [],
-      "researchNotes": {
-        "externalBrandClaims": [],
-        "excludedClaims": []
-      }
+      "brandLinks": []
     },
     {
       "id": "loc-peppe-gyor",
@@ -829,7 +698,6 @@ window.KEREKPARINDEX_CONTENT = {
       "evidenceIds": [
         "ev-22"
       ],
-      "notes": "Márkák terméklistából (eladás claim), nem authorized_dealer.",
       "brandLinks": [
         {
           "brandId": "brand-cube",
@@ -838,7 +706,7 @@ window.KEREKPARINDEX_CONTENT = {
           "sourceUrl": "https://peppekerekpar.hu/",
           "quote": "CUBE ATTAIN / CUBE KATHMANDU terméklistán",
           "evidenceId": "ev-22",
-          "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
           "inCatalog": true
         },
         {
@@ -848,23 +716,10 @@ window.KEREKPARINDEX_CONTENT = {
           "sourceUrl": "https://peppekerekpar.hu/",
           "quote": "Gepida Alboin 200",
           "evidenceId": "ev-22",
-          "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
           "inCatalog": true
         }
-      ],
-      "researchNotes": {
-        "externalBrandClaims": [
-          {
-            "brandName": "Csepel",
-            "relation": "sells_brand",
-            "sourceUrl": "https://peppekerekpar.hu/",
-            "quote": "Csepel Budapest A",
-            "evidenceId": "ev-22",
-            "note": "Katalóguson kívüli márka — nincs stabil brandId ebben a próbakörben."
-          }
-        ],
-        "excludedClaims": []
-      }
+      ]
     },
     {
       "id": "loc-rekord-gyor",
@@ -889,12 +744,7 @@ window.KEREKPARINDEX_CONTENT = {
       "evidenceIds": [
         "ev-13"
       ],
-      "notes": "Cég székhelye is ez a cím a kapcsolat oldalon.",
-      "brandLinks": [],
-      "researchNotes": {
-        "externalBrandClaims": [],
-        "excludedClaims": []
-      }
+      "brandLinks": []
     },
     {
       "id": "loc-bico-szekesfehervar",
@@ -919,7 +769,6 @@ window.KEREKPARINDEX_CONTENT = {
       "evidenceIds": [
         "ev-23"
       ],
-      "notes": null,
       "brandLinks": [
         {
           "brandId": "brand-gepida",
@@ -928,7 +777,7 @@ window.KEREKPARINDEX_CONTENT = {
           "sourceUrl": "https://bicobolt.hu/",
           "quote": "új kerékpárok (Csepel, Gepida, Koliken, Neuzer stb…)",
           "evidenceId": "ev-23",
-          "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
           "inCatalog": true
         },
         {
@@ -938,31 +787,10 @@ window.KEREKPARINDEX_CONTENT = {
           "sourceUrl": "https://bicobolt.hu/",
           "quote": "új kerékpárok (Csepel, Gepida, Koliken, Neuzer stb…)",
           "evidenceId": "ev-23",
-          "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
           "inCatalog": true
         }
-      ],
-      "researchNotes": {
-        "externalBrandClaims": [
-          {
-            "brandName": "Csepel",
-            "relation": "sells_brand",
-            "sourceUrl": "https://bicobolt.hu/",
-            "quote": "új kerékpárok (Csepel, Gepida, Koliken, Neuzer stb…)",
-            "evidenceId": "ev-23",
-            "note": "Katalóguson kívüli márka — nincs stabil brandId ebben a próbakörben."
-          },
-          {
-            "brandName": "Koliken",
-            "relation": "sells_brand",
-            "sourceUrl": "https://bicobolt.hu/",
-            "quote": "új kerékpárok (Csepel, Gepida, Koliken, Neuzer stb…)",
-            "evidenceId": "ev-23",
-            "note": "Katalóguson kívüli márka — nincs stabil brandId ebben a próbakörben."
-          }
-        ],
-        "excludedClaims": []
-      }
+      ]
     },
     {
       "id": "loc-vital-szekesfehervar",
@@ -987,12 +815,7 @@ window.KEREKPARINDEX_CONTENT = {
       "evidenceIds": [
         "ev-24"
       ],
-      "notes": "Szerviz szerep a főoldal szövegéből nem volt egyértelmű – csak eladás rögzítve.",
-      "brandLinks": [],
-      "researchNotes": {
-        "externalBrandClaims": [],
-        "excludedClaims": []
-      }
+      "brandLinks": []
     },
     {
       "id": "loc-q1-nyiregyhaza",
@@ -1017,7 +840,6 @@ window.KEREKPARINDEX_CONTENT = {
       "evidenceIds": [
         "ev-25"
       ],
-      "notes": "Bosch diagnosztika cikk alapján e-bike-szerviz is.",
       "brandLinks": [
         {
           "brandId": "brand-trek",
@@ -1026,47 +848,10 @@ window.KEREKPARINDEX_CONTENT = {
           "sourceUrl": "https://q1kerekparszalon.hu/",
           "quote": "Komoly szállítmány érkezett a Trek hazai képviseletének raktárába és így üzletünkbe is",
           "evidenceId": "ev-25",
-          "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
           "inCatalog": true
         }
-      ],
-      "researchNotes": {
-        "externalBrandClaims": [
-          {
-            "brandName": "Marin",
-            "relation": "sells_brand",
-            "sourceUrl": "https://q1kerekparszalon.hu/",
-            "quote": "A Marin Bobcat Trail sorozatának több típusa gurult be… üzletünkbe",
-            "evidenceId": "ev-25",
-            "note": "Katalóguson kívüli márka — nincs stabil brandId ebben a próbakörben."
-          },
-          {
-            "brandName": "Hercules",
-            "relation": "sells_brand",
-            "sourceUrl": "https://q1kerekparszalon.hu/",
-            "quote": "Hercules Valecia R7 / német márkánk",
-            "evidenceId": "ev-25",
-            "note": "Katalóguson kívüli márka — nincs stabil brandId ebben a próbakörben."
-          },
-          {
-            "brandName": "Winora",
-            "relation": "sells_brand",
-            "sourceUrl": "https://q1kerekparszalon.hu/",
-            "quote": "Winora Domingo sorozat",
-            "evidenceId": "ev-25",
-            "note": "Katalóguson kívüli márka — nincs stabil brandId ebben a próbakörben."
-          },
-          {
-            "brandName": "Dema",
-            "relation": "sells_brand",
-            "sourceUrl": "https://q1kerekparszalon.hu/",
-            "quote": "A Dema kerékpárok… kínálatunknak",
-            "evidenceId": "ev-25",
-            "note": "Katalóguson kívüli márka — nincs stabil brandId ebben a próbakörben."
-          }
-        ],
-        "excludedClaims": []
-      }
+      ]
     },
     {
       "id": "loc-melux-nyiregyhaza",
@@ -1089,12 +874,7 @@ window.KEREKPARINDEX_CONTENT = {
       "evidenceIds": [
         "ev-26"
       ],
-      "notes": "Nyilvános e-mail a főoldalon nem volt.",
-      "brandLinks": [],
-      "researchNotes": {
-        "externalBrandClaims": [],
-        "excludedClaims": []
-      }
+      "brandLinks": []
     },
     {
       "id": "loc-borsod-bike-miskolc",
@@ -1119,12 +899,7 @@ window.KEREKPARINDEX_CONTENT = {
       "evidenceIds": [
         "ev-27"
       ],
-      "notes": null,
-      "brandLinks": [],
-      "researchNotes": {
-        "externalBrandClaims": [],
-        "excludedClaims": []
-      }
+      "brandLinks": []
     }
   ],
   "servicesByLocation": {
@@ -1985,7 +1760,7 @@ window.KEREKPARINDEX_CONTENT = {
       "brakes": "Shimano MT200 hydraulic disc",
       "weightKg": 24.9,
       "weightMissingReason": null,
-      "weighingConditions": "L méret: 24,90 kg / 54,9 font, akkumulátor nélkül; előgyártási festett vázakon alapuló adat a közzététel idején; a végleges gyártásban eltérhet.",
+      "weighingConditions": "L méret: 24,90 kg / 54,9 lbs, akkumulátor nélkül; előgyártási festett vázakon alapuló adat a közzététel idején; a végleges gyártásban eltérhet.",
       "weighingConditionsMissingReason": null,
       "sourceUrl": "https://www.trekbikes.com/gb/en_GB/bikes/hybrid-bikes/electric-hybrid-bikes/district/district-9/p/33186/",
       "manufacturerRangeClaim": null,
@@ -2096,7 +1871,7 @@ window.KEREKPARINDEX_CONTENT = {
         "ev-bosch-help-manuals"
       ],
       "checkedAt": "2026-10-10",
-      "bodyMarkdown": "## Mit jelent?\n\nAz elektromos rásegítésű kerékpár (pedelec) motorja a pedálozáshoz ad plusz erőt. Gyártói adatlapokon a pontos típusjelzés az elsődleges azonosító — például Bosch Performance Line CX, Shimano EP6 vagy Specialized saját egység —, nem elég csak a márkanevet nézni.\n\nA Bosch eBike hivataladokumentációja külön kezelési útmutatókat közöl a különböző hajtásegységekhez (Active Line, Performance Line CX stb.).\n\n## Miért számít használat közben?\n\nA motor karakterisztikája befolyásolja az indulást, az emelkedőt és azt, mennyire természetesnek hat a rásegítés. A motor önmagában nem határozza meg a kerékpárt: a váz, a váltó, a gumi és a tömeg ugyanúgy számít.\n\n## Mivel együtt értelmezd?\n\n- Nyomaték (Nm) és maximális rásegítési szint\n- Akkumulátor kapacitása (Wh) és a választott menetmód\n- Váltó és áttétel\n- A kerékpár össztömege\n\n## Mit ellenőrizz vásárláskor?\n\n1. A pontos motortípust a gyártói oldalon vagy a típustáblán.\n2. Hogy a szerviz ismeri-e az adott rendszert (általános e-bike-szerviz nem egyenlő automatikus márka- vagy rendszerszervizzel).\n3. A szoftver- és kijelző-kompatibilitást, ha a gyártó említi.\n\n## Gyakori félreértés\n\n„Erősebb motor = jobb bringa.” A nagyobb nyomatékú vagy sportosabb motor más karaktert ad, de nem jelenti automatikusan, hogy minden használatra jobb — és több energiát is fogyaszthat.\n\n## Források\n\n- Bosch eBike Connect – hivatalos kezelési útmutatók: https://help.bosch-ebike.com/hu/connect/help-center/manuals\n"
+      "bodyMarkdown": "## Mit jelent?\n\nAz elektromos rásegítésű kerékpár (pedelec) motorja a pedálozáshoz ad plusz erőt. Gyártói adatlapokon a pontos típusjelzés az elsődleges azonosító — például Bosch Performance Line CX, Shimano EP6 vagy Specialized saját egység —, nem elég csak a márkanevet nézni.\n\nA Bosch eBike hivatalos dokumentációja külön kezelési útmutatókat közöl a különböző hajtásegységekhez (Active Line, Performance Line CX stb.).\n\n## Miért számít használat közben?\n\nA motor karakterisztikája befolyásolja az indulást, az emelkedőt és azt, mennyire természetesnek hat a rásegítés. A motor önmagában nem határozza meg a kerékpárt: a váz, a váltó, a gumi és a tömeg ugyanúgy számít.\n\n## Mivel együtt értelmezd?\n\n- Nyomaték (Nm) és maximális rásegítési szint\n- Akkumulátor kapacitása (Wh) és a választott menetmód\n- Váltó és áttétel\n- A kerékpár össztömege\n\n## Mit ellenőrizz vásárláskor?\n\n1. A pontos motortípust a gyártói oldalon vagy a típustáblán.\n2. Hogy a szerviz ismeri-e az adott rendszert (általános e-bike-szerviz nem egyenlő automatikus márka- vagy rendszerszervizzel).\n3. A szoftver- és kijelző-kompatibilitást, ha a gyártó említi.\n\n## Gyakori félreértés\n\n„Erősebb motor = jobb bringa.” A nagyobb nyomatékú vagy sportosabb motor más karaktert ad, de nem jelenti automatikusan, hogy minden használatra jobb — és több energiát is fogyaszthat.\n\n## Források\n\n- Bosch eBike Connect – hivatalos kezelési útmutatók: https://help.bosch-ebike.com/hu/connect/help-center/manuals\n"
     },
     {
       "id": "art-exp-nm",
@@ -2159,7 +1934,7 @@ window.KEREKPARINDEX_CONTENT = {
         "ev-specialized-weight-disclaimer"
       ],
       "checkedAt": "2026-10-10",
-      "bodyMarkdown": "## Mit jelent?\n\nA gyártói tömeg (kg) a kerékpár súlyát jelöli. Fontos, hogy milyen felszereltséggel és melyik vázméretre vonatkozik. Példa: a Trek District+ 9 oldalán a tömeg **24,9 kg, akkumulátor nélkül** (L méret) — a feltétel a számmal együtt szerepel. A Specialized termékoldalak gyakran méretre és festett gyártási vázakra hivatkoznak, és jelzik, hogy a szín, méret és alkatrészváltozat módosíthatja az értéket.\n\n## Miért számít használat közben?\n\nNehezebb bringát emelni, szállítani, lépcsőzni nehezebb; a kezelhetőség és a rásegítés nélküli pedálozás is más lehet.\n\n## Mivel együtt értelmezd?\n\n- Akkumulátor tömege / elhelyezése (akkuval vagy anélkül mérték-e)\n- Teherhordó felszerelés\n- Maximális megengedett össztömeg (ha a gyártó megadja)\n- A te testtömeged és a tipikus csomag\n\n## Mit ellenőrizz vásárláskor?\n\n1. Van-e megadva a mérési feltétel (méret, akkuval / akkumulátor nélkül)?\n2. Ha nincs feltétel: a kg értéket tájékoztatónak tekintsd.\n3. Ne rangsorolj abszolút győztest kis kg-különbségből, ha a feltételek hiányoznak vagy eltérnek.\n\n## Gyakori félreértés\n\n„A könnyebb mindig jobb.” Városi teherhordásra tervezett modelleknél a nagyobb tömeg kompromisszum lehet, nem feltétlenül hiba.\n\n## Források\n\n- Trek District+ 9 – tömeg akkumulátor nélkül: https://www.trekbikes.com/gb/en_GB/bikes/hybrid-bikes/electric-hybrid-bikes/district/district-9/p/33186/\n- Specialized S-Works Turbo Levo 4 – tömegfeltételek: https://www.specialized.com/us/en/s-works-turbo-levo-4/p/4291509\n"
+      "bodyMarkdown": "## Mit jelent?\n\nA gyártói tömeg (kg) a kerékpár súlyát jelöli. Fontos, hogy milyen felszereltséggel és melyik vázméretre vonatkozik. Példa: a Trek District+ 9 oldalán a tömeg **24,9 kg, akkumulátor nélkül, L-es vázméretben** — a feltétel a számmal együtt szerepel. A Specialized termékoldalak gyakran méretre és festett gyártási vázakra hivatkoznak, és jelzik, hogy a szín, méret és alkatrészváltozat módosíthatja az értéket.\n\n## Miért számít használat közben?\n\nNehezebb bringát emelni, szállítani, lépcsőzni nehezebb; a kezelhetőség és a rásegítés nélküli pedálozás is más lehet.\n\n## Mivel együtt értelmezd?\n\n- Akkumulátor tömege / elhelyezése (akkuval vagy anélkül mérték-e)\n- Teherhordó felszerelés\n- Maximális megengedett össztömeg (ha a gyártó megadja)\n- A te testtömeged és a tipikus csomag\n\n## Mit ellenőrizz vásárláskor?\n\n1. Van-e megadva a mérési feltétel (méret, akkuval / akkumulátor nélkül)?\n2. Ha nincs feltétel: a kg értéket tájékoztatónak tekintsd.\n3. Ne rangsorolj abszolút győztest kis kg-különbségből, ha a feltételek hiányoznak vagy eltérnek.\n\n## Gyakori félreértés\n\n„A könnyebb mindig jobb.” Városi teherhordásra tervezett modelleknél a nagyobb tömeg kompromisszum lehet, nem feltétlenül hiba.\n\n## Források\n\n- Trek District+ 9 – tömeg akkumulátor nélkül: https://www.trekbikes.com/gb/en_GB/bikes/hybrid-bikes/electric-hybrid-bikes/district/district-9/p/33186/\n- Specialized S-Works Turbo Levo 4 – tömegfeltételek: https://www.specialized.com/us/en/s-works-turbo-levo-4/p/4291509\n"
     },
     {
       "id": "art-exp-service",
@@ -2175,7 +1950,7 @@ window.KEREKPARINDEX_CONTENT = {
         "ev-03"
       ],
       "checkedAt": "2026-10-10",
-      "bodyMarkdown": "## Mit jelent?\n\nA szervizháttér az a helyi kapacitás, ahol a kerékpárt és az elektromos rendszert karbantartják, diagnosztizálják, javítják. Ez lehet általános kerékpárszerviz, e-bike-ra felkészült műhely, vagy igazolt márka-/rendszerszerviz — ezek külön állítások.\n\nPéldák a próbakör ellenőrzött forrásaiból: a BikeArt Center külön szerviz oldalt közöl; a Biciklikk szervizoldala említi az elektromos kerékpárok (e-bike, pedelec) javítását és rendszerdiagnosztikát; a Futurebike/Gepida Store elektronikai szervizénél Bosch és TQ rendszerek szerepelnek.\n\n## Miért számít használat közben?\n\nSzoftverfrissítés, hibakód, akku, motorcsatlakozók — ezekhez gyakran speciális eszköz vagy képzés kell.\n\n## Mivel együtt értelmezd?\n\n- A motor/akkumulátor rendszere\n- A bolt „márkát árul” állítása nem egyenlő automatikus hivatalos márkaszervizzel\n- Telephelyi bizonyíték nélkül szervezeti szervizoldal nem rendelhető automatikusan minden bolthoz\n\n## Mit ellenőrizz vásárláskor?\n\n1. Kérdezd meg: mely rendszereket szervizelnek, milyen diagnosztikával.\n2. Különböztetve: eladás / általános szerviz / e-bike-szerviz / igazolt jogosultság.\n3. Hol van a legközelebbi, számodra elfogadható távolságú pont.\n\n## Gyakori félreértés\n\n„Ha ott vettem, ott mindent meg is javítanak hivatalosan.” Az eladóhely és az igazolt rendszerszerviz külön állítások.\n\n## Források\n\n- BikeArt szerviz: https://www.bikeart.hu/szerviz.html\n- Biciklikk szerviz: https://www.biciklikk.hu/szerviz\n- Futurebike kerékpár szerviz: https://www.gepidastore.hu/kerekpar-szerviz/\n"
+      "bodyMarkdown": "## Mit jelent?\n\nA szervizháttér az a helyi kapacitás, ahol a kerékpárt és az elektromos rendszert karbantartják, diagnosztizálják, javítják. Ez lehet általános kerékpárszerviz, e-bike-ra felkészült műhely, vagy igazolt márka-/rendszerszerviz — ezek külön állítások.\n\nPéldák ellenőrzött forrásokból: a BikeArt Center külön szervizoldalt közöl; a Biciklikk szervizoldala említi az elektromos kerékpárok (e-bike, pedelec) javítását és a rendszerdiagnosztikát; a Futurebike/Gepida Store elektronikai szervizénél Bosch és TQ rendszerek szerepelnek.\n\n## Miért számít használat közben?\n\nSzoftverfrissítés, hibakód, akku, motorcsatlakozók — ezekhez gyakran speciális eszköz vagy képzés kell.\n\n## Mivel együtt értelmezd?\n\n- A motor/akkumulátor rendszere\n- A bolt „márkát árul” állítása nem egyenlő automatikus hivatalos márkaszervizzel\n- Telephelyi bizonyíték nélkül szervezeti szervizoldal nem rendelhető automatikusan minden bolthoz\n\n## Mit ellenőrizz vásárláskor?\n\n1. Kérdezd meg: mely rendszereket szervizelnek, milyen diagnosztikával.\n2. Különböztetve: eladás / általános szerviz / e-bike-szerviz / igazolt jogosultság.\n3. Hol van a legközelebbi, számodra elfogadható távolságú pont.\n\n## Gyakori félreértés\n\n„Ha ott vettem, ott mindent meg is javítanak hivatalosan.” Az eladóhely és az igazolt rendszerszerviz külön állítások.\n\n## Források\n\n- BikeArt szerviz: https://www.bikeart.hu/szerviz.html\n- Biciklikk szerviz: https://www.biciklikk.hu/szerviz\n- Futurebike kerékpár szerviz: https://www.gepidastore.hu/kerekpar-szerviz/\n"
     }
   ],
   "comparisons": [
@@ -2213,7 +1988,7 @@ window.KEREKPARINDEX_CONTENT = {
           "drivetrain": "Shimano Cues RD-U6000-GS 10-Speed; SL-U6000 Rapidfire-Plus; CS-LG300 11-48T; ACID MTB Hybrid Pro 40T; KMC eGlide",
           "brakes": "Shimano BR-MT200, hydraulic disc (180/180)",
           "weightKg": 28.4,
-          "weightDisplay": "28.4 (mérési feltétel: Nincs ellenőrzött adat)",
+          "weightDisplay": "28.4 (mérési feltétel nélkül)",
           "weighingConditions": null,
           "sourceUrl": "https://www.cube.eu/cube-kathmandu-hybrid-one-800-metallicgrey-n-grey/112111",
           "status": "ellenőrzött",
@@ -2222,12 +1997,12 @@ window.KEREKPARINDEX_CONTENT = {
             "hiányzó_adat"
           ],
           "pros": [
-            "800 Wh akkumulátor és 120 Nm-es Bosch Performance Line CX (BDU38) a csoport magasabb gyártói energia- és nyomatékértékei között.",
-            "Hidraulikus tárcsafék (180/180) és 10 fokozatú Cues hajtás trekking/túra jellegű felszereltséghez igazodik."
+            "800 Wh akkumulátor és Bosch Performance Line CX (BDU38), max. 120 Nm — a csoport magasabb gyártói energia- és nyomatékértékei között.",
+            "Hidraulikus tárcsafék (180/180 mm) és 10 fokozatú Cues hajtás: túrázáshoz és mindennapi használathoz illő felszereltség a katalógus szerint."
           ],
           "cons": [
-            "Gyártói tömeg 28,4 kg, mérési feltétel (méret/felszereltség) nélkül — a kg csak tájékoztató.",
-            "A motor pozíciója a megnyitott oldalon nincs külön címkézve."
+            "Gyártói tömeg 28,4 kg, méret és felszereltség megadása nélkül — a szám csak tájékoztató.",
+            "A motor elhelyezését (közép-/agy motor) a gyártói oldalon nem címkézték külön."
           ]
         },
         {
@@ -2242,7 +2017,7 @@ window.KEREKPARINDEX_CONTENT = {
           "drivetrain": "Shimano Cues Di2 E-Shift; Shimano Cues Di2 11-Speed rear derailleur; cassette 11-45T 11-speed; Shimano Linkglide CN-LG500; forged alloy spider, 42T chainring",
           "brakes": "Shimano Deore BR-MT420, hydraulic disc, 4-piston, 203mm [F] / 180mm [R]; levers Shimano BL-M401",
           "weightKg": null,
-          "weightDisplay": "Nincs ellenőrzött adat",
+          "weightDisplay": "Ehhez a változathoz nincs ellenőrzött tömegadatunk.",
           "weighingConditions": null,
           "sourceUrl": "https://www.giant-bicycles.com/int/explore-eplus-1-stagger",
           "status": "ellenőrzött",
@@ -2251,12 +2026,12 @@ window.KEREKPARINDEX_CONTENT = {
             "hiányzó_adat"
           ],
           "pros": [
-            "800 Wh EnergyPak és SyncDrive Pro2 85 Nm; a gyártó három kategóriás hatótáv-becslést is közöl (nem mért teszt).",
-            "4 dugattyús Deore hidraulikus tárcsafék (203/180 mm) a csoport erősebb fékkínálata között."
+            "800 Wh EnergyPak és SyncDrive Pro2, 85 Nm; a gyártó három kategóriás hatótáv-becslést is közöl (nem mért teszt).",
+            "4 dugattyús Deore hidraulikus tárcsafék (203/180 mm) — a csoport erősebb fékkínálata között."
           ],
           "cons": [
-            "Numerikus tömeg a specifikációban nincs; a gyártó helyi mérést javasol.",
-            "Marketing öves hajtást is említ (select models), a Specs Di2 váltós hajtást listáz — a táblában a Specs szerinti adat szerepel."
+            "Ehhez a változathoz nincs ellenőrzött tömegadatunk; a gyártó helyi mérést javasol.",
+            "A marketing öves hajtást is említ (csak egyes modelleknél), a Specs viszont Di2 váltós hajtást listáz — a táblában a Specs szerinti adat szerepel."
           ]
         },
         {
@@ -2280,12 +2055,12 @@ window.KEREKPARINDEX_CONTENT = {
             "hiányzó_adat"
           ],
           "pros": [
-            "750 Wh belső akku és Shimano EP6 85 Nm; tömeg 27,1 kg M méreten mérve (feltétel megadva).",
-            "EQ felszereltségű trekking jelleg a specifikáció alapján."
+            "750 Wh belső akkumulátor és Shimano EP6, 85 Nm; tömeg 27,1 kg, M vázméreten mérve.",
+            "EQ felszereltségű trekking jelleg a gyártói specifikáció alapján."
           ],
           "cons": [
-            "Hivatalos oldal archived — aktuális gyártás/elérhetőség nem igazolt.",
-            "Modellév a megnyitott oldalon nem szerepel külön számként."
+            "A hivatalos oldal archivált — aktuális gyártás és elérhetőség nem igazolt.",
+            "A modellév a gyártói oldalon nem szerepel külön számként."
           ]
         },
         {
@@ -2300,7 +2075,7 @@ window.KEREKPARINDEX_CONTENT = {
           "drivetrain": "Shimano Deore 10-speed: SL-M4100-10 Rapidfire Plus; CS-M4100 11-42T; FSA CK-200 170mm",
           "brakes": "Hydraulic disc: Shimano BR-MT200; levers BL-MT201; rotors SM-RT26M 180mm / SM-RT26S 160mm",
           "weightKg": null,
-          "weightDisplay": "Nincs ellenőrzött adat",
+          "weightDisplay": "Ehhez a változathoz nincs ellenőrzött tömegadatunk.",
           "weighingConditions": null,
           "sourceUrl": "https://gepida.hu/gepida-berig-deore-10-w-matt-grafit-11372",
           "status": "ellenőrzött",
@@ -2309,21 +2084,21 @@ window.KEREKPARINDEX_CONTENT = {
             "hiányzó_adat"
           ],
           "pros": [
-            "Középmotoros Bosch Performance Line Cruise BES2 és 500 Wh, SUV jellegű pozicionálás.",
+            "Középmotoros Bosch Performance Line Cruise BES2 és 500 Wh; a gyártó SUV jellegű használatra pozicionálja.",
             "Deore 10 fokozatú hajtás és hidraulikus tárcsafék a specifikációban."
           ],
           "cons": [
-            "Nyomaték (Nm) és tömeg a gepida.hu oldalon nem szerepel numerikusan.",
-            "Színmegnevezés ellentmondásos a forráson (cím vs. matrica szín)."
+            "A nyomatékhoz (Nm) és a tömeghez nincs ellenőrzött adatunk a gepida.hu oldalon.",
+            "A színmegnevezés a forráson belül ellentmondásos (cím vs. matrica szín)."
           ]
         }
       ],
-      "bodyMarkdown": "## Cél\n\nHasonló, mindennapi és túrázós használatra szánt trekking/SUV jellegű e-bike modellváltozatok gyártói adatai alapján. Nem saját teszt; nincs abszolút győztes.\n\n## Egységes adattábla (gyártói források, 2026-10-10)\n\n| Modell | Típus | Motor | Nm | Wh | Tömeg | Forrás |\n| --- | --- | --- | --- | --- | --- | --- |\n| Kathmandu Hybrid ONE 800 | trekking e-bike | Bosch Drive Unit Performance Line CX max. 120Nm (BDU38) | 120 | 800 | 28.4 (mérési feltétel: Nincs ellenőrzött adat) | https://www.cube.eu/cube-kathmandu-hybrid-one-800-metallicgrey-n-grey/112111 |\n| Explore E+ 1 Stagger | trekking e-bike | Giant SyncDrive Pro2, 85Nm PedalPlus 6-Sensor technology | 85 | 800 | Nincs ellenőrzött adat | https://www.giant-bicycles.com/int/explore-eplus-1-stagger |\n| eSPRESSO 575 EQ | trekking e-bike | Shimano EP6 | 85 | 750 | 27.1 (kb. tömeg, M vázméreten mérve) | https://www.merida-bikes.com/en/bike/5675-7682/espresso-575-eq |\n| BERIG DEORE 10 W | SUV e-bike | BOSCH PERFORMANCE LINE CRUISE BES2 | Nincs ellenőrzött adat | 500 | Nincs ellenőrzött adat | https://gepida.hu/gepida-berig-deore-10-w-matt-grafit-11372 |\n\nAhol „Nincs ellenőrzött adat” szerepel: a megnyitott oldalon nem volt egyértelmű numerikus adat, vagy hiányzik a mérési feltétel.\n\n## Modellenként: előnyök és kompromisszumok\n\n### Kathmandu Hybrid ONE 800\n**Adatokból levezetett előnyök**\n- 800 Wh akkumulátor és 120 Nm-es Bosch Performance Line CX (BDU38) a csoport magasabb gyártói energia- és nyomatékértékei között.\n- Hidraulikus tárcsafék (180/180) és 10 fokozatú Cues hajtás trekking/túra jellegű felszereltséghez igazodik.\n**Kompromisszumok**\n- Gyártói tömeg 28,4 kg, mérési feltétel (méret/felszereltség) nélkül — a kg csak tájékoztató.\n- A motor pozíciója a megnyitott oldalon nincs külön címkézve.\n\n### Explore E+ 1 Stagger\n**Adatokból levezetett előnyök**\n- 800 Wh EnergyPak és SyncDrive Pro2 85 Nm; a gyártó három kategóriás hatótáv-becslést is közöl (nem mért teszt).\n- 4 dugattyús Deore hidraulikus tárcsafék (203/180 mm) a csoport erősebb fékkínálata között.\n**Kompromisszumok**\n- Numerikus tömeg a specifikációban nincs; a gyártó helyi mérést javasol.\n- Marketing öves hajtást is említ (select models), a Specs Di2 váltós hajtást listáz — a táblában a Specs szerinti adat szerepel.\n\n### eSPRESSO 575 EQ\n*Archivált gyártói oldal — specifikáció olvasható, aktuális gyártás nem igazolt.*\n**Adatokból levezetett előnyök**\n- 750 Wh belső akku és Shimano EP6 85 Nm; tömeg 27,1 kg M méreten mérve (feltétel megadva).\n- EQ felszereltségű trekking jelleg a specifikáció alapján.\n**Kompromisszumok**\n- Hivatalos oldal archived — aktuális gyártás/elérhetőség nem igazolt.\n- Modellév a megnyitott oldalon nem szerepel külön számként.\n\n### BERIG DEORE 10 W\n**Adatokból levezetett előnyök**\n- Középmotoros Bosch Performance Line Cruise BES2 és 500 Wh, SUV jellegű pozicionálás.\n- Deore 10 fokozatú hajtás és hidraulikus tárcsafék a specifikációban.\n**Kompromisszumok**\n- Nyomaték (Nm) és tömeg a gepida.hu oldalon nem szerepel numerikusan.\n- Színmegnevezés ellentmondásos a forráson (cím vs. matrica szín).\n\n\n## Gyakorlati értelmezés\n\n- **Nm és Wh együtt:** nagyobb nyomaték + magas rásegítés gyorsabban merítheti az akkut; a Wh önmagában nem hatótávgarancia.\n- **Tömeg:** ahol nincs mérési feltétel, a kg csak tájékoztató.\n- **Motortípus:** ugyanaz a „Bosch CX” felirat különböző generációknál más Nm-értéket jelenthet.\n- **Nem saját teszt:** menetélményt, mért hatótávot és abszolút győztest nem állítunk.\n\n## Kinek lehet hasznos ez a tábla\n\nAkik aszfaltos és vegyes útvonalon, csomaggal vagy hosszabb távon is gondolkodnak, és a katalógusadatokból szeretnének kiindulni. Kipróbálást csak akkor tekintsd adottnak, ha a konkrét üzlet ezt állítja.\n"
+      "bodyMarkdown": "## Miről szól ez az összehasonlítás?\n\nMindennapi és túrázós használatra szánt trekking és SUV jellegű e-bike modellváltozatok gyártói adatai. Nem saját teszt, és nincs abszolút győztes.\n\n## Gyártói adatok (2026-10-10)\n\n| Modell | Típus | Motor | Nm | Wh | Tömeg | Forrás |\n| --- | --- | --- | --- | --- | --- | --- |\n| Kathmandu Hybrid ONE 800 | trekking e-bike | Bosch Drive Unit Performance Line CX max. 120Nm (BDU38) | 120 | 800 | 28.4 (mérési feltétel nélkül) | https://www.cube.eu/cube-kathmandu-hybrid-one-800-metallicgrey-n-grey/112111 |\n| Explore E+ 1 Stagger | trekking e-bike | Giant SyncDrive Pro2, 85Nm PedalPlus 6-Sensor technology | 85 | 800 | Ehhez a változathoz nincs ellenőrzött tömegadatunk. | https://www.giant-bicycles.com/int/explore-eplus-1-stagger |\n| eSPRESSO 575 EQ | trekking e-bike | Shimano EP6 | 85 | 750 | 27.1 (kb. tömeg, M vázméreten mérve) | https://www.merida-bikes.com/en/bike/5675-7682/espresso-575-eq |\n| BERIG DEORE 10 W | SUV e-bike | BOSCH PERFORMANCE LINE CRUISE BES2 | Nincs ellenőrzött adatunk | 500 | Ehhez a változathoz nincs ellenőrzött tömegadatunk. | https://gepida.hu/gepida-berig-deore-10-w-matt-grafit-11372 |\n\nAhol „Nincs ellenőrzött adatunk” vagy hiányzó tömeg szerepel: a rendelkezésre álló gyártói oldalon nem ellenőrzött szám, vagy hiányzik a mérési feltétel.\n\n## Modellenként\n\n### Kathmandu Hybrid ONE 800\n**Mit érdemes tudnod róla?**\n- 800 Wh akkumulátor és Bosch Performance Line CX (BDU38), max. 120 Nm — a csoport magasabb gyártói energia- és nyomatékértékei között.\n- Hidraulikus tárcsafék (180/180 mm) és 10 fokozatú Cues hajtás: túrázáshoz és mindennapi használathoz illő felszereltség a katalógus szerint.\n**Mire figyelj vásárlás előtt?**\n- Gyártói tömeg 28,4 kg, méret és felszereltség megadása nélkül — a szám csak tájékoztató.\n- A motor elhelyezését (közép-/agy motor) a gyártói oldalon nem címkézték külön.\n\n### Explore E+ 1 Stagger\n**Mit érdemes tudnod róla?**\n- 800 Wh EnergyPak és SyncDrive Pro2, 85 Nm; a gyártó három kategóriás hatótáv-becslést is közöl (nem mért teszt).\n- 4 dugattyús Deore hidraulikus tárcsafék (203/180 mm) — a csoport erősebb fékkínálata között.\n**Mire figyelj vásárlás előtt?**\n- Ehhez a változathoz nincs ellenőrzött tömegadatunk; a gyártó helyi mérést javasol.\n- A marketing öves hajtást is említ (csak egyes modelleknél), a Specs viszont Di2 váltós hajtást listáz — a táblában a Specs szerinti adat szerepel.\n\n### eSPRESSO 575 EQ\n*Archivált gyártói oldal: a specifikáció olvasható, az aktuális gyártás nem igazolt.*\n**Mit érdemes tudnod róla?**\n- 750 Wh belső akkumulátor és Shimano EP6, 85 Nm; tömeg 27,1 kg, M vázméreten mérve.\n- EQ felszereltségű trekking jelleg a gyártói specifikáció alapján.\n**Mire figyelj vásárlás előtt?**\n- A hivatalos oldal archivált — aktuális gyártás és elérhetőség nem igazolt.\n- A modellév a gyártói oldalon nem szerepel külön számként.\n\n### BERIG DEORE 10 W\n**Mit érdemes tudnod róla?**\n- Középmotoros Bosch Performance Line Cruise BES2 és 500 Wh; a gyártó SUV jellegű használatra pozicionálja.\n- Deore 10 fokozatú hajtás és hidraulikus tárcsafék a specifikációban.\n**Mire figyelj vásárlás előtt?**\n- A nyomatékhoz (Nm) és a tömeghez nincs ellenőrzött adatunk a gepida.hu oldalon.\n- A színmegnevezés a forráson belül ellentmondásos (cím vs. matrica szín).\n\n\n## Hogyan olvasd a különbségeket?\n\n- **Nm és Wh együtt:** nagyobb nyomaték és magasabb rásegítés gyorsabban merítheti az akkumulátort. A Wh önmagában nem hatótávgarancia.\n- **Tömeg:** ha nincs mérési feltétel (méret, akkumulátorral vagy anélkül), a kg csak tájékoztató.\n- **Motortípus:** a „Bosch CX” felirat különböző generációknál más Nm-értéket jelenthet.\n- **Nem saját teszt:** menetélményt, mért hatótávot és abszolút győztest nem állítunk.\n\n## Kinek lehet hasznos?\n\nHa aszfaltos vagy vegyes útvonalon, csomaggal vagy hosszabb távon is gondolkodsz, és a katalógusadatokból szeretnél kiindulni. Kipróbálást csak akkor tekintsd adottnak, ha a konkrét üzlet ezt állítja.\n"
     },
     {
       "id": "art-cmp-e-mtb",
       "type": "osszehasonlitas",
-      "title": "E-MTB: merevvázas (hardtail) és összteleszkópos összehasonlítás",
+      "title": "E-MTB: hardtail és összteleszkópos összehasonlítás",
       "slug": "osszehasonlitas-e-mtb",
       "status": "ellenőrzött",
       "comparisonGroupId": "cmp-e-mtb",
@@ -2354,7 +2129,7 @@ window.KEREKPARINDEX_CONTENT = {
           "drivetrain": "Shimano Cues RD-U6000-GS 10-Speed; SL-U6000 Rapidfire-Plus; CS-LG400 11-48T; ACID MTB Hybrid Pro 38T; KMC eGlide",
           "brakes": "Shimano BR-MT200, hydraulic disc (180/180)",
           "weightKg": 25.9,
-          "weightDisplay": "25.9 (mérési feltétel: Nincs ellenőrzött adat)",
+          "weightDisplay": "25.9 (mérési feltétel nélkül)",
           "weighingConditions": null,
           "sourceUrl": "https://www.cube.eu/sk-de/cube-reaction-hybrid-one-800-royalgreen-n-prism/108120",
           "status": "ellenőrzött",
@@ -2363,12 +2138,12 @@ window.KEREKPARINDEX_CONTENT = {
             "hiányzó_adat"
           ],
           "pros": [
-            "merevvázas (hardtail) e-MTB: 800 Wh + Bosch CX max. 120 Nm (BDU38) magas gyártói energia-/nyomatékértékkel.",
-            "Gyártói tömeg 25,9 kg, mérési feltétel nélkül — csak tájékoztató adat, nem rangsor."
+            "Merevvázas (hardtail) e-MTB: 800 Wh és Bosch CX max. 120 Nm (BDU38) — magas gyártói energia- és nyomatékérték.",
+            "Gyártói tömeg 25,9 kg; mérési feltétel nélkül, ezért nem alkalmas rangsoroláshoz."
           ],
           "cons": [
-            "Csak első teleszkóp (merevvázas (hardtail)): hátsó rugózás nincs — technikai ösvényen más karakter, mint az összteleszkópos.",
-            "Mérési feltétel a tömeghez nincs megadva."
+            "Csak első teleszkóp van: technikás ösvényen más a karakter, mint az összteleszkópos modelleknél.",
+            "A tömeghez nincs megadva méret vagy felszereltség."
           ]
         },
         {
@@ -2392,12 +2167,12 @@ window.KEREKPARINDEX_CONTENT = {
             "hiányzó_adat"
           ],
           "pros": [
-            "merevvázas (hardtail) e-MTB 750 Wh-vel és EP6 85 Nm-rel; tömeg 23,6 kg M méreten (feltétel megadva).",
+            "Merevvázas e-MTB 750 Wh-vel és Shimano EP6 85 Nm-rel; tömeg 23,6 kg M méreten (feltétel megadva).",
             "12 fokozatú Eagle hajtás a specifikáció szerint."
           ],
           "cons": [
             "Archivált gyártói oldal — aktuális gyártás nem igazolt.",
-            "merevvázas (hardtail) felépítés: nincs hátsó teleszkóp (szándékos kompromisszum a tömeg/egyszerűség felé)."
+            "Nincs hátsó teleszkóp: ez szándékos felépítés (egyszerűbb hátsó rész, más terepes karakter)."
           ]
         },
         {
@@ -2420,12 +2195,12 @@ window.KEREKPARINDEX_CONTENT = {
             "hiányzó_adat"
           ],
           "pros": [
-            "Összteleszkópos e-MTB (150 mm hátsó út): elöl és hátul rugóz — más felépítés, mint a merevvázas modelleké.",
-            "840 Wh akku, 111 Nm / 850 W gyártói motoradat; tömeg 23,68 kg S4 méreten, feltétellel."
+            "Összteleszkópos e-MTB, 150 mm hátsó rugóúttal: elöl és hátul rugóz — más felépítés, mint a merevvázas modelleké.",
+            "840 Wh akkumulátor, 111 Nm / 850 W gyártói motoradat; tömeg 23,68 kg S4 méreten, feltétellel."
           ],
           "cons": [
-            "S-Works szintű felszereltség: a specifikáció prémium hajtást/féket listáz — nem „jobb merevvázas (hardtail)”, hanem más kategória.",
-            "Hatótáv-közlés gyártói Eco-móddal és Range Extender feltételekkel — nem független mérés."
+            "S-Works szintű felszereltség: prémium hajtás és fék a listán — nem „jobb hardtail”, hanem más kategória.",
+            "A hatótáv-közlés Eco módra és Range Extender feltételekre épül — nem független mérés."
           ]
         },
         {
@@ -2440,7 +2215,7 @@ window.KEREKPARINDEX_CONTENT = {
           "drivetrain": "Shimano Deore 10-speed: RD-M4120 Shadow; SL-M4100 Rapidfire Plus; CS-M4100-10 11-42T; FSA steel 38T; FSA CK-220 W 170mm Bosch Gen4",
           "brakes": "Hydraulic disc: Shimano BR-MT200; levers BL-MT200; rotors SM-RT26M 180mm / SM-RT26S 160mm",
           "weightKg": null,
-          "weightDisplay": "Nincs ellenőrzött adat",
+          "weightDisplay": "Ehhez a változathoz nincs ellenőrzött tömegadatunk.",
           "weighingConditions": null,
           "sourceUrl": "https://gepida.hu/gepida-sirmium-pro-deore-10-feher-11105",
           "status": "ellenőrzött",
@@ -2449,16 +2224,16 @@ window.KEREKPARINDEX_CONTENT = {
             "hiányzó_adat"
           ],
           "pros": [
-            "merevvázas (hardtail) e-MTB középmotoros Bosch Performance Line CX BES2 85 Nm és 500 Wh adattal.",
-            "Deore 10 fokozat + hidraulikus tárcsafék a specifikáció táblájában."
+            "Merevvázas e-MTB középmotoros Bosch Performance Line CX BES2 motorral (85 Nm) és 500 Wh akkumulátorral.",
+            "Deore 10 fokozat és hidraulikus tárcsafék a specifikáció táblájában."
           ],
           "cons": [
-            "Tömeg numerikusan hiányzik; gumi megnevezés marketing vs. specs ellentmondásos.",
-            "500 Wh a csoport alacsonyabb gyártói kapacitása a 750–840 Wh modellekhez képest — nem győzelem/veszteség, kapacitáskülönbség."
+            "Ehhez a változathoz nincs ellenőrzött tömegadatunk; a gumi megnevezése a marketing és a Specs között eltér.",
+            "500 Wh a csoport kisebb gyártói kapacitása a 750–840 Wh modellekhez képest — ez kapacitáskülönbség, nem rangsor."
           ]
         }
       ],
-      "bodyMarkdown": "## Cél\n\nTerepes használatra pozicionált e-MTB modellváltozatok. A **S-Works Turbo Levo 4 összteleszkópos** (elöl és hátul rugóz); a CUBE Reaction, a MERIDA eBIG.NINE és a Gepida SIRMIUM **merevvázas (hardtail)** (csak elöl teleszkóp, merev hátsó háromszög). Ez felépítésbeli különbség, nem rangsor. Nem saját teszt; nincs abszolút győztes.\n\n## merevvázas (hardtail) vs. összteleszkópos — röviden\n\n- **merevvázas (hardtail):** egyszerűbb, tipikusan könnyebb karbantartású hátsó rész; technikás, gyökeres/köves ösvényen a hátsó kerék kevésbé nyeli az ütést.\n- **Összteleszkópos:** hátsó rugóút (itt: 150 mm a Levo 4 specifikáció szerint) — más karakterű terepes használatra tervezve; nem „jobb merevvázas (hardtail)”, hanem más konstrukció.\n\n## Egységes adattábla (gyártói források, 2026-10-10)\n\n| Modell | Típus | Motor | Nm | Wh | Tömeg | Forrás |\n| --- | --- | --- | --- | --- | --- | --- |\n| Reaction Hybrid ONE 800 | e-mtb-merevvázas (hardtail) | Bosch Drive Unit Performance Line CX max. 120Nm (BDU38) | 120 | 800 | 25.9 (mérési feltétel: Nincs ellenőrzött adat) | https://www.cube.eu/sk-de/cube-reaction-hybrid-one-800-royalgreen-n-prism/108120 |\n| eBIG.NINE 675 | e-mtb-merevvázas (hardtail) | Shimano EP6 | 85 | 750 | 23.6 (kb. tömeg, M vázméreten mérve) | https://www.merida-bikes.com/en/bike/5704-7528/ebignine-675 |\n| S-Works Turbo Levo 4 | e-mtb-összteleszkópos | Specialized 3.1 S-Works motor, 111Nm, 850W | 111 | 840 | 23.68 (S4 méret; a tömeg a képen látható, gyártási festett vázakon alapul; a szín, a vázméret és az alkatrészváltozat módosíthatja) | https://www.specialized.com/us/en/s-works-turbo-levo-4/p/4291509 |\n| SIRMIUM PRO DEORE 10 | e-mtb-merevvázas (hardtail) | BOSCH PERFORMANCE LINE CX BES2 | 85 | 500 | Nincs ellenőrzött adat | https://gepida.hu/gepida-sirmium-pro-deore-10-feher-11105 |\n\nAhol „Nincs ellenőrzött adat” szerepel: a megnyitott oldalon nem volt egyértelmű numerikus adat, vagy hiányzik a mérési feltétel.\n\n## Modellenként: előnyök és kompromisszumok\n\n### Reaction Hybrid ONE 800\n**Adatokból levezetett előnyök**\n- merevvázas (hardtail) e-MTB: 800 Wh + Bosch CX max. 120 Nm (BDU38) magas gyártói energia-/nyomatékértékkel.\n- Gyártói tömeg 25,9 kg, mérési feltétel nélkül — csak tájékoztató adat, nem rangsor.\n**Kompromisszumok**\n- Csak első teleszkóp (merevvázas (hardtail)): hátsó rugózás nincs — technikai ösvényen más karakter, mint az összteleszkópos.\n- Mérési feltétel a tömeghez nincs megadva.\n\n### eBIG.NINE 675\n*Archivált gyártói oldal — specifikáció olvasható, aktuális gyártás nem igazolt.*\n**Adatokból levezetett előnyök**\n- merevvázas (hardtail) e-MTB 750 Wh-vel és EP6 85 Nm-rel; tömeg 23,6 kg M méreten (feltétel megadva).\n- 12 fokozatú Eagle hajtás a specifikáció szerint.\n**Kompromisszumok**\n- Archivált gyártói oldal — aktuális gyártás nem igazolt.\n- merevvázas (hardtail) felépítés: nincs hátsó teleszkóp (szándékos kompromisszum a tömeg/egyszerűség felé).\n\n### S-Works Turbo Levo 4\n**Adatokból levezetett előnyök**\n- Összteleszkópos e-MTB (150 mm hátsó út): elöl és hátul rugóz — más felépítés, mint a merevvázas modelleké.\n- 840 Wh akku, 111 Nm / 850 W gyártói motoradat; tömeg 23,68 kg S4 méreten, feltétellel.\n**Kompromisszumok**\n- S-Works szintű felszereltség: a specifikáció prémium hajtást/féket listáz — nem „jobb merevvázas (hardtail)”, hanem más kategória.\n- Hatótáv-közlés gyártói Eco-móddal és Range Extender feltételekkel — nem független mérés.\n\n### SIRMIUM PRO DEORE 10\n**Adatokból levezetett előnyök**\n- merevvázas (hardtail) e-MTB középmotoros Bosch Performance Line CX BES2 85 Nm és 500 Wh adattal.\n- Deore 10 fokozat + hidraulikus tárcsafék a specifikáció táblájában.\n**Kompromisszumok**\n- Tömeg numerikusan hiányzik; gumi megnevezés marketing vs. specs ellentmondásos.\n- 500 Wh a csoport alacsonyabb gyártói kapacitása a 750–840 Wh modellekhez képest — nem győzelem/veszteség, kapacitáskülönbség.\n\n\n## Gyakorlati értelmezés\n\n- merevvázas (hardtail) és összteleszkópos modelleket ne rangsorolj ugyanazon „nyertes” skálán.\n- Nm és Wh együtt értelmezendő; a Wh nem hatótávgarancia.\n- Archivált MERIDA oldal: specifikáció olvasható, aktuális gyártás nem igazolt.\n- Nem saját teszt; abszolút győztes nincs.\n"
+      "bodyMarkdown": "## Miről szól ez az összehasonlítás?\n\nTerepes használatra szánt e-MTB modellváltozatok. A **S-Works Turbo Levo 4 összteleszkópos** (elöl és hátul rugóz). A CUBE Reaction, a MERIDA eBIG.NINE és a Gepida SIRMIUM **merevvázas (hardtail)**: csak elöl van teleszkóp, a hátsó háromszög merev. Ez felépítésbeli különbség, nem rangsor. Nem saját teszt, és nincs abszolút győztes.\n\n## Merevvázas vagy összteleszkópos?\n\n- **Merevvázas (hardtail):** egyszerűbb hátsó rész, tipikusan könnyebb karbantartás. Technikás, gyökeres vagy köves ösvényen a hátsó kerék kevésbé nyeli az ütést.\n- **Összteleszkópos:** hátsó rugóút is van (itt: 150 mm a Levo 4 specifikáció szerint). Más terepes karakter — nem „jobb hardtail”, hanem más konstrukció.\n\n## Gyártói adatok (2026-10-10)\n\n| Modell | Típus | Motor | Nm | Wh | Tömeg | Forrás |\n| --- | --- | --- | --- | --- | --- | --- |\n| Reaction Hybrid ONE 800 | e-mtb-merevvázas (hardtail) | Bosch Drive Unit Performance Line CX max. 120Nm (BDU38) | 120 | 800 | 25.9 (mérési feltétel nélkül) | https://www.cube.eu/sk-de/cube-reaction-hybrid-one-800-royalgreen-n-prism/108120 |\n| eBIG.NINE 675 | e-mtb-merevvázas (hardtail) | Shimano EP6 | 85 | 750 | 23.6 (kb. tömeg, M vázméreten mérve) | https://www.merida-bikes.com/en/bike/5704-7528/ebignine-675 |\n| S-Works Turbo Levo 4 | e-mtb-összteleszkópos | Specialized 3.1 S-Works motor, 111Nm, 850W | 111 | 840 | 23.68 (S4 méret; a tömeg a képen látható, gyártási festett vázakon alapul; a szín, a vázméret és az alkatrészváltozat módosíthatja) | https://www.specialized.com/us/en/s-works-turbo-levo-4/p/4291509 |\n| SIRMIUM PRO DEORE 10 | e-mtb-merevvázas (hardtail) | BOSCH PERFORMANCE LINE CX BES2 | 85 | 500 | Ehhez a változathoz nincs ellenőrzött tömegadatunk. | https://gepida.hu/gepida-sirmium-pro-deore-10-feher-11105 |\n\nAhol „Nincs ellenőrzött adatunk” vagy hiányzó tömeg szerepel: a rendelkezésre álló gyártói oldalon nem ellenőrzött szám, vagy hiányzik a mérési feltétel.\n\n## Modellenként\n\n### Reaction Hybrid ONE 800\n**Mit érdemes tudnod róla?**\n- Merevvázas (hardtail) e-MTB: 800 Wh és Bosch CX max. 120 Nm (BDU38) — magas gyártói energia- és nyomatékérték.\n- Gyártói tömeg 25,9 kg; mérési feltétel nélkül, ezért nem alkalmas rangsoroláshoz.\n**Mire figyelj vásárlás előtt?**\n- Csak első teleszkóp van: technikás ösvényen más a karakter, mint az összteleszkópos modelleknél.\n- A tömeghez nincs megadva méret vagy felszereltség.\n\n### eBIG.NINE 675\n*Archivált gyártói oldal: a specifikáció olvasható, az aktuális gyártás nem igazolt.*\n**Mit érdemes tudnod róla?**\n- Merevvázas e-MTB 750 Wh-vel és Shimano EP6 85 Nm-rel; tömeg 23,6 kg M méreten (feltétel megadva).\n- 12 fokozatú Eagle hajtás a specifikáció szerint.\n**Mire figyelj vásárlás előtt?**\n- Archivált gyártói oldal — aktuális gyártás nem igazolt.\n- Nincs hátsó teleszkóp: ez szándékos felépítés (egyszerűbb hátsó rész, más terepes karakter).\n\n### S-Works Turbo Levo 4\n**Mit érdemes tudnod róla?**\n- Összteleszkópos e-MTB, 150 mm hátsó rugóúttal: elöl és hátul rugóz — más felépítés, mint a merevvázas modelleké.\n- 840 Wh akkumulátor, 111 Nm / 850 W gyártói motoradat; tömeg 23,68 kg S4 méreten, feltétellel.\n**Mire figyelj vásárlás előtt?**\n- S-Works szintű felszereltség: prémium hajtás és fék a listán — nem „jobb hardtail”, hanem más kategória.\n- A hatótáv-közlés Eco módra és Range Extender feltételekre épül — nem független mérés.\n\n### SIRMIUM PRO DEORE 10\n**Mit érdemes tudnod róla?**\n- Merevvázas e-MTB középmotoros Bosch Performance Line CX BES2 motorral (85 Nm) és 500 Wh akkumulátorral.\n- Deore 10 fokozat és hidraulikus tárcsafék a specifikáció táblájában.\n**Mire figyelj vásárlás előtt?**\n- Ehhez a változathoz nincs ellenőrzött tömegadatunk; a gumi megnevezése a marketing és a Specs között eltér.\n- 500 Wh a csoport kisebb gyártói kapacitása a 750–840 Wh modellekhez képest — ez kapacitáskülönbség, nem rangsor.\n\n\n## Hogyan olvasd a különbségeket?\n\n- Merevvázas és összteleszkópos modelleket ne rangsorolj ugyanazon skálán.\n- Az Nm és a Wh együtt értelmezendő; a Wh nem hatótávgarancia.\n- A MERIDA oldal archivált: a specifikáció olvasható, az aktuális gyártás nem igazolt.\n- Nem saját teszt; abszolút győztes nincs.\n"
     },
     {
       "id": "art-cmp-city-comfort",
@@ -2494,7 +2269,7 @@ window.KEREKPARINDEX_CONTENT = {
           "drivetrain": "Shimano CUES 9-speed: SL-U4000-9R; RD-U4000 GS; CS-LG300-9 11-41T; LG500 chain; custom alloy forged crankarms; 40T chainring",
           "brakes": "Shimano BR-MT200 hydraulic disc, 180mm front / 160mm rear",
           "weightKg": null,
-          "weightDisplay": "Nincs ellenőrzött adat",
+          "weightDisplay": "Ehhez a változathoz nincs ellenőrzött tömegadatunk.",
           "weighingConditions": null,
           "sourceUrl": "https://www.specialized.com/us/en/turbo-como-40/p/4277417",
           "status": "ellenőrzött",
@@ -2502,12 +2277,12 @@ window.KEREKPARINDEX_CONTENT = {
             "hiányzó_adat"
           ],
           "pros": [
-            "Városi átlépős váz; 710 Wh U2 akku és Specialized 2.0 / 70 Nm a csoport magasabb Wh-értékei között.",
-            "Gyártói hatótáv-közlés Eco módban feltüntetve (nem független mérés)."
+            "Átlépős városi váz; 710 Wh U2 akkumulátor és Specialized 2.0 motor, 70 Nm — a csoport magasabb Wh-értékei között.",
+            "A gyártó Eco módban hatótáv-közlést is feltüntet (nem független mérés)."
           ],
           "cons": [
-            "Numerikus össztömeg a megnyitott specifikációban nincs.",
-            "Nem összecsukható / nem „kompakt” a szó szoros értelmében — mindennapi városi komfortmodell."
+            "Ehhez a változathoz nincs ellenőrzött tömegadatunk.",
+            "Nem összecsukható modell: mindennapi városi komfortbringa."
           ]
         },
         {
@@ -2522,20 +2297,20 @@ window.KEREKPARINDEX_CONTENT = {
           "drivetrain": "Enviolo Trekking CVT rear hub (380% range) with manual twist shifter; Gates CDX belt 132T; Gates CDX 55T crank with alloy guard; Gates CDX 26T rear sprocket",
           "brakes": "Shimano MT200 hydraulic disc",
           "weightKg": 24.9,
-          "weightDisplay": "24,9 kg, akkumulátor nélkül",
-          "weighingConditions": "L méret: 24,90 kg / 54,9 font, akkumulátor nélkül; előgyártási festett vázakon alapuló adat a közzététel idején; a végleges gyártásban eltérhet.",
+          "weightDisplay": "24,9 kg, akkumulátor nélkül, L-es vázméretben",
+          "weighingConditions": "L méret: 24,90 kg / 54,9 lbs, akkumulátor nélkül; előgyártási festett vázakon alapuló adat a közzététel idején; a végleges gyártásban eltérhet.",
           "sourceUrl": "https://www.trekbikes.com/gb/en_GB/bikes/hybrid-bikes/electric-hybrid-bikes/district/district-9/p/33186/",
           "status": "ellenőrzött",
           "dataFlags": [
             "hiányzó_adat"
           ],
           "pros": [
-            "Tömeg: 24,9 kg, akkumulátor nélkül (L méret) — a feltétel a gyártói oldalon szerepel.",
-            "Enviolo CVT + Gates szíj: alacsonyabb karbantartási jellegű városi hajtás a specifikáció szerint."
+            "Tömeg: 24,9 kg, akkumulátor nélkül, L-es vázméretben — a feltétel a gyártói oldalon szerepel.",
+            "Enviolo fokozatmentes váltó és Gates szíjhajtás: kevesebb lánckarbantartást igénylő városi hajtás a specifikáció szerint."
           ],
           "cons": [
             "500 Wh PowerTube — kisebb gyártói energiatartalék, mint a 625–710 Wh társaknál.",
-            "65 Nm Bosch Performance; a motor pozíciója a megnyitott oldalon nincs külön címkézve."
+            "65 Nm Bosch Performance; a motor elhelyezését a gyártói oldalon nem címkézték külön."
           ]
         },
         {
@@ -2550,7 +2325,7 @@ window.KEREKPARINDEX_CONTENT = {
           "drivetrain": "Gates CDC belt 128T; Shimano Nexus SG-C6001-8D 8-speed hub; SL-C6000-8 Revoshift; ACID Trekking Hybrid 50T; Gates rear sprocket CDC 24T",
           "brakes": "Shimano BR-MT200, hydraulic disc (180/180)",
           "weightKg": 27.8,
-          "weightDisplay": "27.8 (mérési feltétel: Nincs ellenőrzött adat)",
+          "weightDisplay": "27.8 (mérési feltétel nélkül)",
           "weighingConditions": null,
           "sourceUrl": "https://www.cube.eu/bg-en/cube-supreme-hybrid-deluxe-one-625-slateblack-n-black/813400",
           "status": "ellenőrzött",
@@ -2558,12 +2333,12 @@ window.KEREKPARINDEX_CONTENT = {
             "hiányzó_adat"
           ],
           "pros": [
-            "könnyű beszállású váz + Nexus 8 agyváltó + Gates szíj: mindennapi városi komfortfelszereltség.",
-            "625 Wh PowerTube; Active Line Plus 50 Nm a gyártói adat szerint."
+            "Könnyű beszállású váz, Nexus 8 agyváltó és Gates szíj: mindennapi városi komfortfelszereltség.",
+            "625 Wh PowerTube; Active Line Plus, 50 Nm a gyártói adat szerint."
           ],
           "cons": [
             "Gyártói tömeg 27,8 kg, mérési feltétel nélkül.",
-            "50 Nm — a csoport alacsonyabb nyomatékértéke; sík városi használatra tipikus, emelkedőn más karakter."
+            "50 Nm a csoport alacsonyabb nyomatékértéke: sík városi használatra tipikus, emelkedőn más a karakter."
           ]
         },
         {
@@ -2578,7 +2353,7 @@ window.KEREKPARINDEX_CONTENT = {
           "drivetrain": "Shimano Nexus 8 hub gear; SL-C6000-8 Revoshift; FSA steel 38T; FSA CK-200 170mm; rear ASM GEAR 19LU 19Z",
           "brakes": "Ellentmondás a forrásban (kontrafék vs. tárcsafék felsorolás) — nem jelenik meg ellenőrzött tényként.",
           "weightKg": null,
-          "weightDisplay": "Nincs ellenőrzött adat",
+          "weightDisplay": "Ehhez a változathoz nincs ellenőrzött tömegadatunk.",
           "weighingConditions": null,
           "sourceUrl": "https://gepida.hu/bonum-edge-nexus-8c-coaster-wh-28-13619",
           "status": "ellenőrzött",
@@ -2588,15 +2363,15 @@ window.KEREKPARINDEX_CONTENT = {
           ],
           "pros": [
             "Vázba integrált 400 Wh és középmotoros Active Line Plus BES2; Nexus 8 agyváltó városi használathoz.",
-            "Alacsonyabb Wh a csoportban — kisebb energiatartalék, jellemzően könnyebb rendszerigényhez igazítható (gyártói adat)."
+            "A csoport kisebb Wh-értéke: kisebb energiatartalék a gyártói adat szerint."
           ],
           "cons": [
-            "Nm és tömeg numerikusan hiányzik a gepida.hu oldalon.",
-            "Féktípus ellentmondás a forrásban (kontrafék vs. tárcsa felsorolás) — féket nem közlünk ellenőrzött tényként."
+            "A nyomatékhoz és a tömeghez nincs ellenőrzött adatunk a gepida.hu oldalon.",
+            "A féktípus a forráson belül ellentmondásos (kontrafék és tárcsa is szerepel) — fékadatot nem közlünk ellenőrzött tényként."
           ]
         }
       ],
-      "bodyMarkdown": "## Cél\n\nVárosi, mindennapi közlekedésre szánt komfort / city e-bike modellváltozatok (átlépős / könnyű beszállású, agyváltós vagy szíjhajtásos jellegű felszereltség). **Nem** összecsukható „kompakt” kategória — a csoport neve a tényleges tartalomhoz igazodik. Nem saját teszt; nincs abszolút győztes.\n\n## Egységes adattábla (gyártói források, 2026-10-10)\n\n| Modell | Típus | Motor | Nm | Wh | Tömeg | Forrás |\n| --- | --- | --- | --- | --- | --- | --- |\n| 2025 Turbo Como 4.0 | városi e-bike | Specialized 2.0, 70Nm nyomaték, egyedi hangolású motor, 250 W névleges (Turbo Full Power 2.0) | 70 | 710 | Nincs ellenőrzött adat | https://www.specialized.com/us/en/turbo-como-40/p/4277417 |\n| District+ 9 | városi e-bike | Bosch Performance, 250 W, 65Nm, 32 km/h (Európában tipikusan 25 km/h pedelec) | 65 | 500 | 24,9 kg, akkumulátor nélkül | https://www.trekbikes.com/gb/en_GB/bikes/hybrid-bikes/electric-hybrid-bikes/district/district-9/p/33186/ |\n| Supreme Hybrid Deluxe ONE 625 | városi e-bike | Bosch Drive Unit Active Line Plus Generation 3 (50Nm) Cruise (250 W), Smart System | 50 | 625 | 27.8 (mérési feltétel: Nincs ellenőrzött adat) | https://www.cube.eu/bg-en/cube-supreme-hybrid-deluxe-one-625-slateblack-n-black/813400 |\n| BONUM EDGE NEXUS 8C (COASTER) | városi e-bike | BOSCH ACTIVE LINE PLUS BES2 | Nincs ellenőrzött adat | 400 | Nincs ellenőrzött adat | https://gepida.hu/bonum-edge-nexus-8c-coaster-wh-28-13619 |\n\nA Trek District+ 9 tömege közvetlenül: **24,9 kg, akkumulátor nélkül** (L méret, gyártói feltétel). Ahol „Nincs ellenőrzött adat” szerepel: numerikus adat vagy feltétel hiányzik a megnyitott oldalon.\n\n## Modellenként: előnyök és kompromisszumok\n\n### 2025 Turbo Como 4.0\n**Adatokból levezetett előnyök**\n- Városi átlépős váz; 710 Wh U2 akku és Specialized 2.0 / 70 Nm a csoport magasabb Wh-értékei között.\n- Gyártói hatótáv-közlés Eco módban feltüntetve (nem független mérés).\n**Kompromisszumok**\n- Numerikus össztömeg a megnyitott specifikációban nincs.\n- Nem összecsukható / nem „kompakt” a szó szoros értelmében — mindennapi városi komfortmodell.\n\n### District+ 9\n**Adatokból levezetett előnyök**\n- Tömeg: 24,9 kg, akkumulátor nélkül (L méret) — a feltétel a gyártói oldalon szerepel.\n- Enviolo CVT + Gates szíj: alacsonyabb karbantartási jellegű városi hajtás a specifikáció szerint.\n**Kompromisszumok**\n- 500 Wh PowerTube — kisebb gyártói energiatartalék, mint a 625–710 Wh társaknál.\n- 65 Nm Bosch Performance; a motor pozíciója a megnyitott oldalon nincs külön címkézve.\n\n### Supreme Hybrid Deluxe ONE 625\n**Adatokból levezetett előnyök**\n- könnyű beszállású váz + Nexus 8 agyváltó + Gates szíj: mindennapi városi komfortfelszereltség.\n- 625 Wh PowerTube; Active Line Plus 50 Nm a gyártói adat szerint.\n**Kompromisszumok**\n- Gyártói tömeg 27,8 kg, mérési feltétel nélkül.\n- 50 Nm — a csoport alacsonyabb nyomatékértéke; sík városi használatra tipikus, emelkedőn más karakter.\n\n### BONUM EDGE NEXUS 8C (COASTER)\n**Adatokból levezetett előnyök**\n- Vázba integrált 400 Wh és középmotoros Active Line Plus BES2; Nexus 8 agyváltó városi használathoz.\n- Alacsonyabb Wh a csoportban — kisebb energiatartalék, jellemzően könnyebb rendszerigényhez igazítható (gyártói adat).\n**Kompromisszumok**\n- Nm és tömeg numerikusan hiányzik a gepida.hu oldalon.\n- Féktípus ellentmondás a forrásban (kontrafék vs. tárcsa felsorolás) — féket nem közlünk ellenőrzött tényként.\n\n\n## Gyakorlati értelmezés\n\n- A nagyobb Wh nem automatikus győzelem városi használatban.\n- Tömegnél a mérési feltétel (akkuval / anélkül, méret) legalább annyira számít, mint a szám.\n- Féktípus-ellentmondásnál (Gepida BONUM) a fékadat nem ellenőrzött tényként jelenik meg.\n- Nem saját teszt; abszolút győztes nincs.\n"
+      "bodyMarkdown": "## Miről szól ez az összehasonlítás?\n\nVárosi, mindennapi közlekedésre szánt komfort e-bike modellváltozatok: átlépős vagy könnyű beszállású váz, agyváltós vagy szíjhajtásos jellegű felszereltség. **Nem** összecsukható „kompakt” kategória. Nem saját teszt, és nincs abszolút győztes.\n\n## Gyártói adatok (2026-10-10)\n\n| Modell | Típus | Motor | Nm | Wh | Tömeg | Forrás |\n| --- | --- | --- | --- | --- | --- | --- |\n| 2025 Turbo Como 4.0 | városi e-bike | Specialized 2.0, 70Nm nyomaték, egyedi hangolású motor, 250 W névleges (Turbo Full Power 2.0) | 70 | 710 | Ehhez a változathoz nincs ellenőrzött tömegadatunk. | https://www.specialized.com/us/en/turbo-como-40/p/4277417 |\n| District+ 9 | városi e-bike | Bosch Performance, 250 W, 65Nm, 32 km/h (Európában tipikusan 25 km/h pedelec) | 65 | 500 | 24,9 kg, akkumulátor nélkül, L-es vázméretben | https://www.trekbikes.com/gb/en_GB/bikes/hybrid-bikes/electric-hybrid-bikes/district/district-9/p/33186/ |\n| Supreme Hybrid Deluxe ONE 625 | városi e-bike | Bosch Drive Unit Active Line Plus Generation 3 (50Nm) Cruise (250 W), Smart System | 50 | 625 | 27.8 (mérési feltétel nélkül) | https://www.cube.eu/bg-en/cube-supreme-hybrid-deluxe-one-625-slateblack-n-black/813400 |\n| BONUM EDGE NEXUS 8C (COASTER) | városi e-bike | BOSCH ACTIVE LINE PLUS BES2 | Nincs ellenőrzött adatunk | 400 | Ehhez a változathoz nincs ellenőrzött tömegadatunk. | https://gepida.hu/bonum-edge-nexus-8c-coaster-wh-28-13619 |\n\nA Trek District+ 9 tömege: **24,9 kg, akkumulátor nélkül, L-es vázméretben** (gyártói feltétel). Ahol hiányzó tömeg vagy „Nincs ellenőrzött adatunk” szerepel: a rendelkezésre álló oldalon nincs ellenőrzött szám vagy feltétel.\n\n## Modellenként\n\n### 2025 Turbo Como 4.0\n**Mit érdemes tudnod róla?**\n- Átlépős városi váz; 710 Wh U2 akkumulátor és Specialized 2.0 motor, 70 Nm — a csoport magasabb Wh-értékei között.\n- A gyártó Eco módban hatótáv-közlést is feltüntet (nem független mérés).\n**Mire figyelj vásárlás előtt?**\n- Ehhez a változathoz nincs ellenőrzött tömegadatunk.\n- Nem összecsukható modell: mindennapi városi komfortbringa.\n\n### District+ 9\n**Mit érdemes tudnod róla?**\n- Tömeg: 24,9 kg, akkumulátor nélkül, L-es vázméretben — a feltétel a gyártói oldalon szerepel.\n- Enviolo fokozatmentes váltó és Gates szíjhajtás: kevesebb lánckarbantartást igénylő városi hajtás a specifikáció szerint.\n**Mire figyelj vásárlás előtt?**\n- 500 Wh PowerTube — kisebb gyártói energiatartalék, mint a 625–710 Wh társaknál.\n- 65 Nm Bosch Performance; a motor elhelyezését a gyártói oldalon nem címkézték külön.\n\n### Supreme Hybrid Deluxe ONE 625\n**Mit érdemes tudnod róla?**\n- Könnyű beszállású váz, Nexus 8 agyváltó és Gates szíj: mindennapi városi komfortfelszereltség.\n- 625 Wh PowerTube; Active Line Plus, 50 Nm a gyártói adat szerint.\n**Mire figyelj vásárlás előtt?**\n- Gyártói tömeg 27,8 kg, mérési feltétel nélkül.\n- 50 Nm a csoport alacsonyabb nyomatékértéke: sík városi használatra tipikus, emelkedőn más a karakter.\n\n### BONUM EDGE NEXUS 8C (COASTER)\n**Mit érdemes tudnod róla?**\n- Vázba integrált 400 Wh és középmotoros Active Line Plus BES2; Nexus 8 agyváltó városi használathoz.\n- A csoport kisebb Wh-értéke: kisebb energiatartalék a gyártói adat szerint.\n**Mire figyelj vásárlás előtt?**\n- A nyomatékhoz és a tömeghez nincs ellenőrzött adatunk a gepida.hu oldalon.\n- A féktípus a forráson belül ellentmondásos (kontrafék és tárcsa is szerepel) — fékadatot nem közlünk ellenőrzött tényként.\n\n\n## Hogyan olvasd a különbségeket?\n\n- A nagyobb Wh nem automatikus győzelem városi használatban.\n- Tömegnél a mérési feltétel (akkumulátorral vagy anélkül, méret) legalább annyira számít, mint a szám.\n- A Gepida BONUM féktípusa a forráson belül ellentmondásos — fékadatot nem közlünk ellenőrzött tényként.\n- Nem saját teszt; abszolút győztes nincs.\n"
     }
   ],
   "shopsByBrand": {
@@ -2606,28 +2381,28 @@ window.KEREKPARINDEX_CONTENT = {
         "name": "Gepida Factory Store / Futurebike",
         "city": "Budapest",
         "relation": "sells_brand",
-        "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot."
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
       },
       {
         "locationId": "loc-heavy-pedal-szeged",
         "name": "Heavy Pedál Kerékpárüzlet & Szerviz",
         "city": "Szeged",
         "relation": "sells_brand",
-        "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot."
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
       },
       {
         "locationId": "loc-peppe-gyor",
         "name": "Peppe Kerékpár szaküzlet és szerviz",
         "city": "Győr",
         "relation": "sells_brand",
-        "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot."
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
       },
       {
         "locationId": "loc-bico-szekesfehervar",
         "name": "Bicó Kerékpárbolt és Kerékpárszerviz",
         "city": "Székesfehérvár",
         "relation": "sells_brand",
-        "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot."
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
       }
     ],
     "brand-cannondale": [
@@ -2636,7 +2411,7 @@ window.KEREKPARINDEX_CONTENT = {
         "name": "BringaBoard Kerékpár Szaküzlet",
         "city": "Budapest",
         "relation": "sells_brand",
-        "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot."
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
       }
     ],
     "brand-trek": [
@@ -2645,35 +2420,35 @@ window.KEREKPARINDEX_CONTENT = {
         "name": "Nella Kerékpárcentrum",
         "city": "Budapest",
         "relation": "sells_brand",
-        "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot."
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
       },
       {
         "locationId": "loc-k2-pacsirtamezo",
         "name": "K2 Shop",
         "city": "Budapest",
         "relation": "sells_brand",
-        "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot."
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
       },
       {
         "locationId": "loc-bikeart-csalogany",
         "name": "BikeArt Center – Csalogány utca",
         "city": "Budapest",
         "relation": "sells_brand",
-        "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot."
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
       },
       {
         "locationId": "loc-bikeart-kissjanos",
         "name": "BikeArt Center – Kiss János Alt. utca",
         "city": "Budapest",
         "relation": "sells_brand",
-        "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot."
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
       },
       {
         "locationId": "loc-q1-nyiregyhaza",
         "name": "q1 kerékpárszalon",
         "city": "Nyíregyháza",
         "relation": "sells_brand",
-        "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot."
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
       }
     ],
     "brand-giant": [
@@ -2682,14 +2457,14 @@ window.KEREKPARINDEX_CONTENT = {
         "name": "BikeArt Center – Csalogány utca",
         "city": "Budapest",
         "relation": "sells_brand",
-        "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot."
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
       },
       {
         "locationId": "loc-bikeart-kissjanos",
         "name": "BikeArt Center – Kiss János Alt. utca",
         "city": "Budapest",
         "relation": "sells_brand",
-        "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot."
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
       }
     ],
     "brand-merida": [
@@ -2698,7 +2473,7 @@ window.KEREKPARINDEX_CONTENT = {
         "name": "VOZZY Bike & Snow",
         "city": "Debrecen",
         "relation": "sells_brand",
-        "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot."
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
       }
     ],
     "brand-cube": [
@@ -2707,7 +2482,7 @@ window.KEREKPARINDEX_CONTENT = {
         "name": "Peppe Kerékpár szaküzlet és szerviz",
         "city": "Győr",
         "relation": "sells_brand",
-        "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot."
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
       }
     ],
     "brand-neuzer": [
@@ -2716,7 +2491,7 @@ window.KEREKPARINDEX_CONTENT = {
         "name": "Bicó Kerékpárbolt és Kerékpárszerviz",
         "city": "Székesfehérvár",
         "relation": "sells_brand",
-        "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot."
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
       }
     ]
   },

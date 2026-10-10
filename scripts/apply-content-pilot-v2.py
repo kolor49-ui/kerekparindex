@@ -10,9 +10,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 CONTENT = ROOT / "content"
 ACCESS = "2026-10-10"
-NA = "Nincs ellenőrzött adat"
+NA = "Nincs ellenőrzött adatunk"
 DISCLAIMER = (
-    "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot."
+    "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell "
+    "raktáron van, vagy kipróbálható."
 )
 
 BRAND_NAME_TO_ID = {
@@ -676,125 +677,126 @@ def fmt_val(v):
 
 
 def build_pros_cons():
+    """Visitor-facing bullets. Keys pros/cons kept for schema; headings change in markdown."""
     return {
         "var-cube-kathmandu-hybrid-one-800-metallicgrey": {
             "pros": [
-                "800 Wh akkumulátor és 120 Nm-es Bosch Performance Line CX (BDU38) a csoport magasabb gyártói energia- és nyomatékértékei között.",
-                "Hidraulikus tárcsafék (180/180) és 10 fokozatú Cues hajtás trekking/túra jellegű felszereltséghez igazodik.",
+                "800 Wh akkumulátor és Bosch Performance Line CX (BDU38), max. 120 Nm — a csoport magasabb gyártói energia- és nyomatékértékei között.",
+                "Hidraulikus tárcsafék (180/180 mm) és 10 fokozatú Cues hajtás: túrázáshoz és mindennapi használathoz illő felszereltség a katalógus szerint.",
             ],
             "cons": [
-                "Gyártói tömeg 28,4 kg, mérési feltétel (méret/felszereltség) nélkül — a kg csak tájékoztató.",
-                "A motor pozíciója a megnyitott oldalon nincs külön címkézve.",
+                "Gyártói tömeg 28,4 kg, méret és felszereltség megadása nélkül — a szám csak tájékoztató.",
+                "A motor elhelyezését (közép-/agy motor) a gyártói oldalon nem címkézték külön.",
             ],
         },
         "var-giant-explore-eplus-1-stagger-2026": {
             "pros": [
-                "800 Wh EnergyPak és SyncDrive Pro2 85 Nm; a gyártó három kategóriás hatótáv-becslést is közöl (nem mért teszt).",
-                "4 dugattyús Deore hidraulikus tárcsafék (203/180 mm) a csoport erősebb fékkínálata között.",
+                "800 Wh EnergyPak és SyncDrive Pro2, 85 Nm; a gyártó három kategóriás hatótáv-becslést is közöl (nem mért teszt).",
+                "4 dugattyús Deore hidraulikus tárcsafék (203/180 mm) — a csoport erősebb fékkínálata között.",
             ],
             "cons": [
-                "Numerikus tömeg a specifikációban nincs; a gyártó helyi mérést javasol.",
-                "Marketing öves hajtást is említ (select models), a Specs Di2 váltós hajtást listáz — a táblában a Specs szerinti adat szerepel.",
+                "Ehhez a változathoz nincs ellenőrzött tömegadatunk; a gyártó helyi mérést javasol.",
+                "A marketing öves hajtást is említ (csak egyes modelleknél), a Specs viszont Di2 váltós hajtást listáz — a táblában a Specs szerinti adat szerepel.",
             ],
         },
         "var-merida-espresso-575-eq-750": {
             "pros": [
-                "750 Wh belső akku és Shimano EP6 85 Nm; tömeg 27,1 kg M méreten mérve (feltétel megadva).",
-                "EQ felszereltségű trekking jelleg a specifikáció alapján.",
+                "750 Wh belső akkumulátor és Shimano EP6, 85 Nm; tömeg 27,1 kg, M vázméreten mérve.",
+                "EQ felszereltségű trekking jelleg a gyártói specifikáció alapján.",
             ],
             "cons": [
-                "Hivatalos oldal archived — aktuális gyártás/elérhetőség nem igazolt.",
-                "Modellév a megnyitott oldalon nem szerepel külön számként.",
+                "A hivatalos oldal archivált — aktuális gyártás és elérhetőség nem igazolt.",
+                "A modellév a gyártói oldalon nem szerepel külön számként.",
             ],
         },
         "var-gepida-berig-deore-10-w-500": {
             "pros": [
-                "Középmotoros Bosch Performance Line Cruise BES2 és 500 Wh, SUV jellegű pozicionálás.",
+                "Középmotoros Bosch Performance Line Cruise BES2 és 500 Wh; a gyártó SUV jellegű használatra pozicionálja.",
                 "Deore 10 fokozatú hajtás és hidraulikus tárcsafék a specifikációban.",
             ],
             "cons": [
-                "Nyomaték (Nm) és tömeg a gepida.hu oldalon nem szerepel numerikusan.",
-                "Színmegnevezés ellentmondásos a forráson (cím vs. matrica szín).",
+                "A nyomatékhoz (Nm) és a tömeghez nincs ellenőrzött adatunk a gepida.hu oldalon.",
+                "A színmegnevezés a forráson belül ellentmondásos (cím vs. matrica szín).",
             ],
         },
         "var-cube-reaction-hybrid-one-800-royalgreen": {
             "pros": [
-                "Hardtail e-MTB: 800 Wh + Bosch CX max. 120 Nm (BDU38) magas gyártói energia-/nyomatékértékkel.",
-                "Gyártói tömeg 25,9 kg, mérési feltétel nélkül — csak tájékoztató adat, nem rangsor.",
+                "Merevvázas (hardtail) e-MTB: 800 Wh és Bosch CX max. 120 Nm (BDU38) — magas gyártói energia- és nyomatékérték.",
+                "Gyártói tömeg 25,9 kg; mérési feltétel nélkül, ezért nem alkalmas rangsoroláshoz.",
             ],
             "cons": [
-                "Csak első teleszkóp (hardtail): hátsó rugózás nincs — technikai ösvényen más karakter, mint az összteleszkópos.",
-                "Mérési feltétel a tömeghez nincs megadva.",
+                "Csak első teleszkóp van: technikás ösvényen más a karakter, mint az összteleszkópos modelleknél.",
+                "A tömeghez nincs megadva méret vagy felszereltség.",
             ],
         },
         "var-merida-ebignine-675-750": {
             "pros": [
-                "Hardtail e-MTB 750 Wh-vel és EP6 85 Nm-rel; tömeg 23,6 kg M méreten (feltétel megadva).",
+                "Merevvázas e-MTB 750 Wh-vel és Shimano EP6 85 Nm-rel; tömeg 23,6 kg M méreten (feltétel megadva).",
                 "12 fokozatú Eagle hajtás a specifikáció szerint.",
             ],
             "cons": [
                 "Archivált gyártói oldal — aktuális gyártás nem igazolt.",
-                "Hardtail felépítés: nincs hátsó teleszkóp (szándékos kompromisszum a tömeg/egyszerűség felé).",
+                "Nincs hátsó teleszkóp: ez szándékos felépítés (egyszerűbb hátsó rész, más terepes karakter).",
             ],
         },
         "var-specialized-s-works-turbo-levo-4-840": {
             "pros": [
-                "Összteleszkópos e-MTB (150 mm hátsó út): elöl és hátul rugóz — más felépítés, mint a merevvázas modelleké.",
-                "840 Wh akku, 111 Nm / 850 W gyártói motoradat; tömeg 23,68 kg S4 méreten, feltétellel.",
+                "Összteleszkópos e-MTB, 150 mm hátsó rugóúttal: elöl és hátul rugóz — más felépítés, mint a merevvázas modelleké.",
+                "840 Wh akkumulátor, 111 Nm / 850 W gyártói motoradat; tömeg 23,68 kg S4 méreten, feltétellel.",
             ],
             "cons": [
-                "S-Works szintű felszereltség: a specifikáció prémium hajtást/féket listáz — nem „jobb hardtail”, hanem más kategória.",
-                "Hatótáv-közlés gyártói Eco-móddal és Range Extender feltételekkel — nem független mérés.",
+                "S-Works szintű felszereltség: prémium hajtás és fék a listán — nem „jobb hardtail”, hanem más kategória.",
+                "A hatótáv-közlés Eco módra és Range Extender feltételekre épül — nem független mérés.",
             ],
         },
         "var-gepida-sirmium-pro-deore-10-500": {
             "pros": [
-                "Hardtail e-MTB középmotoros Bosch Performance Line CX BES2 85 Nm és 500 Wh adattal.",
-                "Deore 10 fokozat + hidraulikus tárcsafék a specifikáció táblájában.",
+                "Merevvázas e-MTB középmotoros Bosch Performance Line CX BES2 motorral (85 Nm) és 500 Wh akkumulátorral.",
+                "Deore 10 fokozat és hidraulikus tárcsafék a specifikáció táblájában.",
             ],
             "cons": [
-                "Tömeg numerikusan hiányzik; gumi megnevezés marketing vs. specs ellentmondásos.",
-                "500 Wh a csoport alacsonyabb gyártói kapacitása a 750–840 Wh modellekhez képest — nem győzelem/veszteség, kapacitáskülönbség.",
+                "Ehhez a változathoz nincs ellenőrzött tömegadatunk; a gumi megnevezése a marketing és a Specs között eltér.",
+                "500 Wh a csoport kisebb gyártói kapacitása a 750–840 Wh modellekhez képest — ez kapacitáskülönbség, nem rangsor.",
             ],
         },
         "var-specialized-turbo-como-4-0-710-2025": {
             "pros": [
-                "Városi step-through váz; 710 Wh U2 akku és Specialized 2.0 / 70 Nm a csoport magasabb Wh-értékei között.",
-                "Gyártói hatótáv-közlés Eco módban feltüntetve (nem független mérés).",
+                "Átlépős városi váz; 710 Wh U2 akkumulátor és Specialized 2.0 motor, 70 Nm — a csoport magasabb Wh-értékei között.",
+                "A gyártó Eco módban hatótáv-közlést is feltüntet (nem független mérés).",
             ],
             "cons": [
-                "Numerikus össztömeg a megnyitott specifikációban nincs.",
-                "Nem összecsukható / nem „kompakt” a szó szoros értelmében — mindennapi városi komfortmodell.",
+                "Ehhez a változathoz nincs ellenőrzött tömegadatunk.",
+                "Nem összecsukható modell: mindennapi városi komfortbringa.",
             ],
         },
         "var-trek-district-plus-9-powertube-500": {
             "pros": [
-                "Tömeg: 24,9 kg, akkumulátor nélkül (L méret) — a feltétel a gyártói oldalon szerepel.",
-                "Enviolo CVT + Gates szíj: alacsonyabb karbantartási jellegű városi hajtás a specifikáció szerint.",
+                "Tömeg: 24,9 kg, akkumulátor nélkül, L-es vázméretben — a feltétel a gyártói oldalon szerepel.",
+                "Enviolo fokozatmentes váltó és Gates szíjhajtás: kevesebb lánckarbantartást igénylő városi hajtás a specifikáció szerint.",
             ],
             "cons": [
                 "500 Wh PowerTube — kisebb gyártói energiatartalék, mint a 625–710 Wh társaknál.",
-                "65 Nm Bosch Performance; a motor pozíciója a megnyitott oldalon nincs külön címkézve.",
+                "65 Nm Bosch Performance; a motor elhelyezését a gyártói oldalon nem címkézték külön.",
             ],
         },
         "var-cube-supreme-hybrid-deluxe-one-625-slateblack": {
             "pros": [
-                "Easy Entry váz + Nexus 8 agyváltó + Gates szíj: mindennapi városi komfortfelszereltség.",
-                "625 Wh PowerTube; Active Line Plus 50 Nm a gyártói adat szerint.",
+                "Könnyű beszállású váz, Nexus 8 agyváltó és Gates szíj: mindennapi városi komfortfelszereltség.",
+                "625 Wh PowerTube; Active Line Plus, 50 Nm a gyártói adat szerint.",
             ],
             "cons": [
                 "Gyártói tömeg 27,8 kg, mérési feltétel nélkül.",
-                "50 Nm — a csoport alacsonyabb nyomatékértéke; sík városi használatra tipikus, emelkedőn más karakter.",
+                "50 Nm a csoport alacsonyabb nyomatékértéke: sík városi használatra tipikus, emelkedőn más a karakter.",
             ],
         },
         "var-gepida-bonum-edge-nexus-8c-coaster-400": {
             "pros": [
                 "Vázba integrált 400 Wh és középmotoros Active Line Plus BES2; Nexus 8 agyváltó városi használathoz.",
-                "Alacsonyabb Wh a csoportban — kisebb energiatartalék, jellemzően könnyebb rendszerigényhez igazítható (gyártói adat).",
+                "A csoport kisebb Wh-értéke: kisebb energiatartalék a gyártói adat szerint.",
             ],
             "cons": [
-                "Nm és tömeg numerikusan hiányzik a gepida.hu oldalon.",
-                "Féktípus ellentmondás a forrásban (kontrafék vs. tárcsa felsorolás) — féket nem közlünk ellenőrzött tényként.",
+                "A nyomatékhoz és a tömeghez nincs ellenőrzött adatunk a gepida.hu oldalon.",
+                "A féktípus a forráson belül ellentmondásos (kontrafék és tárcsa is szerepel) — fékadatot nem közlünk ellenőrzött tényként.",
             ],
         },
     }
@@ -823,7 +825,7 @@ def fix_articles():
 
 Az elektromos rásegítésű kerékpár (pedelec) motorja a pedálozáshoz ad plusz erőt. Gyártói adatlapokon a pontos típusjelzés az elsődleges azonosító — például Bosch Performance Line CX, Shimano EP6 vagy Specialized saját egység —, nem elég csak a márkanevet nézni.
 
-A Bosch eBike hivataladokumentációja külön kezelési útmutatókat közöl a különböző hajtásegységekhez (Active Line, Performance Line CX stb.).
+A Bosch eBike hivatalos dokumentációja külön kezelési útmutatókat közöl a különböző hajtásegységekhez (Active Line, Performance Line CX stb.).
 
 ## Miért számít használat közben?
 
@@ -987,7 +989,7 @@ Segít tervezni a túrát és a töltési pontokat. A valós út eltérhet, ha v
             "checkedAt": ACCESS,
             "bodyMarkdown": """## Mit jelent?
 
-A gyártói tömeg (kg) a kerékpár súlyát jelöli. Fontos, hogy milyen felszereltséggel és melyik vázméretre vonatkozik. Példa: a Trek District+ 9 oldalán a tömeg **24,9 kg, akkumulátor nélkül** (L méret) — a feltétel a számmal együtt szerepel. A Specialized termékoldalak gyakran méretre és festett gyártási vázakra hivatkoznak, és jelzik, hogy a szín, méret és alkatrészváltozat módosíthatja az értéket.
+A gyártói tömeg (kg) a kerékpár súlyát jelöli. Fontos, hogy milyen felszereltséggel és melyik vázméretre vonatkozik. Példa: a Trek District+ 9 oldalán a tömeg **24,9 kg, akkumulátor nélkül, L-es vázméretben** — a feltétel a számmal együtt szerepel. A Specialized termékoldalak gyakran méretre és festett gyártási vázakra hivatkoznak, és jelzik, hogy a szín, méret és alkatrészváltozat módosíthatja az értéket.
 
 ## Miért számít használat közben?
 
@@ -1030,7 +1032,7 @@ Nehezebb bringát emelni, szállítani, lépcsőzni nehezebb; a kezelhetőség �
 
 A szervizháttér az a helyi kapacitás, ahol a kerékpárt és az elektromos rendszert karbantartják, diagnosztizálják, javítják. Ez lehet általános kerékpárszerviz, e-bike-ra felkészült műhely, vagy igazolt márka-/rendszerszerviz — ezek külön állítások.
 
-Példák a próbakör ellenőrzött forrásaiból: a BikeArt Center külön szerviz oldalt közöl; a Biciklikk szervizoldala említi az elektromos kerékpárok (e-bike, pedelec) javítását és rendszerdiagnosztikát; a Futurebike/Gepida Store elektronikai szervizénél Bosch és TQ rendszerek szerepelnek.
+Példák ellenőrzött forrásokból: a BikeArt Center külön szervizoldalt közöl; a Biciklikk szervizoldala említi az elektromos kerékpárok (e-bike, pedelec) javítását és a rendszerdiagnosztikát; a Futurebike/Gepida Store elektronikai szervizénél Bosch és TQ rendszerek szerepelnek.
 
 ## Miért számít használat közben?
 
@@ -1063,13 +1065,13 @@ Szoftverfrissítés, hibakód, akku, motorcsatlakozók — ezekhez gyakran speci
 
     def row_weight(v):
         if v["id"] == "var-trek-district-plus-9-powertube-500":
-            return "24,9 kg, akkumulátor nélkül"
+            return "24,9 kg, akkumulátor nélkül, L-es vázméretben"
         if v.get("weightKg") is None:
-            return NA
+            return "Ehhez a változathoz nincs ellenőrzött tömegadatunk."
         cond = v.get("weighingConditions")
         if cond:
             return f"{v['weightKg']} ({cond})"
-        return f"{v['weightKg']} (mérési feltétel: {NA})"
+        return f"{v['weightKg']} (mérési feltétel nélkül)"
 
     def row_motor(v):
         m = v.get("motorExactType") or NA
@@ -1112,12 +1114,12 @@ Szoftverfrissítés, hibakód, akku, motorcsatlakozók — ezekhez gyakran speci
             parts.append(f"### {v['exactName']}")
             if "archivált" in (v.get("dataFlags") or []):
                 parts.append(
-                    "*Archivált gyártói oldal — specifikáció olvasható, aktuális gyártás nem igazolt.*"
+                    "*Archivált gyártói oldal: a specifikáció olvasható, az aktuális gyártás nem igazolt.*"
                 )
-            parts.append("**Adatokból levezetett előnyök**")
+            parts.append("**Mit érdemes tudnod róla?**")
             for p in block["pros"]:
                 parts.append(f"- {p}")
-            parts.append("**Kompromisszumok**")
+            parts.append("**Mire figyelj vásárlás előtt?**")
             for c in block["cons"]:
                 parts.append(f"- {c}")
             parts.append("")
@@ -1171,78 +1173,78 @@ Szoftverfrissítés, hibakód, akku, motorcsatlakozók — ezekhez gyakran speci
         "var-gepida-bonum-edge-nexus-8c-coaster-400",
     ]
 
-    cmp_city = f"""## Cél
+    cmp_city = f"""## Miről szól ez az összehasonlítás?
 
-Hasonló, mindennapi és túrázós használatra szánt trekking/SUV jellegű e-bike modellváltozatok gyártói adatai alapján. Nem saját teszt; nincs abszolút győztes.
+Mindennapi és túrázós használatra szánt trekking és SUV jellegű e-bike modellváltozatok gyártói adatai. Nem saját teszt, és nincs abszolút győztes.
 
-## Egységes adattábla (gyártói források, {ACCESS})
+## Gyártói adatok ({ACCESS})
 
 {table_md(city_ids)}
 
-Ahol „{NA}” szerepel: a megnyitott oldalon nem volt egyértelmű numerikus adat, vagy hiányzik a mérési feltétel.
+Ahol „{NA}” vagy hiányzó tömeg szerepel: a rendelkezésre álló gyártói oldalon nem ellenőrzött szám, vagy hiányzik a mérési feltétel.
 
-## Modellenként: előnyök és kompromisszumok
+## Modellenként
 
 {pros_cons_md(city_ids)}
 
-## Gyakorlati értelmezés
+## Hogyan olvasd a különbségeket?
 
-- **Nm és Wh együtt:** nagyobb nyomaték + magas rásegítés gyorsabban merítheti az akkut; a Wh önmagában nem hatótávgarancia.
-- **Tömeg:** ahol nincs mérési feltétel, a kg csak tájékoztató.
-- **Motortípus:** ugyanaz a „Bosch CX” felirat különböző generációknál más Nm-értéket jelenthet.
+- **Nm és Wh együtt:** nagyobb nyomaték és magasabb rásegítés gyorsabban merítheti az akkumulátort. A Wh önmagában nem hatótávgarancia.
+- **Tömeg:** ha nincs mérési feltétel (méret, akkumulátorral vagy anélkül), a kg csak tájékoztató.
+- **Motortípus:** a „Bosch CX” felirat különböző generációknál más Nm-értéket jelenthet.
 - **Nem saját teszt:** menetélményt, mért hatótávot és abszolút győztest nem állítunk.
 
-## Kinek lehet hasznos ez a tábla
+## Kinek lehet hasznos?
 
-Akik aszfaltos és vegyes útvonalon, csomaggal vagy hosszabb távon is gondolkodnak, és a katalógusadatokból szeretnének kiindulni. Kipróbálást csak akkor tekintsd adottnak, ha a konkrét üzlet ezt állítja.
+Ha aszfaltos vagy vegyes útvonalon, csomaggal vagy hosszabb távon is gondolkodsz, és a katalógusadatokból szeretnél kiindulni. Kipróbálást csak akkor tekintsd adottnak, ha a konkrét üzlet ezt állítja.
 """
 
-    cmp_emtb = f"""## Cél
+    cmp_emtb = f"""## Miről szól ez az összehasonlítás?
 
-Terepes használatra pozicionált e-MTB modellváltozatok. A **S-Works Turbo Levo 4 összteleszkópos** (elöl és hátul rugóz); a CUBE Reaction, a MERIDA eBIG.NINE és a Gepida SIRMIUM **hardtail** (csak elöl teleszkóp, merev hátsó háromszög). Ez felépítésbeli különbség, nem rangsor. Nem saját teszt; nincs abszolút győztes.
+Terepes használatra szánt e-MTB modellváltozatok. A **S-Works Turbo Levo 4 összteleszkópos** (elöl és hátul rugóz). A CUBE Reaction, a MERIDA eBIG.NINE és a Gepida SIRMIUM **merevvázas (hardtail)**: csak elöl van teleszkóp, a hátsó háromszög merev. Ez felépítésbeli különbség, nem rangsor. Nem saját teszt, és nincs abszolút győztes.
 
-## Hardtail vs. összteleszkópos — röviden
+## Merevvázas vagy összteleszkópos?
 
-- **Hardtail:** egyszerűbb, tipikusan könnyebb karbantartású hátsó rész; technikás, gyökeres/köves ösvényen a hátsó kerék kevésbé nyeli az ütést.
-- **Összteleszkópos:** hátsó rugóút (itt: 150 mm a Levo 4 specifikáció szerint) — más karakterű terepes használatra tervezve; nem „jobb hardtail”, hanem más konstrukció.
+- **Merevvázas (hardtail):** egyszerűbb hátsó rész, tipikusan könnyebb karbantartás. Technikás, gyökeres vagy köves ösvényen a hátsó kerék kevésbé nyeli az ütést.
+- **Összteleszkópos:** hátsó rugóút is van (itt: 150 mm a Levo 4 specifikáció szerint). Más terepes karakter — nem „jobb hardtail”, hanem más konstrukció.
 
-## Egységes adattábla (gyártói források, {ACCESS})
+## Gyártói adatok ({ACCESS})
 
 {table_md(emtb_ids)}
 
-Ahol „{NA}” szerepel: a megnyitott oldalon nem volt egyértelmű numerikus adat, vagy hiányzik a mérési feltétel.
+Ahol „{NA}” vagy hiányzó tömeg szerepel: a rendelkezésre álló gyártói oldalon nem ellenőrzött szám, vagy hiányzik a mérési feltétel.
 
-## Modellenként: előnyök és kompromisszumok
+## Modellenként
 
 {pros_cons_md(emtb_ids)}
 
-## Gyakorlati értelmezés
+## Hogyan olvasd a különbségeket?
 
-- Hardtail és összteleszkópos modelleket ne rangsorolj ugyanazon „nyertes” skálán.
-- Nm és Wh együtt értelmezendő; a Wh nem hatótávgarancia.
-- Archivált MERIDA oldal: specifikáció olvasható, aktuális gyártás nem igazolt.
+- Merevvázas és összteleszkópos modelleket ne rangsorolj ugyanazon skálán.
+- Az Nm és a Wh együtt értelmezendő; a Wh nem hatótávgarancia.
+- A MERIDA oldal archivált: a specifikáció olvasható, az aktuális gyártás nem igazolt.
 - Nem saját teszt; abszolút győztes nincs.
 """
 
-    cmp_comfort = f"""## Cél
+    cmp_comfort = f"""## Miről szól ez az összehasonlítás?
 
-Városi, mindennapi közlekedésre szánt komfort / city e-bike modellváltozatok (step-through / easy entry, agyváltós vagy szíjhajtásos jellegű felszereltség). **Nem** összecsukható „kompakt” kategória — a csoport neve a tényleges tartalomhoz igazodik. Nem saját teszt; nincs abszolút győztes.
+Városi, mindennapi közlekedésre szánt komfort e-bike modellváltozatok: átlépős vagy könnyű beszállású váz, agyváltós vagy szíjhajtásos jellegű felszereltség. **Nem** összecsukható „kompakt” kategória. Nem saját teszt, és nincs abszolút győztes.
 
-## Egységes adattábla (gyártói források, {ACCESS})
+## Gyártói adatok ({ACCESS})
 
 {table_md(comfort_ids)}
 
-A Trek District+ 9 tömege közvetlenül: **24,9 kg, akkumulátor nélkül** (L méret, gyártói feltétel). Ahol „{NA}” szerepel: numerikus adat vagy feltétel hiányzik a megnyitott oldalon.
+A Trek District+ 9 tömege: **24,9 kg, akkumulátor nélkül, L-es vázméretben** (gyártói feltétel). Ahol hiányzó tömeg vagy „{NA}” szerepel: a rendelkezésre álló oldalon nincs ellenőrzött szám vagy feltétel.
 
-## Modellenként: előnyök és kompromisszumok
+## Modellenként
 
 {pros_cons_md(comfort_ids)}
 
-## Gyakorlati értelmezés
+## Hogyan olvasd a különbségeket?
 
 - A nagyobb Wh nem automatikus győzelem városi használatban.
-- Tömegnél a mérési feltétel (akkuval / anélkül, méret) legalább annyira számít, mint a szám.
-- Féktípus-ellentmondásnál (Gepida BONUM) a fékadat nem ellenőrzött tényként jelenik meg.
+- Tömegnél a mérési feltétel (akkumulátorral vagy anélkül, méret) legalább annyira számít, mint a szám.
+- A Gepida BONUM féktípusa a forráson belül ellentmondásos — fékadatot nem közlünk ellenőrzött tényként.
 - Nem saját teszt; abszolút győztes nincs.
 """
 
@@ -1462,19 +1464,42 @@ def build_content_js():
                     }
                 )
 
+    def public_brand(b):
+        out = {k: v for k, v in b.items() if k not in ("researchNotes",)}
+        note = out.get("notes")
+        if note and any(
+            x in note.lower()
+            for x in ("missing_reason", "fetch", "evidence", "incapsula", "html")
+        ):
+            out["notes"] = None
+        return out
+
+    def public_location(l):
+        return {
+            k: v
+            for k, v in l.items()
+            if k not in ("researchNotes", "notes")
+        }
+
+    def public_variant(v):
+        out = dict(v)
+        # Keep missingReason internally in JSON source; drop researchy keys from UI bundle
+        out.pop("researchNotes", None)
+        return out
+
     bundle = {
         "generatedAt": ACCESS,
         "package": meta.get("package"),
         "notice": (
-            "Ellenőrzött tartalmi próbakör. A márka–üzlet kapcsolat sells_brand szintű; "
-            "nem készlet- és nem kipróbálási ígéret. Nincs élő ár-/készletadatbázis."
+            "A márka–üzlet kapcsolat azt jelenti, hogy az üzlet a márkát forgalmazza. "
+            "Ez nem készletígéret és nem kipróbálási ígéret. Élő ár- vagy készletadatbázis nincs."
         ),
         "naLabel": NA,
-        "brands": pub_brands,
-        "locations": pub_locs,
+        "brands": [public_brand(b) for b in pub_brands],
+        "locations": [public_location(l) for l in pub_locs],
         "servicesByLocation": svc_by_loc,
         "products": pub_products,
-        "variants": pub_variants,
+        "variants": [public_variant(v) for v in pub_variants],
         "explainers": articles["explainers"],
         "comparisons": articles["comparisons"],
         "shopsByBrand": brand_locs,
@@ -1487,7 +1512,7 @@ def build_content_js():
 
     js_path = ROOT / "data" / "content.js"
     js_path.write_text(
-        "/**\n * Publikált tartalmi próbakör (generált). Forrás: content/*.json\n"
+        "/**\n * Publikált tartalom (generált). Forrás: content/*.json\n"
         " * Frissítés: python3 scripts/apply-content-pilot-v2.py\n */\n"
         "window.KEREKPARINDEX_CONTENT = "
         + json.dumps(bundle, ensure_ascii=False, indent=2)
