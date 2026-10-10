@@ -5219,6 +5219,53 @@ window.KEREKPARINDEX_CONTENT = {
       ],
       "brandLinks": [],
       "openingHours": "K–P 9:00–18:00, Szo 9:00–13:00"
+    },
+    {
+      "id": "loc-forum-sport-keszthely",
+      "organizationId": "org-forum-sport-keszthely",
+      "name": "Forum Sport Kerékpárszaküzlet és Szerviz",
+      "address": {
+        "raw": "8360 Keszthely, Rákóczi út 3.",
+        "city": "Keszthely",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://velomax.hu/kapcsolat/",
+      "phone": [
+        "+36 30 662 2366",
+        "+36 83 318 773"
+      ],
+      "email": [
+        "info@velomax.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-forum-sport-keszthely-20261010"
+      ],
+      "brandLinks": [
+        {
+          "brandId": "brand-ktm",
+          "brandName": "KTM",
+          "relation": "sells_brand",
+          "sourceUrl": "https://velomax.hu/",
+          "quote": "KTM MTB / KTM Macina elektromos modellek a webáruházban",
+          "evidenceId": "ev-forum-sport-keszthely-20261010",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
+          "inCatalog": true
+        },
+        {
+          "brandId": "brand-neuzer",
+          "brandName": "Neuzer",
+          "relation": "sells_brand",
+          "sourceUrl": "https://velomax.hu/",
+          "quote": "NEUZER VENEZIA 28 — női városi kerékpár",
+          "evidenceId": "ev-forum-sport-keszthely-20261010",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
+          "inCatalog": true
+        }
+      ],
+      "openingHours": "H–P 09:00–17:30, Szo 09:00–13:00"
     }
   ],
   "servicesByLocation": {
@@ -7138,6 +7185,26 @@ window.KEREKPARINDEX_CONTENT = {
         "role": "szerviz",
         "sourceUrl": "https://takbike.hu/hu/muhely"
       }
+    ],
+    "loc-forum-sport-keszthely": [
+      {
+        "id": "svc-forum-sport-keszthely-eladas",
+        "locationId": "loc-forum-sport-keszthely",
+        "role": "eladas",
+        "sourceUrl": "https://velomax.hu/nonapi-e-bike-kedvezmeny/"
+      },
+      {
+        "id": "svc-forum-sport-keszthely-szerviz",
+        "locationId": "loc-forum-sport-keszthely",
+        "role": "szerviz",
+        "sourceUrl": "https://velomax.hu/termekkategoria/alkatreszek/bosch-e-bike-alkatreszek/"
+      },
+      {
+        "id": "svc-forum-sport-keszthely-e-bike-szerviz",
+        "locationId": "loc-forum-sport-keszthely",
+        "role": "e-bike-szerviz",
+        "sourceUrl": "https://velomax.hu/termekkategoria/alkatreszek/bosch-e-bike-alkatreszek/"
+      }
     ]
   },
   "products": [
@@ -8834,12 +8901,28 @@ window.KEREKPARINDEX_CONTENT = {
         "city": "Miskolc",
         "relation": "sells_brand",
         "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
+      },
+      {
+        "locationId": "loc-forum-sport-keszthely",
+        "name": "Forum Sport Kerékpárszaküzlet és Szerviz",
+        "city": "Keszthely",
+        "relation": "sells_brand",
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
       }
     ],
     "brand-specialized": [
       {
         "locationId": "loc-greenzone-keszthely",
         "name": "GreenZone (Sikos Zoltán e.v.)",
+        "city": "Keszthely",
+        "relation": "sells_brand",
+        "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
+      }
+    ],
+    "brand-ktm": [
+      {
+        "locationId": "loc-forum-sport-keszthely",
+        "name": "Forum Sport Kerékpárszaküzlet és Szerviz",
         "city": "Keszthely",
         "relation": "sells_brand",
         "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható."
@@ -9369,6 +9452,11 @@ window.KEREKPARINDEX_CONTENT = {
     "ev-fogas-kerekpar-gyor-20261010": {
       "url": "https://www.fogaskerekpargyor.hu/",
       "pageTitle": "Fogas Kerékpárbolt Győr",
+      "status": "ellenőrzött"
+    },
+    "ev-forum-sport-keszthely-20261010": {
+      "url": "https://velomax.hu/kapcsolat/",
+      "pageTitle": "Kapcsolat — velomax.hu (Cím2: Rákóczi út 3.)",
       "status": "ellenőrzött"
     },
     "ev-freeriderz-miskolc-20261010": {

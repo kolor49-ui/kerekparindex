@@ -1,7 +1,7 @@
 {
   "accessedAt": "2026-10-10",
   "schemaNote": "researchStatus: not_researched | in_progress | researched_no_verified | has_published. researched_no_verified ≠ «nincs ott üzlet».",
-  "publishedLocationCount": 170,
+  "publishedLocationCount": 171,
   "units": [
     {
       "name": "Budapest",
@@ -1070,9 +1070,10 @@
           "isCountySeat": false,
           "researchStatus": "has_published",
           "publishedLocationIds": [
-            "loc-greenzone-keszthely"
+            "loc-greenzone-keszthely",
+            "loc-forum-sport-keszthely"
           ],
-          "publishedCount": 1,
+          "publishedCount": 2,
           "notes": null
         },
         {
@@ -1102,7 +1103,7 @@
         }
       ],
       "districts": null,
-      "publishedTotal": 8
+      "publishedTotal": 9
     }
   ],
   "priorityQueue": [
@@ -1124,9 +1125,10 @@
       "batch-gap-ne-2026-10-10",
       "batch-gap-pest-south-2026-10-10",
       "batch-ne-followup-2026-10-10",
-      "batch-pest-south-followup-2026-10-10"
+      "batch-pest-south-followup-2026-10-10",
+      "batch-forum-sport-keszthely-2026-10-10"
     ],
-    "published": 170,
+    "published": 171,
     "resumeFrom": [
       "Nógrád: Salgótarján +1 (Amanita továbbra is aggregátor)",
       "Komárom-Esztergom: Tatabánya +1",
@@ -1141,12 +1143,13 @@
   "sessionCheckpoint": {
     "savedAt": "2026-10-10",
     "status": "paused_ready_to_resume",
-    "published": 170,
+    "published": 171,
     "lastDeployedBatches": [
       "batch-gap-ne-2026-10-10",
       "batch-gap-pest-south-2026-10-10",
       "batch-ne-followup-2026-10-10",
-      "batch-pest-south-followup-2026-10-10"
+      "batch-pest-south-followup-2026-10-10",
+      "batch-forum-sport-keszthely-2026-10-10"
     ],
     "resumeFrom": [
       "Nógrád: Salgótarján +1 (Amanita továbbra is aggregátor)",
@@ -1156,6 +1159,6 @@
       "Budapest kerületek folytatás",
       "BICIKLIKK Szolnok: saját üzletlista vs Neuzer ellentmondás feloldása"
     ],
-    "note": "Pest/South follow-up importálva (14 új + R Bike költözés + No Limit Dunakeszi szerviz). Gyűjtés folytatható."
+    "note": "Forum Sport Keszthely (Rákóczi út 3.) hozzáadva felhasználói jelzés alapján."
   }
 }

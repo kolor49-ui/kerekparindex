@@ -1385,6 +1385,26 @@
       "status": "ellenőrzött"
     },
     {
+      "id": "ev-forum-sport-keszthely-20261010",
+      "url": "https://velomax.hu/kapcsolat/",
+      "pageTitle": "Kapcsolat — velomax.hu (Cím2: Rákóczi út 3.)",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-forum-sport-keszthely",
+        "loc-forum-sport-keszthely.address",
+        "loc-forum-sport-keszthely.openingHours",
+        "loc-forum-sport-keszthely.phone",
+        "loc-forum-sport-keszthely.email",
+        "loc-forum-sport-keszthely.website",
+        "loc-forum-sport-keszthely.brandLinks.KTM",
+        "loc-forum-sport-keszthely.brandLinks.Neuzer",
+        "svc-forum-sport-keszthely-eladas",
+        "svc-forum-sport-keszthely-szerviz",
+        "svc-forum-sport-keszthely-e-bike-szerviz"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
       "id": "ev-freeriderz-miskolc-20261010",
       "url": "https://bikefun.hu/shops/freeriderz-bikeshop",
       "pageTitle": "Freeriderz Bikeshop - BikeFun",

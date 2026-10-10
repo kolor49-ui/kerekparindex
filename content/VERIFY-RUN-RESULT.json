@@ -15,7 +15,7 @@
     {
       "name": "count_locations_at_least_20",
       "ok": true,
-      "detail": 170
+      "detail": 171
     },
     {
       "name": "count_variants_12",
@@ -258,12 +258,12 @@
     {
       "name": "brand_links_and_location_evidence",
       "ok": true,
-      "detail": "ok linked=72"
+      "detail": "ok linked=74"
     },
     {
       "name": "brand_links_at_least_8",
       "ok": true,
-      "detail": 72
+      "detail": 74
     },
     {
       "name": "rekord_szerviz_not_on_locations",
@@ -401,7 +401,7 @@
       "előkészített": 1
     },
     "locations": {
-      "ellenőrzött": 170
+      "ellenőrzött": 171
     },
     "variants": {
       "ellenőrzött": 10,
@@ -414,24 +414,24 @@
       "ellenőrzött": 3
     },
     "evidence": {
-      "ellenőrzött": 249,
+      "ellenőrzött": 250,
       "előkészített": 3,
       "hiányos": 1
     },
-    "services": 261
+    "services": 264
   },
   "counts": {
     "brands": 10,
-    "organizations": 168,
-    "locations": 170,
-    "services": 261,
+    "organizations": 169,
+    "locations": 171,
+    "services": 264,
     "products": 12,
     "variants": 12,
-    "evidence": 253,
+    "evidence": 254,
     "explainers": 6,
     "comparisons": 3,
     "articleMarkdown": 9,
-    "brandLinks": 72,
+    "brandLinks": 74,
     "cities": [
       "Ajka",
       "Baja",

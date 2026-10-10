@@ -6398,6 +6398,65 @@
         "excludedClaims": []
       },
       "openingHours": "K–P 9:00–18:00, Szo 9:00–13:00"
+    },
+    {
+      "id": "loc-forum-sport-keszthely",
+      "organizationId": "org-forum-sport-keszthely",
+      "name": "Forum Sport Kerékpárszaküzlet és Szerviz",
+      "address": {
+        "raw": "8360 Keszthely, Rákóczi út 3.",
+        "city": "Keszthely",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://velomax.hu/kapcsolat/",
+      "phone": [
+        "+36 30 662 2366",
+        "+36 83 318 773"
+      ],
+      "email": [
+        "info@velomax.hu"
+      ],
+      "coordinates": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-forum-sport-keszthely-20261010"
+      ],
+      "notes": "Forum Sport / Fórum Üzletház a velomax.hu Cím2 címe (Rákóczi út 3.). Elsődleges raktár/webshop cím: Tündérlak u. 8. — külön tételként nem importálva ebben a körben. GreenZone (Rákóczi u. 15.) külön bejegyzés. Kölcsönzés aggregátorokon említve — deferred.",
+      "brandLinks": [
+        {
+          "brandId": "brand-ktm",
+          "brandName": "KTM",
+          "relation": "sells_brand",
+          "sourceUrl": "https://velomax.hu/",
+          "quote": "KTM MTB / KTM Macina elektromos modellek a webáruházban",
+          "evidenceId": "ev-forum-sport-keszthely-20261010",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
+          "inCatalog": true
+        },
+        {
+          "brandId": "brand-neuzer",
+          "brandName": "Neuzer",
+          "relation": "sells_brand",
+          "sourceUrl": "https://velomax.hu/",
+          "quote": "NEUZER VENEZIA 28 — női városi kerékpár",
+          "evidenceId": "ev-forum-sport-keszthely-20261010",
+          "disclaimer": "A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.",
+          "inCatalog": true
+        }
+      ],
+      "researchNotes": {
+        "externalBrandClaims": [],
+        "excludedClaims": [],
+        "deferredRoles": [
+          {
+            "role": "kolcsonzes",
+            "note": "Aggregátorokon / régi listákon említve; a jelenlegi publikus modellben nem szerepel külön, amíg saját oldalon nem erősített.",
+            "sourceUrl": "https://velomax.hu/kapcsolat/"
+          }
+        ]
+      },
+      "openingHours": "H–P 09:00–17:30, Szo 09:00–13:00"
     }
   ]
 }

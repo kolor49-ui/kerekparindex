@@ -1,0 +1,63 @@
+{
+  "batchId": "batch-forum-sport-keszthely-2026-10-10",
+  "accessedAt": "2026-10-10",
+  "notes": "Felhasználói jelzés: Google Maps Forum Sport Keszthely Rákóczi út 3. Hivatalos oldal: velomax.hu (Szente Zoltán e.v.).",
+  "items": [
+    {
+      "idSlug": "forum-sport-keszthely",
+      "name": "Forum Sport Kerékpárszaküzlet és Szerviz",
+      "city": "Keszthely",
+      "addressRaw": "8360 Keszthely, Rákóczi út 3.",
+      "website": "https://velomax.hu/kapcsolat/",
+      "phone": [
+        "+36 30 662 2366",
+        "+36 83 318 773"
+      ],
+      "email": [
+        "info@velomax.hu"
+      ],
+      "openingHours": "H–P 09:00–17:30, Szo 09:00–13:00",
+      "roles": [
+        "eladas",
+        "szerviz",
+        "e-bike-szerviz"
+      ],
+      "roleEvidence": {
+        "eladas": {
+          "url": "https://velomax.hu/nonapi-e-bike-kedvezmeny/",
+          "pageTitle": "ForumSport — kipróbálás Keszthely Rákóczi út 3. Fórum Üzletház"
+        },
+        "szerviz": {
+          "url": "https://velomax.hu/termekkategoria/alkatreszek/bosch-e-bike-alkatreszek/",
+          "pageTitle": "Hivatalos Bosch e-Bike szervizként és partnerként"
+        },
+        "e-bike-szerviz": {
+          "url": "https://velomax.hu/termekkategoria/alkatreszek/bosch-e-bike-alkatreszek/",
+          "pageTitle": "Hivatalos Bosch e-Bike szervizként és partnerként"
+        }
+      },
+      "brandClaims": [
+        {
+          "brand": "KTM",
+          "relation": "sells_brand",
+          "sourceUrl": "https://velomax.hu/",
+          "quote": "KTM MTB / KTM Macina elektromos modellek a webáruházban"
+        },
+        {
+          "brand": "Neuzer",
+          "relation": "sells_brand",
+          "sourceUrl": "https://velomax.hu/",
+          "quote": "NEUZER VENEZIA 28 — női városi kerékpár"
+        }
+      ],
+      "evidence": {
+        "url": "https://velomax.hu/kapcsolat/",
+        "pageTitle": "Kapcsolat — velomax.hu (Cím2: Rákóczi út 3.)"
+      },
+      "notes": "Forum Sport / Fórum Üzletház a velomax.hu Cím2 címe (Rákóczi út 3.). Elsődleges raktár/webshop cím: Tündérlak u. 8. — külön tételként nem importálva ebben a körben. GreenZone (Rákóczi u. 15.) külön bejegyzés. Kölcsönzés aggregátorokon említve — deferred.",
+      "heldBack": false,
+      "heldBackReason": null
+    }
+  ],
+  "heldBack": []
+}

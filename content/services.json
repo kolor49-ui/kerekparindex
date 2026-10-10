@@ -1577,6 +1577,24 @@
       "locationId": "loc-no-limit-dunakeszi",
       "role": "szerviz",
       "sourceUrl": "https://www.nolimitbike.hu/elerhetosegek-230"
+    },
+    {
+      "id": "svc-forum-sport-keszthely-eladas",
+      "locationId": "loc-forum-sport-keszthely",
+      "role": "eladas",
+      "sourceUrl": "https://velomax.hu/nonapi-e-bike-kedvezmeny/"
+    },
+    {
+      "id": "svc-forum-sport-keszthely-szerviz",
+      "locationId": "loc-forum-sport-keszthely",
+      "role": "szerviz",
+      "sourceUrl": "https://velomax.hu/termekkategoria/alkatreszek/bosch-e-bike-alkatreszek/"
+    },
+    {
+      "id": "svc-forum-sport-keszthely-e-bike-szerviz",
+      "locationId": "loc-forum-sport-keszthely",
+      "role": "e-bike-szerviz",
+      "sourceUrl": "https://velomax.hu/termekkategoria/alkatreszek/bosch-e-bike-alkatreszek/"
     }
   ],
   "organizationLevelNotes": [

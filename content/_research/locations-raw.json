@@ -3539,6 +3539,37 @@
       "status": "ellenőrzött",
       "brandClaims": [],
       "notes": "BeloBike (Csodaszarvas u.) külön bejegyzés ugyanazon városban."
+    },
+    {
+      "id": "loc-forum-sport-keszthely",
+      "organizationId": "org-forum-sport-keszthely",
+      "name": "Forum Sport Kerékpárszaküzlet és Szerviz",
+      "address": "8360 Keszthely, Rákóczi út 3.",
+      "city": "Keszthely",
+      "website": "https://velomax.hu/kapcsolat/",
+      "phone": [
+        "+36 30 662 2366",
+        "+36 83 318 773"
+      ],
+      "email": [
+        "info@velomax.hu"
+      ],
+      "status": "ellenőrzött",
+      "brandClaims": [
+        {
+          "brand": "KTM",
+          "relation": "sells_brand",
+          "sourceUrl": "https://velomax.hu/",
+          "quote": "KTM MTB / KTM Macina elektromos modellek a webáruházban"
+        },
+        {
+          "brand": "Neuzer",
+          "relation": "sells_brand",
+          "sourceUrl": "https://velomax.hu/",
+          "quote": "NEUZER VENEZIA 28 — női városi kerékpár"
+        }
+      ],
+      "notes": "Forum Sport / Fórum Üzletház a velomax.hu Cím2 címe (Rákóczi út 3.). Elsődleges raktár/webshop cím: Tündérlak u. 8. — külön tételként nem importálva ebben a körben. GreenZone (Rákóczi u. 15.) külön bejegyzés. Kölcsönzés aggregátorokon említve — deferred."
     }
   ],
   "services": [
