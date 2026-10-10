@@ -321,8 +321,8 @@
         ? String(variant.weightKg).replace(".", ",") +
           (variant.weighingConditions
             ? " (" + variant.weighingConditions + ")"
-            : " (mérési feltétel: " + NA + ")")
-        : NA);
+            : " (mérési feltétel nélkül)")
+        : "Ehhez a változathoz nincs ellenőrzött tömegadatunk.");
     let html = statusBadge(variant.status, variant.dataFlags);
     if (brand) {
       html +=
@@ -331,6 +331,10 @@
         "'>" +
         esc(brand.name) +
         "</button></p>";
+    }
+    if ((variant.dataFlags || []).indexOf("archivált") !== -1) {
+      html +=
+        "<p class='note'>Archivált gyártói oldal: a specifikáció olvasható. Azt, hogy a modellt jelenleg is gyártják, nem igazoltuk — ez önmagában nem jelenti, hogy ne lehetne megvásárolni.</p>";
     }
     html += "<ul class='spec-list'>";
     html += "<li><strong>Típus:</strong> " + esc(val(variant.bikeType)) + "</li>";
@@ -360,6 +364,11 @@
       "</li>";
     html += "<li><strong>Tömeg:</strong> " + esc(weight) + "</li>";
     html += "</ul>";
+    const unresolved = variant.unresolvedFields || [];
+    if (unresolved.indexOf("tires") !== -1) {
+      html +=
+        "<p class='note'>A gumi megnevezése a gyártói oldalon belül eltérő, ezért gumitípust nem közlünk ellenőrzött adatként.</p>";
+    }
     if (variant.sourceUrl) {
       html +=
         '<p><a href="' +
@@ -422,7 +431,7 @@
     }
     html += "</ul><h3>Forgalmazott márkák</h3>";
     html +=
-      "<p class='note'>A márka forgalmazása nem jelenti automatikusan, hogy egy adott modell raktáron van, vagy kipróbálható.</p>";
+      "<p class='note'>Itt csak annyi igazolt: az üzlet a márkát forgalmazza. Konkrét modellkészletről vagy kipróbálásról nincs adatunk.</p>";
     const links = (loc.brandLinks || []).filter(function (b) {
       return b.inCatalog;
     });
@@ -436,9 +445,7 @@
           esc(b.brandId) +
           "'>" +
           esc(b.brandName) +
-          "</button>" +
-          (b.quote ? " — <em>" + esc(b.quote) + "</em>" : "") +
-          "</li>";
+          "</button></li>";
       });
       html += "</ul>";
     }
@@ -810,7 +817,7 @@
           hits.push({
             type: "Márka",
             label: b.name,
-            sub: b.status,
+            sub: b.status !== "ellenőrzött" ? labelStatus(b.status) : "",
             open: function () {
               renderBrand(b);
             },
@@ -823,16 +830,50 @@
           norm(v.exactName).includes(q) ||
           norm(v.motorExactType || "").includes(q)
         ) {
+          const product = productById(v.productId);
+          const brand = product ? brandById(product.brandId) : null;
           hits.push({
             type: "Modell",
             label: v.exactName,
-            sub: v.bikeType || "",
+            sub: [brand && brand.name, v.bikeType].filter(Boolean).join(" · "),
             open: function () {
               renderVariant(v);
             },
           });
         }
       });
+      if (q) {
+        (content.explainers || []).forEach(function (a) {
+          if (
+            norm(a.title).includes(q) ||
+            norm(a.bodyMarkdown || "").includes(q)
+          ) {
+            hits.push({
+              type: "Magyarázó",
+              label: a.title,
+              sub: "Rövid magyarázat",
+              open: function () {
+                renderArticle(a);
+              },
+            });
+          }
+        });
+        (content.comparisons || []).forEach(function (a) {
+          if (
+            norm(a.title).includes(q) ||
+            norm(a.bodyMarkdown || "").includes(q)
+          ) {
+            hits.push({
+              type: "Összehasonlítás",
+              label: a.title,
+              sub: "Gyártói adatok",
+              open: function () {
+                renderArticle(a);
+              },
+            });
+          }
+        });
+      }
     }
     if (searchMode === "hely") {
       content.locations.forEach(function (l) {
@@ -855,19 +896,23 @@
       showResultsPanel(
         "Kerékpárok és felszerelések",
         hits.slice(0, 12),
-        hits.length + " találat a jelenlegi kínálatból."
+        hits.length + " találat"
       );
       return;
     }
     msg.hidden = false;
     if (!hits.length) {
       msg.textContent =
-        "Nincs egyezés. Próbáld például: CUBE, Trek, Debrecen, szerviz.";
+        "Nincs egyezés. Próbáld például: CUBE, Trek, Debrecen, akkukapacitás.";
       document.getElementById("results").hidden = true;
       return;
     }
     msg.textContent = hits.length + " találat";
-    showResultsPanel("Találatok", hits.slice(0, 24), hits.length + " találat");
+    showResultsPanel(
+      "Keresési találatok",
+      hits.slice(0, 24),
+      hits.length + " találat"
+    );
   }
 
   if (!content) {

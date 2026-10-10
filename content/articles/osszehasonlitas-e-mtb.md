@@ -29,12 +29,12 @@ Ahol „Nincs ellenőrzött adatunk” vagy hiányzó tömeg szerepel: a rendelk
 - A tömeghez nincs megadva méret vagy felszereltség.
 
 ### eBIG.NINE 675
-*Archivált gyártói oldal: a specifikáció olvasható, az aktuális gyártás nem igazolt.*
+*Archivált gyártói oldal: a specifikáció olvasható; azt, hogy jelenleg is gyártják, nem igazoltuk.*
 **Mit érdemes tudnod róla?**
 - Merevvázas e-MTB 750 Wh-vel és Shimano EP6 85 Nm-rel; tömeg 23,6 kg M méreten (feltétel megadva).
 - 12 fokozatú Eagle hajtás a specifikáció szerint.
 **Mire figyelj vásárlás előtt?**
-- Archivált gyártói oldal — aktuális gyártás nem igazolt.
+- Archivált gyártói oldal: a specifikáció olvasható; azt, hogy jelenleg is gyártják, nem igazoltuk.
 - Nincs hátsó teleszkóp: ez szándékos felépítés (egyszerűbb hátsó rész, más terepes karakter).
 
 ### S-Works Turbo Levo 4
@@ -58,5 +58,5 @@ Ahol „Nincs ellenőrzött adatunk” vagy hiányzó tömeg szerepel: a rendelk
 
 - Merevvázas és összteleszkópos modelleket ne rangsorolj ugyanazon skálán.
 - Az Nm és a Wh együtt értelmezendő; a Wh nem hatótávgarancia.
-- A MERIDA oldal archivált: a specifikáció olvasható, az aktuális gyártás nem igazolt.
+- A MERIDA oldal archivált: a specifikáció olvasható; azt, hogy jelenleg is gyártják, nem igazoltuk.
 - Nem saját teszt; abszolút győztes nincs.

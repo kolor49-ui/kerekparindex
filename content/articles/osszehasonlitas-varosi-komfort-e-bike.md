@@ -45,7 +45,7 @@ A Trek District+ 9 tömege: **24,9 kg, akkumulátor nélkül, L-es vázméretben
 - A csoport kisebb Wh-értéke: kisebb energiatartalék a gyártói adat szerint.
 **Mire figyelj vásárlás előtt?**
 - A nyomatékhoz és a tömeghez nincs ellenőrzött adatunk a gepida.hu oldalon.
-- A féktípus a forráson belül ellentmondásos (kontrafék és tárcsa is szerepel) — fékadatot nem közlünk ellenőrzött tényként.
+- A forrásban kontrafék és tárcsafék is szerepel — a féktípust ezért nem közöljük ellenőrzött adatként.
 
 
 ## Hogyan olvasd a különbségeket?

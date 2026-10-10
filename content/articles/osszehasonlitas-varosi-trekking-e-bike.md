@@ -29,15 +29,15 @@ Ahol „Nincs ellenőrzött adatunk” vagy hiányzó tömeg szerepel: a rendelk
 - 4 dugattyús Deore hidraulikus tárcsafék (203/180 mm) — a csoport erősebb fékkínálata között.
 **Mire figyelj vásárlás előtt?**
 - Ehhez a változathoz nincs ellenőrzött tömegadatunk; a gyártó helyi mérést javasol.
-- A marketing öves hajtást is említ (csak egyes modelleknél), a Specs viszont Di2 váltós hajtást listáz — a táblában a Specs szerinti adat szerepel.
+- A marketing egyes modelleknél öves hajtást is említ; ennél a változatnál a Specs Di2 váltós hajtást listáz — a táblában ez utóbbi szerepel.
 
 ### eSPRESSO 575 EQ
-*Archivált gyártói oldal: a specifikáció olvasható, az aktuális gyártás nem igazolt.*
+*Archivált gyártói oldal: a specifikáció olvasható; azt, hogy jelenleg is gyártják, nem igazoltuk.*
 **Mit érdemes tudnod róla?**
 - 750 Wh belső akkumulátor és Shimano EP6, 85 Nm; tömeg 27,1 kg, M vázméreten mérve.
 - EQ felszereltségű trekking jelleg a gyártói specifikáció alapján.
 **Mire figyelj vásárlás előtt?**
-- A hivatalos oldal archivált — aktuális gyártás és elérhetőség nem igazolt.
+- Archivált gyártói oldal: a specifikáció olvasható; azt, hogy jelenleg is gyártják, nem igazoltuk.
 - A modellév a gyártói oldalon nem szerepel külön számként.
 
 ### BERIG DEORE 10 W

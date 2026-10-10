@@ -594,14 +594,14 @@ def fix_variants():
             # Soften conflict display values
             if "brakes" in unresolved and v.get("brakes"):
                 v["brakesDisplay"] = (
-                    "Ellentmondás a forrásban (kontrafék vs. tárcsafék felsorolás) — "
-                    "nem jelenik meg ellenőrzött tényként."
+                    "A forrásban kontrafék és tárcsafék is szerepel — "
+                    "a féktípust ezért nem közöljük ellenőrzött adatként."
                 )
             if "drivetrain" in unresolved:
                 v["drivetrainNote"] = (
-                    "Marketing szöveg öves hajtást is említ (select models); "
-                    "a Specs tábla Shimano Cues Di2 váltós hajtást listáz. "
-                    "Összehasonlításban a Specs szerinti hajtás szerepel, marketing állítás nélkül."
+                    "A marketing egyes modelleknél öves hajtást is említ; "
+                    "ennél a változatnál a Specs Shimano Cues Di2 váltós hajtást listáz. "
+                    "Itt a Specs szerinti adat szerepel."
                 )
             if "colorAsListed" in unresolved:
                 v["colorAsListed"] = (
@@ -696,7 +696,7 @@ def build_pros_cons():
             ],
             "cons": [
                 "Ehhez a változathoz nincs ellenőrzött tömegadatunk; a gyártó helyi mérést javasol.",
-                "A marketing öves hajtást is említ (csak egyes modelleknél), a Specs viszont Di2 váltós hajtást listáz — a táblában a Specs szerinti adat szerepel.",
+                "A marketing egyes modelleknél öves hajtást is említ; ennél a változatnál a Specs Di2 váltós hajtást listáz — a táblában ez utóbbi szerepel.",
             ],
         },
         "var-merida-espresso-575-eq-750": {
@@ -705,7 +705,7 @@ def build_pros_cons():
                 "EQ felszereltségű trekking jelleg a gyártói specifikáció alapján.",
             ],
             "cons": [
-                "A hivatalos oldal archivált — aktuális gyártás és elérhetőség nem igazolt.",
+                "Archivált gyártói oldal: a specifikáció olvasható; azt, hogy jelenleg is gyártják, nem igazoltuk.",
                 "A modellév a gyártói oldalon nem szerepel külön számként.",
             ],
         },
@@ -735,7 +735,7 @@ def build_pros_cons():
                 "12 fokozatú Eagle hajtás a specifikáció szerint.",
             ],
             "cons": [
-                "Archivált gyártói oldal — aktuális gyártás nem igazolt.",
+                "Archivált gyártói oldal: a specifikáció olvasható; azt, hogy jelenleg is gyártják, nem igazoltuk.",
                 "Nincs hátsó teleszkóp: ez szándékos felépítés (egyszerűbb hátsó rész, más terepes karakter).",
             ],
         },
@@ -796,7 +796,7 @@ def build_pros_cons():
             ],
             "cons": [
                 "A nyomatékhoz és a tömeghez nincs ellenőrzött adatunk a gepida.hu oldalon.",
-                "A féktípus a forráson belül ellentmondásos (kontrafék és tárcsa is szerepel) — fékadatot nem közlünk ellenőrzött tényként.",
+                "A forrásban kontrafék és tárcsafék is szerepel — a féktípust ezért nem közöljük ellenőrzött adatként.",
             ],
         },
     }
@@ -1114,7 +1114,7 @@ Szoftverfrissítés, hibakód, akku, motorcsatlakozók — ezekhez gyakran speci
             parts.append(f"### {v['exactName']}")
             if "archivált" in (v.get("dataFlags") or []):
                 parts.append(
-                    "*Archivált gyártói oldal: a specifikáció olvasható, az aktuális gyártás nem igazolt.*"
+                    "*Archivált gyártói oldal: a specifikáció olvasható; azt, hogy jelenleg is gyártják, nem igazoltuk.*"
                 )
             parts.append("**Mit érdemes tudnod róla?**")
             for p in block["pros"]:
@@ -1222,7 +1222,7 @@ Ahol „{NA}” vagy hiányzó tömeg szerepel: a rendelkezésre álló gyártó
 
 - Merevvázas és összteleszkópos modelleket ne rangsorolj ugyanazon skálán.
 - Az Nm és a Wh együtt értelmezendő; a Wh nem hatótávgarancia.
-- A MERIDA oldal archivált: a specifikáció olvasható, az aktuális gyártás nem igazolt.
+- A MERIDA oldal archivált: a specifikáció olvasható; azt, hogy jelenleg is gyártják, nem igazoltuk.
 - Nem saját teszt; abszolút győztes nincs.
 """
 

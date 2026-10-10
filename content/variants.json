@@ -80,7 +80,7 @@
       "unresolvedFields": [
         "drivetrain"
       ],
-      "drivetrainNote": "Marketing szöveg öves hajtást is említ (select models); a Specs tábla Shimano Cues Di2 váltós hajtást listáz. Összehasonlításban a Specs szerinti hajtás szerepel, marketing állítás nélkül.",
+      "drivetrainNote": "A marketing egyes modelleknél öves hajtást is említ; ennél a változatnál a Specs Shimano Cues Di2 váltós hajtást listáz. Itt a Specs szerinti adat szerepel.",
       "missingFields": [
         "weightKg",
         "motorPosition",
@@ -478,7 +478,7 @@
       "unresolvedFields": [
         "brakes"
       ],
-      "brakesDisplay": "Ellentmondás a forrásban (kontrafék vs. tárcsafék felsorolás) — nem jelenik meg ellenőrzött tényként.",
+      "brakesDisplay": "A forrásban kontrafék és tárcsafék is szerepel — a féktípust ezért nem közöljük ellenőrzött adatként.",
       "missingFields": [
         "torqueNm",
         "weightKg",
