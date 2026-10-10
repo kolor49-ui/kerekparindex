@@ -9,7 +9,7 @@
 | Elem | Kész | Megjegyzés |
 | --- | --- | --- |
 | Márka | 10 | 9× ellenőrzött, Scott előkészített |
-| Telephely | 20 | brandLinks + evidenceIds |
+| Telephely | 103 | brandLinks + evidenceIds; szolgáltatás szerepenként bizonyíték |
 | E-bike modellváltozat | 12 | forrás supports + pageTitle |
 | Alapmagyarázó | 6 | konkrét szakmai források |
 | Összehasonlítás | 3 | trekking / e-MTB / városi komfort |

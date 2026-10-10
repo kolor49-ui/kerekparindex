@@ -136,6 +136,8 @@ def main() -> int:
         if not evidence.get("url"):
             skipped.append((loc_id, "no evidence url"))
             continue
+        # Do not invent roles: each role must be explicitly listed; never default to eladas+szerviz.
+        # Callers must only include szerviz when location-level evidence supports it.
 
         eid = "ev-" + slug + "-" + access.replace("-", "")
         # ensure unique evidence id

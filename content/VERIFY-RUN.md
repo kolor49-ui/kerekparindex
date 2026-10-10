@@ -110,6 +110,7 @@ Result: **PASS**
 - PASS: `variants_productId_resolve` — ok
 - PASS: `locations_organizationId_resolve` — ok
 - PASS: `services_locationId_resolve` — ok
+- PASS: `services_have_sourceUrl` — ok
 - PASS: `brand_links_and_location_evidence` — ok linked=48
 - PASS: `brand_links_at_least_8` — 48
 - PASS: `rekord_szerviz_not_on_locations` — ok

@@ -127,6 +127,18 @@ def main() -> int:
         "ok",
     )
 
+    # Published services must carry an evidence URL reference (content adequacy is separate)
+    missing_svc_source = [
+        s.get("id")
+        for s in services
+        if not (isinstance(s.get("sourceUrl"), str) and s.get("sourceUrl").strip())
+    ]
+    check(
+        "services_have_sourceUrl",
+        not missing_svc_source,
+        missing_svc_source[:20] or "ok",
+    )
+
     # Brand links
     bad_links = []
     empty_links_with_claims = 0

@@ -1,5 +1,24 @@
 {
   "accessedAt": "2026-10-10",
+  "reconciliation": {
+    "originalHeldEntries": 17,
+    "promoted": 2,
+    "stillHeldUnique": 13,
+    "deduplicated": 2,
+    "note": "17 = 2 felvett + 13 egyedi visszatartott + 2 duplikált bejegyzés, amelyeket összevontunk.",
+    "deduplicatedEntries": [
+      {
+        "name": "loc-biciklikk-szolnok",
+        "fate": "duplikátum — ugyanaz a jelölt, mint a «BiciKlikk Szolnok»; az egyedi visszatartott listában az utóbbi maradt",
+        "canonicalHeldName": "BiciKlikk Szolnok"
+      },
+      {
+        "name": "loc-rent-e-bike-miskolc",
+        "fate": "duplikátum — ugyanaz a jelölt, mint a «Rent-E-Bike Miskolc»; az egyedi visszatartott listában az utóbbi maradt (kölcsönzőrovatra elhalasztva)",
+        "canonicalHeldName": "Rent-E-Bike Miskolc"
+      }
+    ]
+  },
   "promoted": [
     {
       "name": "Ga-Bike Kerékpár Szaküzlet és Szerviz",

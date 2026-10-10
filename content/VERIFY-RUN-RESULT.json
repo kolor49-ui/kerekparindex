@@ -183,6 +183,11 @@
       "detail": "ok"
     },
     {
+      "name": "services_have_sourceUrl",
+      "ok": true,
+      "detail": "ok"
+    },
+    {
       "name": "brand_links_and_location_evidence",
       "ok": true,
       "detail": "ok linked=48"
