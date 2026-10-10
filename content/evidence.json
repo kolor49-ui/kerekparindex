@@ -1,0 +1,943 @@
+{
+  "accessedAt": "2026-10-10",
+  "items": [
+    {
+      "id": "ev-cube-eu-hu",
+      "url": "https://www.cube.eu/hu-hu",
+      "pageTitle": "HOME | CUBE Bikes",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-cube.officialWebsite",
+        "brand-cube.productCategories",
+        "brand-cube.hungaryRelatedWebsite locale hu-hu"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-cube-bikes-hu",
+      "url": "https://www.cube-bikes.hu",
+      "pageTitle": "cube-bikes.hu – Cube Kerékpárok és kiegészítők",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-cube.hungaryRelatedWebsite",
+        "brand-cube HU commercial presence"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-giant-hu",
+      "url": "https://www.giant-bicycles.com/hu",
+      "pageTitle": "Giant kerékpárok | A világ vezető kerékpár- és kerékpárfelszerelés-márkája",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-giant.officialWebsite",
+        "brand-giant.hungaryRelatedWebsite",
+        "brand-giant HU locale",
+        "brand-giant e-bike mention"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-giant-hu-bikes",
+      "url": "https://www.giant-bicycles.com/hu/bikes",
+      "pageTitle": "Giant Bicycles Magyarország",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-giant.productCategories bikes section exists"
+      ],
+      "status": "hiányos"
+    },
+    {
+      "id": "ev-trek-global",
+      "url": "https://www.trekbikes.com",
+      "pageTitle": "World's Best Bikes Collection & Cycling Gear Online",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-trek.officialWebsite",
+        "brand-trek global brand existence"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-trek-hu",
+      "url": "https://trek.hu/",
+      "pageTitle": "Trek importőr",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-trek.hungaryRelatedWebsite",
+        "brand-trek.productCategories",
+        "brand-trek HU importer presence"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-trek-hu-cegadatok",
+      "url": "https://trek.hu/hu-hu/Trek_cikkek/cegadatok",
+      "pageTitle": "Cég adatok",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-trek HU importer Genomed Kft. Budapest",
+        "brand-trek importőr 1998 óta"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-specialized-global",
+      "url": "https://www.specialized.com",
+      "pageTitle": "Made for riders, by riders. | Specialized.com",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-specialized.officialWebsite",
+        "brand-specialized.productCategories"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-specialized-hu-en",
+      "url": "https://www.specialized.com/hu/en",
+      "pageTitle": "Made for riders, by riders. | Specialized.com",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-specialized.hungaryRelatedWebsite",
+        "brand-specialized HU locale"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-specialized-distributors",
+      "url": "https://www.specialized.com/us/en/international-subsidiaries-and-distributors",
+      "pageTitle": "International Subsidiaries and Distributors",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-specialized HU distributor Hauser Kerkpr Kft. Budapest",
+        "brand-specialized Hungary | Romania listing"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-specialized-hu-warranty",
+      "url": "https://www.specialized.com/hu/en/warranty",
+      "pageTitle": "Global Warranty",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-specialized /hu/en locale operational"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-merida-global",
+      "url": "https://www.merida-bikes.com",
+      "pageTitle": "MERIDA BIKES International - MERIDA BIKES",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-merida.officialWebsite"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-merida-hu-distributor",
+      "url": "https://www.merida-bikes.com/en/p/merida-world/stories/distributor-in-spotlight-merida-hungary-819.html",
+      "pageTitle": "Distributor in Spotlight – MERIDA Hungary - MERIDA BIKES",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-merida HU distributor BikeFun",
+        "brand-merida.productCategories",
+        "brand-merida Hungary presence"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-bikefun-hu",
+      "url": "https://www.bikefun.hu",
+      "pageTitle": "Nyitólap - BikeFun",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-merida.hungaryRelatedWebsite",
+        "brand-merida HU importer site active 2026"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-scott-bikemag-2021",
+      "url": "https://bikemag.hu/magazin/hirek/ujra-magyarorszagon-a-scott-kerekpar/",
+      "pageTitle": "Újra Magyarországon a Scott kerékpár, közvetlen márkaképviselettel! - Kerékpár magazin - Bikemag.hu",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-scott HU direct representation claim (2021 press)",
+        "brand-scott.productCategories mentions"
+      ],
+      "status": "előkészített"
+    },
+    {
+      "id": "ev-cannondale-global",
+      "url": "https://www.cannondale.com",
+      "pageTitle": "Cannondale Bikes | Road, Mountain, Kids, Electric Bikes",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-cannondale.officialWebsite",
+        "brand-cannondale.productCategories"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-cannondale-bikes-hu",
+      "url": "https://www.cannondale-bikes.hu/",
+      "pageTitle": "CANNONDALE Kerékpárok",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-cannondale.hungaryRelatedWebsite",
+        "brand-cannondale HU language site"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-cannondale-mali-hu",
+      "url": "https://www.cannondale.hu/",
+      "pageTitle": "MALI Magyarország",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-cannondale HU retail/distribution via MALI",
+        "brand-cannondale sold in Hungary"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-gepida-home",
+      "url": "https://www.gepida.hu",
+      "pageTitle": "Gepida webáruház",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-gepida.officialWebsite",
+        "brand-gepida.productCategories",
+        "brand-gepida Budapest contact"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-gepida-rolunk",
+      "url": "https://gepida.hu/rolunk_neked",
+      "pageTitle": "Rólunk - Neked",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-gepida Hungarian brand/manufacturer claim",
+        "brand-gepida.shortDescription"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-neuzer-home",
+      "url": "https://www.neuzer.hu",
+      "pageTitle": "Neuzer Kerékpárok",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-neuzer.officialWebsite",
+        "brand-neuzer Esztergom manufacturing HQ",
+        "brand-neuzer Budapest wholesale"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-neuzer-emtb",
+      "url": "https://neuzer.hu/kerekparok/elektromos/neuzer-e-650b-e-mtb-ferfi-fekete-feher-cian-ne1601111013.html",
+      "pageTitle": "Neuzer E-650B E-MTB férfi fekete/fehér-cián",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-neuzer.productCategories e-mtb"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-neuzer-etrekking",
+      "url": "https://neuzer.hu/en/bicycles/electric/neuzer-como-e-trekking-ferfi-ne1901070004.html",
+      "pageTitle": "Neuzer Como E-trekking férfi",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-neuzer.productCategories e-trekking"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-ktm-official",
+      "url": "https://www.ktm-bikes.at/",
+      "pageTitle": "E-Bikes and Bikes - KTM Bikes",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-ktm.officialWebsite",
+        "brand-ktm.productCategories"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-ktm-team-hu",
+      "url": "https://ktmteam.hu/",
+      "pageTitle": "KTM Team - KTM magyarországi képviselet",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-ktm.hungaryRelatedWebsite",
+        "brand-ktm HU representation"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-01",
+      "url": "https://gepida.hu/bemutatotermunk",
+      "pageTitle": "Bemutatótermünk – Gepida",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-futurebike-bartok",
+        "svc-futurebike-eladas",
+        "svc-futurebike-szerviz"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-02",
+      "url": "https://www.gepidastore.hu/kapcsolat/",
+      "pageTitle": "Kapcsolat – Futurebike / Gepida Store",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-futurebike-bartok"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-03",
+      "url": "https://www.gepidastore.hu/kerekpar-szerviz/",
+      "pageTitle": "Kerékpár szerviz – Futurebike",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "svc-futurebike-ebike",
+        "svc-futurebike-szerviz"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-04",
+      "url": "https://www.bringaboard.hu/",
+      "pageTitle": "BringaBoard Kerékpár Szaküzlet",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-bringaboard-jasz",
+        "svc-bringaboard-eladas",
+        "svc-bringaboard-szerviz"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-05",
+      "url": "https://bringavilag.com/",
+      "pageTitle": "Bringavilág Kerékpárüzlet és szerviz",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-bringavilag-cserhat",
+        "svc-bringavilag-eladas",
+        "svc-bringavilag-szerviz"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-06",
+      "url": "https://trek.hu/hu-hu?route=information%2Fcontact",
+      "pageTitle": "Kapcsolat – Trek importőr / Nella",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-nella-kalman",
+        "svc-nella-eladas"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-07",
+      "url": "https://trek.hu/hu-hu/Trek_cikkek/Trek_kereskedesek-Budapesten",
+      "pageTitle": "Trek kereskedések Budapesten – trek.hu",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-nella-kalman",
+        "loc-k2-pacsirtamezo",
+        "loc-bikeart-csalogany"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-08",
+      "url": "https://k2-bike.hu/en/news/customer-information/ugyfelszolgalat.html",
+      "pageTitle": "Ügyfélszolgálat – K2 Shop",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-k2-pacsirtamezo",
+        "svc-k2-eladas",
+        "svc-k2-szerviz"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-09",
+      "url": "https://www.bikeart.hu/kapcsolat.html",
+      "pageTitle": "Kapcsolat – BikeArt Center",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-bikeart-csalogany",
+        "loc-bikeart-kissjanos"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-10",
+      "url": "https://bolt.bikeart.hu/boltok",
+      "pageTitle": "Boltok – BikeArt webshop",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-bikeart-csalogany"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-11",
+      "url": "https://www.bikeart.hu/szerviz.html",
+      "pageTitle": "Szerviz – BikeArt Center",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "svc-bikeart-csalogany-szerviz",
+        "svc-bikeart-kissjanos-szerviz"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-12",
+      "url": "https://www.bikeart.hu/",
+      "pageTitle": "BikeArt Center – kezdőlap",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "svc-bikeart-csalogany-eladas",
+        "svc-bikeart-kissjanos-eladas"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-13",
+      "url": "https://rekordbike.hu/shop_contact.php",
+      "pageTitle": "Kapcsolat / üzletek – Rekord Bike",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-rekord-budapest",
+        "loc-rekord-gyor"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-14",
+      "url": "https://rekordbike.hu/szerviz",
+      "pageTitle": "Szerviz – Rekord Bike (szervezeti szint)",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "org-rekord-bike.szerviz-szervezeti"
+      ],
+      "status": "előkészített",
+      "note": "Szerviz oldal org-szinten; telephelyi hozzárendelés nélkül tartva."
+    },
+    {
+      "id": "ev-15",
+      "url": "https://www.vozzy.hu/spg/601152/Uzletunk",
+      "pageTitle": "Üzletünk – VOZZY Bike & Snow",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-vozzy-debrecen",
+        "svc-vozzy-eladas",
+        "svc-vozzy-szerviz",
+        "svc-vozzy-ebike"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-16",
+      "url": "https://www.jobringa.hu/kapcsolat",
+      "pageTitle": "Kapcsolat – JóBringa",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-jobringa-debrecen",
+        "svc-jobringa-eladas",
+        "svc-jobringa-szerviz"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-17",
+      "url": "https://heavypedal.hu/",
+      "pageTitle": "Heavy Pedál Kerékpárüzlet & Szerviz",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-heavy-pedal-szeged",
+        "svc-heavy-eladas",
+        "svc-heavy-szerviz"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-18",
+      "url": "https://www.bikeszaki.hu/",
+      "pageTitle": "Bikeszaki – kezdőlap",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-bikeszaki-szeged",
+        "svc-bikeszaki-eladas",
+        "svc-bikeszaki-szerviz"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-19",
+      "url": "https://www.bikeszaki.hu/kapcsolat",
+      "pageTitle": "Kapcsolat – Bikeszaki",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-bikeszaki-szeged"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-20",
+      "url": "https://www.biciklikk.hu/uzleteink",
+      "pageTitle": "Üzleteink – Biciklikk",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-biciklikk-pecs",
+        "svc-biciklikk-eladas"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-21",
+      "url": "https://www.biciklikk.hu/szerviz",
+      "pageTitle": "Szerviz – Biciklikk",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "svc-biciklikk-szerviz",
+        "svc-biciklikk-ebike"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-22",
+      "url": "https://peppekerekpar.hu/",
+      "pageTitle": "Peppe Kerékpár szaküzlet és szerviz",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-peppe-gyor",
+        "svc-peppe-eladas",
+        "svc-peppe-szerviz"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-23",
+      "url": "https://bicobolt.hu/",
+      "pageTitle": "Bicó Kerékpárbolt és Kerékpárszerviz",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-bico-szekesfehervar",
+        "svc-bico-eladas",
+        "svc-bico-szerviz"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-24",
+      "url": "https://www.fehervarkerekpar.hu/",
+      "pageTitle": "Vitál Club kerékpárbolt – Fehérvár Kerékpár",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-vital-szekesfehervar",
+        "svc-vital-eladas"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-25",
+      "url": "https://q1kerekparszalon.hu/",
+      "pageTitle": "q1 kerékpárszalon",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-q1-nyiregyhaza",
+        "svc-q1-eladas",
+        "svc-q1-szerviz",
+        "svc-q1-ebike"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-26",
+      "url": "https://melux.hu/",
+      "pageTitle": "Melux / Bike Shop Nyíregyháza",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-melux-nyiregyhaza",
+        "svc-melux-eladas",
+        "svc-melux-szerviz"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-27",
+      "url": "https://borsodbike.hu/",
+      "pageTitle": "Borsod Bike",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "loc-borsod-bike-miskolc",
+        "svc-borsod-eladas",
+        "svc-borsod-szerviz"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-28",
+      "url": "https://rekordbike.hu/",
+      "pageTitle": "Rekord Bike – kezdőlap",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "svc-rekord-bp-eladas",
+        "svc-rekord-gyor-eladas"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-cube-kathmandu-one-800",
+      "url": "https://www.cube.eu/cube-kathmandu-hybrid-one-800-metallicgrey-n-grey/112111",
+      "pageTitle": "Kathmandu Hybrid ONE 800 – CUBE Bikes",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "var-cube-kathmandu-hybrid-one-800-metallicgrey.exactName",
+        "var-cube-kathmandu-hybrid-one-800-metallicgrey.motorExactType",
+        "var-cube-kathmandu-hybrid-one-800-metallicgrey.torqueNm",
+        "var-cube-kathmandu-hybrid-one-800-metallicgrey.batteryWh",
+        "var-cube-kathmandu-hybrid-one-800-metallicgrey.batteryExact",
+        "var-cube-kathmandu-hybrid-one-800-metallicgrey.drivetrain",
+        "var-cube-kathmandu-hybrid-one-800-metallicgrey.brakes",
+        "var-cube-kathmandu-hybrid-one-800-metallicgrey.weightKg",
+        "var-cube-kathmandu-hybrid-one-800-metallicgrey.colorAsListed",
+        "var-cube-kathmandu-hybrid-one-800-metallicgrey.frameVariant"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-giant-explore-eplus-1-stagger",
+      "url": "https://www.giant-bicycles.com/int/explore-eplus-1-stagger",
+      "pageTitle": "Explore E+ 1 Stagger (2026) – Giant",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "var-giant-explore-eplus-1-stagger-2026.exactName",
+        "var-giant-explore-eplus-1-stagger-2026.motorExactType",
+        "var-giant-explore-eplus-1-stagger-2026.torqueNm",
+        "var-giant-explore-eplus-1-stagger-2026.batteryWh",
+        "var-giant-explore-eplus-1-stagger-2026.batteryExact",
+        "var-giant-explore-eplus-1-stagger-2026.drivetrain",
+        "var-giant-explore-eplus-1-stagger-2026.brakes",
+        "var-giant-explore-eplus-1-stagger-2026.manufacturerRangeClaim",
+        "var-giant-explore-eplus-1-stagger-2026.colorAsListed",
+        "var-giant-explore-eplus-1-stagger-2026.frameVariant"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-merida-espresso-575-eq",
+      "url": "https://www.merida-bikes.com/en/bike/5675-7682/espresso-575-eq",
+      "pageTitle": "eSPRESSO 575 EQ (archived) – MERIDA",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "var-merida-espresso-575-eq-750.exactName",
+        "var-merida-espresso-575-eq-750.motorExactType",
+        "var-merida-espresso-575-eq-750.torqueNm",
+        "var-merida-espresso-575-eq-750.batteryWh",
+        "var-merida-espresso-575-eq-750.batteryExact",
+        "var-merida-espresso-575-eq-750.drivetrain",
+        "var-merida-espresso-575-eq-750.brakes",
+        "var-merida-espresso-575-eq-750.weightKg",
+        "var-merida-espresso-575-eq-750.weighingConditions",
+        "var-merida-espresso-575-eq-750.colorAsListed"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-gepida-berig-deore-10-w",
+      "url": "https://gepida.hu/gepida-berig-deore-10-w-matt-grafit-11372",
+      "pageTitle": "BERIG DEORE 10 W – Gepida",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "var-gepida-berig-deore-10-w-500.exactName",
+        "var-gepida-berig-deore-10-w-500.motorExactType",
+        "var-gepida-berig-deore-10-w-500.motorPosition",
+        "var-gepida-berig-deore-10-w-500.batteryWh",
+        "var-gepida-berig-deore-10-w-500.batteryExact",
+        "var-gepida-berig-deore-10-w-500.drivetrain",
+        "var-gepida-berig-deore-10-w-500.brakes",
+        "var-gepida-berig-deore-10-w-500.manufacturerSku",
+        "var-gepida-berig-deore-10-w-500.colorAsListed"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-cube-reaction-one-800",
+      "url": "https://www.cube.eu/sk-de/cube-reaction-hybrid-one-800-royalgreen-n-prism/108120",
+      "pageTitle": "Reaction Hybrid ONE 800 – CUBE Bikes",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "var-cube-reaction-hybrid-one-800-royalgreen.exactName",
+        "var-cube-reaction-hybrid-one-800-royalgreen.motorExactType",
+        "var-cube-reaction-hybrid-one-800-royalgreen.torqueNm",
+        "var-cube-reaction-hybrid-one-800-royalgreen.batteryWh",
+        "var-cube-reaction-hybrid-one-800-royalgreen.batteryExact",
+        "var-cube-reaction-hybrid-one-800-royalgreen.drivetrain",
+        "var-cube-reaction-hybrid-one-800-royalgreen.brakes",
+        "var-cube-reaction-hybrid-one-800-royalgreen.weightKg",
+        "var-cube-reaction-hybrid-one-800-royalgreen.colorAsListed",
+        "var-cube-reaction-hybrid-one-800-royalgreen.frameVariant"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-merida-ebignine-675",
+      "url": "https://www.merida-bikes.com/en/bike/5704-7528/ebignine-675",
+      "pageTitle": "eBIG.NINE 675 (archived) – MERIDA",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "var-merida-ebignine-675-750.exactName",
+        "var-merida-ebignine-675-750.motorExactType",
+        "var-merida-ebignine-675-750.torqueNm",
+        "var-merida-ebignine-675-750.batteryWh",
+        "var-merida-ebignine-675-750.batteryExact",
+        "var-merida-ebignine-675-750.drivetrain",
+        "var-merida-ebignine-675-750.brakes",
+        "var-merida-ebignine-675-750.weightKg",
+        "var-merida-ebignine-675-750.weighingConditions",
+        "var-merida-ebignine-675-750.colorAsListed"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-specialized-s-works-levo-4",
+      "url": "https://www.specialized.com/us/en/s-works-turbo-levo-4/p/4291509",
+      "pageTitle": "S-Works Turbo Levo 4 – Specialized",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "var-specialized-s-works-turbo-levo-4-840.exactName",
+        "var-specialized-s-works-turbo-levo-4-840.motorExactType",
+        "var-specialized-s-works-turbo-levo-4-840.torqueNm",
+        "var-specialized-s-works-turbo-levo-4-840.batteryWh",
+        "var-specialized-s-works-turbo-levo-4-840.batteryExact",
+        "var-specialized-s-works-turbo-levo-4-840.drivetrain",
+        "var-specialized-s-works-turbo-levo-4-840.brakes",
+        "var-specialized-s-works-turbo-levo-4-840.weightKg",
+        "var-specialized-s-works-turbo-levo-4-840.weighingConditions",
+        "var-specialized-s-works-turbo-levo-4-840.manufacturerRangeClaim",
+        "var-specialized-s-works-turbo-levo-4-840.manufacturerSku"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-gepida-sirmium-pro-deore-10",
+      "url": "https://gepida.hu/gepida-sirmium-pro-deore-10-feher-11105",
+      "pageTitle": "SIRMIUM PRO DEORE 10 – Gepida",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "var-gepida-sirmium-pro-deore-10-500.exactName",
+        "var-gepida-sirmium-pro-deore-10-500.motorExactType",
+        "var-gepida-sirmium-pro-deore-10-500.motorPosition",
+        "var-gepida-sirmium-pro-deore-10-500.torqueNm",
+        "var-gepida-sirmium-pro-deore-10-500.batteryWh",
+        "var-gepida-sirmium-pro-deore-10-500.batteryExact",
+        "var-gepida-sirmium-pro-deore-10-500.drivetrain",
+        "var-gepida-sirmium-pro-deore-10-500.brakes",
+        "var-gepida-sirmium-pro-deore-10-500.manufacturerSku",
+        "var-gepida-sirmium-pro-deore-10-500.colorAsListed"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-specialized-turbo-como-4-0",
+      "url": "https://www.specialized.com/us/en/turbo-como-40/p/4277417",
+      "pageTitle": "2025 Turbo Como 4.0 – Specialized",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "var-specialized-turbo-como-4-0-710-2025.exactName",
+        "var-specialized-turbo-como-4-0-710-2025.motorExactType",
+        "var-specialized-turbo-como-4-0-710-2025.motorPosition",
+        "var-specialized-turbo-como-4-0-710-2025.torqueNm",
+        "var-specialized-turbo-como-4-0-710-2025.batteryWh",
+        "var-specialized-turbo-como-4-0-710-2025.batteryExact",
+        "var-specialized-turbo-como-4-0-710-2025.drivetrain",
+        "var-specialized-turbo-como-4-0-710-2025.brakes",
+        "var-specialized-turbo-como-4-0-710-2025.manufacturerRangeClaim",
+        "var-specialized-turbo-como-4-0-710-2025.manufacturerSku",
+        "var-specialized-turbo-como-4-0-710-2025.colorAsListed"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-trek-district-plus-9",
+      "url": "https://www.trekbikes.com/gb/en_GB/bikes/hybrid-bikes/electric-hybrid-bikes/district/district-9/p/33186/",
+      "pageTitle": "District+ 9 – Trek Bikes",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "var-trek-district-plus-9-powertube-500.exactName",
+        "var-trek-district-plus-9-powertube-500.motorExactType",
+        "var-trek-district-plus-9-powertube-500.torqueNm",
+        "var-trek-district-plus-9-powertube-500.batteryWh",
+        "var-trek-district-plus-9-powertube-500.batteryExact",
+        "var-trek-district-plus-9-powertube-500.drivetrain",
+        "var-trek-district-plus-9-powertube-500.brakes",
+        "var-trek-district-plus-9-powertube-500.weightKg",
+        "var-trek-district-plus-9-powertube-500.weighingConditions",
+        "var-trek-district-plus-9-powertube-500.manufacturerSku",
+        "var-trek-district-plus-9-powertube-500.frameVariant"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-cube-supreme-deluxe-one-625",
+      "url": "https://www.cube.eu/bg-en/cube-supreme-hybrid-deluxe-one-625-slateblack-n-black/813400",
+      "pageTitle": "Supreme Hybrid Deluxe ONE 625 – CUBE Bikes",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "var-cube-supreme-hybrid-deluxe-one-625-slateblack.exactName",
+        "var-cube-supreme-hybrid-deluxe-one-625-slateblack.motorExactType",
+        "var-cube-supreme-hybrid-deluxe-one-625-slateblack.torqueNm",
+        "var-cube-supreme-hybrid-deluxe-one-625-slateblack.batteryWh",
+        "var-cube-supreme-hybrid-deluxe-one-625-slateblack.batteryExact",
+        "var-cube-supreme-hybrid-deluxe-one-625-slateblack.drivetrain",
+        "var-cube-supreme-hybrid-deluxe-one-625-slateblack.brakes",
+        "var-cube-supreme-hybrid-deluxe-one-625-slateblack.weightKg",
+        "var-cube-supreme-hybrid-deluxe-one-625-slateblack.colorAsListed",
+        "var-cube-supreme-hybrid-deluxe-one-625-slateblack.frameVariant"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-gepida-bonum-edge-nexus-8c",
+      "url": "https://gepida.hu/bonum-edge-nexus-8c-coaster-wh-28-13619",
+      "pageTitle": "BONUM EDGE NEXUS 8C (COASTER) – Gepida",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "var-gepida-bonum-edge-nexus-8c-coaster-400.exactName",
+        "var-gepida-bonum-edge-nexus-8c-coaster-400.motorExactType",
+        "var-gepida-bonum-edge-nexus-8c-coaster-400.motorPosition",
+        "var-gepida-bonum-edge-nexus-8c-coaster-400.batteryWh",
+        "var-gepida-bonum-edge-nexus-8c-coaster-400.batteryExact",
+        "var-gepida-bonum-edge-nexus-8c-coaster-400.drivetrain",
+        "var-gepida-bonum-edge-nexus-8c-coaster-400.manufacturerSku",
+        "var-gepida-bonum-edge-nexus-8c-coaster-400.colorAsListed"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-bosch-help-manuals",
+      "url": "https://help.bosch-ebike.com/hu/connect/help-center/manuals",
+      "pageTitle": "Útmutatók - Bosch eBike Connect",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "art-exp-motor.manualsAvailable",
+        "art-exp-nm.manualsAvailable"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-bosch-help-range-nyon",
+      "url": "https://help.bosch-ebike.com/hu/connect/help-center/ebc-nyonbui350-firststeps/asset-asf-00098",
+      "pageTitle": "Hol látom az eBike-akkumulátor maradék hatótávolságát a Nyon készüléken?",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "art-exp-range.displayEstimate",
+        "art-exp-wh.displayEstimate"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-bosch-batteries",
+      "url": "https://www.bosch-ebike.com/en/products/batteries",
+      "pageTitle": "eBike batteries – Bosch eBike Systems",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "art-exp-wh.batteryWhDefinition",
+        "art-exp-wh.energyContentWh",
+        "art-exp-range.batteryInfluenceOnRange"
+      ],
+      "status": "ellenőrzött",
+      "quote": "The eBike battery … has a critical influence on the range. Energy content listed in Wh (e.g. approx. 400–800 Wh)."
+    },
+    {
+      "id": "ev-bosch-range-assistant",
+      "url": "https://www.bosch-ebike.com/en/service/range-assistant",
+      "pageTitle": "Calculate eBike range: How far can you get? | Bosch",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "art-exp-range.rangeIsEstimate",
+        "art-exp-range.influencingFactors",
+        "art-exp-wh.rangeVsCapacity"
+      ],
+      "status": "ellenőrzött",
+      "quote": "Official Bosch Range Assistant for estimating eBike range under variable conditions."
+    },
+    {
+      "id": "ev-bosch-cx-manual-nm",
+      "url": "https://help.bosch-ebike.com/hu/connect/help-center/manuals",
+      "pageTitle": "Útmutatók – Performance Line CX kézikönyvek listája | Bosch eBike Connect",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "art-exp-motor.driveUnitTypes",
+        "art-exp-nm.torqueUnitNm",
+        "art-exp-nm.maxTorqueSpec"
+      ],
+      "status": "ellenőrzött",
+      "quote": "Hivatalos kezelési útmutatók a Performance Line CX és más hajtásegységekhez; a specifikációk Nm-ben adják meg a maximális nyomatékot."
+    },
+    {
+      "id": "ev-trek-weight-conditions",
+      "url": "https://www.trekbikes.com/gb/en_GB/bikes/hybrid-bikes/electric-hybrid-bikes/district/district-9/p/33186/",
+      "pageTitle": "District+ 9 – weight excluding battery | Trek",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "art-exp-weight.weighingConditionsMatter",
+        "var-trek-district-plus-9-powertube-500.weightKg",
+        "var-trek-district-plus-9-powertube-500.weighingConditions"
+      ],
+      "status": "ellenőrzött",
+      "quote": "L - 24.90 kg / 54.9 lbs (excluding battery)"
+    },
+    {
+      "id": "ev-specialized-weight-disclaimer",
+      "url": "https://www.specialized.com/us/en/s-works-turbo-levo-4/p/4291509",
+      "pageTitle": "S-Works Turbo Levo 4 – weight conditions | Specialized",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "art-exp-weight.weighingConditionsMatter",
+        "var-specialized-s-works-turbo-levo-4-840.weightKg",
+        "var-specialized-s-works-turbo-levo-4-840.weighingConditions"
+      ],
+      "status": "ellenőrzött",
+      "quote": "Weight Size S4; weights based on production painted frames as pictured; actual weights vary by colorway, frame size, and component variation"
+    },
+    {
+      "id": "ev-bikeart-szerviz",
+      "url": "https://www.bikeart.hu/szerviz.html",
+      "pageTitle": "Szerviz – BikeArt Center",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "art-exp-service.localServiceCapacity",
+        "svc-bikeart-csalogany-szerviz",
+        "svc-bikeart-kissjanos-szerviz"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-biciklikk-ebike-szerviz",
+      "url": "https://www.biciklikk.hu/szerviz",
+      "pageTitle": "Szerviz – Biciklikk (e-bike javítás)",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "art-exp-service.ebikeServiceDistinct",
+        "svc-biciklikk-szerviz",
+        "svc-biciklikk-ebike"
+      ],
+      "status": "ellenőrzött",
+      "quote": "elektromos kerékpárok (e-bike, pedelec) javítása; rendszerdiagnosztika"
+    }
+  ]
+}

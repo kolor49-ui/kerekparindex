@@ -4,7 +4,7 @@
  */
 window.KEREKPARINDEX_SAMPLE = {
   notice:
-    "Helyi prototípus: a megjelenő márkák, kategóriák és tartalmi belépők mintaadatok. Élő ajánlat- és üzletadatbázis még nincs.",
+    "Tartalmi próbakör: a márkák, üzletek és cikkek a content csomagból töltődnek. Élő ár-/készletadatbázis nincs.",
   brands: [
     { id: "cube", name: "CUBE" },
     { id: "trek", name: "TREK" },

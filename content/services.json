@@ -1,0 +1,264 @@
+{
+  "accessedAt": "2026-10-10",
+  "items": [
+    {
+      "id": "svc-futurebike-eladas",
+      "locationId": "loc-futurebike-bartok",
+      "role": "eladas",
+      "sourceUrl": "https://gepida.hu/bemutatotermunk"
+    },
+    {
+      "id": "svc-futurebike-szerviz",
+      "locationId": "loc-futurebike-bartok",
+      "role": "szerviz",
+      "sourceUrl": "https://gepida.hu/bemutatotermunk",
+      "notes": "márkafüggetlen szakszervíz"
+    },
+    {
+      "id": "svc-futurebike-ebike",
+      "locationId": "loc-futurebike-bartok",
+      "role": "e-bike-szerviz",
+      "sourceUrl": "https://www.gepidastore.hu/kerekpar-szerviz/",
+      "notes": "Elektronikai szerviz: Bosch és TQ; egyéb e-bike mechanikai szervizként"
+    },
+    {
+      "id": "svc-bringaboard-eladas",
+      "locationId": "loc-bringaboard-jasz",
+      "role": "eladas",
+      "sourceUrl": "https://www.bringaboard.hu/"
+    },
+    {
+      "id": "svc-bringaboard-szerviz",
+      "locationId": "loc-bringaboard-jasz",
+      "role": "szerviz",
+      "sourceUrl": "https://www.bringaboard.hu/"
+    },
+    {
+      "id": "svc-bringavilag-eladas",
+      "locationId": "loc-bringavilag-cserhat",
+      "role": "eladas",
+      "sourceUrl": "https://bringavilag.com/"
+    },
+    {
+      "id": "svc-bringavilag-szerviz",
+      "locationId": "loc-bringavilag-cserhat",
+      "role": "szerviz",
+      "sourceUrl": "https://bringavilag.com/"
+    },
+    {
+      "id": "svc-nella-eladas",
+      "locationId": "loc-nella-kalman",
+      "role": "eladas",
+      "sourceUrl": "https://trek.hu/hu-hu?route=information%2Fcontact"
+    },
+    {
+      "id": "svc-k2-eladas",
+      "locationId": "loc-k2-pacsirtamezo",
+      "role": "eladas",
+      "sourceUrl": "https://k2-bike.hu/en/news/customer-information/ugyfelszolgalat.html"
+    },
+    {
+      "id": "svc-k2-szerviz",
+      "locationId": "loc-k2-pacsirtamezo",
+      "role": "szerviz",
+      "sourceUrl": "https://k2-bike.hu/en/news/customer-information/ugyfelszolgalat.html",
+      "notes": "sell and service ski, snowboard and bicycle equipment / bike service appointment"
+    },
+    {
+      "id": "svc-bikeart-csalogany-eladas",
+      "locationId": "loc-bikeart-csalogany",
+      "role": "eladas",
+      "sourceUrl": "https://www.bikeart.hu/"
+    },
+    {
+      "id": "svc-bikeart-csalogany-szerviz",
+      "locationId": "loc-bikeart-csalogany",
+      "role": "szerviz",
+      "sourceUrl": "https://www.bikeart.hu/szerviz.html"
+    },
+    {
+      "id": "svc-bikeart-kissjanos-eladas",
+      "locationId": "loc-bikeart-kissjanos",
+      "role": "eladas",
+      "sourceUrl": "https://www.bikeart.hu/"
+    },
+    {
+      "id": "svc-bikeart-kissjanos-szerviz",
+      "locationId": "loc-bikeart-kissjanos",
+      "role": "szerviz",
+      "sourceUrl": "https://www.bikeart.hu/szerviz.html"
+    },
+    {
+      "id": "svc-rekord-bp-eladas",
+      "locationId": "loc-rekord-budapest",
+      "role": "eladas",
+      "sourceUrl": "https://rekordbike.hu/"
+    },
+    {
+      "id": "svc-vozzy-eladas",
+      "locationId": "loc-vozzy-debrecen",
+      "role": "eladas",
+      "sourceUrl": "https://www.vozzy.hu/spg/601152/Uzletunk"
+    },
+    {
+      "id": "svc-vozzy-szerviz",
+      "locationId": "loc-vozzy-debrecen",
+      "role": "szerviz",
+      "sourceUrl": "https://www.vozzy.hu/spg/601152/Uzletunk"
+    },
+    {
+      "id": "svc-vozzy-ebike",
+      "locationId": "loc-vozzy-debrecen",
+      "role": "e-bike-szerviz",
+      "sourceUrl": "https://www.vozzy.hu/spg/601152/Uzletunk",
+      "notes": "e-Bike szerviz; szoftverfrissítés Shimano, Bosch, Bafang"
+    },
+    {
+      "id": "svc-jobringa-eladas",
+      "locationId": "loc-jobringa-debrecen",
+      "role": "eladas",
+      "sourceUrl": "https://www.jobringa.hu/kapcsolat"
+    },
+    {
+      "id": "svc-jobringa-szerviz",
+      "locationId": "loc-jobringa-debrecen",
+      "role": "szerviz",
+      "sourceUrl": "https://www.jobringa.hu/kapcsolat"
+    },
+    {
+      "id": "svc-heavy-eladas",
+      "locationId": "loc-heavy-pedal-szeged",
+      "role": "eladas",
+      "sourceUrl": "https://heavypedal.hu/"
+    },
+    {
+      "id": "svc-heavy-szerviz",
+      "locationId": "loc-heavy-pedal-szeged",
+      "role": "szerviz",
+      "sourceUrl": "https://heavypedal.hu/"
+    },
+    {
+      "id": "svc-bikeszaki-eladas",
+      "locationId": "loc-bikeszaki-szeged",
+      "role": "eladas",
+      "sourceUrl": "https://www.bikeszaki.hu/"
+    },
+    {
+      "id": "svc-bikeszaki-szerviz",
+      "locationId": "loc-bikeszaki-szeged",
+      "role": "szerviz",
+      "sourceUrl": "https://www.bikeszaki.hu/"
+    },
+    {
+      "id": "svc-biciklikk-eladas",
+      "locationId": "loc-biciklikk-pecs",
+      "role": "eladas",
+      "sourceUrl": "https://www.biciklikk.hu/uzleteink"
+    },
+    {
+      "id": "svc-biciklikk-szerviz",
+      "locationId": "loc-biciklikk-pecs",
+      "role": "szerviz",
+      "sourceUrl": "https://www.biciklikk.hu/szerviz"
+    },
+    {
+      "id": "svc-biciklikk-ebike",
+      "locationId": "loc-biciklikk-pecs",
+      "role": "e-bike-szerviz",
+      "sourceUrl": "https://www.biciklikk.hu/szerviz",
+      "notes": "elektromos kerékpárok (e-bike, pedelec) javítása; rendszerdiagnosztika, frissítés"
+    },
+    {
+      "id": "svc-peppe-eladas",
+      "locationId": "loc-peppe-gyor",
+      "role": "eladas",
+      "sourceUrl": "https://peppekerekpar.hu/"
+    },
+    {
+      "id": "svc-peppe-szerviz",
+      "locationId": "loc-peppe-gyor",
+      "role": "szerviz",
+      "sourceUrl": "https://peppekerekpar.hu/",
+      "notes": "Cím szöveg: szaküzlet és szerviz"
+    },
+    {
+      "id": "svc-rekord-gyor-eladas",
+      "locationId": "loc-rekord-gyor",
+      "role": "eladas",
+      "sourceUrl": "https://rekordbike.hu/shop_contact.php"
+    },
+    {
+      "id": "svc-bico-eladas",
+      "locationId": "loc-bico-szekesfehervar",
+      "role": "eladas",
+      "sourceUrl": "https://bicobolt.hu/"
+    },
+    {
+      "id": "svc-bico-szerviz",
+      "locationId": "loc-bico-szekesfehervar",
+      "role": "szerviz",
+      "sourceUrl": "https://bicobolt.hu/"
+    },
+    {
+      "id": "svc-vital-eladas",
+      "locationId": "loc-vital-szekesfehervar",
+      "role": "eladas",
+      "sourceUrl": "https://www.fehervarkerekpar.hu/"
+    },
+    {
+      "id": "svc-q1-eladas",
+      "locationId": "loc-q1-nyiregyhaza",
+      "role": "eladas",
+      "sourceUrl": "https://q1kerekparszalon.hu/"
+    },
+    {
+      "id": "svc-q1-szerviz",
+      "locationId": "loc-q1-nyiregyhaza",
+      "role": "szerviz",
+      "sourceUrl": "https://q1kerekparszalon.hu/",
+      "notes": "Szerviz témájú cikkek az oldalon"
+    },
+    {
+      "id": "svc-q1-ebike",
+      "locationId": "loc-q1-nyiregyhaza",
+      "role": "e-bike-szerviz",
+      "sourceUrl": "https://q1kerekparszalon.hu/",
+      "notes": "Bosch diagnosztika cikk"
+    },
+    {
+      "id": "svc-melux-eladas",
+      "locationId": "loc-melux-nyiregyhaza",
+      "role": "eladas",
+      "sourceUrl": "https://melux.hu/"
+    },
+    {
+      "id": "svc-melux-szerviz",
+      "locationId": "loc-melux-nyiregyhaza",
+      "role": "szerviz",
+      "sourceUrl": "https://melux.hu/",
+      "notes": "Bike Shop Kerékpárüzlet és Szerviz"
+    },
+    {
+      "id": "svc-borsod-eladas",
+      "locationId": "loc-borsod-bike-miskolc",
+      "role": "eladas",
+      "sourceUrl": "https://borsodbike.hu/"
+    },
+    {
+      "id": "svc-borsod-szerviz",
+      "locationId": "loc-borsod-bike-miskolc",
+      "role": "szerviz",
+      "sourceUrl": "https://borsodbike.hu/"
+    }
+  ],
+  "organizationLevelNotes": [
+    {
+      "organizationId": "org-rekord-bike",
+      "topic": "szerviz",
+      "status": "előkészített",
+      "sourceUrl": "https://rekordbike.hu/szerviz",
+      "evidenceId": "ev-14",
+      "note": "A Rekord Bike szerviz oldala szervezeti szintű; nem nevezi meg, hogy Budapesten, Győrben vagy mindkét telephelyen van-e műhely. Telephelyi szerviz szerep ezért nem publikált."
+    }
+  ]
+}

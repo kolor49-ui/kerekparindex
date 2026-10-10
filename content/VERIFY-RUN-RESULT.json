@@ -1,0 +1,516 @@
+{
+  "date": "2026-10-10",
+  "contentRoot": "/Users/macbookair/Desktop/kerekparindex/content",
+  "checks": [
+    {
+      "name": "required_files",
+      "ok": true,
+      "detail": "all present"
+    },
+    {
+      "name": "count_brands_10",
+      "ok": true,
+      "detail": 10
+    },
+    {
+      "name": "count_locations_20",
+      "ok": true,
+      "detail": 20
+    },
+    {
+      "name": "count_variants_12",
+      "ok": true,
+      "detail": 12
+    },
+    {
+      "name": "count_explainers_6",
+      "ok": true,
+      "detail": 6
+    },
+    {
+      "name": "count_comparisons_3",
+      "ok": true,
+      "detail": 3
+    },
+    {
+      "name": "count_comparison_groups_3",
+      "ok": true,
+      "detail": 3
+    },
+    {
+      "name": "cities_at_least_6_total",
+      "ok": true,
+      "detail": [
+        "Budapest",
+        "Debrecen",
+        "Győr",
+        "Miskolc",
+        "Nyíregyháza",
+        "Pécs",
+        "Szeged",
+        "Székesfehérvár"
+      ]
+    },
+    {
+      "name": "cities_non_budapest_at_least_5",
+      "ok": true,
+      "detail": [
+        "Debrecen",
+        "Győr",
+        "Miskolc",
+        "Nyíregyháza",
+        "Pécs",
+        "Szeged",
+        "Székesfehérvár"
+      ]
+    },
+    {
+      "name": "unique_ids_brands",
+      "ok": true,
+      "detail": "ok"
+    },
+    {
+      "name": "unique_ids_locations",
+      "ok": true,
+      "detail": "ok"
+    },
+    {
+      "name": "unique_ids_services",
+      "ok": true,
+      "detail": "ok"
+    },
+    {
+      "name": "unique_ids_products",
+      "ok": true,
+      "detail": "ok"
+    },
+    {
+      "name": "unique_ids_variants",
+      "ok": true,
+      "detail": "ok"
+    },
+    {
+      "name": "unique_ids_evidence",
+      "ok": true,
+      "detail": "ok"
+    },
+    {
+      "name": "brand_slugs_unique",
+      "ok": true,
+      "detail": [
+        "cube",
+        "giant",
+        "trek",
+        "specialized",
+        "merida",
+        "scott",
+        "cannondale",
+        "gepida",
+        "neuzer",
+        "ktm-bike"
+      ]
+    },
+    {
+      "name": "products_brandId_resolve",
+      "ok": true,
+      "detail": "ok"
+    },
+    {
+      "name": "variants_productId_resolve",
+      "ok": true,
+      "detail": "ok"
+    },
+    {
+      "name": "locations_organizationId_resolve",
+      "ok": true,
+      "detail": "ok"
+    },
+    {
+      "name": "services_locationId_resolve",
+      "ok": true,
+      "detail": "ok"
+    },
+    {
+      "name": "brand_links_and_location_evidence",
+      "ok": true,
+      "detail": "ok linked=15"
+    },
+    {
+      "name": "brand_links_at_least_8",
+      "ok": true,
+      "detail": 15
+    },
+    {
+      "name": "rekord_szerviz_not_on_locations",
+      "ok": true,
+      "detail": "ok"
+    },
+    {
+      "name": "variant_evidence_supports_and_titles",
+      "ok": true,
+      "detail": "ok"
+    },
+    {
+      "name": "location_evidence_pageTitles",
+      "ok": true,
+      "detail": "ok"
+    },
+    {
+      "name": "status_vocabulary",
+      "ok": true,
+      "detail": "ok"
+    },
+    {
+      "name": "publishable_brands_10",
+      "ok": true,
+      "detail": 10
+    },
+    {
+      "name": "publishable_variants_12",
+      "ok": true,
+      "detail": 12
+    },
+    {
+      "name": "article_markdown_files_9",
+      "ok": true,
+      "detail": [
+        "e-bike-tomeg-magyarazo.md",
+        "e-bike-motor-magyarazo.md",
+        "e-bike-nyomatek-nm-magyarazo.md",
+        "osszehasonlitas-varosi-trekking-e-bike.md",
+        "e-bike-szervizhatter-magyarazo.md",
+        "e-bike-hatotav-magyarazo.md",
+        "e-bike-akkukapacitas-wh-magyarazo.md",
+        "osszehasonlitas-varosi-komfort-e-bike.md",
+        "osszehasonlitas-e-mtb.md"
+      ]
+    },
+    {
+      "name": "article_md_matches_json_slugs",
+      "ok": true,
+      "detail": "ok"
+    },
+    {
+      "name": "articles_evidence_and_md_parity",
+      "ok": true,
+      "detail": "ok"
+    },
+    {
+      "name": "comparison_group_renamed_city_comfort",
+      "ok": true,
+      "detail": [
+        "cmp-city-comfort",
+        "cmp-city-trekking",
+        "cmp-e-mtb"
+      ]
+    },
+    {
+      "name": "old_compact_group_removed",
+      "ok": true,
+      "detail": [
+        "cmp-city-comfort",
+        "cmp-city-trekking",
+        "cmp-e-mtb"
+      ]
+    },
+    {
+      "name": "trek_weight_phrase_in_comparison",
+      "ok": true,
+      "detail": "ok"
+    },
+    {
+      "name": "explainer_wh_has_bosch_batteries",
+      "ok": true,
+      "detail": [
+        "ev-bosch-batteries",
+        "ev-bosch-range-assistant"
+      ]
+    },
+    {
+      "name": "explainer_range_has_range_assistant",
+      "ok": true,
+      "detail": [
+        "ev-bosch-range-assistant",
+        "ev-bosch-batteries",
+        "ev-bosch-help-range-nyon"
+      ]
+    },
+    {
+      "name": "variants_cover_at_least_4_brands",
+      "ok": true,
+      "detail": [
+        "brand-cube",
+        "brand-gepida",
+        "brand-giant",
+        "brand-merida",
+        "brand-specialized",
+        "brand-trek"
+      ]
+    },
+    {
+      "name": "comparison_groups_valid",
+      "ok": true,
+      "detail": [
+        {
+          "id": "cmp-city-trekking",
+          "n": 4,
+          "ok": true
+        },
+        {
+          "id": "cmp-e-mtb",
+          "n": 4,
+          "ok": true
+        },
+        {
+          "id": "cmp-city-comfort",
+          "n": 4,
+          "ok": true
+        }
+      ]
+    }
+  ],
+  "pass": true,
+  "statusSummary": {
+    "brands": {
+      "ellenőrzött": 9,
+      "előkészített": 1
+    },
+    "locations": {
+      "ellenőrzött": 20
+    },
+    "variants": {
+      "ellenőrzött": 10,
+      "előkészített": 2
+    },
+    "explainers": {
+      "ellenőrzött": 6
+    },
+    "comparisons": {
+      "ellenőrzött": 3
+    },
+    "evidence": {
+      "ellenőrzött": 71,
+      "hiányos": 1,
+      "előkészített": 2
+    },
+    "services": 40
+  },
+  "counts": {
+    "brands": 10,
+    "organizations": 18,
+    "locations": 20,
+    "services": 40,
+    "products": 12,
+    "variants": 12,
+    "evidence": 74,
+    "explainers": 6,
+    "comparisons": 3,
+    "articleMarkdown": 9,
+    "brandLinks": 15,
+    "cities": [
+      "Budapest",
+      "Debrecen",
+      "Győr",
+      "Miskolc",
+      "Nyíregyháza",
+      "Pécs",
+      "Szeged",
+      "Székesfehérvár"
+    ]
+  },
+  "conflicts": [
+    {
+      "id": "conflict-giant-explore-belt-vs-derailleur",
+      "variantId": "var-giant-explore-eplus-1-stagger-2026",
+      "url": "https://www.giant-bicycles.com/int/explore-eplus-1-stagger",
+      "summary": "Marketing copy highlights E-Shift with belt drive (asterisk: select models only), while this trim's Specs list Shimano Cues Di2 derailleur drivetrain — not a belt.",
+      "fields": [
+        "drivetrain"
+      ]
+    },
+    {
+      "id": "conflict-gepida-sirmium-tyre-names",
+      "variantId": "var-gepida-sirmium-pro-deore-10-500",
+      "url": "https://gepida.hu/gepida-sirmium-pro-deore-10-feher-11105",
+      "summary": "Marketing section names Schwalbe Rapid Rob; specs table lists SCHWALBE TOUGH TOM K-GUARD 60-622.",
+      "fields": [
+        "tires"
+      ]
+    },
+    {
+      "id": "conflict-gepida-bonum-brake-type",
+      "variantId": "var-gepida-bonum-edge-nexus-8c-coaster-400",
+      "url": "https://gepida.hu/bonum-edge-nexus-8c-coaster-wh-28-13619",
+      "summary": "FÉK TÍPUS is KONTRAFÉK (coaster) while the same table also lists Shimano BR-MT200 hydraulic disc calipers/levers and disc rotors; trim name includes COASTER — likely coaster + disc combination, but page does not clarify interaction.",
+      "fields": [
+        "brakes"
+      ]
+    },
+    {
+      "id": "conflict-gepida-berig-color-label",
+      "variantId": "var-gepida-berig-deore-10-w-500",
+      "url": "https://gepida.hu/gepida-berig-deore-10-w-matt-grafit-11372",
+      "summary": "URL/title uses matt grafit; specs table MATRICA SZÍN is MENTA.",
+      "fields": [
+        "colorAsListed"
+      ]
+    },
+    {
+      "id": "conflict-merida-archived-status",
+      "variantIds": [
+        "var-merida-espresso-575-eq-750",
+        "var-merida-ebignine-675-750"
+      ],
+      "urls": [
+        "https://www.merida-bikes.com/en/bike/5675-7682/espresso-575-eq",
+        "https://www.merida-bikes.com/en/bike/5704-7528/ebignine-675"
+      ],
+      "summary": "Official MERIDA pages are labeled archived; specs are still published but may not represent current production status.",
+      "fields": [
+        "availability",
+        "currencyOfSpecs"
+      ]
+    },
+    {
+      "id": "conflict-bosch-cx-torque-labeling-context",
+      "variantIds": [
+        "var-cube-kathmandu-hybrid-one-800-metallicgrey",
+        "var-cube-reaction-hybrid-one-800-royalgreen",
+        "var-gepida-sirmium-pro-deore-10-500"
+      ],
+      "summary": "CUBE BDU38 Performance Line CX is listed as max. 120Nm on cube.eu, while Gepida SIRMIUM PRO marketing states Bosch Performance Line CX at 85 Nm (BES2). Different Bosch CX generations/systems — do not merge torque figures across brands/years.",
+      "fields": [
+        "motor.torqueNm",
+        "motor.exactType"
+      ]
+    }
+  ],
+  "gaps": {
+    "brands": [
+      {
+        "brand": "Scott",
+        "issue": "scott-sports.com és /global/en/products/bike-bikes Incapsula miatt nem fetch-elhető (2026-10-10). Csak 2021-es Bikemag sajtóközlemény erősíti a HU képviseletet; nincs aktuális hivatalos HU importer URL. Status: előkészített."
+      },
+      {
+        "brand": "Haibike",
+        "issue": "haibike.com / haibike.com/en-int elérhető, de nem találtunk ellenőrizhető Magyarország-specifikus oldalt vagy listázott HU dealert a fetch-elt tartalomban. Nem került a brands listába."
+      },
+      {
+        "brand": "Kellys",
+        "issue": "Verifikálható HU jelenlét: kellysbike.com/hu/hu (HUF árak) és kellys.hu (Berguson webshop). A 10-es célkereten belül KTM került be a preferált Haibike/KTM/Kellys választásban; Kellys későbbi körben felvehető."
+      },
+      {
+        "brand": "Specialized retail (Bikexpert)",
+        "issue": "specialized.bikexpert.hu fetch timeout/Forbidden — nem evidence."
+      },
+      {
+        "brand": "Giant categories",
+        "issue": "giant-bicycles.com/hu/bikes oldal tartalma a fetchben minimális volt; részletes kategória-fa hiányos."
+      },
+      {
+        "count": "9 ellenőrzött + 1 előkészített (Scott) = 10 brands; teljes elsődleges forrású ellenőrzés <10 a Scott miatt."
+      }
+    ],
+    "locations": [
+      "Bikeszaki nyilvános telefon a saját kapcsolat oldalon maszkolva; számot nem inventáltunk.",
+      "Melux.hu főoldalon nincs nyilvános e-mail.",
+      "Biciklikk header vs uzleteink: bolt/szerviz telefonszámok felcserélve jelennek meg forrásonként – tisztázandó.",
+      "Futurebike (gepidastore.hu) vs Gepida Factory Store (gepida.hu): ugyanaz a cím, eltérő brand/e-mail/nyitvatartás részletek – jogi üzemeltető tisztázandó.",
+      "Nella/Trek: szerviz szerep a megnyitott kapcsolat oldalon nem volt explicit – csak eladás rögzítve.",
+      "Vitál Club: szerviz nem volt egyértelmű a főoldalon – csak eladás.",
+      "Borsod Bike: eBike kategória eladásként látszik, dedikált e-bike-szerviz szöveg hiányzik – e-bike-szerviz szerep nem került be.",
+      "Egyetlen authorized_dealer / hivatalos márkaképviselet claim sem került rögzítésre (oldalak nem használták ezt a megfogalmazást a fetchált tartalomban).",
+      "Bikepro személyes átvételi pont (Hajló u.) szándékosan kimaradt: saját oldaluk szerint iroda/nem üzlet.",
+      "Neuzer országos partnerlista (neuzer.hu/partnereink) nincs feldolgozva helyenként – következő kör.",
+      "További városok (pl. Kecskemét, Szombathely, Kaposvár, Veszprém) még nincsenek a mintában.",
+      "Rekord Bike szerviz: szervezeti oldal van, telephelyi hozzárendelés nélkül — szerviz szolgáltatás mindkét telephelyről visszatartva (előkészített org-jegyzet)."
+    ],
+    "variants": [
+      {
+        "field": "motor.position",
+        "affects": [
+          "var-cube-kathmandu-hybrid-one-800-metallicgrey",
+          "var-giant-explore-eplus-1-stagger-2026",
+          "var-merida-espresso-575-eq-750",
+          "var-cube-reaction-hybrid-one-800-royalgreen",
+          "var-merida-ebignine-675-750",
+          "var-specialized-s-works-turbo-levo-4-840",
+          "var-trek-district-plus-9-powertube-500",
+          "var-cube-supreme-hybrid-deluxe-one-625-slateblack"
+        ],
+        "reason": "Official pages list motor model/torque but omit an explicit mid/hub position label"
+      },
+      {
+        "field": "motor.torqueNm",
+        "affects": [
+          "var-gepida-berig-deore-10-w-500",
+          "var-gepida-bonum-edge-nexus-8c-coaster-400"
+        ],
+        "reason": "gepida.hu specs tables name Bosch motor families without Nm"
+      },
+      {
+        "field": "weightKg",
+        "affects": [
+          "var-giant-explore-eplus-1-stagger-2026",
+          "var-gepida-berig-deore-10-w-500",
+          "var-gepida-sirmium-pro-deore-10-500",
+          "var-specialized-turbo-como-4-0-710-2025",
+          "var-gepida-bonum-edge-nexus-8c-coaster-400"
+        ],
+        "reason": "Numeric weight absent on official page (or Giant dealer-weigh disclaimer only)"
+      },
+      {
+        "field": "weighingConditions",
+        "affects": [
+          "var-cube-kathmandu-hybrid-one-800-metallicgrey",
+          "var-cube-reaction-hybrid-one-800-royalgreen",
+          "var-cube-supreme-hybrid-deluxe-one-625-slateblack"
+        ],
+        "reason": "CUBE lists kg without size/equipment weighing conditions"
+      },
+      {
+        "field": "modelYear",
+        "affects": [
+          "var-merida-espresso-575-eq-750",
+          "var-gepida-berig-deore-10-w-500",
+          "var-merida-ebignine-675-750",
+          "var-specialized-s-works-turbo-levo-4-840",
+          "var-gepida-sirmium-pro-deore-10-500",
+          "var-trek-district-plus-9-powertube-500",
+          "var-gepida-bonum-edge-nexus-8c-coaster-400"
+        ],
+        "reason": "Not stated as a discrete model year on the fetched official page"
+      },
+      {
+        "field": "measuredRangeTest",
+        "affects": "all",
+        "reason": "No independent measured range tests collected; manufacturer range estimates left labeled as claims only"
+      },
+      {
+        "field": "scott-sports.com / trek Allant+ full-spec pages",
+        "affects": [],
+        "reason": "Scott Silence/Sub Cross and Trek Allant+/FX+ product pages were located but not required after 12 variants across 6 brands were filled from preferred domains; Trek Allant+ GB page returned empty specs on fetch"
+      }
+    ]
+  },
+  "heldBack": [
+    {
+      "id": "svc-rekord-*-szerviz",
+      "reason": "Nincs telephely-specifikus szervizbizonyíték"
+    },
+    {
+      "id": "brand-scott",
+      "reason": "Előkészített: aktuális hivatalos HU importer URL hiányzik",
+      "ui": "Márkalistán megjelenik előkészített jelzéssel"
+    },
+    {
+      "id": "external brands (Bianchi, Marin, …)",
+      "reason": "Nincs stabil brandId a 10-es katalógusban — researchNotes-ban"
+    },
+    {
+      "id": "model–store links",
+      "reason": "Nincs igazolt modell–készlet/kipróbálás kapcsolat"
+    }
+  ],
+  "failedChecks": []
+}

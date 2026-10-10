@@ -1,0 +1,494 @@
+{
+  "accessedAt": "2026-10-10",
+  "brands": [
+    {
+      "id": "brand-cube",
+      "name": "CUBE",
+      "slug": "cube",
+      "officialWebsite": "https://www.cube.eu/hu-hu",
+      "hungaryRelatedWebsite": "https://www.cube-bikes.hu",
+      "productCategories": [
+        "mountain",
+        "road",
+        "gravel",
+        "trekking",
+        "kids",
+        "e-mountain",
+        "e-trekking",
+        "e-compact-folding",
+        "e-gravel",
+        "e-transport",
+        "e-kids"
+      ],
+      "shortDescription": "Német kerékpármárka hivatalos magyar nyelvű cube.eu/hu-hu oldalával; mountain, road, gravel, trekking, gyerek és több e-bike kategóriával. A cube-bikes.hu magyar oldalon Cube kerékpárokat és kiegészítőket kínál.",
+      "status": "ellenőrzött",
+      "evidenceIds": ["ev-cube-eu-hu", "ev-cube-bikes-hu"],
+      "notes": null
+    },
+    {
+      "id": "brand-giant",
+      "name": "Giant",
+      "slug": "giant",
+      "officialWebsite": "https://www.giant-bicycles.com/hu",
+      "hungaryRelatedWebsite": "https://www.giant-bicycles.com/hu",
+      "productCategories": [
+        "bikes",
+        "accessories",
+        "e-bike"
+      ],
+      "shortDescription": "Giant hivatalos magyar nyelvű oldala (giant-bicycles.com/hu) kerékpárokat és kiegészítőket mutat; a főoldalon e-bike modell (Trance Advanced E+) is szerepel.",
+      "status": "ellenőrzött",
+      "evidenceIds": ["ev-giant-hu", "ev-giant-hu-bikes"],
+      "notes": "Részletes kategórialista a /hu/bikes aloldalon a fetch során csak címszinten volt olvasható; missing_reason: teljes kategória-fa nem állt rendelkezésre a HTML-ből."
+    },
+    {
+      "id": "brand-trek",
+      "name": "Trek",
+      "slug": "trek",
+      "officialWebsite": "https://www.trekbikes.com",
+      "hungaryRelatedWebsite": "https://trek.hu/",
+      "productCategories": [
+        "mountain",
+        "road",
+        "gravel",
+        "electric",
+        "fitness",
+        "trekking-dual-sport",
+        "city",
+        "kids",
+        "cyclocross",
+        "triathlon"
+      ],
+      "shortDescription": "Nemzetközi Trek márka; magyarországi jelenlét a trek.hu importőr oldalon (Genomed Kft., Budapest), amely Trek kerékpárokat, alkatrészeket és kiegészítőket forgalmaz, országos üzlethálózattal.",
+      "status": "ellenőrzött",
+      "evidenceIds": ["ev-trek-global", "ev-trek-hu", "ev-trek-hu-cegadatok"],
+      "notes": "A trek.hu Genomed Kft. által üzemeltetett magyar importőr/forgalmazó oldal, nem a trekbikes.com országválasztója."
+    },
+    {
+      "id": "brand-specialized",
+      "name": "Specialized",
+      "slug": "specialized",
+      "officialWebsite": "https://www.specialized.com",
+      "hungaryRelatedWebsite": "https://www.specialized.com/hu/en",
+      "productCategories": [
+        "road",
+        "gravel",
+        "mountain",
+        "e-mountain",
+        "e-city",
+        "apparel-equipment"
+      ],
+      "shortDescription": "Specialized hivatalos /hu/en locale oldala elérhető; a gyártó nemzetközi forgalmazói listáján Magyarország (Hauser Kerkpr Kft., Budapest) szerepel Specialized Hungaryként.",
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-specialized-global",
+        "ev-specialized-hu-en",
+        "ev-specialized-distributors",
+        "ev-specialized-hu-warranty"
+      ],
+      "notes": "specialized.bikexpert.hu kereskedői oldal fetch: timeout/Forbidden — nem használt evidence. Kategóriák a global/hu főoldal modellcsoportjaiból."
+    },
+    {
+      "id": "brand-merida",
+      "name": "Merida",
+      "slug": "merida",
+      "officialWebsite": "https://www.merida-bikes.com",
+      "hungaryRelatedWebsite": "https://www.bikefun.hu",
+      "productCategories": [
+        "road",
+        "gravel",
+        "mountain",
+        "e-bike"
+      ],
+      "shortDescription": "Merida hivatalos oldala BikeFun-t nevezi meg magyarországi (és romániai) forgalmazóként; a bikefun.hu Merida híreket és modelleket közöl.",
+      "status": "ellenőrzött",
+      "evidenceIds": ["ev-merida-global", "ev-merida-hu-distributor", "ev-bikefun-hu"],
+      "notes": "Kategóriák a Merida „Distributor in Spotlight – MERIDA Hungary” interjúban említett kulcsmodellekből (road, gravel/SILEX, MTB, eSPEEDER)."
+    },
+    {
+      "id": "brand-scott",
+      "name": "Scott",
+      "slug": "scott",
+      "officialWebsite": "https://www.scott-sports.com",
+      "hungaryRelatedWebsite": null,
+      "productCategories": [
+        "gravel",
+        "e-mountain",
+        "urban-mobility"
+      ],
+      "shortDescription": "Scott magyarországi közvetlen márkaképviseletét 2021-es sajtóközlemény (Bikemag) szerint Nagy Oszkár vezeti; hivatalos scott-sports.com oldal 2026-10-10-én Incapsula miatt nem volt olvasható.",
+      "status": "előkészített",
+      "evidenceIds": ["ev-scott-bikemag-2021"],
+      "notes": "missing_reason: officialWebsite fetch sikertelen (Incapsula); nincs ellenőrizhető dedikált HU importer domain. hungaryRelatedWebsite null. productCategories csak a 2021-es sajtóközlemény említéseiből (Gravel, Sub Tour, e-MTB). Aktuális 2026-os hivatalos HU jelenlét nem erősíthető meg elsődleges forrásból."
+    },
+    {
+      "id": "brand-cannondale",
+      "name": "Cannondale",
+      "slug": "cannondale",
+      "officialWebsite": "https://www.cannondale.com",
+      "hungaryRelatedWebsite": "https://www.cannondale-bikes.hu/",
+      "productCategories": [
+        "electric",
+        "road",
+        "gravel",
+        "mountain",
+        "kids"
+      ],
+      "shortDescription": "Cannondale nemzetközi oldal road/mountain/gravel/electric/kids kínálattal; magyar nyelvű cannondale-bikes.hu és a MALI Magyarország cannondale.hu oldala Cannondale kerékpárokat forgalmaz Magyarországon.",
+      "status": "ellenőrzött",
+      "evidenceIds": ["ev-cannondale-global", "ev-cannondale-bikes-hu", "ev-cannondale-mali-hu"],
+      "notes": "cannondale.hu = MALI Magyarország kereskedői/forgalmazói jelenlét; a hivatalos gyári /hu locale nem került külön megerősítésre."
+    },
+    {
+      "id": "brand-gepida",
+      "name": "Gepida",
+      "slug": "gepida",
+      "officialWebsite": "https://www.gepida.hu",
+      "hungaryRelatedWebsite": "https://www.gepida.hu",
+      "productCategories": [
+        "trekking",
+        "e-mtb",
+        "e-bike"
+      ],
+      "shortDescription": "Magyar kerékpármárka: a gepida.hu szerint Magyarországon alapították, tervezik és gyártják a kerékpárokat; trekking és e-MTB modellek, budapesti elérhetőséggel (1164 Budapest, Ostorhegy u. 4.).",
+      "status": "ellenőrzött",
+      "evidenceIds": ["ev-gepida-home", "ev-gepida-rolunk"],
+      "notes": null
+    },
+    {
+      "id": "brand-neuzer",
+      "name": "Neuzer",
+      "slug": "neuzer",
+      "officialWebsite": "https://www.neuzer.hu",
+      "hungaryRelatedWebsite": "https://www.neuzer.hu",
+      "productCategories": [
+        "e-mtb",
+        "e-trekking",
+        "e-bike"
+      ],
+      "shortDescription": "Magyar kerékpármárka esztergomi székhellyel és gyártással; budapesti nagykereskedelmi raktár; e-MTB és e-trekking modellek a neuzer.hu-n; lakossági rendelés a Viddabringát.hu-ra irányítva.",
+      "status": "ellenőrzött",
+      "evidenceIds": ["ev-neuzer-home", "ev-neuzer-emtb", "ev-neuzer-etrekking"],
+      "notes": "Teljes hagyományos (nem e-) kategórialista a főoldalon nem volt részletesen kibontva; missing_reason: road/city/MTB hobby stb. csak másodlagos forrásokban (árlista) — azokat nem vettük fel evidence nélkül."
+    },
+    {
+      "id": "brand-ktm",
+      "name": "KTM Bike Industries",
+      "slug": "ktm-bike",
+      "officialWebsite": "https://www.ktm-bikes.at/",
+      "hungaryRelatedWebsite": "https://ktmteam.hu/",
+      "productCategories": [
+        "e-bike",
+        "bike"
+      ],
+      "shortDescription": "KTM Fahrrad GmbH kerékpárok és e-bike-ok (ktm-bikes.at); a ktmteam.hu a KTM kerékpárok magyarországi képviseleti oldala, magyar telefonszámmal.",
+      "status": "ellenőrzött",
+      "evidenceIds": ["ev-ktm-official", "ev-ktm-team-hu"],
+      "notes": "Nem azonos a KTM AG motorkerékpár-gyártóval — a ktmteam.hu és ktm-bikes.at ezt külön kiemeli. Részletes kategórialista: missing_reason: a főoldal csak általános e-bike/bike és modellkampányokat mutatott."
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-cube-eu-hu",
+      "url": "https://www.cube.eu/hu-hu",
+      "pageTitle": "HOME | CUBE Bikes",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-cube.officialWebsite",
+        "brand-cube.productCategories",
+        "brand-cube.hungaryRelatedWebsite locale hu-hu"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-cube-bikes-hu",
+      "url": "https://www.cube-bikes.hu",
+      "pageTitle": "cube-bikes.hu – Cube Kerékpárok és kiegészítők",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-cube.hungaryRelatedWebsite",
+        "brand-cube HU commercial presence"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-giant-hu",
+      "url": "https://www.giant-bicycles.com/hu",
+      "pageTitle": "Giant kerékpárok | A világ vezető kerékpár- és kerékpárfelszerelés-márkája",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-giant.officialWebsite",
+        "brand-giant.hungaryRelatedWebsite",
+        "brand-giant HU locale",
+        "brand-giant e-bike mention"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-giant-hu-bikes",
+      "url": "https://www.giant-bicycles.com/hu/bikes",
+      "pageTitle": "Giant Bicycles Magyarország",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-giant.productCategories bikes section exists"
+      ],
+      "status": "hiányos"
+    },
+    {
+      "id": "ev-trek-global",
+      "url": "https://www.trekbikes.com",
+      "pageTitle": "World's Best Bikes Collection & Cycling Gear Online",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-trek.officialWebsite",
+        "brand-trek global brand existence"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-trek-hu",
+      "url": "https://trek.hu/",
+      "pageTitle": "Trek importőr",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-trek.hungaryRelatedWebsite",
+        "brand-trek.productCategories",
+        "brand-trek HU importer presence"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-trek-hu-cegadatok",
+      "url": "https://trek.hu/hu-hu/Trek_cikkek/cegadatok",
+      "pageTitle": "Cég adatok",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-trek HU importer Genomed Kft. Budapest",
+        "brand-trek importőr 1998 óta"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-specialized-global",
+      "url": "https://www.specialized.com",
+      "pageTitle": "Made for riders, by riders. | Specialized.com",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-specialized.officialWebsite",
+        "brand-specialized.productCategories"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-specialized-hu-en",
+      "url": "https://www.specialized.com/hu/en",
+      "pageTitle": "Made for riders, by riders. | Specialized.com",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-specialized.hungaryRelatedWebsite",
+        "brand-specialized HU locale"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-specialized-distributors",
+      "url": "https://www.specialized.com/us/en/international-subsidiaries-and-distributors",
+      "pageTitle": "International Subsidiaries and Distributors",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-specialized HU distributor Hauser Kerkpr Kft. Budapest",
+        "brand-specialized Hungary | Romania listing"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-specialized-hu-warranty",
+      "url": "https://www.specialized.com/hu/en/warranty",
+      "pageTitle": "Global Warranty",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-specialized /hu/en locale operational"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-merida-global",
+      "url": "https://www.merida-bikes.com",
+      "pageTitle": "MERIDA BIKES International - MERIDA BIKES",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-merida.officialWebsite"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-merida-hu-distributor",
+      "url": "https://www.merida-bikes.com/en/p/merida-world/stories/distributor-in-spotlight-merida-hungary-819.html",
+      "pageTitle": "Distributor in Spotlight – MERIDA Hungary - MERIDA BIKES",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-merida HU distributor BikeFun",
+        "brand-merida.productCategories",
+        "brand-merida Hungary presence"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-bikefun-hu",
+      "url": "https://www.bikefun.hu",
+      "pageTitle": "Nyitólap - BikeFun",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-merida.hungaryRelatedWebsite",
+        "brand-merida HU importer site active 2026"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-scott-bikemag-2021",
+      "url": "https://bikemag.hu/magazin/hirek/ujra-magyarorszagon-a-scott-kerekpar/",
+      "pageTitle": "Újra Magyarországon a Scott kerékpár, közvetlen márkaképviselettel! - Kerékpár magazin - Bikemag.hu",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-scott HU direct representation claim (2021 press)",
+        "brand-scott.productCategories mentions"
+      ],
+      "status": "előkészített"
+    },
+    {
+      "id": "ev-cannondale-global",
+      "url": "https://www.cannondale.com",
+      "pageTitle": "Cannondale Bikes | Road, Mountain, Kids, Electric Bikes",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-cannondale.officialWebsite",
+        "brand-cannondale.productCategories"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-cannondale-bikes-hu",
+      "url": "https://www.cannondale-bikes.hu/",
+      "pageTitle": "CANNONDALE Kerékpárok",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-cannondale.hungaryRelatedWebsite",
+        "brand-cannondale HU language site"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-cannondale-mali-hu",
+      "url": "https://www.cannondale.hu/",
+      "pageTitle": "MALI Magyarország",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-cannondale HU retail/distribution via MALI",
+        "brand-cannondale sold in Hungary"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-gepida-home",
+      "url": "https://www.gepida.hu",
+      "pageTitle": "Gepida webáruház",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-gepida.officialWebsite",
+        "brand-gepida.productCategories",
+        "brand-gepida Budapest contact"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-gepida-rolunk",
+      "url": "https://gepida.hu/rolunk_neked",
+      "pageTitle": "Rólunk - Neked",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-gepida Hungarian brand/manufacturer claim",
+        "brand-gepida.shortDescription"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-neuzer-home",
+      "url": "https://www.neuzer.hu",
+      "pageTitle": "Neuzer Kerékpárok",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-neuzer.officialWebsite",
+        "brand-neuzer Esztergom manufacturing HQ",
+        "brand-neuzer Budapest wholesale"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-neuzer-emtb",
+      "url": "https://neuzer.hu/kerekparok/elektromos/neuzer-e-650b-e-mtb-ferfi-fekete-feher-cian-ne1601111013.html",
+      "pageTitle": "Neuzer E-650B E-MTB férfi fekete/fehér-cián",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-neuzer.productCategories e-mtb"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-neuzer-etrekking",
+      "url": "https://neuzer.hu/en/bicycles/electric/neuzer-como-e-trekking-ferfi-ne1901070004.html",
+      "pageTitle": "Neuzer Como E-trekking férfi",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-neuzer.productCategories e-trekking"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-ktm-official",
+      "url": "https://www.ktm-bikes.at/",
+      "pageTitle": "E-Bikes and Bikes - KTM Bikes",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-ktm.officialWebsite",
+        "brand-ktm.productCategories"
+      ],
+      "status": "ellenőrzött"
+    },
+    {
+      "id": "ev-ktm-team-hu",
+      "url": "https://ktmteam.hu/",
+      "pageTitle": "KTM Team - KTM magyarországi képviselet",
+      "accessedAt": "2026-10-10",
+      "supports": [
+        "brand-ktm.hungaryRelatedWebsite",
+        "brand-ktm HU representation"
+      ],
+      "status": "ellenőrzött"
+    }
+  ],
+  "gaps": [
+    {
+      "brand": "Scott",
+      "issue": "scott-sports.com és /global/en/products/bike-bikes Incapsula miatt nem fetch-elhető (2026-10-10). Csak 2021-es Bikemag sajtóközlemény erősíti a HU képviseletet; nincs aktuális hivatalos HU importer URL. Status: előkészített."
+    },
+    {
+      "brand": "Haibike",
+      "issue": "haibike.com / haibike.com/en-int elérhető, de nem találtunk ellenőrizhető Magyarország-specifikus oldalt vagy listázott HU dealert a fetch-elt tartalomban. Nem került a brands listába."
+    },
+    {
+      "brand": "Kellys",
+      "issue": "Verifikálható HU jelenlét: kellysbike.com/hu/hu (HUF árak) és kellys.hu (Berguson webshop). A 10-es célkereten belül KTM került be a preferált Haibike/KTM/Kellys választásban; Kellys későbbi körben felvehető."
+    },
+    {
+      "brand": "Specialized retail (Bikexpert)",
+      "issue": "specialized.bikexpert.hu fetch timeout/Forbidden — nem evidence."
+    },
+    {
+      "brand": "Giant categories",
+      "issue": "giant-bicycles.com/hu/bikes oldal tartalma a fetchben minimális volt; részletes kategória-fa hiányos."
+    },
+    {
+      "count": "9 ellenőrzött + 1 előkészített (Scott) = 10 brands; teljes elsődleges forrású ellenőrzés <10 a Scott miatt."
+    }
+  ]
+}

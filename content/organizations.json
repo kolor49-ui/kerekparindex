@@ -1,0 +1,131 @@
+{
+  "accessedAt": "2026-10-10",
+  "items": [
+    {
+      "id": "org-futurebike-gepida",
+      "name": "Futurebike / Gepida Factory Store",
+      "legalName": null,
+      "website": "https://www.gepidastore.hu/",
+      "notes": "Ugyanaz a Bartók Béla út 39. helyszín; gepida.hu Factory Store néven, gepidastore.hu Futurebike márkanévvel jeleníti meg."
+    },
+    {
+      "id": "org-bringaboard",
+      "name": "BringaBoard",
+      "legalName": "BringaBoard Trekking-City Kft.",
+      "website": "https://www.bringaboard.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-bringavilag",
+      "name": "Bringavilág",
+      "legalName": null,
+      "website": "https://bringavilag.com/",
+      "notes": null
+    },
+    {
+      "id": "org-nella-trek",
+      "name": "Nella Kerékpárcentrum / Trek importőr",
+      "legalName": null,
+      "website": "https://trek.hu/",
+      "notes": "trek.hu kapcsolat oldalán Trek importőrként, cikkben Nella Kerékpárcentrumként szerepel ugyanazon a címen."
+    },
+    {
+      "id": "org-k2-shop",
+      "name": "K2 Shop",
+      "legalName": "Monte Rosso Kft.",
+      "website": "https://k2-bike.hu/",
+      "notes": "LegalName a visszaküldési szövegből (Monte Rosso Kft.)."
+    },
+    {
+      "id": "org-bikeart",
+      "name": "BikeArt Center",
+      "legalName": "Bike Art Center Kft.",
+      "website": "https://www.bikeart.hu/",
+      "notes": "Két budai üzlet/szervizpont."
+    },
+    {
+      "id": "org-rekord-bike",
+      "name": "Rekord Bike",
+      "legalName": "BISOLE GROUP Kft.",
+      "website": "https://rekordbike.hu/",
+      "notes": "Két üzlet: Budapest és Győr."
+    },
+    {
+      "id": "org-vozzy",
+      "name": "VOZZY Bike & Snow",
+      "legalName": null,
+      "website": "https://www.vozzy.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-jobringa",
+      "name": "JóBringa",
+      "legalName": "Debreceni Kerékpár Kft.",
+      "website": "https://www.jobringa.hu/",
+      "notes": "LegalName ÁSZF oldalról."
+    },
+    {
+      "id": "org-heavy-pedal",
+      "name": "Heavy Pedál",
+      "legalName": null,
+      "website": "https://heavypedal.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-bikeszaki",
+      "name": "Bikeszaki",
+      "legalName": null,
+      "website": "https://www.bikeszaki.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-biciklikk",
+      "name": "Biciklikk",
+      "legalName": null,
+      "website": "https://www.biciklikk.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-peppe",
+      "name": "Peppe Kerékpár",
+      "legalName": null,
+      "website": "https://peppekerekpar.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-bico",
+      "name": "Bicó",
+      "legalName": null,
+      "website": "https://bicobolt.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-vital-club",
+      "name": "Vitál Club",
+      "legalName": null,
+      "website": "https://www.fehervarkerekpar.hu/",
+      "notes": "Footer említi vitalclub.hu / +3622500977 is; fő elérhetőség az üzlet oldalán."
+    },
+    {
+      "id": "org-q1",
+      "name": "q1 kerékpárszalon",
+      "legalName": null,
+      "website": "https://q1kerekparszalon.hu/",
+      "notes": null
+    },
+    {
+      "id": "org-melux",
+      "name": "Bike Shop / Melux",
+      "legalName": null,
+      "website": "https://melux.hu/",
+      "notes": "Webáruház: melux.hu; üzlet: Bike Shop Kerékpárüzlet és Szerviz Nyíregyháza."
+    },
+    {
+      "id": "org-borsod-bike",
+      "name": "Borsod Bike",
+      "legalName": null,
+      "website": "https://borsodbike.hu/",
+      "notes": null
+    }
+  ]
+}

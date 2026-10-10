@@ -1,0 +1,906 @@
+{
+  "accessedAt": "2026-10-10",
+  "items": [
+    {
+      "id": "loc-futurebike-bartok",
+      "organizationId": "org-futurebike-gepida",
+      "name": "Gepida Factory Store / Futurebike",
+      "address": {
+        "raw": "1114 Budapest, Bartók Béla út 39.",
+        "city": "Budapest",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://www.gepidastore.hu/",
+      "phone": [
+        "+36 30 252 3460",
+        "+36 1 246 4746"
+      ],
+      "email": [
+        "hello@futurebike.hu",
+        "factorystore@gepida.hu"
+      ],
+      "coordinates": null,
+      "openingHours": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-01",
+        "ev-02"
+      ],
+      "notes": "gepida.hu és gepidastore.hu ugyanazt a címet adja; e-mail és szombati nyitvatartás forrásonként eltérhet.",
+      "brandLinks": [
+        {
+          "brandId": "brand-gepida",
+          "brandName": "Gepida",
+          "relation": "sells_brand",
+          "sourceUrl": "https://gepida.hu/bemutatotermunk",
+          "quote": "Az üzletben folyamatosan megtalálható a szinte teljes szezonális Gepida kínálat",
+          "evidenceId": "ev-01",
+          "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.",
+          "inCatalog": true
+        }
+      ],
+      "researchNotes": {
+        "externalBrandClaims": [],
+        "excludedClaims": []
+      }
+    },
+    {
+      "id": "loc-bringaboard-jasz",
+      "organizationId": "org-bringaboard",
+      "name": "BringaBoard Kerékpár Szaküzlet",
+      "address": {
+        "raw": "1135 Budapest, Jász utca 13.",
+        "city": "Budapest",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://www.bringaboard.hu/",
+      "phone": [
+        "+36 30 311 7881",
+        "06 30 369 0490",
+        "+36 30 143 6330"
+      ],
+      "email": [
+        "info@bringaboard.hu",
+        "kapcsolat@bringaboard.hu"
+      ],
+      "coordinates": null,
+      "openingHours": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-04"
+      ],
+      "notes": "Üzlet / szerviz / webshop admin telefonok külön jelölve az oldalon.",
+      "brandLinks": [
+        {
+          "brandId": "brand-cannondale",
+          "brandName": "Cannondale",
+          "relation": "sells_brand",
+          "sourceUrl": "https://www.bringaboard.hu/",
+          "quote": "Cannondale AKCIÓ",
+          "evidenceId": "ev-04",
+          "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.",
+          "inCatalog": true
+        }
+      ],
+      "researchNotes": {
+        "externalBrandClaims": [],
+        "excludedClaims": []
+      }
+    },
+    {
+      "id": "loc-bringavilag-cserhat",
+      "organizationId": "org-bringavilag",
+      "name": "Bringavilág Kerékpárüzlet és szerviz",
+      "address": {
+        "raw": "1078 Budapest, Cserhát utca 16-18.",
+        "city": "Budapest",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://bringavilag.com/",
+      "phone": [
+        "+36 20 323 3462",
+        "+36 20 217 2332"
+      ],
+      "email": [
+        "info@bringavilag.com"
+      ],
+      "coordinates": null,
+      "openingHours": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-05"
+      ],
+      "notes": "Márkanevek csak terméklistában; általános „nemzetközi és magyar” állítás – konkrét sells_brand nem rögzítve.",
+      "brandLinks": [],
+      "researchNotes": {
+        "externalBrandClaims": [],
+        "excludedClaims": []
+      }
+    },
+    {
+      "id": "loc-nella-kalman",
+      "organizationId": "org-nella-trek",
+      "name": "Nella Kerékpárcentrum",
+      "address": {
+        "raw": "1054 Budapest, Kálmán Imre u. 23.",
+        "city": "Budapest",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://trek.hu/hu-hu?route=information%2Fcontact",
+      "phone": [
+        "+36 1 331 3184"
+      ],
+      "email": [
+        "abel@nella.hu"
+      ],
+      "coordinates": null,
+      "openingHours": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-06",
+        "ev-07"
+      ],
+      "notes": "Hivatalos/authorized dealer szöveg nem szerepelt a megnyitott oldalakon – csak sells_brand.",
+      "brandLinks": [
+        {
+          "brandId": "brand-trek",
+          "brandName": "Trek",
+          "relation": "sells_brand",
+          "sourceUrl": "https://trek.hu/hu-hu?route=information%2Fcontact",
+          "quote": "A legnagyobb hazai Trek kereskedés / Trek importőr",
+          "evidenceId": "ev-06",
+          "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.",
+          "inCatalog": true
+        }
+      ],
+      "researchNotes": {
+        "externalBrandClaims": [],
+        "excludedClaims": []
+      }
+    },
+    {
+      "id": "loc-k2-pacsirtamezo",
+      "organizationId": "org-k2-shop",
+      "name": "K2 Shop",
+      "address": {
+        "raw": "1036 Budapest, Pacsirtamező u. 16.",
+        "city": "Budapest",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://k2-bike.hu/",
+      "phone": [
+        "+36 1 453 0819",
+        "+36 30 995 2728"
+      ],
+      "email": [
+        "k2@k2shop.hu"
+      ],
+      "coordinates": null,
+      "openingHours": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-07",
+        "ev-08"
+      ],
+      "notes": "E-mail az oldalon k2[a]k2shop.hu formában; belépés Viador / Amphitheatre felől.",
+      "brandLinks": [
+        {
+          "brandId": "brand-trek",
+          "brandName": "Trek",
+          "relation": "sells_brand",
+          "sourceUrl": "https://trek.hu/hu-hu/Trek_cikkek/Trek_kereskedesek-Budapesten",
+          "quote": "Trek kereskedések Budapesten listában (K2 Shop)",
+          "evidenceId": "ev-07",
+          "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.",
+          "inCatalog": true
+        }
+      ],
+      "researchNotes": {
+        "externalBrandClaims": [],
+        "excludedClaims": []
+      }
+    },
+    {
+      "id": "loc-bikeart-csalogany",
+      "organizationId": "org-bikeart",
+      "name": "BikeArt Center – Csalogány utca",
+      "address": {
+        "raw": "1027 Budapest, Csalogány utca 23-33.",
+        "city": "Budapest",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://www.bikeart.hu/kapcsolat.html",
+      "phone": [
+        "+36 1 457 6737"
+      ],
+      "email": [
+        "info@bikeart.hu"
+      ],
+      "coordinates": null,
+      "openingHours": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-07",
+        "ev-09",
+        "ev-10"
+      ],
+      "notes": "Title ORBEA/LOOK/SPORTFUL; ORBEA szöveges sells claim a fetchált törzsben nem volt egyértelmű – nem jelölve.",
+      "brandLinks": [
+        {
+          "brandId": "brand-trek",
+          "brandName": "Trek",
+          "relation": "sells_brand",
+          "sourceUrl": "https://www.bikeart.hu/",
+          "quote": "Trek kerékpárjainkat keresd webshopunkban!",
+          "evidenceId": "ev-12",
+          "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.",
+          "inCatalog": true
+        },
+        {
+          "brandId": "brand-giant",
+          "brandName": "Giant",
+          "relation": "sells_brand",
+          "sourceUrl": "https://www.bikeart.hu/",
+          "quote": "GIANT felfogása szerint…",
+          "evidenceId": "ev-12",
+          "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.",
+          "inCatalog": true
+        }
+      ],
+      "researchNotes": {
+        "externalBrandClaims": [
+          {
+            "brandName": "Bianchi",
+            "relation": "sells_brand",
+            "sourceUrl": "https://www.bikeart.hu/",
+            "quote": "A Bianchi nem csupán kerékpárokat gyárt…",
+            "evidenceId": "ev-12",
+            "note": "Katalóguson kívüli márka — nincs stabil brandId ebben a próbakörben."
+          }
+        ],
+        "excludedClaims": [
+          {
+            "brandName": "LOOK",
+            "reason": "LOOK pedál-állításként szerepelt; nem kerékpármárka sells_brand.",
+            "sourceUrl": "https://www.bikeart.hu/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "loc-bikeart-kissjanos",
+      "organizationId": "org-bikeart",
+      "name": "BikeArt Center – Kiss János Alt. utca",
+      "address": {
+        "raw": "1126 Budapest, Kiss János Alt. utca 25.",
+        "city": "Budapest",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://www.bikeart.hu/kapcsolat.html",
+      "phone": [
+        "+36 1 952 0432"
+      ],
+      "email": [
+        "info@bikeart.hu"
+      ],
+      "coordinates": null,
+      "openingHours": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-09"
+      ],
+      "notes": "Szervezeti e-mail a Csalogány webshop/boltok oldaláról; helyspecifikus e-mail JS mögött.",
+      "brandLinks": [
+        {
+          "brandId": "brand-trek",
+          "brandName": "Trek",
+          "relation": "sells_brand",
+          "sourceUrl": "https://www.bikeart.hu/",
+          "quote": "Trek kerékpárjainkat keresd webshopunkban!",
+          "evidenceId": "ev-12",
+          "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.",
+          "inCatalog": true
+        },
+        {
+          "brandId": "brand-giant",
+          "brandName": "Giant",
+          "relation": "sells_brand",
+          "sourceUrl": "https://www.bikeart.hu/",
+          "quote": "GIANT felfogása szerint…",
+          "evidenceId": "ev-12",
+          "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.",
+          "inCatalog": true
+        }
+      ],
+      "researchNotes": {
+        "externalBrandClaims": [
+          {
+            "brandName": "Bianchi",
+            "relation": "sells_brand",
+            "sourceUrl": "https://www.bikeart.hu/",
+            "quote": "A Bianchi nem csupán kerékpárokat gyárt…",
+            "evidenceId": "ev-12",
+            "note": "Katalóguson kívüli márka — nincs stabil brandId ebben a próbakörben."
+          }
+        ],
+        "excludedClaims": []
+      }
+    },
+    {
+      "id": "loc-rekord-budapest",
+      "organizationId": "org-rekord-bike",
+      "name": "Rekord Bike Budapest",
+      "address": {
+        "raw": "1115 Budapest, Thallóczy Lajos u. 23-25.",
+        "city": "Budapest",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://rekordbike.hu/",
+      "phone": [
+        "+36 30 831 0321"
+      ],
+      "email": [
+        "info@rekordbike.hu"
+      ],
+      "coordinates": null,
+      "openingHours": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-13"
+      ],
+      "notes": "Szerviz oldal org-szinten van; melyik telephelyen a műhely, nincs külön megjelölve.",
+      "brandLinks": [],
+      "researchNotes": {
+        "externalBrandClaims": [],
+        "excludedClaims": []
+      }
+    },
+    {
+      "id": "loc-vozzy-debrecen",
+      "organizationId": "org-vozzy",
+      "name": "VOZZY Bike & Snow",
+      "address": {
+        "raw": "4027 Debrecen, Böszörményi út 1.",
+        "city": "Debrecen",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://www.vozzy.hu/spg/601152/Uzletunk",
+      "phone": [
+        "+36 70 378 1657"
+      ],
+      "email": [
+        "info@vozzy.hu"
+      ],
+      "coordinates": null,
+      "openingHours": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-15"
+      ],
+      "notes": null,
+      "brandLinks": [
+        {
+          "brandId": "brand-merida",
+          "brandName": "Merida",
+          "relation": "sells_brand",
+          "sourceUrl": "https://www.vozzy.hu/spg/601152/Uzletunk",
+          "quote": "új kerékpárok értékesítése: Merida, Adriatica, Cross márkák",
+          "evidenceId": "ev-15",
+          "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.",
+          "inCatalog": true
+        }
+      ],
+      "researchNotes": {
+        "externalBrandClaims": [
+          {
+            "brandName": "Adriatica",
+            "relation": "sells_brand",
+            "sourceUrl": "https://www.vozzy.hu/spg/601152/Uzletunk",
+            "quote": "új kerékpárok értékesítése: Merida, Adriatica, Cross márkák",
+            "evidenceId": "ev-15",
+            "note": "Katalóguson kívüli márka — nincs stabil brandId ebben a próbakörben."
+          },
+          {
+            "brandName": "Cross",
+            "relation": "sells_brand",
+            "sourceUrl": "https://www.vozzy.hu/spg/601152/Uzletunk",
+            "quote": "új kerékpárok értékesítése: Merida, Adriatica, Cross márkák",
+            "evidenceId": "ev-15",
+            "note": "Katalóguson kívüli márka — nincs stabil brandId ebben a próbakörben."
+          }
+        ],
+        "excludedClaims": []
+      }
+    },
+    {
+      "id": "loc-jobringa-debrecen",
+      "organizationId": "org-jobringa",
+      "name": "JóBringa",
+      "address": {
+        "raw": "4032 Debrecen, Böszörményi út 153.",
+        "city": "Debrecen",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://www.jobringa.hu/kapcsolat",
+      "phone": [
+        "+36 20 457 1585",
+        "+36 20 255 2750"
+      ],
+      "email": [
+        "info@jobringa.hu",
+        "szerviz@jobringa.hu"
+      ],
+      "coordinates": null,
+      "openingHours": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-16"
+      ],
+      "notes": "Irányítószám ÁSZF-ből (4032); kapcsolat oldal szövegesen Böszörményi út 153.",
+      "brandLinks": [],
+      "researchNotes": {
+        "externalBrandClaims": [],
+        "excludedClaims": []
+      }
+    },
+    {
+      "id": "loc-heavy-pedal-szeged",
+      "organizationId": "org-heavy-pedal",
+      "name": "Heavy Pedál Kerékpárüzlet & Szerviz",
+      "address": {
+        "raw": "6721 Szeged, Brüsszeli krt. 12.",
+        "city": "Szeged",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://heavypedal.hu/",
+      "phone": [
+        "+36 62 314 778",
+        "+36 30 769 9886"
+      ],
+      "email": [
+        "heavypedal08@gmail.com"
+      ],
+      "coordinates": null,
+      "openingHours": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-17"
+      ],
+      "notes": null,
+      "brandLinks": [
+        {
+          "brandId": "brand-gepida",
+          "brandName": "Gepida",
+          "relation": "sells_brand",
+          "sourceUrl": "https://heavypedal.hu/",
+          "quote": "Kiemelt kerékpár márkáink: Bianchi, Gepida, Kross",
+          "evidenceId": "ev-17",
+          "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.",
+          "inCatalog": true
+        }
+      ],
+      "researchNotes": {
+        "externalBrandClaims": [
+          {
+            "brandName": "Bianchi",
+            "relation": "sells_brand",
+            "sourceUrl": "https://heavypedal.hu/",
+            "quote": "Kiemelt kerékpár márkáink: Bianchi, Gepida, Kross",
+            "evidenceId": "ev-17",
+            "note": "Katalóguson kívüli márka — nincs stabil brandId ebben a próbakörben."
+          },
+          {
+            "brandName": "Kross",
+            "relation": "sells_brand",
+            "sourceUrl": "https://heavypedal.hu/",
+            "quote": "Kiemelt kerékpár márkáink: Bianchi, Gepida, Kross",
+            "evidenceId": "ev-17",
+            "note": "Katalóguson kívüli márka — nincs stabil brandId ebben a próbakörben."
+          },
+          {
+            "brandName": "Csepel",
+            "relation": "sells_brand",
+            "sourceUrl": "https://heavypedal.hu/",
+            "quote": "A Csepel e-bike-ok pedelec rendszerű elektromos kerékpárok",
+            "evidenceId": "ev-17",
+            "note": "Katalóguson kívüli márka — nincs stabil brandId ebben a próbakörben."
+          }
+        ],
+        "excludedClaims": []
+      }
+    },
+    {
+      "id": "loc-bikeszaki-szeged",
+      "organizationId": "org-bikeszaki",
+      "name": "Bikeszaki",
+      "address": {
+        "raw": "6721 Szeged, Szent István tér 8b",
+        "city": "Szeged",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://www.bikeszaki.hu/",
+      "phone": [],
+      "email": [
+        "info@bikeszaki.hu"
+      ],
+      "coordinates": null,
+      "openingHours": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-18",
+        "ev-19"
+      ],
+      "notes": "Telefon a kapcsolat oldalon maszkolva (+36 ** ** ****); harmadik féltől nem vettünk át számot.",
+      "brandLinks": [],
+      "researchNotes": {
+        "externalBrandClaims": [],
+        "excludedClaims": []
+      }
+    },
+    {
+      "id": "loc-biciklikk-pecs",
+      "organizationId": "org-biciklikk",
+      "name": "Biciklikk Pécs",
+      "address": {
+        "raw": "7624 Pécs, Kodály Zoltán u. 3.",
+        "city": "Pécs",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://www.biciklikk.hu/uzleteink",
+      "phone": [
+        "+36 70 396 2403",
+        "+36 70 396 2410",
+        "+36 70 396 2404"
+      ],
+      "email": [
+        "info@biciklikk.hu"
+      ],
+      "coordinates": null,
+      "openingHours": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-20"
+      ],
+      "notes": "uzleteink: 2403=bolt, 2410=szerviz; site header más helyen fordítva jelöli – lásd gaps.",
+      "brandLinks": [],
+      "researchNotes": {
+        "externalBrandClaims": [],
+        "excludedClaims": []
+      }
+    },
+    {
+      "id": "loc-peppe-gyor",
+      "organizationId": "org-peppe",
+      "name": "Peppe Kerékpár szaküzlet és szerviz",
+      "address": {
+        "raw": "9024 Győr, Nagy Imre út 91.",
+        "city": "Győr",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://peppekerekpar.hu/",
+      "phone": [
+        "+36 96 419 507",
+        "+36 30 204 6685"
+      ],
+      "email": [
+        "info@peppekerekpar.hu"
+      ],
+      "coordinates": null,
+      "openingHours": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-22"
+      ],
+      "notes": "Márkák terméklistából (eladás claim), nem authorized_dealer.",
+      "brandLinks": [
+        {
+          "brandId": "brand-cube",
+          "brandName": "CUBE",
+          "relation": "sells_brand",
+          "sourceUrl": "https://peppekerekpar.hu/",
+          "quote": "CUBE ATTAIN / CUBE KATHMANDU terméklistán",
+          "evidenceId": "ev-22",
+          "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.",
+          "inCatalog": true
+        },
+        {
+          "brandId": "brand-gepida",
+          "brandName": "Gepida",
+          "relation": "sells_brand",
+          "sourceUrl": "https://peppekerekpar.hu/",
+          "quote": "Gepida Alboin 200",
+          "evidenceId": "ev-22",
+          "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.",
+          "inCatalog": true
+        }
+      ],
+      "researchNotes": {
+        "externalBrandClaims": [
+          {
+            "brandName": "Csepel",
+            "relation": "sells_brand",
+            "sourceUrl": "https://peppekerekpar.hu/",
+            "quote": "Csepel Budapest A",
+            "evidenceId": "ev-22",
+            "note": "Katalóguson kívüli márka — nincs stabil brandId ebben a próbakörben."
+          }
+        ],
+        "excludedClaims": []
+      }
+    },
+    {
+      "id": "loc-rekord-gyor",
+      "organizationId": "org-rekord-bike",
+      "name": "Rekord Bike Győr",
+      "address": {
+        "raw": "9024 Győr, Kálvária u. 55.",
+        "city": "Győr",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://rekordbike.hu/shop_contact.php",
+      "phone": [
+        "+36 30 831 0321"
+      ],
+      "email": [
+        "info@rekordbike.hu"
+      ],
+      "coordinates": null,
+      "openingHours": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-13"
+      ],
+      "notes": "Cég székhelye is ez a cím a kapcsolat oldalon.",
+      "brandLinks": [],
+      "researchNotes": {
+        "externalBrandClaims": [],
+        "excludedClaims": []
+      }
+    },
+    {
+      "id": "loc-bico-szekesfehervar",
+      "organizationId": "org-bico",
+      "name": "Bicó Kerékpárbolt és Kerékpárszerviz",
+      "address": {
+        "raw": "8000 Székesfehérvár, Kisteleki utca 13.",
+        "city": "Székesfehérvár",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://bicobolt.hu/",
+      "phone": [
+        "+36 22 310 240"
+      ],
+      "email": [
+        "bicobolt@gmail.com"
+      ],
+      "coordinates": null,
+      "openingHours": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-23"
+      ],
+      "notes": null,
+      "brandLinks": [
+        {
+          "brandId": "brand-gepida",
+          "brandName": "Gepida",
+          "relation": "sells_brand",
+          "sourceUrl": "https://bicobolt.hu/",
+          "quote": "új kerékpárok (Csepel, Gepida, Koliken, Neuzer stb…)",
+          "evidenceId": "ev-23",
+          "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.",
+          "inCatalog": true
+        },
+        {
+          "brandId": "brand-neuzer",
+          "brandName": "Neuzer",
+          "relation": "sells_brand",
+          "sourceUrl": "https://bicobolt.hu/",
+          "quote": "új kerékpárok (Csepel, Gepida, Koliken, Neuzer stb…)",
+          "evidenceId": "ev-23",
+          "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.",
+          "inCatalog": true
+        }
+      ],
+      "researchNotes": {
+        "externalBrandClaims": [
+          {
+            "brandName": "Csepel",
+            "relation": "sells_brand",
+            "sourceUrl": "https://bicobolt.hu/",
+            "quote": "új kerékpárok (Csepel, Gepida, Koliken, Neuzer stb…)",
+            "evidenceId": "ev-23",
+            "note": "Katalóguson kívüli márka — nincs stabil brandId ebben a próbakörben."
+          },
+          {
+            "brandName": "Koliken",
+            "relation": "sells_brand",
+            "sourceUrl": "https://bicobolt.hu/",
+            "quote": "új kerékpárok (Csepel, Gepida, Koliken, Neuzer stb…)",
+            "evidenceId": "ev-23",
+            "note": "Katalóguson kívüli márka — nincs stabil brandId ebben a próbakörben."
+          }
+        ],
+        "excludedClaims": []
+      }
+    },
+    {
+      "id": "loc-vital-szekesfehervar",
+      "organizationId": "org-vital-club",
+      "name": "Vitál Club kerékpárbolt",
+      "address": {
+        "raw": "8000 Székesfehérvár, Királysor 60.",
+        "city": "Székesfehérvár",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://www.fehervarkerekpar.hu/",
+      "phone": [
+        "+36 20 478 5444"
+      ],
+      "email": [
+        "info@fehervarkerekpar.hu"
+      ],
+      "coordinates": null,
+      "openingHours": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-24"
+      ],
+      "notes": "Szerviz szerep a főoldal szövegéből nem volt egyértelmű – csak eladás rögzítve.",
+      "brandLinks": [],
+      "researchNotes": {
+        "externalBrandClaims": [],
+        "excludedClaims": []
+      }
+    },
+    {
+      "id": "loc-q1-nyiregyhaza",
+      "organizationId": "org-q1",
+      "name": "q1 kerékpárszalon",
+      "address": {
+        "raw": "4400 Nyíregyháza, Bethlen Gábor utca 57.",
+        "city": "Nyíregyháza",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://q1kerekparszalon.hu/",
+      "phone": [
+        "+36 30 233 4808"
+      ],
+      "email": [
+        "q1kerekparszalon@gmail.com"
+      ],
+      "coordinates": null,
+      "openingHours": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-25"
+      ],
+      "notes": "Bosch diagnosztika cikk alapján e-bike-szerviz is.",
+      "brandLinks": [
+        {
+          "brandId": "brand-trek",
+          "brandName": "Trek",
+          "relation": "sells_brand",
+          "sourceUrl": "https://q1kerekparszalon.hu/",
+          "quote": "Komoly szállítmány érkezett a Trek hazai képviseletének raktárába és így üzletünkbe is",
+          "evidenceId": "ev-25",
+          "disclaimer": "A márka forgalmazása nem bizonyít konkrét modellkészletet vagy kipróbálhatóságot.",
+          "inCatalog": true
+        }
+      ],
+      "researchNotes": {
+        "externalBrandClaims": [
+          {
+            "brandName": "Marin",
+            "relation": "sells_brand",
+            "sourceUrl": "https://q1kerekparszalon.hu/",
+            "quote": "A Marin Bobcat Trail sorozatának több típusa gurult be… üzletünkbe",
+            "evidenceId": "ev-25",
+            "note": "Katalóguson kívüli márka — nincs stabil brandId ebben a próbakörben."
+          },
+          {
+            "brandName": "Hercules",
+            "relation": "sells_brand",
+            "sourceUrl": "https://q1kerekparszalon.hu/",
+            "quote": "Hercules Valecia R7 / német márkánk",
+            "evidenceId": "ev-25",
+            "note": "Katalóguson kívüli márka — nincs stabil brandId ebben a próbakörben."
+          },
+          {
+            "brandName": "Winora",
+            "relation": "sells_brand",
+            "sourceUrl": "https://q1kerekparszalon.hu/",
+            "quote": "Winora Domingo sorozat",
+            "evidenceId": "ev-25",
+            "note": "Katalóguson kívüli márka — nincs stabil brandId ebben a próbakörben."
+          },
+          {
+            "brandName": "Dema",
+            "relation": "sells_brand",
+            "sourceUrl": "https://q1kerekparszalon.hu/",
+            "quote": "A Dema kerékpárok… kínálatunknak",
+            "evidenceId": "ev-25",
+            "note": "Katalóguson kívüli márka — nincs stabil brandId ebben a próbakörben."
+          }
+        ],
+        "excludedClaims": []
+      }
+    },
+    {
+      "id": "loc-melux-nyiregyhaza",
+      "organizationId": "org-melux",
+      "name": "Bike Shop Kerékpárüzlet és Szerviz",
+      "address": {
+        "raw": "4400 Nyíregyháza, Dózsa György utca 50.",
+        "city": "Nyíregyháza",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://melux.hu/",
+      "phone": [
+        "+36 30 606 4242"
+      ],
+      "email": [],
+      "coordinates": null,
+      "openingHours": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-26"
+      ],
+      "notes": "Nyilvános e-mail a főoldalon nem volt.",
+      "brandLinks": [],
+      "researchNotes": {
+        "externalBrandClaims": [],
+        "excludedClaims": []
+      }
+    },
+    {
+      "id": "loc-borsod-bike-miskolc",
+      "organizationId": "org-borsod-bike",
+      "name": "Borsod Bike",
+      "address": {
+        "raw": "3530 Miskolc, Geró János Utca 41.",
+        "city": "Miskolc",
+        "postalCode": null,
+        "street": null
+      },
+      "website": "https://borsodbike.hu/",
+      "phone": [
+        "+36 70 246 4167"
+      ],
+      "email": [
+        "info@borsodbike.hu"
+      ],
+      "coordinates": null,
+      "openingHours": null,
+      "status": "ellenőrzött",
+      "evidenceIds": [
+        "ev-27"
+      ],
+      "notes": null,
+      "brandLinks": [],
+      "researchNotes": {
+        "externalBrandClaims": [],
+        "excludedClaims": []
+      }
+    }
+  ]
+}

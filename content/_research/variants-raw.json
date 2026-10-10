@@ -1,0 +1,819 @@
+{
+  "accessedAt": "2026-10-10",
+  "products": [
+    {
+      "id": "prod-cube-kathmandu-hybrid-one-800",
+      "brand": "CUBE",
+      "brandSlug": "cube",
+      "name": "Kathmandu Hybrid ONE 800",
+      "modelYear": 2026,
+      "modelYearSource": "CUBE Declaration of Conformity / operating instructions labeled MY2026 on product page downloads",
+      "bikeType": "trekking-e-bike",
+      "officialUrl": "https://www.cube.eu/cube-kathmandu-hybrid-one-800-metallicgrey-n-grey/112111"
+    },
+    {
+      "id": "prod-giant-explore-eplus-1-stagger",
+      "brand": "Giant",
+      "brandSlug": "giant",
+      "name": "Explore E+ 1 Stagger",
+      "modelYear": 2026,
+      "modelYearSource": "Product page title: Explore E+ 1 Stagger (2026)",
+      "bikeType": "trekking-e-bike",
+      "officialUrl": "https://www.giant-bicycles.com/int/explore-eplus-1-stagger"
+    },
+    {
+      "id": "prod-merida-espresso-575-eq",
+      "brand": "MERIDA",
+      "brandSlug": "merida",
+      "name": "eSPRESSO 575 EQ",
+      "modelYear": null,
+      "modelYearMissingReason": "Archived MERIDA product page does not state a numeric model year",
+      "bikeType": "trekking-e-bike",
+      "officialUrl": "https://www.merida-bikes.com/en/bike/5675-7682/espresso-575-eq",
+      "pageNote": "Page marked as archived model"
+    },
+    {
+      "id": "prod-gepida-berig-deore-10-w",
+      "brand": "Gepida",
+      "brandSlug": "gepida",
+      "name": "BERIG DEORE 10 W",
+      "modelYear": null,
+      "modelYearMissingReason": "gepida.hu product page does not state model year",
+      "bikeType": "suv-e-bike",
+      "officialUrl": "https://gepida.hu/gepida-berig-deore-10-w-matt-grafit-11372"
+    },
+    {
+      "id": "prod-cube-reaction-hybrid-one-800",
+      "brand": "CUBE",
+      "brandSlug": "cube",
+      "name": "Reaction Hybrid ONE 800",
+      "modelYear": 2026,
+      "modelYearSource": "CUBE operating instructions / Declaration of Conformity labeled MY2026 on product page downloads",
+      "bikeType": "e-mtb-hardtail",
+      "officialUrl": "https://www.cube.eu/sk-de/cube-reaction-hybrid-one-800-royalgreen-n-prism/108120"
+    },
+    {
+      "id": "prod-merida-ebignine-675",
+      "brand": "MERIDA",
+      "brandSlug": "merida",
+      "name": "eBIG.NINE 675",
+      "modelYear": null,
+      "modelYearMissingReason": "Archived MERIDA product page does not state a numeric model year",
+      "bikeType": "e-mtb-hardtail",
+      "officialUrl": "https://www.merida-bikes.com/en/bike/5704-7528/ebignine-675",
+      "pageNote": "Page marked as archived model"
+    },
+    {
+      "id": "prod-specialized-s-works-turbo-levo-4",
+      "brand": "Specialized",
+      "brandSlug": "specialized",
+      "name": "S-Works Turbo Levo 4",
+      "modelYear": null,
+      "modelYearMissingReason": "specialized.com product page does not state a discrete model year in title/specs (mentions 2026 Design & Innovation Award only)",
+      "bikeType": "e-mtb-full-suspension",
+      "officialUrl": "https://www.specialized.com/us/en/s-works-turbo-levo-4/p/4291509"
+    },
+    {
+      "id": "prod-gepida-sirmium-pro-deore-10",
+      "brand": "Gepida",
+      "brandSlug": "gepida",
+      "name": "SIRMIUM PRO DEORE 10",
+      "modelYear": null,
+      "modelYearMissingReason": "gepida.hu product page does not state model year",
+      "bikeType": "e-mtb-hardtail",
+      "officialUrl": "https://gepida.hu/gepida-sirmium-pro-deore-10-feher-11105"
+    },
+    {
+      "id": "prod-specialized-turbo-como-4-0",
+      "brand": "Specialized",
+      "brandSlug": "specialized",
+      "name": "Turbo Como 4.0",
+      "modelYear": 2025,
+      "modelYearSource": "Product page heading: 2025 Turbo Como 4.0",
+      "bikeType": "city-urban-e-bike",
+      "officialUrl": "https://www.specialized.com/us/en/turbo-como-40/p/4277417"
+    },
+    {
+      "id": "prod-trek-district-plus-9",
+      "brand": "Trek",
+      "brandSlug": "trek",
+      "name": "District+ 9",
+      "modelYear": null,
+      "modelYearMissingReason": "trekbikes.com product page does not state model year in fetched specs block",
+      "bikeType": "city-urban-e-bike",
+      "officialUrl": "https://www.trekbikes.com/gb/en_GB/bikes/hybrid-bikes/electric-hybrid-bikes/district/district-9/p/33186/"
+    },
+    {
+      "id": "prod-cube-supreme-hybrid-deluxe-one-625",
+      "brand": "CUBE",
+      "brandSlug": "cube",
+      "name": "Supreme Hybrid Deluxe ONE 625",
+      "modelYear": 2025,
+      "modelYearSource": "CUBE operating instructions / CE docs labeled MY2025 on product page downloads",
+      "bikeType": "city-urban-e-bike",
+      "officialUrl": "https://www.cube.eu/bg-en/cube-supreme-hybrid-deluxe-one-625-slateblack-n-black/813400"
+    },
+    {
+      "id": "prod-gepida-bonum-edge-nexus-8c-coaster",
+      "brand": "Gepida",
+      "brandSlug": "gepida",
+      "name": "BONUM EDGE NEXUS 8C (COASTER)",
+      "modelYear": null,
+      "modelYearMissingReason": "gepida.hu product page does not state model year",
+      "bikeType": "city-urban-e-bike",
+      "officialUrl": "https://gepida.hu/bonum-edge-nexus-8c-coaster-wh-28-13619"
+    }
+  ],
+  "variants": [
+    {
+      "id": "var-cube-kathmandu-hybrid-one-800-metallicgrey",
+      "productId": "prod-cube-kathmandu-hybrid-one-800",
+      "exactName": "Kathmandu Hybrid ONE 800",
+      "trimOrBatteryVariant": "ONE 800 / Bosch PowerTube 800",
+      "colorAsListed": "metallicgrey´n´grey",
+      "frameVariant": "Trapeze",
+      "skuOrArtNo": null,
+      "skuMissingReason": "ArtNo/SKU not shown on fetched CUBE info portal page",
+      "bikeType": "trekking-e-bike",
+      "motor": {
+        "exactType": "Bosch Drive Unit Performance Line CX max. 120Nm (BDU38)",
+        "position": null,
+        "positionMissingReason": "Product page lists drive unit type but does not explicitly state motor position",
+        "torqueNm": 120,
+        "torqueNote": "Page states max. 120Nm"
+      },
+      "batteryWh": 800,
+      "batteryExact": "Bosch PowerTube 800",
+      "drivetrain": "Shimano Cues RD-U6000-GS 10-Speed; SL-U6000 Rapidfire-Plus; CS-LG300 11-48T; ACID MTB Hybrid Pro 40T; KMC eGlide",
+      "brakes": "Shimano BR-MT200, hydraulic disc (180/180)",
+      "weightKg": 28.4,
+      "weighingConditions": null,
+      "weighingConditionsMissingReason": "Weight 28,4 kg listed without frame size or equipment conditions",
+      "sourceUrl": "https://www.cube.eu/cube-kathmandu-hybrid-one-800-metallicgrey-n-grey/112111",
+      "manufacturerRangeClaim": null,
+      "manufacturerRangeClaimNote": "No measured test range recorded; none invented"
+    },
+    {
+      "id": "var-giant-explore-eplus-1-stagger-2026",
+      "productId": "prod-giant-explore-eplus-1-stagger",
+      "exactName": "Explore E+ 1 Stagger",
+      "trimOrBatteryVariant": "1 Stagger / EnergyPak 800Wh",
+      "colorAsListed": "Metallic Navy",
+      "frameVariant": "Stagger",
+      "skuOrArtNo": null,
+      "skuMissingReason": "SKU/part number not listed in fetched specs",
+      "bikeType": "trekking-e-bike",
+      "motor": {
+        "exactType": "Giant SyncDrive Pro2, 85Nm PedalPlus 6-Sensor technology",
+        "position": null,
+        "positionMissingReason": "Specs list motor type/torque but do not explicitly state motor position",
+        "torqueNm": 85
+      },
+      "batteryWh": 800,
+      "batteryExact": "Giant EnergyPak 800Wh, 22700 Lithium cell technology",
+      "drivetrain": "Shimano Cues Di2 E-Shift; Shimano Cues Di2 11-Speed rear derailleur; cassette 11-45T 11-speed; Shimano Linkglide CN-LG500; forged alloy spider, 42T chainring",
+      "brakes": "Shimano Deore BR-MT420, hydraulic disc, 4-piston, 203mm [F] / 180mm [R]; levers Shimano BL-M401",
+      "weightKg": null,
+      "weightMissingReason": "Specs weight section directs riders to local dealer weighing; no numeric weight for this trim",
+      "weighingConditions": null,
+      "sourceUrl": "https://www.giant-bicycles.com/int/explore-eplus-1-stagger",
+      "manufacturerRangeEstimateOnPage": {
+        "system": "Energypak 800 / SyncDrive Pro 2",
+        "extremeKm": 70,
+        "goodKm": 140,
+        "idealKm": 250,
+        "note": "Manufacturer approximate range categories only — not recorded as measured test results"
+      }
+    },
+    {
+      "id": "var-merida-espresso-575-eq-750",
+      "productId": "prod-merida-espresso-575-eq",
+      "exactName": "eSPRESSO 575 EQ",
+      "trimOrBatteryVariant": "575 EQ / Trendpower Internal Battery 750 Wh TPS-C04-35SD",
+      "colorAsListed": "SILK BRONZE METAL (BLACK)",
+      "frameVariant": "eSPRESSO LITE IV (standard step-over sizes XS–XL listed)",
+      "skuOrArtNo": null,
+      "skuMissingReason": "SKU not listed on fetched page",
+      "bikeType": "trekking-e-bike",
+      "motor": {
+        "exactType": "Shimano EP6",
+        "position": null,
+        "positionMissingReason": "Page lists drive unit Shimano EP6 but does not explicitly state motor position",
+        "torqueNm": 85
+      },
+      "batteryWh": 750,
+      "batteryExact": "Trendpower Internal Battery 750 Wh TPS-C04-35SD (Shimano Gen 2, removable)",
+      "drivetrain": "Shimano CUES U6000 GS rear derailleur; CUES U6000-10 shifters; LG300 11-48T 10-speed freewheel; Samox NWP203 38T; MERIDA EXPERT TK crank 165mm; Shimano LG500 chain",
+      "brakes": "Shimano MT-200, 2-piston; rotors Shimano RT10 180 mm",
+      "weightKg": 27.1,
+      "weighingConditions": "approx. weight weighed at frame size M",
+      "sourceUrl": "https://www.merida-bikes.com/en/bike/5675-7682/espresso-575-eq",
+      "manufacturerRangeClaim": null,
+      "manufacturerRangeClaimNote": "No measured test range on page; none invented"
+    },
+    {
+      "id": "var-gepida-berig-deore-10-w-500",
+      "productId": "prod-gepida-berig-deore-10-w",
+      "exactName": "BERIG DEORE 10 W",
+      "trimOrBatteryVariant": "DEORE 10 W / 500 WH",
+      "colorAsListed": "matt grafit (page title); matrica szín MENTA in specs table",
+      "frameVariant": null,
+      "frameVariantMissingReason": "Frame geometry variant not named beyond size guidance",
+      "skuOrArtNo": "3GFWPR320A17A5",
+      "bikeType": "suv-e-bike",
+      "motor": {
+        "exactType": "BOSCH PERFORMANCE LINE CRUISE BES2",
+        "position": "középmotoros (mid-drive)",
+        "torqueNm": null,
+        "torqueMissingReason": "Product page lists motor type but does not state torque Nm"
+      },
+      "batteryWh": 500,
+      "batteryExact": "500 WH (capacity field); accumulator placement: vázon elhelyezett",
+      "drivetrain": "Shimano Deore 10-speed: SL-M4100-10 Rapidfire Plus; CS-M4100 11-42T; FSA CK-200 170mm",
+      "brakes": "Hydraulic disc: Shimano BR-MT200; levers BL-MT201; rotors SM-RT26M 180mm / SM-RT26S 160mm",
+      "weightKg": null,
+      "weightMissingReason": "Weight not listed on gepida.hu product page",
+      "weighingConditions": null,
+      "sourceUrl": "https://gepida.hu/gepida-berig-deore-10-w-matt-grafit-11372",
+      "manufacturerRangeClaim": null,
+      "manufacturerRangeClaimNote": "No measured test range on page; none invented"
+    },
+    {
+      "id": "var-cube-reaction-hybrid-one-800-royalgreen",
+      "productId": "prod-cube-reaction-hybrid-one-800",
+      "exactName": "Reaction Hybrid ONE 800",
+      "trimOrBatteryVariant": "ONE 800 / Bosch PowerTube 800",
+      "colorAsListed": "royalgreen´n´prism",
+      "frameVariant": "Classic Size Split (27.5: S // 29: M–XXL)",
+      "skuOrArtNo": null,
+      "skuMissingReason": "ArtNo not shown on fetched CUBE info portal page (marketing URLs reference 108120)",
+      "bikeType": "e-mtb-hardtail",
+      "motor": {
+        "exactType": "Bosch Drive Unit Performance Line CX max. 120Nm (BDU38)",
+        "position": null,
+        "positionMissingReason": "Product page lists drive unit type but does not explicitly state motor position",
+        "torqueNm": 120,
+        "torqueNote": "Page states max. 120Nm"
+      },
+      "batteryWh": 800,
+      "batteryExact": "Bosch PowerTube 800",
+      "drivetrain": "Shimano Cues RD-U6000-GS 10-Speed; SL-U6000 Rapidfire-Plus; CS-LG400 11-48T; ACID MTB Hybrid Pro 38T; KMC eGlide",
+      "brakes": "Shimano BR-MT200, hydraulic disc (180/180)",
+      "weightKg": 25.9,
+      "weighingConditions": null,
+      "weighingConditionsMissingReason": "Weight 25,9 kg listed without frame size or equipment conditions",
+      "sourceUrl": "https://www.cube.eu/sk-de/cube-reaction-hybrid-one-800-royalgreen-n-prism/108120",
+      "manufacturerRangeClaim": null,
+      "manufacturerRangeClaimNote": "No measured test range on page; none invented"
+    },
+    {
+      "id": "var-merida-ebignine-675-750",
+      "productId": "prod-merida-ebignine-675",
+      "exactName": "eBIG.NINE 675",
+      "trimOrBatteryVariant": "675 / Trendpower Internal Battery 750 Wh TPS-C04-35SD",
+      "colorAsListed": "METALLIC BLACK (GUNMETAL GREY)",
+      "frameVariant": "eBIG.NINE LITE III",
+      "skuOrArtNo": null,
+      "skuMissingReason": "SKU not listed on fetched page",
+      "bikeType": "e-mtb-hardtail",
+      "motor": {
+        "exactType": "Shimano EP6",
+        "position": null,
+        "positionMissingReason": "Page lists drive unit Shimano EP6 but does not explicitly state motor position",
+        "torqueNm": 85
+      },
+      "batteryWh": 750,
+      "batteryExact": "Trendpower Internal Battery 750 Wh TPS-C04-35SD (Shimano Gen 2, removable)",
+      "drivetrain": "Sram NX Eagle rear derailleur; Sram NX Eagle 12 shifters; PG-1210 Eagle 11-50T 12-speed; SAMOX EMA04 34T; Shimano FC-EM600 crank 165mm; Sram SX Eagle chain",
+      "brakes": "Sram DB6 stealth, 4-piston; rotors Sram CenterLine 180mm",
+      "weightKg": 23.6,
+      "weighingConditions": "approx. weight weighed at frame size M",
+      "sourceUrl": "https://www.merida-bikes.com/en/bike/5704-7528/ebignine-675",
+      "manufacturerRangeClaim": null,
+      "manufacturerRangeClaimNote": "No measured test range on page; none invented"
+    },
+    {
+      "id": "var-specialized-s-works-turbo-levo-4-840",
+      "productId": "prod-specialized-s-works-turbo-levo-4",
+      "exactName": "S-Works Turbo Levo 4",
+      "trimOrBatteryVariant": "S-Works / Specialized Turbo X2 840Wh",
+      "colorAsListed": "Laurel Green Metallic",
+      "frameVariant": "Levo 4 carbon, 150mm rear travel",
+      "skuOrArtNo": "291509",
+      "skuNote": "Product ID on specialized.com",
+      "bikeType": "e-mtb-full-suspension",
+      "motor": {
+        "exactType": "Specialized 3.1 S-Works motor, 111Nm, 850W",
+        "position": null,
+        "positionMissingReason": "Specs list motor type but do not use an explicit position label (mid/hub)",
+        "torqueNm": 111
+      },
+      "batteryWh": 840,
+      "batteryExact": "Specialized Turbo X2 840Wh",
+      "drivetrain": "SRAM XX Eagle Transmission: AXS Pod Ultimate; XX Eagle T-Type derailleur; XX Transmission XS 1297 10-52t; XX T-Type chain; XX Carbon crank 160mm ISIS; 34t T-Type chainring",
+      "brakes": "SRAM Maven Ultimate 4-piston hydraulic disc; 220mm HS2 [F] / 200mm HS2 [R]",
+      "weightKg": 23.68,
+      "weighingConditions": "Weight Size S4; weights based on production painted frames as pictured; actual weights vary by colorway, frame size, and component variation",
+      "sourceUrl": "https://www.specialized.com/us/en/s-works-turbo-levo-4/p/4291509",
+      "manufacturerRangeClaimOnPage": {
+        "text": "up to 4.40 hours ride-anywhere range",
+        "footnoteOnPage": "Max range based on Eco Mode, 80Kg Rider, significant elevation gain, with 840Wh internal battery and 280Wh Range Extender",
+        "note": "Manufacturer claim with stated conditions — not recorded as independent measured test"
+      }
+    },
+    {
+      "id": "var-gepida-sirmium-pro-deore-10-500",
+      "productId": "prod-gepida-sirmium-pro-deore-10",
+      "exactName": "SIRMIUM PRO DEORE 10",
+      "trimOrBatteryVariant": "PRO DEORE 10 / 500 WH",
+      "colorAsListed": "FEHÉR",
+      "frameVariant": null,
+      "frameVariantMissingReason": "Only size options 15''/17''/19'' listed",
+      "skuOrArtNo": "3GFMCX420A15A5",
+      "bikeType": "e-mtb-hardtail",
+      "motor": {
+        "exactType": "BOSCH PERFORMANCE LINE CX BES2",
+        "position": "középmotoros (mid-drive)",
+        "torqueNm": 85,
+        "torqueSource": "Marketing section on same product page: 85 Nm"
+      },
+      "batteryWh": 500,
+      "batteryExact": "500 WH capacity; marketing text refers to Bosch PowerPack; accumulator placement: vázon elhelyezett",
+      "drivetrain": "Shimano Deore 10-speed: RD-M4120 Shadow; SL-M4100 Rapidfire Plus; CS-M4100-10 11-42T; FSA steel 38T; FSA CK-220 W 170mm Bosch Gen4",
+      "brakes": "Hydraulic disc: Shimano BR-MT200; levers BL-MT200; rotors SM-RT26M 180mm / SM-RT26S 160mm",
+      "weightKg": null,
+      "weightMissingReason": "Weight not listed on gepida.hu product page",
+      "weighingConditions": null,
+      "sourceUrl": "https://gepida.hu/gepida-sirmium-pro-deore-10-feher-11105",
+      "manufacturerRangeClaim": null,
+      "manufacturerRangeClaimNote": "Marketing mentions medium range qualitatively; no Wh-km measured test; none invented"
+    },
+    {
+      "id": "var-specialized-turbo-como-4-0-710-2025",
+      "productId": "prod-specialized-turbo-como-4-0",
+      "exactName": "2025 Turbo Como 4.0",
+      "trimOrBatteryVariant": "4.0 / Specialized U2-710 710Wh",
+      "colorAsListed": "Gloss Seafoam / Silver Dust Reflective",
+      "frameVariant": "Step-through E5 Aluminum",
+      "skuOrArtNo": "277417",
+      "skuNote": "Product ID on specialized.com",
+      "bikeType": "city-urban-e-bike",
+      "motor": {
+        "exactType": "Specialized 2.0, 70Nm torque, custom tuned motor, 250W nominal (Turbo Full Power 2.0)",
+        "position": "bottom bracket motor mount (mid-drive)",
+        "positionSource": "Frameset: E5 Aluminum, bottom bracket motor mount",
+        "torqueNm": 70
+      },
+      "batteryWh": 710,
+      "batteryExact": "Specialized U2-710, alloy casing, state of charge display, 710Wh",
+      "drivetrain": "Shimano CUES 9-speed: SL-U4000-9R; RD-U4000 GS; CS-LG300-9 11-41T; LG500 chain; custom alloy forged crankarms; 40T chainring",
+      "brakes": "Shimano BR-MT200 hydraulic disc, 180mm front / 160mm rear",
+      "weightKg": null,
+      "weightMissingReason": "No numeric bike weight in fetched specs; only generic weight disclaimer",
+      "weighingConditions": null,
+      "sourceUrl": "https://www.specialized.com/us/en/turbo-como-40/p/4277417",
+      "manufacturerRangeClaimOnPage": {
+        "text": "go up to 90 miles (145 km) or 6.5 hours of range (eco mode)",
+        "note": "Manufacturer claim — not recorded as measured test results"
+      }
+    },
+    {
+      "id": "var-trek-district-plus-9-powertube-500",
+      "productId": "prod-trek-district-plus-9",
+      "exactName": "District+ 9",
+      "trimOrBatteryVariant": "District+ 9 / Bosch PowerTube 500",
+      "colorAsListed": null,
+      "colorMissingReason": "Color not present in fetched specs block",
+      "frameVariant": "Alpha Smooth Aluminum; model 1047465",
+      "skuOrArtNo": "1047465",
+      "bikeType": "city-urban-e-bike",
+      "motor": {
+        "exactType": "Bosch Performance, 250Watt, 65Nm, 20 mph / 32 km/h (25 km/h in Europe)",
+        "position": null,
+        "positionMissingReason": "Specs list motor type/torque but do not explicitly state motor position",
+        "torqueNm": 65
+      },
+      "batteryWh": 500,
+      "batteryExact": "Bosch PowerTube 500",
+      "drivetrain": "Enviolo Trekking CVT rear hub (380% range) with manual twist shifter; Gates CDX belt 132T; Gates CDX 55T crank with alloy guard; Gates CDX 26T rear sprocket",
+      "brakes": "Shimano MT200 hydraulic disc",
+      "weightKg": 24.9,
+      "weighingConditions": "L - 24.90 kg / 54.9 lbs (excluding battery); bike and frame weights based on pre-production painted frames at time of publication; weights may vary in final production",
+      "sourceUrl": "https://www.trekbikes.com/gb/en_GB/bikes/hybrid-bikes/electric-hybrid-bikes/district/district-9/p/33186/",
+      "manufacturerRangeClaim": null,
+      "manufacturerRangeClaimNote": "No measured test range on page; none invented"
+    },
+    {
+      "id": "var-cube-supreme-hybrid-deluxe-one-625-slateblack",
+      "productId": "prod-cube-supreme-hybrid-deluxe-one-625",
+      "exactName": "Supreme Hybrid Deluxe ONE 625",
+      "trimOrBatteryVariant": "Deluxe ONE 625 / Bosch PowerTube 625",
+      "colorAsListed": "slateblack´n´black",
+      "frameVariant": "Easy Entry Size Split (26: XXS/42cm // 28: XS–L)",
+      "skuOrArtNo": null,
+      "skuMissingReason": "ArtNo not shown on fetched CUBE info portal page (marketing URLs reference 813400)",
+      "bikeType": "city-urban-e-bike",
+      "motor": {
+        "exactType": "Bosch Drive Unit Active Line Plus Generation 3 (50Nm) Cruise (250Watt), Smart System",
+        "position": null,
+        "positionMissingReason": "Product page lists drive unit type but does not explicitly state motor position",
+        "torqueNm": 50
+      },
+      "batteryWh": 625,
+      "batteryExact": "Bosch PowerTube 625",
+      "drivetrain": "Gates CDC belt 128T; Shimano Nexus SG-C6001-8D 8-speed hub; SL-C6000-8 Revoshift; ACID Trekking Hybrid 50T; Gates rear sprocket CDC 24T",
+      "brakes": "Shimano BR-MT200, hydraulic disc (180/180)",
+      "weightKg": 27.8,
+      "weighingConditions": null,
+      "weighingConditionsMissingReason": "Weight 27,8 kg listed without frame size or equipment conditions",
+      "sourceUrl": "https://www.cube.eu/bg-en/cube-supreme-hybrid-deluxe-one-625-slateblack-n-black/813400",
+      "manufacturerRangeClaim": null,
+      "manufacturerRangeClaimNote": "No measured test range on page; none invented"
+    },
+    {
+      "id": "var-gepida-bonum-edge-nexus-8c-coaster-400",
+      "productId": "prod-gepida-bonum-edge-nexus-8c-coaster",
+      "exactName": "BONUM EDGE NEXUS 8C (COASTER)",
+      "trimOrBatteryVariant": "NEXUS 8C (COASTER) / 400 WH",
+      "colorAsListed": "matrica szín VILÁGOSGRAFIT",
+      "frameVariant": null,
+      "frameVariantMissingReason": "Only recommended height 160–170 cm listed",
+      "skuOrArtNo": "3GIWAP32EA46C4",
+      "bikeType": "city-urban-e-bike",
+      "motor": {
+        "exactType": "BOSCH ACTIVE LINE PLUS BES2",
+        "position": "középmotoros (mid-drive)",
+        "torqueNm": null,
+        "torqueMissingReason": "Product page lists motor type but does not state torque Nm"
+      },
+      "batteryWh": 400,
+      "batteryExact": "400 WH; accumulator placement: vázba integrált",
+      "drivetrain": "Shimano Nexus 8 hub gear; SL-C6000-8 Revoshift; FSA steel 38T; FSA CK-200 170mm; rear ASM GEAR 19LU 19Z",
+      "brakes": "FÉK TÍPUS: KONTRAFÉK; also listed Shimano BR-MT200 with BL-MT200 and rotors SM-RT26S 160mm / SM-RTC60S 160mm — see conflicts",
+      "weightKg": null,
+      "weightMissingReason": "Weight not listed on gepida.hu product page",
+      "weighingConditions": null,
+      "sourceUrl": "https://gepida.hu/bonum-edge-nexus-8c-coaster-wh-28-13619",
+      "manufacturerRangeClaim": null,
+      "manufacturerRangeClaimNote": "No measured test range on page; none invented"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-cube-kathmandu-one-800",
+      "variantId": "var-cube-kathmandu-hybrid-one-800-metallicgrey",
+      "url": "https://www.cube.eu/cube-kathmandu-hybrid-one-800-metallicgrey-n-grey/112111",
+      "accessedAt": "2026-10-10",
+      "publisher": "cube.eu",
+      "fieldsSupported": [
+        "motor.exactType",
+        "motor.torqueNm",
+        "batteryWh",
+        "drivetrain",
+        "brakes",
+        "weightKg",
+        "modelYear"
+      ]
+    },
+    {
+      "id": "ev-giant-explore-eplus-1-stagger",
+      "variantId": "var-giant-explore-eplus-1-stagger-2026",
+      "url": "https://www.giant-bicycles.com/int/explore-eplus-1-stagger",
+      "accessedAt": "2026-10-10",
+      "publisher": "giant-bicycles.com",
+      "fieldsSupported": [
+        "motor.exactType",
+        "motor.torqueNm",
+        "batteryWh",
+        "drivetrain",
+        "brakes",
+        "modelYear",
+        "manufacturerRangeEstimateOnPage"
+      ]
+    },
+    {
+      "id": "ev-merida-espresso-575-eq",
+      "variantId": "var-merida-espresso-575-eq-750",
+      "url": "https://www.merida-bikes.com/en/bike/5675-7682/espresso-575-eq",
+      "accessedAt": "2026-10-10",
+      "publisher": "merida-bikes.com",
+      "fieldsSupported": [
+        "motor.exactType",
+        "motor.torqueNm",
+        "batteryWh",
+        "drivetrain",
+        "brakes",
+        "weightKg",
+        "weighingConditions"
+      ]
+    },
+    {
+      "id": "ev-gepida-berig-deore-10-w",
+      "variantId": "var-gepida-berig-deore-10-w-500",
+      "url": "https://gepida.hu/gepida-berig-deore-10-w-matt-grafit-11372",
+      "accessedAt": "2026-10-10",
+      "publisher": "gepida.hu",
+      "fieldsSupported": [
+        "motor.exactType",
+        "motor.position",
+        "batteryWh",
+        "drivetrain",
+        "brakes",
+        "skuOrArtNo"
+      ]
+    },
+    {
+      "id": "ev-cube-reaction-one-800",
+      "variantId": "var-cube-reaction-hybrid-one-800-royalgreen",
+      "url": "https://www.cube.eu/sk-de/cube-reaction-hybrid-one-800-royalgreen-n-prism/108120",
+      "accessedAt": "2026-10-10",
+      "publisher": "cube.eu",
+      "fieldsSupported": [
+        "motor.exactType",
+        "motor.torqueNm",
+        "batteryWh",
+        "drivetrain",
+        "brakes",
+        "weightKg",
+        "modelYear"
+      ]
+    },
+    {
+      "id": "ev-merida-ebignine-675",
+      "variantId": "var-merida-ebignine-675-750",
+      "url": "https://www.merida-bikes.com/en/bike/5704-7528/ebignine-675",
+      "accessedAt": "2026-10-10",
+      "publisher": "merida-bikes.com",
+      "fieldsSupported": [
+        "motor.exactType",
+        "motor.torqueNm",
+        "batteryWh",
+        "drivetrain",
+        "brakes",
+        "weightKg",
+        "weighingConditions"
+      ]
+    },
+    {
+      "id": "ev-specialized-s-works-levo-4",
+      "variantId": "var-specialized-s-works-turbo-levo-4-840",
+      "url": "https://www.specialized.com/us/en/s-works-turbo-levo-4/p/4291509",
+      "accessedAt": "2026-10-10",
+      "publisher": "specialized.com",
+      "fieldsSupported": [
+        "motor.exactType",
+        "motor.torqueNm",
+        "batteryWh",
+        "drivetrain",
+        "brakes",
+        "weightKg",
+        "weighingConditions"
+      ]
+    },
+    {
+      "id": "ev-gepida-sirmium-pro-deore-10",
+      "variantId": "var-gepida-sirmium-pro-deore-10-500",
+      "url": "https://gepida.hu/gepida-sirmium-pro-deore-10-feher-11105",
+      "accessedAt": "2026-10-10",
+      "publisher": "gepida.hu",
+      "fieldsSupported": [
+        "motor.exactType",
+        "motor.position",
+        "motor.torqueNm",
+        "batteryWh",
+        "drivetrain",
+        "brakes",
+        "skuOrArtNo"
+      ]
+    },
+    {
+      "id": "ev-specialized-turbo-como-4-0",
+      "variantId": "var-specialized-turbo-como-4-0-710-2025",
+      "url": "https://www.specialized.com/us/en/turbo-como-40/p/4277417",
+      "accessedAt": "2026-10-10",
+      "publisher": "specialized.com",
+      "fieldsSupported": [
+        "motor.exactType",
+        "motor.position",
+        "motor.torqueNm",
+        "batteryWh",
+        "drivetrain",
+        "brakes",
+        "modelYear"
+      ]
+    },
+    {
+      "id": "ev-trek-district-plus-9",
+      "variantId": "var-trek-district-plus-9-powertube-500",
+      "url": "https://www.trekbikes.com/gb/en_GB/bikes/hybrid-bikes/electric-hybrid-bikes/district/district-9/p/33186/",
+      "accessedAt": "2026-10-10",
+      "publisher": "trekbikes.com",
+      "fieldsSupported": [
+        "motor.exactType",
+        "motor.torqueNm",
+        "batteryWh",
+        "drivetrain",
+        "brakes",
+        "weightKg",
+        "weighingConditions"
+      ]
+    },
+    {
+      "id": "ev-cube-supreme-deluxe-one-625",
+      "variantId": "var-cube-supreme-hybrid-deluxe-one-625-slateblack",
+      "url": "https://www.cube.eu/bg-en/cube-supreme-hybrid-deluxe-one-625-slateblack-n-black/813400",
+      "accessedAt": "2026-10-10",
+      "publisher": "cube.eu",
+      "fieldsSupported": [
+        "motor.exactType",
+        "motor.torqueNm",
+        "batteryWh",
+        "drivetrain",
+        "brakes",
+        "weightKg",
+        "modelYear"
+      ]
+    },
+    {
+      "id": "ev-gepida-bonum-edge-nexus-8c",
+      "variantId": "var-gepida-bonum-edge-nexus-8c-coaster-400",
+      "url": "https://gepida.hu/bonum-edge-nexus-8c-coaster-wh-28-13619",
+      "accessedAt": "2026-10-10",
+      "publisher": "gepida.hu",
+      "fieldsSupported": [
+        "motor.exactType",
+        "motor.position",
+        "batteryWh",
+        "drivetrain",
+        "brakes",
+        "skuOrArtNo"
+      ]
+    }
+  ],
+  "comparisonGroups": [
+    {
+      "id": "cmp-city-trekking",
+      "useCase": "city-trekking",
+      "variantIds": [
+        "var-cube-kathmandu-hybrid-one-800-metallicgrey",
+        "var-giant-explore-eplus-1-stagger-2026",
+        "var-merida-espresso-575-eq-750",
+        "var-gepida-berig-deore-10-w-500"
+      ]
+    },
+    {
+      "id": "cmp-e-mtb",
+      "useCase": "e-mtb",
+      "variantIds": [
+        "var-cube-reaction-hybrid-one-800-royalgreen",
+        "var-merida-ebignine-675-750",
+        "var-specialized-s-works-turbo-levo-4-840",
+        "var-gepida-sirmium-pro-deore-10-500"
+      ]
+    },
+    {
+      "id": "cmp-compact-urban",
+      "useCase": "compact-urban",
+      "variantIds": [
+        "var-specialized-turbo-como-4-0-710-2025",
+        "var-trek-district-plus-9-powertube-500",
+        "var-cube-supreme-hybrid-deluxe-one-625-slateblack",
+        "var-gepida-bonum-edge-nexus-8c-coaster-400"
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "motor.position",
+      "affects": [
+        "var-cube-kathmandu-hybrid-one-800-metallicgrey",
+        "var-giant-explore-eplus-1-stagger-2026",
+        "var-merida-espresso-575-eq-750",
+        "var-cube-reaction-hybrid-one-800-royalgreen",
+        "var-merida-ebignine-675-750",
+        "var-specialized-s-works-turbo-levo-4-840",
+        "var-trek-district-plus-9-powertube-500",
+        "var-cube-supreme-hybrid-deluxe-one-625-slateblack"
+      ],
+      "reason": "Official pages list motor model/torque but omit an explicit mid/hub position label"
+    },
+    {
+      "field": "motor.torqueNm",
+      "affects": [
+        "var-gepida-berig-deore-10-w-500",
+        "var-gepida-bonum-edge-nexus-8c-coaster-400"
+      ],
+      "reason": "gepida.hu specs tables name Bosch motor families without Nm"
+    },
+    {
+      "field": "weightKg",
+      "affects": [
+        "var-giant-explore-eplus-1-stagger-2026",
+        "var-gepida-berig-deore-10-w-500",
+        "var-gepida-sirmium-pro-deore-10-500",
+        "var-specialized-turbo-como-4-0-710-2025",
+        "var-gepida-bonum-edge-nexus-8c-coaster-400"
+      ],
+      "reason": "Numeric weight absent on official page (or Giant dealer-weigh disclaimer only)"
+    },
+    {
+      "field": "weighingConditions",
+      "affects": [
+        "var-cube-kathmandu-hybrid-one-800-metallicgrey",
+        "var-cube-reaction-hybrid-one-800-royalgreen",
+        "var-cube-supreme-hybrid-deluxe-one-625-slateblack"
+      ],
+      "reason": "CUBE lists kg without size/equipment weighing conditions"
+    },
+    {
+      "field": "modelYear",
+      "affects": [
+        "var-merida-espresso-575-eq-750",
+        "var-gepida-berig-deore-10-w-500",
+        "var-merida-ebignine-675-750",
+        "var-specialized-s-works-turbo-levo-4-840",
+        "var-gepida-sirmium-pro-deore-10-500",
+        "var-trek-district-plus-9-powertube-500",
+        "var-gepida-bonum-edge-nexus-8c-coaster-400"
+      ],
+      "reason": "Not stated as a discrete model year on the fetched official page"
+    },
+    {
+      "field": "measuredRangeTest",
+      "affects": "all",
+      "reason": "No independent measured range tests collected; manufacturer range estimates left labeled as claims only"
+    },
+    {
+      "field": "scott-sports.com / trek Allant+ full-spec pages",
+      "affects": [],
+      "reason": "Scott Silence/Sub Cross and Trek Allant+/FX+ product pages were located but not required after 12 variants across 6 brands were filled from preferred domains; Trek Allant+ GB page returned empty specs on fetch"
+    }
+  ],
+  "conflicts": [
+    {
+      "id": "conflict-giant-explore-belt-vs-derailleur",
+      "variantId": "var-giant-explore-eplus-1-stagger-2026",
+      "url": "https://www.giant-bicycles.com/int/explore-eplus-1-stagger",
+      "summary": "Marketing copy highlights E-Shift with belt drive (asterisk: select models only), while this trim's Specs list Shimano Cues Di2 derailleur drivetrain — not a belt.",
+      "fields": [
+        "drivetrain"
+      ]
+    },
+    {
+      "id": "conflict-gepida-sirmium-tyre-names",
+      "variantId": "var-gepida-sirmium-pro-deore-10-500",
+      "url": "https://gepida.hu/gepida-sirmium-pro-deore-10-feher-11105",
+      "summary": "Marketing section names Schwalbe Rapid Rob; specs table lists SCHWALBE TOUGH TOM K-GUARD 60-622.",
+      "fields": [
+        "tires"
+      ]
+    },
+    {
+      "id": "conflict-gepida-bonum-brake-type",
+      "variantId": "var-gepida-bonum-edge-nexus-8c-coaster-400",
+      "url": "https://gepida.hu/bonum-edge-nexus-8c-coaster-wh-28-13619",
+      "summary": "FÉK TÍPUS is KONTRAFÉK (coaster) while the same table also lists Shimano BR-MT200 hydraulic disc calipers/levers and disc rotors; trim name includes COASTER — likely coaster + disc combination, but page does not clarify interaction.",
+      "fields": [
+        "brakes"
+      ]
+    },
+    {
+      "id": "conflict-gepida-berig-color-label",
+      "variantId": "var-gepida-berig-deore-10-w-500",
+      "url": "https://gepida.hu/gepida-berig-deore-10-w-matt-grafit-11372",
+      "summary": "URL/title uses matt grafit; specs table MATRICA SZÍN is MENTA.",
+      "fields": [
+        "colorAsListed"
+      ]
+    },
+    {
+      "id": "conflict-merida-archived-status",
+      "variantIds": [
+        "var-merida-espresso-575-eq-750",
+        "var-merida-ebignine-675-750"
+      ],
+      "urls": [
+        "https://www.merida-bikes.com/en/bike/5675-7682/espresso-575-eq",
+        "https://www.merida-bikes.com/en/bike/5704-7528/ebignine-675"
+      ],
+      "summary": "Official MERIDA pages are labeled archived; specs are still published but may not represent current production status.",
+      "fields": [
+        "availability",
+        "currencyOfSpecs"
+      ]
+    },
+    {
+      "id": "conflict-bosch-cx-torque-labeling-context",
+      "variantIds": [
+        "var-cube-kathmandu-hybrid-one-800-metallicgrey",
+        "var-cube-reaction-hybrid-one-800-royalgreen",
+        "var-gepida-sirmium-pro-deore-10-500"
+      ],
+      "summary": "CUBE BDU38 Performance Line CX is listed as max. 120Nm on cube.eu, while Gepida SIRMIUM PRO marketing states Bosch Performance Line CX at 85 Nm (BES2). Different Bosch CX generations/systems — do not merge torque figures across brands/years.",
+      "fields": [
+        "motor.torqueNm",
+        "motor.exactType"
+      ]
+    }
+  ]
+}
