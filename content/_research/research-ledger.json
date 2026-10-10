@@ -4,9 +4,8 @@
     "settlementResearchStatus": [
       "not_researched — a település még nem került többkifejezéses körbe",
       "in_progress — kutatás folyamatban",
-      "pass_incomplete — legalább egy keresési kör lefutott, de nem tekinthető lezártnak (kevés találat / forrásgát)",
-      "has_published — van publikált telephely",
-      "researched_no_verified — kör lefutott, igazolt publikálható tétel nélkül (≠ «nincs ott üzlet»)"
+      "pass_incomplete — előírt keresések vagy a feltárt találatok első feldolgozása hiányos",
+      "first_pass_closed — előírt keresési kör + találatok első feldolgozása kész (≠ minden üzlet megtalálva; ≠ minden jelölt ellenőrizve)"
     ],
     "candidateOutcome": [
       "settlement_not_searched — a település nem volt a kutatási körben",
@@ -23,7 +22,8 @@
       "AI-összefoglaló csak jelöltforrás; cím/elérhetőség/szerepkör külön ellenőrizendő elsődleges forrásból",
       "Forrás-elérhetetlenség ≠ megszűnt üzlet",
       "Egyetlen eredménytelen keresés ≠ település teljesen feldolgozott"
-    ]
+    ],
+    "openCandidatesSeparate": "Nyitott jelölt (pending_verification / found_source_unreachable) nem kényszerít pass_incomplete státuszt, ha a települési keresési kör és a találatok első feldolgozása dokumentáltan kész. pass_incomplete csak akkor marad, ha a kör maga hiányos, vagy a feldolgozás még nincs lezárva."
   },
   "exampleVellaiOcsa": {
     "name": "Vellai Kerékpár",
@@ -460,6 +460,17 @@
         "content/_research/batches/batch-pest-pass1-t-settlements-2026-10-10.json",
         "content/_research/batches/batch-pest-pass1-leftovers-2026-10-10.json"
       ]
+    },
+    {
+      "city": "*Pest vármegye — closure review*",
+      "unit": "Pest",
+      "accessedAt": "2026-10-10",
+      "queries": [
+        "A/B/C felülvizsgálat a 29 pass_incomplete településre",
+        "HNT 2025 helységszintű összevetés"
+      ],
+      "statusAfterPass": "first_pass_closed",
+      "notes": "A=6 feldolgozva; C=3 státusz/helyi jelölt rendezve; B=26 keresés kész + nyitott jelöltek. Pest státusz: {'first_pass_closed': 187}. Nyitott Pest jelöltek: 20."
     }
   ],
   "candidates": [
@@ -501,7 +512,8 @@
       "outcome": "pending_verification",
       "barrier": "Facebook eszközzel timeout; nincs más elsődleges oldal.",
       "candidateUrl": "https://www.facebook.com/350236528400715",
-      "priorWrongExclusion": "Saját weboldal hiánya — ez már nem kizáró ok."
+      "priorWrongExclusion": "Saját weboldal hiánya — ez már nem kizáró ok.",
+      "lastAttemptAt": "2026-10-10"
     },
     {
       "name": "Bike55 Kerékpár webshop és szerviz",
@@ -510,7 +522,8 @@
       "outcome": "found_source_unreachable",
       "barrier": "bike55.hu nem feloldható; elsődleges oldal hiányzik. Aggregátor/Maps jelölt.",
       "candidateUrl": "https://bike55.hu/",
-      "phoneHint": "+36 30 577 2946"
+      "phoneHint": "+36 30 577 2946",
+      "lastAttemptAt": "2026-10-10"
     },
     {
       "name": "Szigetkerékpár",
@@ -518,7 +531,8 @@
       "addressRaw": "2310 Szigetszentmiklós, Gyári út 9. (Maps) / Ifjúság útja 1. (régebbi lista) — címeltérés",
       "outcome": "pending_verification",
       "barrier": "Saját domain korábban 404/SSL; egymásnak ellentmondó címek a listákban; Facebook/Maps nem nyitható megbízhatóan.",
-      "candidateUrl": "https://szigetkerekpar.hu/"
+      "candidateUrl": "https://szigetkerekpar.hu/",
+      "lastAttemptAt": "2026-10-10"
     },
     {
       "name": "Eurocikli Kerékpárszaküzlet",
@@ -527,7 +541,8 @@
       "outcome": "found_source_unreachable",
       "barrier": "eurocikli.business.site 404; címeltérés; Facebook eszközzel nem ellenőrizhető. Nem minősítjük megszűntnek.",
       "candidateUrl": "https://eurocikli.business.site/",
-      "phoneHint": "+36 31 700 4991"
+      "phoneHint": "+36 31 700 4991",
+      "lastAttemptAt": "2026-10-10"
     },
     {
       "name": "Kerékpár szerviz Tatabánya Dózsakert / Erdész u.",
@@ -536,21 +551,24 @@
       "outcome": "pending_verification",
       "barrier": "Térképes szerviz-jelölt; hiányos cím; nincs saját domain a keresésben.",
       "candidateUrl": null,
-      "priorGapCause": "searched_not_found a korábbi szűk Tatabánya-körben (csak Jel/Konzum/M-Bike)."
+      "priorGapCause": "searched_not_found a korábbi szűk Tatabánya-körben (csak Jel/Konzum/M-Bike).",
+      "lastAttemptAt": "2026-10-10"
     },
     {
       "name": "M-Bike Kerékpárszaküzlet és Szerviz",
       "city": "Tatabánya",
       "outcome": "found_source_unreachable",
       "barrier": "mbike.hu nem elérhető; pótló hivatalos forrás nincs.",
-      "candidateUrl": "https://mbike.hu/"
+      "candidateUrl": "https://mbike.hu/",
+      "lastAttemptAt": "2026-10-10"
     },
     {
       "name": "Amanita Kerékpár Üzlet és Szerviz",
       "city": "Salgótarján",
       "outcome": "pending_verification",
       "barrier": "Csak aggregátor; nem végleges kizárás. Ellenőrizhető hivatalos forrás hiányzik — pending_verification.",
-      "candidateUrl": "https://megyerikerekpar.hu/amanita-kereskedelmi-es-szolgaltato-bt-kerekpar-uzlet-es-szerviz"
+      "candidateUrl": "https://megyerikerekpar.hu/amanita-kereskedelmi-es-szolgaltato-bt-kerekpar-uzlet-es-szerviz",
+      "lastAttemptAt": "2026-10-10"
     },
     {
       "name": "NE-VA-DA BT. kerékpárbolt",
@@ -558,7 +576,8 @@
       "addressRaw": "2200 Monor, Kapisztrán u. 3.",
       "outcome": "pending_verification",
       "barrier": "Régi kerekpar.info bejegyzés; nincs online elsődleges forrás; aktív-e tisztázandó.",
-      "candidateUrl": "https://kerekpar.info/hely/ne-va-da-bt-C2"
+      "candidateUrl": "https://kerekpar.info/hely/ne-va-da-bt-C2",
+      "lastAttemptAt": "2026-10-10"
     },
     {
       "name": "Sir Vice Kerékpár Szerviz",
@@ -567,7 +586,8 @@
       "outcome": "pending_verification",
       "barrier": "sirvice.hu igazolja a szervizt, de a cím csak aggregátorokon jelenik meg.",
       "candidateUrl": "http://sirvice.hu/",
-      "phoneHint": "+36 70 343 8586"
+      "phoneHint": "+36 70 343 8586",
+      "lastAttemptAt": "2026-10-10"
     },
     {
       "name": "GEPÁRD Kerékpár és Sportfelszerelés",
@@ -575,16 +595,32 @@
       "addressRaw": "2750 Nagykőrös, Encsi u. 2. (jelölt)",
       "outcome": "found_source_unreachable",
       "barrier": "gepardkerekpar.hu 502/500 a kutatás alatt.",
-      "candidateUrl": "http://www.gepardkerekpar.hu/"
+      "candidateUrl": "http://www.gepardkerekpar.hu/",
+      "lastAttemptAt": "2026-10-10"
     },
     {
       "name": "Varsány Kerékpár",
       "city": "Dunavarsány",
       "addressRaw": "2336 Dunavarsány, Iskola u. 39.",
       "outcome": "pending_verification",
-      "barrier": "varsanykerekpar.hu karbantartás alatt; szerepek FB/Maps-en.",
+      "barrier": "varsanykerekpar.hu «Karbantartás alatt»; szerepek FB-n jelezve.",
       "candidateUrl": "https://varsanykerekpar.hu/",
-      "phoneHint": "+36 30 231 4725"
+      "phoneHint": "+36 30 231 4725",
+      "altSourcesTried": [
+        {
+          "url": "https://varsanykerekpar.hu/",
+          "ok": true,
+          "accessedAt": "2026-10-10",
+          "note": "Maintenance page only"
+        }
+      ],
+      "unchecked": [
+        "eladas",
+        "szerviz",
+        "aktuális nyitvatartás"
+      ],
+      "nextCheck": "Facebook üzleti oldal megnyitása ha eszköz engedi; domain újra",
+      "lastAttemptAt": "2026-10-10"
     },
     {
       "name": "Ronyabike",
@@ -593,7 +629,8 @@
       "outcome": "found_source_unreachable",
       "barrier": "ronyabike.hu 502; Cylex/telefon.",
       "candidateUrl": "http://www.ronyabike.hu/",
-      "phoneHint": "+36 20 336 1044"
+      "phoneHint": "+36 20 336 1044",
+      "lastAttemptAt": "2026-10-10"
     },
     {
       "name": "Nagytarcsa Kerékpár",
@@ -602,7 +639,8 @@
       "outcome": "found_source_unreachable",
       "barrier": "nagytarcsakerekpar.hu HTTrack/SSL; Facebook 403.",
       "candidateUrl": "https://www.facebook.com/109693017990756",
-      "phoneHint": "+36 30 489 2346"
+      "phoneHint": "+36 30 489 2346",
+      "lastAttemptAt": "2026-10-10"
     },
     {
       "name": "RideOn Kerékpárbolt",
@@ -611,7 +649,8 @@
       "outcome": "found_source_unreachable",
       "barrier": "Facebook primary 403; nincs más elsődleges oldal.",
       "candidateUrl": "https://www.facebook.com/102710112323499",
-      "phoneHint": "+36 70 455 4599"
+      "phoneHint": "+36 70 455 4599",
+      "lastAttemptAt": "2026-10-10"
     },
     {
       "name": "Bicajos Üzlet és Szerviz (Inárcs)",
@@ -620,7 +659,8 @@
       "outcome": "found_source_unreachable",
       "barrier": "Facebook 403; nem azonos a fóti Bicajos bolttal.",
       "candidateUrl": "https://www.facebook.com/bicajos",
-      "phoneHint": "+36 70 679 7445"
+      "phoneHint": "+36 70 679 7445",
+      "lastAttemptAt": "2026-10-10"
     },
     {
       "name": "Táltos Bringa / Bencsik Kerékpárszervíz",
@@ -629,7 +669,8 @@
       "outcome": "found_source_unreachable",
       "barrier": "taltosbringa.hu 502/500; csak aggregátor.",
       "candidateUrl": "http://www.taltosbringa.hu/",
-      "phoneHint": "+36 30 942 9641"
+      "phoneHint": "+36 30 942 9641",
+      "lastAttemptAt": "2026-10-10"
     },
     {
       "name": "Global Bringa / Millenáris",
@@ -638,16 +679,31 @@
       "outcome": "pending_verification",
       "barrier": "globalbringa.hu parkolt/hijacked; címforrások ellentmondás.",
       "candidateUrl": "http://bringazz.hu/bringabolt/global-bringa/325",
-      "phoneHint": "+36 70 392 9395"
+      "phoneHint": "+36 70 392 9395",
+      "lastAttemptAt": "2026-10-10"
     },
     {
       "name": "Peter's Műszaki Shop",
       "city": "Délegyháza",
       "addressRaw": "2337 Délegyháza, Üdülő sétány 1.",
       "outcome": "pending_verification",
-      "barrier": "Saját oldal elérhető; kerékpár értékesítés/szerviz állítás a főoldalon nem egyértelmű.",
+      "barrier": "Saját oldal elérhető (cím/telefon), de kerékpár értékesítés/szerviz állítás nem egyértelmű a főoldalon.",
       "candidateUrl": "https://petersmuszaki.hu/",
-      "phoneHint": "+36 30 942 4822"
+      "phoneHint": "+36 30 942 4822",
+      "altSourcesTried": [
+        {
+          "url": "https://petersmuszaki.hu/",
+          "ok": true,
+          "accessedAt": "2026-10-10",
+          "note": "Kapcsolat OK; bike role thin"
+        }
+      ],
+      "unchecked": [
+        "eladas szerep",
+        "szerviz szerep"
+      ],
+      "nextCheck": "Belső oldal / terméklista / kerekpar.info idézet elsődleges forrással összevetve",
+      "lastAttemptAt": "2026-10-10"
     },
     {
       "name": "Multi-Bringa szerviz szerep",
@@ -662,7 +718,8 @@
           "outcome": "pending_verification"
         }
       ],
-      "publishedLocationId": "loc-multi-bringa-dabas"
+      "publishedLocationId": "loc-multi-bringa-dabas",
+      "lastAttemptAt": "2026-10-10"
     },
     {
       "name": "Vellai Kerékpár — szerviz",
@@ -676,7 +733,8 @@
           "role": "szerviz",
           "outcome": "pending_verification"
         }
-      ]
+      ],
+      "lastAttemptAt": "2026-10-10"
     },
     {
       "name": "Bladeus Design — kerékpárszerviz",
@@ -775,16 +833,126 @@
       "outcome": "published",
       "publishedLocationId": "loc-ebikeshop-torokbalint",
       "accessedAt": "2026-10-10"
+    },
+    {
+      "name": "Isapet Állateledel és Kerékpár Szerviz (Maps név)",
+      "city": "Isaszeg",
+      "addressRaw": "2117 Isaszeg, Rákóczi utca 13.",
+      "outcome": "found_excluded",
+      "barrier": "Saját oldal (isapet.hu) csak állateledel webáruház; kerékpárszerviz állítás nem igazolt — Maps név félrevezető.",
+      "candidateUrl": "http://www.isapet.hu/",
+      "exclusionReason": "out_of_scope_or_unverified_bike_activity",
+      "lastAttemptAt": "2026-10-10"
+    },
+    {
+      "name": "Vajda Tamás – Isaszegi Vegyesiparcikk",
+      "city": "Isaszeg",
+      "addressRaw": "2117 Isaszeg, Kossuth Lajos utca 22.",
+      "outcome": "pending_verification",
+      "barrier": "Csak kerekpar.info / aggregátor; dedikált elsődleges oldal nincs.",
+      "candidateUrl": "https://kerekpar.info/bolt/isaszeg%7Cpest-megye",
+      "unchecked": [
+        "aktív-e",
+        "kerékpár szerep vs vegyes"
+      ],
+      "nextCheck": "Helyi FB / telefonos nem (tilos); újabb elsődleges web vagy hivatalos kereskedőlista",
+      "lastAttemptAt": "2026-10-10"
+    },
+    {
+      "name": "Mike's Bikes & Bytes",
+      "city": "Ráckeve",
+      "addressRaw": "2300 Ráckeve, Lacházi út 32. (aggregátorok; saját oldalon nincs cím)",
+      "outcome": "pending_verification",
+      "barrier": "mikesbikes.hu elérhető és kerékpárt/Merida-t említ, de utcai cím/telefon nincs a saját oldalon. BikeFun dealer oldal nem talált.",
+      "candidateUrl": "http://mikesbikes.hu/",
+      "phoneHint": "+36 20 775 1178",
+      "altSourcesTried": [
+        {
+          "url": "http://mikesbikes.hu/",
+          "ok": true,
+          "accessedAt": "2026-10-10",
+          "note": "Nincs cím a lapon"
+        },
+        {
+          "url": "https://bikefun.hu/shops?search=Ráckeve",
+          "ok": false,
+          "accessedAt": "2026-10-10",
+          "note": "BikeFun hibaoldal"
+        }
+      ],
+      "unchecked": [
+        "cím elsődleges forrásból",
+        "szerviz külön igazolás"
+      ],
+      "nextCheck": "Kapcsolat aloldal / hivatalos FB business / más dealer kereső",
+      "lastAttemptAt": "2026-10-10"
+    },
+    {
+      "name": "BraunBike – Kerékpár szerviz és szaküzlet",
+      "city": "Gyál",
+      "addressRaw": "2360 Gyál, Bercsényi Miklós u. 29.",
+      "outcome": "pending_verification",
+      "barrier": "Erős aggregátor/értékelő egyezés; saját web/FB eszközzel nem igazolt.",
+      "candidateUrl": "https://www.kerekparturul.eu/profile-1975-braunbike",
+      "phoneHint": "+36 20 824 3171",
+      "altSourcesTried": [
+        {
+          "url": "https://magyarceginfo.hu/ceginfo/sport-szabadido/kerekpar-bolt-es-javitas/braun-kerekpar-szerviz-es-szakuzlet/",
+          "ok": true,
+          "accessedAt": "2026-10-10",
+          "note": "Céginfó szöveg; nem saját domain"
+        }
+      ],
+      "unchecked": [
+        "elsődleges hivatalos oldal",
+        "eladas vs szerviz szerepek"
+      ],
+      "nextCheck": "Saját domain / FB business page",
+      "lastAttemptAt": "2026-10-10"
+    },
+    {
+      "name": "Használbicajok",
+      "city": "Ócsa",
+      "addressRaw": "Ócsa (telephely) — utcai házszám a saját oldalon nincs; Bp XXIII. átvételi pont",
+      "outcome": "pending_verification",
+      "barrier": "Saját kapcsolat oldal Ócsát állít telephelyként, de nincs utcacím; korábban tévesen Pusztavacshoz kötve.",
+      "candidateUrl": "https://www.hasznaltbicajok.hu/kapcsolat/",
+      "phoneHint": "+36 70 325 4204",
+      "priorWrongLocality": "Pusztavacs (Maps) — elvetve saját kapcsolat oldal alapján",
+      "unchecked": [
+        "utcai cím",
+        "szerviz külön"
+      ],
+      "nextCheck": "Utca/házszám elsődleges forrásból",
+      "lastAttemptAt": "2026-10-10"
+    },
+    {
+      "name": "Használbicajok (Pusztavacs téves hozzárendelés)",
+      "city": "Pusztavacs",
+      "outcome": "found_excluded",
+      "barrier": "Saját kapcsolat: telephely Ócsa, átvétel Bp XXIII. — nem Pusztavacs helyi üzlet.",
+      "candidateUrl": "https://www.hasznaltbicajok.hu/kapcsolat/",
+      "exclusionReason": "wrong_settlement",
+      "lastAttemptAt": "2026-10-10"
     }
   ],
   "settlementDirectory": {
     "source": {
       "nameList": {
         "publisher": "Központi Statisztikai Hivatal (KSH)",
-        "document": "hnk_2019.xlsx — Magyarország közigazgatási helységnévtára export",
+        "document": "hnt_letoltes_2025.xlsx — Magyarország helységnévtára letöltés",
+        "asOf": "2025-01-01",
+        "url": "https://www.ksh.hu/docs/helysegnevtar/hnt_letoltes_2025.xlsx",
+        "downloadPage": "https://www.ksh.hu/apps/hntr.egyeb?p_lang=HU&p_sablon=LETOLTES",
+        "localCopy": "content/_research/sources/hnt_letoltes_2025.xlsx",
+        "note": "Helységszintű hivatalos jegyzék (név, KSH-kód, jogállás, vármegye, járás). Budapest egy helység; a 23 kerület a letöltésben külön sor, de országos településszámba nem számítanak."
+      },
+      "priorNameList": {
+        "publisher": "Központi Statisztikai Hivatal (KSH)",
+        "document": "hnk_2019.xlsx",
         "asOf": "2019-01-01",
         "url": "https://www.ksh.hu/docs/hun/hnk/hnk_2019.xlsx",
-        "note": "Településnevek, KSH-kódok, jogállás. Csongrád→Csongrád-Csanád. Fővárosi kerületek unit=Budapest."
+        "note": "Korábbi munkalista-alap; a kutatási előzmények ehhez kötődtek. 2025-ös összevetés után a Pest nevek/KSH-kódok egyeztek."
       },
       "countValidation": {
         "publisher": "KSH STADAT / Területi atlasz",
@@ -792,7 +960,38 @@
         "url": "https://www.ksh.gov.hu/stadat_files/fol/hu/fol0010.html",
         "pestSettlements": 187,
         "hungarySettlements": 3155,
-        "note": "Pest HNK-lapon 187 = STADAT 2026.01.01. Országos település: 3154 megyei + Budapest főváros; 23 kerület külön kutatási bontás."
+        "note": "Darabszám-ellenőrzés önmagában NEM helyettesíti a név/KSH/vármegye összevetést."
+      },
+      "compareHnt2025": {
+        "accessedAt": "2026-10-10",
+        "reference": {
+          "publisher": "Központi Statisztikai Hivatal (KSH)",
+          "document": "hnt_letoltes_2025.xlsx — Magyarország helységnévtára letöltés",
+          "asOf": "2025-01-01",
+          "url": "https://www.ksh.hu/docs/helysegnevtar/hnt_letoltes_2025.xlsx",
+          "downloadPage": "https://www.ksh.hu/apps/hntr.egyeb?p_lang=HU&p_sablon=LETOLTES",
+          "localCopy": "content/_research/sources/hnt_letoltes_2025.xlsx"
+        },
+        "previousWorklistBasis": {
+          "document": "hnk_2019.xlsx",
+          "asOf": "2019-01-01",
+          "note": "Nevek/KSH-kódok ebből; 2026 STADAT csak darabszám-validáció volt."
+        },
+        "national": {
+          "settlementsInHnt2025": 3179,
+          "budapestAsOneSettlement": true,
+          "note": "A Helységnévtár helységszinten Budapestet egy helységként tartalmazza; a 23 kerület nem külön helység a helységlistában."
+        },
+        "pest": {
+          "hnt2025Count": 187,
+          "worklistCount": 187,
+          "onlyInHnt2025": [],
+          "onlyInWorklist": [],
+          "kshMismatchSameName": [],
+          "wrongCountyInWorklist": [],
+          "jarasFieldDifferences": 0,
+          "legalStatusDifferences": 2
+        }
       },
       "accessedAt": "2026-10-10"
     },
@@ -800,20 +999,23 @@
       "settlementResearchStatus": [
         "not_researched",
         "in_progress",
-        "pass_incomplete",
-        "first_pass_closed — előírt első keresési kör lefutott (≠ teljes lefedettség)",
-        "has_published — van publikált telephely (nem azonos a first_pass_closed-dal)"
+        "pass_incomplete — előírt keresések / találatok első feldolgozása nincs kész",
+        "first_pass_closed — előírt keresések + feltárt találatok első feldolgozása kész (≠ teljes lefedettség; nyitott jelölt megengedett)"
       ],
       "layers": "1) settlementResearchStatus 2) location publishability (candidates/locations) 3) serviceVerification szerepkörönként",
+      "openCandidates": "A nyitott jelöltek száma KÜLÖN mutató a hiányosan kutatott településektől. first_pass_closed mellett is maradhat pending_verification / found_source_unreachable jelölt.",
       "publicUi": "A munkalista NEM kerül a nyilvános city comboboxba.",
-      "budapest": "Külön unit; nem Pest vármegye."
+      "budapest": "Egy település az országos településszámban; 23 kerület külön kutatási alegység."
     },
     "totals": {
+      "settlementsNational": 3155,
       "countySettlements": 3154,
-      "budapestDistricts": 23,
-      "budapestCapitalRow": 1,
+      "budapestAsSettlement": 1,
+      "budapestDistrictResearchUnits": 23,
+      "researchUnitsNational": 3178,
       "worklistRows": 3178,
-      "pestSettlements": 187
+      "pestSettlements": 187,
+      "note": "Települések = 3155. Kutatási egységek = 3178 (Budapest 23 kerülete külön alegység, nem +23 település)."
     },
     "items": [
       {
@@ -1314,11 +1516,16 @@
         "unit": "Pest",
         "jaras": "Ceglédi",
         "kind": "settlement",
-        "settlementResearchStatus": "pass_incomplete",
+        "settlementResearchStatus": "first_pass_closed",
         "publishedLocationIds": [],
         "publishedCount": 0,
-        "firstPassClosedAt": null,
-        "notes": "Global Bringa címütközés; több aggregátor-jelölt pending."
+        "firstPassClosedAt": "2026-10-10",
+        "notes": "B: első kör kész. Global Bringa címütközés + domain hijack; további aggregátor jelöltek — pending.",
+        "closureReview": {
+          "accessedAt": "2026-10-10",
+          "group": "B",
+          "openCandidatesAllowed": true
+        }
       },
       {
         "name": "Ábrahámhegy",
@@ -8044,11 +8251,16 @@
         "unit": "Pest",
         "jaras": "Gödöllői",
         "kind": "settlement",
-        "settlementResearchStatus": "pass_incomplete",
+        "settlementResearchStatus": "first_pass_closed",
         "publishedLocationIds": [],
         "publishedCount": 0,
-        "firstPassClosedAt": null,
-        "notes": "Ronyabike 502; Szabó Antal lista; Decathlon lánc."
+        "firstPassClosedAt": "2026-10-10",
+        "notes": "B: Ronyabike 502; Szabó Antal helyi lista; Decathlon lánc editorial — pending.",
+        "closureReview": {
+          "accessedAt": "2026-10-10",
+          "group": "B",
+          "openCandidatesAllowed": true
+        }
       },
       {
         "name": "Csönge",
@@ -8495,11 +8707,16 @@
         "unit": "Pest",
         "jaras": "Szigetszentmiklósi",
         "kind": "settlement",
-        "settlementResearchStatus": "pass_incomplete",
+        "settlementResearchStatus": "first_pass_closed",
         "publishedLocationIds": [],
         "publishedCount": 0,
-        "firstPassClosedAt": null,
-        "notes": "Peter’s Műszaki: saját oldal, kerékpár szerep tisztázandó."
+        "firstPassClosedAt": "2026-10-10",
+        "notes": "A→B: petersmuszaki.hu megnyitva; cím/telefon OK, de kerékpár eladás/szerviz állítás a főoldalon nem egyértelmű — pending.",
+        "closureReview": {
+          "accessedAt": "2026-10-10",
+          "group": "A_processed",
+          "openCandidatesAllowed": true
+        }
       },
       {
         "name": "Demecser",
@@ -9030,11 +9247,16 @@
         "unit": "Pest",
         "jaras": "Ráckevei",
         "kind": "settlement",
-        "settlementResearchStatus": "pass_incomplete",
+        "settlementResearchStatus": "first_pass_closed",
         "publishedLocationIds": [],
         "publishedCount": 0,
-        "firstPassClosedAt": null,
-        "notes": "kerekpar.info egyetlen helyi listázott bolt; saját web/Facebook nem található."
+        "firstPassClosedAt": "2026-10-10",
+        "notes": "B: Laxer Műszaki csak kerekpar.info — pending.",
+        "closureReview": {
+          "accessedAt": "2026-10-10",
+          "group": "B",
+          "openCandidatesAllowed": true
+        }
       },
       {
         "name": "Dör",
@@ -9394,13 +9616,18 @@
         "unit": "Pest",
         "jaras": "Szigetszentmiklósi",
         "kind": "settlement",
-        "settlementResearchStatus": "pass_incomplete",
+        "settlementResearchStatus": "first_pass_closed",
         "publishedLocationIds": [
           "loc-bringalambos-dunaharaszti"
         ],
         "publishedCount": 1,
-        "firstPassClosedAt": null,
-        "notes": "Bringalambos publikált; Kerékpárkirály 502; másik jelölt FB."
+        "firstPassClosedAt": "2026-10-10",
+        "notes": "B: Bringalambos publikált. Kerékpárkirály domain 502; másik FB jelölt — pending.",
+        "closureReview": {
+          "accessedAt": "2026-10-10",
+          "group": "B",
+          "openCandidatesAllowed": true
+        }
       },
       {
         "name": "Dunakeszi",
@@ -9585,11 +9812,16 @@
         "unit": "Pest",
         "jaras": "Szigetszentmiklósi",
         "kind": "settlement",
-        "settlementResearchStatus": "pass_incomplete",
+        "settlementResearchStatus": "first_pass_closed",
         "publishedLocationIds": [],
         "publishedCount": 0,
-        "firstPassClosedAt": null,
-        "notes": "Varsány Kerékpár: domain karbantartás alatt."
+        "firstPassClosedAt": "2026-10-10",
+        "notes": "A→B: varsanykerekpar.hu továbbra is «karbantartás alatt»; FB/telefon a következő lépés — pending.",
+        "closureReview": {
+          "accessedAt": "2026-10-10",
+          "group": "A_processed",
+          "openCandidatesAllowed": true
+        }
       },
       {
         "name": "Dunavecse",
@@ -10752,11 +10984,16 @@
         "unit": "Pest",
         "jaras": "Nagykátai",
         "kind": "settlement",
-        "settlementResearchStatus": "pass_incomplete",
+        "settlementResearchStatus": "first_pass_closed",
         "publishedLocationIds": [],
         "publishedCount": 0,
-        "firstPassClosedAt": null,
-        "notes": "Helyi Bt. szakkatalógus/nearfinder; kerékpár + moped/tricikli keverék — működés megerősítése kell."
+        "firstPassClosedAt": "2026-10-10",
+        "notes": "B: Nyíri Kerék Bt. directory-only — pending.",
+        "closureReview": {
+          "accessedAt": "2026-10-10",
+          "group": "B",
+          "openCandidatesAllowed": true
+        }
       },
       {
         "name": "Fazekasboda",
@@ -12652,13 +12889,18 @@
         "unit": "Pest",
         "jaras": "Dunakeszi",
         "kind": "settlement",
-        "settlementResearchStatus": "pass_incomplete",
+        "settlementResearchStatus": "first_pass_closed",
         "publishedLocationIds": [
           "loc-horex-god"
         ],
         "publishedCount": 1,
-        "firstPassClosedAt": null,
-        "notes": "Horex publikált; Sir Vice cím nincs a saját oldalon → pending."
+        "firstPassClosedAt": "2026-10-10",
+        "notes": "B: Horex publikált. Sir Vice: szerviz saját oldalon, cím csak aggregátoron — pending.",
+        "closureReview": {
+          "accessedAt": "2026-10-10",
+          "group": "B",
+          "openCandidatesAllowed": true
+        }
       },
       {
         "name": "Gödöllő",
@@ -12667,14 +12909,19 @@
         "unit": "Pest",
         "jaras": "Gödöllői",
         "kind": "settlement",
-        "settlementResearchStatus": "pass_incomplete",
+        "settlementResearchStatus": "first_pass_closed",
         "publishedLocationIds": [
           "loc-akosbike-godollo",
           "loc-axus-bringabolt-godollo"
         ],
         "publishedCount": 2,
-        "firstPassClosedAt": null,
-        "notes": "Ákosbike/Axus publikált; Megyeri domain spam/hijack; Hervis lánc."
+        "firstPassClosedAt": "2026-10-10",
+        "notes": "B: Ákosbike/Axus publikált. Megyeri domain spam; Hervis lánc — pending.",
+        "closureReview": {
+          "accessedAt": "2026-10-10",
+          "group": "B",
+          "openCandidatesAllowed": true
+        }
       },
       {
         "name": "Gödre",
@@ -12865,13 +13112,18 @@
         "unit": "Pest",
         "jaras": "Gyáli",
         "kind": "settlement",
-        "settlementResearchStatus": "pass_incomplete",
+        "settlementResearchStatus": "first_pass_closed",
         "publishedLocationIds": [
           "loc-bringacsalad-gyal"
         ],
         "publishedCount": 1,
-        "firstPassClosedAt": null,
-        "notes": "Bringacsalád publikált; BraunBike/Danabike pending."
+        "firstPassClosedAt": "2026-10-10",
+        "notes": "A→B: Bringacsalád publikált. BraunBike: csak aggregátor/értékelő (Turul/magyarceginfo); saját oldal nincs — pending. Danabike webáruház cím tisztázandó.",
+        "closureReview": {
+          "accessedAt": "2026-10-10",
+          "group": "A_processed",
+          "openCandidatesAllowed": true
+        }
       },
       {
         "name": "Gyalóka",
@@ -15465,11 +15717,16 @@
         "unit": "Pest",
         "jaras": "Dabasi",
         "kind": "settlement",
-        "settlementResearchStatus": "pass_incomplete",
+        "settlementResearchStatus": "first_pass_closed",
         "publishedLocationIds": [],
         "publishedCount": 0,
-        "firstPassClosedAt": null,
-        "notes": "Bicajos FB-only; eszközzel 403."
+        "firstPassClosedAt": "2026-10-10",
+        "notes": "B: Bicajos FB 403 — pending.",
+        "closureReview": {
+          "accessedAt": "2026-10-10",
+          "group": "B",
+          "openCandidatesAllowed": true
+        }
       },
       {
         "name": "Inke",
@@ -15595,11 +15852,16 @@
         "unit": "Pest",
         "jaras": "Gödöllői",
         "kind": "settlement",
-        "settlementResearchStatus": "pass_incomplete",
+        "settlementResearchStatus": "first_pass_closed",
         "publishedLocationIds": [],
         "publishedCount": 0,
-        "firstPassClosedAt": null,
-        "notes": "Vegyes / Isapet szerep tisztázandó."
+        "firstPassClosedAt": "2026-10-10",
+        "notes": "A→B: Isapet saját oldal = állateledel bolt (kerékpár szerep elvetve). Vajda Tamás vegyesiparcikk továbbra is csak kerekpar.info — pending.",
+        "closureReview": {
+          "accessedAt": "2026-10-10",
+          "group": "A_processed",
+          "openCandidatesAllowed": true
+        }
       },
       {
         "name": "Ispánk",
@@ -17151,11 +17413,16 @@
         "unit": "Pest",
         "jaras": "Aszódi",
         "kind": "settlement",
-        "settlementResearchStatus": "pass_incomplete",
+        "settlementResearchStatus": "first_pass_closed",
         "publishedLocationIds": [],
         "publishedCount": 0,
-        "firstPassClosedAt": null,
-        "notes": "Táltos Bringa domain 502; Garázs mobil."
+        "firstPassClosedAt": "2026-10-10",
+        "notes": "B: Táltos Bringa 502; Garázs mobil — pending.",
+        "closureReview": {
+          "accessedAt": "2026-10-10",
+          "group": "B",
+          "openCandidatesAllowed": true
+        }
       },
       {
         "name": "Kásád",
@@ -18941,7 +19208,7 @@
       {
         "name": "Kiskunlacháza",
         "kshCode": "10816",
-        "legalStatus": "nagyközség",
+        "legalStatus": "város",
         "unit": "Pest",
         "jaras": "Ráckevei",
         "kind": "settlement",
@@ -18951,7 +19218,7 @@
         ],
         "publishedCount": 1,
         "firstPassClosedAt": "2026-10-10",
-        "notes": "KerékpárCity publikált."
+        "notes": "KerékpárCity publikált. Jogállás HNT2025 szerint frissítve: nagyközség→város."
       },
       {
         "name": "Kiskunmajsa",
@@ -24063,13 +24330,18 @@
         "unit": "Pest",
         "jaras": "Monori",
         "kind": "settlement",
-        "settlementResearchStatus": "pass_incomplete",
+        "settlementResearchStatus": "first_pass_closed",
         "publishedLocationIds": [
           "loc-bicibolt-monor"
         ],
         "publishedCount": 1,
-        "firstPassClosedAt": null,
-        "notes": "Memo-Bike megtalálva (Facebook + telefon + cím). Korábban hibásan «nincs saját weboldal» miatt kizárva — ez a szabály most érvénytelen. Facebook eszközzel timeout → pending_verification."
+        "firstPassClosedAt": "2026-10-10",
+        "notes": "B: Bicibolt publikált. Memo-Bike FB timeout; NE-VA-DA régi lista — pending.",
+        "closureReview": {
+          "accessedAt": "2026-10-10",
+          "group": "B",
+          "openCandidatesAllowed": true
+        }
       },
       {
         "name": "Monorierdő",
@@ -25162,11 +25434,16 @@
         "unit": "Pest",
         "jaras": "Budakeszi",
         "kind": "settlement",
-        "settlementResearchStatus": "pass_incomplete",
+        "settlementResearchStatus": "first_pass_closed",
         "publishedLocationIds": [],
         "publishedCount": 0,
-        "firstPassClosedAt": null,
-        "notes": "RideOn FB-only 403."
+        "firstPassClosedAt": "2026-10-10",
+        "notes": "B: RideOn FB 403 — pending.",
+        "closureReview": {
+          "accessedAt": "2026-10-10",
+          "group": "B",
+          "openCandidatesAllowed": true
+        }
       },
       {
         "name": "Nagykozár",
@@ -25214,11 +25491,16 @@
         "unit": "Pest",
         "jaras": "Nagykőrösi",
         "kind": "settlement",
-        "settlementResearchStatus": "pass_incomplete",
+        "settlementResearchStatus": "first_pass_closed",
         "publishedLocationIds": [],
         "publishedCount": 0,
-        "firstPassClosedAt": null,
-        "notes": "Több helyi jelölt; Aranypedál csak régi aggregátor — működés/egyesülés tisztázandó."
+        "firstPassClosedAt": "2026-10-10",
+        "notes": "B: GEPÁRD domain 500/502; Kocsis-Bike FB; Aranypedál régi aggregátor — pending.",
+        "closureReview": {
+          "accessedAt": "2026-10-10",
+          "group": "B",
+          "openCandidatesAllowed": true
+        }
       },
       {
         "name": "Nagykörű",
@@ -25658,11 +25940,16 @@
         "unit": "Pest",
         "jaras": "Gödöllői",
         "kind": "settlement",
-        "settlementResearchStatus": "pass_incomplete",
+        "settlementResearchStatus": "first_pass_closed",
         "publishedLocationIds": [],
         "publishedCount": 0,
-        "firstPassClosedAt": null,
-        "notes": "FB primary; .hu HTTrack/SSL hibás."
+        "firstPassClosedAt": "2026-10-10",
+        "notes": "B: FB 403; .hu HTTrack/SSL — pending.",
+        "closureReview": {
+          "accessedAt": "2026-10-10",
+          "group": "B",
+          "openCandidatesAllowed": true
+        }
       },
       {
         "name": "Nagytevel",
@@ -26616,7 +26903,7 @@
       {
         "name": "Nyáregyháza",
         "kshCode": "23038",
-        "legalStatus": "község",
+        "legalStatus": "nagyközség",
         "unit": "Pest",
         "jaras": "Monori",
         "kind": "settlement",
@@ -26624,7 +26911,7 @@
         "publishedLocationIds": [],
         "publishedCount": 0,
         "firstPassClosedAt": "2026-10-10",
-        "notes": "Nincs helyi."
+        "notes": "Nincs helyi. Jogállás HNT2025 szerint frissítve: község→nagyközség."
       },
       {
         "name": "Nyárlőrinc",
@@ -27958,11 +28245,16 @@
         "unit": "Pest",
         "jaras": "Váci",
         "kind": "settlement",
-        "settlementResearchStatus": "pass_incomplete",
+        "settlementResearchStatus": "first_pass_closed",
         "publishedLocationIds": [],
         "publishedCount": 0,
-        "firstPassClosedAt": null,
-        "notes": "Helyi szerviz-jelölt email/telefon; nincs igazolt utcai üzletcím."
+        "firstPassClosedAt": "2026-10-10",
+        "notes": "B: Bottyán Bringa joszaki profil; utcai cím hiány — pending.",
+        "closureReview": {
+          "accessedAt": "2026-10-10",
+          "group": "B",
+          "openCandidatesAllowed": true
+        }
       },
       {
         "name": "Öregcsertő",
@@ -28939,11 +29231,16 @@
         "unit": "Pest",
         "jaras": "Gödöllői",
         "kind": "settlement",
-        "settlementResearchStatus": "pass_incomplete",
+        "settlementResearchStatus": "first_pass_closed",
         "publishedLocationIds": [],
         "publishedCount": 0,
-        "firstPassClosedAt": null,
-        "notes": "Erős Maps/Facebook jel; saját domain 502."
+        "firstPassClosedAt": "2026-10-10",
+        "notes": "B: pecelibringaszerviz.hu 502; FB/Maps — pending.",
+        "closureReview": {
+          "accessedAt": "2026-10-10",
+          "group": "B",
+          "openCandidatesAllowed": true
+        }
       },
       {
         "name": "Pecöl",
@@ -29463,13 +29760,18 @@
         "unit": "Pest",
         "jaras": "Monori",
         "kind": "settlement",
-        "settlementResearchStatus": "pass_incomplete",
+        "settlementResearchStatus": "first_pass_closed",
         "publishedLocationIds": [
           "loc-kalman-bringa-19-pilis"
         ],
         "publishedCount": 1,
-        "firstPassClosedAt": null,
-        "notes": "Publishable jelölt; Bringa-Napsugár Butik Rákóczi 22. ruházat, nem kerékpár-szaküzlet."
+        "firstPassClosedAt": "2026-10-10",
+        "notes": "C: első kör kész; Kálmán Bringa 19 publikált. Bringa-Napsugár Butik ruházat — nem kerékpár-szaküzlet.",
+        "closureReview": {
+          "accessedAt": "2026-10-10",
+          "group": "C",
+          "openCandidatesAllowed": false
+        }
       },
       {
         "name": "Pilisborosjenő",
@@ -29491,11 +29793,16 @@
         "unit": "Pest",
         "jaras": "Pilisvörösvári",
         "kind": "settlement",
-        "settlementResearchStatus": "pass_incomplete",
+        "settlementResearchStatus": "first_pass_closed",
         "publishedLocationIds": [],
         "publishedCount": 0,
-        "firstPassClosedAt": null,
-        "notes": "Egy helyi Maps-jelölt; elsődleges Facebook."
+        "firstPassClosedAt": "2026-10-10",
+        "notes": "B: Pilis Bike Shop FB-only — pending.",
+        "closureReview": {
+          "accessedAt": "2026-10-10",
+          "group": "B",
+          "openCandidatesAllowed": true
+        }
       },
       {
         "name": "Piliscsév",
@@ -29831,13 +30138,18 @@
         "unit": "Pest",
         "jaras": "Szentendrei",
         "kind": "settlement",
-        "settlementResearchStatus": "pass_incomplete",
+        "settlementResearchStatus": "first_pass_closed",
         "publishedLocationIds": [
           "loc-hamori-sport-pomaz"
         ],
         "publishedCount": 1,
-        "firstPassClosedAt": null,
-        "notes": "Két helyi jelölt; Hámori elsődleges web megnyitva."
+        "firstPassClosedAt": "2026-10-10",
+        "notes": "B: Hámori Sport publikált. Pomáz Bringa csak aggregátor — pending.",
+        "closureReview": {
+          "accessedAt": "2026-10-10",
+          "group": "B",
+          "openCandidatesAllowed": true
+        }
       },
       {
         "name": "Porcsalma",
@@ -30353,11 +30665,16 @@
         "unit": "Pest",
         "jaras": "Dabasi",
         "kind": "settlement",
-        "settlementResearchStatus": "pass_incomplete",
+        "settlementResearchStatus": "first_pass_closed",
         "publishedLocationIds": [],
         "publishedCount": 0,
-        "firstPassClosedAt": null,
-        "notes": "Webshop telephely-cím hiányos."
+        "firstPassClosedAt": "2026-10-10",
+        "notes": "C/A-feldolgozás: Használbicajok saját kapcsolat oldala Ócsa telephelyet + Bp XXIII. átvételt állít — nem Pusztavacs helyi bolt. Első kör lezárva helyi jelölt nélkül.",
+        "closureReview": {
+          "accessedAt": "2026-10-10",
+          "group": "C",
+          "openCandidatesAllowed": false
+        }
       },
       {
         "name": "Pusztavám",
@@ -30691,11 +31008,16 @@
         "unit": "Pest",
         "jaras": "Ráckevei",
         "kind": "settlement",
-        "settlementResearchStatus": "pass_incomplete",
+        "settlementResearchStatus": "first_pass_closed",
         "publishedLocationIds": [],
         "publishedCount": 0,
-        "firstPassClosedAt": null,
-        "notes": "kerekpar.info 1 bolt; másik csak aggregátorokon."
+        "firstPassClosedAt": "2026-10-10",
+        "notes": "A→B: mikesbikes.hu elérhető (Merida/Neuzer említés), de utcai cím nincs a saját oldalon; V+M aggregátor — pending.",
+        "closureReview": {
+          "accessedAt": "2026-10-10",
+          "group": "A_processed",
+          "openCandidatesAllowed": true
+        }
       },
       {
         "name": "Rád",
@@ -33547,11 +33869,16 @@
         "unit": "Pest",
         "jaras": "Nagykátai",
         "kind": "settlement",
-        "settlementResearchStatus": "pass_incomplete",
+        "settlementResearchStatus": "first_pass_closed",
         "publishedLocationIds": [],
         "publishedCount": 0,
-        "firstPassClosedAt": null,
-        "notes": "Erős értékelő-profil; aggregátor-only."
+        "firstPassClosedAt": "2026-10-10",
+        "notes": "B: Tápióbringa aggregátor/FB; saját web nincs — pending.",
+        "closureReview": {
+          "accessedAt": "2026-10-10",
+          "group": "B",
+          "openCandidatesAllowed": true
+        }
       },
       {
         "name": "Sümeg",
@@ -34470,11 +34797,16 @@
         "unit": "Pest",
         "jaras": "Érdi",
         "kind": "settlement",
-        "settlementResearchStatus": "pass_incomplete",
+        "settlementResearchStatus": "first_pass_closed",
         "publishedLocationIds": [],
         "publishedCount": 0,
-        "firstPassClosedAt": null,
-        "notes": "Több aggregátor egyező címmel; nincs saját web."
+        "firstPassClosedAt": "2026-10-10",
+        "notes": "B: Mikrobike aggregátor egyező címmel — pending.",
+        "closureReview": {
+          "accessedAt": "2026-10-10",
+          "group": "B",
+          "openCandidatesAllowed": true
+        }
       },
       {
         "name": "Szebény",
@@ -34980,14 +35312,19 @@
         "unit": "Pest",
         "jaras": "Szentendrei",
         "kind": "settlement",
-        "settlementResearchStatus": "pass_incomplete",
+        "settlementResearchStatus": "first_pass_closed",
         "publishedLocationIds": [
           "loc-balazs-kerekparbolt-szentendre",
           "loc-kerekmania-szentendre"
         ],
         "publishedCount": 2,
-        "firstPassClosedAt": null,
-        "notes": "Re-check NEW: Kerékmánia nem publikált (Balázs már van)."
+        "firstPassClosedAt": "2026-10-10",
+        "notes": "C: első kör kész; Balázs + Kerékmánia publikált. Korábbi «Kerékmánia nem publikált» megjegyzés elavult.",
+        "closureReview": {
+          "accessedAt": "2026-10-10",
+          "group": "C",
+          "openCandidatesAllowed": false
+        }
       },
       {
         "name": "Szentes",
@@ -35427,11 +35764,16 @@
         "unit": "Pest",
         "jaras": "Szigetszentmiklósi",
         "kind": "settlement",
-        "settlementResearchStatus": "pass_incomplete",
+        "settlementResearchStatus": "first_pass_closed",
         "publishedLocationIds": [],
         "publishedCount": 0,
-        "firstPassClosedAt": null,
-        "notes": "kerekpar.info közeli bolt hivatkozás Veloat-ra."
+        "firstPassClosedAt": "2026-10-10",
+        "notes": "B: helyi Maps/kerekpar.info jelölt; Veloat hivatkozás — pending.",
+        "closureReview": {
+          "accessedAt": "2026-10-10",
+          "group": "B",
+          "openCandidatesAllowed": true
+        }
       },
       {
         "name": "Szigetmonostor",
@@ -35466,11 +35808,16 @@
         "unit": "Pest",
         "jaras": "Szigetszentmiklósi",
         "kind": "settlement",
-        "settlementResearchStatus": "pass_incomplete",
+        "settlementResearchStatus": "first_pass_closed",
         "publishedLocationIds": [],
         "publishedCount": 0,
-        "firstPassClosedAt": null,
-        "notes": "Bike55 és Szigetkerékpár továbbra is térkép/aggregátor + elérhetetlen saját domain. Nem «nincs ott üzlet»."
+        "firstPassClosedAt": "2026-10-10",
+        "notes": "B: Bike55 domain unreachable; Szigetkerékpár címeltérés — pending.",
+        "closureReview": {
+          "accessedAt": "2026-10-10",
+          "group": "B",
+          "openCandidatesAllowed": true
+        }
       },
       {
         "name": "Szigetújfalu",
@@ -42431,31 +42778,103 @@
     "accessedAt": "2026-10-10",
     "worklistSize": 187,
     "statusCounts": {
-      "pass_incomplete": 29,
-      "first_pass_closed": 158
+      "first_pass_closed": 187
     },
     "townsWithPublished": 39,
     "publishedLocationsInPest": 52,
     "nationalPublishedLocations": 198,
+    "openCandidatesPest": 20,
     "uncoveredSettlements": [],
+    "passIncompleteSettlements": [],
     "source": {
-      "nameList": {
-        "publisher": "Központi Statisztikai Hivatal (KSH)",
-        "document": "hnk_2019.xlsx — Magyarország közigazgatási helységnévtára export",
-        "asOf": "2019-01-01",
-        "url": "https://www.ksh.hu/docs/hun/hnk/hnk_2019.xlsx",
-        "note": "Településnevek, KSH-kódok, jogállás. Csongrád→Csongrád-Csanád. Fővárosi kerületek unit=Budapest."
-      },
-      "countValidation": {
-        "publisher": "KSH STADAT / Területi atlasz",
-        "asOf": "2026-01-01",
-        "url": "https://www.ksh.gov.hu/stadat_files/fol/hu/fol0010.html",
-        "pestSettlements": 187,
-        "hungarySettlements": 3155,
-        "note": "Pest HNK-lapon 187 = STADAT 2026.01.01. Országos település: 3154 megyei + Budapest főváros; 23 kerület külön kutatási bontás."
-      },
-      "accessedAt": "2026-10-10"
+      "publisher": "Központi Statisztikai Hivatal (KSH)",
+      "document": "hnt_letoltes_2025.xlsx — Magyarország helységnévtára letöltés",
+      "asOf": "2025-01-01",
+      "url": "https://www.ksh.hu/docs/helysegnevtar/hnt_letoltes_2025.xlsx",
+      "downloadPage": "https://www.ksh.hu/apps/hntr.egyeb?p_lang=HU&p_sablon=LETOLTES",
+      "localCopy": "content/_research/sources/hnt_letoltes_2025.xlsx",
+      "note": "Helységszintű hivatalos jegyzék (név, KSH-kód, jogállás, vármegye, járás). Budapest egy helység; a 23 kerület a letöltésben külön sor, de országos településszámba nem számítanak."
     },
-    "continueFrom": "Pest first pass complete — do not start next county in this task."
+    "continueFrom": "Pest első kör lezárva a tisztázott szabály szerint. Új vármegyét ne indíts. Következő: nyitott jelöltek elsődleges forrásai ha elérhetővé válnak."
+  },
+  "pestPass1ClosureReview": {
+    "accessedAt": "2026-10-10",
+    "triage": {
+      "accessedAt": "2026-10-10",
+      "previousIncomplete29": 29,
+      "groupA_atReviewStart": [
+        "Pusztavacs",
+        "Isaszeg",
+        "Délegyháza",
+        "Ráckeve",
+        "Dunavarsány",
+        "Gyál"
+      ],
+      "groupA_completedThisPass": [
+        "Pusztavacs",
+        "Isaszeg",
+        "Délegyháza",
+        "Ráckeve",
+        "Dunavarsány",
+        "Gyál"
+      ],
+      "groupA_remaining": [],
+      "groupB_searchDoneOpenCandidates": [
+        "Abony",
+        "Csömör",
+        "Dunaharaszti",
+        "Dunavarsány",
+        "Délegyháza",
+        "Dömsöd",
+        "Farmos",
+        "Gyál",
+        "Göd",
+        "Gödöllő",
+        "Inárcs",
+        "Isaszeg",
+        "Kartal",
+        "Monor",
+        "Nagykovácsi",
+        "Nagykőrös",
+        "Nagytarcsa",
+        "Piliscsaba",
+        "Pomáz",
+        "Pécel",
+        "Ráckeve",
+        "Szigethalom",
+        "Szigetszentmiklós",
+        "Százhalombatta",
+        "Sülysáp",
+        "Őrbottyán"
+      ],
+      "groupC_statusOnlyOrResolved": [
+        "Pilis",
+        "Szentendre",
+        "Pusztavacs"
+      ],
+      "policy": "first_pass_closed = előírt keresések + találatok első feldolgozása. Nyitott jelöltek külön (candidates)."
+    },
+    "statusCounts": {
+      "first_pass_closed": 187
+    },
+    "townsWithPublished": 39,
+    "openCandidatesPest": 20,
+    "openCandidatesNational": 24,
+    "openCandidateMainBarriers": {
+      "FB/403": 6,
+      "domain_down": 5,
+      "aggregator_only": 4,
+      "other": 2,
+      "address_conflict_or_missing": 3
+    },
+    "hnt2025Compare": {
+      "pestNameKshCountyMatch": true,
+      "legalStatusUpdated": [
+        "Kiskunlacháza",
+        "Nyáregyháza"
+      ],
+      "newOrRemovedPestSettlements": []
+    },
+    "continueFrom": "Pest első kör lezárva a tisztázott szabály szerint. Új vármegyét ne indíts. Következő: nyitott jelöltek elsődleges forrásai ha elérhetővé válnak."
   }
 }

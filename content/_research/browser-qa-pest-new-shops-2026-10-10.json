@@ -1,0 +1,22 @@
+{
+  "accessedAt": "2026-10-10",
+  "url": "https://kerekparindex.hu/",
+  "tool": "puppeteer-core + Google Chrome",
+  "viewports": [
+    "desktop 1280x800",
+    "mobile 390x844 (iPhone-like)"
+  ],
+  "cities": [
+    "Maglód",
+    "Budajenő",
+    "Dabas"
+  ],
+  "results": {
+    "heroHelyekChipSearch": "pass — city + shop name surfaced for all three on desktop and mobile",
+    "cityCombobox": "pass — Maglód/Budajenő/Dabas selectable",
+    "roleFilterSzerviz": "pass — select[name=role] value=szerviz; Maglód Javi remains with szerviz",
+    "detailSheet": "pass — Maglód detail shows address, phones, website, eladás+szerviz sources",
+    "overall": "pass"
+  },
+  "notes": "Initial automated pass missed szerviz select while combo panel open; follow-up confirmed role select works."
+}
