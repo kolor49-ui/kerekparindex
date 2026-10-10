@@ -1,6 +1,6 @@
 {
-  "accessedAt": "2026-10-10T17:51:46.795Z",
-  "base": "http://127.0.0.1:8771/",
+  "accessedAt": "2026-10-10T17:54:31.508Z",
+  "base": "https://kerekparindex.hu/",
   "pass": true,
   "viewports": [
     {
@@ -67,7 +67,7 @@
         {
           "id": "default-tab-brand-trek",
           "query": "Trek",
-          "cardCount": 1,
+          "cardCount": 8,
           "pass": true
         },
         {

@@ -26,13 +26,22 @@ function expectCityCount(content, city) {
   ).length;
 }
 
+async function activateTab(page, tab) {
+  await page.evaluate((t) => {
+    const el = document.querySelector(`[data-search="${t}"]`);
+    if (el) el.click();
+  }, tab);
+  await page.waitForFunction(
+    (t) =>
+      document.querySelector(`[data-search="${t}"]`)?.getAttribute("aria-pressed") ===
+      "true",
+    { timeout: 4000 },
+    tab
+  );
+}
+
 async function searchHero(page, query, { viaEnter = false, tab = null } = {}) {
-  if (tab) {
-    await page.click(`[data-search="${tab}"]`);
-  } else {
-    // Ensure default Termékek tab
-    await page.click('[data-search="termek"]');
-  }
+  await activateTab(page, tab || "termek");
   await page.$eval("#query", (el) => {
     el.value = "";
   });
